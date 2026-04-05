@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import { useEffect, useState, useCallback } from "react";
 
 const testimonials = [
   {
@@ -34,10 +35,23 @@ const testimonials = [
 ];
 
 const TestimonialsSection = () => {
+  const [current, setCurrent] = useState(0);
+  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 768 ? 3 : 1;
+  const maxIndex = testimonials.length - itemsPerView;
+
+  const next = useCallback(() => {
+    setCurrent((prev) => (prev >= maxIndex ? 0 : prev + 1));
+  }, [maxIndex]);
+
+  useEffect(() => {
+    const interval = setInterval(next, 4000);
+    return () => clearInterval(interval);
+  }, [next]);
+
   return (
     <section className="py-20 bg-card/30">
       <div className="container mx-auto px-4">
-        {/* Header with Google rating */}
+        {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-secondary px-5 py-2 rounded-full mb-6">
             <span className="font-semibold text-foreground">Feedbacks Google</span>
@@ -56,27 +70,54 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* Testimonials grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {testimonials.map((t) => (
-            <div key={t.name} className="bg-card rounded-xl p-6 border border-border">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-                  {t.name[0]}
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground text-sm">{t.name}</p>
-                  <p className="text-muted-foreground text-xs">{t.time}</p>
+        {/* Carousel */}
+        <div className="max-w-5xl mx-auto overflow-hidden">
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{
+              transform: `translateX(-${current * (100 / itemsPerView)}%)`,
+            }}
+          >
+            {testimonials.map((t) => (
+              <div
+                key={t.name}
+                className="flex-shrink-0 px-3"
+                style={{ width: `${100 / itemsPerView}%` }}
+              >
+                <div className="bg-card rounded-xl p-6 border border-border h-full">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                      {t.name[0]}
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground text-sm">{t.name}</p>
+                      <p className="text-muted-foreground text-xs">{t.time}</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-0.5 mb-3">
+                    {[...Array(t.rating)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-gold text-gold" />
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground text-sm">{t.text}</p>
                 </div>
               </div>
-              <div className="flex gap-0.5 mb-3">
-                {[...Array(t.rating)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-gold text-gold" />
-                ))}
-              </div>
-              <p className="text-muted-foreground text-sm">{t.text}</p>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          {/* Dots */}
+          <div className="flex justify-center gap-2 mt-6">
+            {Array.from({ length: maxIndex + 1 }).map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                className={`w-2.5 h-2.5 rounded-full transition-colors ${
+                  i === current ? "bg-primary" : "bg-muted"
+                }`}
+                aria-label={`Ir para depoimento ${i + 1}`}
+              />
+            ))}
+          </div>
         </div>
 
         {/* CTA */}

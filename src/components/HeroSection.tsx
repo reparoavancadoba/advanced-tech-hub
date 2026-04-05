@@ -2,7 +2,7 @@ import heroImg from "@/assets/hero-tech.jpg";
 import logo from "@/assets/logo-reparo.png";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5571999999999?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento.";
 
 const HeroSection = () => {
   return (
