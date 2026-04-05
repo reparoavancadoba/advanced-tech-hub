@@ -2,8 +2,8 @@ import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
 import logo from "@/assets/logo-reparo.png";
 
 const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento.";
-const GOOGLE_MAPS_DIRECTIONS = "https://www.google.com/maps/dir/?api=1&destination=R.+Abelardo+Andrade+de+Carvalho,+8+-+Boca+do+Rio,+Salvador+-+BA,+41706-710";
-const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.0!2d-38.4413!3d-12.9777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzM5LjciUyAzOMKwMjYnMjguNyJX!5e0!3m2!1spt-BR!2sbr!4v1";
+const GOOGLE_MAPS_DIRECTIONS = "https://www.google.com/maps/dir//Reparo+Avan%C3%A7ado+-+Conserto+de+Celulares+em+Salvador+-+R.+Abelardo+Andrade+de+Carvalho,+8+-+Boca+do+Rio,+Salvador+-+BA,+41706-710";
+const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.5!2d-38.4413!3d-12.9777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604d3e5f6b7c9%3A0xabc123!2sR.+Abelardo+Andrade+de+Carvalho%2C+8+-+Boca+do+Rio%2C+Salvador+-+BA%2C+41706-710!5e0!3m2!1spt-BR!2sbr!4v1";
 
 const bairros = ["Imbuí", "Stiep", "Pituba", "Costa Azul", "Boca do Rio", "Piatã", "Itapuã", "Patamares"];
 
