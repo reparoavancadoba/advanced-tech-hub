@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Search, ArrowRight, MessageCircle } from "lucide-react";
 import { allPosts, categoryLabels, type Category } from "@/data/blogData";
-import WhatsAppFab from "@/components/WhatsAppFab";
+import SiteLayout from "@/components/SiteLayout";
 
 const POSTS_PER_PAGE = 24;
 const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"];
@@ -33,23 +33,8 @@ const Blog = () => {
   const paginated = filtered.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border bg-card/80 backdrop-blur sticky top-0 z-40">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold text-gradient">
-            Reparo Avançado
-          </Link>
-          <Link
-            to="/"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            ← Voltar ao site
-          </Link>
-        </div>
-      </header>
-
-      <main className="container mx-auto px-4 py-12">
+    <SiteLayout>
+      <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           Blog <span className="text-gradient">Reparo Avançado</span>
         </h1>
@@ -165,10 +150,8 @@ const Blog = () => {
             FALAR COM ESPECIALISTA
           </a>
         </div>
-      </main>
-
-      <WhatsAppFab />
-    </div>
+      </div>
+    </SiteLayout>
   );
 };
 

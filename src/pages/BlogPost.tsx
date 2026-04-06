@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
-import { MessageCircle, ChevronRight, ArrowLeft } from "lucide-react";
+import { MessageCircle, ChevronRight } from "lucide-react";
 import { getPostBySlug, allPosts, BAIRROS, BUSINESS_ADDRESS, categoryLabels } from "@/data/blogData";
-import WhatsAppFab from "@/components/WhatsAppFab";
+import SiteLayout from "@/components/SiteLayout";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -15,12 +15,14 @@ const BlogPost = () => {
 
   if (!post) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">Post não encontrado</h1>
-          <Link to="/blog" className="text-primary hover:underline">Voltar ao blog</Link>
+      <SiteLayout>
+        <div className="min-h-[60vh] flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-2xl font-bold mb-4">Post não encontrado</h1>
+            <Link to="/blog" className="text-primary hover:underline">Voltar ao blog</Link>
+          </div>
         </div>
-      </div>
+      </SiteLayout>
     );
   }
 
@@ -72,24 +74,14 @@ const BlogPost = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <SiteLayout>
       <Helmet>
         <title>{post.title}</title>
         <meta name="description" content={post.metaDescription} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
-      {/* Header */}
-      <header className="border-b border-border bg-card/80 backdrop-blur sticky top-0 z-40">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold text-gradient">Reparo Avançado</Link>
-          <Link to="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1">
-            <ArrowLeft className="w-3 h-3" /> Blog
-          </Link>
-        </div>
-      </header>
-
-      <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-1 text-xs text-muted-foreground mb-6 flex-wrap">
           <Link to="/" className="hover:text-foreground">Início</Link>
@@ -103,11 +95,9 @@ const BlogPost = () => {
           <span className="text-foreground">{post.service}</span>
         </nav>
 
-        {/* H1 */}
         <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.h1}</h1>
         <p className="text-muted-foreground mb-8 text-lg">{post.description}</p>
 
-        {/* WhatsApp CTA top */}
         <a
           href={waLink}
           target="_blank"
@@ -131,7 +121,7 @@ const BlogPost = () => {
         </div>
 
         {/* Content */}
-        <article className="prose-custom space-y-10">
+        <article className="space-y-10">
           <section id="problema">
             <h2 className="text-2xl font-bold mb-4">O Problema: {post.service} {post.model}</h2>
             <ul className="space-y-2">
@@ -225,10 +215,8 @@ const BlogPost = () => {
             </div>
           </div>
         )}
-      </main>
-
-      <WhatsAppFab />
-    </div>
+      </div>
+    </SiteLayout>
   );
 };
 
