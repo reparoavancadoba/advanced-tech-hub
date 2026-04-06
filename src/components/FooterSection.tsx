@@ -9,7 +9,7 @@ const bairros = ["Imbuí", "Stiep", "Pituba", "Costa Azul", "Boca do Rio", "Piat
 
 const FooterSection = () => {
   return (
-    <footer className="bg-card/50 border-t border-border">
+    <footer id="contato" className="bg-card/50 border-t border-border">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Info */}

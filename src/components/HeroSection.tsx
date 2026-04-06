@@ -13,11 +13,9 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/50" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 pt-8 pb-16 min-h-screen flex flex-col">
-        {/* Logo */}
-        <div className="flex justify-center mb-12">
-          <img src={logo} alt="Reparo Avançado" className="h-16 md:h-20" />
-        </div>
+      <div className="relative z-10 container mx-auto px-4 pt-4 pb-16 min-h-screen flex flex-col">
+        {/* Spacer for navbar */}
+        <div className="mb-8" />
 
         {/* Hero Content */}
         <div className="flex-1 flex items-center">
