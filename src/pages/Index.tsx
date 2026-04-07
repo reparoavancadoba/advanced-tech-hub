@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import BrandsSection from "@/components/BrandsSection";
 import AuthoritySection from "@/components/AuthoritySection";
 import ServicesSection from "@/components/ServicesSection";
-import DetailedServicesSection from "@/components/DetailedServicesSection";
+
 import TestimonialsSection from "@/components/TestimonialsSection";
 import DifferentialsSection from "@/components/DifferentialsSection";
 import SiteLayout from "@/components/SiteLayout";
@@ -16,13 +16,12 @@ const Index = () => {
       <BrandsSection />
       <AuthoritySection />
       <ServicesSection />
-      <DetailedServicesSection />
       <div className="container mx-auto px-4 py-6 text-center">
         <Link
-          to="/blog"
+          to="/servicos"
           className="inline-flex items-center gap-2 text-primary hover:underline font-semibold"
         >
-          Ver todos os serviços por modelo no Blog <ArrowRight className="w-4 h-4" />
+          Ver todos os serviços detalhados <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
       <TestimonialsSection />
