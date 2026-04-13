@@ -413,7 +413,9 @@ function generatePosts(): BlogPost[] {
   return posts;
 }
 
-export const allPosts: BlogPost[] = [...generatePosts(), ...problemPosts];
+import { editorialPosts } from "./editorialPosts";
+
+export const allPosts: BlogPost[] = [...editorialPosts, ...generatePosts(), ...problemPosts];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return allPosts.find((p) => p.slug === slug);
