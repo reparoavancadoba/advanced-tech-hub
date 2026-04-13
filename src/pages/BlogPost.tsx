@@ -33,7 +33,7 @@ const BlogPost = () => {
     .filter(Boolean)
     .slice(0, 4);
 
-  const jsonLd = {
+  const jsonLd: any = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -44,7 +44,7 @@ const BlogPost = () => {
         publisher: {
           "@type": "Organization",
           name: "Reparo Avançado",
-          url: "https://advanced-tech-hub.lovable.app",
+          url: "https://site.reparoavancado.com.br",
         },
       },
       {
@@ -63,6 +63,18 @@ const BlogPost = () => {
       },
     ],
   };
+
+  // Add FAQ schema if post has FAQs
+  if (post.faq && post.faq.length > 0) {
+    jsonLd["@graph"].push({
+      "@type": "FAQPage",
+      mainEntity: post.faq.map((f) => ({
+        "@type": "Question",
+        name: f.question,
+        acceptedAnswer: { "@type": "Answer", text: f.answer },
+      })),
+    });
+  }
 
   const toc = [
     { id: "problema", label: "O Problema" },
