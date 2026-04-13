@@ -6,6 +6,18 @@ export const BAIRROS = ["Boca do Rio", "Pituba", "Imbuí", "Costa Azul", "Stiep"
 
 export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks";
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export interface ContentSection {
+  id: string;
+  title: string;
+  content: string;
+  subsections?: { title: string; content: string }[];
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -23,6 +35,11 @@ export interface BlogPost {
   whenToSeek: string;
   costInfo: string;
   relatedSlugs: string[];
+  // Extended fields for editorial posts
+  faq?: FaqItem[];
+  sections?: ContentSection[];
+  keywords?: string[];
+  isEditorial?: boolean;
 }
 
 export const categoryLabels: Record<Category, string> = {
