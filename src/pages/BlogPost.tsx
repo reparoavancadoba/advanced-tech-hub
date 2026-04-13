@@ -158,6 +158,29 @@ const BlogPost = () => {
             </ul>
           </section>
 
+          {/* Editorial sections (H2 + H3 structure) */}
+          {post.sections && post.sections.length > 0 && post.sections.map((section) => (
+            <section key={section.id} id={section.id}>
+              <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">{section.content}</p>
+              {section.subsections?.map((sub, i) => (
+                <div key={i} className="ml-4 mb-4">
+                  <h3 className="text-lg font-semibold mb-2">{sub.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{sub.content}</p>
+                </div>
+              ))}
+            </section>
+          ))}
+
+          {/* Mid-article CTA */}
+          <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 text-center">
+            <p className="font-semibold mb-3">Fale agora com um técnico especializado</p>
+            <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-6 py-3 rounded-lg font-semibold hover:brightness-110 transition-all animate-pulse-whatsapp">
+              <MessageCircle className="w-5 h-5" />
+              WhatsApp (71) 99198-1437
+            </a>
+          </div>
+
           <section id="solucao">
             <h2 className="text-2xl font-bold mb-4">Solução Técnica da Reparo Avançado</h2>
             <p className="text-muted-foreground leading-relaxed">{post.solution}</p>
@@ -172,6 +195,21 @@ const BlogPost = () => {
             <h2 className="text-2xl font-bold mb-4">Quanto Custa {post.service} {post.model}?</h2>
             <p className="text-muted-foreground leading-relaxed">{post.costInfo}</p>
           </section>
+
+          {/* FAQ Section */}
+          {post.faq && post.faq.length > 0 && (
+            <section id="faq">
+              <h2 className="text-2xl font-bold mb-6">Perguntas Frequentes</h2>
+              <div className="space-y-4">
+                {post.faq.map((item, i) => (
+                  <div key={i} className="bg-card rounded-xl border border-border p-5">
+                    <h3 className="font-semibold mb-2">{item.question}</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">{item.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section id="atendimento">
             <h2 className="text-2xl font-bold mb-4">Atendimento em Salvador – Boca do Rio</h2>
