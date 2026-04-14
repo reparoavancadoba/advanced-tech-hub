@@ -34,5 +34,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 ${urls.join("\n")}
 </urlset>`;
 
-await Bun.write("public/sitemap.xml", sitemap);
+import { writeFileSync } from "fs";
+writeFileSync("public/sitemap.xml", sitemap);
 console.log(`✅ Sitemap gerado com ${urls.length} URLs`);
