@@ -2,36 +2,21 @@ import { Star } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 
 const testimonials = [
-  {
-    name: "Lucas Oliveira",
-    time: "3 meses atrás",
-    text: "Troquei a tela do meu iPhone 13 e ficou perfeito! Serviço rápido e atendimento excelente. Super recomendo!",
-    rating: 5,
-  },
-  {
-    name: "Mariana Santos",
-    time: "5 meses atrás",
-    text: "Meu Samsung caiu na água e deram como perdido em outra loja. Levei na Reparo Avançado e recuperaram tudo! Incrível.",
-    rating: 5,
-  },
-  {
-    name: "Rafael Costa",
-    time: "2 meses atrás",
-    text: "Reparo de placa do meu iPhone X. Profissionais muito competentes, transparência total no serviço. Voltarei sempre!",
-    rating: 5,
-  },
-  {
-    name: "Camila Ferreira",
-    time: "1 mês atrás",
-    text: "Atendimento nota 10! Trocaram a bateria do meu celular em menos de 40 minutos. Preço justo e garantia.",
-    rating: 5,
-  },
-  {
-    name: "Diego Almeida",
-    time: "4 meses atrás",
-    text: "Melhor assistência técnica da Boca do Rio! Já indiquei para vários amigos. Confiança total no trabalho deles.",
-    rating: 5,
-  },
+  { name: "Daniela Falcão", time: "Há 4 horas", text: "Amei, obrigada!", rating: 5 },
+  { name: "Matheus Filipe", time: "Há 8 horas", text: "Gostei do serviço", rating: 5 },
+  { name: "Evellyn Arruda", time: "Há 5 dias", text: "Ótimo atendimento, muito solicitos e prestativos.", rating: 5 },
+  { name: "Nexus Company", time: "Há 2 semanas", text: "Melhor empresa para conserto de celulares, faz todos os serviços aqui da empresa confio de olhos fechados", rating: 5 },
+  { name: "Matheus Bastoz", time: "Há 2 semanas", text: "Muito profissionais, me ajudou muito e não cobrou caro preço justo", rating: 5 },
+  { name: "Caio", time: "Há 2 semanas", text: "Tive lá foi um bom serviço e atendimento, trabalharam com delicadeza e profissionalismo, gostei muito", rating: 5 },
+  { name: "Maria", time: "Há 2 semanas", text: "Loja organizada, serviço de qualidade e ótimo custo-benefício. Fiz um reparo no conector de carga e ficou perfeito. Melhor assistência técnica especializada em iPhone em Salvador!", rating: 5 },
+  { name: "jonathan", time: "Há 2 semanas", text: "Excelente experiência! Fiz a troca de tela do meu iPhone e ficou como novo. Serviço rápido, peças de qualidade e preço justo. Melhor assistência técnica na região!", rating: 5 },
+  { name: "LUCCA Reis", time: "Há 6 semanas", text: "Ótimo atendimento bem educado todos me trataram bem e bem explicativo ótimos atendentes ótimos produtos", rating: 5 },
+  { name: "Aline Tourinho", time: "Há 7 semanas", text: "Me salvaram muito consertando meu celular. Atendimento rápido e o conserto também não demorou!", rating: 5 },
+  { name: "Victória", time: "Há 8 semanas", text: "Excelente atendimento, material de qualidade e rapidez no serviço. Te explica tido de forma detalhada, é extremamente atencioso e receptivo!", rating: 5 },
+  { name: "eliel guedes", time: "Há 13 semanas", text: "Atendimento excelente. Além de serem super educados e atenciosos o serviço prestado é de ótima qualidade e muito, muito rápido. Super recomendo.", rating: 5 },
+  { name: "Juliana Matos", time: "Há 14 semanas", text: "Atendimento maravilhoso! Muito cuidadoso no serviço, explica tudo direitinho. Serviço com valor justo e o melhor de tudo: entrega rápida e de qualidade!", rating: 5 },
+  { name: "Ana Luiza Ferreira Barbosa Santos", time: "Há 22 semanas", text: "O melhor lugar de Salvador pra consertar celular! Já levei o meu e o do meu marido, ambos ficaram perfeitos. Atendimento excelente e com ótimo custo-benefício.", rating: 5 },
+  { name: "Marcos Caldas", time: "Há 22 semanas", text: "Excelente serviço! Achei que teria que trocar o celular, mas eles conseguiram recuperar a placa. Fiquei impressionado com a agilidade e a transparência do atendimento. Voltarei sempre que precisar!", rating: 5 },
 ];
 
 const TestimonialsSection = () => {
@@ -54,19 +39,18 @@ const TestimonialsSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-secondary px-5 py-2 rounded-full mb-6">
-            <span className="font-semibold text-foreground">Feedbacks Google</span>
+            <span className="font-semibold text-foreground">Avaliações Reais no Google</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Veja os <span className="text-gradient">Depoimentos</span> dos nossos clientes
+            Mais de <span className="text-gradient">143 avaliações reais</span> de clientes
           </h2>
           <div className="flex flex-col items-center gap-1">
-            <span className="text-2xl font-bold text-foreground">EXCELENTE</span>
+            <span className="text-2xl font-bold text-foreground">Nota média: 5.0</span>
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-6 h-6 fill-gold text-gold" />
+                <Star key={i} className="w-7 h-7 fill-gold text-gold" />
               ))}
             </div>
-            <span className="text-muted-foreground text-sm mt-1">Com base em 31 avaliações</span>
           </div>
         </div>
 
@@ -78,35 +62,35 @@ const TestimonialsSection = () => {
               transform: `translateX(-${current * (100 / itemsPerView)}%)`,
             }}
           >
-            {testimonials.map((t) => (
+            {testimonials.map((t, idx) => (
               <div
-                key={t.name}
+                key={idx}
                 className="flex-shrink-0 px-3"
                 style={{ width: `${100 / itemsPerView}%` }}
               >
-                <div className="bg-card rounded-xl p-6 border border-border h-full">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-                      {t.name[0]}
+                <div className="bg-card rounded-xl p-6 border border-border h-full shadow-sm">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-11 h-11 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-lg">
+                      {t.name[0].toUpperCase()}
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground text-sm">{t.name}</p>
+                      <p className="font-bold text-foreground">{t.name}</p>
                       <p className="text-muted-foreground text-xs">{t.time}</p>
                     </div>
                   </div>
                   <div className="flex gap-0.5 mb-3">
                     {[...Array(t.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-gold text-gold" />
+                      <Star key={i} className="w-5 h-5 fill-gold text-gold" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground text-sm">{t.text}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{t.text}</p>
                 </div>
               </div>
             ))}
           </div>
 
           {/* Dots */}
-          <div className="flex justify-center gap-2 mt-6">
+          <div className="flex justify-center gap-2 mt-8">
             {Array.from({ length: maxIndex + 1 }).map((_, i) => (
               <button
                 key={i}
@@ -118,18 +102,6 @@ const TestimonialsSection = () => {
               />
             ))}
           </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-10">
-          <a
-            href="https://www.google.com/maps"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-secondary text-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary/80 transition-colors"
-          >
-            Nos Avalie no Google
-          </a>
         </div>
       </div>
     </section>
