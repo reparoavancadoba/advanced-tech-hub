@@ -90,6 +90,7 @@ const BlogPost = () => {
       <Helmet>
         <title>{post.title}</title>
         <meta name="description" content={post.metaDescription} />
+        <link rel="canonical" href={`https://site.reparoavancado.com.br/blog/${post.slug}`} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 

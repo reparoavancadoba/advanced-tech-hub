@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Search, ArrowRight, MessageCircle } from "lucide-react";
 import { allPosts, categoryLabels, type Category } from "@/data/blogData";
 import SiteLayout from "@/components/SiteLayout";
+import { Helmet } from "react-helmet-async";
 
 const POSTS_PER_PAGE = 24;
 const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"];
@@ -34,6 +35,11 @@ const Blog = () => {
 
   return (
     <SiteLayout>
+      <Helmet>
+        <title>Blog | Reparo Avançado - Guias de Reparo de Celulares em Salvador</title>
+        <meta name="description" content="Guias completos de reparo para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a Reparo Avançado, em Salvador - BA." />
+        <link rel="canonical" href="https://site.reparoavancado.com.br/blog" />
+      </Helmet>
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           Blog <span className="text-gradient">Reparo Avançado</span>
