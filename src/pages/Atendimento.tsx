@@ -11,8 +11,8 @@ const Atendimento = () => {
 
   if (!bairro || !servico) return <Navigate to="/locais-de-atendimento" replace />;
 
-  const title = `${servico.name} no ${bairro.name} | Reparo Avançado`;
-  const description = `${servico.name} no bairro ${bairro.name}, Salvador (BA). Atendimento rápido, peças de alta performance e garantia real. Solicite orçamento via WhatsApp.`;
+  const title = `${servico.name} no ${bairro.name} - Salvador (BA) | Reparo Avançado`;
+  const description = `Especialistas em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a Reparo Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
   const canonical = `https://site.reparoavancado.com.br/atendimento/${bairro.slug}/${servico.slug}`;
   const waLink = buildWhatsappLink(servico.name, bairro.name);
 
