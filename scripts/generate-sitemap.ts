@@ -1,5 +1,6 @@
 // Sitemap generator - runs at build time
 import { allPosts } from "../src/data/blogData";
+import { bairros, servicosLocais } from "../src/data/locaisData";
 
 const DOMAIN = "https://site.reparoavancado.com.br";
 const today = new Date().toISOString().split("T")[0];
@@ -8,6 +9,7 @@ const staticPages = [
   { loc: "/", priority: "1.0", changefreq: "weekly" },
   { loc: "/servicos", priority: "0.9", changefreq: "monthly" },
   { loc: "/blog", priority: "0.9", changefreq: "daily" },
+  { loc: "/locais-de-atendimento", priority: "0.8", changefreq: "weekly" },
 ];
 
 const urls = staticPages.map(
@@ -27,6 +29,18 @@ allPosts.forEach((post) => {
     <changefreq>monthly</changefreq>
     <priority>${priority}</priority>
   </url>`);
+});
+
+// Programmatic SEO: bairro × serviço
+bairros.forEach((bairro) => {
+  servicosLocais.forEach((servico) => {
+    urls.push(`  <url>
+    <loc>${DOMAIN}/atendimento/${bairro.slug}/${servico.slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+  });
 });
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

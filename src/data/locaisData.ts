@@ -1,0 +1,88 @@
+// Programmatic SEO data: bairros e serviços de Salvador
+
+export interface Bairro {
+  slug: string;
+  name: string;
+}
+
+export interface ServicoLocal {
+  slug: string;
+  name: string;
+  shortName: string;
+  description: string;
+}
+
+export const bairros: Bairro[] = [
+  { slug: "boca-do-rio", name: "Boca do Rio" },
+  { slug: "imbui", name: "Imbuí" },
+  { slug: "pituba", name: "Pituba" },
+  { slug: "costa-azul", name: "Costa Azul" },
+  { slug: "stiep", name: "Stiep" },
+  { slug: "caminho-das-arvores", name: "Caminho das Árvores" },
+  { slug: "itaigara", name: "Itaigara" },
+  { slug: "rio-vermelho", name: "Rio Vermelho" },
+  { slug: "patamares", name: "Patamares" },
+  { slug: "piata", name: "Piatã" },
+  { slug: "itapua", name: "Itapuã" },
+  { slug: "cabula", name: "Cabula" },
+  { slug: "brotas", name: "Brotas" },
+];
+
+export const servicosLocais: ServicoLocal[] = [
+  {
+    slug: "conserto-de-iphone",
+    name: "Conserto de iPhone",
+    shortName: "Conserto de iPhone",
+    description:
+      "Diagnóstico técnico avançado e reparo completo de iPhone com peças de alta performance e garantia real.",
+  },
+  {
+    slug: "troca-de-tela",
+    name: "Troca de Tela",
+    shortName: "Troca de Tela",
+    description:
+      "Display premium com cores vibrantes e touch responsivo. Troca rápida com padrão de fábrica.",
+  },
+  {
+    slug: "troca-de-bateria",
+    name: "Troca de Bateria",
+    shortName: "Troca de Bateria",
+    description:
+      "Saúde 100% restaurada com baterias de alta performance, instalação rápida e garantia.",
+  },
+  {
+    slug: "reparo-de-placa",
+    name: "Reparo de Placa",
+    shortName: "Reparo de Placa",
+    description:
+      "Microeletrônica avançada. Recuperamos aparelhos condenados por outras assistências.",
+  },
+  {
+    slug: "conserto-de-xiaomi",
+    name: "Conserto de Xiaomi",
+    shortName: "Conserto de Xiaomi",
+    description:
+      "Especialistas em todos os modelos Xiaomi e Redmi. Peças premium e atendimento ágil.",
+  },
+  {
+    slug: "conserto-de-samsung",
+    name: "Conserto de Samsung",
+    shortName: "Conserto de Samsung",
+    description:
+      "Reparo especializado em Galaxy: tela AMOLED, placa, bateria e mais — com garantia.",
+  },
+  {
+    slug: "banho-quimico",
+    name: "Banho Químico",
+    shortName: "Banho Químico",
+    description:
+      "Tratamento ultrassônico para aparelhos com contato com líquido. Recuperação técnica avançada.",
+  },
+];
+
+export const WHATSAPP_NUMBER = "5571991981437";
+
+export function buildWhatsappLink(servico: string, bairro: string) {
+  const msg = `Olá, estava no site e preciso de um orçamento para ${servico} no bairro ${bairro}.`;
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+}
