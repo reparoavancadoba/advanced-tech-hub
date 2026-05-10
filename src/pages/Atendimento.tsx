@@ -109,14 +109,19 @@ const Atendimento = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Está procurando {servico.shortName.toLowerCase()} no {bairro.name}?
+            {servico.name} no {bairro.name}: atendimento técnico especializado
           </h2>
           <p className="text-muted-foreground mb-4">
-            A Reparo Avançado é referência em {servico.shortName.toLowerCase()} no {bairro.name} e em toda Salvador. Com 9 anos de tradição e mais de 143 avaliações reais 5.0 ★, oferecemos um padrão técnico que entrega o aparelho funcionando como novo, sem improvisos.
+            Se você mora na região de <strong>{bairro.name}</strong> e está buscando especialistas em <strong>{servico.shortName.toLowerCase()}</strong>, a Reparo Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com 9 anos de tradição e mais de 143 avaliações reais 5.0 ★.
           </p>
-          <h3 className="text-xl font-bold mt-8 mb-3">Solução completa, do diagnóstico à entrega</h3>
           <p className="text-muted-foreground mb-4">
-            Recebemos seu aparelho, executamos o diagnóstico técnico, apresentamos o orçamento sem surpresas e devolvemos com garantia formal. Para moradores do {bairro.name}, o atendimento é direto e ágil — fale conosco no WhatsApp e tire suas dúvidas em minutos.
+            Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão técnico rigoroso, com peças de alta performance e diagnóstico avançado. Diferente das assistências comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
+          </p>
+          <h3 className="text-xl font-bold mt-8 mb-3">
+            Por que escolher nossa {servico.shortName.toLowerCase()} no {bairro.name}?
+          </h3>
+          <p className="text-muted-foreground mb-4">
+            Atendemos moradores do <strong>{bairro.name}</strong> e bairros vizinhos com agilidade total. Ao solicitar {servico.shortName.toLowerCase()} no {bairro.name}, você recebe diagnóstico técnico, orçamento transparente sem surpresas e garantia formal por escrito. O contato é direto via WhatsApp — tire suas dúvidas sobre {servico.shortName.toLowerCase()} em minutos e agende seu atendimento no {bairro.name} hoje mesmo.
           </p>
           <div className="text-center mt-10">
             <a
