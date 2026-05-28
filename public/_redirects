@@ -1,1 +1,75 @@
+# Netlify Redirects - Gerado automaticamente no build
+
+# 1. Artigos Ativos (Bypass de wildcards para carregar no React Router)
+/blog/troca-de-bateria-iphone-salvador-saude-100 /index.html 200
+/blog/reparo-face-id-iphone-salvador /index.html 200
+/blog/iphone-nao-liga-diagnostico-placa-salvador /index.html 200
+/blog/troca-tela-iphone-true-tone-salvador /index.html 200
+/blog/iphone-caiu-na-agua-desoxidacao-salvador /index.html 200
+/blog/conector-carga-iphone-limpeza-troca-salvador /index.html 200
+/blog/vidro-traseiro-iphone-reparo-laser-salvador /index.html 200
+/blog/audio-iphone-baixo-ruido-higienizacao-salvador /index.html 200
+/blog/vale-pena-consertar-iphone-antigo-analise /index.html 200
+/blog/wifi-bluetooth-iphone-chip-radio-salvador /index.html 200
+/blog/camera-iphone-tremula-manchas-salvador /index.html 200
+/blog/maresia-salvador-corrosao-iphone /index.html 200
+/blog/tela-samsung-mancha-verde-linhas-salvador /index.html 200
+/blog/xiaomi-poco-reiniciando-sozinho-salvador /index.html 200
+/blog/erro-umidade-samsung-conector-salvador /index.html 200
+/blog/assistencia-realme-poco-salvador-pecas /index.html 200
+/blog/motorola-nao-carrega-diagnostico-salvador /index.html 200
+/blog/biometria-tela-parou-troca-amoled-salvador /index.html 200
+/blog/recuperacao-conta-google-micloud-salvador /index.html 200
+/blog/troca-vidro-vs-tela-completa-economia-salvador /index.html 200
+/blog/limpeza-tecnica-celular-sexta-feira-salvador /index.html 200
+/blog/celular-esquentando-limpeza-interna-salvador /index.html 200
+/blog/microfone-ruim-ligacoes-poeira-salvador /index.html 200
+/blog/higienizacao-conector-cabo-carregar-salvador /index.html 200
+/blog/checklist-manutencao-preventiva-salvador /index.html 200
+/blog/poeira-lente-camera-limpeza-interna-salvador /index.html 200
+/blog/vedacao-celular-protecao-agua-tempo-salvador /index.html 200
+/blog/cuidados-maresia-orla-salvador-limpeza /index.html 200
+/blog/mitos-verdades-celular-no-arroz-salvador /index.html 200
+/blog/reparo-avancado-melhor-avaliacao-boca-do-rio /index.html 200
+/blog/celular-nao-liga /index.html 200
+/blog/celular-nao-carrega /index.html 200
+/blog/celular-descarregando-rapido /index.html 200
+/blog/celular-caiu-na-agua /index.html 200
+/blog/celular-esquentando /index.html 200
+/blog/microfone-nao-funciona /index.html 200
+/blog/celular-sem-som /index.html 200
+/blog/tela-preta /index.html 200
+
+# 2. Redirecionamentos 301 de Artigos de Modelo Obsoletos
+/blog/troca-de-tela-* /troca-de-tela 301
+/blog/troca-tela-* /troca-de-tela 301
+/blog/troca-de-bateria-* /troca-de-bateria 301
+/blog/reparo-de-placa-* /reparo-em-placa 301
+/blog/conector-de-carga-* /celular-nao-carrega 301
+/blog/aparelho-nao-liga-* /celular-nao-liga 301
+/blog/aparelho-nao-carrega-* /celular-nao-carrega 301
+/blog/desoxidacao-* /celular-caiu-na-agua 301
+/blog/celular-nao-liga-* /celular-nao-liga 301
+/blog/celular-nao-carrega-* /celular-nao-carrega 301
+/blog/celular-caiu-na-agua-* /celular-caiu-na-agua 301
+/blog/troca-de-microfone-* /conserto-de-celular 301
+/blog/alto-falante-audio-* /conserto-de-celular 301
+/blog/cameras-* /conserto-de-celular 301
+/blog/face-id-* /conserto-de-celular 301
+/blog/biometria-* /conserto-de-celular 301
+/blog/software-* /conserto-de-celular 301
+/blog/upgrade-ssd-* /conserto-de-celular 301
+/blog/upgrade-ram-* /conserto-de-celular 301
+/blog/limpeza-interna-* /conserto-de-celular 301
+/blog/pasta-termica-* /conserto-de-celular 301
+/blog/dobradicas-* /conserto-de-celular 301
+
+# 3. Redirecionamentos 301 de Rotas de Atendimento Locais Obsoletas
+/atendimento/boca-do-rio/* /assistencia-tecnica-boca-do-rio 301
+/atendimento/pituba/* /assistencia-tecnica-pituba 301
+/atendimento/imbui/* /assistencia-tecnica-imbui 301
+/atendimento/brotas/* /assistencia-tecnica-brotas 301
+/atendimento/* /assistencia-tecnica-salvador 301
+
+# 4. SPA Fallback (Catch-all para o React Router)
 /* /index.html 200

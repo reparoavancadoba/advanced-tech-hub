@@ -1,11 +1,18 @@
 import { MapPin, Phone, Clock, MessageCircle, Navigation } from "lucide-react";
 import logo from "@/assets/logo-reparo.png";
+import { Link } from "react-router-dom";
 
 const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento.";
 const GOOGLE_MAPS_DIRECTIONS = "https://www.google.com/maps/dir//Reparo+Avan%C3%A7ado+-+Conserto+de+Celulares+em+Salvador+-+R.+Abelardo+Andrade+de+Carvalho,+8+-+Boca+do+Rio,+Salvador+-+BA,+41706-710";
 const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.5!2d-38.4413!3d-12.9777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604d3e5f6b7c9%3A0xabc123!2sR.+Abelardo+Andrade+de+Carvalho%2C+8+-+Boca+do+Rio%2C+Salvador+-+BA%2C+41706-710!5e0!3m2!1spt-BR!2sbr!4v1";
 
-const bairros = ["Imbuí", "Stiep", "Pituba", "Costa Azul", "Boca do Rio", "Piatã", "Itapuã", "Patamares"];
+const bairrosLink = [
+  { name: "Salvador (Centro)", path: "/assistencia-tecnica-salvador" },
+  { name: "Boca do Rio", path: "/assistencia-tecnica-boca-do-rio" },
+  { name: "Pituba", path: "/assistencia-tecnica-pituba" },
+  { name: "Imbuí", path: "/assistencia-tecnica-imbui" },
+  { name: "Brotas", path: "/assistencia-tecnica-brotas" }
+];
 
 const FooterSection = () => {
   return (
@@ -52,10 +59,14 @@ const FooterSection = () => {
           <div>
             <h4 className="font-bold text-foreground mb-4">Atendemos toda Salvador</h4>
             <div className="flex flex-wrap gap-2">
-              {bairros.map((b) => (
-                <span key={b} className="bg-secondary text-muted-foreground text-xs px-3 py-1.5 rounded-full">
-                  {b}
-                </span>
+              {bairrosLink.map((b) => (
+                <Link
+                  key={b.path}
+                  to={b.path}
+                  className="bg-secondary text-muted-foreground hover:bg-primary hover:text-primary-foreground text-xs px-3 py-1.5 rounded-full transition-all"
+                >
+                  {b.name}
+                </Link>
               ))}
             </div>
           </div>

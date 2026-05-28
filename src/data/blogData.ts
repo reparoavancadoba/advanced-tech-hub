@@ -51,68 +51,6 @@ export const categoryLabels: Record<Category, string> = {
   notebooks: "Notebooks",
 };
 
-// ─── MODELS ───
-
-const iphoneModels = [
-  "iPhone 11", "iPhone 11 Pro", "iPhone 11 Pro Max",
-  "iPhone 12", "iPhone 12 Mini", "iPhone 12 Pro", "iPhone 12 Pro Max",
-  "iPhone 13", "iPhone 13 Mini", "iPhone 13 Pro", "iPhone 13 Pro Max",
-  "iPhone 14", "iPhone 14 Plus", "iPhone 14 Pro", "iPhone 14 Pro Max",
-  "iPhone 15", "iPhone 15 Plus", "iPhone 15 Pro", "iPhone 15 Pro Max",
-  "iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max",
-];
-
-const samsungModels = [
-  // Galaxy S
-  "Galaxy S20", "Galaxy S20+", "Galaxy S20 Ultra", "Galaxy S21", "Galaxy S21+", "Galaxy S21 Ultra",
-  "Galaxy S22", "Galaxy S22+", "Galaxy S22 Ultra", "Galaxy S23", "Galaxy S23+", "Galaxy S23 Ultra",
-  "Galaxy S24", "Galaxy S24+", "Galaxy S24 Ultra",
-  // Galaxy A
-  "Galaxy A10", "Galaxy A11", "Galaxy A12", "Galaxy A13", "Galaxy A14", "Galaxy A15",
-  "Galaxy A20", "Galaxy A21", "Galaxy A22", "Galaxy A23", "Galaxy A24", "Galaxy A25",
-  "Galaxy A30", "Galaxy A31", "Galaxy A32", "Galaxy A33", "Galaxy A34", "Galaxy A35",
-  "Galaxy A50", "Galaxy A51", "Galaxy A52", "Galaxy A53", "Galaxy A54", "Galaxy A55",
-  "Galaxy A70", "Galaxy A71", "Galaxy A72", "Galaxy A73", "Galaxy A74",
-  // Galaxy M
-  "Galaxy M10", "Galaxy M11", "Galaxy M12", "Galaxy M13", "Galaxy M14",
-  "Galaxy M20", "Galaxy M21", "Galaxy M22", "Galaxy M23",
-  "Galaxy M30", "Galaxy M31", "Galaxy M32", "Galaxy M33", "Galaxy M34",
-  "Galaxy M51", "Galaxy M52", "Galaxy M53", "Galaxy M54",
-  // Galaxy Z
-  "Galaxy Z Fold 3", "Galaxy Z Fold 4", "Galaxy Z Fold 5",
-  "Galaxy Z Flip 3", "Galaxy Z Flip 4", "Galaxy Z Flip 5",
-];
-
-const xiaomiModels = [
-  "Redmi Note 8", "Redmi Note 8 Pro", "Redmi Note 9", "Redmi Note 9 Pro",
-  "Redmi Note 10", "Redmi Note 10 Pro", "Redmi Note 11", "Redmi Note 11 Pro",
-  "Redmi Note 12", "Redmi Note 12 Pro", "Redmi Note 13", "Redmi Note 13 Pro",
-  "Poco X3", "Poco X4", "Poco X5", "Poco X6",
-  "Poco F3", "Poco F4", "Poco F5",
-  "Poco M3", "Poco M4", "Poco M5",
-];
-
-const realmeModels = [
-  "Realme C11", "Realme C15", "Realme C20", "Realme C21", "Realme C25", "Realme C30", "Realme C33", "Realme C35",
-  "Realme 7", "Realme 8", "Realme 9", "Realme 10", "Realme 11",
-  "Realme GT", "Realme GT 2", "Realme GT 3", "Realme GT Neo",
-];
-
-const motorolaModels = [
-  "Moto G14", "Moto G24", "Moto G34", "Moto G44", "Moto G54", "Moto G73", "Moto G84",
-  "Moto Edge 30", "Moto Edge 40", "Moto Edge 50",
-  "Moto G200", "Moto G100",
-];
-
-const notebookBrands = [
-  { brand: "Dell", models: ["Dell Inspiron", "Dell Vostro", "Dell Latitude", "Dell XPS"] },
-  { brand: "HP", models: ["HP Pavilion", "HP ProBook", "HP EliteBook", "HP Envy"] },
-  { brand: "Lenovo", models: ["Lenovo IdeaPad", "Lenovo ThinkPad", "Lenovo Legion"] },
-  { brand: "Acer", models: ["Acer Aspire", "Acer Nitro", "Acer Swift"] },
-  { brand: "Asus", models: ["Asus VivoBook", "Asus ZenBook", "Asus TUF"] },
-  { brand: "Apple", models: ["MacBook Air", "MacBook Pro 13", "MacBook Pro 14", "MacBook Pro 16"] },
-];
-
 // ─── SERVICES ───
 
 interface ServiceDef {
@@ -362,60 +300,9 @@ export const problemPosts: BlogPost[] = [
   };
 });
 
-// ─── GENERATE ALL POSTS ───
-
-function slugify(text: string): string {
-  return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-}
-
-function generatePosts(): BlogPost[] {
-  const posts: BlogPost[] = [];
-
-  const addModels = (models: string[], category: Category, brand: string) => {
-    models.forEach((model) => {
-      const applicableServices = allServices.filter((s) => s.appliesTo.includes(category));
-      applicableServices.forEach((service) => {
-        const slug = `${slugify(service.slug)}-${slugify(model)}`;
-        const relatedServices = applicableServices.filter((s) => s.slug !== service.slug).slice(0, 3);
-        posts.push({
-          slug,
-          title: `${service.name} ${model} Salvador | Reparo Avançado`,
-          h1: `${service.name} ${model} em Salvador (BA)`,
-          metaDescription: `${service.name} para ${model} em Salvador. Peças premium, garantia e atendimento rápido na Boca do Rio. Orçamento grátis pelo WhatsApp.`,
-          category,
-          brand,
-          model,
-          service: service.name,
-          serviceSlug: service.slug,
-          description: service.description,
-          problems: service.problems,
-          causes: service.causes,
-          solution: service.solution,
-          whenToSeek: service.whenToSeek,
-          costInfo: service.costInfo,
-          relatedSlugs: relatedServices.map((rs) => `${slugify(rs.slug)}-${slugify(model)}`),
-        });
-      });
-    });
-  };
-
-  addModels(iphoneModels, "iphone", "Apple");
-  addModels(samsungModels, "samsung", "Samsung");
-  addModels(xiaomiModels, "xiaomi", "Xiaomi");
-  addModels(realmeModels, "realme", "Realme");
-  addModels(motorolaModels, "motorola", "Motorola");
-
-  // Notebooks
-  notebookBrands.forEach(({ brand, models }) => {
-    addModels(models, "notebooks", brand);
-  });
-
-  return posts;
-}
-
 import { editorialPosts } from "./editorialPosts";
 
-export const allPosts: BlogPost[] = [...editorialPosts, ...generatePosts(), ...problemPosts];
+export const allPosts: BlogPost[] = [...editorialPosts, ...problemPosts];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return allPosts.find((p) => p.slug === slug);

@@ -13,7 +13,14 @@ const Atendimento = () => {
 
   const title = `${servico.name} no ${bairro.name} - Salvador (BA) | Reparo Avançado`;
   const description = `Especialistas em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a Reparo Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
-  const canonical = `https://site.reparoavancado.com.br/atendimento/${bairro.slug}/${servico.slug}`;
+  
+  // Consolidação Gradual: Aponta o canonical para a página principal consolidada do bairro correspondente
+  const strategicBairros = ["boca-do-rio", "pituba", "imbui", "brotas"];
+  const isStrategic = strategicBairros.includes(bairro.slug);
+  const canonical = isStrategic
+    ? `https://site.reparoavancado.com.br/assistencia-tecnica-${bairro.slug}`
+    : `https://site.reparoavancado.com.br/assistencia-tecnica-salvador`;
+
   const waLink = buildWhatsappLink(servico.name, bairro.name);
 
   const benefits = [
@@ -27,6 +34,7 @@ const Atendimento = () => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />

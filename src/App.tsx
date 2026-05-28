@@ -11,6 +11,8 @@ import Servicos from "./pages/Servicos.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Atendimento from "./pages/Atendimento.tsx";
 import LocaisDeAtendimento from "./pages/LocaisDeAtendimento.tsx";
+import ServicoConsolidado from "./pages/ServicoConsolidado.tsx";
+import LocalConsolidado from "./pages/LocalConsolidado.tsx";
 
 const queryClient = new QueryClient();
 
@@ -27,7 +29,26 @@ const App = () => (
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/locais-de-atendimento" element={<LocaisDeAtendimento />} />
+            
+            {/* Novas Rotas de Serviços Consolidados */}
+            <Route path="/troca-de-tela" element={<ServicoConsolidado slug="troca-de-tela" />} />
+            <Route path="/troca-de-bateria" element={<ServicoConsolidado slug="troca-de-bateria" />} />
+            <Route path="/reparo-em-placa" element={<ServicoConsolidado slug="reparo-em-placa" />} />
+            <Route path="/conserto-de-celular" element={<ServicoConsolidado slug="conserto-de-celular" />} />
+            <Route path="/celular-nao-carrega" element={<ServicoConsolidado slug="celular-nao-carrega" />} />
+            <Route path="/celular-nao-liga" element={<ServicoConsolidado slug="celular-nao-liga" />} />
+            <Route path="/celular-caiu-na-agua" element={<ServicoConsolidado slug="celular-caiu-na-agua" />} />
+
+            {/* Novas Rotas de Bairros Estratégicos */}
+            <Route path="/assistencia-tecnica-salvador" element={<LocalConsolidado slug="salvador" />} />
+            <Route path="/assistencia-tecnica-boca-do-rio" element={<LocalConsolidado slug="boca-do-rio" />} />
+            <Route path="/assistencia-tecnica-pituba" element={<LocalConsolidado slug="pituba" />} />
+            <Route path="/assistencia-tecnica-imbui" element={<LocalConsolidado slug="imbui" />} />
+            <Route path="/assistencia-tecnica-brotas" element={<LocalConsolidado slug="brotas" />} />
+
+            {/* Rota legado mantida para transição segura */}
             <Route path="/atendimento/:bairro/:servico" element={<Atendimento />} />
+            
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -38,3 +59,4 @@ const App = () => (
 );
 
 export default App;
+

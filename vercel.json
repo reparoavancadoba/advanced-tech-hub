@@ -1,0 +1,139 @@
+{
+  "redirects": [
+    {
+      "source": "/blog/troca-de-tela-:model((?!.*salvador).*)",
+      "destination": "/troca-de-tela",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-tela-:model((?!.*salvador).*)",
+      "destination": "/troca-de-tela",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-bateria-:model((?!.*salvador).*)",
+      "destination": "/troca-de-bateria",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reparo-de-placa-:model((?!.*salvador).*)",
+      "destination": "/reparo-em-placa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conector-de-carga-:model((?!.*salvador).*)",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aparelho-nao-liga-:model((?!.*salvador).*)",
+      "destination": "/celular-nao-liga",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aparelho-nao-carrega-:model((?!.*salvador).*)",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/desoxidacao-:model((?!.*salvador).*)",
+      "destination": "/celular-caiu-na-agua",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-liga-:model((?!.*salvador).*)",
+      "destination": "/celular-nao-liga",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-carrega-:model((?!.*salvador).*)",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-caiu-na-agua-:model((?!.*salvador).*)",
+      "destination": "/celular-caiu-na-agua",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-microfone-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alto-falante-audio-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cameras-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/face-id-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/biometria-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/software-:model((?!.*salvador).*)",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/upgrade-ssd-:model*",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/upgrade-ram-:model*",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/limpeza-interna-:model*",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pasta-termica-:model*",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dobradicas-:model*",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/boca-do-rio/:servico*",
+      "destination": "/assistencia-tecnica-boca-do-rio",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/pituba/:servico*",
+      "destination": "/assistencia-tecnica-pituba",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/imbui/:servico*",
+      "destination": "/assistencia-tecnica-imbui",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/brotas/:servico*",
+      "destination": "/assistencia-tecnica-brotas",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/:bairro/:servico*",
+      "destination": "/assistencia-tecnica-salvador",
+      "permanent": true
+    }
+  ]
+}

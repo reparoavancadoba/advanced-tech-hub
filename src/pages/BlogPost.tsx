@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight } from "lucide-react";
 import { getPostBySlug, allPosts, BAIRROS, BUSINESS_ADDRESS, categoryLabels } from "@/data/blogData";
 import SiteLayout from "@/components/SiteLayout";
@@ -14,6 +14,21 @@ const BlogPost = () => {
   }, [slug]);
 
   if (!post) {
+    // Redirecionamento client-side de fallback para rotas legadas em massa de modelos
+    const legacyPatterns = [
+      { pattern: /^(?:troca-de-tela|troca-tela)-/, target: "/troca-de-tela" },
+      { pattern: /^troca-de-bateria-/, target: "/troca-de-bateria" },
+      { pattern: /^reparo-de-placa-/, target: "/reparo-em-placa" },
+      { pattern: /^(?:conector-de-carga|aparelho-nao-carrega|celular-nao-carrega)-/, target: "/celular-nao-carrega" },
+      { pattern: /^(?:aparelho-nao-liga|celular-nao-liga)-/, target: "/celular-nao-liga" },
+      { pattern: /^(?:desoxidacao|celular-caiu-na-agua)-/, target: "/celular-caiu-na-agua" }
+    ];
+    
+    const matched = legacyPatterns.find(p => p.pattern.test(slug || ""));
+    if (matched) {
+      return <Navigate to={matched.target} replace />;
+    }
+
     return (
       <SiteLayout>
         <div className="min-h-[60vh] flex items-center justify-center">
@@ -43,7 +58,7 @@ const BlogPost = () => {
         author: { "@type": "Organization", name: "Reparo Avançado" },
         publisher: {
           "@type": "Organization",
-          name: "Reparo Avançado",
+          "name": "Reparo Avançado",
           url: "https://site.reparoavancado.com.br",
         },
       },
@@ -85,12 +100,14 @@ const BlogPost = () => {
     { id: "atendimento", label: "Atendimento em Salvador" },
   ];
 
+  const canonicalUrl = `https://site.reparoavancado.com.br/blog/${post.slug}`;
+
   return (
     <SiteLayout>
       <Helmet>
         <title>{post.title}</title>
         <meta name="description" content={post.metaDescription} />
-        <link rel="canonical" href={`https://site.reparoavancado.com.br/blog/${post.slug}`} />
+        <link rel="canonical" href={canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
