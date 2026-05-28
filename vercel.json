@@ -135,5 +135,11 @@
       "destination": "/assistencia-tecnica-salvador",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
