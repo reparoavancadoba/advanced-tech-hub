@@ -1164,5 +1164,237 @@ export const editorialPosts: BlogPost[] = [
     ],
     sections: [],
     relatedSlugs: ["limpeza-tecnica-celular-sexta-feira-salvador", "checklist-manutencao-preventiva-salvador", "vale-pena-consertar-iphone-antigo-analise"]
+  },
+  {
+    slug: "celular-nao-carrega-causas-solucoes",
+    title: "Celular Não Carrega? Veja Causas, Soluções e Quando Procurar Assistência",
+    h1: "Celular Não Carrega? Veja as Principais Causas e Quando Procurar Assistência Técnica",
+    metaDescription: "Seu celular não carrega? Entenda as principais causas, como conector sujo, bateria, carregador, oxidação ou placa, e saiba quando procurar assistência técnica em Salvador.",
+    category: "manutencao" as Category,
+    brand: "Geral",
+    model: "Todos",
+    service: "Aparelho Não Carrega",
+    serviceSlug: "aparelho-nao-carrega",
+    description: "Quando o celular não carrega, muita gente pensa logo que o problema está na bateria. Mas nem sempre é assim. Em muitos casos, a falha pode estar no conector de carga, no carregador, em sujeira acumulada, oxidação ou até em algum componente da placa.\n\nEsse tipo de defeito precisa ser avaliado com cuidado, principalmente quando o aparelho esquenta, carrega apenas em algumas posições, descarrega mesmo conectado ou não reconhece nenhum carregador.\n\nNeste artigo, a Reparo Avançado explica as causas mais comuns para um celular parar de carregar, quais sinais merecem atenção e quando o ideal é procurar uma assistência técnica especializada em Salvador.",
+    isEditorial: true,
+    keywords: ["celular nao carrega", "conector de carga", "bateria celular", "assistencia tecnica salvador"],
+    problems: [
+      "Celular não reconhece nenhum carregador",
+      "Carrega apenas quando mexe no cabo ou em determinada posição",
+      "Aparelho esquenta muito ao conectar o carregador",
+      "O cabo fica frouxo no conector de carga",
+      "A porcentagem de bateria não sobe mesmo conectado"
+    ],
+    causes: [
+      "Acúmulo de sujeira, poeira ou resíduos no conector",
+      "Uso de carregadores ou cabos paralelos e danificados",
+      "Bateria muito desgastada ou com falha interna",
+      "Oxidação interna por umidade ou queda na água",
+      "Curto-circuito na placa lógica ou componentes de carga em curto"
+    ],
+    solution: `Na Reparo Avançado, realizamos um diagnóstico completo em todo o circuito de carga do celular. Isso inclui a inspeção visual com microscópio do conector, testes de voltagem e corrente da bateria, e análise térmica da placa lógica para localizar curtos. O reparo é feito com a substituição do componente danificado (conector, bateria ou CI de carga) com peças premium de alta performance e garantia. ${LOCAL_SEO}`,
+    whenToSeek: "Procure assistência técnica especializada quando o aparelho não reconhecer nenhum cabo, carregar apenas em algumas posições, esquentar excessivamente durante a carga, descarrega mesmo conectado ou se tiver sofrido queda ou contato com umidade. O diagnóstico precoce previne danos mais graves aos circuitos internos.",
+    costInfo: `O valor depende do modelo do aparelho e do diagnóstico exato. Oferecemos avaliação gratuita para identificar se o problema é resolvido com uma limpeza técnica, troca de conector, bateria ou reparo de placa. ${CTA_TEXT}.`,
+    faq: [
+      {
+        question: "Colocar o celular no arroz resolve quando ele não carrega?",
+        answer: "Não. O arroz não remove oxidação, sal, minerais ou resíduos internos. Se o aparelho molhou e parou de carregar, o ideal é desligar e procurar assistência técnica o quanto antes."
+      },
+      {
+        question: "Trocar o carregador pode resolver?",
+        answer: "Pode resolver se o problema estiver no cabo ou na fonte. Mas se o aparelho não reconhece nenhum carregador, esquenta ou carrega apenas em uma posição, é necessário diagnóstico técnico."
+      },
+      {
+        question: "Celular que não carrega pode ser problema na bateria?",
+        answer: "Sim, mas não é a única possibilidade. Também pode ser conector, oxidação, carregador, circuito de carga ou defeito na placa."
+      },
+      {
+        question: "Pode ser vírus?",
+        answer: "É pouco comum. Na maioria dos casos, falhas de carregamento estão relacionadas a hardware, como bateria, conector, placa ou oxidação."
+      },
+      {
+        question: "Quanto tempo demora o reparo?",
+        answer: "Depende do defeito. Casos simples, como limpeza ou troca de conector, podem ser mais rápidos. Defeitos em placa exigem análise mais detalhada."
+      },
+      {
+        question: "Vale a pena reparar?",
+        answer: "Na maioria dos casos, sim. O ideal é fazer um diagnóstico para comparar o custo do reparo com o valor do aparelho."
+      }
+    ],
+    sections: [
+      {
+        id: "principais-causas",
+        title: "Principais causas para o celular não carregar",
+        content: "Um celular pode parar de carregar por diferentes motivos. O defeito pode ser simples, como sujeira no conector, mas também pode envolver bateria desgastada, cabo danificado, fonte incompatível, oxidação interna ou falha na placa. Por isso, antes de trocar qualquer peça, o ideal é realizar um diagnóstico técnico. A troca direta de bateria ou conector sem avaliação pode gerar custo desnecessário e não resolver o problema."
+      },
+      {
+        id: "sujeira-ou-oxidacao",
+        title: "Sujeira ou oxidação no conector de carga",
+        content: "Uma das causas mais comuns é o acúmulo de sujeira, poeira ou resíduos dentro do conector. Isso impede o encaixe correto do cabo e pode fazer o aparelho carregar apenas quando o cabo fica em determinada posição. Em outros casos, principalmente após contato com umidade, praia, suor ou líquido, pode haver oxidação nos contatos internos. Quando isso acontece, o problema pode evoluir e atingir outros componentes da placa.",
+        subsections: [
+          {
+            title: "Sinais comuns:",
+            content: "• O cabo fica frouxo;\n• O aparelho só carrega se mexer no cabo;\n• Aparece carregando e para do nada;\n• O celular não reconhece nenhum carregador;\n• O conector apresenta sinais de sujeira ou umidade."
+          }
+        ]
+      },
+      {
+        id: "carregador-ou-cabo",
+        title: "Carregador ou cabo com defeito",
+        content: "Antes de condenar o aparelho, é importante testar outro cabo e outra fonte de boa qualidade. Cabos danificados, fontes fracas ou carregadores paralelos de baixa qualidade podem causar falhas de carregamento e até danificar componentes internos. O uso contínuo de carregadores ruins pode gerar aquecimento excessivo, carregamento lento e instabilidade na alimentação do aparelho."
+      },
+      {
+        id: "bateria-desgastada",
+        title: "Bateria desgastada ou com falha",
+        content: "Quando a bateria está muito desgastada, o aparelho pode não segurar carga, desligar sozinho ou não iniciar mesmo conectado ao carregador. Em alguns casos, o celular até reconhece o carregador, mas a porcentagem não sobe.",
+        subsections: [
+          {
+            title: "Sinais de problema na bateria:",
+            content: "• Descarrega muito rápido;\n• Desliga com porcentagem alta;\n• Demora muito para carregar;\n• Esquenta durante o carregamento;\n• A porcentagem fica travada;\n• O aparelho só liga conectado.\n\nMesmo assim, é importante confirmar o diagnóstico antes de trocar a bateria, porque defeitos na placa também podem apresentar sintomas parecidos."
+          }
+        ]
+      },
+      {
+        id: "defeito-na-placa",
+        title: "Defeito na placa ou curto interno",
+        content: "Quando o problema está na placa, a análise precisa ser mais avançada. Falhas em circuitos de carga, componentes em curto, oxidação ou danos causados por queda podem impedir o carregamento. Esse tipo de defeito exige conhecimento técnico, instrumentos adequados e, em muitos casos, micro soldagem. Por isso, não é recomendado insistir em testes caseiros ou deixar o aparelho carregando por horas quando ele não responde.",
+        subsections: [
+          {
+            title: "Sinais de alerta:",
+            content: "• Aparelho esquenta muito ao conectar o carregador;\n• Não liga de forma alguma;\n• Carregador ou cabo aquecem demais;\n• O celular sofreu queda ou molhou;\n• Nenhuma bateria ou conector novo resolve;\n• O aparelho entra em consumo anormal na fonte de bancada."
+          }
+        ]
+      },
+      {
+        id: "caiu-agua-nao-carrega",
+        title: "Celular caiu na água e não carrega: o que fazer?",
+        content: "Se o celular molhou e parou de carregar, não tente ligar, não coloque no carregador e não use secador. O contato com água, principalmente água do mar, pode causar oxidação rápida na placa. O arroz não resolve esse tipo de problema. Ele pode até absorver parte da umidade externa, mas não remove minerais, sal ou oxidação dos componentes internos. O ideal é desligar o aparelho e levar para uma assistência técnica o mais rápido possível para avaliação e limpeza adequada."
+      },
+      {
+        id: "vale-pena-reparar-carga",
+        title: "Vale a pena reparar um celular que não carrega?",
+        content: "Na maioria dos casos, sim. Problemas de carregamento costumam ter solução, principalmente quando identificados no início. O reparo pode envolver limpeza técnica, troca do conector, substituição da bateria ou reparo na placa. O que define se vale a pena é o diagnóstico. Um técnico precisa avaliar o estado do aparelho, o custo da peça, o risco do reparo e o valor do modelo no mercado. Na Reparo Avançado, o diagnóstico ajuda o cliente a entender se o reparo compensa antes de aprovar o serviço."
+      },
+      {
+        id: "quando-procurar-carga",
+        title: "Quando procurar assistência técnica?",
+        content: "Procure uma assistência técnica quando: o celular não reconhece nenhum carregador; carrega apenas em uma posição; aquece muito ao carregar; molhou ou teve contato com umidade; descarrega mesmo conectado; já testou outro cabo e fonte; o aparelho não liga; ou a porcentagem não sobe. Quanto antes o problema for analisado, menor o risco de o defeito se agravar."
+      },
+      {
+        id: "assistencia-salvador-carga",
+        title: "Assistência técnica em Salvador para celular que não carrega",
+        content: "A Reparo Avançado realiza diagnóstico técnico em celulares com falha de carregamento em Salvador, avaliando conector, bateria, placa, oxidação e demais componentes relacionados ao sistema de carga. A análise correta evita troca desnecessária de peças e ajuda a identificar a origem real do defeito."
+      }
+    ],
+    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "reparo-face-id-iphone-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "face-id-nao-funciona-iphone-causas"]
+  },
+  {
+    slug: "face-id-nao-funciona-iphone-causas",
+    title: "Face ID Não Funciona? Entenda as Causas e Quando Procurar Reparo",
+    h1: "Face ID Não Funciona? Entenda as Principais Causas no iPhone",
+    metaDescription: "Face ID do iPhone parou de funcionar? Veja causas como queda, oxidação, troca de tela, câmera TrueDepth ou placa e saiba quando procurar assistência técnica em Salvador.",
+    category: "iphone" as Category,
+    brand: "Apple",
+    model: "iPhone",
+    service: "Reparo de Face ID",
+    serviceSlug: "reparo-face-id-editorial",
+    description: "O Face ID é um dos sistemas mais sensíveis do iPhone. Quando ele para de funcionar, o problema pode estar relacionado a software, queda, oxidação, troca de tela mal executada, falha na câmera TrueDepth ou defeito em componentes da placa.\n\nMuita gente tenta resolver apenas redefinindo o Face ID nos ajustes, mas quando existe falha física, o problema não volta sozinho. Em alguns casos, uma intervenção incorreta pode piorar a situação e tornar o reparo mais difícil.\n\nNeste artigo, a Reparo Avançado explica as principais causas do Face ID não funcionar e quando é necessário procurar uma assistência técnica especializada em reparos avançados.",
+    isEditorial: true,
+    keywords: ["face id nao funciona", "sensor truedepth", "reparo face id salvador", "troca de tela iphone"],
+    problems: [
+      "Face ID indisponível ou erro ao ativar",
+      "Reconhecimento facial lento ou que falha constantemente",
+      "Mensagem de 'Face ID indisponível' após queda",
+      "Face ID parou de funcionar logo após troca de tela",
+      "Sensor TrueDepth apresentando falha física"
+    ],
+    causes: [
+      "Queda do iPhone que afeta os sensores frontais",
+      "Contato com água ou umidade que causa oxidação",
+      "Troca de tela mal executada por técnicos não especializados",
+      "Danos no conjunto TrueDepth ou conexões internas",
+      "Defeito em circuitos específicos na placa lógica"
+    ],
+    solution: `Na Reparo Avançado, realizamos o diagnóstico especializado e o reparo do sistema TrueDepth. Fazemos a análise sob microscópio de precisão, realizamos micro-soldagem em flexíveis danificados ou transferimos componentes essenciais com autorização técnica. ${LOCAL_SEO}`,
+    whenToSeek: "Procure assistência técnica especializada no momento em que notar falhas no reconhecimento facial, principalmente após o iPhone cair ou molhar. O conserto precoce evita o agravamento de curtos nos sensores.",
+    costInfo: `O valor do reparo do Face ID depende do modelo do iPhone e do nível de dano nos sensores ou chapa flex. O diagnóstico inicial é gratuito. ${CTA_TEXT}.`,
+    faq: [
+      {
+        question: "Face ID tem conserto?",
+        answer: "Em muitos casos, sim. O reparo depende da causa do defeito, como queda, oxidação, dano no conjunto TrueDepth, flexível ou falha em placa."
+      },
+      {
+        question: "Trocar a tela pode fazer o Face ID parar?",
+        answer: "Sim. Se a troca de tela não for feita com cuidado, pode danificar sensores, flexíveis ou componentes relacionados ao sistema TrueDepth."
+      },
+      {
+        question: "Face ID volta sozinho?",
+        answer: "Se for uma falha simples de software, pode voltar após reiniciar ou atualizar. Mas quando existe dano físico, oxidação ou falha em componente, normalmente precisa de assistência técnica."
+      },
+      {
+        question: "Reparo de Face ID apaga os dados?",
+        answer: "Normalmente o diagnóstico ou reparo físico não apaga os dados. Mesmo assim, sempre é recomendado manter backup atualizado."
+      },
+      {
+        question: "Quanto custa o reparo do Face ID?",
+        answer: "O valor depende da causa do defeito. É necessário avaliar se o problema está em sensor, flexível, conjunto TrueDepth, oxidação ou placa."
+      },
+      {
+        question: "Quanto tempo demora?",
+        answer: "Depende da complexidade. Casos simples podem ser mais rápidos, enquanto reparos avançados em placa ou micro soldagem exigem análise mais detalhada."
+      },
+      {
+        question: "Vale a pena reparar?",
+        answer: "Na maioria dos casos, vale a pena avaliar. O Face ID é uma função importante do iPhone e o diagnóstico ajuda a entender custo, risco e viabilidade do reparo."
+      }
+    ],
+    sections: [
+      {
+        id: "funcionamento-face-id",
+        title: "Como o Face ID funciona no iPhone?",
+        content: "O Face ID utiliza um conjunto de sensores e componentes integrados ao sistema TrueDepth. Esse conjunto faz a leitura facial de forma precisa e segura. Por ser uma tecnologia sensível, qualquer dano físico, oxidação, mau encaixe ou intervenção incorreta pode comprometer o funcionamento. Por isso, o diagnóstico precisa ser cuidadoso. Nem todo problema de Face ID é simples, e nem todo caso se resolve com atualização ou restauração do sistema."
+      },
+      {
+        id: "causas-comuns-face-id",
+        title: "Principais causas do Face ID não funcionar",
+        content: "As causas mais comuns incluem: queda do aparelho, contato com água ou umidade, troca de tela mal executada, danos no conjunto TrueDepth, falha em sensores internos, defeito em flexíveis, problema de software, defeito em placa ou intervenção anterior incorreta. Identificar a causa correta é essencial antes de qualquer reparo."
+      },
+      {
+        id: "queda-iphone",
+        title: "Queda do iPhone pode afetar o Face ID?",
+        content: "Sim. Mesmo que a tela continue funcionando, uma queda pode afetar sensores, conexões internas ou componentes responsáveis pelo reconhecimento facial. Em alguns casos, o aparelho passa a mostrar mensagens como Face ID indisponível ou não foi possível ativar o Face ID neste iPhone. Quando isso acontece após queda, o ideal é evitar novas tentativas e realizar uma análise técnica."
+      },
+      {
+        id: "troca-tela-iphone",
+        title: "Troca de tela pode causar problema no Face ID?",
+        content: "Sim. Uma troca de tela feita sem os cuidados corretos pode danificar flexíveis, sensores ou componentes próximos ao conjunto frontal do iPhone. O Face ID não depende apenas da tela. Ele envolve sensores específicos e componentes pareados ao aparelho. Por isso, procedimentos mal executados podem afetar o funcionamento do sistema. Esse é um dos motivos pelos quais reparos em iPhone devem ser feitos por assistência especializada."
+      },
+      {
+        id: "oxidacao-iphone",
+        title: "Oxidação pode fazer o Face ID parar?",
+        content: "Pode. Quando o iPhone entra em contato com água, umidade, vapor, suor ou maresia, a oxidação pode atingir sensores e circuitos internos. Mesmo que o aparelho continue ligando normalmente, funções específicas como Face ID, câmera, áudio ou carregamento podem começar a falhar depois. Quanto mais tempo a oxidação permanece na placa ou nos conectores, maior o risco de dano permanente."
+      },
+      {
+        id: "atualizacao-sistema",
+        title: "Atualização de sistema resolve Face ID?",
+        content: "Se o problema for apenas uma falha temporária de software, reiniciar, atualizar o iOS ou redefinir os ajustes pode ajudar. Porém, quando existe dano físico, queda, oxidação ou falha em componente, atualização não resolve. Se a mensagem de erro continua aparecendo mesmo após ajustes básicos, é sinal de que o aparelho precisa de avaliação técnica."
+      },
+      {
+        id: "conserto-face-id",
+        title: "Face ID tem conserto?",
+        content: "Em muitos casos, sim. Mas o reparo depende da origem do defeito. Alguns casos envolvem correção de flexíveis, análise do conjunto TrueDepth, limpeza técnica, recuperação de trilhas, micro soldagem ou reparo em placa. É importante entender que o Face ID é um sistema sensível e nem todo defeito permite solução simples. Por isso, o diagnóstico correto é o primeiro passo."
+      },
+      {
+        id: "cuidados-reparos",
+        title: "Cuidado com reparos não especializados",
+        content: "O Face ID exige conhecimento técnico e cuidado. Uma tentativa de reparo sem experiência pode danificar componentes sensíveis, comprometer sensores e reduzir as chances de recuperação. Assistências não especializadas podem trocar peças sem necessidade ou causar danos em áreas próximas ao conjunto frontal do aparelho. Na Reparo Avançado, a análise é feita com foco em identificar a causa real do problema antes de indicar qualquer serviço."
+      },
+      {
+        id: "assistencia-face-id",
+        title: "Assistência técnica para Face ID em Salvador",
+        content: "A Reparo Avançado realiza diagnóstico técnico em iPhones com falha no Face ID em Salvador. A avaliação considera histórico de queda, contato com líquido, troca de tela anterior, funcionamento da câmera frontal, mensagens de erro e possíveis falhas em placa. Nosso foco é oferecer uma análise segura, técnica e transparente antes de qualquer reparo."
+      }
+    ],
+    relatedSlugs: ["reparo-face-id-iphone-salvador", "troca-tela-iphone-true-tone-salvador", "celular-nao-carrega-causas-solucoes", "audio-iphone-baixo-ruido-higienizacao-salvador"]
   }
 ];

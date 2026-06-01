@@ -6,7 +6,7 @@ import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 
 const POSTS_PER_PAGE = 24;
-const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"];
+const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks", "manutencao"];
 
 const Blog = () => {
   const [search, setSearch] = useState("");

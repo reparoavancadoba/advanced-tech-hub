@@ -4,7 +4,7 @@ export const WHATSAPP_NUMBER = "5571991981437";
 export const BUSINESS_ADDRESS = "R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710";
 export const BAIRROS = ["Boca do Rio", "Pituba", "Imbuí", "Costa Azul", "Stiep", "Patamares", "Jardim Armação"];
 
-export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks";
+export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks" | "manutencao";
 
 export interface FaqItem {
   question: string;
@@ -49,6 +49,7 @@ export const categoryLabels: Record<Category, string> = {
   realme: "Realme",
   motorola: "Motorola",
   notebooks: "Notebooks",
+  manutencao: "Manutenção",
 };
 
 // ─── SERVICES ───
