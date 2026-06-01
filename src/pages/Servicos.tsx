@@ -23,7 +23,7 @@ const Servicos = () => {
   const hubFaqs = [
     {
       q: "Como funciona a garantia dos serviços na Reparo Avançado?",
-      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) possuem garantia por escrito de 6 meses (180 dias). Nossos reparos de placa possuem garantia contratual de 90 dias."
+      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e reparos de placa possuem garantia por escrito de 3 meses (90 dias)."
     },
     {
       q: "O diagnóstico do meu aparelho é cobrado?",

@@ -26,7 +26,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
 
   const benefits = [
     { icon: Zap, title: "Atendimento Rápido", desc: "A maioria dos reparos realizados no mesmo dia, no máximo em 1 hora." },
-    { icon: ShieldCheck, title: "Garantia por Escrito", desc: "Fornecemos garantia de 6 meses em todas as peças premium instaladas." },
+    { icon: ShieldCheck, title: "Garantia por Escrito", desc: "Fornecemos garantia de 3 meses em todas as peças premium instaladas." },
     { icon: Wrench, title: "Laboratório de Ponta", desc: "Equipamentos profissionais de soldagem BGA, microscópios e ferramentas específicas." },
   ];
 
@@ -143,7 +143,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                 <Clock className="w-4 h-4 text-primary" /> Diagnóstico Rápido
               </div>
               <div className="flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-whatsapp" /> 6 Meses de Garantia
+                <ShieldCheck className="w-4 h-4 text-whatsapp" /> 3 Meses de Garantia
               </div>
             </div>
           </div>

@@ -36,7 +36,7 @@ export const editorialPosts: BlogPost[] = [
     ],
     solution: `Na Reparo Avançado, utilizamos ${PECAS} para a troca de bateria do iPhone. O diferencial está na reprogramação do chip controlador (CI) da bateria, que elimina completamente a mensagem de "Peça Desconhecida" no iOS. Nosso processo inclui: diagnóstico completo do circuito de carga, remoção segura da bateria antiga com ferramentas anti-estáticas, instalação da nova bateria com calibração de voltagem, e reprogramação via software proprietário para que o iOS reconheça a bateria como genuína. Após a troca, realizamos testes de carga completa e monitoramos a temperatura para garantir funcionamento perfeito. ${LOCAL_SEO}`,
     whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando o iPhone desligar sozinho, quando a bateria não durar um dia de uso moderado, ou quando aparecer aviso de 'Manutenção da Bateria'. Não espere a bateria estufar — isso pode danificar a tela e outros componentes.",
-    costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 6 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.`,
+    costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 3 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.`,
     faq: [
       { question: "A troca de bateria do iPhone vai aparecer 'Peça Desconhecida'?", answer: "Não. Na Reparo Avançado, reprogramamos o chip controlador da bateria para que o iOS reconheça a peça corretamente, exibindo a saúde em 100% sem nenhuma mensagem de erro." },
       { question: "Quanto tempo dura a bateria nova do iPhone?", answer: "Nossas baterias de alta performance têm vida útil equivalente à original, suportando mais de 500 ciclos de carga completa mantendo acima de 80% de capacidade." },
@@ -193,7 +193,7 @@ export const editorialPosts: BlogPost[] = [
     costInfo: `O valor varia conforme o modelo (iPhone 11 ao 16 Pro Max) e o tipo de tela (LCD, OLED, Super Retina XDR). Todas incluem reprogramação True Tone sem custo adicional. ${CTA_TEXT}.`,
     faq: [
       { question: "A tela nova vai ter True Tone funcionando?", answer: "Sim! Realizamos a reprogramação do CI da tela para manter o True Tone, brilho automático e todas as funções de toque funcionando perfeitamente." },
-      { question: "Qual a diferença entre tela original e tela de alta performance?", answer: `Nossas telas são ${PECAS}. Possuem a mesma qualidade de cores, resolução e sensibilidade ao toque, com garantia de 6 meses.` },
+      { question: "Qual a diferença entre tela original e tela de alta performance?", answer: `Nossas telas são ${PECAS}. Possuem a mesma qualidade de cores, resolução e sensibilidade ao toque, com garantia de 3 meses.` },
       { question: "A troca de tela pode danificar o Face ID?", answer: "Na Reparo Avançado, jamais. Nossos técnicos são treinados para preservar 100% do módulo TrueDepth durante a troca. Em assistências não especializadas, esse risco é real." }
     ],
     sections: [
@@ -473,7 +473,7 @@ export const editorialPosts: BlogPost[] = [
     faq: [
       { question: "Por que a câmera do iPhone treme?", answer: "Geralmente é falha no sistema OIS (estabilização óptica de imagem). O mecanismo de estabilização magnético se desalinha após quedas, causando tremulação constante." },
       { question: "As manchas nas fotos são sujeira ou defeito?", answer: "Pode ser ambos. Fazemos diagnóstico para identificar se é poeira na lente (limpeza resolve) ou defeito no sensor (troca necessária)." },
-      { question: "A câmera nova é original Apple?", answer: `Utilizamos ${PECAS}, com qualidade de imagem e resolução idênticas às de fábrica, com garantia de 6 meses.` }
+      { question: "A câmera nova é original Apple?", answer: `Utilizamos ${PECAS}, com qualidade de imagem e resolução idênticas às de fábrica, com garantia de 3 meses.` }
     ],
     sections: [],
     relatedSlugs: ["troca-tela-iphone-true-tone-salvador", "reparo-face-id-iphone-salvador", "poeira-lente-camera-limpeza-interna-salvador"]
@@ -1159,7 +1159,7 @@ export const editorialPosts: BlogPost[] = [
     costInfo: `Diagnóstico gratuito. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
     faq: [
       { question: "Quantas avaliações a Reparo Avançado tem no Google?", answer: "Mais de 31 avaliações com nota máxima (5 estrelas). Nossos clientes destacam a transparência, qualidade das peças e atendimento profissional." },
-      { question: "Vocês oferecem garantia nos reparos?", answer: "Sim! Todos os nossos serviços possuem garantia. O período varia de 3 a 6 meses conforme o tipo de reparo." },
+      { question: "Vocês oferecem garantia nos reparos?", answer: "Sim! Todos os nossos serviços possuem garantia de 3 meses." },
       { question: "Posso acompanhar o reparo do meu celular?", answer: "Muitos reparos rápidos podem ser acompanhados na loja. Para serviços mais complexos, mantemos você atualizado pelo WhatsApp com fotos e vídeos do processo." }
     ],
     sections: [],

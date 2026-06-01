@@ -29,7 +29,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Tela preta (celular vibra ou toca, mas não exibe imagem)",
       "Linhas coloridas (verdes, roxas ou brancas) ou manchas na tela"
     ],
-    solution: "Substituímos o display completo utilizando componentes de altíssima performance. Preservamos recursos originais do aparelho (como reprogramação do chip da tela para manter o True Tone ativo no iPhone e calibração fina da biometria no Samsung) com garantia de 6 meses.",
+    solution: "Substituímos o display completo utilizando componentes de altíssima performance. Preservamos recursos originais do aparelho (como reprogramação do chip da tela para manter o True Tone ativo no iPhone e calibração fina da biometria no Samsung) com garantia de 3 meses.",
     faqs: [
       {
         question: "A tela quebrou, mas o touch ainda funciona. Preciso trocar tudo?",
@@ -125,7 +125,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Qual o prazo de garantia oferecido nos consertos?",
-        answer: "Todos os nossos serviços de hardware possuem garantia formal de 90 a 180 dias contra qualquer defeito de fabricação do componente instalado."
+        answer: "Todos os nossos serviços de hardware possuem garantia formal de 90 dias contra qualquer defeito de fabricação do componente instalado."
       },
       {
         question: "Preciso agendar uma visita para consertar meu celular?",
