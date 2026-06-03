@@ -23,7 +23,7 @@ const FooterSection = () => {
           <div>
             <img src={logo} alt="Reparo Avançado" className="h-12 mb-4" loading="lazy" />
             <p className="text-muted-foreground text-sm mb-4">
-              Assistência técnica especializada em smartphones e tablets. 9 anos de experiência em Salvador.
+              oficina de conserto de celular focada em smartphones e tablets. 9 anos de experiência em Salvador.
             </p>
             <a
               href={WHATSAPP_LINK}

@@ -34,7 +34,7 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de iPhone",
     shortName: "Conserto de iPhone",
     description:
-      "Diagnóstico técnico avançado e reparo completo de iPhone com peças de alta performance e garantia real.",
+      "avaliação profissional avançado e reparo completo de iPhone com peças de alta performance e garantia real.",
   },
   {
     slug: "troca-de-tela",
@@ -48,35 +48,35 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Troca de Bateria",
     shortName: "Troca de Bateria",
     description:
-      "Saúde 100% restaurada com baterias de alta performance, instalação rápida e garantia.",
+      "Saúde 100% restaurada com baterias de alta performance, ajuste presencial presencial rápida e garantia.",
   },
   {
     slug: "reparo-de-placa",
     name: "Reparo de Placa",
     shortName: "Reparo de Placa",
     description:
-      "Microeletrônica avançada. Recuperamos aparelhos condenados por outras assistências.",
+      "Microeletrônica avançada. Recuperamos aparelhos condenados por outras oficinas.",
   },
   {
     slug: "conserto-de-xiaomi",
     name: "Conserto de Xiaomi",
     shortName: "Conserto de Xiaomi",
     description:
-      "Especialistas em todos os modelos Xiaomi e Redmi. Peças premium e atendimento ágil.",
+      "profissionais em todos os modelos Xiaomi e Redmi. Peças premium e atendimento ágil.",
   },
   {
     slug: "conserto-de-samsung",
     name: "Conserto de Samsung",
     shortName: "Conserto de Samsung",
     description:
-      "Reparo especializado em Galaxy: tela AMOLED, placa, bateria e mais — com garantia.",
+      "Reparo focado em Galaxy: tela AMOLED, placa, bateria e mais — com garantia.",
   },
   {
     slug: "banho-quimico",
     name: "Banho Químico",
     shortName: "Banho Químico",
     description:
-      "Tratamento ultrassônico para aparelhos com contato com líquido. Recuperação técnica avançada.",
+      "Tratamento ultrassônico para aparelhos com contato com líquido. restauração técnica avançada.",
   },
 ];
 

@@ -18,16 +18,16 @@ const serviceIcons: Record<string, React.ElementType> = {
 
 const Servicos = () => {
   const latestArticles = editorialPosts.slice(0, 3);
-  const waLink = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento técnico para meu celular.";
+  const waLink = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento profissional para meu celular.";
 
   const hubFaqs = [
     {
       q: "Como funciona a garantia dos serviços na Reparo Avançado?",
-      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e reparos de placa possuem garantia por escrito de 3 meses (90 dias)."
+      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e reparos de circuito integrado possuem garantia por escrito de 3 meses (90 dias)."
     },
     {
-      q: "O diagnóstico do meu aparelho é cobrado?",
-      a: "Não! O diagnóstico inicial em nosso laboratório é 100% gratuito. Você traz o celular, nossos técnicos avaliam a placa e componentes, passam o orçamento e você só faz se concordar. Caso contrário, pode retirar sem nenhum custo."
+      q: "O avaliação do meu aparelho é cobrado?",
+      a: "Não! O avaliação inicial em nosso laboratório é 100% gratuito. Você traz o celular, nossos profissionals avaliam o circuito interno e componentes, passam o orçamento e você só faz se concordar. Caso contrário, pode retirar sem nenhum custo."
     },
     {
       q: "Vocês atendem em domicílio ou têm serviço de coleta?",
@@ -39,13 +39,13 @@ const Servicos = () => {
     <SiteLayout>
       <Helmet>
         <title>Serviços e Especialidades | Reparo Avançado Salvador</title>
-        <meta name="description" content="Central de Serviços da Reparo Avançado. Conheça nossas especialidades: troca de tela, bateria, reparo de placa e desoxidação com garantia e suporte local." />
+        <meta name="description" content="Central de Serviços da Reparo Avançado. Conheça nossas especialidades: troca de tela, bateria, reparo de circuito integrado e desoxidação com garantia e atendimento local." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/servicos" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Assistência Técnica e Conserto de Celulares em Salvador",
+            "name": "oficina de conserto de celular e Conserto de Celulares em Salvador",
             "provider": {
               "@type": "LocalBusiness",
               "name": "Reparo Avançado",
@@ -71,7 +71,7 @@ const Servicos = () => {
             Nossos <span className="text-gradient">Serviços e Especialidades</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Soluções completas com técnicos especialistas e laboratório moderno. Clique na especialidade desejada para ver informações detalhadas sobre modelos e marcas.
+            Soluções completas com profissionals profissionais e laboratório moderno. Clique na especialidade desejada para ver informações detalhadas sobre modelos e marcas.
           </p>
           <a
             href={waLink}
@@ -80,7 +80,7 @@ const Servicos = () => {
             className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-6 py-3 rounded-lg font-semibold hover:brightness-110 transition-all shadow-md"
           >
             <MessageCircle className="w-5 h-5" />
-            Fale com um Técnico
+            solicite um orçamento
           </a>
         </div>
       </section>

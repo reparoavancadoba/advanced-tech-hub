@@ -64,7 +64,7 @@ const BlogPost = () => {
       },
       {
         "@type": "LocalBusiness",
-        name: "Reparo Avançado - Assistência Técnica de Celulares",
+        name: "Reparo Avançado - oficina de conserto de celular de Celulares",
         address: {
           "@type": "PostalAddress",
           streetAddress: "R. Abelardo Andrade de Carvalho, 8",
@@ -95,7 +95,7 @@ const BlogPost = () => {
     { id: "problema", label: "O Problema" },
     { id: "causas", label: "Causas Comuns" },
     { id: "solucao", label: "Solução Técnica" },
-    { id: "quando", label: "Quando Procurar Assistência" },
+    { id: "quando", label: "Quando Procurar oficina" },
     { id: "custo", label: "Quanto Custa" },
     { id: "atendimento", label: "Atendimento em Salvador" },
   ];
@@ -192,7 +192,7 @@ const BlogPost = () => {
 
           {/* Mid-article CTA */}
           <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 text-center">
-            <p className="font-semibold mb-3">Fale agora com um técnico especializado</p>
+            <p className="font-semibold mb-3">Fale agora com um profissional qualificado</p>
             <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-6 py-3 rounded-lg font-semibold hover:brightness-110 transition-all animate-pulse-whatsapp">
               <MessageCircle className="w-5 h-5" />
               WhatsApp (71) 99198-1437
@@ -205,7 +205,7 @@ const BlogPost = () => {
           </section>
 
           <section id="quando">
-            <h2 className="text-2xl font-bold mb-4">Quando Procurar Assistência Técnica</h2>
+            <h2 className="text-2xl font-bold mb-4">Quando Procurar oficina de conserto de celular</h2>
             <p className="text-muted-foreground leading-relaxed">{post.whenToSeek}</p>
           </section>
 
@@ -250,7 +250,7 @@ const BlogPost = () => {
             Orçamento <span className="text-gradient">Gratuito</span> em 5 Minutos pelo WhatsApp
           </h2>
           <p className="text-muted-foreground mb-6">
-            Fale agora com nosso especialista e resolva o problema do seu {post.model}.
+            Fale agora com nosso profissional e resolva o problema do seu {post.model}.
           </p>
           <a
             href={waLink}

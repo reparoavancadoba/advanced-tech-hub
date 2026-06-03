@@ -127,7 +127,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
               {service.h1}
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-              {service.description} Oferecemos diagnósticos precisos e reparos com agilidade e alto padrão técnico.
+              {service.description} Oferecemos avaliaçãos precisos e reparos com agilidade e alto padrão profissional.
             </p>
             <a
               href={waLink}
@@ -140,7 +140,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
             </a>
             <div className="flex items-center justify-center gap-6 mt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
-                <Clock className="w-4 h-4 text-primary" /> Diagnóstico Rápido
+                <Clock className="w-4 h-4 text-primary" /> avaliação Rápido
               </div>
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-whatsapp" /> 3 Meses de Garantia
@@ -225,7 +225,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       <section className="py-16 border-t border-border bg-background">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-xl font-bold mb-6">Locais de Atendimento em Salvador</h2>
-          <p className="text-sm text-muted-foreground mb-8">Oferecemos atendimento técnico especializado para diversos bairros em Salvador de forma prática:</p>
+          <p className="text-sm text-muted-foreground mb-8">Oferecemos atendimento presencial focado para diversos bairros em Salvador de forma prática:</p>
           <div className="flex flex-wrap justify-center gap-2 mb-10">
             {listLocaisConsolidados.map((loc) => (
               <Link
@@ -233,7 +233,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                 to={loc.path}
                 className="text-xs bg-card border border-border text-foreground px-4 py-2 rounded-full hover:border-primary hover:text-primary transition-all"
               >
-                Assistência na {loc.name}
+                oficina na {loc.name}
               </Link>
             ))}
           </div>

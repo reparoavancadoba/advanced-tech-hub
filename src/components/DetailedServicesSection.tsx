@@ -30,16 +30,16 @@ const servicePaths: Record<string, string> = {
 const servicesList = [
   { slug: "troca-de-tela", name: "Troca de Tela", desc: "Display premium com cores vibrantes e touch responsivo. Qualidade de padrão de fábrica." },
   { slug: "troca-de-bateria", name: "Troca de Bateria", desc: "Saúde 100% de volta com baterias de alta performance e garantia." },
-  { slug: "reparo-de-placa", name: "Reparo de Placa", desc: "Microeletrônica avançada. Recuperamos placas condenadas por outras assistências." },
+  { slug: "reparo-de-placa", name: "Reparo de Placa", desc: "Microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas." },
   { slug: "conector-de-carga", name: "Conector de Carga", desc: "Carregamento eficiente restaurado com peças premium." },
   { slug: "troca-de-microfone", name: "Microfone", desc: "Qualidade de áudio restaurada para ligações e gravações perfeitas." },
   { slug: "alto-falante-audio", name: "Alto-falante", desc: "Som alto e cristalino de volta ao seu aparelho." },
   { slug: "cameras", name: "Câmeras", desc: "Frontal e traseira com componentes de alta resolução." },
-  { slug: "face-id", name: "Face ID", desc: "Reparo especializado do reconhecimento facial (iPhone)." },
+  { slug: "face-id", name: "Face ID", desc: "Reparo focado do reconhecimento facial (iPhone)." },
   { slug: "biometria", name: "Biometria", desc: "Sensor de digital restaurado com precisão (Android)." },
   { slug: "desoxidacao", name: "Desoxidação", desc: "Tratamento químico avançado para aparelhos com contato com líquido." },
-  { slug: "software", name: "Software", desc: "Formatação, desbloqueio e remoção de vírus." },
-  { slug: "aparelho-nao-liga", name: "Não Liga", desc: "Diagnóstico completo e reparo de aparelhos totalmente mortos." },
+  { slug: "software", name: "Ajuste de Sistema", desc: "Formatação, ajuste de sistema e limpeza de cache do sistema." },
+  { slug: "aparelho-nao-liga", name: "Não Liga", desc: "avaliação completa e reparo de aparelhos totalmente mortos." },
   { slug: "aparelho-nao-carrega", name: "Não Carrega", desc: "Da entrada USB ao circuito de carga – resolvemos tudo." },
 ];
 
@@ -51,7 +51,7 @@ const DetailedServicesSection = () => {
           Todos os <span className="text-gradient">Serviços</span>
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Somos especialistas em todos os tipos de reparo. Peças premium, garantia em todos os serviços e atendimento rápido na Boca do Rio, Salvador.
+          Somos profissionais em todos os tipos de reparo. Peças premium, garantia em todos os serviços e atendimento rápido na Boca do Rio, Salvador.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {servicesList.map((service) => {

@@ -3,7 +3,7 @@ import { Shield, Award, Users, BadgeCheck } from "lucide-react";
 const badges = [
   { icon: Award, label: "9 Anos de Mercado" },
   { icon: Shield, label: "Peças Premium" },
-  { icon: Users, label: "Técnicos Certificados" },
+  { icon: Users, label: "profissionais qualificados" },
   { icon: BadgeCheck, label: "Garantia em todos os serviços" },
 ];
 

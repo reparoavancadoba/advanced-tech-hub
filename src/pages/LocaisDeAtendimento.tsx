@@ -8,7 +8,7 @@ import { servicesHubList } from "@/data/servicosConsolidadosData";
 const LocaisDeAtendimento = () => {
   const title = "Locais de Atendimento em Salvador | Reparo Avançado";
   const description =
-    "Atendimento técnico especializado nos principais bairros de Salvador: Boca do Rio, Imbuí, Pituba, Brotas e Salvador Centro. Agilidade e garantia perto de você.";
+    "atendimento presencial focado nos principais bairros de Salvador: Boca do Rio, Imbuí, Pituba, Brotas e Salvador Centro. Agilidade e garantia perto de você.";
   const canonical = "https://site.reparoavancado.com.br/locais-de-atendimento";
 
   return (
@@ -26,7 +26,7 @@ const LocaisDeAtendimento = () => {
             Locais de Atendimento em <span className="text-gradient">Salvador</span>
           </h1>
           <p className="text-muted-foreground text-lg">
-            Consolidação de suporte local. Selecione a sua região para obter direções, horários de atendimento e suporte especializado próximo a você.
+            Consolidação de atendimento local. Selecione a sua região para obter direções, horários de atendimento e conserto de celulares em Salvador próximo a você.
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ const LocaisDeAtendimento = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-4">
                     <MapPin className="w-5 h-5 text-primary" />
-                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("Assistência Técnica de Celular na ", "").replace("Assistência Técnica de Celular em ", "")}</h2>
+                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("oficina de conserto de celular de Celular na ", "").replace("oficina de conserto de celular de Celular em ", "")}</h2>
                   </div>
                   <p className="text-sm text-muted-foreground mb-6">
                     {local.description}

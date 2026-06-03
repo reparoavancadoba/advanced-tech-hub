@@ -1,7 +1,7 @@
 import { Microscope, Eye, MapPin, Zap } from "lucide-react";
 
 const items = [
-  { icon: Microscope, title: "Laboratório Próprio", desc: "Equipamentos profissionais de última geração para diagnóstico e reparo." },
+  { icon: Microscope, title: "Laboratório Próprio", desc: "Equipamentos profissionais de última geração para avaliação e reparo." },
   { icon: Eye, title: "Transparência Total", desc: "Você acompanha todo o processo de reparo do seu aparelho." },
   { icon: MapPin, title: "Atendimento na Boca do Rio", desc: "Localização estratégica e fácil acesso para toda Salvador." },
   { icon: Zap, title: "Rapidez (Serviços em 40min)", desc: "A maioria dos reparos é finalizada enquanto você espera." },

@@ -16,7 +16,7 @@ const BrandsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">
-            Especialistas nas <span className="text-gradient">Principais Marcas</span>
+            profissionais nas <span className="text-gradient">Principais Marcas</span>
           </h2>
           <p className="text-muted-foreground">
             Peças de altíssima qualidade para todos os modelos.

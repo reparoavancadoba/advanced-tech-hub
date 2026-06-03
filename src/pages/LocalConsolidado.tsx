@@ -126,7 +126,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-              <MapPin className="w-4 h-4" /> Atendimento Técnico no bairro {local.name}
+              <MapPin className="w-4 h-4" /> atendimento presencial no bairro {local.name}
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {local.h1}
@@ -151,7 +151,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       <section className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-center mb-4 text-foreground">Serviços Disponíveis para {local.name}</h2>
-          <p className="text-muted-foreground text-center mb-12">Consertos rápidos realizados por técnicos especializados com peças premium e garantia por escrito.</p>
+          <p className="text-muted-foreground text-center mb-12">Consertos rápidos realizados por profissionals focados com peças premium e garantia por escrito.</p>
           
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {Object.values(servicosConsolidados).map((serv) => (
@@ -180,7 +180,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             <div>
               <h2 className="text-3xl font-bold mb-6 text-foreground">Como Chegar e Contato</h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Nosso laboratório principal fica localizado próximo a você na Boca do Rio. Oferecemos suporte completo com técnicos e equipamentos qualificados.
+                Nosso laboratório principal fica localizado próximo a você na Boca do Rio. Oferecemos atendimento completo com profissionals e equipamentos qualificados.
               </p>
               
               <ul className="space-y-4 mb-8 text-muted-foreground">
@@ -241,7 +241,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       <section className="py-16 bg-secondary/20 border-t border-border">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-xl font-bold mb-6">Outras Áreas Atendidas em Salvador</h2>
-          <p className="text-sm text-muted-foreground mb-8">Conheça outras regiões estratégicas com suporte técnico dedicado da nossa equipe:</p>
+          <p className="text-sm text-muted-foreground mb-8">Conheça outras regiões estratégicas com conserto presencial dedicado da nossa equipe:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {listLocaisConsolidados
               .filter((loc) => loc.slug !== local.slug)
@@ -251,7 +251,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
                   to={loc.path}
                   className="text-xs bg-card border border-border text-foreground px-4 py-2 rounded-full hover:border-primary hover:text-primary transition-all"
                 >
-                  Assistência {loc.name}
+                  oficina {loc.name}
                 </Link>
               ))}
           </div>

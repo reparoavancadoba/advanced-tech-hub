@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen gradient-hero overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <img src={heroImg} alt="Técnico especialista em microeletrônica" className="w-full h-full object-cover opacity-30" width={1280} height={720} />
+        <img src={heroImg} alt="profissional profissional em microeletrônica" className="w-full h-full object-cover opacity-30" width={1280} height={720} />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/50" />
       </div>
 
@@ -25,7 +25,7 @@ const HeroSection = () => {
               <span className="text-gradient">9 anos de tradição.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-              Especialistas em iPhone, Samsung e Reparo de Placa na Boca do Rio. Orçamento gratuito e serviço feito na hora.
+              profissionais em iPhone, Samsung e Reparo de circuito integrado na Boca do Rio. Orçamento gratuito e serviço feito na hora.
             </p>
             <a
               href={WHATSAPP_LINK}

@@ -33,7 +33,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A tela quebrou, mas o touch ainda funciona. Preciso trocar tudo?",
-        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para diagnóstico técnico na loja."
+        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
       },
       {
         question: "Quanto tempo demora a troca de tela?",
@@ -76,10 +76,10 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "reparo-em-placa": {
     slug: "reparo-em-placa",
-    title: "Reparo de Placa de Celular em Salvador | Microeletrônica Avançada",
-    h1: "Reparo de Placa Lógica de Celular em Salvador",
-    metaDescription: "Especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa lógica de celulares. Recuperamos aparelhos condenados por outras assistências.",
-    description: "Somos um dos poucos laboratórios de Salvador especializados em microeletrônica avançada. Recuperamos placas condenadas por outras assistências técnicas através de diagnósticos minuciosos por microscópio.",
+    title: "Reparo de circuito integrado de Celular em Salvador | Microeletrônica Avançada",
+    h1: "Reparo de circuito lógico de Celular em Salvador",
+    metaDescription: "profissionais em micro-soldagem BGA e avaliação de curto-circuito na circuito lógico de celulares. Recuperamos aparelhos condenados por outras oficinas.",
+    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de avaliaçãos minuciosos por microscópio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],
     problems: [
       "Celular não liga de forma alguma e não consome corrente no carregador",
@@ -87,27 +87,27 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Wi-Fi, Bluetooth ou sinal de operadora indisponíveis (chips cinzas)",
       "Danos severos por curtos de carregador genérico ou oxidação profunda"
     ],
-    solution: "Efetuamos reparos microscópicos na placa lógica, incluindo reballing de processador/memória, substituição de CIs de carga (como Tristar/Hydra), recuperação de trilhas e eliminação de curtos em capacitores e resistores.",
+    solution: "Efetuamos reparos microscópicos na circuito lógico, incluindo reballing de processador/memória, substituição de CIs de carga (como Tristar/Hydra), restauração de trilhas e eliminação de curtos em capacitores e resistores.",
     faqs: [
       {
-        question: "O reparo de placa é seguro? Vou perder meus dados?",
-        answer: "O reparo é seguro e realizado por especialistas sob microscópio. Na grande maioria dos casos, os dados do aparelho (fotos, contatos e arquivos) são preservados intactos, exceto quando há dano físico irreversível na memória (NAND)."
+        question: "O reparo de circuito integrado é seguro? Vou perder meus dados?",
+        answer: "O reparo é seguro e realizado por profissionais sob microscópio. Na grande maioria dos casos, os dados do aparelho (fotos, contatos e arquivos) são preservados intactos, exceto quando há dano físico irreversível na memória (NAND)."
       },
       {
-        question: "Por que outras assistências condenam a placa e vocês conseguem recuperar?",
-        answer: "A maioria das assistências atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de diagnóstico térmico, soldagem BGA e técnicos formados em microeletrônica de precisão."
+        question: "Por que outras oficinas condenam o circuito interno e vocês conseguem recuperar?",
+        answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de avaliação térmico, soldagem BGA e profissionals formados em microeletrônica de precisão."
       },
       {
         question: "Quanto custa um reparo de placa?",
-        answer: "O valor é baseado na complexidade do circuito afetado. O diagnóstico técnico inicial é 100% gratuito e o orçamento é apresentado antes de iniciarmos qualquer intervenção."
+        answer: "O valor é baseado na complexidade do circuito afetado. O avaliação profissional inicial é 100% gratuito e o orçamento é apresentado antes de iniciarmos qualquer intervenção."
       }
     ]
   },
   "conserto-de-celular": {
     slug: "conserto-de-celular",
-    title: "Conserto de Celular em Salvador | Assistência Técnica Multimarcas",
-    h1: "Conserto de Celular em Salvador - Especialistas Multimarcas",
-    metaDescription: "Assistência técnica completa para celulares em Salvador. Reparo de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
+    title: "Conserto de Celular em Salvador | oficina de conserto de celular Multimarcas",
+    h1: "Conserto de Celular em Salvador - profissionais Multimarcas",
+    metaDescription: "oficina de conserto de celular completa para celulares em Salvador. Reparo de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
     description: "Oferecemos uma gama completa de soluções de reparo para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
@@ -117,11 +117,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Falhas em sensores biométricos (Touch ID, Face ID e leitores sob a tela)",
       "Erros de sistema operacional, travamentos e lentidões frequentes"
     ],
-    solution: "Utilizamos peças de reposição premium com encaixe e funcionamento de fábrica. Todos os reparos são acompanhados de testes rigorosos em nosso check-up técnico pós-serviço.",
+    solution: "Utilizamos peças de reposição premium com encaixe e funcionamento de fábrica. Todos os reparos são acompanhados de testes rigorosos em nosso check-up profissional pós-serviço.",
     faqs: [
       {
         question: "Vocês consertam tablets e relógios inteligentes também?",
-        answer: "Sim! Além de smartphones, oferecemos assistência técnica especializada para iPads, tablets Android, Apple Watches e relógios multimarcas."
+        answer: "Sim! Além de smartphones, oferecemos oficina de conserto de celular focada para iPads, tablets Android, Apple Watches e relógios multimarcas."
       },
       {
         question: "Qual o prazo de garantia oferecido nos consertos?",
@@ -137,7 +137,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     slug: "celular-nao-carrega",
     title: "Celular Não Carrega em Salvador | Troca de Conector de Carga",
     h1: "Celular Não Carrega ou Mau Contato no Conector",
-    metaDescription: "Celular com mau contato para carregar ou erro de umidade? Diagnóstico gratuito e troca de conector USB-C ou Lightning na Boca do Rio, Salvador.",
+    metaDescription: "Celular com mau contato para carregar ou erro de umidade? avaliação gratuita e troca de conector USB-C ou Lightning na Boca do Rio, Salvador.",
     description: "Se o seu celular só carrega se inclinar o cabo, não reconhece o carregador ou exibe avisos de erro (como presença de umidade no conector), nós resolvemos o problema rapidamente.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
@@ -154,7 +154,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Como resolver o erro persistente de umidade no Samsung?",
-        answer: "Usamos calibração via software e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar a placa de carga na maioria das vezes."
+        answer: "Usamos calibração via software e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar o circuito interno de carga na maioria das vezes."
       },
       {
         question: "A substituição do conector de carga é feita na hora?",
@@ -164,10 +164,10 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "celular-nao-liga": {
     slug: "celular-nao-liga",
-    title: "Celular Não Liga em Salvador | Diagnóstico Técnico Gratuito",
+    title: "Celular Não Liga em Salvador | avaliação profissional Gratuito",
     h1: "Celular Não Liga ou Não Dá Sinais de Vida",
-    metaDescription: "Smartphone apagou e não liga mais? Oferecemos diagnóstico 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
-    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de software até falhas graves na placa. Nós oferecemos um diagnóstico gratuito de precisão.",
+    metaDescription: "Smartphone apagou e não liga mais? Oferecemos avaliação 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
+    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves no circuito interno. Nós oferecemos um avaliação gratuita de precisão.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho apagou completamente e não dá sinal de carga nem imagem",
@@ -179,11 +179,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "Vocês cobram para descobrir por que o celular não liga?",
-        answer: "Não. O nosso diagnóstico técnico é 100% gratuito. Nós abrimos o aparelho, analisamos os circuitos e apresentamos o orçamento. Se você optar por não fazer o serviço, não paga nada pelo orçamento."
+        answer: "Não. O nosso avaliação profissional é 100% gratuito. Nós abrimos o aparelho, analisamos os circuitos e apresentamos o orçamento. Se você optar por não fazer o serviço, não paga nada pelo orçamento."
       },
       {
         question: "Pode ser apenas um travamento de sistema?",
-        answer: "Sim. Algumas falhas são causadas por 'crash' no sistema operacional. Nesses casos, realizamos um reset forçado físico ou reinstalação do software para restaurar o celular sem abrir o aparelho."
+        answer: "Sim. Algumas falhas são causadas por 'crash' no sistema operacional. Nesses casos, realizamos um reset forçado físico ou reajuste presencial presencial do software para restaurar o celular sem abrir o aparelho."
       },
       {
         question: "Se o processador estiver queimado, o celular tem conserto?",
@@ -196,7 +196,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Celular Caiu na Água em Salvador | Desoxidação e Banho Químico",
     h1: "Celular Caiu na Água ou Contato com Líquido",
     metaDescription: "Celular molhou na piscina, chuva ou no mar? Faça desoxidação profissional imediata. NÃO use arroz! Atendimento de urgência em Salvador.",
-    description: "A infiltração de água e, principalmente, da maresia e do sal de Salvador nas placas de celular causa corrosão acelerada. Agir rápido com uma desoxidação química profissional é crucial para salvar o aparelho.",
+    description: "A infiltração de água e, principalmente, da maresia e do sal de Salvador nas circuitos internos de celular causa corrosão acelerada. Agir rápido com uma desoxidação química profissional é crucial para salvar o aparelho.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho caiu no mar, piscina, vaso sanitário ou molhou na chuva",
@@ -204,15 +204,15 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Câmeras embaçadas por condensação interna",
       "Celular parou de ligar ou descarrega em minutos após molhar"
     ],
-    solution: "Efetuamos a desmontagem completa imediata, banho químico ultrassônico com solventes isopropílicos de alta pureza para interromper a corrosão, limpeza microscópica dos conectores e secagem controlada da placa.",
+    solution: "Efetuamos a desmontagem completa imediata, banho químico ultrassônico com solventes isopropílicos de alta pureza para interromper a corrosão, limpeza microscópica dos conectores e secagem controlada do circuito interno.",
     faqs: [
       {
         question: "O celular caiu na água. Colocar no arroz resolve?",
-        answer: "Não. O arroz não remove oxidação, sal, minerais ou umidade interna da placa. O recomendado é desligar o aparelho e procurar uma assistência técnica especializada o quanto antes."
+        answer: "Não. O arroz não remove oxidação, sal, minerais ou umidade interna do circuito interno. O recomendado é desligar o aparelho e procurar uma oficina de conserto de celular focada o quanto antes."
       },
       {
         question: "O que devo fazer imediatamente se o celular molhar?",
-        answer: "Desligue o celular imediatamente, não tente conectá-lo ao carregador (a corrente elétrica em contato com a água causa curto-circuito fatal) e traga o aparelho o mais rápido possível para a assistência."
+        answer: "Desligue o celular imediatamente, não tente conectá-lo ao carregador (a corrente elétrica em contato com a água causa curto-circuito fatal) e traga o aparelho o mais rápido possível para a oficina."
       },
       {
         question: "Celulares resistentes à água (IP68) precisam de conserto se molharem?",
@@ -231,6 +231,6 @@ export const servicesHubList = [
   { slug: "reparo-em-placa", name: "Reparo em Placa", desc: "Micro-soldagem e eletrônica de alta complexidade.", iconName: "Cpu" },
   { slug: "conserto-de-celular", name: "Conserto Geral", desc: "Reparos de câmeras, áudio, botões e carcaça.", iconName: "Wrench" },
   { slug: "celular-nao-carrega", name: "Não Carrega", desc: "Troca e limpeza de conectores USB-C e Lightning.", iconName: "BatteryCharging" },
-  { slug: "celular-nao-liga", name: "Não Liga", desc: "Diagnóstico gratuito de falha elétrica e inicialização.", iconName: "Power" },
+  { slug: "celular-nao-liga", name: "Não Liga", desc: "avaliação gratuita de falha elétrica e inicialização.", iconName: "Power" },
   { slug: "celular-caiu-na-agua", name: "Caiu na Água", desc: "Banho químico ultrassônico imediato anti-oxidação.", iconName: "Droplet" }
 ];

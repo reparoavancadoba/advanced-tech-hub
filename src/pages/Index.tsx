@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Reparo Avançado | Assistência Técnica de Celulares em Salvador</title>
-        <meta name="description" content="Assistência técnica especializada em iPhone, Samsung e reparo de placa em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito!" />
+        <title>Reparo Avançado | oficina de conserto de celular de Celulares em Salvador</title>
+        <meta name="description" content="oficina de conserto de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
       </Helmet>
       <HeroSection />

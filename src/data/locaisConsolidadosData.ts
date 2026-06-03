@@ -25,7 +25,7 @@ export interface LocalConsolidadoData {
 }
 
 const baseSchema: LocalBusinessSchemaData = {
-  name: "Reparo Avançado - Assistência Técnica de Celulares em Salvador",
+  name: "Reparo Avançado - oficina de conserto de celular de Celulares em Salvador",
   streetAddress: "R. Abelardo Andrade de Carvalho, 8",
   addressLocality: "Salvador",
   addressRegion: "BA",
@@ -47,13 +47,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "salvador",
     path: "/assistencia-tecnica-salvador",
     name: "Salvador",
-    title: "Assistência Técnica de Celular em Salvador | Reparo Avançado",
-    h1: "Assistência Técnica de Celular em Salvador",
-    metaDescription: "Reparo especializado de iPhone, Samsung, Xiaomi e placa lógica em Salvador. Atendimento rápido com peças premium e garantia. Faça seu orçamento!",
-    description: "A Reparo Avançado é referência em assistência técnica em Salvador (BA). Com mais de 9 anos de experiência e laboratório especializado de alta tecnologia, oferecemos reparos rápidos e garantia formal em todos os serviços.",
+    title: "oficina de conserto de celular de Celular em Salvador | Reparo Avançado",
+    h1: "oficina de conserto de celular de Celular em Salvador",
+    metaDescription: "Reparo focado de iPhone, Samsung, Xiaomi e circuito lógico em Salvador. Atendimento rápido com peças premium e garantia. Faça seu orçamento!",
+    description: "A Reparo Avançado é referência em oficina de conserto de celular em Salvador (BA). Com mais de 9 anos de experiência e laboratório focado de alta tecnologia, oferecemos reparos rápidos e garantia formal em todos os serviços.",
     schema: {
       ...baseSchema,
-      name: "Reparo Avançado - Assistência Técnica de Celulares em Salvador",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares em Salvador",
       addressLocality: "Salvador",
       areaServed: baseSchema.areaServed
     }
@@ -62,13 +62,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "boca-do-rio",
     path: "/assistencia-tecnica-boca-do-rio",
     name: "Boca do Rio",
-    title: "Assistência Técnica de Celular na Boca do Rio | Salvador | Reparo Avançado",
-    h1: "Assistência Técnica de Celular na Boca do Rio",
-    metaDescription: "Assistência técnica de celulares na Boca do Rio, Salvador. Especialistas em iPhone, Samsung, Xiaomi e conserto de placa. Orçamento gratuito no WhatsApp!",
+    title: "oficina de conserto de celular de Celular na Boca do Rio | Salvador | Reparo Avançado",
+    h1: "oficina de conserto de celular de Celular na Boca do Rio",
+    metaDescription: "oficina de conserto de celular de celulares na Boca do Rio, Salvador. profissionais em iPhone, Samsung, Xiaomi e conserto de circuito integrado. Orçamento gratuito no WhatsApp!",
     description: "Localizada estrategicamente no bairro Boca do Rio em Salvador, a Reparo Avançado oferece serviços de reparo rápidos e eficientes para moradores e trabalhadores do bairro e adjacências, com foco em peças premium.",
     schema: {
       ...baseSchema,
-      name: "Reparo Avançado - Assistência Técnica de Celulares na Boca do Rio",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares na Boca do Rio",
       addressLocality: "Boca do Rio, Salvador",
       areaServed: ["Boca do Rio", "Costa Azul", "Imbuí", "Stiep", "Jardim Armação", "Patamares"]
     }
@@ -77,13 +77,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "pituba",
     path: "/assistencia-tecnica-pituba",
     name: "Pituba",
-    title: "Assistência Técnica de Celular na Pituba | Salvador | Reparo Avançado",
-    h1: "Assistência Técnica de Celular na Pituba",
-    metaDescription: "Precisa de conserto de celular na Pituba? A Reparo Avançado oferece troca de tela, bateria e reparo de placa rápida com peças premium e garantia. Fale conosco!",
-    description: "Atendemos a região da Pituba e adjacências em Salvador com serviços especializados de reparo de iPhone, Samsung, Xiaomi e consertos de placas de alta precisão. Peças de alta performance com garantia por escrito.",
+    title: "oficina de conserto de celular de Celular na Pituba | Salvador | Reparo Avançado",
+    h1: "oficina de conserto de celular de Celular na Pituba",
+    metaDescription: "Precisa de conserto de celular na Pituba? A Reparo Avançado oferece troca de tela, bateria e reparo de circuito integrado rápida com peças premium e garantia. Fale conosco!",
+    description: "Atendemos a região da Pituba e adjacências em Salvador com serviços focados de reparo de iPhone, Samsung, Xiaomi e consertos de circuitos integrados de alta precisão. Peças de alta performance com garantia por escrito.",
     schema: {
       ...baseSchema,
-      name: "Reparo Avançado - Assistência Técnica de Celulares na Pituba",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares na Pituba",
       addressLocality: "Pituba, Salvador",
       areaServed: ["Pituba", "Itaigara", "Caminho das Árvores", "Rio Vermelho"]
     }
@@ -92,13 +92,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "imbui",
     path: "/assistencia-tecnica-imbui",
     name: "Imbuí",
-    title: "Assistência Técnica de Celular no Imbuí | Salvador | Reparo Avançado",
-    h1: "Assistência Técnica de Celular no Imbuí",
-    metaDescription: "Assistência técnica de celulares no Imbuí, Salvador. Reparo expresso de tela, bateria e placa lógica. Peças de alta performance com garantia real.",
-    description: "Moradores do Imbuí encontram na Reparo Avançado a melhor solução para reparos de smartphones e notebooks. Fale diretamente com nossos técnicos e receba orçamento rápido no WhatsApp.",
+    title: "oficina de conserto de celular de Celular no Imbuí | Salvador | Reparo Avançado",
+    h1: "oficina de conserto de celular de Celular no Imbuí",
+    metaDescription: "oficina de conserto de celular de celulares no Imbuí, Salvador. Reparo expresso de tela, bateria e circuito lógico. Peças de alta performance com garantia real.",
+    description: "Moradores do Imbuí encontram na Reparo Avançado a melhor solução para reparos de smartphones e notebooks. Fale diretamente com nossos profissionals e receba orçamento rápido no WhatsApp.",
     schema: {
       ...baseSchema,
-      name: "Reparo Avançado - Assistência Técnica de Celulares no Imbuí",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares no Imbuí",
       addressLocality: "Imbuí, Salvador",
       areaServed: ["Imbuí", "Boca do Rio", "Cabula", "Narandiba", "Stiep"]
     }
@@ -107,13 +107,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "brotas",
     path: "/assistencia-tecnica-brotas",
     name: "Brotas",
-    title: "Assistência Técnica de Celular em Brotas | Salvador | Reparo Avançado",
-    h1: "Assistência Técnica de Celular em Brotas",
-    metaDescription: "Conserto de celular em Brotas, Salvador. Troca de tela, bateria, microfone, conectores e placas com qualidade premium e garantia formal. Solicite orçamento!",
-    description: "Oferecemos atendimento para o bairro de Brotas com diagnósticos precisos, consertos rápidos e garantia real em componentes de alta qualidade. Conte com a Reparo Avançado para recuperar seu celular.",
+    title: "oficina de conserto de celular de Celular em Brotas | Salvador | Reparo Avançado",
+    h1: "oficina de conserto de celular de Celular em Brotas",
+    metaDescription: "Conserto de celular em Brotas, Salvador. Troca de tela, bateria, microfone, conectores e circuitos internos com qualidade premium e garantia formal. Solicite orçamento!",
+    description: "Oferecemos atendimento para o bairro de Brotas com avaliaçãos precisos, consertos rápidos e garantia real em componentes de alta qualidade. Conte com a Reparo Avançado para recuperar seu celular.",
     schema: {
       ...baseSchema,
-      name: "Reparo Avançado - Assistência Técnica de Celulares em Brotas",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares em Brotas",
       addressLocality: "Brotas, Salvador",
       areaServed: ["Brotas", "Cabula", "Vila Laura", "Horto Florestal", "Centro"]
     }

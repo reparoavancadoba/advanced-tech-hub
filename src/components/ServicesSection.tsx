@@ -41,7 +41,7 @@ const ServicesSection = () => {
           Nossos <span className="text-gradient">Serviços</span>
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto">
-          Escolha a categoria e fale direto com nosso especialista
+          Escolha a categoria e fale direto com nosso profissional
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
