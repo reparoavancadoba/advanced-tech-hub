@@ -21,8 +21,7 @@ const HeroSection = () => {
         <div className="flex-1 flex items-center">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-6">
-              O conserto do seu celular em Salvador com quem entende:{" "}
-              <span className="text-gradient">9 anos de tradição.</span>
+              Conserto de Celular em Salvador | <span className="text-gradient">Reparo Avançado</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
               profissionais em iPhone, Samsung e Reparo de circuito integrado na Boca do Rio. Orçamento gratuito e serviço feito na hora.

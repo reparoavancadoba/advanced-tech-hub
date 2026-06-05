@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import BrandsSection from "@/components/BrandsSection";
 import AuthoritySection from "@/components/AuthoritySection";
 import ServicesSection from "@/components/ServicesSection";
+import HomeSeoSection from "@/components/HomeSeoSection";
 
 import TestimonialsSection from "@/components/TestimonialsSection";
 import DifferentialsSection from "@/components/DifferentialsSection";
@@ -14,7 +15,7 @@ const Index = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Reparo Avançado | oficina de conserto de celular de Celulares em Salvador</title>
+        <title>Conserto de Celular em Salvador | Reparo Avançado</title>
         <meta name="description" content="oficina de conserto de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
       </Helmet>
@@ -30,6 +31,7 @@ const Index = () => {
           Ver todos os serviços detalhados <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
+      <HomeSeoSection />
       <TestimonialsSection />
       <DifferentialsSection />
     </SiteLayout>
