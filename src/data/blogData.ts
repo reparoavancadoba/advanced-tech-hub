@@ -40,6 +40,9 @@ export interface BlogPost {
   sections?: ContentSection[];
   keywords?: string[];
   isEditorial?: boolean;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
 }
 
 export const categoryLabels: Record<Category, string> = {

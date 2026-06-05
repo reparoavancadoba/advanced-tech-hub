@@ -12,12 +12,28 @@ import { ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
+  const orgJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Reparo Avançado",
+    "url": "https://site.reparoavancado.com.br",
+    "logo": "https://site.reparoavancado.com.br/favicon.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-71-99198-1437",
+      "contactType": "customer service",
+      "areaServed": "BR",
+      "availableLanguage": "Portuguese"
+    }
+  };
+
   return (
     <SiteLayout>
       <Helmet>
         <title>Conserto de Celular em Salvador | Reparo Avançado</title>
         <meta name="description" content="oficina de conserto de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
+        <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
       </Helmet>
       <HeroSection />
       <BrandsSection />

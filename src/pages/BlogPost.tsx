@@ -55,11 +55,25 @@ const BlogPost = () => {
         "@type": "Article",
         headline: post.h1,
         description: post.metaDescription,
-        author: { "@type": "Organization", name: "Reparo Avançado" },
+        datePublished: post.datePublished || "2026-06-01",
+        dateModified: post.dateModified || "2026-06-05",
+        author: {
+          "@type": "Person",
+          name: post.author || "Paulo Lopes",
+          jobTitle: "Técnico Especialista em Hardware",
+          worksFor: {
+            "@type": "Organization",
+            name: "Reparo Avançado"
+          }
+        },
         publisher: {
           "@type": "Organization",
           "name": "Reparo Avançado",
           url: "https://site.reparoavancado.com.br",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://site.reparoavancado.com.br/favicon.png"
+          }
         },
       },
       {
@@ -125,7 +139,26 @@ const BlogPost = () => {
           <span className="text-foreground">{post.service}</span>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.h1}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-2">{post.h1}</h1>
+        
+        {/* E-E-A-T Metadata Block */}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground mb-6 border-b border-border pb-4">
+          <div className="flex items-center gap-1">
+            <span>Escrito por:</span>
+            <span className="font-semibold text-foreground">{post.author || "Paulo Lopes"}</span>
+          </div>
+          <div className="w-1 h-1 rounded-full bg-border hidden sm:block" />
+          <div className="flex items-center gap-1">
+            <span>Publicado em:</span>
+            <span className="font-semibold text-foreground">{post.datePublished || "01/06/2026"}</span>
+          </div>
+          <div className="w-1 h-1 rounded-full bg-border hidden sm:block" />
+          <div className="flex items-center gap-1">
+            <span>Atualizado em:</span>
+            <span className="font-semibold text-foreground">{post.dateModified || "05/06/2026"}</span>
+          </div>
+        </div>
+
         <p className="text-muted-foreground mb-8 text-lg">{post.description}</p>
 
         <a
