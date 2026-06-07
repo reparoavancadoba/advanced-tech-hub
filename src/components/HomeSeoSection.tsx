@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { MessageCircle, CheckCircle2, HelpCircle } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento (Vim pelo Site Orgânico).";
+const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento.";
 
 const HomeSeoSection = () => {
   return (

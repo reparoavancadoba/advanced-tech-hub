@@ -18,7 +18,7 @@ const serviceIcons: Record<string, React.ElementType> = {
 
 const Servicos = () => {
   const latestArticles = editorialPosts.slice(0, 3);
-  const waLink = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento profissional para meu celular (Vim pelo Site Orgânico).";
+  const waLink = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento profissional para meu celular.";
 
   const hubFaqs = [
     {

@@ -22,7 +22,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
   }
 
   const canonicalUrl = `https://site.reparoavancado.com.br/${service.slug}`;
-  const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(`Olá! Preciso de um orçamento para o serviço de ${service.h1} em Salvador (Vim pelo Site Orgânico).`)}`;
+  const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(`Olá! Preciso de um orçamento para o serviço de ${service.h1} em Salvador.`)}`;
 
   const benefits = [
     { icon: Zap, title: "Atendimento Rápido", desc: "A maioria dos conserto realizados no mesmo dia, no máximo em 1 hora." },

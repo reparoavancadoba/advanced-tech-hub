@@ -58,7 +58,7 @@ const BlogPost = () => {
   const wordCount = getWordCount();
   const readingTime = Math.ceil(wordCount / 200);
 
-  const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(`Olá! Vi o post sobre ${post.service} ${post.model} no Site Orgânico e preciso de ajuda.`)}`;
+  const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(`Olá, vi o post sobre ${post.service} ${post.model} e preciso de ajuda`)}`;
 
   const relatedPosts = post.relatedSlugs
     .map((s) => allPosts.find((p) => p.slug === s))

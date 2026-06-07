@@ -11,25 +11,25 @@ const services = [
     image: iphoneOrange,
     label: "iOS",
     text: "Clique no botão para atendimento no WhatsApp para IOS",
-    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para iOS (Vim pelo Site Orgânico).")}`,
+    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para iOS.")}`,
   },
   {
     image: pocoGreen,
     label: "Android",
     text: "Clique no botão para atendimento no WhatsApp para ANDROID",
-    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para Android (Vim pelo Site Orgânico).")}`,
+    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para Android.")}`,
   },
   {
     image: appleWatch,
     label: "Acessórios",
     text: "Clique no botão para atendimento no WhatsApp para ACESSÓRIOS",
-    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para Acessórios (Vim pelo Site Orgânico).")}`,
+    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de solicitar um orçamento para Acessórios.")}`,
   },
   {
     image: iphoneBlue,
     label: "Vendas",
     text: "Clique no botão para atendimento no WhatsApp para COMPRA DE APARELHO",
-    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de informações sobre compra de aparelho (Vim pelo Site Orgânico).")}`,
+    whatsapp: `${WHATSAPP_BASE}${encodeURIComponent("Olá! Gostaria de informações sobre compra de aparelho.")}`,
   },
 ];
 
