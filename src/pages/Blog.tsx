@@ -147,7 +147,7 @@ const Blog = () => {
             Não encontrou seu modelo? Fale diretamente com nosso profissional pelo WhatsApp.
           </p>
           <a
-            href="https://wa.me/5571991981437?text=Olá! Vi o blog e preciso de ajuda com meu aparelho."
+            href="https://wa.me/5571991981437?text=Olá! Vi o blog e preciso de ajuda com meu aparelho (Vim pelo Site Orgânico)."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-lg font-semibold hover:brightness-110 transition-all animate-pulse-whatsapp"
