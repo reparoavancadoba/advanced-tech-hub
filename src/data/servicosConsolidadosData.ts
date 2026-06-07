@@ -21,7 +21,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Tela de Celular em Salvador | Peças Premium e Garantia",
     h1: "Troca de Tela de Celular em Salvador",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
-    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a Reparo Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
+    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a conserto Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Vidro trincado ou completamente estilhaçado",
@@ -33,7 +33,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A tela quebrou, mas o touch ainda funciona. Preciso trocar tudo?",
-        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
+        answer: "Na conserto Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
       },
       {
         question: "Quanto tempo demora a troca de tela?",
@@ -47,7 +47,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "troca-de-bateria": {
     slug: "troca-de-bateria",
-    title: "Troca de Bateria de Celular em Salvador | Saúde 100% | Reparo Avançado",
+    title: "Troca de Bateria de Celular em Salvador | Saúde 100% | conserto Avançado",
     h1: "Troca de Bateria de Celular em Salvador",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
     description: "Restaure a autonomia original do seu smartphone. Substituímos baterias gastas ou estufadas por componentes certificados de alta performance que devolvem a capacidade de carga completa ao aparelho.",
@@ -62,7 +62,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A bateria nova vai exibir 100% de saúde sem mensagens de erro?",
-        answer: "Sim! Na Reparo Avançado, utilizamos programadores dedicados para transferir e reprogramar o controlador da bateria original, garantindo que o sistema reconheça a nova bateria com 100% de integridade e sem alertas."
+        answer: "Sim! Na conserto Avançado, utilizamos programadores dedicados para transferir e reprogramar o controlador da bateria original, garantindo que o sistema reconheça a nova bateria com 100% de integridade e sem alertas."
       },
       {
         question: "Quanto tempo dura o serviço de troca de bateria?",
@@ -76,10 +76,10 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "reparo-em-placa": {
     slug: "reparo-em-placa",
-    title: "Reparo de circuito integrado de Celular em Salvador | Microeletrônica Avançada",
-    h1: "Reparo de circuito lógico de Celular em Salvador",
+    title: "conserto de circuito integrado de Celular em Salvador | Microeletrônica Avançada",
+    h1: "conserto de circuito lógico de Celular em Salvador",
     metaDescription: "profissionais em micro-soldagem BGA e avaliação de curto-circuito na circuito lógico de celulares. Recuperamos aparelhos condenados por outras oficinas.",
-    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de avaliaçãos minuciosos por microscópio.",
+    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de avaliações minuciosos por microscópio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],
     problems: [
       "Celular não liga de forma alguma e não consome corrente no carregador",
@@ -87,18 +87,18 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Wi-Fi, Bluetooth ou sinal de operadora indisponíveis (chips cinzas)",
       "Danos severos por curtos de carregador genérico ou oxidação profunda"
     ],
-    solution: "Efetuamos reparos microscópicos na circuito lógico, incluindo reballing de processador/memória, substituição de CIs de carga (como Tristar/Hydra), restauração de trilhas e eliminação de curtos em capacitores e resistores.",
+    solution: "Efetuamos conserto microscópicos na circuito lógico, incluindo reballing de processador/memória, substituição de CIs de carga (como Tristar/Hydra), restauração de trilhas e eliminação de curtos em capacitores e resistores.",
     faqs: [
       {
-        question: "O reparo de circuito integrado é seguro? Vou perder meus dados?",
-        answer: "O reparo é seguro e realizado por profissionais sob microscópio. Na grande maioria dos casos, os dados do aparelho (fotos, contatos e arquivos) são preservados intactos, exceto quando há dano físico irreversível na memória (NAND)."
+        question: "O conserto de circuito integrado é seguro? Vou perder meus dados?",
+        answer: "O conserto é seguro e realizado por profissionais sob microscópio. Na grande maioria dos casos, os dados do aparelho (fotos, contatos e arquivos) são preservados intactos, exceto quando há dano físico irreversível na memória (NAND)."
       },
       {
         question: "Por que outras oficinas condenam o circuito interno e vocês conseguem recuperar?",
         answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de avaliação térmico, soldagem BGA e profissionals formados em microeletrônica de precisão."
       },
       {
-        question: "Quanto custa um reparo de placa?",
+        question: "Quanto custa um conserto de circuito interno?",
         answer: "O valor é baseado na complexidade do circuito afetado. O avaliação profissional inicial é 100% gratuito e o orçamento é apresentado antes de iniciarmos qualquer intervenção."
       }
     ]
@@ -107,8 +107,8 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     slug: "conserto-de-celular",
     title: "Conserto de Celular em Salvador | oficina de conserto de celular Multimarcas",
     h1: "Conserto de Celular em Salvador - profissionais Multimarcas",
-    metaDescription: "oficina de conserto de celular completa para celulares em Salvador. Reparo de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
-    description: "Oferecemos uma gama completa de soluções de reparo para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
+    metaDescription: "oficina de conserto de celular completa para celulares em Salvador. conserto de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
+    description: "Oferecemos uma gama completa de soluções de conserto para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Câmeras embaçadas, trêmulas, com manchas ou sem foco",
@@ -117,7 +117,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Falhas em sensores biométricos (Touch ID, Face ID e leitores sob a tela)",
       "Erros de sistema operacional, travamentos e lentidões frequentes"
     ],
-    solution: "Utilizamos peças de reposição premium com encaixe e funcionamento de fábrica. Todos os reparos são acompanhados de testes rigorosos em nosso check-up profissional pós-serviço.",
+    solution: "Utilizamos peças de reposição premium com encaixe e funcionamento de fábrica. Todos os conserto são acompanhados de testes rigorosos em nosso check-up profissional pós-serviço.",
     faqs: [
       {
         question: "Vocês consertam tablets e relógios inteligentes também?",
@@ -125,7 +125,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Qual o prazo de garantia oferecido nos consertos?",
-        answer: "Todos os nossos serviços de hardware possuem garantia formal de 90 dias contra qualquer defeito de fabricação do componente instalado."
+        answer: "Todos os nossos serviços de componentes físicos possuem garantia formal de 90 dias contra qualquer defeito de fabricação do componente instalado."
       },
       {
         question: "Preciso agendar uma visita para consertar meu celular?",
@@ -154,11 +154,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Como resolver o erro persistente de umidade no Samsung?",
-        answer: "Usamos calibração via software e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar o circuito interno de carga na maioria das vezes."
+        answer: "Usamos calibração via sistema operacional e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar o circuito interno de carga na maioria das vezes."
       },
       {
         question: "A substituição do conector de carga é feita na hora?",
-        answer: "Sim. A troca ou reparo do conector de carga costuma ser concluída em aproximadamente 1 hora em nosso laboratório."
+        answer: "Sim. A troca ou conserto do conector de carga costuma ser concluída em aproximadamente 1 hora em nosso laboratório."
       }
     ]
   },
@@ -175,7 +175,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Fica travado na tela inicial e reinicia em loop",
       "O LED de carga pisca, mas o aparelho não inicia"
     ],
-    solution: "Testamos a saúde elétrica da bateria, o consumo de corrente na fonte de bancada, a integridade da tela e o circuito lógico para identificar o problema exato, aplicando o reparo adequado com transparência.",
+    solution: "Testamos a saúde elétrica da bateria, o consumo de corrente na fonte de bancada, a integridade da tela e o circuito lógico para identificar o problema exato, aplicando o conserto adequado com transparência.",
     faqs: [
       {
         question: "Vocês cobram para descobrir por que o celular não liga?",
@@ -183,7 +183,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Pode ser apenas um travamento de sistema?",
-        answer: "Sim. Algumas falhas são causadas por 'crash' no sistema operacional. Nesses casos, realizamos um reset forçado físico ou reajuste presencial presencial do software para restaurar o celular sem abrir o aparelho."
+        answer: "Sim. Algumas falhas são causadas por 'crash' no sistema operacional. Nesses casos, realizamos um reset forçado físico ou reajuste presencial presencial do sistema operacional para restaurar o celular sem abrir o aparelho."
       },
       {
         question: "Se o processador estiver queimado, o celular tem conserto?",
@@ -228,8 +228,8 @@ export function getConsolidatedServiceBySlug(slug: string): ServicoConsolidadoDa
 export const servicesHubList = [
   { slug: "troca-de-tela", name: "Troca de Tela", desc: "Telas premium AMOLED/OLED. Cores vivas e touch perfeito.", iconName: "Smartphone" },
   { slug: "troca-de-bateria", name: "Troca de Bateria", desc: "Restauração de saúde 100% sem erros de sistema.", iconName: "Battery" },
-  { slug: "reparo-em-placa", name: "Reparo em Placa", desc: "Micro-soldagem e eletrônica de alta complexidade.", iconName: "Cpu" },
-  { slug: "conserto-de-celular", name: "Conserto Geral", desc: "Reparos de câmeras, áudio, botões e carcaça.", iconName: "Wrench" },
+  { slug: "reparo-em-placa", name: "conserto em circuito interno", desc: "Micro-soldagem e eletrônica de alta complexidade.", iconName: "Cpu" },
+  { slug: "conserto-de-celular", name: "Conserto Geral", desc: "conserto de câmeras, áudio, botões e carcaça.", iconName: "Wrench" },
   { slug: "celular-nao-carrega", name: "Não Carrega", desc: "Troca e limpeza de conectores USB-C e Lightning.", iconName: "BatteryCharging" },
   { slug: "celular-nao-liga", name: "Não Liga", desc: "avaliação gratuita de falha elétrica e inicialização.", iconName: "Power" },
   { slug: "celular-caiu-na-agua", name: "Caiu na Água", desc: "Banho químico ultrassônico imediato anti-oxidação.", iconName: "Droplet" }

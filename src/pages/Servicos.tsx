@@ -22,8 +22,8 @@ const Servicos = () => {
 
   const hubFaqs = [
     {
-      q: "Como funciona a garantia dos serviços na Reparo Avançado?",
-      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e reparos de circuito integrado possuem garantia por escrito de 3 meses (90 dias)."
+      q: "Como funciona a garantia dos serviços na conserto Avançado?",
+      a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e conserto de circuito integrado possuem garantia por escrito de 3 meses (90 dias)."
     },
     {
       q: "O avaliação do meu aparelho é cobrado?",
@@ -38,17 +38,17 @@ const Servicos = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Serviços e Especialidades | Reparo Avançado Salvador</title>
-        <meta name="description" content="Central de Serviços da Reparo Avançado. Conheça nossas especialidades: troca de tela, bateria, reparo de circuito integrado e desoxidação com garantia e atendimento local." />
+        <title>Serviços e Especialidades | conserto Avançado Salvador</title>
+        <meta name="description" content="Central de Serviços da conserto Avançado. Conheça nossas especialidades: troca de tela, bateria, conserto de circuito integrado e desoxidação com garantia e atendimento local." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/servicos" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Service",
+            "@type": "LocalBusiness",
             "name": "oficina de conserto de celular e Conserto de Celulares em Salvador",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Reparo Avançado",
+              "name": "conserto Avançado",
               "image": "https://site.reparoavancado.com.br/favicon.png",
               "telephone": "+5571991981437",
               "address": {

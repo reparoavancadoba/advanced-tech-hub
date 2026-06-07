@@ -34,7 +34,7 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de iPhone",
     shortName: "Conserto de iPhone",
     description:
-      "avaliação profissional avançado e reparo completo de iPhone com peças de alta performance e garantia real.",
+      "avaliação profissional avançado e conserto completo de iPhone com peças de alta performance e garantia real.",
   },
   {
     slug: "troca-de-tela",
@@ -52,8 +52,8 @@ export const servicosLocais: ServicoLocal[] = [
   },
   {
     slug: "reparo-de-placa",
-    name: "Reparo de Placa",
-    shortName: "Reparo de Placa",
+    name: "conserto de circuito interno",
+    shortName: "conserto de circuito interno",
     description:
       "Microeletrônica avançada. Recuperamos aparelhos condenados por outras oficinas.",
   },
@@ -69,7 +69,7 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de Samsung",
     shortName: "Conserto de Samsung",
     description:
-      "Reparo focado em Galaxy: tela AMOLED, placa, bateria e mais — com garantia.",
+      "conserto focado em Galaxy: tela AMOLED, circuito interno, bateria e mais — com garantia.",
   },
   {
     slug: "banho-quimico",

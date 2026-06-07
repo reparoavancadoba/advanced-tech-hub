@@ -4,7 +4,7 @@ export const WHATSAPP_NUMBER = "5571991981437";
 export const BUSINESS_ADDRESS = "R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710";
 export const BAIRROS = ["Boca do Rio", "Pituba", "Imbuí", "Costa Azul", "Stiep", "Patamares", "Jardim Armação"];
 
-export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks" | "manutencao";
+export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks" | "conserto";
 
 export interface FaqItem {
   question: string;
@@ -52,7 +52,7 @@ export const categoryLabels: Record<Category, string> = {
   realme: "Realme",
   motorola: "Motorola",
   notebooks: "Notebooks",
-  manutencao: "conserto",
+  conserto: "conserto",
 };
 
 // ─── SERVICES ───
@@ -98,9 +98,9 @@ const services: ServiceDef[] = [
     description: "Microeletrônica avançada para recuperar aparelhos dados como perdidos. Nosso laboratório conta com equipamentos de precisão para soldagem BGA e avaliação por microscópio.",
     problems: ["Aparelho não liga", "Reiniciando sozinho", "Sem sinal", "Curto-circuito", "Aparelho condenado por outras oficinas"],
     causes: ["Queda com impacto no circuito interno", "Entrada de líquido", "Curto-circuito por carregador irregular", "Desgaste de componentes"],
-    solution: "avaliação com microscópio profissional e reparo com estação de solda BGA. Recuperamos trilhas, substituímos CIs e componentes SMD.",
+    solution: "avaliação com microscópio profissional e conserto com estação de solda BGA. Recuperamos trilhas, substituímos CIs e componentes SMD.",
     whenToSeek: "Quando outra oficina disser que seu aparelho não tem conserto. Somos profissionais em recuperar o que outros não conseguem.",
-    costInfo: "avaliação detalhado gratuito. Valor varia conforme complexidade do reparo.",
+    costInfo: "avaliação detalhado gratuito. Valor varia conforme complexidade do conserto.",
     appliesTo: ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"],
   },
   {
@@ -128,7 +128,7 @@ const services: ServiceDef[] = [
   {
     name: "Alto-falante / Áudio",
     slug: "alto-falante-audio",
-    description: "Reparo e substituição de alto-falantes para som alto e cristalino.",
+    description: "conserto e substituição de alto-falantes para som alto e cristalino.",
     problems: ["Som baixo ou distorcido", "Sem som no viva-voz", "Música não toca pelo alto-falante", "Chiado durante ligações"],
     causes: ["Entrada de líquido no alto-falante", "Queda do aparelho", "Acúmulo de poeira", "Desgaste do componente"],
     solution: "Substituição do alto-falante auricular ou principal com peças de alta performance e teste de qualidade sonora.",
@@ -139,7 +139,7 @@ const services: ServiceDef[] = [
   {
     name: "Câmeras",
     slug: "cameras",
-    description: "Reparo e substituição de câmeras frontais e traseiras com componentes de alta resolução.",
+    description: "conserto e substituição de câmeras frontais e traseiras com componentes de alta resolução.",
     problems: ["Câmera embaçada", "Foco não funciona", "Câmera preta", "Fotos tremidas", "Flash não funciona"],
     causes: ["Queda do aparelho", "Entrada de umidade", "Defeito de sistema operacional", "Dano na lente"],
     solution: "Troca do módulo de câmera (frontal e/ou traseira) com calibração de foco e teste de qualidade de imagem.",
@@ -150,21 +150,21 @@ const services: ServiceDef[] = [
   {
     name: "Face ID",
     slug: "face-id",
-    description: "Reparo focado do sistema de reconhecimento facial do iPhone com precisão de laboratório.",
+    description: "conserto focado do sistema de reconhecimento facial do iPhone com precisão de laboratório.",
     problems: ["Face ID não disponível", "Reconhecimento facial lento", "Face ID parou de funcionar após queda"],
     causes: ["Queda com dano no sensor TrueDepth", "Troca de tela não autorizada", "Problema na circuito lógico"],
-    solution: "avaliação completa do sistema TrueDepth e reparo ou substituição dos componentes necessários com reprogramação.",
+    solution: "avaliação completa do sistema TrueDepth e conserto ou substituição dos componentes necessários com reprogramação.",
     whenToSeek: "Quando a mensagem 'Face ID não está disponível' aparecer no seu iPhone.",
-    costInfo: "Serviço focado. avaliação gratuita para avaliar a viabilidade do reparo.",
+    costInfo: "Serviço focado. avaliação gratuita para avaliar a viabilidade do conserto.",
     appliesTo: ["iphone"],
   },
   {
     name: "Biometria",
     slug: "biometria",
-    description: "Reparo do sensor de impressão digital para desbloquear seu Android com segurança e rapidez.",
+    description: "conserto do sensor de impressão digital para desbloquear seu Android com segurança e rapidez.",
     problems: ["Leitor de digital não responde", "ajuste de sistema lento", "Digital não reconhecida"],
     causes: ["Queda do aparelho", "Troca de tela sem calibração", "Sujeira no sensor", "Problema de sistema operacional"],
-    solution: "Reparo ou substituição do módulo biométrico com recalibração do sensor para reconhecimento preciso.",
+    solution: "conserto ou substituição do módulo biométrico com recalibração do sensor para reconhecimento preciso.",
     whenToSeek: "Quando o sensor de digital parar de reconhecer ou ficar muito lento.",
     costInfo: "Orçamento gratuito. Serviço rápido com garantia.",
     appliesTo: ["samsung", "xiaomi", "realme", "motorola"],
@@ -182,7 +182,7 @@ const services: ServiceDef[] = [
   },
   {
     name: "Ajuste de Sistema",
-    slug: "software",
+    slug: "sistema operacional",
     description: "Formatação, atualização de sistema, limpeza de cache do sistema e ajuste de sistema operacional.",
     problems: ["Celular travando", "Sistema lento", "travamentos ou lentidão", "Erro de atualização", "Conta bloqueada"],
     causes: ["Acúmulo de cache", "Apps maliciosos", "Atualização interrompida", "Memória cheia"],
@@ -194,21 +194,21 @@ const services: ServiceDef[] = [
   {
     name: "Aparelho Não Liga",
     slug: "aparelho-nao-liga",
-    description: "avaliação completa e reparo de aparelhos que não ligam. Recuperamos seu dispositivo com técnicas avançadas de microeletrônica.",
+    description: "avaliação completa e conserto de aparelhos que não ligam. Recuperamos seu dispositivo com técnicas avançadas de microeletrônica.",
     problems: ["Aparelho totalmente morto", "Liga e desliga sozinho", "Fica na tela de boot", "LED acende mas não inicia"],
     causes: ["Problema no circuito interno-mãe", "Bateria completamente esgotada", "Curto-circuito interno", "Dano por líquido"],
-    solution: "avaliação com equipamentos de precisão para identificar o componente defeituoso e reparo direcionado.",
+    solution: "avaliação com equipamentos de precisão para identificar o componente defeituoso e conserto direcionado.",
     whenToSeek: "Quando seu aparelho parar de ligar completamente ou ficar preso na tela inicial.",
-    costInfo: "avaliação gratuita. Só cobra se o reparo for aprovado.",
+    costInfo: "avaliação gratuita. Só cobra se o conserto for aprovado.",
     appliesTo: ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"],
   },
   {
     name: "Aparelho Não Carrega",
     slug: "aparelho-nao-carrega",
-    description: "avaliação e reparo de problemas de carregamento, desde o conector até o circuito de carga no circuito interno.",
+    description: "avaliação e conserto de problemas de carregamento, desde o conector até o circuito de carga no circuito interno.",
     problems: ["Não carrega de jeito nenhum", "Carregamento muito lento", "Só carrega desligado", "Aquece ao carregar"],
     causes: ["Conector danificado", "CI de carga queimado", "Bateria defeituosa", "Cabo ou carregador incompatível"],
-    solution: "Inspeção completa da cadeia de carregamento: conector, flex, CI de carga e bateria. Reparo do componente defeituoso.",
+    solution: "Inspeção completa da cadeia de carregamento: conector, flex, CI de carga e bateria. conserto do componente defeituoso.",
     whenToSeek: "Ao perceber qualquer irregularidade no carregamento do aparelho.",
     costInfo: "avaliação gratuita com orçamento transparente.",
     appliesTo: ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks"],
@@ -264,10 +264,10 @@ const notebookServices: ServiceDef[] = [
   {
     name: "Dobradiças",
     slug: "dobradicas",
-    description: "Reparo e substituição de dobradiças quebradas ou soltas do notebook.",
+    description: "conserto e substituição de dobradiças quebradas ou soltas do notebook.",
     problems: ["Dobradiça quebrada", "Tampa solta", "Notebook não abre/fecha direito", "Carcaça rachada na dobradiça"],
     causes: ["Desgaste natural", "Abertura forçada", "Queda do notebook", "Material frágil"],
-    solution: "Substituição das dobradiças e reparo da carcaça quando necessário, restaurando o funcionamento correto da tampa.",
+    solution: "Substituição das dobradiças e conserto da carcaça quando necessário, restaurando o funcionamento correto da tampa.",
     whenToSeek: "Quando a tampa do notebook ficar solta ou difícil de abrir/fechar.",
     costInfo: "Valor depende do modelo. avaliação gratuita.",
     appliesTo: ["notebooks"],
@@ -286,20 +286,20 @@ export const problemPosts: BlogPost[] = [
   const slug = problem.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-");
   return {
     slug,
-    title: `${problem} em Salvador? Reparo Avançado Resolve!`,
-    h1: `${problem} em Salvador (BA) – avaliação e Reparo Profissional`,
-    metaDescription: `Seu ${problem.toLowerCase()}? A Reparo Avançado em Salvador (Boca do Rio) resolve com avaliação gratuita. Atendemos Pituba, Imbuí, Stiep e região.`,
+    title: `${problem} em Salvador? conserto Avançado Resolve!`,
+    h1: `${problem} em Salvador (BA) – avaliação e conserto Profissional`,
+    metaDescription: `Seu ${problem.toLowerCase()}? A conserto Avançado em Salvador (Boca do Rio) resolve com avaliação gratuita. Atendemos Pituba, Imbuí, Stiep e região.`,
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
     service: problem,
     serviceSlug: slug,
-    description: `Solução profissional para ${problem.toLowerCase()} em Salvador. avaliação gratuita e reparo com peças premium na Boca do Rio.`,
+    description: `Solução profissional para ${problem.toLowerCase()} em Salvador. avaliação gratuita e conserto com peças premium na Boca do Rio.`,
     problems: [`${problem} é um dos problemas mais comuns que recebemos`],
     causes: ["Diversas causas possíveis que requerem avaliação profissional"],
-    solution: `avaliação completa com equipamentos de precisão e reparo direcionado na Reparo Avançado.`,
+    solution: `avaliação completa com equipamentos de precisão e conserto direcionado na conserto Avançado.`,
     whenToSeek: "Procure um profissional qualificado assim que perceber o problema para evitar danos maiores.",
-    costInfo: "avaliação 100% gratuito. Orçamento transparente antes de qualquer reparo.",
+    costInfo: "avaliação 100% gratuito. Orçamento transparente antes de qualquer conserto.",
     relatedSlugs: [],
   };
 });

@@ -11,21 +11,21 @@ const Atendimento = () => {
 
   if (!bairro || !servico) return <Navigate to="/locais-de-atendimento" replace />;
 
-  const title = `${servico.name} no ${bairro.name} - Salvador (BA) | Reparo Avançado`;
-  const description = `Especialistas em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a Reparo Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
+  const title = `${servico.name} no ${bairro.name} - Salvador (BA) | conserto Avançado`;
+  const description = `equipe em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a conserto Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
   
   // Consolidação Gradual: Aponta o canonical para a página principal consolidada do bairro correspondente
   const strategicBairros = ["boca-do-rio", "pituba", "imbui", "brotas"];
   const isStrategic = strategicBairros.includes(bairro.slug);
   const canonical = isStrategic
-    ? `https://site.reparoavancado.com.br/assistencia-tecnica-${bairro.slug}`
-    : `https://site.reparoavancado.com.br/assistencia-tecnica-salvador`;
+    ? `https://site.reparoavancado.com.br/loja-tecnica-${bairro.slug}`
+    : `https://site.reparoavancado.com.br/loja-tecnica-salvador`;
 
   const waLink = buildWhatsappLink(servico.name, bairro.name);
 
   const benefits = [
-    { icon: Zap, title: "Atendimento Rápido", desc: "Diagnóstico imediato e reparos no mesmo dia, sempre que possível." },
-    { icon: ShieldCheck, title: "Garantia Real", desc: "Todos os serviços com garantia formal e suporte pós-atendimento." },
+    { icon: Zap, title: "Atendimento Rápido", desc: "avaliação imediato e conserto no mesmo dia, sempre que possível." },
+    { icon: ShieldCheck, title: "Garantia Real", desc: "Todos os serviços com garantia formal e atendimento comercial pós-atendimento." },
     { icon: Wrench, title: "Peças de Alta Performance", desc: "Componentes premium com padrão de fábrica e qualidade certificada." },
   ];
 
@@ -43,7 +43,7 @@ const Atendimento = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: `Reparo Avançado - ${servico.name} no ${bairro.name}`,
+            name: `conserto Avançado - ${servico.name} no ${bairro.name}`,
             description,
             url: canonical,
             telephone: "+5571991981437",
@@ -117,19 +117,19 @@ const Atendimento = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {servico.name} no {bairro.name}: atendimento técnico especializado
+            {servico.name} no {bairro.name}: atendimento presencial presencial
           </h2>
           <p className="text-muted-foreground mb-4">
-            Se você mora na região de <strong>{bairro.name}</strong> e está buscando especialistas em <strong>{servico.shortName.toLowerCase()}</strong>, a Reparo Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com 9 anos de tradição e mais de 143 avaliações reais 5.0 ★.
+            Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a conserto Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com 9 anos de tradição e mais de 143 avaliações reais 5.0 ★.
           </p>
           <p className="text-muted-foreground mb-4">
-            Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão técnico rigoroso, com peças de alta performance e diagnóstico avançado. Diferente das assistências comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
+            Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão atendimento comercial rigoroso, com peças de alta performance e avaliação avançado. Diferente das lojas comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
           </p>
           <h3 className="text-xl font-bold mt-8 mb-3">
             Por que escolher nossa {servico.shortName.toLowerCase()} no {bairro.name}?
           </h3>
           <p className="text-muted-foreground mb-4">
-            Atendemos moradores do <strong>{bairro.name}</strong> e bairros vizinhos com agilidade total. Ao solicitar {servico.shortName.toLowerCase()} no {bairro.name}, você recebe diagnóstico técnico, orçamento transparente sem surpresas e garantia formal por escrito. O contato é direto via WhatsApp — tire suas dúvidas sobre {servico.shortName.toLowerCase()} em minutos e agende seu atendimento no {bairro.name} hoje mesmo.
+            Atendemos moradores do <strong>{bairro.name}</strong> e bairros vizinhos com agilidade total. Ao solicitar {servico.shortName.toLowerCase()} no {bairro.name}, você recebe avaliação atendimento comercial, orçamento transparente sem surpresas e garantia formal por escrito. O contato é direto via WhatsApp — tire suas dúvidas sobre {servico.shortName.toLowerCase()} em minutos e agende seu atendimento no {bairro.name} hoje mesmo.
           </p>
           <div className="text-center mt-10">
             <a
@@ -139,7 +139,7 @@ const Atendimento = () => {
               className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-xl text-lg font-bold hover:brightness-110 transition-all"
             >
               <MessageCircle className="w-6 h-6" />
-              Falar com um especialista agora
+              solicitar orçamento pelo WhatsApp agora
             </a>
           </div>
         </div>

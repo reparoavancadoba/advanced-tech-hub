@@ -6,7 +6,7 @@ import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 
 const POSTS_PER_PAGE = 24;
-const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks", "manutencao"];
+const categories: Category[] = ["iphone", "samsung", "xiaomi", "realme", "motorola", "notebooks", "conserto"];
 
 const Blog = () => {
   const [search, setSearch] = useState("");
@@ -36,16 +36,16 @@ const Blog = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Blog | Reparo Avançado - Guias de Reparo de Celulares em Salvador</title>
-        <meta name="description" content="Guias completos de reparo para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a Reparo Avançado, em Salvador - BA." />
+        <title>Blog | conserto Avançado - Guias de conserto de Celulares em Salvador</title>
+        <meta name="description" content="Guias completos de conserto para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a conserto Avançado, em Salvador - BA." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/blog" />
       </Helmet>
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Blog <span className="text-gradient">Reparo Avançado</span>
+          Blog <span className="text-gradient">conserto Avançado</span>
         </h1>
         <p className="text-muted-foreground mb-8 max-w-2xl">
-          Guias completos de reparo para todos os modelos. Encontre a solução para o seu problema e solicite um orçamento gratuito.
+          Guias completos de conserto para todos os modelos. Encontre a solução para o seu problema e solicite um orçamento gratuito.
         </p>
 
         {/* Search + Filters */}

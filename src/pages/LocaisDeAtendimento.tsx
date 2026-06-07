@@ -6,7 +6,7 @@ import { listLocaisConsolidados } from "@/data/locaisConsolidadosData";
 import { servicesHubList } from "@/data/servicosConsolidadosData";
 
 const LocaisDeAtendimento = () => {
-  const title = "Locais de Atendimento em Salvador | Reparo Avançado";
+  const title = "Locais de Atendimento em Salvador | conserto Avançado";
   const description =
     "atendimento presencial focado nos principais bairros de Salvador: Boca do Rio, Imbuí, Pituba, Brotas e Salvador Centro. Agilidade e garantia perto de você.";
   const canonical = "https://site.reparoavancado.com.br/locais-de-atendimento";

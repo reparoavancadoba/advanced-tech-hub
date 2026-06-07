@@ -25,7 +25,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
   const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(`Olá! Preciso de um orçamento para o serviço de ${service.h1} em Salvador.`)}`;
 
   const benefits = [
-    { icon: Zap, title: "Atendimento Rápido", desc: "A maioria dos reparos realizados no mesmo dia, no máximo em 1 hora." },
+    { icon: Zap, title: "Atendimento Rápido", desc: "A maioria dos conserto realizados no mesmo dia, no máximo em 1 hora." },
     { icon: ShieldCheck, title: "Garantia por Escrito", desc: "Fornecemos garantia de 3 meses em todas as peças premium instaladas." },
     { icon: Wrench, title: "Laboratório de Ponta", desc: "Equipamentos profissionais de soldagem BGA, microscópios e ferramentas específicas." },
   ];
@@ -35,12 +35,12 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Service",
+        "@type": "LocalBusiness",
         "name": service.h1,
         "description": service.metaDescription,
         "provider": {
           "@type": "LocalBusiness",
-          "name": "Reparo Avançado",
+          "name": "conserto Avançado",
           "telephone": "+5571991981437",
           "priceRange": "$$",
           "image": "https://site.reparoavancado.com.br/favicon.png",
@@ -127,7 +127,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
               {service.h1}
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-              {service.description} Oferecemos avaliaçãos precisos e reparos com agilidade e alto padrão profissional.
+              {service.description} Oferecemos avaliações precisos e conserto com agilidade e alto padrão profissional.
             </p>
             <a
               href={waLink}
@@ -204,7 +204,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       <section className="py-20 bg-secondary/20 border-t border-border">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold text-center mb-4">Perguntas Frequentes</h2>
-          <p className="text-muted-foreground text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na Reparo Avançado.</p>
+          <p className="text-muted-foreground text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na conserto Avançado.</p>
           <div className="space-y-6">
             {service.faqs.map((faq, index) => (
               <div key={index} className="bg-card border border-border rounded-2xl p-6">
