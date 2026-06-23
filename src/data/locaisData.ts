@@ -13,19 +13,44 @@ export interface ServicoLocal {
 }
 
 export const bairros: Bairro[] = [
+  // Orla / Área Nobre
   { slug: "boca-do-rio", name: "Boca do Rio" },
-  { slug: "imbui", name: "Imbuí" },
   { slug: "pituba", name: "Pituba" },
-  { slug: "costa-azul", name: "Costa Azul" },
-  { slug: "stiep", name: "Stiep" },
-  { slug: "caminho-das-arvores", name: "Caminho das Árvores" },
   { slug: "itaigara", name: "Itaigara" },
+  { slug: "costa-azul", name: "Costa Azul" },
+  { slug: "caminho-das-arvores", name: "Caminho das Árvores" },
   { slug: "rio-vermelho", name: "Rio Vermelho" },
-  { slug: "patamares", name: "Patamares" },
+  { slug: "ondina", name: "Ondina" },
+  { slug: "barra", name: "Barra" },
+  { slug: "graca", name: "Graça" },
+  { slug: "vitoria", name: "Vitória" },
+  { slug: "jardim-armacao", name: "Jardim Armação" },
   { slug: "piata", name: "Piatã" },
   { slug: "itapua", name: "Itapuã" },
-  { slug: "cabula", name: "Cabula" },
+  { slug: "stella-maris", name: "Stella Maris" },
+  { slug: "patamares", name: "Patamares" },
+
+  // Miolo / Centro Financeiro
+  { slug: "imbui", name: "Imbuí" },
+  { slug: "stiep", name: "Stiep" },
+  { slug: "iguatemi", name: "Iguatemi" },
+  { slug: "paralela", name: "Paralela" },
   { slug: "brotas", name: "Brotas" },
+  { slug: "cabula", name: "Cabula" },
+  { slug: "pernambues", name: "Pernambués" },
+  { slug: "sao-rafael", name: "São Rafael" },
+  { slug: "tancredo-neves", name: "Tancredo Neves" },
+
+  // Centro e Cidades Vizinhas
+  { slug: "centro", name: "Centro" },
+  { slug: "naze", name: "Nazaré" },
+  { slug: "liberdade", name: "Liberdade" },
+  { slug: "cajazeiras", name: "Cajazeiras" },
+  { slug: "mussurunga", name: "Mussurunga" },
+  { slug: "sao-cristovao", name: "São Cristóvão" },
+  { slug: "pau-da-lima", name: "Pau da Lima" },
+  { slug: "vilas-do-atlantico", name: "Vilas do Atlântico" },
+  { slug: "lauro-de-freitas", name: "Lauro de Freitas" },
 ];
 
 export const servicosLocais: ServicoLocal[] = [

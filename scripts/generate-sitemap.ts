@@ -60,7 +60,23 @@ strategicLocals.forEach((local) => {
   </url>`);
 });
 
-// 4. Active Blog Articles (Editorial + Problem Posts)
+// 4. Programmatic SEO Pages (The Neighborhood Generator)
+const programmaticUrls: string[] = [];
+import { bairros, servicosLocais } from "../src/data/locaisData";
+
+servicosLocais.forEach((servico) => {
+  bairros.forEach((bairro) => {
+    programmaticUrls.push(`  <url>
+    <loc>${DOMAIN}/conserto/${servico.slug}/em/${bairro.slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+  });
+});
+urls.push(...programmaticUrls);
+
+// 5. Active Blog Articles (Editorial + Problem Posts)
 allPosts.forEach((post) => {
   const priority = post.isEditorial ? "0.8" : "0.6";
   urls.push(`  <url>

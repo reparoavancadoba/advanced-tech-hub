@@ -1761,5 +1761,1141 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       }
     ],
     relatedSlugs: ["celular-nao-carrega-salvador", "conserto-de-celular-salvador", "assistencia-tecnica-celular-salvador"]
+  },
+  // ═══════════════════════════════════════════
+  // LOTE 1 - NOVOS ARTIGOS PREMIUM SEO
+  // ═══════════════════════════════════════════
+  {
+    slug: "troca-de-tela-celular-salvador-original",
+    title: "Troca de Tela de Celular Salvador | Original vs Paralela | Reparo Avançado",
+    h1: "Troca de Tela de Celular em Salvador: Qual a Diferença entre Original, Incell e Primeira Linha?",
+    metaDescription: "Precisa trocar a tela do celular em Salvador (Boca do Rio)? Entenda as diferenças entre tela original, OLED, AMOLED e Incell antes de consertar. Orçamento rápido!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Troca de Tela",
+    serviceSlug: "troca-de-tela-celular-salvador-original",
+    description: "Um guia definitivo para você entender os tipos de tela disponíveis no mercado de manutenção de celulares e tomar a melhor decisão para o seu aparelho e seu bolso.",
+    isEditorial: true,
+    keywords: ["troca de tela celular salvador", "tela original ou primeira linha", "conserto de tela quebrada", "assistencia tecnica tela celular boca do rio", "tela incell amoled oled"],
+    problems: [
+      "Tela trincada após queda acidental",
+      "Touch screen parou de funcionar em algumas áreas",
+      "Manchas roxas ou verdes espalhadas pelo display",
+      "Listras coloridas horizontais ou verticais na imagem",
+      "Display completamente preto (mas o celular toca e vibra)"
+    ],
+    causes: [
+      "Impacto direto contra o solo ou quinas",
+      "Pressão forte dentro da bolsa ou bolso apertado (sentar em cima)",
+      "Bateria estufada empurrando e trincando o display por baixo",
+      "Fadiga térmica após superaquecimento constante"
+    ],
+    solution: `Na Reparo Avançado, a transparência vem em primeiro lugar. O mercado de **troca de tela de celular em Salvador** é inundado por diversos tipos de qualidade de peças. Nós explicamos a diferença para cada cliente:\n\n**1. Telas 100% Originais (Nacionais/Retiradas):** A mesmíssima qualidade que veio de fábrica. Cores perfeitas, taxa de atualização nativa e brilho impecável.\n**2. Telas Premium (OLED/AMOLED):** Telas fabricadas por terceiros certificados que usam a mesma tecnologia do fabricante. Excelentes para custo-benefício mantendo a fidelidade de cores escurecidas e consumo de bateria.\n**3. Telas Incell / Primeira Linha:** Opções mais econômicas feitas de LCD avançado. O display fica um pouco mais espesso e as cores levemente mais opacas, mas são as queridinhas para quem precisa economizar muito e recuperar o acesso ao aparelho.\n\n[DICA]\nCuidado com orçamentos milagrosos na rua! Telas muito baratas de "Segunda Linha" ou TFT consomem até 40% mais bateria do aparelho, esquentam a placa e deixam o touch falhando. Na Reparo Avançado, **nós nos recusamos a instalar peças de qualidade inferior ao Incell Premium**.\n[/DICA]\n\nNosso procedimento inclui limpeza profunda do aro com espátulas químicas, remoção de resíduos de cola velha e colagem profissional utilizando selantes T7000/B7000 de alta fixação com prensagem controlada de 2 horas. ${LOCAL_SEO}`,
+    whenToSeek: "Se a tela trincou, mas a imagem está perfeita, procure assistência imediatamente. Se você demorar, cacos de vidro podem perfurar o display interno e inviabilizar a troca apenas do vidro (se aplicável), obrigando você a pagar mais caro pela tela completa.",
+    costInfo: `O custo da troca de tela é totalmente dependente da marca, modelo e da tecnologia da peça escolhida (Original vs Incell). Na Reparo Avançado, nós passamos todas as opções possíveis e você escolhe a que melhor cabe no orçamento. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Tela primeira linha é boa? Estraga o celular?", answer: "Uma tela primeira linha padrão Incell Premium é muito boa e não estraga o celular. Ela apenas possui diferenças no contraste de cores e um leve aumento no consumo de energia se comparada à original (OLED/AMOLED)." },
+      { question: "Quanto tempo demora para trocar a tela do celular?", answer: "A substituição e os testes demoram em média 1 a 2 horas, dependendo do modelo. Em alguns casos mais complexos que exigem secagem completa do adesivo, pedimos 3 horas na nossa loja na Boca do Rio." },
+      { question: "Se o celular não acende a tela, mas vibra, é só a tela?", answer: "Geralmente sim! O display queimou, mas a placa mãe continua viva e processando. Substituindo o frontal, o celular voltará à vida com todos os seus dados lá." },
+      { question: "A troca de tela do iPhone perde o True Tone?", answer: "Em oficinas ruins, sim. Mas na Reparo Avançado, possuímos a leitora de EEPROM (iCopy) que copia o código serial da tela antiga e transfere para a nova, recuperando o True Tone 100%." },
+      { question: "Posso colocar película em cima da tela trincada para continuar usando?", answer: "Como paliativo provisório para não cortar os dedos, sim. Mas evite usar assim por muito tempo, pois umidade e suor podem entrar pelas frestas do vidro quebrado e queimar a placa lógica de forma irreversível." }
+    ],
+    sections: [
+      {
+        id: "diferenca-telas",
+        title: "Entenda a Sopa de Letrinhas das Telas",
+        content: "Quando você busca por uma troca de tela, o vendedor vai jogar nomes difíceis. Para resumir:\n\n**OLED / Super AMOLED:** A tecnologia mais cara e sofisticada. Cada pixel tem luz própria. O preto é 100% escuro (pixel apagado). O contraste é gigante.\n**Incell Premium:** É uma tela LCD muito fina. A luz vem de um painel de LED atrás. O preto não é tão profundo, é mais um 'cinza bem escuro', mas o touch é fundido no vidro, então a resposta ao toque é maravilhosa e rápida.\n**TFT:** É a tela barata e perigosa. Muito grossa, o celular parece que está 'estufado'. A tela não encaixa direito no aro e consome muita bateria. Fuja disso."
+      },
+      {
+        id: "riscos-tela-quebrada",
+        title: "Os Riscos Invisíveis de Andar com a Tela Trincada",
+        content: "Muitos usuários andam com a famosa tela em forma de 'teia de aranha' achando que, se o touch funciona, está tudo bem. O grande perigo é que a tela é a tampa frontal hermética do celular. Sem a proteção do vidro liso, a umidade do ar, o suor do seu rosto ao atender ligações e respingos de chuva penetram diretamente na placa lógica do aparelho.",
+        subsections: [
+          { title: "Oxidação Lenta", content: "Muitas placas de celular morrem 3 ou 4 meses depois que a tela trincou, porque o suor oxidou o circuito de iluminação interno lentamente sem o cliente perceber." }
+        ]
+      },
+      {
+        id: "processo-reparo-avancado",
+        title: "Nosso Diferencial: Acabamento Premium",
+        content: `Muitas lojas na rua fazem a troca na correria e em 10 dias a tela nova do cliente começa a "levantar" e descolar nas bordas, vazando luz. \n\n[IMPORTANTE]\nNa Reparo Avançado, a preparação é tudo. Dedicamos 15 minutos apenas para raspar a cola fossilizada da fábrica com ferramentas especiais. Quando aplicamos o adesivo B7000 na instalação da peça nova, ela encaixa milimetricamente no chassi, garantindo a estética de um aparelho recém-comprado.\n[/IMPORTANTE]\nSe a carcaça do cliente estiver torta (amassada pela queda), nós utilizamos ferramentas de desempenamento estrutural antes de assentar a tela nova para evitar pontos de tensão no vidro.`
+      }
+    ],
+    relatedSlugs: ["conserto-de-celular-salvador", "assistencia-tecnica-celular-salvador", "troca-de-bateria-celular-salvador"]
+  },
+  {
+    slug: "reparo-placa-celular-salvador-vale-a-pena",
+    title: "Reparo em Placa de Celular Salvador | Vale a Pena? | Reparo Avançado",
+    h1: "Reparo em Placa de Celular em Salvador: Quando Realmente Vale a Pena Consertar?",
+    metaDescription: "Seu celular 'morreu' e a autorizada condenou a placa? Calma! O reparo em placa de celular em Salvador via micro-soldagem pode salvar seu aparelho e seus dados.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Placa Lógica",
+    service: "Reparo em Placa",
+    serviceSlug: "reparo-placa-celular-salvador-vale-a-pena",
+    description: "Desmistifique o fantasma do 'queimou a placa'. Entenda como a micro-soldagem e a análise de circuito podem salvar aparelhos condenados pelas assistências comuns.",
+    isEditorial: true,
+    keywords: ["reparo placa celular salvador", "celular placa queimada tem conserto", "micro soldagem celular boca do rio", "recuperar dados placa morta", "conserto de placa mae de smartphone"],
+    problems: [
+      "Aparelho morto que não dá sinal nenhum de vida nem no carregador",
+      "Loop infinito (reiniciando na logo da marca sem parar)",
+      "Celular liga, vibra, mas não gera imagem alguma (backlight queimado)",
+      "Wi-Fi e Bluetooth ficaram cinzas, impossíveis de ativar",
+      "Consumo de bateria bizarro (descarrega 30% em 10 minutos por fuga de corrente)"
+    ],
+    causes: [
+      "Carregadores veiculares (de acendedor de carro) de má qualidade",
+      "Quedas brutais que romperam as trilhas (pad) do processador ou memória",
+      "Oxidação invisível causada por vapor de banho ou suor longo",
+      "Falha crônica de fábrica no CI de carga, PMIC ou solda BGA (muito comum em Poco, Xiaomi e alguns iPhones antigos)"
+    ],
+    solution: `Dizer que um celular "queimou a placa" é o mesmo que um mecânico dizer que seu "carro quebrou" sem abrir o capô. A placa do celular tem milhares de microcomponentes (capacitores, bobinas, CIs).\n\nNa Reparo Avançado, somos peritos em micro-eletrônica. Não somos "trocadores de peças". Nós injetamos tensão na placa com fontes assimétricas e usamos câmeras térmicas de alta sensibilidade para ver exatamente qual micro-capacitor de 1 milímetro está esquentando e em curto-circuito. \n\n[DICA]\nSe uma assistência técnica pegou seu telefone, olhou em 10 minutos e disse "é a placa, não tem conserto", fuja! Uma análise profunda de consumo em fonte requer mapeamento de esquema elétrico e medições multimetrais. Eles provavelmente não sabem fazer o serviço.\n[/DICA]\n\nUtilizamos microscópios trioculares e estações de ar quente importadas para dessoldar a peça em curto, limpar a trilha e ressoldar um componente novo (reballing), salvando o celular inteiro! ${LOCAL_SEO}`,
+    whenToSeek: "Se o seu aparelho apagou do nada e você tem informações cruciais dentro dele (fotos, acessos a banco). O reparo em placa é a única forma de recuperar o acesso à memória sem formatar o dispositivo.",
+    costInfo: `Um reparo de placa é um procedimento avançado e pode custar entre 25% a 40% do valor do telefone (dependendo da complexidade e dos CIs necessários). O orçamento não tem taxa de verificação. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Celular com placa queimada tem conserto?", answer: "Na imensa maioria das vezes, sim! Uma 'placa queimada' geralmente significa apenas que UM microcomponente (como um CI de carga) entrou em curto para proteger o resto. Trocando essa pecinha microscópica, a placa volta a funcionar perfeitamente." },
+      { question: "Se arrumar a placa, eu perco meus dados e fotos?", answer: "Não! Esse é o grande benefício da micro-soldagem. Nós consertamos o circuito de energia e a placa volta a ligar com tudo intacto, fotos, aplicativos e contatos exatamente de onde pararam." },
+      { question: "Quanto tempo demora o conserto de uma placa de celular?", answer: "Depende muito do defeito e do diagnóstico. Uma linha de curto simples (como o VDD_MAIN em iPhones) pode ser resolvida em 1 a 2 dias. Falhas graves em solda BGA de processador podem levar de 4 a 7 dias úteis." },
+      { question: "O conserto de placa dá garantia?", answer: "Sim, a Reparo Avançado oferece garantia total sobre o setor que foi reparado na placa lógica do seu aparelho (ex: circuito de carga, circuito de áudio)." },
+      { question: "Vale a pena consertar placa de celular muito antigo?", answer: "Geralmente não é viável se o aparelho valer menos de 400 reais, exceto se a recuperação for voltada exclusivamente para extração de dados emocionais e sentimentais inestimáveis." }
+    ],
+    sections: [
+      {
+        id: "autorizada-vs-reparo-avancado",
+        title: "Por que as Autorizadas Condenam seu Aparelho?",
+        content: "Muitos clientes chegam até nós frustrados com laudos da Apple ou Samsung dizendo: 'Substituição total da placa: R$ 3.500,00'. Isso ocorre porque o modelo de negócio das autorizadas é focado em trocar grandes blocos inteiros. Eles não pegam um ferro de solda para trocar um capacitor que custa poucos reais.\n\nNa Reparo Avançado (e oficinas independentes de elite), nós fazemos exatamente o oposto: se só a unha do dedo mindinho da placa estragou, nós tratamos a unha, e você não perde a mão inteira."
+      },
+      {
+        id: "processo-diagnostico",
+        title: "Nosso Processo Forense de Diagnóstico",
+        content: "Para encontrar o curto, usamos a técnica de 'Injeção de Voltagem Controlada'. Desmontamos a placa, jogamos 1 volt numa malha defeituosa e assistimos na câmera térmica infravermelha qual componente brilha como uma estrela superaquecida na tela do nosso monitor. Quando achamos o culpado, usamos microscópio de aumento e solda em pasta a 380ºC para substituí-lo."
+      },
+      {
+        id: "mito-banho-quimico",
+        title: "O Mito do 'Banho Químico' na Placa",
+        content: `Existe uma lenda de que se a placa parar, é só jogar no álcool isopropílico. \n\n[IMPORTANTE]\nLimpeza e banho químico servem apenas para desoxidação superficial. Se um componente queimou devido ao curto da água, limpar não o fará ressuscitar. O componente físico e sólido de silício está carbonizado. Apenas a técnica de micro-soldagem e substituição do chip (CI) resolve.\n[/IMPORTANTE]\nNossa especialidade é exatamente o passo que vem depois que a limpeza superficial não funcionou.`
+      }
+    ],
+    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador"]
+  },
+  {
+    slug: "celular-caiu-na-agua-desoxidacao-salvador",
+    title: "Celular Caiu na Água Salvador | O que Fazer? | Reparo Avançado",
+    h1: "Celular Caiu na Água: O Que Fazer e O Que NUNCA Fazer Antes da Desoxidação",
+    metaDescription: "Seu celular molhou em Salvador? Praia, piscina ou vaso? Pare tudo! Descubra os mitos perigosos e os serviços de desoxidação profissional que salvam seu aparelho.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Aparelho Molhado",
+    service: "Desoxidação",
+    serviceSlug: "celular-caiu-na-agua-desoxidacao-salvador",
+    description: "Um mergulho não planejado pode ser fatal. Saiba os procedimentos vitais de emergência e como a Reparo Avançado realiza a verdadeira desoxidação química com ultrassom.",
+    isEditorial: true,
+    keywords: ["celular caiu na agua o que fazer", "desoxidação celular salvador", "recuperar celular molhado boca do rio", "colocar celular no arroz funciona", "agua do mar no celular como limpar"],
+    problems: [
+      "Aparelho mergulhou no mar, piscina, poça ou vaso sanitário",
+      "Tela começou a piscar e formou manchas de água por dentro",
+      "Alto-falante ficou rouco, abafado ou parou de funcionar",
+      "Câmera embasou internamente formando gotículas no visor",
+      "Celular apagou sozinho 3 horas depois do mergulho"
+    ],
+    causes: [
+      "Derrubamento acidental em líquidos",
+      "Uso de celular no banheiro para ouvir música (o vapor quente do chuveiro é letal e penetra onde a água fria não entra)",
+      "Crer cegamente na 'resistência a água IP68' (borrachas de vedação ressecam em 1 ano de uso no sol de Salvador)"
+    ],
+    solution: `Os primeiros 15 minutos determinam se o celular vai viver ou morrer. Quando a água entra em contato com as trilhas de cobre e ouro energizadas da placa-mãe, ocorre o processo químico chamado eletrólise, que cria um "musgo" verde (zinabre) e corrói a solda em poucas horas.\n\nSe ele caiu no mar de Salvador, o processo é 10x mais rápido por causa do sal (que é altamente condutor). Na Reparo Avançado, nós possuímos laboratório focado em salvamento de naufrágios.\n\n[IMPORTANTE]\nNosso serviço de **Desoxidação Química** vai muito além de secar com secador. O aparelho é inteiramente desmontado no primeiro momento. A placa-mãe nua é colocada dentro de uma **Cuba Ultrassônica Industrial** mergulhada em uma solução química específica que quebra as partículas de oxidação via cavitação ultrassônica.\n[/IMPORTANTE]\n\nEm seguida, a placa é estufada com aquecimento controlado para eliminar 100% da umidade interna em debaixo dos grandes chips BGA. ${LOCAL_SEO}`,
+    whenToSeek: "MÁXIMA URGÊNCIA! Traga o aparelho à assistência no mesmo dia do ocorrido, ou no dia seguinte. Cada hora que passa, o curto-circuito avança. Se foi na água do mar ou sabão, a urgência é dobrada.",
+    costInfo: `A desoxidação química na cuba ultrassônica tem um custo fixo de laboratório que será detalhado na loja. Caso haja queima de peças adicionais (como a tela que não resistiu), enviaremos orçamento prévio sem compromisso. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Colocar o celular molhado no arroz funciona mesmo?", answer: "NÃO! É um dos maiores mitos da internet. O arroz suga apenas a água da superfície externa. A umidade já entrou na placa lógica, e lá dentro, o arroz não ajuda em nada. Pior: pó e amido de arroz podem entrar no conector de carga e piorar tudo." },
+      { question: "Posso secar o celular molhado com secador de cabelo?", answer: "Jamais! O ar quente do secador vai derreter o plástico da bateria ou espalhar a água que estava em um cantinho da placa para áreas sensíveis que ainda estavam secas." },
+      { question: "O que eu faço se o celular cair na água?", answer: "1. Tire da água imediatamente. 2. NÃO tente ligar, NÃO sacuda e NÃO conecte no carregador. 3. Retire a capinha. 4. Corra para a assistência técnica para abrir o aparelho e cortar a energia da bateria." },
+      { question: "E se a tela pifar após cair na água?", answer: "As telas originais não são à prova de infiltração na matriz do display. Se entrou água, ela mancha o backlight ou gera curtos no touch. O correto é desoxidar a placa e, infelizmente, também trocar a tela molhada." },
+      { question: "O celular é resistente à água (IP68), posso lavar?", answer: "Nunca confie plenamente no IP68. É uma garantia de laboratório contra acidentes leves. A cola de vedação degrada com uso, sol e pequenas quedas do dia a dia. Se molhar e danificar, a fabricante recusa a garantia." }
+    ],
+    sections: [
+      {
+        id: "perigo-agua-do-mar",
+        title: "A Água do Mar vs. A Placa do Celular",
+        content: "Para clientes em Salvador, o maior terror é a água do mar (Praia do Flamengo, Stella Maris, Porto da Barra). A água doce é ruim, mas o salmoura do mar é extremamente agressivo e condutivo. Quando a placa energizada molha no mar, o zinabre (carbonatação verde e branca) ataca o circuito elétrico em uma questão de 30 minutos.",
+        subsections: [
+          { title: "Água Doce de Piscina com Cloro", content: "Assim como a do mar, o cloro acelera a corrosão absurdamente mais rápido que a água limpa de copo. Se o acidente foi em praia ou piscina, a ida rápida ao nosso laboratório é a diferença entre a vida e a morte do smartphone." }
+        ]
+      },
+      {
+        id: "cuba-ultrassonica",
+        title: "A Mágica da Cuba Ultrassônica",
+        content: "Nós não esfregamos a placa com uma escova de dentes, isso é coisa de amador que destrói microcomponentes frágeis.\n\nA Cuba Ultrassônica emite ondas sonoras em alta frequência dentro do líquido químico. Essas ondas geram micro-bolhas que implodem na superfície da placa, escavando toda e qualquer sujeira ou oxidação de debaixo dos chips sem nenhum atrito mecânico. É uma limpeza molecular profunda."
+      },
+      {
+        id: "tempo-recuperacao",
+        title: "Taxa de Sucesso no Salvamento",
+        content: `Nossa taxa de salvamento em aparelhos trazidos nas primeiras 24h sem serem conectados no carregador é de altíssimos **85%**. \n\n[ATENCAO]\nQuem liga o celular na tomada "para ver se está pegando" reduz a taxa de salvamento para menos de 10%. A eletricidade violenta 5 Volts correndo livre por curtos-circuitos da água carboniza a placa inteira.\n[/ATENCAO]\nAcredite nos técnicos profissionais: a paciência inicial de manter o aparelho desligado vai salvar o seu celular de um funeral digital.`
+      }
+    ],
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "celular-nao-liga-motivos-salvador", "conserto-de-celular-salvador"]
+  },
+  // ═══════════════════════════════════════════
+  // LOTE 2 - NOVOS ARTIGOS PREMIUM SEO
+  // ═══════════════════════════════════════════
+  {
+    slug: "celular-nao-liga-motivos-salvador",
+    title: "Celular Não Liga? Conheça as Principais Causas | Reparo Avançado Salvador",
+    h1: "Meu Celular Não Liga Mais: Tela Preta, Morto ou Apenas Descarregado?",
+    metaDescription: "Celular apagou e não liga mais? Veja os testes de emergência que você pode fazer em casa e quando é hora de trazer na nossa assistência na Boca do Rio, Salvador.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Reparo de Inicialização",
+    serviceSlug: "celular-nao-liga-motivos-salvador",
+    description: "Um guia de socorro para aparelhos com tela preta e sem sinal de vida. Descubra a diferença entre um choque na bateria e uma morte súbita da placa.",
+    isEditorial: true,
+    keywords: ["celular nao liga mais", "celular apagou e nao liga", "tela preta celular samsung iphone", "choque bateria celular salvador", "conserto celular morto"],
+    problems: [
+      "Aparelho na tomada não mostra o raiozinho de carregamento",
+      "Celular vibra e toca alarme, mas a tela continua totalmente preta",
+      "Fica travado em loop infinito no logotipo da marca (Apple/Samsung/Motorola)",
+      "Desligou sozinho enquanto você usava com mais de 30% de bateria",
+      "Caiu de leve no chão e nunca mais deu sinal de vida"
+    ],
+    causes: [
+      "Bateria completamente exaurida e 'adormecida' (Deep Discharge)",
+      "Display LCD/OLED trincado por dentro (dando a falsa impressão de que o celular está desligado)",
+      "Falha de Software (Sistema Operacional corrompido durante atualização)",
+      "Queima do CI de carga (PMIC) por picos de energia elétrica"
+    ],
+    solution: `O diagnóstico de um "celular morto" é o mais desafiador, pois os sintomas são iguais para defeitos completamente diferentes. Na Reparo Avançado, nós seguimos um protocolo rígido de investigação:\n\n**Teste 1 (Teste Cego de Tela):** Injetamos tensão e verificamos se a placa-mãe está consumindo energia perfeitamente. Se sim, o celular está "vivo", mas o display queimou. A solução é apenas trocar a tela.\n**Teste 2 (Reativação de Bateria):** Se o aparelho ficou meses na gaveta, a bateria entra em coma. Nós aplicamos um "choque" seguro na nossa fonte assimétrica para despertar as células de lítio.\n**Teste 3 (Análise de Curto em Placa):** Se a placa não puxa 1 miliampere de energia, abrimos o mapeamento do circuito para achar o microcomponente queimado.\n\n[DICA]\nAntes de se desesperar, tente o "Force Restart". No iPhone, aperte rápido Volume Cima, depois Volume Baixo, e segure o botão Power por 20 segundos. Na Samsung, segure Volume Baixo e Power juntos por 20 segundos. Às vezes é só um bug de software!\n[/DICA]\n\nTraga seu aparelho até nossa oficina, localizada estrategicamente para atender clientes de forma rápida em Salvador. ${LOCAL_SEO}`,
+    whenToSeek: "Se o 'Force Restart' (Dica acima) não funcionou e você tentou usar cabos e carregadores originais diferentes na tomada por pelo menos 1 hora sem nenhum sinal na tela.",
+    costInfo: `O custo depende exclusivamente do laudo. Um simples 'choque' na bateria ou destravamento de software tem custo baixo. Se for tela ou placa, passaremos o orçamento focado sem compromisso. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Celular que não liga mais tem conserto?", answer: "Quase sempre tem! Um celular não ligar não significa que ele 'morreu para sempre'. Pode ser só a entrada de carga suja de poeira que não deixa a energia passar, ou um pequeno fusível interno desarmado." },
+      { question: "Como dar choque na bateria em casa?", answer: "Não faça isso. Cortar cabos USB antigos para ligar os fios direto na bateria causa explosões ou incêndios por falta de controle de voltagem. Traga para darmos a ativação na nossa máquina profissional." },
+      { question: "Celular tela preta mas recebe ligação, o que é?", answer: "Essa é fácil: seu celular ESTÁ ligado. O problema foi o seu visor (tela) que queimou o sistema de iluminação por dentro, geralmente por um tombo ou infiltração de suor. Trocando a tela, volta tudo." },
+      { question: "Deixei o celular atualizando de noite e amanheceu morto", answer: "Isso se chama 'Hard Brick'. Pode ter faltado luz na sua casa ou a bateria acabou no meio da instalação do Android/iOS. Nós precisaremos reinstalar o sistema operacional via computador." }
+    ],
+    sections: [
+      {
+        id: "bateria-em-coma",
+        title: "A Síndrome da Bateria em Coma",
+        content: "A bateria do celular funciona com química. Quando a voltagem dela cai abaixo de 3.2V, o controlador lógico do próprio telefone bloqueia a entrada de carga por segurança, achando que a bateria é instável.\n\nNesse momento, você pode deixar o celular ligado na tomada por 5 dias seguidos que ele não vai acender. Para resolver, nós precisamos abrir o aparelho, desplugar a bateria da placa, e fornecer carga direta nela através de um reativador profissional até ela chegar em 3.7V."
+      },
+      {
+        id: "conector-carga-sujo",
+        title: "O Culpado Escondido: Conector de Carga",
+        content: "Seu celular não está ligando porque, simplesmente, faz 3 dias que ele não carrega de verdade. A entrada do cabo (o conector Tipo-C ou Lightning) costuma acumular tanta poeira de bolso e fiapos de roupa que o cabo não encosta nos pinos de metal. \n\n[IMPORTANTE]\nNunca enfie palitos de dente ou agulhas para limpar. Você vai quebrar as trilhas de dados. Nós fazemos a limpeza técnica com pinças de cerâmica anti-estática gratuitas na nossa loja.\n[/IMPORTANTE]"
+      }
+    ],
+    relatedSlugs: ["celular-nao-carrega-salvador", "reparo-placa-celular-salvador-vale-a-pena", "celular-esquentando"]
+  },
+  {
+    slug: "assistencia-tecnica-iphone-salvador-especializada",
+    title: "Assistência Técnica iPhone Salvador | Especialista Apple | Reparo Avançado",
+    h1: "Assistência Técnica Especializada em iPhone em Salvador: Do Vidro à Placa",
+    metaDescription: "Conserto de iPhone em Salvador com ferramentas profissionais e peças Premium. Troca de bateria (sem erro de peça), tela original, Face ID e reparo em placa. Confira!",
+    category: "iphone" as Category,
+    brand: "Apple",
+    model: "iPhone",
+    service: "Assistência Apple",
+    serviceSlug: "assistencia-tecnica-iphone-salvador-especializada",
+    description: "Um centro de manutenção dedicado à linha Apple. Compreendemos a engenharia do iOS e o hardware delicado do seu iPhone para um serviço limpo e seguro.",
+    isEditorial: true,
+    keywords: ["assistencia tecnica iphone salvador", "conserto de iphone boca do rio", "troca de tela iphone pituba", "onde consertar iphone salvador", "reparo placa iphone"],
+    problems: [
+      "Mensagem 'Aviso Importante sobre a Bateria' ou 'Peça Desconhecida'",
+      "Face ID parou de reconhecer o rosto após molhar ou cair",
+      "iPhone preso no símbolo da maçã (Loop da Apple)",
+      "Câmera tremendo ou fazendo barulho (estabilizador óptico quebrado)",
+      "Vidro traseiro trincado cortando as mãos"
+    ],
+    causes: [
+      "Manutenção anterior feita por 'curiosos' que rasgaram o flex do Face ID",
+      "Vibração forte (usar iPhone no suporte do guidão da moto quebra a câmera)",
+      "Uso de carregadores piratas comprados em sinaleira (queima o CI Tristar/Hydra)",
+      "Bateria degradada que não consegue fornecer pico de corrente para o processador"
+    ],
+    solution: `Diferente dos smartphones comuns, abrir e consertar um iPhone exige mapas esquemáticos exatos e dezenas de chaves exclusivas (Pentalobe, Tri-Point, Standoff). Um parafuso de 2mm colocado no buraco errado na placa-mãe de um iPhone perfura trilhas internas e causa a Morte Súbita (Erro 9, Erro 4013).\n\nNa Reparo Avançado, nosso laboratório em Salvador foi projetado para seguir os manuais de microeletrônica da linha Apple. O que entregamos de diferente:\n- **Troca de Tela:** Transferimos o True Tone da tela antiga para a nova com maquinário focado.\n- **Bateria:** Reprogramamos o circuito lógico para manter a Saúde 100% nas Configurações sem mensagens de alerta irritantes.\n- **Vidro Traseiro:** Utilizamos máquina a Laser para remover o vidro trincado sem aquecer a placa-mãe do seu iPhone, protegendo as câmeras e o carregamento por indução.\n\n[DICA]\nA melhor forma de evitar que o Face ID queime (um dos reparos mais complexos) é não atender ligações embaixo de chuva fina ou com os cabelos muito molhados. O fone de ouvido do topo do iPhone leva água direto para a câmera infravermelha.\n[/DICA]\n\nAtendemos toda a capital baiana com foco na comodidade e segurança dos seus dados do iCloud. ${LOCAL_SEO}`,
+    whenToSeek: "Qualquer falha de hardware em um iPhone, por mínima que seja, deve ser verificada por um especialista. Um vidro traseiro rachado não é só estética: ele deixa a umidade destruidora entrar diretamente no coração do aparelho.",
+    costInfo: `Trabalhamos com iPhones a partir da linha iPhone 11 até os mais modernos da linha Pro Max. O orçamento é gratuito e 100% transparente. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Vocês utilizam peças originais da Apple?", answer: "Na Reparo Avançado trabalhamos com Peças Premium de Alta Qualidade (Original Retirada ou OEM). Elas oferecem a mesma experiência e durabilidade exigida pelo ecossistema Apple." },
+      { question: "Trocar o vidro traseiro a laser estraga o celular?", answer: "Pelo contrário! A remoção a laser é o método mais seguro do mundo. Antes, os técnicos tinham que raspar o vidro com lâminas ou esquentar com soprador térmico, o que frequentemente queimava o celular. O laser desfaz apenas a cola sob o vidro." },
+      { question: "A assistência formata meu iPhone para consertar a tela?", answer: "De maneira nenhuma! Seu aparelho não é formatado, a menos que o problema seja especificamente de software travado (Loop). A troca física mantém todas as suas fotos seguras." },
+      { question: "O que é o erro 'Peça Desconhecida' da tela e bateria?", answer: "A Apple codifica cada peça na fábrica para bloquear reparos independentes. Nós possuímos a tecnologia para reescrever esses códigos, evitando essas mensagens de erro." }
+    ],
+    sections: [
+      {
+        id: "problema-moto",
+        title: "Motociclistas e a Câmera Tremendo",
+        content: "Um dos consertos que mais fazemos aqui na Bahia são iPhones de motociclistas. Colocar o iPhone no suporte do guidão para usar o GPS, somado às vibrações fortes dos motores monocilíndricos e os buracos do asfalto, quebra o Estabilizador Óptico de Imagem (OIS).\n\nO resultado? Quando você abre a câmera para bater uma foto, ela fica tremendo loucamente e faz um som de chocalho ou zumbido (bzzzz). O conserto requer a substituição completa do módulo duplo ou triplo da câmera traseira."
+      },
+      {
+        id: "queima-do-tristar",
+        title: "O Assassino de iPhones: Carregadores Piratas",
+        content: "Carregadores comprados na rua e cabos ressecados falsificados enviam picos de tensão não controlados para a placa. O iPhone tem um 'guarda de trânsito' na entrada chamado CI Tristar ou Hydra. Quando você usa um cabo ruim, o cabo assassina esse componente.\n\nSintomas de CI Tristar queimado:\n- Acessório incompatível na tela.\n- O iPhone carrega desligado, mas ligado não sobe a %.\n- O celular descarrega muito rápido mesmo com bateria nova em 100%.\n\nA Reparo Avançado resolve isso removendo o CI queimado no microscópio e soldando um novo chip."
+      }
+    ],
+    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "troca-tela-iphone-true-tone-salvador", "iphone-nao-liga-diagnostico-placa-salvador"]
+  },
+  {
+    slug: "assistencia-tecnica-samsung-salvador-autorizada",
+    title: "Assistência Técnica Samsung Salvador | Linha S e A | Reparo Avançado",
+    h1: "Assistência Técnica Especializada em Samsung Galaxy em Salvador",
+    metaDescription: "Conserto especializado de Samsung Linha S, A e Note em Salvador (Boca do Rio). Troca de tela AMOLED, vidro com cola UV e reparo de placa-mãe com garantia.",
+    category: "samsung" as Category,
+    brand: "Samsung",
+    model: "Galaxy Linha S e A",
+    service: "Assistência Samsung",
+    serviceSlug: "assistencia-tecnica-samsung-salvador-autorizada",
+    description: "Referência em laboratório técnico para aparelhos Samsung. Do básico (troca de entrada de carga) ao avançado (troca de display de borda infinita).",
+    isEditorial: true,
+    keywords: ["assistencia tecnica samsung salvador", "conserto de celular samsung pituba", "troca de tela samsung s22", "onde consertar celular samsung", "assistência galaxy s"],
+    problems: [
+      "Tela verde, branca ou com lista rosa (Problema crônico do cabo flat da tela)",
+      "Tampa traseira descolando sozinha (geralmente é a bateria estufando)",
+      "Erro no conector de carga exibindo ícone de termômetro vermelho",
+      "Aviso constante de 'Umidade Detectada' na porta USB (mesmo estando seco)",
+      "Botão de volume amassado ou afundado na carcaça"
+    ],
+    causes: [
+      "Maresia baiana oxidando a mini-placa de carga inferior",
+      "Atualizações de software que exigiram demais do processador, sobreaquecendo a solda BGA",
+      "Uso intenso durante o carregamento de carregadores Turbo ('Fast Charging')",
+      "Tombos em quinas que racham a borda infinita Edge das linhas Galaxy S e Note"
+    ],
+    solution: `Os aparelhos Samsung são conhecidos pela sua excelente tecnologia de telas (Dynamic AMOLED) e construção modular. Porém, abrir um Samsung Galaxy recente exige precisão, pois a tela e a tampa traseira são seladas com borrachas e adesivos ultra-fortes que podem quebrar se forçados.\n\nNa Reparo Avançado, somos equipados com mantas e planchas de aquecimento controlado e sugadores a vácuo, garantindo uma abertura limpa, sem danificar a biometria sob a tela ou as antenas de NFC na traseira. Nosso menu de serviços para a gigante coreana inclui:\n\n**Troca Completa Frontal (com ou sem aro):** Sempre buscando manter as propriedades da biometria na tela que telas baratas perdem.\n**Substituição da Placa Sub-PBA:** Resolve o clássico erro de carregamento lento, microfone falhando em ligações ou mensagem persistente de "Umidade na Entrada Tipo-C".\n**Recondicionamento Térmico:** Resolvemos celulares que fervem a traseira aplicando pastas térmicas de qualidade na blindagem da CPU.\n\n[IMPORTANTE]\nSe a tela do seu Samsung (especialmente os modelos Galaxy S20, S21, S22 e Note) ficou subitamente branca brilhante ou verde alface, não jogue fora. Embora a autorizada mande trocar a tela toda por 2.000 reais, nós avaliamos a possibilidade de recuperação das trilhas do flex, o que custa muito menos!\n[/IMPORTANTE]\n\nOferecemos estrutura laboratorial de alta capacidade a poucos minutos de você. ${LOCAL_SEO}`,
+    whenToSeek: "Se a mensagem de umidade (gotinha d'água na porta USB) durar mais de 48 horas impedindo o carregamento. Ou se a tampa traseira estiver estufada como uma almofada (Risco crítico de incêndio, não aperte a tampa!).",
+    costInfo: `Displays Samsung originais possuem valor agregado elevado, mas sempre oferecemos opções de "Original Nacional" ou troca de apenas o vidro externo (se a imagem estiver intacta), reduzindo o custo até pela metade. ${CTA_TEXT}.`,
+    faq: [
+      { question: "O meu Samsung acusa 'umidade detectada' mas não molhou. O que é?", answer: "Na maioria dos casos, sujeira úmida, fiapos de bolso com suor ou maresia oxidaram o sensor do conector USB-C inferior. Precisamos realizar a troca da sub-placa de carga." },
+      { question: "A biometria na tela do Samsung funciona se trocar a tela?", answer: "Sim, se a nova tela for de tecnologia OLED/AMOLED idêntica à original. Telas piratas de LCD (TFT) antigas e grossas bloqueiam o leitor de digital na tela." },
+      { question: "O que significa 'Tela com Aro'?", answer: "Para a Samsung, muitas telas já vêm coladas de fábrica em uma nova carcaça de alumínio lateral (o aro). Trocando assim, seu celular fica com a lateral 100% nova, sem nenhum arranhão antigo." },
+      { question: "Vale a pena trocar a tela de um modelo Galaxy A mais antigo?", answer: "Depende. Se for da linha A0x (A03, A04), a tela de reposição tem preço muito atrativo. Se for da linha A5x (A52, A54) compensa pelo altíssimo valor de revenda do aparelho." }
+    ],
+    sections: [
+      {
+        id: "troca-vidro-edge",
+        title: "Especialidade: Troca de Vidro em Telas Curvas",
+        content: "Seu Galaxy S23 Ultra caiu e trincou a tela toda esmigalhada, mas a imagem do celular e o toque na tela continuam funcionando 100% perfeitos?\n\nAs autorizadas vão jogar todo esse seu display caríssimo no lixo e te cobrar uma fortuna. Aqui na Reparo Avançado, nós somos especialistas na recuperação óptica de displays curvos (Edge).\nNós usamos fios de aço de milímetros e nitrogênio líquido/aquecedoras para fatiar o vidro rachado, separando-o do display de LED. Depois, colamos um vidro novo com cola ótica e máquina tira-bolhas."
+      },
+      {
+        id: "defeito-tela-verde",
+        title: "A Assustadora Tela Verde da Morte",
+        content: "Após uma atualização do Android ou uso intenso esquentando o aparelho, muitos modelos topo de linha da Samsung apresentam uma tela completamente verde ou branca. O defeito é nas micro-soldas do flat (o cabo laranja) da tela que perdeu a conexão com o display de vidro.\nÉ um defeito crônico complexo e exigimos o aparelho em laboratório para estudo de viabilidade, focando sempre na economia do cliente."
+      }
+    ],
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "celular-nao-carrega-salvador", "erro-umidade-samsung-conector-salvador"]
+  },
+  // ═══════════════════════════════════════════
+  // LOTE 3 E 4 - NOVOS ARTIGOS PREMIUM SEO
+  // ═══════════════════════════════════════════
+  {
+    slug: "assistencia-tecnica-xiaomi-salvador-conserto",
+    title: "Assistência Técnica Xiaomi Salvador | Conserto Especializado Poco e Redmi",
+    h1: "Assistência Técnica Especializada em Xiaomi, Poco e Redmi em Salvador",
+    metaDescription: "Conserto de celulares Xiaomi, linha Poco e Redmi em Salvador (Boca do Rio). Resolvemos falhas crônicas de Poco X3, placa morta, reballing de CPU e telas originais.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Assistência Xiaomi",
+    serviceSlug: "assistencia-tecnica-xiaomi-salvador-conserto",
+    description: "Referência no reparo dos defeitos crônicos mais temidos da linha Xiaomi e Poco. Técnicos peritos em micro-soldagem avançada de processador e memórias.",
+    isEditorial: true,
+    keywords: ["assistencia tecnica xiaomi salvador", "conserto de celular poco x3", "xiaomi nao liga mais", "reballing cpu poco x3 pro", "troca de tela xiaomi salvador"],
+    problems: [
+      "Poco X3 Pro ou X3 NFC apagou do nada e não liga mais",
+      "Celular Xiaomi reiniciando em loop eterno na logo 'MIUI' ou 'POCO'",
+      "Câmera parou de funcionar e o celular ficou sem som nas ligações (defeito em série)",
+      "Tela fantasma (Burn-in) com botões marcados no fundo",
+      "Aparelho superaquecendo absurdamente após atualizar a MIUI"
+    ],
+    causes: [
+      "Solda fria crônica sob a blindagem do processador e memória (erro de projeto da fabricante na série Poco X3 e M3)",
+      "Atualizações de software muito pesadas que corrompem a partição do sistema",
+      "Carregadores genéricos que enviam surtos de tensão, fritando o CI PMIC",
+      "Quedas acidentais que desconectam o flat da bateria interna"
+    ],
+    solution: `Os smartphones da Xiaomi oferecem um custo-benefício incrível, mas infelizmente algumas linhas, como a família Poco (X3 Pro, M3), possuem falhas crônicas de engenharia na solda da placa-mãe. Quando esses aparelhos sofrem estresse térmico jogando ou carregando, a solda que liga o processador à placa trinca microscopicamente, e o aparelho sofre "Morte Súbita" ou "Fica sem Som e sem Câmera".\n\nNa Reparo Avançado, nós não condenamos o aparelho como as outras oficinas fazem. Nós dominamos a arte do **Reballing de CPU**. O processo envolve a remoção do processador Snapdragon com calor a 380°C, limpeza total da solda antiga defeituosa da fábrica, criação de uma nova malha de solda (esferas de estanho e chumbo) com stencil microscópico, e ressoldagem perfeita da peça.\n\n[DICA]\nSe o seu Poco ou Redmi desligou sozinho e não liga mais, NÃO coloque na tomada de novo e NÃO tente forçar a ligação. Isso pode queimar de vez a memória por curto elétrico. Traga desligado para nós.\n[/DICA]\n\nTambém realizamos a troca do display original da Xiaomi, troca do vidro da câmera, reparo do conector USB-C com placa Sub, entre outros serviços. ${LOCAL_SEO}`,
+    whenToSeek: "Imediatamente caso o aparelho apresente perda repentina do microfone e das câmeras (é o aviso final antes de morrer completamente). Ou se já estiver com tela preta e sem resposta no carregador.",
+    costInfo: `Um procedimento cirúrgico como o Reballing de CPU possui um valor que varia entre R$ 250 a R$ 450 dependendo do modelo do Xiaomi. A troca de telas e conectores tem valores menores, dependendo do tipo da peça (Incell ou OLED). Orçamento sem compromisso! ${CTA_TEXT}.`,
+    faq: [
+      { question: "O meu Poco X3 apagou, perdi minhas fotos?", answer: "Provavelmente não! O defeito geralmente é nas 'pernas' de comunicação do processador e não no chip de memória de armazenamento. Refazendo a solda (Reballing), o aparelho liga normalmente com todos os seus arquivos dentro." },
+      { question: "O que é Morte Súbita do Xiaomi Poco?", answer: "É o nome popular dado ao defeito crônico de fabricação onde a solda BGA sob o processador trinca por variação de calor, interrompendo a energia do celular. Ele não morreu, ele apenas perdeu o contato elétrico." },
+      { question: "Vocês trocam a tela do Redmi Note?", answer: "Sim. Trabalhamos com displays originais retirados ou modelos Incell Premium de alta resistência para toda a linha Redmi Note (Note 8, 9, 10, 11, 12, 13 e superiores)." },
+      { question: "O conserto do processador (reballing) é demorado?", answer: "Como é um trabalho de micro-eletrônica forense de alta precisão, pedimos de 3 a 5 dias úteis para executar com segurança, fazer os banhos químicos de limpeza e os testes de estresse térmico." }
+    ],
+    sections: [
+      {
+        id: "loop-infinito-miui",
+        title: "O Problema do Loop Infinito na MIUI",
+        content: "Muitos clientes de Salvador nos procuram com o celular Xiaomi travado, acendendo e apagando na tela com o logotipo da marca. Isso ocorre frequentemente quando o cliente vai atualizar a MIUI ou HyperOS e a memória lota ou corrompe.\n\n[IMPORTANTE]\nNós possuímos licenças de softwares avançados (como UnlockTool e MiFlash) para restaurar a partição do sistema via computador (Modo EDL), salvando seu dispositivo de um 'Hard Brick'.\n[/IMPORTANTE]"
+      },
+      {
+        id: "cameras-sem-som",
+        title: "Poco sem som, travando e câmera que não abre",
+        content: "Esse é o sintoma clássico pré-morte. A comunicação do Processador Central com o chip responsável pelo áudio (Codec) ou as linhas MIPI da câmera se rompem na placa. Se você continuar usando o aparelho com defeito de áudio, logo ele apagará a tela para sempre. O Reballing preventivo ou corretivo é a única solução definitiva."
+      }
+    ],
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria"]
+  },
+  {
+    slug: "troca-vidro-ou-tela-completa-celular-diferenca",
+    title: "Troca de Vidro vs Troca de Tela Completa: Qual a Diferença? | Salvador",
+    h1: "Troca de Vidro ou Tela Completa? Entenda a Diferença e Economize Dinheiro",
+    metaDescription: "Celular caiu e trincou a tela? Descubra em Salvador se você precisa pagar caro pela tela completa ou se pode pagar apenas 30% do valor fazendo a troca só do vidro externo.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Troca de Vidro",
+    serviceSlug: "troca-vidro-ou-tela-completa-celular-diferenca",
+    description: "Desvende os segredos que oficinas não querem que você saiba. A troca apenas do vidro rachado pode salvar sua tela original e poupar mais da metade do seu dinheiro.",
+    isEditorial: true,
+    keywords: ["troca de vidro celular salvador", "trocar tela ou so o vidro celular", "conserto vidro quebrado celular", "recondicionamento de tela", "economia conserto celular boca do rio"],
+    problems: [
+      "O vidro do celular está rachado como uma teia de aranha",
+      "Mas a imagem no fundo ainda está com as cores 100% perfeitas",
+      "E o 'touch screen' (o toque do dedo) funciona em todas as partes da tela perfeitamente",
+      "Autorizadas cobram um absurdo para consertar",
+      "Dúvida se vale a pena consertar ou comprar outro aparelho"
+    ],
+    causes: [
+      "Impacto frontal direto contra superfícies ásperas (asfalto, pedra)",
+      "Não uso de películas 3D ou películas de cerâmica",
+      "Capinhas finas sem elevação nas bordas frontais"
+    ],
+    solution: `Essa é a informação mais valiosa que você pode receber hoje: A "tela" do celular não é uma coisa só. Ela é formada por várias camadas, e as duas principais são: o **Display** (onde a luz e a imagem aparecem) e o **Vidro Frontal** (a camada de proteção transparente que você toca).\n\nQuando o seu celular cai, em 80% das vezes apenas o Vidro racha. O Display lá no fundo fica intacto. A maioria das oficinas obriga você a trocar a tela toda (jogando fora o seu display perfeito). Nós da Reparo Avançado fazemos o **Recondicionamento de Telas**.\n\n[ATENCAO]\nSe a imagem do seu celular está perfeita (sem manchas pretas, linhas ou piscadas estranhas) e o touch funciona 100%, você ESTÁ APTO para trocar APENAS O VIDRO. \n[/ATENCAO]\n\nNós removemos o seu display do aparelho, colocamos em uma máquina a vácuo com aquecimento a 85ºC e, usando um fio de aço superfino (0.03mm), cortamos e separamos o vidro quebrado da matriz de LED. Após uma limpeza delicada e química, colamos um vidro blindado novo (gorilla glass original) com cola OCA em uma estufa pressurizada. O resultado? O celular fica novo, mantém o touch perfeito de fábrica e você gasta menos da metade do preço da tela inteira! ${LOCAL_SEO}`,
+    whenToSeek: "O mais rápido possível. Se a tela estiver trincada, pequenos estilhaços de vidro podem ser pressionados contra o Display (quando colocado no bolso) e acabar machucando a matriz interna de imagem. Uma vez manchada, a troca de vidro já não será mais possível.",
+    costInfo: `A troca apenas do vidro costuma custar entre 40% a 60% MENOS do que o valor de uma tela inteira nova. É a maior economia na área de manutenção. Faça seu orçamento via WhatsApp agora! ${CTA_TEXT}.`,
+    faq: [
+      { question: "Como saber se preciso trocar a tela inteira ou só o vidro?", answer: "A regra de ouro é: se a imagem aparece perfeita em todas as partes (sem nenhuma mancha preta de 'tinta vazada', roxa ou verde) e se ao tocar com o dedo a tela responde sem falhas, você precisa apenas da troca do vidro." },
+      { question: "Meu celular trincou o vidro, a Apple (ou Samsung) conserta só o vidro?", answer: "Não. A política das fabricantes e autorizadas é sempre trocar o bloco frontal inteiro. Eles vão cobrar pelo display junto, o que pode ultrapassar R$ 1.500. Oficinas especializadas com laboratório focado (como nós) são as únicas que separam as peças." },
+      { question: "A tela volta a ser original se trocar só o vidro?", answer: "Sim! Porque nós mantivemos o seu Display de LED original que veio da fábrica. Apenas o 'pára-brisa' transparente de fora foi trocado. A qualidade de cores e sensibilidade continuam absolutas." },
+      { question: "O serviço de troca de vidro é arriscado?", answer: "Existe um risco de cerca de 10% a 15% do display se romper no momento da separação do vidro estilhaçado, pois é um trabalho extremamente minucioso e artesanal. Mas explicamos todos os termos com clareza na loja." }
+    ],
+    sections: [
+      {
+        id: "maquina-oca",
+        title: "O Segredo Tecnológico: Laminação e Tira-Bolhas OCA",
+        content: "O que torna o acabamento da troca de vidro da Reparo Avançado perfeito é o nosso maquinário. Depois que separamos o vidro quebrado, o vidro novo não é colado com cola líquida (que vaza para os botões). Nós usamos Cola OCA (Optical Clear Adhesive) — uma fita adesiva óptica sólida e invisível.\n\nO aparelho entra numa câmara de pressão a vácuo de 8 Bar de pressão que prensa o vidro novo contra o display original, sugando 100% do oxigênio entre as partes e eliminando as microbolhas. O acabamento é de celular lacrado na caixa da fábrica."
+      },
+      {
+        id: "economia-ambiente",
+        title: "Sustentabilidade e Bolso Cheio",
+        content: "Além de você economizar um valor expressivo, o recondicionamento evita que componentes eletrônicos perfeitos (como o display de silício e leds) parem em aterros sanitários. É a opção mais inteligente financeiramente e ambientalmente responsável para as telas modernas OLED, AMOLED e Dynamic AMOLED, que têm o custo de reposição altíssimo."
+      }
+    ],
+    relatedSlugs: ["troca-de-tela-celular-salvador-original", "assistencia-tecnica-samsung-salvador-autorizada", "assistencia-tecnica-iphone-salvador-especializada"]
+  },
+  {
+    slug: "camera-celular-embacada-quebrada-conserto-salvador",
+    title: "Câmera do Celular Embaçada, Quebrada ou Tremendo? Veja Como Consertar",
+    h1: "Câmera do Celular Parou, Está Embaçada ou Tremendo sem Parar? Saiba a Solução",
+    metaDescription: "Conserto de câmera de celular em Salvador. Resolvemos câmera com poeira por dentro, vidro trincado, câmera tremendo (barulho de abelha) e lente manchada. Orçamento gratuito!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Reparo de Câmera",
+    serviceSlug: "camera-celular-embacada-quebrada-conserto-salvador",
+    description: "Um guia prático sobre os problemas da câmera do smartphone: desde manchas pretas nas fotos, lentes externas estilhaçadas, até vibrações incontroláveis no estabilizador óptico.",
+    isEditorial: true,
+    keywords: ["camera celular embacada por dentro", "trocar vidro da camera celular salvador", "camera do iphone tremendo fazendo barulho", "conserto camera samsung pituba", "mancha preta foto celular"],
+    problems: [
+      "Fotos estão saindo opacas, leitosas ou como se estivessem embaçadas de neblina",
+      "Câmera tremendo loucamente e fazendo barulho de motorzinho ('bzzz')",
+      "Manchas pretas arredondadas e manchas roxas aparecem fixas nas fotos contra fundos claros",
+      "Vidro externo que cobre a lente traseira trincou e está um buraco",
+      "A câmera abre, mas a tela fica completamente preta, travando o app"
+    ],
+    causes: [
+      "Umidade invisível gerando gotículas de água na parte interna das lentes do módulo da câmera",
+      "Suporte de moto/bicicleta destruindo o Estabilizador Óptico de Imagem (OIS) do aparelho",
+      "Fogo do laser em shows ou boates (famoso queimador de sensor digital de câmera)",
+      "Poeira que penetrou por uma rachadura minúscula na lente de proteção externa traseira"
+    ],
+    solution: `Os conjuntos de câmeras dos celulares atuais custam às vezes até 30% do valor do aparelho (como os sistemas do iPhone Pro Max ou do S24 Ultra). Um problema na câmera afeta o uso de bancos, redes sociais e capturas de momentos. Na Reparo Avançado, nós não trocamos a câmera inteira "cegamente". Nós identificamos o foco do defeito.\n\n**Para Câmeras Embaçadas ou Lente Externa Trincada:** Removemos as sobras de vidro pelo lado externo com pinças ou desmontando a traseira. Limpamos a superfície exposta da lente do sensor original para tentar remover a sujeira com produtos não-abrasivos. Em seguida, instalamos um **vidro de safira ou cristal temperado original** novo no aro e selamos com cola UV, bloqueando futuras entradas de pó.\n\n[DICA]\nSe o vidro da câmera quebrou hoje, coloque um pedaço de durex ou fita transparente imediatamente por cima do buraco. Isso evita que minúsculos grãos de poeira arranhem o sensor digital frágil que está exposto. Traga para a oficina no mesmo dia!\n[/DICA]\n\n**Para Câmera Tremendo:** O reparo é exclusivamente a substituição física do módulo da câmera (geralmente toda a caixa da câmera principal), pois as micromolas eletromagnéticas do estabilizador estão frouxas ou rompidas. Nós removemos as peças danificadas e inserimos módulos retirados e testados. ${LOCAL_SEO}`,
+    whenToSeek: "Imediatamente caso o vidro de proteção traseiro quebre, para evitar que pó destrua o módulo de captura (que é caríssimo). Se for embaçado (umidade), a urgência também é alta para não enferrujar a lente.",
+    costInfo: `A troca do Vidro Protetor de Câmera é um serviço extremamente barato e rápido, geralmente concluído em 30 minutos na nossa loja. Já a substituição do Módulo Interno da Câmera tem valores variados de acordo com o modelo. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Câmera do iPhone tremendo e fazendo barulho. Tem como arrumar só a molinha?", answer: "Não, infelizmente. O Estabilizador Óptico (OIS) é lacrado a vácuo na fábrica num espaço milimétrico. A solução mecânica obrigatória é a substituição do módulo triplo/duplo de câmera por inteiro." },
+      { question: "Minha foto tem uma manchinha preta fixa. Sai limpando?", answer: "Se o celular não tem a lente traseira quebrada por fora, a poeira conseguiu entrar lá dentro do sensor selado da fábrica ou o sensor teve Pixels Queimados (Dead Pixels). Dificilmente uma limpeza resolve sem danificar; o correto é trocar a câmera interna." },
+      { question: "Vidro da lente de fora quebrou. Posso perder a câmera de dentro?", answer: "Com certeza. O vidro de fora custa centavos em comparação à câmera de dentro (que pode custar mil reais num aparelho top). A poeira risca a lente e a umidade queima o sensor, por isso feche o buraco com fita até chegar na nossa loja." },
+      { question: "A câmera fica escura e o celular trava. É problema físico ou software?", answer: "Pode ser os dois. Se a placa mãe não consegue se comunicar com a câmera devido a um tombo que soltou o conector flat por dentro, o aplicativo 'entra em pânico' e trava em tela preta. Nós precisamos abrir para verificar a conexão." }
+    ],
+    sections: [
+      {
+        id: "lente-quebrada",
+        title: "Vidro Protetor Externo vs. Módulo da Câmera",
+        content: "Para ser claro: a 'rodela de vidro' que você vê na traseira do celular não é a câmera em si. É apenas uma janela protetora. A câmera real é uma caixa preta de metal e plástico (o módulo) que fica posicionada por trás dessa janela.\n\nSe quebrar apenas o vidro de fora (a janela), nós fazemos a raspagem cirúrgica e aplicação de um vidro novo, sem que você gaste muito. O problema surge quando você anda dias com essa janela quebrada, forçando a troca do módulo caro de dentro."
+      },
+      {
+        id: "festa-laser",
+        title: "Perigo em Festas: Lasers em Sensores Digitais",
+        content: `Você foi a uma boate, casamento ou show de música eletrônica, filmou os lasers verdes e roxos rasgando o ar, e no dia seguinte viu manchas rosas em todas as suas fotos. \n\n[IMPORTANTE]\nLasers apontados diretamente para o celular **derretem e queimam** os fotodiodos do sensor de imagem na mesma hora. Não é mancha ou poeira, é cicatriz de queimadura eletrônica, não tem limpeza que resolva. Nunca filme ou aponte seu telefone diretamente para disparos de show de luzes laser.\n[/IMPORTANTE]`
+      }
+    ],
+    relatedSlugs: ["assistencia-tecnica-iphone-salvador-especializada", "poeira-lente-camera-limpeza-interna-salvador", "troca-vidro-ou-tela-completa-celular-diferenca"]
+  },
+  {
+    slug: "celular-esquentando-descarregando-rapido-bateria",
+    title: "Celular Esquentando Muito e Descarregando Rápido: O Que Fazer? | Salvador",
+    h1: "Celular Esquentando Muito e Descarregando Rápido: Descubra os Riscos e as Soluções",
+    metaDescription: "Seu celular parece um ferro de passar roupas quente e descarrega absurdamente rápido? Evite explosões ou queimas de placa! Saiba o que analisar na assistência técnica.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Reparo Térmico e Placa",
+    serviceSlug: "celular-esquentando-descarregando-rapido-bateria",
+    description: "Um mergulho técnico no motivo pelo qual o seu celular vira uma frigideira na sua mão. Entenda a diferença entre o aquecimento normal de um jogo pesado e um curto-circuito destrutivo.",
+    isEditorial: true,
+    keywords: ["celular esquentando muito", "bateria descarregando rapido", "fuga de corrente celular", "celular esquentando do nada salvador", "curto circuito placa celular"],
+    problems: [
+      "O celular fica muito quente na parte de trás mesmo sem você estar usando",
+      "A bateria cai de 80% para 40% em menos de meia hora com a tela apagada",
+      "O aviso 'Aparelho superaqueceu' aparece na tela forçando o desligamento",
+      "Fica extremamente lento, quase travando, quando a traseira esquenta demais",
+      "A tampa traseira começa a descolar (bateria inchando de tanto calor)"
+    ],
+    causes: [
+      "Aplicativos maliciosos rodando em segundo plano exigindo 100% de processador ('Mineradores de cripto')",
+      "Fuga de corrente (pequenos curtos-circuitos) em microcapacitores defeituosos na placa-mãe",
+      "Bateria em fase final de vida, gerando resistência elétrica e dissipando energia em forma de calor",
+      "Carregar o celular e jogar jogos pesados (como Free Fire e CoD) ao mesmo tempo numa capinha abafada"
+    ],
+    solution: `Todo celular de alta performance esquenta sob uso extremo. Mas o "Esquentando Muito Sem Motivo" é o sinal vermelho absoluto do hardware mobile.\n\nNa Reparo Avançado em Salvador, nós tratamos isso como prioridade. Um celular quente com bateria sendo drenada no bolso é como um balde furado vazando água pelo ralo.\n\nNós realizamos dois exames cruciais:\n**1. Mapeamento Térmico:** Colocamos a placa do aparelho sob a nossa Câmera Térmica FLIR para enxergar em tempo real qual CI (Chip) está brilhando incandescente no visor por falha de fuga de corrente. Às vezes, o culpado não é a bateria, mas sim o CI Controlador da rede Wi-Fi ou o chip do Bluetooth, que pifaram e estão roubando carga loucamente.\n**2. Verificação de Saúde Físico-Química da Bateria:** Inspecionamos se a célula de lítio estufou sob pressão de calor.\n\n[DICA]\nSe o seu aparelho começou a esquentar absurdamente DO NADA na sua mesa, force o desligamento e deixe em uma superfície ventilada até esfriar. Usar o aparelho nesse estado (Térmico Thermal Throttling) cozinha a solda do processador, gerando Morte Súbita imediata.\n[/DICA]\n\nTraga para a equipe mais preparada da região e resolva o problema antes que se perca todo o circuito. ${LOCAL_SEO}`,
+    whenToSeek: "Urgência máxima. Aparelhos que descarregam absurdamente enquanto esquentam no bolso da calça oferecem risco físico ao usuário (queimaduras) e também risco letal permanente de carbonização na placa-mãe.",
+    costInfo: `O custo pode ser desde o valor de uma simples Troca de Bateria Premium até um valor de Reparo de Micro-Soldagem focado, a depender do teste do circuito. Avaliação detalhada sem compromisso inicial. ${CTA_TEXT}.`,
+    faq: [
+      { question: "É normal o celular esquentar quando está no carregador Turbo?", answer: "Ficar morno é normal, pois a transferência de 20W ou 67W gera dissipação térmica. Mas ficar intocável, 'pelando', não é normal e o próprio sistema reduzirá a carga por segurança ou travará." },
+      { question: "Jogar com o celular na tomada vicia a bateria?", answer: "Não vicia no sentido antigo da palavra. Mas a combinação do calor extremo da bateria carregando + calor extremo da CPU do jogo estressa o lítio absurdamente, reduzindo o tempo de vida útil de 3 anos para 1 ano." },
+      { question: "Por que o celular descarrega mesmo quando não estou usando?", answer: "Isso se chama 'Fuga de Corrente'. Há um micro-capacitor na placa do seu celular que rompeu a barreira. Ao invés da energia ir para a antena ou tela, ela 'vaza' ali e vira calor dentro da placa. É defeito físico de solda na placa lógica." },
+      { question: "Como descubro se o problema é só na bateria velha ou curto na placa?", answer: "O diagnóstico profissional em loja liga a placa do aparelho em uma fonte de alimentação assimétrica (computadorizada). Se o aparelho 'puxar miliamperes' com a tela desligada (o correto é 0,000A), comprovamos que a fuga de carga é na placa." }
+    ],
+    sections: [
+      {
+        id: "bateria-estufando",
+        title: "Perigo de Explosão: A Bateria Inchada",
+        content: `Muitas vezes, a resposta ao constante calor extremo do aparelho resulta na bateria inchando. Como a bateria dos celulares modernos são sacos laminados macios, os gases gerados pela reação química ruim da exaustão térmica precisam expandir. \n\n[IMPORTANTE]\nO inchaço é tão forte que a pressão arranca a tampa traseira de vidro da Samsung ou levanta e quebra pelo meio as telas dos iPhones e Motorolas. Se você apertar essa "almofada" com força para ver o que é, ela entra em curto com o ar atmosférico e pode causar faíscas. A troca é obrigatória para prevenção de acidentes.\n[/IMPORTANTE]`
+      },
+      {
+        id: "softwares-pesados",
+        title: "O Culpado do Verão Baiano + Software",
+        content: "Em dias quentes de 35ºC em Salvador, usar o GPS do celular pendurado no para-brisa do carro, no painel, batendo sol direto enquanto carrega... É o fim da linha para o circuito lógico. Muitos clientes esquecem o celular torrando ao sol e as pastas térmicas de blindagem do processador secam e o aparelho não esfria mais corretamente. Sempre tente operar e resfriar o equipamento virando a saída do ar-condicionado na direção dele em viagens longas."
+      }
+    ],
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "troca-de-bateria-iphone-salvador-saude-100", "celular-nao-liga-motivos-salvador"]
+  },
+  {
+    slug: "conserto-botao-power-volume-celular-salvador",
+    title: "Conserto de Botão Power e Volume do Celular em Salvador | Reparo Rápido",
+    h1: "Botão Power ou Volume Quebrado? Conserto Rápido e Barato na Boca do Rio",
+    metaDescription: "Celular afundou o botão de ligar ou o volume não funciona? Fazemos a troca do flex power e botões físicos de iPhone, Samsung, Xiaomi e Motorola em Salvador.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Reparo de Botões",
+    serviceSlug: "conserto-botao-power-volume-celular-salvador",
+    description: "Um defeito que parece simples, mas inutiliza o celular. Descubra como substituímos o mecanismo interno de botões afundados ou rasgados.",
+    isEditorial: true,
+    keywords: ["conserto botao power celular", "botao volume afundado conserto", "trocar flex power iphone", "arrumar botao de ligar celular salvador", "celular travado no volume"],
+    problems: [
+      "O botão de ligar (Power) afundou e não faz mais o 'clique'",
+      "Celular liga sozinho e entra em Modo de Recuperação (Botão de volume travado apertado)",
+      "Você aperta o botão e ele está duro, não responde ou precisa fazer muita força",
+      "O botão de borracha/plástico de fora caiu e ficou um buraco na lateral",
+      "O leitor de digital (biometria) no botão Power parou de reconhecer o dedo"
+    ],
+    causes: [
+      "Pressionar os botões com muita força, especialmente quando o celular trava (o famoso 'apertar de raiva')",
+      "Quedas laterais que amassam a carcaça de alumínio em cima do botão, esmagando-o",
+      "Suor das mãos ou umidade que entra pelas frestas e oxida a malha metálica ('chapinha') do botão",
+      "Uso contínuo ao longo dos anos causando desgaste mecânico (fadiga de material)"
+    ],
+    solution: `Viver com um celular onde você não consegue aumentar o som de um áudio ou precisa de malabarismos (como botar no carregador) para acender a tela é frustrante.\n\nNa Reparo Avançado, resolvemos problemas de botões de três formas principais:\n\n**1. Limpeza Química:** Às vezes o botão está apenas colado com sujeira doce (refrigerante) ou suor. Limpamos com álcool isopropílico sem precisar trocar a peça.\n**2. Troca do Cabo Flat (Flex Power):** Se a 'chapinha' metálica interna rompeu, nós substituímos o cabo flexível por inteiro. É um serviço que exige a abertura do aparelho, pois o cabo passa por trás da placa-mãe ou da tela.\n**3. Micro-Soldagem do Botão (SMD):** Em aparelhos Android onde o botão é soldado diretamente na placa-mãe (não usa cabo flat), nós removemos a peça quebrada usando microscópio e soldamos uma chave táctil nova e estalando.\n\n[DICA]\nSe o seu botão quebrou e você não consegue ligar a tela, ative a função "Toque duplo para despertar" (Double Tap to Wake) nas configurações de Tela do seu Android ou iPhone. Assim você liga a tela batendo duas vezes no vidro até trazer aqui na oficina!\n[/DICA]\n\nAtendimento expresso para substituição de botões físicos na Boca do Rio. ${LOCAL_SEO}`,
+    whenToSeek: "Se o celular entrou em 'Modo Fastboot' ou 'Modo Recovery' (uma tela preta com letrinhas inglesas). Isso significa que o botão de volume quebrou afundado. Traga rápido para destravarmos antes que ele apague o sistema.",
+    costInfo: `A troca de cabo Flex de botões ou chaves tácteis é considerada um Reparo de Baixo Custo, ideal para não descartar um aparelho bom. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Tem como consertar só a tecla plástica de fora que caiu?", answer: "Sim. Se o mecanismo interno estiver clicando e você só perdeu o pedacinho de plástico externo, nós encomendamos apenas os botões externos para reposição na carcaça." },
+      { question: "O botão Power afundou depois de uma queda que amassou a lateral. Tem conserto?", answer: "Tem conserto, mas exigirá o uso de uma micro-retífica para desgastar e desempenar a carcaça de alumínio amassada. Nós retificamos o buraco para o botão voltar a deslizar livremente." },
+      { question: "Meu celular entra no Modo Fastboot toda hora. O que é?", answer: "90% de chance de ser o botão de Volume Menos que está em curto-circuito interno (preso). O sistema entende que você está segurando o volume na hora de ligar e entra nesse modo de fábrica." },
+      { question: "A biometria no botão lateral volta a funcionar?", answer: "Se trocarmos o cabo Flex completo por um Original que contenha o sensor biométrico, sim. Telas ou peças paralelas geralmente vêm sem o sensor, mas aqui nós preservamos suas funções de fábrica." }
+    ],
+    sections: [
+      {
+        id: "botao-soldado",
+        title: "Diferença entre Flex e Botão Soldado na Placa",
+        content: "Em iPhones, o mecanismo do botão fica em um cabo fino longo (o Flex) colado na carcaça, o que facilita a troca pois não mexe na placa.\nJá em muitos aparelhos Samsung (linha A) e Motorola (Moto G), o botão é uma pequena caixa de metal soldada diretamente na placa-mãe.\nPara consertar esses botões soldados, precisamos de ferro de solda de precisão. O calor excessivo na mão de um técnico inexperiente pode derreter conectores plásticos vizinhos, por isso a importância de um laboratório equipado como a Reparo Avançado."
+      }
+    ],
+    relatedSlugs: ["assistencia-tecnica-xiaomi-salvador-conserto", "celular-nao-liga-motivos-salvador"]
+  },
+  {
+    slug: "onde-consertar-celular-boca-do-rio-salvador",
+    title: "Onde Consertar Celular na Boca do Rio em Salvador? | Reparo Avançado",
+    h1: "Procurando Conserto de Celular de Confiança na Boca do Rio, Salvador?",
+    metaDescription: "A Reparo Avançado é a sua assistência técnica de referência na Boca do Rio, Salvador. Especialistas em laboratório avançado, conserto de telas, baterias e placas.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Guia Local e Assistência Geral",
+    serviceSlug: "onde-consertar-celular-boca-do-rio-salvador",
+    description: "Um guia de apresentação oficial do nosso laboratório matriz localizado estrategicamente na Boca do Rio, para atender toda a Orla e Miolo de Salvador.",
+    isEditorial: true,
+    keywords: ["onde consertar celular boca do rio", "assistencia tecnica de celular boca do rio salvador", "conserto celular pituba costa azul imbui", "melhor assistencia tecnica celular salvador", "reparo avancado boca do rio"],
+    problems: [
+      "Medo de deixar o celular em oficinas amadoras e ter as peças roubadas",
+      "Falta de transparência em orçamentos demorados",
+      "Dificuldade de encontrar laboratórios que façam reparo avançado de placa (solda) no próprio bairro",
+      "Necessidade de conserto expresso no mesmo dia",
+      "Atendimento ruim em assistências de fundo de quintal"
+    ],
+    causes: [
+      "Falta de profissionalização e maquinário no mercado de manutenção local",
+      "Muitas lojas apenas terceirizam o conserto para outras assistências maiores, demorando dias",
+      "Preços abusivos de Shoppings"
+    ],
+    solution: `Se você mora ou trabalha na **Boca do Rio**, **Imbuí**, **Pituba**, **Costa Azul** ou **Patamares**, você não precisa mais se deslocar para os grandes shoppings e pagar estacionamento para ter um serviço Premium no seu smartphone.\n\nA **Reparo Avançado** estabeleceu seu laboratório de alta tecnologia na Boca do Rio exatamente para centralizar o atendimento rápido de excelência para a Orla e adjacências de Salvador.\n\n**O que nos diferencia das outras lojinhas de bairro?**\n- **Laboratório Próprio (Sem Terceirização):** Nós não mandamos seu celular de motoboy para outro lugar. Tudo, desde a simples troca de tela até o complexo Reballing de CPU em placas, é feito nas nossas próprias bancadas pelos nossos técnicos.\n- **Orçamento Transparente e Rápido:** Você fala diretamente com quem vai abrir o seu aparelho, sem intermediários confusos.\n- **Ferramental de 1º Mundo:** Estufas de cura UV, Câmara Térmica para curtos, Cuba Ultrassônica e Fontes Assimétricas estão à disposição do seu telefone.\n\n[DICA]\nVocê pode nos contatar pelo WhatsApp antes de sair de casa para tirar suas dúvidas sobre peças em estoque. Fazemos boa parte dos serviços na hora (em 40 minutos) para você não ficar incomunicável.\n[/DICA]\n\nSeja um iPhone que caiu e quebrou o vidro traseiro, um Samsung que não quer mais carregar, ou um Xiaomi travado no logotipo, nosso endereço na Boca do Rio é a solução definitiva. ${LOCAL_SEO}`,
+    whenToSeek: "Sempre que seu celular apresentar qualquer falha de desempenho, quebra estética ou morte aparente. Atendemos desde acidentes do dia a dia (telas quebradas) até reviver aparelhos molhados.",
+    costInfo: `Nossa localização na Boca do Rio permite mantermos um custo operacional mais enxuto que os grandes shoppings, transferindo esse desconto diretamente para você no valor do serviço. Orçamento grátis! ${CTA_TEXT}.`,
+    faq: [
+      { question: "Vocês atendem quais marcas na Boca do Rio?", answer: "Atendemos o 'Big 4' do mercado brasileiro: Apple (iPhones), Samsung (Galaxy S, Note, A, M), Motorola (linha Moto G e Edge) e Xiaomi (linhas Mi, Redmi e Poco). E ocasionalmente outras marcas sob consulta." },
+      { question: "Dá para consertar o celular na hora?", answer: "Sim! Mais de 70% dos nossos serviços (Trocas de Telas, Baterias e Conectores de Carga) são finalizados em menos de uma hora enquanto o cliente toma um café." },
+      { question: "É seguro deixar meu celular com vocês?", answer: "100% seguro. Tratamos com sigilo absoluto todas as informações (LGPD). Se o conserto não envolver problema de software, sequer precisamos da sua senha de desbloqueio para testar as peças novas usando testes de emergência." },
+      { question: "Vocês dão garantia no conserto?", answer: "Garantia total. Todas as nossas peças e os nossos serviços de mão de obra acompanham garantia estabelecida pelo Código de Defesa do Consumidor." }
+    ],
+    sections: [
+      {
+        id: "vantagem-localizacao",
+        title: "Por que escolhemos a Boca do Rio?",
+        content: "A Boca do Rio é um vetor de crescimento, interligando a Orla Atlântica ao centro comercial da cidade. Estar aqui significa que clientes de Patamares, Imbuí, Stiep e Pituba chegam em nosso laboratório em menos de 10 minutos por grandes vias expressas, sem o estresse de procurar vagas em ruas apertadas ou garagens pagas.\n\nNossa meta é ser a assistência técnica 'de casa', mas com a qualidade que você só encontraria no exterior."
+      }
+    ],
+    relatedSlugs: ["assistencia-tecnica-boca-do-rio", "assistencia-tecnica-imbui", "assistencia-tecnica-pituba", "conserto-de-celular-salvador"]
+  },
+  // ═══════════════════════════════════════════════════
+  // SÁBADO 21/06/2026 — DROP SEMANAL (12 ARTIGOS)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: "troca-de-tela-iphone-15-pro-max-salvador",
+    title: "Troca de Tela iPhone 15 Pro Max Salvador | Display Original OLED",
+    h1: "Troca de Tela iPhone 15 Pro Max em Salvador: Display OLED com True Tone",
+    metaDescription: "Quebrou a tela do iPhone 15 Pro Max? Troca de display OLED original em Salvador (Boca do Rio) com preservação do True Tone e Face ID. Garantia e orçamento grátis!",
+    category: "iphone" as Category,
+    brand: "Apple",
+    model: "iPhone 15 Pro Max",
+    service: "Troca de Tela",
+    serviceSlug: "troca-de-tela-iphone-15-pro-max-salvador",
+    description: "Guia completo sobre a troca de tela do iPhone 15 Pro Max em Salvador. Entenda por que este modelo exige ferramental específico e peças de altíssima qualidade.",
+    isEditorial: true,
+    keywords: ["troca de tela iphone 15 pro max salvador", "display iphone 15 pro max original", "tela quebrada iphone 15 pro max", "conserto iphone 15 pro max boca do rio", "quanto custa trocar tela iphone 15"],
+    problems: [
+      "Tela Super Retina XDR OLED do iPhone 15 Pro Max com rachadura em teia de aranha",
+      "Display com manchas verdes ou roxas após queda forte",
+      "Touch (toque) não responde em partes da tela após impacto",
+      "True Tone perdido após troca de tela em outra assistência",
+      "Face ID parou de funcionar junto com a quebra da tela"
+    ],
+    causes: [
+      "Queda em superfície dura sem película de cerâmica de proteção",
+      "Pressão no bolso traseiro da calça sentando sobre superfícies irregulares",
+      "Impacto na borda de titânio que transferiu a força diretamente para o vidro OLED",
+      "Uso de capinhas finas sem elevação frontal (lábio de proteção)"
+    ],
+    solution: `O iPhone 15 Pro Max possui o display OLED mais avançado já criado pela Apple: resolução de 2796x1290 pixels, taxa de atualização ProMotion de 120Hz e brilho máximo de 2000 nits. Trocar essa tela exige precisão absoluta.\n\nNa Reparo Avançado, nosso processo é cirúrgico:\n\n**Etapa 1 — Diagnóstico Pré-Troca:** Antes de abrir, testamos o Face ID, alto-falante e microfone para garantir que nenhum outro componente foi danificado pela queda.\n**Etapa 2 — Abertura Controlada:** Usamos ventosas industriais e espátulas de nylon aquecidas para descolar a vedação de cola sem danificar os cabos flexíveis internos.\n**Etapa 3 — Transferência de Componentes:** Transferimos o sensor do Face ID (Módulo TrueDepth), o alto-falante auricular e o sensor de proximidade da tela antiga para a nova.\n**Etapa 4 — Reprogramação True Tone:** Utilizamos maquinário especializado para copiar os dados de calibração de cor da tela original para a nova, mantendo o True Tone funcionando perfeitamente.\n\n[DICA]\nSe a tela quebrou mas o touch ainda funciona, faça um backup no iCloud ANTES de trazer para a troca. Embora seus dados estejam 100% seguros conosco, ter um backup é sempre a melhor prática.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Imediatamente após a queda. Continuar usando uma tela trincada no iPhone 15 Pro Max pode causar cortes nos dedos e permite que umidade entre no interior do aparelho, danificando a placa-mãe e o Face ID.",
+    costInfo: `O display do iPhone 15 Pro Max é uma das peças mais valiosas do mercado mobile. Trabalhamos com displays OLED Premium que mantêm a mesma qualidade visual, brilho e resposta tátil do original. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Quanto custa trocar a tela do iPhone 15 Pro Max?", answer: "O valor varia conforme a qualidade da peça escolhida (Original Retirada ou OLED Premium). Enviamos orçamento detalhado pelo WhatsApp em minutos, sem compromisso." },
+      { question: "O True Tone continua funcionando após a troca?", answer: "Sim! Na Reparo Avançado, fazemos a reprogramação completa do True Tone. Em outras oficinas sem esse equipamento, você perde essa função para sempre." },
+      { question: "Demora quanto tempo para trocar a tela do iPhone 15 Pro Max?", answer: "O serviço completo, incluindo a transferência de componentes e reprogramação, leva de 50 minutos a 1 hora e meia." },
+      { question: "Posso usar película de cerâmica na tela nova?", answer: "Sim e recomendamos fortemente! A película de cerâmica absorve até 70% mais impacto que a de vidro comum. Aplicamos na hora após a troca." }
+    ],
+    sections: [
+      {
+        id: "true-tone-importancia",
+        title: "Por Que o True Tone é Tão Importante?",
+        content: "O True Tone ajusta automaticamente a temperatura de cor da tela com base na iluminação ambiente. Sem ele, a tela fica com um tom azulado artificial que cansa os olhos. Oficinas que não reprogramam o True Tone entregam um iPhone bonito mas com a tela 'fria'. Na Reparo Avançado, você recebe o aparelho como saiu da Apple."
+      }
+    ],
+    relatedSlugs: ["troca-tela-iphone-true-tone-salvador", "assistencia-tecnica-iphone-salvador-especializada", "troca-de-tela-celular-salvador-original"]
+  },
+  {
+    slug: "tela-samsung-galaxy-s24-ultra-troca-salvador",
+    title: "Troca de Tela Samsung Galaxy S24 Ultra Salvador | AMOLED Original",
+    h1: "Troca de Tela Samsung Galaxy S24 Ultra em Salvador: Display Dynamic AMOLED 2X",
+    metaDescription: "Tela do Galaxy S24 Ultra quebrou? Troca de display Dynamic AMOLED 2X em Salvador com biometria ultrassônica preservada. Laboratório especializado na Boca do Rio.",
+    category: "samsung" as Category,
+    brand: "Samsung",
+    model: "Galaxy S24 Ultra",
+    service: "Troca de Tela",
+    serviceSlug: "tela-samsung-galaxy-s24-ultra-troca-salvador",
+    description: "Tudo o que você precisa saber antes de trocar a tela do Galaxy S24 Ultra. Biometria, S-Pen e as armadilhas de telas paralelas baratas.",
+    isEditorial: true,
+    keywords: ["troca de tela samsung s24 ultra salvador", "display s24 ultra original", "tela quebrada galaxy s24 ultra", "conserto samsung s24 ultra boca do rio", "biometria s24 ultra tela"],
+    problems: [
+      "Display Dynamic AMOLED 2X com rachadura completa após queda",
+      "Biometria ultrassônica na tela parou de ler a digital após impacto",
+      "Tela com vazamento de 'tinta' (manchas pretas) crescendo dia a dia",
+      "S-Pen não responde mais ao toque na tela (digitalizador danificado)",
+      "Tela verde ou branca repentina (Defeito crônico da linha Galaxy S)"
+    ],
+    causes: [
+      "Queda de face na calçada sem película de proteção",
+      "Sentar com o celular no bolso traseiro (bordas curvas são frágeis)",
+      "Uso de capinhas que não cobrem as bordas laterais curvas do display",
+      "Defeito crônico de solda fria no flat da tela (tela verde/branca)"
+    ],
+    solution: `O Galaxy S24 Ultra é o rei dos smartphones Android. Sua tela de 6.8 polegadas com resolução QHD+ e taxa de 120Hz é uma obra-prima, mas também é extremamente delicada nas bordas curvas.\n\nNa Reparo Avançado, trabalhamos com duas opções de display para o S24 Ultra:\n\n**Opção 1 — Display AMOLED com Aro (Frame):** A tela já vem colada em uma nova carcaça lateral de alumínio. O resultado é um celular que parece ter saído da caixa, com biometria 100% funcional e sem riscos de descolamento.\n\n**Opção 2 — Apenas Display (sem aro):** Para clientes que querem economizar e cuja carcaça está em bom estado. Colamos o display novo usando máquina OCA e autoclave.\n\n[IMPORTANTE]\nCUIDADO com telas TFT/LCD baratas vendidas como "compatíveis" para o S24 Ultra. Essas telas:\n- NÃO possuem sensor de digital sob a tela\n- NÃO atingem o brilho de 2600 nits do original\n- NÃO suportam a S-Pen (sem digitalizador Wacom)\n- Ficam com cores lavadas e amareladas\n[/IMPORTANTE]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Urgente se a mancha preta na tela estiver crescendo. Isso significa que o líquido cristalino do AMOLED está vazando internamente e pode atingir o circuito do sensor biométrico, inutilizando-o.",
+    costInfo: `O display do S24 Ultra com aro é uma peça de alto valor. Sempre oferecemos a opção de troca apenas do vidro (se o display estiver intacto por dentro), economizando até 60% do valor. ${CTA_TEXT}.`,
+    faq: [
+      { question: "A biometria na tela funciona se trocar o display do S24 Ultra?", answer: "Sim, DESDE que a tela nova seja AMOLED original ou de mesma tecnologia. Telas baratas TFT simplesmente não possuem o sensor ultrassônico." },
+      { question: "A S-Pen funciona na tela nova?", answer: "Sim, se o display contiver o digitalizador Wacom integrado. Telas paralelas baratas não o possuem e a S-Pen para de responder." },
+      { question: "Quanto tempo demora a troca de tela do S24 Ultra?", answer: "Com display com aro, o serviço leva cerca de 1 hora. Sem aro, pode levar até 2 horas pelo processo de colagem e cura." }
+    ],
+    sections: [
+      {
+        id: "vidro-vs-display-s24",
+        title: "Troca de Vidro vs Tela Completa no S24 Ultra",
+        content: "Se a imagem do seu S24 Ultra está perfeita, sem manchas pretas e com touch funcionando em 100% da tela, você é candidato à troca apenas do vidro externo. Esse procedimento custa uma fração do display completo e mantém a biometria original de fábrica intacta. Consulte-nos para avaliação gratuita."
+      }
+    ],
+    relatedSlugs: ["assistencia-tecnica-samsung-salvador-autorizada", "troca-vidro-ou-tela-completa-celular-diferenca", "troca-de-tela-celular-salvador-original"]
+  },
+  {
+    slug: "troca-bateria-samsung-galaxy-salvador",
+    title: "Troca de Bateria Samsung Galaxy Salvador | Linha S, A e M",
+    h1: "Troca de Bateria Samsung Galaxy em Salvador: Linha S, A e M com Garantia",
+    metaDescription: "Bateria do Samsung Galaxy durando poucas horas? Troca profissional em Salvador com vedação original refeita. Galaxy S, A e M. Orçamento grátis pelo WhatsApp!",
+    category: "samsung" as Category,
+    brand: "Samsung",
+    model: "Galaxy Linha S, A e M",
+    service: "Troca de Bateria",
+    serviceSlug: "troca-bateria-samsung-galaxy-salvador",
+    description: "Um guia sobre o processo técnico da troca de bateria nos Samsung Galaxy modernos, que exige remoção da tampa de vidro traseira e revedação completa.",
+    isEditorial: true,
+    keywords: ["troca de bateria samsung salvador", "bateria samsung galaxy s23", "bateria samsung galaxy a54", "samsung descarregando rapido salvador", "trocar bateria galaxy boca do rio"],
+    problems: [
+      "Bateria do Samsung Galaxy não dura nem meio dia de uso normal",
+      "Celular Samsung desligando sozinho com 20% ou 30% de carga",
+      "Tampa traseira de vidro levantando e descolando (bateria estufada)",
+      "Samsung esquentando demais durante o carregamento rápido",
+      "Percentual de bateria saltando de 50% para 15% de repente"
+    ],
+    causes: [
+      "Degradação natural após 2 anos de uso intenso (mais de 500 ciclos de carga)",
+      "Uso constante de carregador Turbo de 25W ou 45W aquecendo a célula de lítio",
+      "Jogar com o celular na tomada usando capinha fechada que abafa o calor",
+      "Exposição ao sol forte de Salvador (baterias de lítio odeiam calor acima de 40°C)"
+    ],
+    solution: `Diferente do iPhone, trocar a bateria de um Samsung Galaxy moderno (a partir do Galaxy S8) exige a remoção da tampa traseira de vidro. Esse processo precisa de manta aquecedora controlada e ventosas profissionais para não quebrar o vidro.\n\nNosso processo na Reparo Avançado:\n\n**1. Remoção da Tampa Traseira:** Aquecemos a 80°C por 3 minutos para amolecer a cola 3M original, depois destacamos com ventosa e espátulas de nylon.\n**2. Desconexão Segura:** Removemos os parafusos de segurança e desconectamos a bateria da placa-mãe ANTES de puxá-la (previne curto-circuito).\n**3. Instalação da Bateria Nova:** Posicionamos a nova célula com adesivo bi-face original e reconectamos o flat.\n**4. Revedação IP68:** Aplicamos fita adesiva de vedação 3M resistente à água ao redor de toda a borda e reposicionamos a tampa traseira na plancha aquecida com pressão controlada.\n\n[DICA]\nPara prolongar a vida da bateria nova: carregue de 20% a 80% no dia a dia (não de 0% a 100%). Use o modo de carregamento "Proteger Bateria" que a Samsung oferece nas configurações. Isso pode duplicar a vida útil da célula de lítio.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Se a tampa traseira estiver descolando ou levantando, desligue o aparelho IMEDIATAMENTE. Bateria estufada é risco de incêndio. Traga no mesmo dia sem apertar a tampa.",
+    costInfo: `As baterias para Samsung Galaxy têm preços que variam conforme a linha (S, A ou M) e o modelo específico. Todas as nossas baterias são de alta capacidade com garantia. ${CTA_TEXT}.`,
+    faq: [
+      { question: "A troca de bateria do Samsung perde a resistência à água (IP68)?", answer: "Na Reparo Avançado, nós refazemos a vedação com fita 3M de mesma especificação da fábrica. O aparelho recupera boa parte da sua resistência original contra respingos." },
+      { question: "Qual Samsung Galaxy gasta mais bateria?", answer: "Os modelos com tela grande e taxa de 120Hz (como S22+, S23 Ultra, S24 Ultra) consomem mais energia naturalmente. A bateria deles dura de 1,5 a 2 anos antes de precisar de troca." },
+      { question: "Posso usar carregador Turbo de 45W todo dia?", answer: "Pode, mas saiba que o calor do carregamento ultrarrápido degrada a célula de lítio mais rápido. Para uso diário, o ideal é usar um carregador de 15W ou 25W." },
+      { question: "Demora quanto a troca de bateria do Samsung?", answer: "Em média, 40 a 60 minutos, incluindo a remoção e revedação da tampa traseira." }
+    ],
+    sections: [
+      {
+        id: "vedacao-ip68",
+        title: "A Importância da Revedação IP68",
+        content: "Muitas oficinas trocam a bateria e simplesmente encaixam a tampa de volta sem cola nenhuma. O resultado? Na primeira chuva ou suor do bolso, a água entra pela fresta e oxida a placa-mãe em semanas. Na Reparo Avançado, a revedação completa faz parte do serviço padrão, sem custo adicional."
+      }
+    ],
+    relatedSlugs: ["assistencia-tecnica-samsung-salvador-autorizada", "celular-esquentando-descarregando-rapido-bateria", "troca-de-bateria-celular-salvador"]
+  },
+  {
+    slug: "conserto-motorola-moto-g-edge-salvador",
+    title: "Assistência Técnica Motorola Salvador | Moto G e Edge | Reparo Avançado",
+    h1: "Conserto de Motorola Moto G e Edge em Salvador: Tela, Bateria e Placa",
+    metaDescription: "Conserto especializado de Motorola Moto G, Edge e One em Salvador. Troca de tela IPS/OLED, bateria, conector e reparo de placa. Boca do Rio. Orçamento grátis!",
+    category: "outros" as Category,
+    brand: "Motorola",
+    model: "Moto G e Edge",
+    service: "Assistência Motorola",
+    serviceSlug: "conserto-motorola-moto-g-edge-salvador",
+    description: "Tudo sobre os defeitos mais comuns da linha Motorola no Brasil: desde tela fantasma do Moto G até placa morta do Edge.",
+    isEditorial: true,
+    keywords: ["assistencia tecnica motorola salvador", "conserto moto g salvador", "troca de tela motorola boca do rio", "motorola edge conserto", "moto g84 tela quebrada"],
+    problems: [
+      "Tela do Moto G com fantasma (burn-in) nos botões de navegação",
+      "Motorola Edge com tela curva trincada na borda lateral",
+      "Moto G Power não carrega mais (conector USB-C solto)",
+      "Motorola travado na logo 'M' sem passar do boot",
+      "Touch fantasma: a tela registra toques sozinha sem ninguém encostar"
+    ],
+    causes: [
+      "A linha Moto G usa painéis IPS LCD mais frágeis que OLED para manter o preço acessível",
+      "Conector USB-C de soldagem direta na placa (sem sub-placa), mais difícil de substituir",
+      "Atualizações do Android que corrompem a partição do sistema em modelos com pouca memória RAM",
+      "Uso intenso de GPS (Uber/99) sobreaquecendo o processador Snapdragon/MediaTek"
+    ],
+    solution: `A Motorola domina o mercado brasileiro com a linha Moto G (G14, G34, G54, G73, G84) e a linha Edge (30, 40, 50). São smartphones com excelente custo-benefício mas que possuem particularidades técnicas que muitas oficinas desconhecem.\n\nNa Reparo Avançado, conhecemos a fundo a arquitetura Motorola:\n\n**Troca de Tela Moto G:** A maioria dos Moto G utiliza tela IPS LCD que exige colagem com adesivo B7000 e alinhamento de frame. Já os modelos mais novos (G84, G54) usam pOLED, que requer cola OCA e autoclave.\n\n**Conector de Carga:** Diferente do Samsung (que tem sub-placa), muitos Moto G possuem o conector soldado diretamente na placa-mãe. A troca exige micro-soldagem com ferro de ponta fina sob microscópio.\n\n**Motorola Edge:** Os modelos Edge possuem tela curva OLED de alta resolução. A troca é idêntica à dos Samsung Galaxy S em complexidade.\n\n[DICA]\nSe o seu Motorola travou na logo 'M' ao ligar, tente entrar no Modo de Recuperação: desligue o celular, depois segure Volume Baixo + Power até a tela acender. Escolha "Recovery Mode" e depois "Wipe Cache Partition". Isso resolve 40% dos travamentos sem perder dados.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Se o conector de carga está com mau contato (precisa ficar mexendo o cabo para carregar). Esse defeito piora rapidamente e pode causar curto-circuito na placa-mãe.",
+    costInfo: `Telas e baterias de Motorola Moto G possuem preços muito acessíveis comparados a iPhone e Samsung. O reparo quase sempre compensa financeiramente. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Vale a pena consertar um Moto G mais antigo (G7, G8)?", answer: "Depende do tipo de defeito. Se for troca de tela ou bateria, o custo é tão baixo que compensa. Se for placa-mãe queimada, pode não valer pela idade do aparelho." },
+      { question: "O conector do Motorola é mais frágil que o do Samsung?", answer: "Sim, porque muitos Moto G soldam o conector direto na placa principal, sem sub-placa intermediária. Um mau contato exige micro-soldagem ao invés de simplesmente trocar uma plaquinha." },
+      { question: "Vocês trocam tela do Motorola Edge com curva?", answer: "Sim! Trabalhamos com displays OLED para toda a linha Edge (30, 40, 50) com colagem em autoclave para acabamento perfeito na borda curva." },
+      { question: "Motorola travado na logo tem conserto?", answer: "Na maioria das vezes sim. Pode ser um problema de software (resolvido com flash via computador) ou de hardware (memória eMMC corrompida). Trazendo para avaliação, identificamos rapidamente." }
+    ],
+    sections: [
+      {
+        id: "motorola-uber-99",
+        title: "Motoristas de App e o Desgaste do Motorola",
+        content: "Em Salvador, os motoristas de Uber e 99 são nossos clientes mais frequentes. O Motorola fica 10+ horas com GPS ligado, pendurado no para-brisa, batendo sol, carregando e descarregando ao mesmo tempo. Esse cenário extremo destrói baterias em 6 meses e queima conectores de carga em 1 ano. Oferecemos planos de manutenção preventiva para motoristas de aplicativo."
+      }
+    ],
+    relatedSlugs: ["motorola-nao-carrega-avaliacao-salvador", "celular-nao-carrega-salvador", "troca-de-bateria-celular-salvador"]
+  },
+  {
+    slug: "celular-tela-preta-mas-funciona-salvador",
+    title: "Celular com Tela Preta Mas Funciona? Recebe Ligação? Saiba a Causa",
+    h1: "Celular Ligado com Tela Preta: O Display Queimou ou É a Placa?",
+    metaDescription: "Seu celular está com a tela toda preta mas vibra, toca alarme e recebe ligações? Descubra se é apenas a tela ou problema na placa. Diagnóstico grátis em Salvador!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Diagnóstico e Troca de Tela",
+    serviceSlug: "celular-tela-preta-mas-funciona-salvador",
+    description: "O guia definitivo para o defeito mais confuso: quando o celular funciona perfeitamente mas a tela não mostra nada. Entenda as 3 causas possíveis.",
+    isEditorial: true,
+    keywords: ["celular tela preta mas funciona", "celular recebe ligacao tela preta", "celular vibra mas tela nao liga", "display queimado celular", "tela apagada celular ligado salvador"],
+    problems: [
+      "O celular toca o alarme de manhã, mas a tela está completamente preta",
+      "Você recebe ligações e ouve a pessoa falar, mas não vê nada na tela",
+      "O celular vibra quando você coloca na tomada mas a tela continua apagada",
+      "A lanterna traseira funciona, WhatsApp recebe áudios, mas o display morreu",
+      "Caiu no chão e a tela ficou preta instantaneamente, sem trincas visíveis"
+    ],
+    causes: [
+      "Impacto que rompeu a matriz de LED por dentro sem trincar o vidro externo (fratura interna)",
+      "Conector flat do display desconectou internamente após queda ou vibração forte",
+      "Backlight (retroiluminação) do LCD queimou (tela parece preta mas a imagem existe de forma muito fraca)",
+      "Chip de vídeo (GPU) na placa-mãe perdeu comunicação com o display"
+    ],
+    solution: `Esse é um dos defeitos que mais causam pânico no cliente. A boa notícia? Em **90% dos casos, é só a tela** — e não a placa-mãe. Seus dados, fotos e aplicativos estão 100% intactos dentro do aparelho.\n\nNa Reparo Avançado, nós fazemos um teste simples e genial para confirmar:\n\n**Teste da Lanterna (para LCD):** Apontamos uma lanterna forte contra a tela preta em um ambiente escuro. Se conseguirmos ver uma sombra fraquíssima da imagem, o backlight queimou mas o LCD está vivo. A troca da tela resolve tudo.\n\n**Teste da Fonte DC:** Conectamos a placa-mãe diretamente na nossa fonte de alimentação. Se o consumo de energia subir normalmente quando a placa liga, significa que o processador e a GPU estão saudáveis. O problema é exclusivamente no display.\n\n**Teste do Conector:** Abrimos o aparelho e reconectamos o flat da tela. Em 20% dos casos, a queda apenas desencaixou o conector e o display volta a funcionar sem custo de peça.\n\n[DICA]\nSe a tela ficou preta mas o celular funciona, NÃO tente fazer "Force Restart" repetidamente. Se o problema for no conector desencaixado, a vibração do restart pode piorar. Traga direto para diagnóstico.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Assim que perceber que o celular está funcionando com a tela apagada. Quanto mais tempo você usar o celular 'cego', maior o risco de aceitar ligações indesejadas ou enviar mensagens acidentais pelo toque fantasma.",
+    costInfo: `Se for apenas reconexão do flat, o custo pode ser mínimo (apenas a mão de obra da abertura). Se for troca de display, o valor varia conforme o modelo. Diagnóstico gratuito! ${CTA_TEXT}.`,
+    faq: [
+      { question: "Celular tela preta mas vibra. Perdi minhas fotos?", answer: "NÃO! Se o celular vibra, recebe ligações e toca alarme, ele está 100% ligado e funcionando. Suas fotos e dados estão salvos. O problema é apenas o display (a 'TV' do celular)." },
+      { question: "Pode ser só o flat desencaixado?", answer: "Sim! Em cerca de 20% dos casos que atendemos, a queda apenas soltou o conector interno do display. Reconectamos em 15 minutos e a tela volta sem custo de peça." },
+      { question: "Como faço backup se não vejo a tela?", answer: "Se for iPhone, conecte no iTunes/Finder do computador. Se for Android, tente conectar em uma TV via cabo USB-C para HDMI ou USB OTG. Mas na maioria dos casos, basta trocar a tela e seus dados estarão lá." },
+      { question: "A tela preta pode ser vírus?", answer: "Não. Vírus não conseguem apagar fisicamente o display. Se a tela está completamente preta (nem a logo da marca aparece), é defeito de hardware." }
+    ],
+    sections: [
+      {
+        id: "fratura-interna",
+        title: "O Mistério da Fratura Interna",
+        content: "O vidro externo do seu celular pode estar perfeito, sem nenhum arranhão, mas a camada OLED ou LCD por baixo pode ter se partido internamente pela onda de choque do impacto. Isso acontece muito em quedas de face contra superfícies macias (como carpete ou grama), onde o vidro não trinca mas a energia se propaga para dentro e rompe os cristais líquidos do display."
+      }
+    ],
+    relatedSlugs: ["celular-nao-liga-motivos-salvador", "troca-de-tela-celular-salvador-original", "troca-vidro-ou-tela-completa-celular-diferenca"]
+  },
+  {
+    slug: "conserto-celular-pituba-imbui-costa-azul",
+    title: "Conserto de Celular Pituba, Imbuí e Costa Azul | Reparo Avançado Salvador",
+    h1: "Conserto de Celular na Pituba, Imbuí e Costa Azul: A 5 Minutos de Você",
+    metaDescription: "Mora na Pituba, Imbuí ou Costa Azul? Sua assistência técnica de celulares de confiança está a 5 minutos, na Boca do Rio. iPhone, Samsung, Xiaomi. Orçamento grátis!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Assistência Local",
+    serviceSlug: "conserto-celular-pituba-imbui-costa-azul",
+    description: "Página de captação local para os bairros mais importantes da Orla de Salvador: Pituba, Imbuí e Costa Azul.",
+    isEditorial: true,
+    keywords: ["conserto de celular pituba", "assistencia tecnica celular imbui", "conserto celular costa azul", "troca de tela celular pituba salvador", "assistencia tecnica iphone pituba"],
+    problems: [
+      "Dificuldade de encontrar assistência técnica de qualidade nos bairros da Orla",
+      "Autorizadas em shoppings com filas longas e preços abusivos",
+      "Medo de deixar o celular em lojinhas desconhecidas no bairro",
+      "Necessidade de conserto urgente no mesmo dia sem se deslocar para longe",
+      "Oficinas que terceirizam o serviço e demoram dias para devolver"
+    ],
+    causes: [
+      "Falta de laboratórios especializados com ferramental completo na região da Orla",
+      "Concentração das autorizadas apenas em grandes shoppings (Salvador Shopping, Salvador Norte)",
+      "Mercado informal de 'técnicos de fundo de quintal' que geram desconfiança"
+    ],
+    solution: `Se você mora ou trabalha na **Pituba**, **Imbuí** ou **Costa Azul**, temos uma excelente notícia: a Reparo Avançado está na **Boca do Rio**, literalmente a 5 minutos de carro de qualquer um desses bairros.\n\nNão importa se é um iPhone com a tela destruída, um Samsung com a bateria estufando ou um Xiaomi que apagou do nada — nosso laboratório completo resolve tudo sem terceirizar:\n\n**Pituba → Boca do Rio:** 5 minutos pela Av. Octávio Mangabeira\n**Imbuí → Boca do Rio:** 4 minutos pela Av. Jorge Amado\n**Costa Azul → Boca do Rio:** 3 minutos pela Rua Arthur Azevedo Machado\n\n[DICA]\nVocê não precisa sair do conforto do seu bairro para ter um orçamento. Mande uma foto do defeito pelo WhatsApp que respondemos em minutos com o preço estimado. Só venha à loja quando estiver decidido!\n[/DICA]\n\nNossa missão é ser o laboratório de referência da Orla de Salvador, oferecendo o que antes só existia em grandes centros técnicos. ${LOCAL_SEO}`,
+    whenToSeek: "Sempre que precisar de conserto rápido e profissional sem perder o dia inteiro em fila de shopping. A maioria dos nossos serviços é entregue no mesmo dia.",
+    costInfo: `Nossos preços são justos e transparentes, sem surpresas. A localização na Boca do Rio nos permite manter custos operacionais menores que shoppings e repassar a economia para você. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Vocês ficam perto da Pituba?", answer: "Sim! Estamos na Boca do Rio, a apenas 5 minutos de carro da Pituba pela Av. Octávio Mangabeira. Bem mais perto do que ir ao Salvador Shopping." },
+      { question: "Tem estacionamento no local?", answer: "Sim, há vagas na rua e estacionamentos próximos. A localização é de fácil acesso e sem o estresse de garagem de shopping." },
+      { question: "Vocês atendem moradores do Imbuí também?", answer: "Claro! O Imbuí é vizinho da Boca do Rio. Muitos clientes do Imbuí já são frequentadores assíduos pela proximidade." },
+      { question: "Posso ir a pé da Costa Azul?", answer: "Dependendo da sua localização exata na Costa Azul, é possível ir a pé em 10-15 minutos, ou em 3 minutos de carro/moto." }
+    ],
+    sections: [
+      {
+        id: "mapa-regiao",
+        title: "Bairros que Atendemos na Orla",
+        content: "Além de Pituba, Imbuí e Costa Azul, recebemos diariamente clientes de: Stiep, Patamares, Piatã, Itapuã, Alphaville, Paralela, Narandiba e Cabula. A Boca do Rio é um ponto central que conecta toda a Orla Atlântica ao Miolo de Salvador, tornando nosso laboratório acessível para a maioria dos bairros da cidade."
+      }
+    ],
+    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "assistencia-tecnica-boca-do-rio", "assistencia-tecnica-pituba", "assistencia-tecnica-imbui"]
+  },
+  {
+    slug: "celular-travando-lento-resetar-salvador",
+    title: "Celular Travando e Muito Lento? Precisa Resetar ou Trocar Peça?",
+    h1: "Celular Travando, Lento ou Reiniciando Sozinho: O Que Fazer em Salvador",
+    metaDescription: "Seu celular Android ou iPhone está travando, lento demais ou reiniciando sozinho? Descubra se é bug de software ou defeito de hardware. Diagnóstico grátis na Boca do Rio!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Diagnóstico e Otimização",
+    serviceSlug: "celular-travando-lento-resetar-salvador",
+    description: "A fronteira entre o defeito que se resolve com um reset e o defeito que exige bancada. Aprenda a identificar quando é hora de procurar um técnico.",
+    isEditorial: true,
+    keywords: ["celular travando muito", "celular lento o que fazer", "celular reiniciando sozinho", "resetar celular resolve", "celular travado salvador conserto"],
+    problems: [
+      "Apps demoram 10+ segundos para abrir ou ficam com tela branca",
+      "Celular reinicia sozinho no meio de chamadas ou jogos",
+      "Teclado trava e as letras aparecem com atraso de 2-3 segundos",
+      "Memória cheia mesmo após apagar fotos e apps (armazenamento fantasma)",
+      "Tela congelada que só sai apertando power por 30 segundos"
+    ],
+    causes: [
+      "Memória RAM insuficiente para a versão atual do Android/iOS (aparelhos antigos com sistema novo)",
+      "Memória eMMC/UFS com setores defeituosos (o 'HD' do celular está morrendo)",
+      "Superaquecimento crônico causando Thermal Throttling (processador reduz velocidade para não derreter)",
+      "Malware ou apps de limpeza que consomem mais recursos do que liberam"
+    ],
+    solution: `Celular travando é o sintoma mais genérico que existe. Pode ser algo simples (software) ou algo grave (hardware). Na Reparo Avançado, nós identificamos a causa raiz antes de qualquer ação.\n\n**Se for Software (70% dos casos):**\n- Fazemos backup completo dos seus dados\n- Executamos Flash completo do sistema operacional (reinstalação limpa)\n- Removemos bloatwares (apps inúteis de fábrica que consomem RAM)\n- Otimizamos as configurações de animação e energia\n\n**Se for Hardware (30% dos casos):**\n- Testamos a memória eMMC/UFS na fonte de alimentação. Se o chip de armazenamento está com setores corrompidos, o celular trava ao tentar ler dados desses blocos mortos\n- Verificamos temperatura da CPU sob carga com câmera térmica\n- Analisamos se a bateria degradada não está fornecendo voltagem suficiente para o processador em pico de uso\n\n[DICA]\nAntes de vir até nós, tente o básico: reinicie o celular em Modo Seguro (segure o botão de desligar, depois toque e segure "Desligar" até aparecer "Modo Seguro"). Se nesse modo o travamento parar, o culpado é algum app que você instalou.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Se o celular está reiniciando sozinho mais de 3 vezes por dia, ou se o armazenamento mostra 'cheio' mesmo após apagar tudo. Esses são sinais clássicos de chip de memória morrendo.",
+    costInfo: `O serviço de otimização de software (Flash + limpeza) tem custo acessível. Se for defeito de hardware (memória ou placa), o orçamento será detalhado após o diagnóstico. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Resetar de fábrica resolve celular travando?", answer: "Em 60% dos casos de software, sim. Mas se o problema é no chip de memória, o celular vai travar novamente em poucos dias após o reset. Por isso é importante diagnosticar antes de apagar tudo." },
+      { question: "Apps de limpeza como Clean Master funcionam?", answer: "Não! A maioria dos 'limpadores' são na verdade consumidores de RAM e bateria disfarçados. Eles rodam em segundo plano 24h, piorando o travamento. Desinstale todos." },
+      { question: "Celular com 2GB de RAM ainda tem salvação?", answer: "Para uso básico (WhatsApp, ligações, navegador), sim. Mas para Instagram, TikTok e jogos, 2GB já é insuficiente em 2026. Considere trocar de aparelho." },
+      { question: "Quanto tempo dura o serviço de otimização?", answer: "O Flash completo do sistema + otimização leva de 1 a 2 horas, dependendo do volume de dados para backup." }
+    ],
+    sections: [
+      {
+        id: "memoria-morrendo",
+        title: "Quando o 'HD' do Celular Está Morrendo",
+        content: "A memória interna do celular (eMMC ou UFS) tem vida útil limitada, assim como um SSD de computador. Após milhares de ciclos de leitura e escrita, setores começam a falhar. O celular trava ao tentar acessar um arquivo nesses setores corrompidos. Infelizmente, a troca do chip de memória é um procedimento de alta complexidade (reballing) e nem sempre compensa financeiramente em modelos mais antigos."
+      }
+    ],
+    relatedSlugs: ["celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria", "reparo-placa-celular-salvador-vale-a-pena"]
+  },
+  {
+    slug: "troca-conector-carga-usb-c-celular-salvador",
+    title: "Troca de Conector de Carga USB-C em Salvador | Celular Não Carrega",
+    h1: "Conector de Carga USB-C Quebrado ou Solto? Troca Profissional em Salvador",
+    metaDescription: "Celular não carrega direito, precisa mexer no cabo ou o conector está mole? Troca profissional do conector USB-C e Lightning na Boca do Rio. Orçamento grátis!",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Troca de Conector",
+    serviceSlug: "troca-conector-carga-usb-c-celular-salvador",
+    description: "O guia técnico sobre o defeito mais comum dos celulares modernos: o conector de carga que para de funcionar.",
+    isEditorial: true,
+    keywords: ["troca conector de carga salvador", "celular nao carrega conector", "usb c solto celular", "conector lightning iphone troca", "entrada carregador celular quebrada"],
+    problems: [
+      "Precisa ficar mexendo no cabo para o celular carregar (mau contato)",
+      "O cabo USB-C cai sozinho da entrada, não trava mais",
+      "Celular carrega muito devagar (leva 5 horas para carregar inteiro)",
+      "Mensagem 'Acessório não compatível' ou 'Umidade detectada' constantemente",
+      "O celular só carrega desligado, ligado não sobe a porcentagem"
+    ],
+    causes: [
+      "Acúmulo de poeira, fiapos de tecido e sujeira dentro da entrada do conector",
+      "Inserção forçada do cabo em ângulo errado, entortando os pinos internos",
+      "Oxidação dos contatos metálicos por suor das mãos e maresia de Salvador",
+      "Desgaste natural das molas de retenção do conector após 2+ anos de uso diário"
+    ],
+    solution: `O conector de carga é a parte do celular que mais sofre estresse mecânico diário: você conecta e desconecta o cabo pelo menos 2 vezes por dia, puxa em ângulo enquanto usa deitado, e a entrada acumula toda a poeira do seu bolso.\n\nAntes de trocar a peça, nós fazemos uma limpeza técnica gratuita:\n\n**Etapa 1 — Limpeza com Ar Comprimido e Pinças Anti-Estáticas:** Removemos fiapos e poeira compactada no fundo do conector. Em 30% dos casos, isso já resolve o problema sem custo de peça!\n\n**Etapa 2 — Teste de Continuidade:** Verificamos se os pinos de dados e carga estão fazendo contato elétrico correto.\n\n**Etapa 3 — Troca da Peça (se necessário):**\n- **Samsung:** Trocamos a Sub-Placa PBA inteira (plaquinha inferior que contém o conector, microfone e alto-falante inferior). Serviço rápido.\n- **iPhone:** Trocamos o cabo Flex do conector Lightning/USB-C com peças certificadas.\n- **Motorola/Xiaomi:** Muitos modelos possuem o conector soldado na placa-mãe. Exige micro-soldagem profissional.\n\n[DICA]\nPara evitar que o conector estrague de novo: nunca puxe o cabo pelo fio, sempre segure pela ponta plástica do conector. E limpe a entrada com um palito de plástico (NUNCA metal) uma vez por mês.\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Assim que perceber que precisa ficar ajeitando o cabo para carregar. Mau contato causa micro-arcos elétricos que queimam os pinos e podem fritar o CI de carga na placa-mãe (um reparo muito mais caro).",
+    costInfo: `A troca de conector (sub-placa ou flex) é um dos serviços mais acessíveis e rápidos. Em muitos modelos, concluímos em 30 minutos. Se for apenas limpeza, pode sair de graça! ${CTA_TEXT}.`,
+    faq: [
+      { question: "Limpeza do conector resolve o problema?", answer: "Em cerca de 30% dos casos que atendemos, sim! A poeira compactada no fundo impede o cabo de encaixar totalmente. Removemos com ferramentas profissionais sem cobrar pela peça." },
+      { question: "Por que meu celular só carrega desligado?", answer: "Isso indica que o CI Tristar/PMIC está com defeito. Ele permite carga com voltagem mínima (desligado) mas não consegue gerenciar a carga com o sistema operacional funcionando. É um reparo de placa." },
+      { question: "Posso usar carregador sem fio se meu conector quebrou?", answer: "Se seu celular tem carregamento wireless (Qi), sim! É uma solução temporária enquanto você não traz para trocar o conector." },
+      { question: "A troca do conector do Samsung troca o microfone também?", answer: "Sim! Na Samsung, o conector vem em uma sub-placa junto com o microfone inferior e o alto-falante. Trocando a sub-placa, você ganha todos esses componentes novos de brinde." }
+    ],
+    sections: [
+      {
+        id: "conector-soldado-vs-sub",
+        title: "Conector em Sub-Placa vs Soldado na Placa-Mãe",
+        content: "Samsung e iPhones modernos usam o sistema de sub-placa: o conector fica em uma plaquinha separada conectada à placa principal por um cabo flat. A troca é simples e rápida.\n\nJá Motorola Moto G e alguns Xiaomi Redmi possuem o conector soldado diretamente na placa-mãe. A troca exige remoção por ar quente e ressoldagem com ferro de ponta fina. Esse trabalho custa mais e demora mais, mas é perfeitamente viável no nosso laboratório."
+      }
+    ],
+    relatedSlugs: ["celular-nao-carrega-salvador", "conector-carga-iphone-limpeza-troca-salvador", "higienizacao-conector-cabo-carregar-salvador"]
+  },
+  {
+    slug: "iphone-14-pro-max-conserto-salvador",
+    title: "Conserto iPhone 14 Pro Max Salvador | Tela, Bateria e Câmera",
+    h1: "Conserto Especializado do iPhone 14 Pro Max em Salvador",
+    metaDescription: "Conserto de iPhone 14 Pro Max em Salvador. Tela OLED, bateria com saúde 100%, câmera de 48MP e reparo de placa. Laboratório na Boca do Rio. Garantia!",
+    category: "iphone" as Category,
+    brand: "Apple",
+    model: "iPhone 14 Pro Max",
+    service: "Conserto Completo",
+    serviceSlug: "iphone-14-pro-max-conserto-salvador",
+    description: "Página dedicada ao conserto do iPhone 14 Pro Max, um dos modelos mais caros e procurados de Salvador. Cobertura de todos os serviços possíveis.",
+    isEditorial: true,
+    keywords: ["conserto iphone 14 pro max salvador", "troca tela iphone 14 pro max", "bateria iphone 14 pro max", "camera 48mp iphone 14 pro", "iphone 14 pro max boca do rio"],
+    problems: [
+      "Tela Super Retina XDR com Dynamic Island quebrada",
+      "Bateria com saúde abaixo de 80% após 2 anos de uso intenso",
+      "Câmera principal de 48MP tremendo e fazendo barulho",
+      "Vidro traseiro de cerâmica trincado (Ceramic Shield)",
+      "Face ID com falha intermitente após queda"
+    ],
+    causes: [
+      "Peso do aparelho (240g) potencializa o impacto em quedas",
+      "Degradação natural da bateria após 500+ ciclos de carga",
+      "Uso em suporte de moto/bicicleta danificando o estabilizador óptico",
+      "Queda que deslocou o módulo TrueDepth responsável pelo Face ID"
+    ],
+    solution: `O iPhone 14 Pro Max é um dos aparelhos mais populares entre os clientes de alto poder aquisitivo de Salvador. Com preço de revenda ainda elevado, consertar compensa muito mais do que trocar.\n\nNa Reparo Avançado, oferecemos cobertura total para este modelo:\n\n**Troca de Tela OLED:** Preservamos o True Tone e a Dynamic Island funcional. Transferimos todos os sensores da tela antiga.\n**Troca de Bateria:** Reprogramamos o CI para exibir Saúde 100% sem mensagem de "Peça Desconhecida".\n**Câmera 48MP:** Substituímos o módulo triplo traseiro por peças retiradas ou Premium, restaurando a estabilização óptica.\n**Vidro Traseiro:** Remoção a laser sem risco para a placa-mãe e bobina de carregamento MagSafe.\n\n[IMPORTANTE]\nO iPhone 14 Pro Max foi o primeiro iPhone com câmera de 48 megapixels. O módulo da câmera é significativamente maior e mais pesado que os modelos anteriores, o que o torna mais vulnerável a vibrações e quedas. Proteja com capinha reforçada!\n[/IMPORTANTE]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando a câmera começar a tremer, ou quando qualquer vidro (frontal ou traseiro) trincar.",
+    costInfo: `Cada serviço do iPhone 14 Pro Max tem valores específicos que enviamos pelo WhatsApp. Por ser um aparelho premium, trabalhamos apenas com peças de primeira linha. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Vale a pena consertar o iPhone 14 Pro Max em 2026?", answer: "Absolutamente sim! O iPhone 14 Pro Max ainda recebe atualizações do iOS e seu valor de revenda é alto. Um conserto de R$500-800 num aparelho que vale R$5.000+ é um excelente investimento." },
+      { question: "A Dynamic Island funciona na tela nova?", answer: "Sim. Transferimos o conjunto de sensores e câmeras frontais da tela antiga para a nova, mantendo todas as animações e funcionalidades da Dynamic Island." },
+      { question: "Posso trocar só o vidro traseiro sem trocar a tela?", answer: "São peças independentes. Sim, trocamos apenas o vidro traseiro via remoção a laser, sem mexer na tela frontal." }
+    ],
+    sections: [
+      {
+        id: "dynamic-island",
+        title: "A Dynamic Island e o Cuidado na Troca de Tela",
+        content: "O iPhone 14 Pro Max introduziu a Dynamic Island, que integra o módulo de câmera frontal e sensores do Face ID diretamente na tela. Ao trocar a tela, é obrigatório transferir esse conjunto com extremo cuidado, pois um fio flex rompido significa perda total do Face ID — um reparo que custa quase tanto quanto a própria tela."
+      }
+    ],
+    relatedSlugs: ["troca-de-tela-iphone-15-pro-max-salvador", "troca-de-bateria-iphone-salvador-saude-100", "assistencia-tecnica-iphone-salvador-especializada"]
+  },
+  {
+    slug: "assistencia-tecnica-realme-salvador",
+    title: "Assistência Técnica Realme Salvador | Conserto Especializado | Reparo Avançado",
+    h1: "Assistência Técnica Realme em Salvador: Conserto de Tela, Bateria e Placa",
+    metaDescription: "Conserto de celulares Realme em Salvador. Troca de tela, bateria, conector e reparo de placa para toda a linha Realme. Poucos especialistas na cidade. Orçamento grátis!",
+    category: "outros" as Category,
+    brand: "Realme",
+    model: "Linha Realme",
+    service: "Assistência Realme",
+    serviceSlug: "assistencia-tecnica-realme-salvador",
+    description: "Uma das poucas assistências em Salvador que realmente conserta Realme. Descubra por que a maioria das oficinas recusa essa marca e como nós resolvemos.",
+    isEditorial: true,
+    keywords: ["assistencia tecnica realme salvador", "conserto realme boca do rio", "troca de tela realme", "realme nao liga conserto", "onde consertar realme salvador"],
+    problems: [
+      "Tela do Realme com touch fantasma (toques sozinhos sem encostar)",
+      "Carregamento DART Charge/SuperVOOC não funciona mais (carrega lento)",
+      "Realme travado na logo de boot (loop infinito)",
+      "Câmera com erro 'Não é possível conectar à câmera'",
+      "Bateria inchada levantando a tela ou a tampa traseira"
+    ],
+    causes: [
+      "A Realme compartilha plataforma com a Oppo, usando componentes que poucas oficinas brasileiras conhecem",
+      "Carregadores DART Charge de alta potência (65W+) estressam o CI de carga após 1-2 anos",
+      "Falta de assistência oficial da Realme em Salvador, gerando acúmulo de aparelhos sem conserto",
+      "Software ColorOS/Realme UI com bugs que travam o sistema após atualizações"
+    ],
+    solution: `A Realme cresceu explosivamente no Brasil, mas a rede de assistência técnica não acompanhou. Em Salvador, encontrar alguém que conserte Realme de verdade é quase impossível — a maioria das lojas recusa ou manda para São Paulo.\n\nNa Reparo Avançado, nós abraçamos a Realme:\n\n**Troca de Tela:** Trabalhamos com displays Incell e OLED para os modelos Realme 8, 9, 10, 11, GT e C-series. As telas são compatíveis com a digitalização de toque capacitivo de fábrica.\n**Bateria:** Substituímos baterias compatíveis com o carregamento DART Charge, mantendo a velocidade de recarga ultrarrápida.\n**Reparo de Placa:** Como a Realme usa chipsets Qualcomm e MediaTek padrão, nosso laboratório de micro-soldagem atende sem problemas.\n**Software:** Possuímos ferramentas para Flash via Modo Qualcomm (EDL 9008) e MediaTek (SP Flash Tool), salvando aparelhos travados no boot.\n\n[DICA]\nSe o seu Realme parou de carregar no DART Charge (65W), tente usar um carregador USB-C comum de 10W. Se carregar normalmente, o problema é no CI de carga rápida, não no conector. Traga para avaliação!\n[/DICA]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Quando o celular travar na logo de boot ou quando o carregamento ultrarrápido parar de funcionar. Também quando a bateria começar a estufar (urgência máxima!).",
+    costInfo: `Peças de Realme costumam ter preços competitivos no mercado, tornando o reparo financeiramente vantajoso. A disponibilidade de peças pode variar, mas mantemos estoque dos modelos mais populares. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Por que é tão difícil encontrar assistência para Realme em Salvador?", answer: "Porque a Realme não possui rede de assistência oficial no Brasil como Apple e Samsung. Poucas oficinas investem em peças e conhecimento dessa marca." },
+      { question: "A Realme é da mesma empresa que a Oppo?", answer: "Sim, são marcas irmãs. Compartilham tecnologia, chipsets e até o sistema operacional (ColorOS/Realme UI). Isso facilita nosso trabalho pois conhecemos ambas as plataformas." },
+      { question: "O carregamento de 65W volta a funcionar após a troca?", answer: "Se o problema for no conector ou sub-placa, sim, restauramos o DART Charge. Se for no CI de carga da placa-mãe, faremos a micro-soldagem do componente." },
+      { question: "Vocês têm peças para Realme C-series (C11, C25)?", answer: "Sim. A linha C é muito popular e mantemos telas e baterias em estoque para os modelos mais vendidos." }
+    ],
+    sections: [
+      {
+        id: "realme-vs-xiaomi",
+        title: "Realme vs Xiaomi: Qual Dá Mais Problema?",
+        content: "Ambas são marcas chinesas de custo-benefício, mas os problemas são diferentes. O Xiaomi Poco sofre com a 'Morte Súbita' (defeito de solda no processador). Já o Realme sofre mais com problemas de software (travamentos no ColorOS) e degradação do carregamento rápido. Em termos de facilidade de reparo, o Realme é ligeiramente mais amigável que o Xiaomi."
+      }
+    ],
+    relatedSlugs: ["loja-realme-poco-salvador-pecas", "assistencia-tecnica-xiaomi-salvador-conserto", "celular-nao-carrega-salvador"]
+  },
+  {
+    slug: "como-escolher-assistencia-tecnica-celular-confiavel",
+    title: "Como Escolher uma Assistência Técnica de Celular Confiável em Salvador",
+    h1: "7 Sinais de que a Assistência Técnica é Confiável (e 5 Red Flags para Fugir)",
+    metaDescription: "Não caia em golpes! Aprenda a identificar assistências técnicas de celular sérias em Salvador. Dicas para proteger seu aparelho e seu dinheiro.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Guia Educativo",
+    serviceSlug: "como-escolher-assistencia-tecnica-celular-confiavel",
+    description: "Um guia educativo e autoritário que posiciona a Reparo Avançado como referência de transparência e qualidade no mercado de Salvador.",
+    isEditorial: true,
+    keywords: ["como escolher assistencia tecnica celular", "assistencia tecnica confiavel salvador", "golpes conserto celular", "trocar peças roubadas celular", "melhor assistencia tecnica salvador"],
+    problems: [
+      "Medo de ter peças originais trocadas por paralelas sem você saber",
+      "Assistências que seguram o celular por semanas sem dar retorno",
+      "Orçamentos que mudam de valor depois de abrir o aparelho",
+      "Oficinas que dizem que 'consertaram' mas o defeito volta em 1 semana",
+      "Lojas sem nota fiscal nem garantia escrita"
+    ],
+    causes: [
+      "Mercado informal sem regulamentação ou fiscalização",
+      "Falta de informação do consumidor sobre seus direitos (CDC)",
+      "Barreira técnica que impede o cliente de verificar o que foi feito",
+      "Pressão financeira que leva o consumidor a escolher sempre o mais barato"
+    ],
+    solution: `Escolher a assistência errada pode custar mais caro do que o próprio conserto. Aqui estão os 7 sinais de uma oficina confiável:\n\n**✅ 1. Laboratório Visível:** Desconfie de quem esconde a bancada. Na Reparo Avançado, nosso laboratório é aberto — você pode acompanhar o serviço.\n**✅ 2. Orçamento Por Escrito:** Antes de abrir, o valor deve ser combinado por WhatsApp ou papel.\n**✅ 3. Garantia Documentada:** Toda peça e mão de obra devem ter garantia mínima de 90 dias (CDC).\n**✅ 4. Avaliações Online:** Confira Google Maps, Instagram e reclameaqui. Loja sem avaliação é red flag.\n**✅ 5. Especialização:** Prefira assistências que focam em celulares, não lojas que consertam "tudo" (TV, micro-ondas, notebook...).\n**✅ 6. Peças à Vista:** A loja mostra a peça antiga removida e a nova antes de instalar.\n**✅ 7. Tempo de Mercado:** Lojas com anos de operação no mesmo endereço são mais confiáveis.\n\n[ATENCAO]\n**5 Red Flags Para Fugir Correndo:**\n1. "Tem que deixar o celular e a gente liga quando ficar pronto" (sem prazo definido)\n2. Orçamento muito abaixo do mercado (peças roubadas ou falsificadas)\n3. Não emite nota fiscal nem ordem de serviço\n4. Pede sua senha de desbloqueio sem justificativa técnica\n5. Não tem endereço fixo (conserta na "casa" ou pelo Instagram sem CNPJ)\n[/ATENCAO]\n\n${LOCAL_SEO}`,
+    whenToSeek: "Sempre que precisar de conserto. Use este guia como checklist antes de entregar seu aparelho a qualquer assistência em Salvador.",
+    costInfo: `Na Reparo Avançado, praticamos todos os 7 sinais de confiança listados acima. Orçamento gratuito, transparente e por escrito. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Como sei se trocaram a peça original do meu celular por uma paralela?", answer: "Para iPhones, vá em Ajustes > Geral > Sobre. Se aparecer 'Peça Desconhecida' na tela ou bateria, a peça foi trocada por uma não-certificada. Para Samsung, as cores e o brilho da tela dão pistas: telas paralelas ficam amareladas." },
+      { question: "Posso exigir a peça antiga de volta?", answer: "Sim! O Código de Defesa do Consumidor garante esse direito. Uma boa assistência sempre devolve a peça substituída sem você precisar pedir." },
+      { question: "O que fazer se o mesmo defeito voltar após o conserto?", answer: "Se o defeito retornar dentro do prazo de garantia, a assistência é obrigada a refazer o serviço gratuitamente ou devolver o dinheiro. Guarde sempre o comprovante." },
+      { question: "A Reparo Avançado segue todos esses critérios?", answer: "Sim. Nosso laboratório é aberto, entregamos nota fiscal, damos garantia documentada, possuímos avaliações 5 estrelas no Google e somos especializados exclusivamente em smartphones." }
+    ],
+    sections: [
+      {
+        id: "golpes-comuns",
+        title: "Os Golpes Mais Comuns em Salvador",
+        content: "O golpe mais frequente que vemos em Salvador é a 'troca silenciosa': a oficina abre seu celular, remove a tela OLED original (que vale R$500+), coloca uma paralela de R$80 e te devolve dizendo que 'consertou'. Você só percebe meses depois quando as cores ficam estranhas. Outro golpe é o 'orçamento crescente': dizem que é R$150, abrem o celular, e depois dizem que 'acharam mais defeitos' e cobram R$400."
+      }
+    ],
+    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "conserto-celular-pituba-imbui-costa-azul", "reparo-avancado-melhor-avaliacao-boca-do-rio"]
+  },
+  {
+    slug: "celular-molhou-chuva-praia-salvador-socorro",
+    title: "Celular Molhou na Chuva ou Praia de Salvador? Socorro Imediato!",
+    h1: "Celular Caiu na Praia, Piscina ou Molhou na Chuva em Salvador: O Que Fazer Agora!",
+    metaDescription: "Celular caiu na água do mar em Salvador, na piscina ou molhou na chuva? NÃO coloque no arroz! Veja o que fazer agora e onde levar para salvar seu aparelho.",
+    category: "outros" as Category,
+    brand: "Diversas",
+    model: "Smartphones",
+    service: "Desoxidação e Salvamento",
+    serviceSlug: "celular-molhou-chuva-praia-salvador-socorro",
+    description: "Guia de emergência focado no contexto de Salvador: praias, piscinas de condomínio, chuvas tropicais e a maresia constante. Como agir nos primeiros 30 minutos.",
+    isEditorial: true,
+    keywords: ["celular molhou na chuva", "celular caiu na piscina", "celular caiu no mar salvador", "celular molhou o que fazer", "salvamento celular agua salgada"],
+    problems: [
+      "Celular caiu na água da praia (Porto da Barra, Stella Maris, Itapuã)",
+      "Celular molhou na chuva forte de Salvador (bolso, mochila aberta)",
+      "Aparelho caiu na piscina do condomínio durante festa",
+      "Celular tomou respingo de cerveja, refrigerante ou suco na praia",
+      "Usou o celular no banheiro e o vapor do chuveiro quente entrou"
+    ],
+    causes: [
+      "Salvador é uma cidade litorânea — a exposição à água é constante",
+      "Confiança excessiva na classificação IP67/IP68 (a vedação degrada com o tempo)",
+      "Uso do celular na praia para fotos e músicas (areia + água salgada = combo mortal)",
+      "Chuvas tropicais repentinas que pegam de surpresa quem está na rua"
+    ],
+    solution: `Salvador é uma das cidades com mais acidentes de celular com água no Brasil. Porto da Barra, Flamengo, Stella Maris — todo final de semana recebemos aparelhos que caíram no mar.\n\n**Os 5 passos de emergência que você deve seguir AGORA:**\n\n1. **Tire da água IMEDIATAMENTE** — cada segundo conta\n2. **NÃO LIGUE e NÃO coloque na tomada** — isso causa curto-circuito fatal\n3. **NÃO sacuda** — a agitação espalha a água para áreas que estavam secas\n4. **NÃO coloque no arroz** — mito! O arroz não ajuda e o amido entope o conector\n5. **Traga para nós o mais rápido possível** — nosso laboratório possui Cuba Ultrassônica para desoxidação profunda\n\n[IMPORTANTE]\n**ÁGUA DO MAR é 10x mais perigosa que água doce!** O sal (cloreto de sódio) é altamente condutor e começa a corroer as trilhas de cobre da placa-mãe em 30 minutos. Se seu celular caiu no mar de Salvador, a corrida contra o tempo é dobrada.\n[/IMPORTANTE]\n\nNa Reparo Avançado, possuímos o kit completo de salvamento: Cuba Ultrassônica industrial, solução química de desoxidação, estufa de secagem controlada e microscópio para inspeção pós-limpeza. ${LOCAL_SEO}`,
+    whenToSeek: "MÁXIMA URGÊNCIA! Traga no mesmo dia, preferencialmente nas primeiras 4 horas. A cada hora que passa com o celular molhado (especialmente água do mar), as chances de recuperação caem drasticamente.",
+    costInfo: `A desoxidação química tem um custo fixo de laboratório. Se peças adicionais forem danificadas pela água (tela, bateria), enviaremos orçamento complementar sem compromisso. ${CTA_TEXT}.`,
+    faq: [
+      { question: "Colocar o celular molhado no arroz funciona?", answer: "NÃO! É o maior mito da internet. O arroz não absorve umidade do interior da placa-mãe. Pior: o amido e pó do arroz podem entupir o conector de carga e piorar tudo." },
+      { question: "Secador de cabelo resolve?", answer: "JAMAIS! O ar quente derrete plásticos internos, pode estufar a bateria e espalha a água que estava em um cantinho para áreas sensíveis que estavam secas." },
+      { question: "Meu celular é IP68, como molhou?", answer: "A classificação IP68 é feita em laboratório com água parada e limpa. As borrachas de vedação se degradam com o uso, sol, quedas e tempo. Após 1 ano, a vedação já não é confiável." },
+      { question: "Se secar sozinho, posso ligar depois?", answer: "NÃO ligue sem abrir! Mesmo que pareça seco por fora, a umidade fica presa sob os chips BGA da placa por semanas, corroendo silenciosamente. Precisa de abertura e inspeção profissional." }
+    ],
+    sections: [
+      {
+        id: "praias-salvador",
+        title: "As Praias Mais Perigosas para Celulares",
+        content: "Porto da Barra, Praia do Farol, Itapuã e Stella Maris são as campeãs de incidentes. A combinação de areia fina (que entra nas frestas do celular), sal marinho (condutor elétrico brutal) e sol escaldante (que seca a vedação) transforma a ida à praia em uma sentença de morte para smartphones desprotegidos. Nossa dica: use uma pochete impermeável de R$20 e salve um celular de R$5.000."
+      }
+    ],
+    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "mitos-verdades-celular-no-arroz-salvador"]
   }
 ];

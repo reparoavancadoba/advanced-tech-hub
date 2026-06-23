@@ -13,6 +13,7 @@ import Atendimento from "./pages/Atendimento.tsx";
 import LocaisDeAtendimento from "./pages/LocaisDeAtendimento.tsx";
 import ServicoConsolidado from "./pages/ServicoConsolidado.tsx";
 import LocalConsolidado from "./pages/LocalConsolidado.tsx";
+import ProgrammaticSEO from "./pages/ProgrammaticSEO.tsx";
 
 const queryClient = new QueryClient();
 
@@ -45,6 +46,9 @@ const App = () => (
             <Route path="/assistencia-tecnica-pituba" element={<LocalConsolidado slug="pituba" />} />
             <Route path="/assistencia-tecnica-imbui" element={<LocalConsolidado slug="imbui" />} />
             <Route path="/assistencia-tecnica-brotas" element={<LocalConsolidado slug="brotas" />} />
+
+            {/* ROTA DE SEO PROGRAMÁTICO: GERADOR DE BAIRROS (O "Mata Leão" na Concorrência) */}
+            <Route path="/conserto/:servicoSlug/em/:bairroSlug" element={<ProgrammaticSEO />} />
 
             {/* Rota legado mantida para transição segura */}
             <Route path="/atendimento/:bairro/:servico" element={<Atendimento />} />
