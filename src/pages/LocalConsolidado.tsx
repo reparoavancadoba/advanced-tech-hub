@@ -172,6 +172,43 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
         </div>
       </section>
 
+      {/* Mid-page CTA with Social Proof */}
+      <section className="py-14 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <div className="bg-card border border-primary/20 rounded-2xl p-8 md:p-10 shadow-lg">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-5 text-sm">
+              <span className="inline-flex items-center gap-1.5 bg-yellow-500/10 text-yellow-600 font-semibold px-3 py-1 rounded-full">
+                ⭐ 4.9 no Google
+              </span>
+              <span className="inline-flex items-center gap-1.5 bg-primary/10 text-primary font-semibold px-3 py-1 rounded-full">
+                <Shield className="w-3.5 h-3.5" /> 9 anos de experiência
+              </span>
+              <span className="inline-flex items-center gap-1.5 bg-green-500/10 text-green-600 font-semibold px-3 py-1 rounded-full">
+                <Wrench className="w-3.5 h-3.5" /> +15.000 reparos realizados
+              </span>
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3 text-foreground">
+              Precisa de conserto em {local.name}?
+            </h2>
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              Orçamento gratuito e sem compromisso. Atendimento imediato pelo WhatsApp — resposta em minutos!
+            </p>
+            <a
+              href={waLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-xl text-lg font-bold hover:brightness-110 transition-all animate-pulse-whatsapp shadow-lg"
+            >
+              <MessageCircle className="w-6 h-6" />
+              Quero Meu Orçamento Grátis
+            </a>
+            <p className="text-xs text-muted-foreground mt-4">
+              🔒 Seus dados estão seguros. Sem spam.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* LocalBusiness Info Section */}
       <section className="py-20 border-t border-border">
         <div className="container mx-auto px-4 max-w-5xl">
@@ -257,6 +294,19 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
           </div>
         </div>
       </section>
+
+      {/* Sticky WhatsApp Bottom Bar - Mobile Only */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-whatsapp/95 backdrop-blur-sm border-t border-green-600 shadow-[0_-4px_20px_rgba(0,0,0,0.15)] p-3">
+        <a
+          href={waLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-3 bg-whatsapp text-whatsapp-foreground w-full py-3 rounded-xl text-base font-bold animate-pulse-whatsapp"
+        >
+          <MessageCircle className="w-5 h-5" />
+          Orçamento Grátis via WhatsApp
+        </a>
+      </div>
     </SiteLayout>
   );
 };

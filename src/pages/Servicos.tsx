@@ -170,6 +170,28 @@ const Servicos = () => {
         </div>
       </section>
 
+      {/* Final CTA Banner — Urgency / Conversion */}
+      <section className="py-12 md:py-16 bg-whatsapp text-whatsapp-foreground">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="text-2xl md:text-4xl font-extrabold mb-3 drop-shadow">
+            Orçamento Gratuito em 5 Minutos
+          </h2>
+          <p className="text-whatsapp-foreground/90 text-base md:text-lg mb-6 max-w-xl mx-auto">
+            Envie uma mensagem agora e receba o diagnóstico do seu celular sem compromisso. Mais de <strong>5.000 aparelhos</strong> reparados com garantia de 90 dias.
+          </p>
+          <a
+            href={waLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white text-green-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition-all shadow-lg animate-pulse-whatsapp"
+          >
+            <MessageCircle className="w-6 h-6" />
+            Chamar no WhatsApp
+          </a>
+          <p className="mt-4 text-whatsapp-foreground/70 text-xs">Atendimento imediato · Sem taxa de avaliação · Garantia por escrito</p>
+        </div>
+      </section>
+
       {/* Central FAQs Section */}
       <section className="py-16 bg-secondary/10 border-t border-border">
         <div className="container mx-auto px-4 max-w-3xl">
@@ -187,6 +209,19 @@ const Servicos = () => {
           </div>
         </div>
       </section>
+
+      {/* Sticky WhatsApp Bottom Bar — Mobile Only */}
+      <div className="fixed bottom-0 inset-x-0 z-50 md:hidden bg-whatsapp text-whatsapp-foreground shadow-[0_-2px_12px_rgba(0,0,0,0.15)]">
+        <a
+          href={waLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 w-full py-3.5 font-bold text-base animate-pulse-whatsapp"
+        >
+          <MessageCircle className="w-5 h-5" />
+          Solicite seu Orçamento Grátis
+        </a>
+      </div>
     </SiteLayout>
   );
 };

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { MapPin, ChevronRight, Check } from "lucide-react";
+import { MapPin, ChevronRight, Check, MessageCircle } from "lucide-react";
 import SiteLayout from "@/components/SiteLayout";
 import { listLocaisConsolidados } from "@/data/locaisConsolidadosData";
 import { servicesHubList } from "@/data/servicosConsolidadosData";
@@ -74,6 +74,19 @@ const LocaisDeAtendimento = () => {
           </div>
         </div>
       </section>
+
+      {/* STICKY BOTTOM BAR PARA MOBILE (CRO - ALTA CONVERSÃO) */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
+        <a
+          href="https://wa.me/5571991981437?text=Olá! Preciso de atendimento na minha região em Salvador."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full flex items-center justify-center gap-2 bg-whatsapp text-white px-4 py-3.5 rounded-xl font-bold shadow-lg animate-pulse-whatsapp"
+        >
+          <MessageCircle className="w-5 h-5" />
+          Falar com Técnico Agora
+        </a>
+      </div>
     </SiteLayout>
   );
 };

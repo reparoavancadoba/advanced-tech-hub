@@ -37,19 +37,25 @@ const Index = () => {
       </Helmet>
       <HeroSection />
       <BrandsSection />
-      <AuthoritySection />
       <ServicesSection />
-      <div className="container mx-auto px-4 py-6 text-center">
+      
+      {/* Botão de Ver Todos logo após os serviços */}
+      <div className="container mx-auto px-4 py-4 mb-8 text-center">
         <Link
           to="/servicos"
-          className="inline-flex items-center gap-2 text-primary hover:underline font-semibold"
+          className="inline-flex items-center gap-2 text-primary hover:underline font-semibold text-lg"
         >
           Ver todos os serviços detalhados <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
-      <HomeSeoSection />
+
       <TestimonialsSection />
       <DifferentialsSection />
+      <AuthoritySection />
+      
+      {/* Sessão de SEO movida para o final (Rodapé) para não poluir a experiência do usuário, 
+          mas manter o ranqueamento no Google */}
+      <HomeSeoSection />
     </SiteLayout>
   );
 };

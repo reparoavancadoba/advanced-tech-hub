@@ -167,6 +167,26 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         </div>
       </section>
 
+      {/* Mid-page CTA Box with Social Proof */}
+      <section className="py-10 bg-gradient-to-r from-primary/5 via-whatsapp/5 to-primary/5">
+        <div className="container mx-auto px-4 max-w-2xl text-center">
+          <div className="bg-card border-2 border-whatsapp/30 rounded-2xl p-8 shadow-lg">
+            <p className="text-2xl font-bold mb-2">✅ Mais de 5.000 aparelhos reparados</p>
+            <p className="text-muted-foreground text-sm mb-1">⭐ Avaliação 4.9/5 · Mais de 8 anos de experiência em Salvador</p>
+            <p className="text-xs text-muted-foreground mb-6">Orçamento gratuito · Atendimento imediato pelo WhatsApp</p>
+            <a
+              href={waLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-xl text-lg font-bold hover:brightness-110 transition-all animate-pulse-whatsapp shadow-lg"
+            >
+              <MessageCircle className="w-6 h-6" />
+              Quero Meu Orçamento Grátis
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Core Details */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -242,6 +262,19 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
           </Link>
         </div>
       </section>
+
+      {/* Sticky WhatsApp Bottom Bar - Mobile Only */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-whatsapp/95 backdrop-blur-sm border-t border-whatsapp shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
+        <a
+          href={waLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-3 w-full py-3.5 px-4 text-whatsapp-foreground font-bold text-base animate-pulse-whatsapp"
+        >
+          <MessageCircle className="w-5 h-5" />
+          Orçamento Grátis no WhatsApp
+        </a>
+      </div>
     </SiteLayout>
   );
 };
