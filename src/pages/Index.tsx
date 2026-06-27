@@ -1,11 +1,9 @@
 import HeroSection from "@/components/HeroSection";
 import BrandsSection from "@/components/BrandsSection";
-import AuthoritySection from "@/components/AuthoritySection";
 import ServicesSection from "@/components/ServicesSection";
 import HomeSeoSection from "@/components/HomeSeoSection";
 
 import TestimonialsSection from "@/components/TestimonialsSection";
-import DifferentialsSection from "@/components/DifferentialsSection";
 import SiteLayout from "@/components/SiteLayout";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -31,15 +29,15 @@ const Index = () => {
     <SiteLayout>
       <Helmet>
         <title>Conserto de Celular em Salvador | Reparo Avançado</title>
-        <meta name="description" content="oficina de conserto de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito!" />
+        <meta name="description" content="Assistência técnica focada em iPhone, Samsung e reparo avançado de placa em Salvador. 9 anos de experiência na Boca do Rio. Orçamento gratuito na hora!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
       </Helmet>
+      
       <HeroSection />
       <BrandsSection />
       <ServicesSection />
       
-      {/* Botão de Ver Todos logo após os serviços */}
       <div className="container mx-auto px-4 py-4 mb-8 text-center">
         <Link
           to="/servicos"
@@ -50,11 +48,7 @@ const Index = () => {
       </div>
 
       <TestimonialsSection />
-      <DifferentialsSection />
-      <AuthoritySection />
       
-      {/* Sessão de SEO movida para o final (Rodapé) para não poluir a experiência do usuário, 
-          mas manter o ranqueamento no Google */}
       <HomeSeoSection />
     </SiteLayout>
   );
