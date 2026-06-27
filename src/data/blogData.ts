@@ -305,8 +305,9 @@ export const problemPosts: BlogPost[] = [
 });
 
 import { editorialPosts } from "./editorialPosts";
+import { editorialPostsBatch2 } from "./editorialPostsBatch2";
 
-export const allPosts: BlogPost[] = [...editorialPosts, ...problemPosts];
+export const allPosts: BlogPost[] = [...editorialPosts, ...editorialPostsBatch2, ...problemPosts];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return allPosts.find((p) => p.slug === slug);
