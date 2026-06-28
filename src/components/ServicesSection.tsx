@@ -53,7 +53,7 @@ const ServicesSection = () => {
                 <img
                   src={service.image}
                   alt={service.label}
-                  className="max-h-full max-w-full object-contain"
+                  className="max-h-full max-w-full object-contain mix-blend-screen"
                   loading="lazy"
                 />
               </div>

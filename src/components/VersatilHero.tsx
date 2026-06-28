@@ -77,7 +77,7 @@ const VersatilHero = () => {
               <img
                 src={phoneImg}
                 alt="Smartphone moderno para avaliação"
-                className="w-full h-full object-cover p-2 rounded-[42px]"
+                className="w-full h-full object-cover p-2 rounded-[42px] mix-blend-screen"
               />
             </div>
             {/* Ambient behind image */}

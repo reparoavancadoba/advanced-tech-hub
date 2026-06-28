@@ -155,14 +155,14 @@ const BlogPost = () => {
           if (para.trim().startsWith("- ") || para.trim().startsWith("* ")) {
             const items = para.split(/\n[-*]\s+/).map(i => i.replace(/^[-*]\s+/, "").trim()).filter(Boolean);
             return (
-              <ul key={`${index}-${pIdx}`} className="list-disc pl-6 space-y-2 text-gray-700 text-[16px] md:text-[17px] mb-4">
+              <ul key={`${index}-${pIdx}`} className="list-disc pl-6 space-y-2 text-muted-foreground text-[16px] md:text-[17px] mb-4">
                 {items.map((item, itemIdx) => (
                   <li key={itemIdx}>{item}</li>
                 ))}
               </ul>
             );
           }
-          return <p key={`${index}-${pIdx}`} className="text-gray-800 leading-relaxed mb-4 text-[16px] md:text-[17px] font-normal">{para.trim()}</p>;
+          return <p key={`${index}-${pIdx}`} className="text-foreground leading-relaxed mb-4 text-[16px] md:text-[17px] font-normal">{para.trim()}</p>;
         });
       }
 
@@ -226,45 +226,45 @@ const BlogPost = () => {
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
-      {/* Main Container - Solid White Background & Dark Gray Text */}
-      <div className="bg-[#FFFFFF] text-[#111827] min-h-screen w-full transition-colors duration-300">
+      {/* Main Container - Dark Theme */}
+      <div className="bg-background text-foreground min-h-screen w-full transition-colors duration-300">
         <div className="container mx-auto px-4 py-12 max-w-[800px]">
           
-          {/* Breadcrumbs styled for Light Theme */}
-          <nav className="flex items-center gap-1 text-xs text-gray-500 mb-6 flex-wrap font-medium">
-            <Link to="/" className="hover:text-gray-900 transition-colors">Início</Link>
-            <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <Link to="/blog" className="hover:text-gray-900 transition-colors">Blog</Link>
-            <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <Link to={`/blog?cat=${post.category}`} className="hover:text-gray-900 transition-colors">
+          {/* Breadcrumbs styled for Dark Theme */}
+          <nav className="flex items-center gap-1 text-xs text-muted-foreground mb-6 flex-wrap font-medium">
+            <Link to="/" className="hover:text-foreground transition-colors">Início</Link>
+            <ChevronRight className="w-3.5 h-3.5 text-muted-foreground" />
+            <Link to="/blog" className="hover:text-foreground transition-colors">Blog</Link>
+            <ChevronRight className="w-3.5 h-3.5 text-muted-foreground" />
+            <Link to={`/blog?cat=${post.category}`} className="hover:text-foreground transition-colors">
               {categoryLabels[post.category]}
             </Link>
-            <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <span className="text-gray-900 font-semibold">{post.service}</span>
+            <ChevronRight className="w-3.5 h-3.5 text-muted-foreground" />
+            <span className="text-foreground font-semibold">{post.service}</span>
           </nav>
 
-          {/* Title - Clean & Highly Readable */}
-          <h1 className="text-3xl md:text-5xl font-black text-gray-900 mb-4 tracking-tight leading-tight">
+          {/* Title */}
+          <h1 className="text-3xl md:text-5xl font-black text-foreground mb-4 tracking-tight leading-tight">
             {post.h1}
           </h1>
 
-          {/* Visual Metadata Block (EEAT) */}
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-gray-500 mb-8 border-b border-gray-200 pb-4">
+          {/* Visual Metadata Block */}
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground mb-8 border-b border-border pb-4">
             <div className="flex items-center gap-1">
               <span>Por:</span>
-              <span className="font-bold text-gray-900">{post.author || "Paulo Lopes"}</span>
+              <span className="font-bold text-foreground">{post.author || "Paulo Lopes"}</span>
             </div>
-            <div className="w-1 h-1 rounded-full bg-gray-300 hidden sm:block" />
+            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
             <div className="flex items-center gap-1">
               <span>Publicado:</span>
-              <span className="font-semibold text-gray-700">{post.datePublished || "01/06/2026"}</span>
+              <span className="font-semibold text-muted-foreground">{post.datePublished || "01/06/2026"}</span>
             </div>
-            <div className="w-1 h-1 rounded-full bg-gray-300 hidden sm:block" />
+            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
             <div className="flex items-center gap-1">
               <span>Atualizado:</span>
-              <span className="font-semibold text-gray-700">{post.dateModified || "05/06/2026"}</span>
+              <span className="font-semibold text-muted-foreground">{post.dateModified || "05/06/2026"}</span>
             </div>
-            <div className="w-1 h-1 rounded-full bg-gray-300 hidden sm:block" />
+            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
             <div className="flex items-center gap-1 text-primary font-semibold">
               <Clock className="w-3.5 h-3.5 text-primary" />
               <span>Leitura: {readingTime} min</span>
@@ -272,7 +272,7 @@ const BlogPost = () => {
           </div>
 
           {/* Description */}
-          <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8 font-medium">
+          <p className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-8 font-medium">
             {post.description}
           </p>
 
@@ -288,13 +288,13 @@ const BlogPost = () => {
             </a>
           </div>
 
-          {/* Table of Contents styled for Light Theme */}
-          <div className="bg-[#F9FAFB] border border-[#E5E7EB] rounded-xl p-6 mb-10 shadow-sm">
-            <h2 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-3">Índice do Artigo</h2>
+          {/* Table of Contents styled for Dark Theme */}
+          <div className="bg-card border border-border rounded-xl p-6 mb-10 shadow-sm">
+            <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">Índice do Artigo</h2>
             <ul className="space-y-2">
               {toc.map((item) => (
                 <li key={item.id}>
-                  <a href={`#${item.id}`} className="text-sm font-semibold text-primary hover:text-primary-foreground hover:underline transition-all">
+                  <a href={`#${item.id}`} className="text-sm font-semibold text-primary hover:text-primary/80 hover:underline transition-all">
                     {item.label}
                   </a>
                 </li>
