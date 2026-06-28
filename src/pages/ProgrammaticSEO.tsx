@@ -108,7 +108,7 @@ const ProgrammaticSEO = () => {
                 <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" /> 5.0 no Google
               </div>
               <div className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-5 h-5 text-whatsapp" /> +150 Avaliações
+                <CheckCircle2 className="w-5 h-5 text-whatsapp" /> +153 Avaliações
               </div>
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-5 h-5 text-primary" /> Garantia 90 dias

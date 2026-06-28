@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
             <span className="font-semibold text-foreground">Avaliações Reais no Google</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Mais de <span className="text-gradient">143 avaliações reais</span> de clientes
+            Mais de <span className="text-gradient">153 avaliações reais</span> de clientes
           </h2>
           <div className="flex flex-col items-center gap-1">
             <span className="text-2xl font-bold text-foreground">Nota média: 5.0</span>

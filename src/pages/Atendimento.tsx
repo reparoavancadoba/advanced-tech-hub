@@ -89,7 +89,7 @@ const Atendimento = () => {
                 <Clock className="w-4 h-4" /> 9 anos de tradição
               </div>
               <div className="hidden sm:flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-whatsapp" /> +143 avaliações reais
+                <CheckCircle2 className="w-4 h-4 text-whatsapp" /> +153 avaliações reais
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Atendimento = () => {
             {servico.name} no {bairro.name}: atendimento presencial presencial
           </h2>
           <p className="text-muted-foreground mb-4">
-            Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a conserto Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com 9 anos de tradição e mais de 143 avaliações reais 5.0 ★.
+            Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a conserto Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com 9 anos de tradição e mais de 153 avaliações reais 5.0 ⭐.
           </p>
           <p className="text-muted-foreground mb-4">
             Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão atendimento comercial rigoroso, com peças de alta performance e avaliação avançado. Diferente das lojas comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
