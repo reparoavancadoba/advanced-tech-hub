@@ -1,112 +1,112 @@
 {
   "redirects": [
     {
-      "source": "/blog/troca-de-tela-:model((?!.*salvador).*)",
+      "source": "/blog/troca-de-tela-:path*",
       "destination": "/troca-de-tela",
       "permanent": true
     },
     {
-      "source": "/blog/troca-tela-:model((?!.*salvador).*)",
+      "source": "/blog/troca-tela-:path((?!iphone-true-tone-salvador).*)",
       "destination": "/troca-de-tela",
       "permanent": true
     },
     {
-      "source": "/blog/troca-de-bateria-:model((?!.*salvador).*)",
+      "source": "/blog/troca-de-bateria-:path((?!iphone-salvador-saude-100|celular-salvador).*)",
       "destination": "/troca-de-bateria",
       "permanent": true
     },
     {
-      "source": "/blog/reparo-de-placa-:model((?!.*salvador).*)",
+      "source": "/blog/reparo-de-placa-:path*",
       "destination": "/reparo-em-placa",
       "permanent": true
     },
     {
-      "source": "/blog/conector-de-carga-:model((?!.*salvador).*)",
+      "source": "/blog/conector-de-carga-:path*",
       "destination": "/celular-nao-carrega",
       "permanent": true
     },
     {
-      "source": "/blog/aparelho-nao-liga-:model((?!.*salvador).*)",
+      "source": "/blog/aparelho-nao-liga-:path*",
       "destination": "/celular-nao-liga",
       "permanent": true
     },
     {
-      "source": "/blog/aparelho-nao-carrega-:model((?!.*salvador).*)",
+      "source": "/blog/aparelho-nao-carrega-:path*",
       "destination": "/celular-nao-carrega",
       "permanent": true
     },
     {
-      "source": "/blog/desoxidacao-:model((?!.*salvador).*)",
+      "source": "/blog/desoxidacao-:path*",
       "destination": "/celular-caiu-na-agua",
       "permanent": true
     },
     {
-      "source": "/blog/celular-nao-liga-:model((?!.*salvador).*)",
+      "source": "/blog/celular-nao-liga-:path*",
       "destination": "/celular-nao-liga",
       "permanent": true
     },
     {
-      "source": "/blog/celular-nao-carrega-:model((?!.*salvador).*)",
+      "source": "/blog/celular-nao-carrega-:path((?!sujeira-conector-salvador).*)",
       "destination": "/celular-nao-carrega",
       "permanent": true
     },
     {
-      "source": "/blog/celular-caiu-na-agua-:model((?!.*salvador).*)",
+      "source": "/blog/celular-caiu-na-agua-:path*",
       "destination": "/celular-caiu-na-agua",
       "permanent": true
     },
     {
-      "source": "/blog/troca-de-microfone-:model((?!.*salvador).*)",
+      "source": "/blog/troca-de-microfone-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/alto-falante-audio-:model((?!.*salvador).*)",
+      "source": "/blog/alto-falante-audio-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/cameras-:model((?!.*salvador).*)",
+      "source": "/blog/cameras-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/face-id-:model((?!.*salvador).*)",
+      "source": "/blog/face-id-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/biometria-:model((?!.*salvador).*)",
+      "source": "/blog/biometria-:path((?!digital-nao-funciona-celular-salvador).*)",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/software-:model((?!.*salvador).*)",
+      "source": "/blog/software-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/upgrade-ssd-:model*",
+      "source": "/blog/upgrade-ssd-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/upgrade-ram-:model*",
+      "source": "/blog/upgrade-ram-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/limpeza-interna-:model*",
+      "source": "/blog/limpeza-interna-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/pasta-termica-:model*",
+      "source": "/blog/pasta-termica-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/dobradicas-:model*",
+      "source": "/blog/dobradicas-:path*",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
