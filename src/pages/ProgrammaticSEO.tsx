@@ -20,16 +20,16 @@ const ProgrammaticSEO = () => {
   const layoutVariant = seed % 2;
 
   const title = variant === 0 
-    ? `${servico.name} em ${bairro.name} | Reparo Avançado Salvador`
+    ? `${servico.name} em ${bairro.name} | Na Hora & Garantia`
     : variant === 1 
-    ? `Especializada em ${servico.name} na região de ${bairro.name} | Reparo Avançado`
-    : `Assistência Técnica: ${servico.name} - ${bairro.name} (Salvador)`;
+    ? `Especializada em ${servico.name}: ${bairro.name} | Orçamento Grátis`
+    : `Assistência Técnica: ${servico.name} - ${bairro.name} (Garantia 90d)`;
 
   const description = variant === 0
-    ? `Precisando de ${servico.shortName.toLowerCase()} no bairro ${bairro.name}? Atendimento rápido, peças de alta performance e garantia real.`
+    ? `Precisando de ${servico.shortName.toLowerCase()} no bairro ${bairro.name}? Atendimento rápido, peças de alta performance e garantia real. Orçamento 100% gratuito.`
     : variant === 1
-    ? `Procurando ${servico.name.toLowerCase()} em ${bairro.name}? A Reparo Avançado é referência em Salvador. Orçamento gratuito e serviço no mesmo dia.`
-    : `O melhor serviço de ${servico.shortName.toLowerCase()} para moradores de ${bairro.name}. Profissionais qualificados e laboratório próprio.`;
+    ? `Procurando ${servico.name.toLowerCase()} em ${bairro.name}? A Reparo Avançado é referência em Salvador. Orçamento gratuito e serviço no mesmo dia. Fale conosco!`
+    : `O melhor serviço de ${servico.shortName.toLowerCase()} para moradores de ${bairro.name}. Profissionais qualificados, laboratório próprio e reparo na hora. Confira!`;
 
   const canonical = `https://site.reparoavancado.com.br/conserto/${servico.slug}/em/${bairro.slug}`;
   const waLink = buildWhatsappLink(servico.name, bairro.name);
@@ -158,6 +158,11 @@ const ProgrammaticSEO = () => {
                 "addressRegion": "BA",
                 "addressCountry": "BR"
               }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "153"
             },
             "areaServed": {
               "@type": "Neighborhood",

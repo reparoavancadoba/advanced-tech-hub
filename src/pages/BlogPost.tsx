@@ -105,6 +105,11 @@ const BlogPost = () => {
           addressCountry: "BR",
         },
         telephone: "+55-71-99198-1437",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "5.0",
+          reviewCount: "153"
+        },
         areaServed: BAIRROS.map((b) => ({ "@type": "Place", name: `${b}, Salvador - BA` })),
       },
     ],
@@ -220,7 +225,7 @@ const BlogPost = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>{post.title}</title>
+        <title>{post.title} | Avaliação Grátis</title>
         <meta name="description" content={post.metaDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

@@ -38,6 +38,11 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         "@type": "LocalBusiness",
         "name": service.h1,
         "description": service.metaDescription,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "153"
+        },
         "provider": {
           "@type": "LocalBusiness",
           "name": "conserto Avançado",
@@ -94,7 +99,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>{service.title}</title>
+        <title>{service.title} | Na Hora & Garantia</title>
         <meta name="description" content={service.metaDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={service.title} />
