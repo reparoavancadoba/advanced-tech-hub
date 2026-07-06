@@ -11,6 +11,9 @@ const staticPages = [
   { loc: "/servicos", priority: "0.9", changefreq: "monthly" },
   { loc: "/blog", priority: "0.9", changefreq: "daily" },
   { loc: "/locais-de-atendimento", priority: "0.8", changefreq: "weekly" },
+  { loc: "/orcamento", priority: "0.9", changefreq: "monthly" },
+  { loc: "/contato", priority: "0.8", changefreq: "monthly" },
+  { loc: "/localizacao", priority: "0.8", changefreq: "monthly" },
 ];
 
 const urls = staticPages.map(

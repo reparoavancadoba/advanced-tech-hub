@@ -14,6 +14,10 @@ import LocaisDeAtendimento from "./pages/LocaisDeAtendimento.tsx";
 import ServicoConsolidado from "./pages/ServicoConsolidado.tsx";
 import LocalConsolidado from "./pages/LocalConsolidado.tsx";
 import ProgrammaticSEO from "./pages/ProgrammaticSEO.tsx";
+import Orcamento from "./pages/Orcamento.tsx";
+import Contato from "./pages/Contato.tsx";
+import Localizacao from "./pages/Localizacao.tsx";
+import WhatsAppRedirect from "./pages/WhatsAppRedirect.tsx";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +34,12 @@ const App = () => (
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/locais-de-atendimento" element={<LocaisDeAtendimento />} />
+
+            {/* Páginas Institucionais (Google Ads Sitelinks) */}
+            <Route path="/orcamento" element={<Orcamento />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/localizacao" element={<Localizacao />} />
+            <Route path="/whatsapp" element={<WhatsAppRedirect />} />
             
             {/* Novas Rotas de Serviços Consolidados */}
             <Route path="/troca-de-tela" element={<ServicoConsolidado slug="troca-de-tela" />} />
