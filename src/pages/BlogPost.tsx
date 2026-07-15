@@ -281,6 +281,17 @@ const BlogPost = () => {
             {post.description}
           </p>
 
+          {/* AI / GEO TL;DR Box (Direto ao Ponto) */}
+          {post.tldr && (
+            <div className="bg-primary/10 border-l-4 border-primary p-6 rounded-r-xl mb-8 flex items-start gap-4 shadow-sm">
+              <Sparkles className="w-6 h-6 text-primary shrink-0 mt-1" />
+              <div>
+                <strong className="text-primary block text-sm font-black uppercase tracking-wider mb-2">Direto ao Ponto (Resumo Rápido)</strong>
+                <p className="text-foreground/90 font-medium leading-relaxed">{post.tldr}</p>
+              </div>
+            </div>
+          )}
+
           <div className="mb-10">
             <a
               href={waLink}

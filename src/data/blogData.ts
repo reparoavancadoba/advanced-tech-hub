@@ -36,6 +36,7 @@ export interface BlogPost {
   costInfo: string;
   relatedSlugs: string[];
   // Extended fields for editorial posts
+  tldr?: string;
   faq?: FaqItem[];
   sections?: ContentSection[];
   keywords?: string[];
@@ -307,8 +308,9 @@ export const problemPosts: BlogPost[] = [
 import { editorialPosts } from "./editorialPosts";
 import { editorialPostsBatch2 } from "./editorialPostsBatch2";
 import { editorialPostsBatch3 } from "./editorialPostsBatch3";
+import { editorialPostsBatch4 } from "./editorialPostsBatch4";
 
-export const allPosts: BlogPost[] = [...editorialPosts, ...editorialPostsBatch2, ...editorialPostsBatch3, ...problemPosts];
+export const allPosts: BlogPost[] = [...editorialPosts, ...editorialPostsBatch2, ...editorialPostsBatch3, ...editorialPostsBatch4, ...problemPosts];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return allPosts.find((p) => p.slug === slug);
