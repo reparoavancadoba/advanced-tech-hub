@@ -1,17 +1,17 @@
 {
   "redirects": [
     {
-      "source": "/blog/troca-de-tela-:path*",
+      "source": "/blog/troca-de-tela-:path((?!iphone-15-pro-max-salvador|celular-salvador-original).*)",
       "destination": "/troca-de-tela",
       "permanent": true
     },
     {
-      "source": "/blog/troca-tela-:path((?!iphone-true-tone-salvador).*)",
+      "source": "/blog/troca-tela-:path((?!iphone-true-tone-salvador|iphone-13-14-cuidados-face-id|samsung-s23-s24-salvador|motorola-moto-g-quebrada).*)",
       "destination": "/troca-de-tela",
       "permanent": true
     },
     {
-      "source": "/blog/troca-de-bateria-:path((?!iphone-salvador-saude-100|celular-salvador).*)",
+      "source": "/blog/troca-de-bateria-:path((?!iphone-salvador-saude-100|celular-salvador|iphone-editorial|editorial|iphone-11-12-13-original|iphone).*)",
       "destination": "/troca-de-bateria",
       "permanent": true
     },
@@ -36,22 +36,22 @@
       "permanent": true
     },
     {
-      "source": "/blog/desoxidacao-:path*",
+      "source": "/blog/desoxidacao-:path((?!iphone-editorial).*)",
       "destination": "/celular-caiu-na-agua",
       "permanent": true
     },
     {
-      "source": "/blog/celular-nao-liga-:path*",
+      "source": "/blog/celular-nao-liga-:path((?!motivos-salvador).*)",
       "destination": "/celular-nao-liga",
       "permanent": true
     },
     {
-      "source": "/blog/celular-nao-carrega-:path((?!sujeira-conector-salvador).*)",
+      "source": "/blog/celular-nao-carrega-:path((?!causas-solucoes|salvador|sujeira-conector-salvador).*)",
       "destination": "/celular-nao-carrega",
       "permanent": true
     },
     {
-      "source": "/blog/celular-caiu-na-agua-:path*",
+      "source": "/blog/celular-caiu-na-agua-:path((?!desoxidacao-salvador).*)",
       "destination": "/celular-caiu-na-agua",
       "permanent": true
     },
@@ -71,12 +71,12 @@
       "permanent": true
     },
     {
-      "source": "/blog/face-id-:path*",
+      "source": "/blog/face-id-:path((?!parou-de-funcionar|parou-apos-banho-vapor|nao-funciona-iphone-causas).*)",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
     {
-      "source": "/blog/biometria-:path((?!digital-nao-funciona-celular-salvador).*)",
+      "source": "/blog/biometria-:path((?!digital-nao-funciona-celular-salvador|amoled-editorial|tela-parou-troca-amoled-salvador).*)",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
@@ -96,7 +96,7 @@
       "permanent": true
     },
     {
-      "source": "/blog/limpeza-interna-:path*",
+      "source": "/blog/limpeza-interna-:path((?!editorial).*)",
       "destination": "/conserto-de-celular",
       "permanent": true
     },
