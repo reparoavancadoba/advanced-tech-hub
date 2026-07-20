@@ -35,7 +35,7 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   // Montar conteúdo legível para o Googlebot dentro do <div id="root">
   // Quando o React carregar (createRoot), ele vai sobrescrever isso de forma invisível para o usuário, mas o Google já terá lido o código-fonte!
   const seoContent = `
-    <div style="padding: 20px; font-family: sans-serif;">
+    <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" data-seo-prerender="true">
       <header>
         <h1>${h1}</h1>
       </header>
