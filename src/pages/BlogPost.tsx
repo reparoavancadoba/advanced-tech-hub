@@ -93,39 +93,8 @@ const BlogPost = () => {
           }
         },
       },
-      {
-        "@type": "LocalBusiness",
-        name: "Reparo Avançado - oficina de conserto de celular de Celulares",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "R. Abelardo Andrade de Carvalho, 8",
-          addressLocality: "Salvador",
-          addressRegion: "BA",
-          postalCode: "41706-710",
-          addressCountry: "BR",
-        },
-        telephone: "+55-71-99198-1437",
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "5.0",
-          reviewCount: "153"
-        },
-        areaServed: BAIRROS.map((b) => ({ "@type": "Place", name: `${b}, Salvador - BA` })),
-      },
     ],
   };
-
-  // Add FAQ schema if post has FAQs
-  if (post.faq && post.faq.length > 0) {
-    jsonLd["@graph"].push({
-      "@type": "FAQPage",
-      mainEntity: post.faq.map((f) => ({
-        "@type": "Question",
-        name: f.question,
-        acceptedAnswer: { "@type": "Answer", text: f.answer },
-      })),
-    });
-  }
 
   // Parser helper to render post content and handle [DICA], [ATENCAO], and [IMPORTANTE] callout tags
   const parseContent = (text: string) => {
