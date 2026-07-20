@@ -64,27 +64,48 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
 }
 
 // 1. Gerar Páginas do Blog
+import { BAIRROS, BUSINESS_ADDRESS } from '../src/data/blogData';
+
 allPosts.forEach(post => {
   const urlPath = `/blog/${post.slug}`;
   const title = post.title;
   const description = post.metaDescription || post.description;
   const h1 = post.h1;
   
-  let contentHtml = `<p>${post.description}</p>`;
-  if (post.tldr) contentHtml += `<h2>O que você precisa saber</h2><p>${post.tldr}</p>`;
-  if (post.causes && post.causes.length) contentHtml += `<h2>Causas</h2><ul>${post.causes.map(c => `<li>${c}</li>`).join('')}</ul>`;
-  if (post.problems && post.problems.length) contentHtml += `<h2>Problemas Comuns</h2><ul>${post.problems.map(p => `<li>${p}</li>`).join('')}</ul>`;
-  if (post.solution) contentHtml += `<h2>Como Resolvemos</h2><p>${post.solution}</p>`;
-  if (post.content) {
-     contentHtml += post.content.map(section => `<h2>${section.title}</h2><p>${section.content}</p>`).join('');
+  let contentHtml = `<p><strong>Resumo:</strong> ${description}</p>`;
+  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;
+  
+  contentHtml += `<h2>O Problema: ${post.service} ${post.model}</h2>`;
+  if (post.problems && post.problems.length) contentHtml += `<ul>${post.problems.map(p => `<li>${p}</li>`).join('')}</ul>`;
+  
+  contentHtml += `<h2>Causas Comuns</h2>`;
+  if (post.causes && post.causes.length) contentHtml += `<ul>${post.causes.map(c => `<li>${c}</li>`).join('')}</ul>`;
+  
+  if (post.sections) {
+     contentHtml += post.sections.map(section => {
+       let secHtml = `<h2>${section.title}</h2><p>${section.content}</p>`;
+       if (section.subsections) {
+         secHtml += section.subsections.map(sub => `<h3>${sub.title}</h3><p>${sub.content}</p>`).join('');
+       }
+       return secHtml;
+     }).join('');
   }
+
+  if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2><p>${post.solution}</p>`;
+  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2><p>${post.whenToSeek}</p>`;
+  if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2><p>${post.costInfo}</p>`;
 
   let faqHtml = '';
   if (post.faq && post.faq.length) {
     faqHtml = post.faq.map(f => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
   }
 
-  generatePage(urlPath, title, description, h1, contentHtml, faqHtml);
+  let bairrosHtml = `<h2>Atendimento em Salvador – Boca do Rio</h2><p>A Reparo Avançado está localizada na ${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>${BAIRROS.join(', ')}</p>`;
+  
+  // Substituir os headers hardcoded no seoContent padrão (já que eles variam ou nós customizamos acima)
+  const fullContent = contentHtml + (faqHtml ? `<h2>Perguntas Frequentes</h2>${faqHtml}` : '') + bairrosHtml;
+
+  generatePage(urlPath, title, description, h1, fullContent, '');
 });
 
 // 2. Gerar Páginas de Bairros (LocalConsolidado)
