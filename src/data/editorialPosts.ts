@@ -10,7 +10,7 @@ export const editorialPosts: BlogPost[] = [
   // ═══════════════════════════════════════════
   {
     slug: "troca-de-bateria-iphone-salvador-saude-100",
-    title: "Troca de Bateria iPhone Salvador | Saúde 100% Sem Erro | conserto Avançado",
+    title: "Bateria do iPhone Acabando Rápido? Diagnóstico em Salvador",
     h1: "Troca de Bateria iPhone em Salvador: Como Manter 100% de Saúde Sem Erro de Sistema",
     metaDescription: "Troca de bateria iPhone em Salvador (Boca do Rio) com peças de alta performance. Sem mensagem de 'Peça Desconhecida'. Orçamento gratuito pelo WhatsApp!",
     category: "iphone" as Category,
@@ -71,7 +71,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "reparo-face-id-iphone-salvador",
-    title: "conserto de Face ID iPhone Salvador | Micro-soldagem | conserto Avançado",
+    title: "Face ID Parou de Funcionar? Saiba Como Consertar na Hora",
     h1: "conserto de Face ID no iPhone: Seu Sensor Parou de Funcionar? Veja Como Recuperamos",
     metaDescription: "Face ID do iPhone parou? conserto focado com micro-soldagem do projetor de pontos em Salvador (Boca do Rio). avaliação gratuita!",
     category: "iphone" as Category,
@@ -170,7 +170,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "troca-tela-iphone-true-tone-salvador",
-    title: "Troca de Tela iPhone com True Tone Salvador | conserto Avançado",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Tela de iPhone com True Tone: Por Que a Fidelidade de Cores Importa",
     metaDescription: "Troca de tela iPhone em Salvador com reprogramação True Tone. Cores fiéis e funções originais preservadas. Boca do Rio. Orçamento grátis!",
     category: "iphone" as Category,
@@ -216,7 +216,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "iphone-caiu-na-agua-desoxidacao-salvador",
-    title: "iPhone Caiu na Água? Desoxidação Urgente em Salvador | conserto Avançado",
+    title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "iPhone Caiu na Água em Salvador? Guia de Desoxidação Urgente Para Salvar Sua circuito interno",
     metaDescription: "iPhone caiu na água ou no mar em Salvador? Desoxidação urgente na Boca do Rio. NÃO coloque no arroz! Traga imediatamente para avaliação gratuita.",
     category: "iphone" as Category,
@@ -268,7 +268,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "conector-carga-iphone-limpeza-troca-salvador",
-    title: "Conector de Carga iPhone com Mau Contato? Salvador | conserto Avançado",
+    title: "Mau Contato no Carregador? Limpeza de Conector em Salvador",
     h1: "Conector de Carga do iPhone com Mau Contato? Limpeza Técnica vs Troca de Componente",
     metaDescription: "Conector de carga do iPhone com mau contato em Salvador? Saiba quando é limpeza e quando precisa trocar. avaliação gratuita na Boca do Rio!",
     category: "iphone" as Category,
@@ -305,7 +305,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "vidro-traseiro-iphone-reparo-laser-salvador",
-    title: "Vidro Traseiro iPhone Quebrado? conserto a Laser em Salvador | conserto Avançado",
+    title: "Vidro Traseiro iPhone Quebrado? conserto a Laser em Salvador? Diagnóstico em Salvador",
     h1: "Vidro Traseiro de iPhone Quebrado? Conheça o conserto a Laser da conserto Avançado",
     metaDescription: "Vidro traseiro do iPhone quebrado? Na conserto Avançado em Salvador fazemos a remoção a laser e troca com acabamento de fábrica. Boca do Rio.",
     category: "iphone" as Category,
@@ -412,7 +412,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "wifi-bluetooth-iphone-chip-radio-salvador",
-    title: "Wi-Fi e Bluetooth do iPhone Não Ativam? Chip de Rádio | Salvador",
+    title: "Wi-Fi do Celular Não Liga (Ficou Cinza)? Conserto de Placa",
     h1: "Wi-Fi e Bluetooth do iPhone Não Ativam? Entenda o Defeito no Chip de Rádio",
     metaDescription: "Wi-Fi ou Bluetooth do iPhone não liga? Pode ser o chip de rádio. conserto de circuito integrado focado em Salvador (Boca do Rio). avaliação grátis!",
     category: "iphone" as Category,
@@ -527,7 +527,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "tela-samsung-mancha-verde-linhas-salvador",
-    title: "Tela Samsung com Mancha Verde ou Linhas? Quando Trocar | Salvador",
+    title: "Tela Verde no Celular após Atualização? O Que Fazer",
     h1: "Tela Samsung com Mancha Verde ou Linhas? Saiba Quando a Troca do Display é Necessária",
     metaDescription: "Tela Samsung com mancha verde, linhas ou pixels mortos? avaliação gratuita para saber se precisa trocar. conserto Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
@@ -564,7 +564,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "xiaomi-poco-reiniciando-sozinho-salvador",
-    title: "Xiaomi e Poco Reiniciando Sozinho? Bateria ou sistema operacional | Salvador",
+    title: "Celular Reiniciando Sozinho? Entenda a Causa do Loop",
     h1: "Xiaomi e Poco Reiniciando Sozinho? O Problema Pode Estar na Bateria ou no sistema operacional",
     metaDescription: "Xiaomi ou Poco reiniciando sozinho? avaliação gratuita para identificar se é bateria, sistema operacional ou circuito interno. conserto Avançado - Boca do Rio, Salvador.",
     category: "xiaomi" as Category,
@@ -601,7 +601,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "erro-umidade-samsung-conector-salvador",
-    title: "Erro de Umidade Samsung: Como Resolver Sem Trocar Conector | Salvador",
+    title: "Mau Contato no Carregador? Limpeza de Conector em Salvador",
     h1: "Erro de Umidade no Samsung: Como Resolvemos Sem Precisar Trocar o Conector",
     metaDescription: "Samsung mostrando erro de umidade? Na maioria dos casos resolvemos sem trocar peça! conserto Avançado - Boca do Rio, Salvador. avaliação gratuita.",
     category: "samsung" as Category,
@@ -637,7 +637,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "loja-realme-poco-salvador-pecas",
-    title: "oficina de conserto de celular Realme e Poco em Salvador | conserto Avançado",
+    title: "oficina de conserto de celular Realme e Poco em Salvador? Diagnóstico em Salvador",
     h1: "oficina de conserto de celular Realme e Poco em Salvador: Onde Encontrar Peças de Qualidade",
     metaDescription: "oficina de conserto de celular focada em Realme e Poco em Salvador. Peças de alta performance e profissionals qualificados. Boca do Rio. Orçamento gratuito!",
     category: "realme" as Category,
@@ -672,7 +672,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "motorola-nao-carrega-avaliacao-salvador",
-    title: "Motorola Não Carrega? avaliação de Porta e Energia | Salvador",
+    title: "Celular Não Carrega? Defeito no Conector ou Bateria?",
     h1: "Motorola Não Carrega? avaliação de Porta de Carga e Gerenciador de Energia",
     metaDescription: "Motorola não carrega? Pode ser a porta USB ou o gerenciador de energia no circuito interno. avaliação gratuita na Boca do Rio, Salvador. conserto Avançado.",
     category: "motorola" as Category,
@@ -709,7 +709,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "biometria-tela-parou-troca-amoled-salvador",
-    title: "Biometria Parou Após Troca de Tela? AMOLED Alta Performance | Salvador",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Biometria na Tela Parou Após a Troca? A Importância de Telas AMOLED de Alta Performance",
     metaDescription: "Leitor de digital na tela parou após trocar a tela? A qualidade do display AMOLED é crucial. conserto Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
@@ -745,7 +745,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "recuperacao-conta-google-micloud-salvador",
-    title: "restauração de Conta Google e Mi Cloud em Salvador | conserto Avançado",
+    title: "restauração de Conta Google e Mi Cloud em Salvador? Diagnóstico em Salvador",
     h1: "restauração de Conta Google e Mi Cloud: conserto presencial Para Softwares Travados",
     metaDescription: "Celular travado na conta Google (FRP) ou Mi Cloud? conserto presencial focado em Salvador. conserto Avançado - Boca do Rio.",
     category: "xiaomi" as Category,
@@ -781,7 +781,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "troca-vidro-vs-tela-completa-economia-salvador",
-    title: "Troca de Vidro vs Tela Completa: Quando Economizar | Salvador",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Vidro vs Troca de Tela Completa: Quando Você Pode Economizar no Conserto",
     metaDescription: "Vidro do celular quebrado? Saiba quando pode trocar só o vidro e quando precisa trocar a tela completa. conserto Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
@@ -820,7 +820,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "limpeza-tecnica-celular-sexta-feira-salvador",
-    title: "Limpeza Técnica de Celular: Nossa Rotina de Sexta-Feira | Salvador",
+    title: "Limpeza Técnica de Celular: Nossa Rotina de Sexta-Feira? Diagnóstico em Salvador",
     h1: "Limpeza Técnica de Celular: Por Que Fazemos Isso Toda Sexta-Feira na conserto Avançado",
     metaDescription: "Na conserto Avançado, toda sexta-feira é dia de limpeza técnica! Saiba por que esse ritual melhora a vida útil do seu celular. Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -856,7 +856,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "celular-esquentando-limpeza-interna-salvador",
-    title: "Celular Esquentando Muito? Limpeza Interna Evita Queima | Salvador",
+    title: "Celular Esquentando Muito? Limpeza Interna Evita Queima? Diagnóstico em Salvador",
     h1: "Celular Esquentando Muito? Como a Limpeza Interna Evita a Queima do circuito interno",
     metaDescription: "Celular esquentando demais? A limpeza interna pode evitar danos graves à circuito interno. avaliação gratuita na Boca do Rio, Salvador. conserto Avançado.",
     category: "iphone" as Category,
@@ -893,7 +893,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "microfone-ruim-ligacoes-poeira-salvador",
-    title: "Microfone Ruim nas Ligações? Poeira é a Vilã | Salvador",
+    title: "Áudio do WhatsApp Mudo ou Baixo? Conserto de Microfone",
     h1: "Microfone Ruim nas Ligações? Veja Como a Poeira é a Maior Inimiga do Seu Áudio",
     metaDescription: "Ninguém te ouve nas ligações? A poeira no microfone pode ser a causa! Higienização profissional na Boca do Rio, Salvador. conserto Avançado.",
     category: "iphone" as Category,
@@ -929,7 +929,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "higienizacao-conector-cabo-carregar-salvador",
-    title: "Higienização de Conector: Fim do Jeitinho Para Carregar | Salvador",
+    title: "Celular Não Carrega? Defeito no Conector ou Bateria?",
     h1: "Higienização de Conector: O Fim do 'Jeitinho' Para o Cabo Carregar",
     metaDescription: "Precisa fazer 'jeitinho' para o cabo carregar? A limpeza do conector resolve em 80% dos casos! conserto Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -964,7 +964,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "checklist-manutencao-preventiva-salvador",
-    title: "Checklist de conserto Preventiva de Celular | Salvador",
+    title: "Checklist de conserto Preventiva de Celular? Diagnóstico em Salvador",
     h1: "Checklist de conserto Preventiva: O Que Verificamos no Seu Aparelho",
     metaDescription: "Conheça nosso checklist de conserto preventiva de celular com 15 pontos de verificação. conserto Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -999,7 +999,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "poeira-lente-camera-limpeza-interna-salvador",
-    title: "Poeira na Lente da Câmera? Limpeza Interna Devolve a Nitidez | Salvador",
+    title: "Câmera do Celular Embaçada ou Tremendo? Como Consertar",
     h1: "Poeira na Lente da Câmera? Como a Limpeza Interna Devolve a Nitidez às Suas Fotos",
     metaDescription: "Fotos embaçadas ou com pontos? Pode ser poeira dentro da lente da câmera. Limpeza interna profissional na Boca do Rio, Salvador. conserto Avançado.",
     category: "iphone" as Category,
@@ -1034,7 +1034,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "vedacao-celular-protecao-agua-tempo-salvador",
-    title: "Vedação de Celular: Por Que Perde Proteção Contra Água | Salvador",
+    title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "Vedação de Celular: Por Que Seu Aparelho Perde a Proteção Contra Água com o Tempo",
     metaDescription: "Sabia que a vedação do celular se degrada? Entenda por que e como manter a proteção contra água. conserto Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -1070,7 +1070,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "cuidados-maresia-orla-salvador-limpeza",
-    title: "Cuidados com a Maresia: Limpeza Para Quem Mora na Orla | Salvador",
+    title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "Cuidados com a Maresia: Por Que Quem Mora na Orla de Salvador Precisa de Limpeza Técnica",
     metaDescription: "Mora na orla de Salvador? A maresia corrói seu celular por dentro! Limpeza técnica focada na Boca do Rio. conserto Avançado.",
     category: "iphone" as Category,
@@ -1105,7 +1105,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "mitos-verdades-celular-no-arroz-salvador",
-    title: "Mitos e Verdades: Celular no Arroz Funciona? | Salvador",
+    title: "Mitos e Verdades: Celular no Arroz Funciona?? Diagnóstico em Salvador",
     h1: "Mitos e Verdades: Colocar o Celular no Arroz Realmente Funciona?",
     metaDescription: "Celular molhado no arroz funciona? Desmistificamos esse e outros mitos sobre conserto. conserto Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -1138,7 +1138,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "reparo-avancado-melhor-avaliacao-boca-do-rio",
-    title: "Por Que Somos a Melhor Avaliação da Boca do Rio | conserto Avançado",
+    title: "Por Que Somos a Melhor Avaliação da Boca do Rio? Diagnóstico em Salvador",
     h1: "Por Que a conserto Avançado é a Melhor Avaliação da Boca do Rio? Nossos Processos profissionals",
     metaDescription: "5 estrelas no Google com 31+ avaliações! Conheça os processos profissionals que fazem da conserto Avançado a melhor oficina da Boca do Rio, Salvador.",
     category: "iphone" as Category,
@@ -1767,7 +1767,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "troca-de-tela-celular-salvador-original",
-    title: "Troca de Tela de Celular Salvador | Original vs Paralela | Reparo Avançado",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Tela de Celular em Salvador: Qual a Diferença entre Original, Incell e Primeira Linha?",
     metaDescription: "Precisa trocar a tela do celular em Salvador (Boca do Rio)? Entenda as diferenças entre tela original, OLED, AMOLED e Incell antes de consertar. Orçamento rápido!",
     category: "outros" as Category,
@@ -1825,7 +1825,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "reparo-placa-celular-salvador-vale-a-pena",
-    title: "Reparo em Placa de Celular Salvador | Vale a Pena? | Reparo Avançado",
+    title: "Problema na Placa do Celular? Conserto Avançado em Salvador",
     h1: "Reparo em Placa de Celular em Salvador: Quando Realmente Vale a Pena Consertar?",
     metaDescription: "Seu celular 'morreu' e a autorizada condenou a placa? Calma! O reparo em placa de celular em Salvador via micro-soldagem pode salvar seu aparelho e seus dados.",
     category: "outros" as Category,
@@ -1880,7 +1880,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "celular-caiu-na-agua-desoxidacao-salvador",
-    title: "Celular Caiu na Água Salvador | O que Fazer? | Reparo Avançado",
+    title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "Celular Caiu na Água: O Que Fazer e O Que NUNCA Fazer Antes da Desoxidação",
     metaDescription: "Seu celular molhou em Salvador? Praia, piscina ou vaso? Pare tudo! Descubra os mitos perigosos e os serviços de desoxidação profissional que salvam seu aparelho.",
     category: "outros" as Category,
@@ -1940,7 +1940,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "celular-nao-liga-motivos-salvador",
-    title: "Celular Não Liga? Conheça as Principais Causas | Reparo Avançado Salvador",
+    title: "Celular Não Liga ou Travou na Maçã? Avaliação Grátis",
     h1: "Meu Celular Não Liga Mais: Tela Preta, Morto ou Apenas Descarregado?",
     metaDescription: "Celular apagou e não liga mais? Veja os testes de emergência que você pode fazer em casa e quando é hora de trazer na nossa assistência na Boca do Rio, Salvador.",
     category: "outros" as Category,
@@ -1989,7 +1989,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "assistencia-tecnica-iphone-salvador-especializada",
-    title: "Assistência Técnica iPhone Salvador | Especialista Apple | Reparo Avançado",
+    title: "Assistência Técnica iPhone Salvador? Diagnóstico em Salvador",
     h1: "Assistência Técnica Especializada em iPhone em Salvador: Do Vidro à Placa",
     metaDescription: "Conserto de iPhone em Salvador com ferramentas profissionais e peças Premium. Troca de bateria (sem erro de peça), tela original, Face ID e reparo em placa. Confira!",
     category: "iphone" as Category,
@@ -2038,7 +2038,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "assistencia-tecnica-samsung-salvador-autorizada",
-    title: "Assistência Técnica Samsung Salvador | Linha S e A | Reparo Avançado",
+    title: "Assistência Técnica Samsung Salvador? Diagnóstico em Salvador",
     h1: "Assistência Técnica Especializada em Samsung Galaxy em Salvador",
     metaDescription: "Conserto especializado de Samsung Linha S, A e Note em Salvador (Boca do Rio). Troca de tela AMOLED, vidro com cola UV e reparo de placa-mãe com garantia.",
     category: "samsung" as Category,
@@ -2090,7 +2090,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "assistencia-tecnica-xiaomi-salvador-conserto",
-    title: "Assistência Técnica Xiaomi Salvador | Conserto Especializado Poco e Redmi",
+    title: "Assistência Técnica Xiaomi Salvador? Diagnóstico em Salvador",
     h1: "Assistência Técnica Especializada em Xiaomi, Poco e Redmi em Salvador",
     metaDescription: "Conserto de celulares Xiaomi, linha Poco e Redmi em Salvador (Boca do Rio). Resolvemos falhas crônicas de Poco X3, placa morta, reballing de CPU e telas originais.",
     category: "outros" as Category,
@@ -2139,7 +2139,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "troca-vidro-ou-tela-completa-celular-diferenca",
-    title: "Troca de Vidro vs Troca de Tela Completa: Qual a Diferença? | Salvador",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Vidro ou Tela Completa? Entenda a Diferença e Economize Dinheiro",
     metaDescription: "Celular caiu e trincou a tela? Descubra em Salvador se você precisa pagar caro pela tela completa ou se pode pagar apenas 30% do valor fazendo a troca só do vidro externo.",
     category: "outros" as Category,
@@ -2236,7 +2236,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "celular-esquentando-descarregando-rapido-bateria",
-    title: "Celular Esquentando Muito e Descarregando Rápido: O Que Fazer? | Salvador",
+    title: "Bateria do Celular Viciada? Como Resolver em Salvador",
     h1: "Celular Esquentando Muito e Descarregando Rápido: Descubra os Riscos e as Soluções",
     metaDescription: "Seu celular parece um ferro de passar roupas quente e descarrega absurdamente rápido? Evite explosões ou queimas de placa! Saiba o que analisar na assistência técnica.",
     category: "outros" as Category,
@@ -2285,7 +2285,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "conserto-botao-power-volume-celular-salvador",
-    title: "Conserto de Botão Power e Volume do Celular em Salvador | Reparo Rápido",
+    title: "Conserto de Botão Power e Volume do Celular em Salvador? Diagnóstico em Salvador",
     h1: "Botão Power ou Volume Quebrado? Conserto Rápido e Barato na Boca do Rio",
     metaDescription: "Celular afundou o botão de ligar ou o volume não funciona? Fazemos a troca do flex power e botões físicos de iPhone, Samsung, Xiaomi e Motorola em Salvador.",
     category: "outros" as Category,
@@ -2329,7 +2329,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "onde-consertar-celular-boca-do-rio-salvador",
-    title: "Onde Consertar Celular na Boca do Rio em Salvador? | Reparo Avançado",
+    title: "Onde Consertar Celular na Boca do Rio em Salvador?? Diagnóstico em Salvador",
     h1: "Procurando Conserto de Celular de Confiança na Boca do Rio, Salvador?",
     metaDescription: "A Reparo Avançado é a sua assistência técnica de referência na Boca do Rio, Salvador. Especialistas em laboratório avançado, conserto de telas, baterias e placas.",
     category: "outros" as Category,
@@ -2375,7 +2375,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════════════
   {
     slug: "troca-de-tela-iphone-15-pro-max-salvador",
-    title: "Troca de Tela iPhone 15 Pro Max Salvador | Display Original OLED",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Tela iPhone 15 Pro Max em Salvador: Display OLED com True Tone",
     metaDescription: "Quebrou a tela do iPhone 15 Pro Max? Troca de display OLED original em Salvador (Boca do Rio) com preservação do True Tone e Face ID. Garantia e orçamento grátis!",
     category: "iphone" as Category,
@@ -2419,7 +2419,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "tela-samsung-galaxy-s24-ultra-troca-salvador",
-    title: "Troca de Tela Samsung Galaxy S24 Ultra Salvador | AMOLED Original",
+    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Tela Samsung Galaxy S24 Ultra em Salvador: Display Dynamic AMOLED 2X",
     metaDescription: "Tela do Galaxy S24 Ultra quebrou? Troca de display Dynamic AMOLED 2X em Salvador com biometria ultrassônica preservada. Laboratório especializado na Boca do Rio.",
     category: "samsung" as Category,
@@ -2462,7 +2462,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "troca-bateria-samsung-galaxy-salvador",
-    title: "Troca de Bateria Samsung Galaxy Salvador | Linha S, A e M",
+    title: "Bateria do Celular Viciada? Como Resolver em Salvador",
     h1: "Troca de Bateria Samsung Galaxy em Salvador: Linha S, A e M com Garantia",
     metaDescription: "Bateria do Samsung Galaxy durando poucas horas? Troca profissional em Salvador com vedação original refeita. Galaxy S, A e M. Orçamento grátis pelo WhatsApp!",
     category: "samsung" as Category,
@@ -2506,7 +2506,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "conserto-motorola-moto-g-edge-salvador",
-    title: "Assistência Técnica Motorola Salvador | Moto G e Edge | Reparo Avançado",
+    title: "Assistência Técnica Motorola Salvador? Diagnóstico em Salvador",
     h1: "Conserto de Motorola Moto G e Edge em Salvador: Tela, Bateria e Placa",
     metaDescription: "Conserto especializado de Motorola Moto G, Edge e One em Salvador. Troca de tela IPS/OLED, bateria, conector e reparo de placa. Boca do Rio. Orçamento grátis!",
     category: "outros" as Category,
@@ -2594,7 +2594,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "conserto-celular-pituba-imbui-costa-azul",
-    title: "Conserto de Celular Pituba, Imbuí e Costa Azul | Reparo Avançado Salvador",
+    title: "Conserto de Celular Pituba, Imbuí e Costa Azul? Diagnóstico em Salvador",
     h1: "Conserto de Celular na Pituba, Imbuí e Costa Azul: A 5 Minutos de Você",
     metaDescription: "Mora na Pituba, Imbuí ou Costa Azul? Sua assistência técnica de celulares de confiança está a 5 minutos, na Boca do Rio. iPhone, Samsung, Xiaomi. Orçamento grátis!",
     category: "outros" as Category,
@@ -2681,7 +2681,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "troca-conector-carga-usb-c-celular-salvador",
-    title: "Troca de Conector de Carga USB-C em Salvador | Celular Não Carrega",
+    title: "Mau Contato no Carregador? Limpeza de Conector em Salvador",
     h1: "Conector de Carga USB-C Quebrado ou Solto? Troca Profissional em Salvador",
     metaDescription: "Celular não carrega direito, precisa mexer no cabo ou o conector está mole? Troca profissional do conector USB-C e Lightning na Boca do Rio. Orçamento grátis!",
     category: "outros" as Category,
@@ -2725,7 +2725,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "iphone-14-pro-max-conserto-salvador",
-    title: "Conserto iPhone 14 Pro Max Salvador | Tela, Bateria e Câmera",
+    title: "Conserto iPhone 14 Pro Max Salvador? Diagnóstico em Salvador",
     h1: "Conserto Especializado do iPhone 14 Pro Max em Salvador",
     metaDescription: "Conserto de iPhone 14 Pro Max em Salvador. Tela OLED, bateria com saúde 100%, câmera de 48MP e reparo de placa. Laboratório na Boca do Rio. Garantia!",
     category: "iphone" as Category,
@@ -2768,7 +2768,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "assistencia-tecnica-realme-salvador",
-    title: "Assistência Técnica Realme Salvador | Conserto Especializado | Reparo Avançado",
+    title: "Assistência Técnica Realme Salvador? Diagnóstico em Salvador",
     h1: "Assistência Técnica Realme em Salvador: Conserto de Tela, Bateria e Placa",
     metaDescription: "Conserto de celulares Realme em Salvador. Troca de tela, bateria, conector e reparo de placa para toda a linha Realme. Poucos especialistas na cidade. Orçamento grátis!",
     category: "outros" as Category,
