@@ -63,14 +63,14 @@ strategicLocals.forEach((local) => {
   </url>`);
 });
 
-// 4. Programmatic SEO Pages (The Neighborhood Generator)
+// 4. Programmatic SEO Pages (The Macro-Region Generator)
 const programmaticUrls: string[] = [];
-import { bairros, servicosLocais } from "../src/data/locaisData";
+import { macroRegioes, servicosLocais } from "../src/data/locaisData";
 
 servicosLocais.forEach((servico) => {
-  bairros.forEach((bairro) => {
+  macroRegioes.forEach((macro) => {
     programmaticUrls.push(`  <url>
-    <loc>${DOMAIN}/conserto/${servico.slug}/em/${bairro.slug}</loc>
+    <loc>${DOMAIN}/conserto/${servico.slug}/na/${macro.slug}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -136,12 +136,22 @@ redirectLines.push(
   "/blog/pasta-termica-* /conserto-de-celular 301",
   "/blog/dobradicas-* /conserto-de-celular 301",
   "",
-  "# 3. Redirecionamentos 301 de Rotas de Atendimento Locais Obsoletas",
-  "/atendimento/boca-do-rio/* /assistencia-tecnica-boca-do-rio 301",
-  "/atendimento/pituba/* /assistencia-tecnica-pituba 301",
-  "/atendimento/imbui/* /assistencia-tecnica-imbui 301",
-  "/atendimento/brotas/* /assistencia-tecnica-brotas 301",
-  "/atendimento/* /assistencia-tecnica-salvador 301",
+  "# 3. Redirecionamentos 301 de Rotas Locais (Macro-Regiões)",
+);
+
+macroRegioes.forEach(macro => {
+  macro.oldSlugs.forEach(bairro => {
+    // Redirects for `/assistencia-tecnica-:bairro` -> `/assistencia-tecnica-:macro`
+    redirectLines.push(`/assistencia-tecnica-${bairro} /assistencia-tecnica-${macro.slug} 301`);
+    
+    // Redirects for `/conserto/:servico/em/:bairro` -> `/conserto/:servico/na/:macro`
+    servicosLocais.forEach(servico => {
+      redirectLines.push(`/conserto/${servico.slug}/em/${bairro} /conserto/${servico.slug}/na/${macro.slug} 301`);
+    });
+  });
+});
+
+redirectLines.push(
   "",
   "# 4. SPA Fallback (Catch-all para o React Router)",
   "/* /index.html 200"

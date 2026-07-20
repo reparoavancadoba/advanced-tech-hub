@@ -108,13 +108,15 @@ allPosts.forEach(post => {
   generatePage(urlPath, title, description, h1, fullContent, '');
 });
 
-// 2. Gerar Páginas de Bairros (LocalConsolidado)
-bairros.forEach(local => {
-  const urlPath = `/assistencia-tecnica-${local.slug}`;
-  const title = `Assistência Técnica de Celular em ${local.name} | Reparo Avançado`;
-  const description = `Precisando consertar celular em ${local.name}, Salvador? A Reparo Avançado oferece diagnóstico grátis e conserto na hora.`;
-  const h1 = `Assistência Técnica em ${local.name}`;
-  const contentHtml = `<p>Atendemos rapidamente na região de ${local.name}. Serviços de troca de tela, bateria, e reparo em placa.</p>`;
+// 2. Gerar Páginas de Bairros (LocalConsolidado) - Agora Macro Regiões
+import { macroRegioes } from '../src/data/locaisData';
+
+macroRegioes.forEach(macro => {
+  const urlPath = `/assistencia-tecnica-${macro.slug}`;
+  const title = `Assistência Técnica de Celular na ${macro.name} | Reparo Avançado`;
+  const description = `Precisando consertar celular na região da ${macro.name}, Salvador? A Reparo Avançado oferece diagnóstico grátis e conserto na hora.`;
+  const h1 = `Assistência Técnica na ${macro.name}`;
+  const contentHtml = `<p>Atendemos rapidamente em toda a região, cobrindo especificamente os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>. Serviços de troca de tela, bateria, e reparo em placa.</p>`;
   generatePage(urlPath, title, description, h1, contentHtml);
 });
 
@@ -127,14 +129,14 @@ allConsolidatedServices.forEach(servico => {
   generatePage(urlPath, title, description, h1, contentHtml);
 });
 
-// 4. Gerar Páginas Programáticas (Bairro + Serviço)
+// 4. Gerar Páginas Programáticas (Bairro + Serviço) - Agora Macro Regiões
 allConsolidatedServices.forEach(servico => {
-  bairros.forEach(bairro => {
-    const urlPath = `/conserto/${servico.slug}/em/${bairro.slug}`;
-    const title = `${servico.h1} em ${bairro.name} | Na Hora & Garantia`;
-    const description = `Precisando de ${servico.h1.toLowerCase()} em ${bairro.name}, Salvador? Conte com a Reparo Avançado. Avaliação gratuita!`;
-    const h1 = `${servico.h1} em ${bairro.name}`;
-    const contentHtml = `<p>Oferecemos o serviço de ${servico.h1.toLowerCase()} diretamente para moradores e trabalhadores do bairro ${bairro.name}.</p>`;
+  macroRegioes.forEach(macro => {
+    const urlPath = `/conserto/${servico.slug}/na/${macro.slug}`;
+    const title = `${servico.h1} na ${macro.name} | Na Hora & Garantia`;
+    const description = `Precisando de ${servico.h1.toLowerCase()} na região da ${macro.name}, Salvador? Conte com a Reparo Avançado. Avaliação gratuita!`;
+    const h1 = `${servico.h1} na ${macro.name}`;
+    const contentHtml = `<p>Oferecemos o serviço de ${servico.h1.toLowerCase()} com atendimento dedicado para moradores e trabalhadores de toda a região, incluindo os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>.</p>`;
     generatePage(urlPath, title, description, h1, contentHtml);
   });
 });

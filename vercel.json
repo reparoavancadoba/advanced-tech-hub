@@ -111,23 +111,63 @@
       "permanent": true
     },
     {
-      "source": "/atendimento/boca-do-rio/:servico*",
-      "destination": "/assistencia-tecnica-boca-do-rio",
+      "source": "/conserto/:servico/em/:bairro(boca-do-rio|pituba|itaigara|costa-azul|caminho-das-arvores|jardim-armacao|patamares|imbui|stiep)",
+      "destination": "/conserto/:servico/na/boca-do-rio-e-orla",
       "permanent": true
     },
     {
-      "source": "/atendimento/pituba/:servico*",
-      "destination": "/assistencia-tecnica-pituba",
+      "source": "/conserto/:servico/em/:bairro(iguatemi|paralela|brotas|cabula|pernambues|sao-rafael|tancredo-neves)",
+      "destination": "/conserto/:servico/na/miolo-e-centro-financeiro",
       "permanent": true
     },
     {
-      "source": "/atendimento/imbui/:servico*",
-      "destination": "/assistencia-tecnica-imbui",
+      "source": "/conserto/:servico/em/:bairro(barra|graca|vitoria|ondina|rio-vermelho|centro|naze|liberdade)",
+      "destination": "/conserto/:servico/na/centro-e-sul",
       "permanent": true
     },
     {
-      "source": "/atendimento/brotas/:servico*",
-      "destination": "/assistencia-tecnica-brotas",
+      "source": "/conserto/:servico/em/:bairro(piata|itapua|stella-maris|sao-cristovao|mussurunga)",
+      "destination": "/conserto/:servico/na/orla-norte-e-aeroporto",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/em/:bairro(cajazeiras|pau-da-lima)",
+      "destination": "/conserto/:servico/na/cajazeiras-e-regiao",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/em/:bairro(lauro-de-freitas|vilas-do-atlantico)",
+      "destination": "/conserto/:servico/na/regiao-metropolitana",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(boca-do-rio|pituba|itaigara|costa-azul|caminho-das-arvores|jardim-armacao|patamares|imbui|stiep)",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(iguatemi|paralela|brotas|cabula|pernambues|sao-rafael|tancredo-neves)",
+      "destination": "/assistencia-tecnica-miolo-e-centro-financeiro",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(barra|graca|vitoria|ondina|rio-vermelho|centro|naze|liberdade)",
+      "destination": "/assistencia-tecnica-centro-e-sul",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(piata|itapua|stella-maris|sao-cristovao|mussurunga)",
+      "destination": "/assistencia-tecnica-orla-norte-e-aeroporto",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(cajazeiras|pau-da-lima)",
+      "destination": "/assistencia-tecnica-cajazeiras-e-regiao",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(lauro-de-freitas|vilas-do-atlantico)",
+      "destination": "/assistencia-tecnica-regiao-metropolitana",
       "permanent": true
     },
     {

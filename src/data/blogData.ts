@@ -2,7 +2,8 @@
 
 export const WHATSAPP_NUMBER = "5571991981437";
 export const BUSINESS_ADDRESS = "R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710";
-export const BAIRROS = ["Boca do Rio", "Pituba", "Imbuí", "Costa Azul", "Stiep", "Patamares", "Jardim Armação"];
+import { macroRegioes } from "./locaisData";
+export const BAIRROS = macroRegioes.map(m => m.name);
 
 export type Category = "iphone" | "samsung" | "xiaomi" | "realme" | "motorola" | "notebooks" | "conserto";
 

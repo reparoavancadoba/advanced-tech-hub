@@ -12,46 +12,60 @@ export interface ServicoLocal {
   description: string;
 }
 
-export const bairros: Bairro[] = [
-  // Orla / Área Nobre
-  { slug: "boca-do-rio", name: "Boca do Rio" },
-  { slug: "pituba", name: "Pituba" },
-  { slug: "itaigara", name: "Itaigara" },
-  { slug: "costa-azul", name: "Costa Azul" },
-  { slug: "caminho-das-arvores", name: "Caminho das Árvores" },
-  { slug: "rio-vermelho", name: "Rio Vermelho" },
-  { slug: "ondina", name: "Ondina" },
-  { slug: "barra", name: "Barra" },
-  { slug: "graca", name: "Graça" },
-  { slug: "vitoria", name: "Vitória" },
-  { slug: "jardim-armacao", name: "Jardim Armação" },
-  { slug: "piata", name: "Piatã" },
-  { slug: "itapua", name: "Itapuã" },
-  { slug: "stella-maris", name: "Stella Maris" },
-  { slug: "patamares", name: "Patamares" },
+export interface MacroRegiao {
+  slug: string;
+  name: string;
+  bairrosInternos: string[];
+  oldSlugs: string[]; // Usado apenas para gerar redirects automatizados, se necessário
+}
 
-  // Miolo / Centro Financeiro
-  { slug: "imbui", name: "Imbuí" },
-  { slug: "stiep", name: "Stiep" },
-  { slug: "iguatemi", name: "Iguatemi" },
-  { slug: "paralela", name: "Paralela" },
-  { slug: "brotas", name: "Brotas" },
-  { slug: "cabula", name: "Cabula" },
-  { slug: "pernambues", name: "Pernambués" },
-  { slug: "sao-rafael", name: "São Rafael" },
-  { slug: "tancredo-neves", name: "Tancredo Neves" },
-
-  // Centro e Cidades Vizinhas
-  { slug: "centro", name: "Centro" },
-  { slug: "naze", name: "Nazaré" },
-  { slug: "liberdade", name: "Liberdade" },
-  { slug: "cajazeiras", name: "Cajazeiras" },
-  { slug: "mussurunga", name: "Mussurunga" },
-  { slug: "sao-cristovao", name: "São Cristóvão" },
-  { slug: "pau-da-lima", name: "Pau da Lima" },
-  { slug: "vilas-do-atlantico", name: "Vilas do Atlântico" },
-  { slug: "lauro-de-freitas", name: "Lauro de Freitas" },
+export const macroRegioes: MacroRegiao[] = [
+  {
+    slug: "boca-do-rio-e-orla",
+    name: "Boca do Rio e Orla",
+    bairrosInternos: ["Boca do Rio", "Pituba", "Itaigara", "Costa Azul", "Caminho das Árvores", "Jardim Armação", "Patamares", "Imbuí", "Stiep"],
+    oldSlugs: ["boca-do-rio", "pituba", "itaigara", "costa-azul", "caminho-das-arvores", "jardim-armacao", "patamares", "imbui", "stiep"]
+  },
+  {
+    slug: "miolo-e-centro-financeiro",
+    name: "Miolo e Centro Financeiro",
+    bairrosInternos: ["Iguatemi", "Paralela", "Brotas", "Cabula", "Pernambués", "São Rafael", "Tancredo Neves"],
+    oldSlugs: ["iguatemi", "paralela", "brotas", "cabula", "pernambues", "sao-rafael", "tancredo-neves"]
+  },
+  {
+    slug: "centro-e-sul",
+    name: "Centro e Sul",
+    bairrosInternos: ["Barra", "Graça", "Vitória", "Ondina", "Rio Vermelho", "Centro", "Nazaré", "Liberdade"],
+    oldSlugs: ["barra", "graca", "vitoria", "ondina", "rio-vermelho", "centro", "naze", "liberdade"]
+  },
+  {
+    slug: "orla-norte-e-aeroporto",
+    name: "Orla Norte e Aeroporto",
+    bairrosInternos: ["Piatã", "Itapuã", "Stella Maris", "São Cristóvão", "Mussurunga"],
+    oldSlugs: ["piata", "itapua", "stella-maris", "sao-cristovao", "mussurunga"]
+  },
+  {
+    slug: "cajazeiras-e-regiao",
+    name: "Cajazeiras e Região",
+    bairrosInternos: ["Cajazeiras", "Pau da Lima"],
+    oldSlugs: ["cajazeiras", "pau-da-lima"]
+  },
+  {
+    slug: "regiao-metropolitana",
+    name: "Região Metropolitana",
+    bairrosInternos: ["Lauro de Freitas", "Vilas do Atlântico"],
+    oldSlugs: ["lauro-de-freitas", "vilas-do-atlantico"]
+  }
 ];
+
+// O array antigo "bairros" foi depreciado para evitar páginas de conteúdo fino.
+// Em caso de quebra de componentes legados que ainda precisem do array simples:
+export const bairros: Bairro[] = macroRegioes.flatMap(macro => 
+  macro.bairrosInternos.map((nome, index) => ({
+    name: nome,
+    slug: macro.oldSlugs[index]
+  }))
+);
 
 export const servicosLocais: ServicoLocal[] = [
   {
