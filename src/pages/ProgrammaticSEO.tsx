@@ -2,12 +2,12 @@ import { useParams, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, ShieldCheck, Zap, Wrench, MapPin, CheckCircle2, Clock, Star, ArrowRight, HelpCircle } from "lucide-react";
 import SiteLayout from "@/components/SiteLayout";
-import { bairros, servicosLocais, buildWhatsappLink } from "@/data/locaisData";
+import { bairros, macroRegioes, servicosLocais, buildWhatsappLink } from "@/data/locaisData";
 
 const ProgrammaticSEO = () => {
   const { servicoSlug, bairroSlug } = useParams();
   
-  const bairro = bairros.find((b) => b.slug === bairroSlug);
+  const bairro = bairros.find((b) => b.slug === bairroSlug) || macroRegioes.find((m) => m.slug === bairroSlug);
   const servico = servicosLocais.find((s) => s.slug === servicoSlug);
 
   if (!bairro || !servico) {
