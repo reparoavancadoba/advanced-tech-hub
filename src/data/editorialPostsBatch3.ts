@@ -106,9 +106,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "celular-xiaomi-nao-liga-o-que-fazer",
-    title: "Xiaomi Não Liga ou Ficou com Tela Preta? Tente Isso Agora!",
+    title: "Xiaomi Não Liga ou Apagou do Nada? Veja o Risco Real",
     h1: "Seu Xiaomi apagou e não liga mais? Passo a passo e causas comuns",
-    metaDescription: "Seu Poco ou Redmi apagou do nada e não liga mais? Aprenda o truque do reset antes do técnico e veja como a microeletrônica resolve a morte súbita.",
+    metaDescription: "Seu Poco ou Redmi apagou do nada e não liga mais? Entenda por que forçar o carregamento pode queimar a placa e saiba como confirmar o diagnóstico correto.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Todos",

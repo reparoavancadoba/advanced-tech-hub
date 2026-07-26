@@ -1767,9 +1767,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "troca-de-tela-celular-salvador-original",
-    title: "Troca de Tela de Celular: Original ou Incell? Entenda",
+    title: "Troca de Tela de Celular em Salvador: Rápido e com Garantia",
     h1: "Troca de Tela de Celular em Salvador: Qual a Diferença entre Original, Incell e Primeira Linha?",
-    metaDescription: "Precisa trocar a tela do celular? Entenda a diferença entre tela original, OLED e Incell. Evite surpresas no conserto. Orçamento gratuito e rápido!",
+    metaDescription: "Precisa trocar a tela do celular em Salvador? Especialistas em peças premium com instalação rápida. Consulte as opções e faça um orçamento gratuito!",
     category: "outros" as Category,
     brand: "Diversas",
     model: "Smartphones",
