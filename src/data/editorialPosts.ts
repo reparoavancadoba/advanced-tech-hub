@@ -1767,9 +1767,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "troca-de-tela-celular-salvador-original",
-    title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
+    title: "Troca de Tela de Celular: Original ou Incell? Entenda",
     h1: "Troca de Tela de Celular em Salvador: Qual a Diferença entre Original, Incell e Primeira Linha?",
-    metaDescription: "Precisa trocar a tela do celular em Salvador (Boca do Rio)? Entenda as diferenças entre tela original, OLED, AMOLED e Incell antes de consertar. Orçamento rápido!",
+    metaDescription: "Precisa trocar a tela do celular? Entenda a diferença entre tela original, OLED e Incell. Evite surpresas no conserto. Orçamento gratuito e rápido!",
     category: "outros" as Category,
     brand: "Diversas",
     model: "Smartphones",
@@ -1825,9 +1825,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   },
   {
     slug: "reparo-placa-celular-salvador-vale-a-pena",
-    title: "Problema na Placa do Celular? Conserto Avançado em Salvador",
+    title: "Celular Condenado? Veja se o Reparo de Placa Vale a Pena",
     h1: "Reparo em Placa de Celular em Salvador: Quando Realmente Vale a Pena Consertar?",
-    metaDescription: "Seu celular 'morreu' e a autorizada condenou a placa? Calma! O reparo em placa de celular em Salvador via micro-soldagem pode salvar seu aparelho e seus dados.",
+    metaDescription: "A autorizada disse que a placa do seu celular queimou? Especialistas em microeletrônica podem salvar seu aparelho e seus dados. Orçamento na hora.",
     category: "outros" as Category,
     brand: "Diversas",
     model: "Placa Lógica",

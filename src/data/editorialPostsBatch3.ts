@@ -3,9 +3,9 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch3: BlogPost[] = [
   {
     slug: "por-que-iphone-13-esquenta-muito",
-    title: "Por que o iPhone 13 esquenta muito e como resolver?",
+    title: "iPhone 13 Esquentando Muito? Veja o Perigo e Como Resolver",
     h1: "O que fazer quando o iPhone 13 esquenta muito? Causas e Solução Definitiva",
-    metaDescription: "Seu iPhone 13 está superaquecendo? Descubra os principais motivos, desde problemas de software até defeitos na placa e bateria, e como a Reparo Avançado em Salvador pode te ajudar.",
+    metaDescription: "Seu iPhone 13 está superaquecendo? O calor excessivo pode estufar a bateria e queimar a placa. Descubra os motivos e como resolver definitivamente.",
     category: "iphone",
     brand: "Apple",
     model: "iPhone 13",
@@ -57,9 +57,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "quanto-custa-trocar-tela-samsung-s23",
-    title: "Quanto custa trocar a tela do Samsung Galaxy S23?",
+    title: "Troca de Tela Samsung S23: Preços, Riscos e Onde Consertar",
     h1: "Troca de Tela Samsung Galaxy S23 em Salvador: Preços, Tipos e Cuidados",
-    metaDescription: "Deixou o S23 cair? Saiba quanto custa a troca de tela do Samsung Galaxy S23 em Salvador, a diferença das peças originais e onde consertar com garantia e rapidez.",
+    metaDescription: "Deixou o S23 cair e quebrou a tela? Saiba os valores da troca, a diferença das peças e o cuidado para não perder a biometria na hora do reparo.",
     category: "samsung",
     brand: "Samsung",
     model: "Galaxy S23",
@@ -106,9 +106,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "celular-xiaomi-nao-liga-o-que-fazer",
-    title: "Celular Xiaomi não liga: O que fazer antes da assistência?",
+    title: "Xiaomi Não Liga ou Ficou com Tela Preta? Tente Isso Agora!",
     h1: "Seu Xiaomi apagou e não liga mais? Passo a passo e causas comuns",
-    metaDescription: "Poco X3, Redmi Note e outros Xiaomis desligando do nada ou tela preta? Entenda o problema crônico de placa da Xiaomi e como a Reparo Avançado soluciona isso.",
+    metaDescription: "Seu Poco ou Redmi apagou do nada e não liga mais? Aprenda o truque do reset antes do técnico e veja como a microeletrônica resolve a morte súbita.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Todos",
@@ -301,9 +301,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "diferenca-tela-original-primeira-linha",
-    title: "Qual a diferença entre tela Original e Primeira Linha (Incell/OLED)?",
+    title: "Tela Original ou 1ª Linha? Descubra Antes de Ser Enganado",
     h1: "Tela Original vs. Tela Incell/OLED: O Guia Definitivo antes do Conserto",
-    metaDescription: "Vai trocar a tela do celular e a assistência ofereceu Incell, OLED, Premium e Nacional? Entenda de forma clara a diferença para não ser enganado.",
+    metaDescription: "Vai trocar a tela do celular? Entenda a diferença entre Incell, OLED e Original. Evite prejuízos e descubra qual tela vale a pena colocar no seu aparelho.",
     category: "conserto",
     brand: "Todas",
     model: "Todos",
