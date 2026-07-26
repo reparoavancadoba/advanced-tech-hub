@@ -56,9 +56,18 @@ const App = () => (
             <Route path="/assistencia-tecnica-pituba" element={<LocalConsolidado slug="pituba" />} />
             <Route path="/assistencia-tecnica-imbui" element={<LocalConsolidado slug="imbui" />} />
             <Route path="/assistencia-tecnica-brotas" element={<LocalConsolidado slug="brotas" />} />
+            
+            {/* Rotas de Macro Regiões */}
+            <Route path="/assistencia-tecnica-boca-do-rio-e-orla" element={<LocalConsolidado slug="boca-do-rio-e-orla" />} />
+            <Route path="/assistencia-tecnica-miolo-e-centro-financeiro" element={<LocalConsolidado slug="miolo-e-centro-financeiro" />} />
+            <Route path="/assistencia-tecnica-centro-e-sul" element={<LocalConsolidado slug="centro-e-sul" />} />
+            <Route path="/assistencia-tecnica-orla-norte-e-aeroporto" element={<LocalConsolidado slug="orla-norte-e-aeroporto" />} />
+            <Route path="/assistencia-tecnica-cajazeiras-e-regiao" element={<LocalConsolidado slug="cajazeiras-e-regiao" />} />
+            <Route path="/assistencia-tecnica-regiao-metropolitana" element={<LocalConsolidado slug="regiao-metropolitana" />} />
 
             {/* ROTA DE SEO PROGRAMÁTICO: GERADOR DE BAIRROS (O "Mata Leão" na Concorrência) */}
             <Route path="/conserto/:servicoSlug/em/:bairroSlug" element={<ProgrammaticSEO />} />
+            <Route path="/conserto/:servicoSlug/na/:bairroSlug" element={<ProgrammaticSEO />} />
 
             {/* Rota legado mantida para transição segura */}
             <Route path="/atendimento/:bairro/:servico" element={<Atendimento />} />

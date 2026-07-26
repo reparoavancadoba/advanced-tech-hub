@@ -120,7 +120,30 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   }
 };
 
+import { macroRegioes } from "./locaisData";
+
 export const listLocaisConsolidados = Object.values(locaisConsolidados);
+
+macroRegioes.forEach(macro => {
+  const data = {
+    slug: macro.slug,
+    path: `/assistencia-tecnica-${macro.slug}`,
+    name: macro.name,
+    title: `Assistência Técnica de Celular na ${macro.name} | Reparo Avançado`,
+    h1: `Assistência Técnica na ${macro.name}`,
+    metaDescription: `Precisando consertar celular na região da ${macro.name}, Salvador? A Reparo Avançado oferece diagnóstico grátis e conserto na hora.`,
+    description: `Atendemos rapidamente em toda a região, cobrindo especificamente os bairros: ${macro.bairrosInternos.join(', ')}. Serviços de troca de tela, bateria, e reparo em placa.`,
+    schema: {
+      ...baseSchema,
+      name: `Reparo Avançado - Assistência Técnica na ${macro.name}`,
+      addressLocality: "Salvador",
+      areaServed: macro.bairrosInternos
+    }
+  };
+  locaisConsolidados[macro.slug] = data;
+  listLocaisConsolidados.push(data);
+});
+
 export function getLocalConsolidadoBySlug(slug: string): LocalConsolidadoData | undefined {
   return locaisConsolidados[slug];
 }
