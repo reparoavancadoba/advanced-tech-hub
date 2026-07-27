@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Vim pelo site e gostaria de solicitar um orçamento.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const WhatsAppRedirect = () => {
   useEffect(() => {

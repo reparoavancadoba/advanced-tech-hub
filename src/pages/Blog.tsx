@@ -147,7 +147,7 @@ const Blog = () => {
             Não encontrou seu modelo? Fale diretamente com nosso profissional pelo WhatsApp.
           </p>
           <a
-            href="https://wa.me/5571991981437?text=Olá! Vi o blog e preciso de ajuda com meu aparelho."
+            href="https://wa.me/5571991981437"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-lg font-semibold hover:brightness-110 transition-all animate-pulse-whatsapp"
@@ -161,7 +161,7 @@ const Blog = () => {
       {/* STICKY BOTTOM BAR PARA MOBILE (CRO - ALTA CONVERSÃO) */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
         <a
-          href="https://wa.me/5571991981437?text=Olá! Vi o blog e preciso de ajuda com meu aparelho."
+          href="https://wa.me/5571991981437"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full flex items-center justify-center gap-2 bg-whatsapp text-white px-4 py-3.5 rounded-xl font-bold shadow-lg animate-pulse-whatsapp"

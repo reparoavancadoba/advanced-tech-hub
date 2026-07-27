@@ -1,7 +1,7 @@
 import { MessageCircle, Check } from "lucide-react";
 import phoneImg from "@/assets/iphone-orange-lg.png";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar uma avaliação e orçamento para meu aparelho.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const seals = [
   "Loja Física em Salvador",

@@ -2,7 +2,7 @@ import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, Phone, MapPin, Clock, Mail, Instagram } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de falar com a Reparo Avançado.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const Contato = () => {
   const jsonLd = {

@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import professionalImg from "@/assets/profissional-atendimento.png";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento para meu aparelho.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const VersatilCTA = () => {
   return (

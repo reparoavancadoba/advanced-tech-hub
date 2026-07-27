@@ -2,7 +2,7 @@ import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, ShieldCheck, Zap, Clock } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5571991981437?text=Olá! Gostaria de solicitar um orçamento gratuito.";
+const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const Orcamento = () => {
   const jsonLd = {

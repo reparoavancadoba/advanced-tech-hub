@@ -123,5 +123,5 @@ export const WHATSAPP_NUMBER = "5571991981437";
 
 export function buildWhatsappLink(servico: string, bairro: string) {
   const msg = `Olá, estava no site e preciso de um orçamento para ${servico} no bairro ${bairro}.`;
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+  return `https://wa.me/${WHATSAPP_NUMBER}`;
 }
