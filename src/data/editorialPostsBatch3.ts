@@ -543,53 +543,5 @@ export const editorialPostsBatch3: BlogPost[] = [
       }
     ]
   },
-  {
-    slug: "meu-celular-caiu-na-agua-o-que-fazer",
-    title: "Meu celular caiu na água, o que fazer imediatamente?",
-    h1: "Celular caiu no vaso, piscina ou mar? Siga este SOS de Emergência!",
-    metaDescription: "Seu celular tomou banho? Saiba o que NÃO fazer (o truque do arroz não funciona!) e como a desoxidação química na Reparo Avançado salva o seu aparelho.",
-    category: "conserto",
-    brand: "Todas",
-    model: "Todos",
-    service: "Desoxidação",
-    serviceSlug: "desoxidacao",
-    description: "Desespero total: um segundo de distração e o celular vai parar no vaso sanitário, num balde d'água ou cai no mar. Você sabia que os 10 primeiros minutos ditam se seu celular vai sobreviver ou morrer? Aja rápido.",
-    problems: [
-      "Aparelho não liga",
-      "Tela manchada ou tremendo de água",
-      "Câmeras com gotículas de suor/condensação por dentro",
-      "Som fanhoso (água no alto-falante)"
-    ],
-    causes: [
-      "Acidentes domésticos (pias, vasos sanitários)",
-      "Ir pra praia ou piscina e descuidar",
-      "Deixar cair na chuva",
-      "Confiou muito na certificação de 'resistência à água' (IP68) que já havia degradado"
-    ],
-    solution: "Processo profissional de Desoxidação em nossa oficina. Abrimos tudo, limpamos a placa em uma banheira ultrassônica com álcool isopropílico e produtos químicos específicos que neutralizam a corrosão dos metais.",
-    whenToSeek: "IMEDIATAMENTE. O relógio corre contra você. A bateria do celular cria uma reação galvânica brutal junto com a água e consome os pinos dourados da placa mãe em questão de horas (principalmente se for água do mar).",
-    costInfo: "Diagnóstico emergencial. A limpeza química é paga pelo processo e tempo do técnico, mas se o aparelho precisar de peças novas (ex: a tela queimou na água), o orçamento será passado com transparência.",
-    relatedSlugs: ["aviso-umidade-detectada"],
-    isEditorial: true,
-    author: "Equipe Reparo Avançado",
-    datePublished: "2026-07-04",
-    dateModified: "2026-07-04",
-    faq: [
-      {
-        question: "Meu iPhone 13 Pro Max não é à prova d'água?",
-        answer: "Não! Ele possui resistência a acidentes (IP68) quando sai da fábrica. Com o passar de meses, a cola veda de borracha resseca, ou a estrutura amassa após tombos. Nunca mergulhe de propósito um eletrônico de 5 mil reais em água. A Apple e Samsung NÃO cobrem danos por líquidos na garantia."
-      },
-      {
-        question: "Caiu no Mar, é pior?",
-        answer: "Sim. A água salgada acelera o processo de corrosão em até 100x comparado com água doce. Cada minuto sem lavar quimicamente a placa gera curtos destrutivos."
-      }
-    ],
-    sections: [
-      {
-        id: "erros",
-        title: "Os 3 Maiores Erros Graves",
-        content: "[ATENCAO] 1. Nunca tente ligar o celular se ele estiver apagado (você forçará eletricidade a circular num lugar com água, causando pipocos na placa). 2. Nunca coloque no carregador (Isso queima a placa instantaneamente). 3. Não bote no secador de cabelo nem no pote de arroz (Não serve de nada para água dentro de blindagens e o calor piora). Enrole num pano seco e corra para a Reparo Avançado o mais rápido possível! [/ATENCAO]"
-      }
-    ]
-  }
+  
 ];

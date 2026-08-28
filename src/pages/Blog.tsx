@@ -40,97 +40,117 @@ const Blog = () => {
         <meta name="description" content="Guias completos de conserto para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a conserto Avançado, em Salvador - BA." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/blog" />
       </Helmet>
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Blog <span className="text-gradient">conserto Avançado</span>
-        </h1>
-        <p className="text-muted-foreground mb-8 max-w-2xl">
-          Guias completos de conserto para todos os modelos. Encontre a solução para o seu problema e solicite um orçamento gratuito.
-        </p>
+      <div className="bg-gradient-to-b from-primary/10 via-background to-background pt-20 pb-16 border-b border-border">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
+            Blog da <span className="text-gradient">Reparo Avançado</span>
+          </h1>
+          <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
+            Guias práticos, diagnósticos e soluções reais para os problemas mais comuns do seu smartphone. Tudo escrito por especialistas em microeletrônica.
+          </p>
 
-        {/* Search + Filters */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-8">
-          <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-            <input
-              type="text"
-              placeholder="Buscar modelo, serviço..."
-              value={search}
-              onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-              className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-card border border-border text-foreground text-sm focus:outline-none focus:border-primary"
-            />
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => { setActiveCategory("all"); setPage(1); }}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
-                activeCategory === "all"
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-card border border-border text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              Todos
-            </button>
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => { setActiveCategory(cat); setPage(1); }}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
-                  activeCategory === cat
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-card border border-border text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {categoryLabels[cat]}
-              </button>
-            ))}
+          {/* Search Bar - Centralized and Modern */}
+          <div className="max-w-2xl mx-auto relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-blue-600 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
+            <div className="relative flex items-center bg-card rounded-2xl border border-border shadow-lg p-2">
+              <Search className="w-6 h-6 text-muted-foreground ml-4" />
+              <input
+                type="text"
+                placeholder="Busque por 'tela quebrada', 'bateria', 'iPhone 13'..."
+                value={search}
+                onChange={(e) => { setSearch(e.target.value); setPage(1); }}
+                className="w-full bg-transparent border-none text-foreground px-4 py-3 focus:outline-none text-lg"
+              />
+            </div>
           </div>
         </div>
+      </div>
 
-        <p className="text-sm text-muted-foreground mb-6">{filtered.length} artigos encontrados</p>
+      <div className="container mx-auto px-4 py-12">
+        {/* Categories Filter */}
+        <div className="flex flex-wrap justify-center gap-2 mb-12">
+          <button
+            onClick={() => { setActiveCategory("all"); setPage(1); }}
+            className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
+              activeCategory === "all"
+                ? "bg-primary text-primary-foreground shadow-md scale-105"
+                : "bg-card border border-border text-muted-foreground hover:border-primary/50 hover:text-foreground"
+            }`}
+          >
+            Todos
+          </button>
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => { setActiveCategory(cat); setPage(1); }}
+              className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
+                activeCategory === cat
+                  ? "bg-primary text-primary-foreground shadow-md scale-105"
+                  : "bg-card border border-border text-muted-foreground hover:border-primary/50 hover:text-foreground"
+              }`}
+            >
+              {categoryLabels[cat]}
+            </button>
+          ))}
+        </div>
 
-        {/* Posts Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl font-bold">Artigos Recentes</h2>
+          <p className="text-sm text-muted-foreground font-medium">{filtered.length} encontrados</p>
+        </div>
+
+        {/* Posts Grid - Modern Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {paginated.map((post) => (
             <Link
               key={post.slug}
               to={`/blog/${post.slug}`}
-              className="group bg-card rounded-xl border border-border p-5 hover:border-primary/50 hover:glow-blue transition-all duration-300 flex flex-col"
+              className="group flex flex-col bg-card rounded-2xl border border-border overflow-hidden hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300"
             >
-              <span className="text-[10px] font-semibold uppercase tracking-wider text-primary mb-2">
-                {categoryLabels[post.category]} · {post.service}
-              </span>
-              <h2 className="text-sm font-bold text-foreground mb-2 group-hover:text-primary transition-colors line-clamp-2">
-                {post.h1}
-              </h2>
-              <p className="text-xs text-muted-foreground mb-4 flex-1 line-clamp-2">
-                {post.metaDescription}
-              </p>
-              <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary">
-                Ler mais <ArrowRight className="w-3 h-3" />
-              </span>
+              <div className="p-8 flex flex-col h-full relative">
+                <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Search className="w-24 h-24" />
+                </div>
+                
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider rounded-full w-fit mb-4">
+                  {categoryLabels[post.category]}
+                </span>
+                
+                <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors leading-tight">
+                  {post.h1}
+                </h3>
+                
+                <p className="text-sm text-muted-foreground mb-8 flex-1 line-clamp-3 leading-relaxed">
+                  {post.metaDescription}
+                </p>
+                
+                <div className="flex items-center text-sm font-bold text-primary mt-auto">
+                  Ler artigo completo 
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
+                </div>
+              </div>
             </Link>
           ))}
         </div>
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="flex justify-center gap-2 mt-10">
+          <div className="flex justify-center items-center gap-4 mt-16">
             {page > 1 && (
               <button
                 onClick={() => setPage(page - 1)}
-                className="px-4 py-2 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-foreground"
+                className="px-6 py-2.5 rounded-full bg-card border border-border text-sm font-semibold hover:border-primary hover:text-primary transition-colors"
               >
                 Anterior
               </button>
             )}
-            <span className="px-4 py-2 text-sm text-muted-foreground">
-              Página {page} de {totalPages}
+            <span className="text-sm font-medium text-muted-foreground">
+              Página <strong className="text-foreground">{page}</strong> de {totalPages}
             </span>
             {page < totalPages && (
               <button
                 onClick={() => setPage(page + 1)}
-                className="px-4 py-2 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-foreground"
+                className="px-6 py-2.5 rounded-full bg-card border border-border text-sm font-semibold hover:border-primary hover:text-primary transition-colors"
               >
                 Próxima
               </button>
@@ -138,23 +158,26 @@ const Blog = () => {
           </div>
         )}
 
-        {/* CTA Banner */}
-        <div className="mt-16 bg-card rounded-2xl border border-border p-8 text-center">
-          <h2 className="text-2xl font-bold mb-3">
-            Orçamento <span className="text-gradient">Gratuito</span> em 5 Minutos
-          </h2>
-          <p className="text-muted-foreground mb-6">
-            Não encontrou seu modelo? Fale diretamente com nosso profissional pelo WhatsApp.
-          </p>
-          <a
-            href="https://wa.me/5571991981437"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-lg font-semibold hover:brightness-110 transition-all animate-pulse-whatsapp"
-          >
-            <MessageCircle className="w-5 h-5" />
-            FALAR COM profissional
-          </a>
+        {/* CTA Banner Moderno */}
+        <div className="mt-20 relative overflow-hidden bg-zinc-900 rounded-3xl border border-zinc-800 p-10 md:p-16 text-center shadow-2xl">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b from-primary/20 to-transparent opacity-50 blur-3xl pointer-events-none"></div>
+          <div className="relative z-10">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+              Precisa de ajuda com seu aparelho?
+            </h2>
+            <p className="text-zinc-400 mb-8 max-w-xl mx-auto text-lg">
+              Fale diretamente com nossos especialistas. Orçamento rápido, gratuito e sem compromisso pelo WhatsApp.
+            </p>
+            <a
+              href="https://wa.me/5571991981437"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-whatsapp text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-whatsapp/90 hover:scale-105 transition-all shadow-lg shadow-whatsapp/20"
+            >
+              <MessageCircle className="w-6 h-6" />
+              Solicitar Orçamento Agora
+            </a>
+          </div>
         </div>
       </div>
 
