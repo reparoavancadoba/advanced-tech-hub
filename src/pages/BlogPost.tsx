@@ -57,7 +57,9 @@ const BlogPost = () => {
   const wordCount = getWordCount();
   const readingTime = Math.ceil(wordCount / 200);
 
-  const waLink = "https://wa.me/5571991981437";
+  const topic = post.title || `${post.service} ${post.model}`;
+  const customMessage = `Olá! Vi o artigo sobre ${topic} no blog de vocês e gostaria de um orçamento.`;
+  const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(customMessage)}`;
 
   const relatedPosts = post.relatedSlugs
     .map((s) => allPosts.find((p) => p.slug === s))
