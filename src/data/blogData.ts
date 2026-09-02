@@ -288,9 +288,9 @@ export const problemPosts: BlogPost[] = [
   const slug = problem.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-");
   return {
     slug,
-    title: `${problem} em Salvador? conserto Avançado Resolve!`,
+    title: `${problem} em Salvador? Reparo Avançado Resolve!`,
     h1: `${problem} em Salvador (BA) – avaliação e conserto Profissional`,
-    metaDescription: `Seu ${problem.toLowerCase()}? A conserto Avançado em Salvador (Boca do Rio) resolve com avaliação gratuita. Atendemos Pituba, Imbuí, Stiep e região.`,
+    metaDescription: `Seu ${problem.toLowerCase()}? A Reparo Avançado em Salvador (Boca do Rio) resolve com avaliação gratuita. Atendemos Pituba, Imbuí, Stiep e região.`,
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -299,7 +299,7 @@ export const problemPosts: BlogPost[] = [
     description: `Solução profissional para ${problem.toLowerCase()} em Salvador. avaliação gratuita e conserto com peças premium na Boca do Rio.`,
     problems: [`${problem} é um dos problemas mais comuns que recebemos`],
     causes: ["Diversas causas possíveis que requerem avaliação profissional"],
-    solution: `avaliação completa com equipamentos de precisão e conserto direcionado na conserto Avançado.`,
+    solution: `avaliação completa com equipamentos de precisão e conserto direcionado na Reparo Avançado.`,
     whenToSeek: "Procure um profissional qualificado assim que perceber o problema para evitar danos maiores.",
     costInfo: "avaliação 100% gratuito. Orçamento transparente antes de qualquer conserto.",
     relatedSlugs: [],

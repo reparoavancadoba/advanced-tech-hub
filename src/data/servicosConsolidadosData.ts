@@ -21,7 +21,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Tela de Celular em Salvador | Peças Premium e Garantia",
     h1: "Troca de Tela de Celular em Salvador",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
-    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a conserto Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
+    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a Reparo Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Vidro trincado ou completamente estilhaçado",
@@ -33,7 +33,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A tela quebrou, mas o touch ainda funciona. Preciso trocar tudo?",
-        answer: "Na conserto Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
+        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
       },
       {
         question: "Quanto tempo demora a troca de tela?",
@@ -47,7 +47,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "troca-de-bateria": {
     slug: "troca-de-bateria",
-    title: "Troca de Bateria de Celular em Salvador | Saúde 100% | conserto Avançado",
+    title: "Troca de Bateria de Celular em Salvador | Saúde 100% | Reparo Avançado",
     h1: "Troca de Bateria de Celular em Salvador",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
     description: "Restaure a autonomia original do seu smartphone. Substituímos baterias gastas ou estufadas por componentes certificados de alta performance que devolvem a capacidade de carga completa ao aparelho.",
@@ -62,7 +62,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A bateria nova vai exibir 100% de saúde sem mensagens de erro?",
-        answer: "Sim! Na conserto Avançado, utilizamos programadores dedicados para transferir e reprogramar o controlador da bateria original, garantindo que o sistema reconheça a nova bateria com 100% de integridade e sem alertas."
+        answer: "Sim! Na Reparo Avançado, utilizamos programadores dedicados para transferir e reprogramar o controlador da bateria original, garantindo que o sistema reconheça a nova bateria com 100% de integridade e sem alertas."
       },
       {
         question: "Quanto tempo dura o serviço de troca de bateria?",

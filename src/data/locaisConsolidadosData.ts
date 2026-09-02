@@ -25,7 +25,7 @@ export interface LocalConsolidadoData {
 }
 
 const baseSchema: LocalBusinessSchemaData = {
-  name: "conserto Avançado - oficina de conserto de celular de Celulares em Salvador",
+  name: "Reparo Avançado - oficina de conserto de celular de Celulares em Salvador",
   streetAddress: "R. Abelardo Andrade de Carvalho, 8",
   addressLocality: "Salvador",
   addressRegion: "BA",
@@ -47,13 +47,13 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "salvador",
     path: "/loja-tecnica-salvador",
     name: "Salvador",
-    title: "oficina de conserto de celular em Salvador | conserto Avançado",
+    title: "oficina de conserto de celular em Salvador | Reparo Avançado",
     h1: "oficina de conserto de celular em Salvador",
     metaDescription: "conserto focado de iPhone, Samsung, Xiaomi e circuito lógico em Salvador. Atendimento rápido com peças premium e garantia. Faça seu orçamento!",
-    description: "A conserto Avançado é referência em oficina de conserto de celular em Salvador (BA). Com mais de mais de 7 anos de experiência e laboratório focado de alta tecnologia, oferecemos conserto rápidos e garantia formal em todos os serviços.",
+    description: "A Reparo Avançado é referência em oficina de conserto de celular em Salvador (BA). Com mais de mais de 7 anos de experiência e laboratório focado de alta tecnologia, oferecemos conserto rápidos e garantia formal em todos os serviços.",
     schema: {
       ...baseSchema,
-      name: "conserto Avançado - oficina de conserto de celular de Celulares em Salvador",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares em Salvador",
       addressLocality: "Salvador",
       areaServed: baseSchema.areaServed
     }
@@ -65,10 +65,10 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     title: "Conserto Celular Boca do Rio: Pronto em 1h com Garantia",
     h1: "oficina de conserto de celular de Celular na Boca do Rio",
     metaDescription: "Celular quebrou na Boca do Rio? Nossa equipe resolve! Conserto rápido de iPhone, Samsung e Xiaomi com peças de alta qualidade. Faça seu orçamento.",
-    description: "Localizada estrategicamente no bairro Boca do Rio em Salvador, a conserto Avançado oferece serviços de conserto rápidos e eficientes para moradores e trabalhadores do bairro e adjacências, com foco em peças premium.",
+    description: "Localizada estrategicamente no bairro Boca do Rio em Salvador, a Reparo Avançado oferece serviços de conserto rápidos e eficientes para moradores e trabalhadores do bairro e adjacências, com foco em peças premium.",
     schema: {
       ...baseSchema,
-      name: "conserto Avançado - oficina de conserto de celular de Celulares na Boca do Rio",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares na Boca do Rio",
       addressLocality: "Boca do Rio, Salvador",
       areaServed: ["Boca do Rio", "Costa Azul", "Imbuí", "Stiep", "Jardim Armação", "Patamares"]
     }
@@ -83,7 +83,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     description: "Atendemos a região da Pituba e adjacências em Salvador com serviços focados de conserto de iPhone, Samsung, Xiaomi e consertos de circuitos integrados de alta precisão. Peças de alta performance com garantia por escrito.",
     schema: {
       ...baseSchema,
-      name: "conserto Avançado - oficina de conserto de celular de Celulares na Pituba",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares na Pituba",
       addressLocality: "Pituba, Salvador",
       areaServed: ["Pituba", "Itaigara", "Caminho das Árvores", "Rio Vermelho"]
     }
@@ -95,10 +95,10 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     title: "Conserto de Celular no Imbuí: Orçamento Rápido e Grátis",
     h1: "oficina de conserto de celular de Celular no Imbuí",
     metaDescription: "Celular quebrou no Imbuí? Nossa assistência resolve na hora! Troca de tela e bateria para iPhone e Android com garantia. Solicite seu orçamento gratuito.",
-    description: "Moradores do Imbuí encontram na conserto Avançado a melhor solução para conserto de smartphones e notebooks. Fale diretamente com nossos profissionals e receba orçamento rápido no WhatsApp.",
+    description: "Moradores do Imbuí encontram na Reparo Avançado a melhor solução para conserto de smartphones e notebooks. Fale diretamente com nossos profissionals e receba orçamento rápido no WhatsApp.",
     schema: {
       ...baseSchema,
-      name: "conserto Avançado - oficina de conserto de celular de Celulares no Imbuí",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares no Imbuí",
       addressLocality: "Imbuí, Salvador",
       areaServed: ["Imbuí", "Boca do Rio", "Cabula", "Narandiba", "Stiep"]
     }
@@ -110,10 +110,10 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     title: "Conserto Celular Brotas: Reparo Rápido e Peças Premium",
     h1: "oficina de conserto de celular de Celular em Brotas",
     metaDescription: "Assistência técnica de celulares em Brotas. Consertamos a placa, trocamos tela e bateria do seu iPhone ou Xiaomi. Serviço rápido com garantia. Orçamento já!",
-    description: "Oferecemos atendimento para o bairro de Brotas com avaliações precisos, consertos rápidos e garantia real em componentes de alta qualidade. Conte com a conserto Avançado para recuperar seu celular.",
+    description: "Oferecemos atendimento para o bairro de Brotas com avaliações precisos, consertos rápidos e garantia real em componentes de alta qualidade. Conte com a Reparo Avançado para recuperar seu celular.",
     schema: {
       ...baseSchema,
-      name: "conserto Avançado - oficina de conserto de celular de Celulares em Brotas",
+      name: "Reparo Avançado - oficina de conserto de celular de Celulares em Brotas",
       addressLocality: "Brotas, Salvador",
       areaServed: ["Brotas", "Cabula", "Vila Laura", "Horto Florestal", "Centro"]
     }

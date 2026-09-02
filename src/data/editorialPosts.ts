@@ -1,6 +1,6 @@
 import type { BlogPost, Category } from "./blogData";
 
-const LOCAL_SEO = "A conserto Avançado está localizada na Boca do Rio, Salvador – BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
+const LOCAL_SEO = "A Reparo Avançado está localizada na Boca do Rio, Salvador – BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
 const PECAS = "Peças de Alta Performance fabricadas com os mesmos padrões da linha de montagem original";
 const CTA_TEXT = "Fale agora com um profissional qualificado pelo WhatsApp (71) 99198-1437";
 
@@ -18,7 +18,7 @@ export const editorialPosts: BlogPost[] = [
     model: "iPhone",
     service: "Troca de Bateria",
     serviceSlug: "troca-de-bateria-iphone-editorial",
-    description: "Descubra como a conserto Avançado realiza a troca de bateria do iPhone em Salvador sem gerar erros de sistema, mantendo a saúde em 100%.",
+    description: "Descubra como a Reparo Avançado realiza a troca de bateria do iPhone em Salvador sem gerar erros de sistema, mantendo a saúde em 100%.",
     isEditorial: true,
     keywords: ["troca de bateria iphone salvador", "bateria iphone boca do rio", "saúde bateria iphone", "peça desconhecida iphone", "oficina de conserto de celular iphone salvador"],
     problems: [
@@ -34,7 +34,7 @@ export const editorialPosts: BlogPost[] = [
       "Exposição ao calor intenso de Salvador, que acelera o desgaste",
       "Troca anterior com peças de baixa qualidade sem reprogramação do CI"
     ],
-    solution: `Na conserto Avançado, utilizamos ${PECAS} para a troca de bateria do iPhone. O diferencial está na reprogramação do chip controlador (CI) da bateria, que elimina completamente a mensagem de "Peça Desconhecida" no iOS. Nosso processo inclui: avaliação completa do circuito de carga, remoção segura da bateria antiga com ferramentas anti-estáticas, ajuste presencial presencial da nova bateria com calibração de voltagem, e reprogramação via sistema operacional proprietário para que o iOS reconheça a bateria como genuína.
+    solution: `Na Reparo Avançado, utilizamos ${PECAS} para a troca de bateria do iPhone. O diferencial está na reprogramação do chip controlador (CI) da bateria, que elimina completamente a mensagem de "Peça Desconhecida" no iOS. Nosso processo inclui: avaliação completa do circuito de carga, remoção segura da bateria antiga com ferramentas anti-estáticas, ajuste presencial presencial da nova bateria com calibração de voltagem, e reprogramação via sistema operacional proprietário para que o iOS reconheça a bateria como genuína.
 
 [DICA]
 Para aumentar a vida útil da sua nova bateria, evite utilizar o iPhone enquanto ele carrega e prefira sempre carregadores de parede originais ou com certificação oficial da Apple (MFi).
@@ -44,7 +44,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando o iPhone desligar sozinho, quando a bateria não durar um dia de uso moderado, ou quando aparecer aviso de 'conserto da Bateria'. Não espere a bateria estufar — isso pode danificar a tela e outros componentes.",
     costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 3 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.`,
     faq: [
-      { question: "A troca de bateria do iPhone vai aparecer 'Peça Desconhecida'?", answer: "Não. Na conserto Avançado, reprogramamos o chip controlador da bateria para que o iOS reconheça a peça corretamente, exibindo a saúde em 100% sem nenhuma mensagem de erro." },
+      { question: "A troca de bateria do iPhone vai aparecer 'Peça Desconhecida'?", answer: "Não. Na Reparo Avançado, reprogramamos o chip controlador da bateria para que o iOS reconheça a peça corretamente, exibindo a saúde em 100% sem nenhuma mensagem de erro." },
       { question: "Quanto tempo dura a bateria nova do iPhone?", answer: "Nossas baterias de alta performance têm vida útil equivalente à original, suportando mais de 500 ciclos de carga completa mantendo acima de 80% de capacidade." },
       { question: "Posso esperar enquanto troca a bateria do iPhone?", answer: "Sim! O serviço é realizado em aproximadamente 40 minutos na nossa loja na Boca do Rio, Salvador." }
     ],
@@ -55,13 +55,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "A bateria de íon de lítio do iPhone é projetada para reter até 80% da capacidade original após 500 ciclos de carga. No entanto, o clima quente de Salvador e a exposição ao sol aceleram significativamente esse processo. Carregar o iPhone com carregadores não certificados ou deixar o aparelho conectado a noite toda também contribui para o desgaste prematuro.",
         subsections: [
           { title: "O Impacto do Clima de Salvador na Bateria", content: "A temperatura média de Salvador, combinada com a maresia da orla (Pituba, Costa Azul, Imbuí), cria um ambiente que pode reduzir a vida útil da bateria em até 20%. O calor acelera as reações químicas internas e a umidade salina pode causar micro-oxidação nos contatos." },
-          { title: "Como Verificar a Saúde da Bateria", content: "Acesse Ajustes > Bateria > Saúde e Carregamento. Se a capacidade máxima estiver abaixo de 85%, é hora de considerar a troca. A conserto Avançado oferece avaliação gratuita com relatório completo do estado da bateria." }
+          { title: "Como Verificar a Saúde da Bateria", content: "Acesse Ajustes > Bateria > Saúde e Carregamento. Se a capacidade máxima estiver abaixo de 85%, é hora de considerar a troca. A Reparo Avançado oferece avaliação gratuita com relatório completo do estado da bateria." }
         ]
       },
       {
         id: "tecnica-reprogramacao",
         title: "Nossa Técnica de Reprogramação: Zero Erros de Sistema",
-        content: `O grande problema das trocas de bateria em oficinas não focadas é a famosa mensagem "Peça Desconhecida" que aparece no iOS. Isso acontece porque a Apple implementa um chip controlador (CI) na bateria que se comunica com a circuito lógico. Na conserto Avançado, possuímos equipamento e sistema operacional para reprogramar esse CI, fazendo com que o sistema reconheça a nova bateria perfeitamente.`,
+        content: `O grande problema das trocas de bateria em oficinas não focadas é a famosa mensagem "Peça Desconhecida" que aparece no iOS. Isso acontece porque a Apple implementa um chip controlador (CI) na bateria que se comunica com a circuito lógico. Na Reparo Avançado, possuímos equipamento e sistema operacional para reprogramar esse CI, fazendo com que o sistema reconheça a nova bateria perfeitamente.`,
         subsections: [
           { title: "Passo a Passo do Nosso Processo", content: "1) avaliação do circuito de carga com multímetro de precisão. 2) Remoção segura da bateria com ferramentas anti-estáticas. 3) Transferência do CI original ou reprogramação do novo CI. 4) ajuste presencial presencial com adesivos originais de fixação. 5) Calibração de carga completa. 6) Teste de temperatura e performance." }
         ]
@@ -79,7 +79,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     model: "iPhone",
     service: "conserto de Face ID",
     serviceSlug: "reparo-face-id-editorial",
-    description: "Entenda como a conserto Avançado recupera o Face ID do iPhone através de micro-soldagem de precisão nos sensores TrueDepth.",
+    description: "Entenda como a Reparo Avançado recupera o Face ID do iPhone através de micro-soldagem de precisão nos sensores TrueDepth.",
     isEditorial: true,
     keywords: ["conserto face id iphone", "face id não funciona", "micro-soldagem iphone salvador", "projetor de pontos iphone", "sensor truedepth"],
     problems: [
@@ -95,11 +95,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Micro-fissura no projetor de pontos (dot projector)",
       "Oxidação dos contatos do sensor por exposição à umidade"
     ],
-    solution: `O Face ID é um dos sistemas mais complexos do iPhone, composto pelo projetor de pontos, câmera infravermelha e iluminador flood. Na conserto Avançado, utilizamos microscópio profissional e estação de micro-soldagem para diagnosticar e reparar cada componente individualmente. Em casos de flex danificado por troca de tela, realizamos a transferência do módulo TrueDepth com precisão cirúrgica. ${LOCAL_SEO}`,
+    solution: `O Face ID é um dos sistemas mais complexos do iPhone, composto pelo projetor de pontos, câmera infravermelha e iluminador flood. Na Reparo Avançado, utilizamos microscópio profissional e estação de micro-soldagem para diagnosticar e reparar cada componente individualmente. Em casos de flex danificado por troca de tela, realizamos a transferência do módulo TrueDepth com precisão cirúrgica. ${LOCAL_SEO}`,
     whenToSeek: "Imediatamente ao perceber que o Face ID parou de funcionar, especialmente após queda ou troca de tela. O atraso pode permitir que a oxidação se espalhe pelos contatos do sensor.",
     costInfo: `O conserto do Face ID requer equipamento focado e mão de obra técnica de precisão. O avaliação é gratuito e o valor varia conforme o tipo de dano. Utilizamos ${PECAS}. ${CTA_TEXT}.`,
     faq: [
-      { question: "É possível recuperar o Face ID do iPhone?", answer: "Sim, em muitos casos. Na conserto Avançado temos taxa de sucesso superior a 85% na restauração do Face ID através de micro-soldagem e conserto do módulo TrueDepth." },
+      { question: "É possível recuperar o Face ID do iPhone?", answer: "Sim, em muitos casos. Na Reparo Avançado temos taxa de sucesso superior a 85% na restauração do Face ID através de micro-soldagem e conserto do módulo TrueDepth." },
       { question: "Face ID parou após trocar a tela, tem solução?", answer: "Sim. Geralmente o flex do módulo TrueDepth foi danificado durante a troca. Realizamos a transferência ou conserto do flex com micro-soldagem de precisão." },
       { question: "Quanto tempo demora o conserto do Face ID?", answer: "O avaliação leva cerca de 30 minutos. O conserto completo pode levar de 2 a 4 horas dependendo da complexidade, pois envolve micro-soldagem de componentes SMD." }
     ],
@@ -110,13 +110,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "O sistema Face ID utiliza três componentes principais: o projetor de pontos que emite mais de 30.000 pontos infravermelhos no rosto, a câmera infravermelha que captura o padrão, e o iluminador flood que garante funcionamento em ambientes escuros. Qualquer dano a um desses componentes pode inutilizar todo o sistema.",
         subsections: [
           { title: "O Projetor de Pontos: Coração do Face ID", content: "Este é o componente mais delicado e frequentemente danificado em quedas. Ele contém um laser VCSEL que precisa estar perfeitamente alinhado para funcionar corretamente." },
-          { title: "O Erro Mais Comum: Troca de Tela Sem Cuidado", content: "Muitas oficinas danificam o flex do Face ID durante a troca de tela por não terem ferramentas adequadas. Na conserto Avançado, todo procedimento de troca de tela preserva 100% do módulo TrueDepth." }
+          { title: "O Erro Mais Comum: Troca de Tela Sem Cuidado", content: "Muitas oficinas danificam o flex do Face ID durante a troca de tela por não terem ferramentas adequadas. Na Reparo Avançado, todo procedimento de troca de tela preserva 100% do módulo TrueDepth." }
         ]
       },
       {
         id: "micro-soldagem-precisao",
         title: "Micro-soldagem de Precisão: Nossa Especialidade",
-        content: "Utilizamos estação de solda com ponta de 0.2mm e microscópio com aumento de até 45x para trabalhar nos componentes do Face ID. Cada solda é verificada com multímetro de precisão antes da remontagem. Esse nível de detalhe é o que diferencia a conserto Avançado de oficinas convencionais em Salvador."
+        content: "Utilizamos estação de solda com ponta de 0.2mm e microscópio com aumento de até 45x para trabalhar nos componentes do Face ID. Cada solda é verificada com multímetro de precisão antes da remontagem. Esse nível de detalhe é o que diferencia a Reparo Avançado de oficinas convencionais em Salvador."
       }
     ],
     relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "troca-tela-iphone-true-tone-salvador", "camera-iphone-tremula-manchas-salvador"]
@@ -124,14 +124,14 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   {
     slug: "iphone-nao-liga-avaliacao-placa-salvador",
     title: "iPhone Não Liga ou Travado na Maçã? avaliação de circuito em Salvador",
-    h1: "iPhone Não Liga ou Travado na Maçã? avaliação Avançado de circuito integrado na Boca do Rio",
+    h1: "iPhone Não Liga ou Travado na Maçã? Reparo Avançado de circuito integrado na Boca do Rio",
     metaDescription: "iPhone não liga ou travou na maçã? avaliação avançado de circuito integrado com reballing de processador em Salvador. Recuperamos aparelhos dados como perdidos!",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
     service: "avaliação de circuito",
     serviceSlug: "avaliacao-placa-iphone-editorial",
-    description: "Seu iPhone não liga ou ficou travado na maçã? Entenda como o avaliação avançado de circuito integrado pode salvar seu aparelho na conserto Avançado.",
+    description: "Seu iPhone não liga ou ficou travado na maçã? Entenda como o avaliação avançado de circuito integrado pode salvar seu aparelho na Reparo Avançado.",
     isEditorial: true,
     keywords: ["iphone não liga", "iphone travado na maçã", "conserto de circuito integrado iphone", "reballing processador iphone", "curto circuito iphone salvador"],
     problems: [
@@ -147,7 +147,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "BGA do processador com micro-fissuras (cold solder)",
       "CI de carga (Tristar/Hydra) queimado por carregador genérico"
     ],
-    solution: `Na conserto Avançado, realizamos o avaliação completa da circuito lógico do iPhone utilizando microscópio profissional, fonte de bancada e câmera térmica. Identificamos o componente exato que está em falha — seja o PMIC, Tristar, NAND, ou processador — e realizamos o conserto direcionado com reballing ou substituição do CI. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, realizamos o avaliação completa da circuito lógico do iPhone utilizando microscópio profissional, fonte de bancada e câmera térmica. Identificamos o componente exato que está em falha — seja o PMIC, Tristar, NAND, ou processador — e realizamos o conserto direcionado com reballing ou substituição do CI. ${LOCAL_SEO}`,
     whenToSeek: "Assim que o iPhone parar de ligar ou apresentar loop de boot. Tentativas de forçar a inicialização podem agravar o problema, especialmente se houver curto-circuito.",
     costInfo: `O avaliação é 100% gratuito e detalhado. Informamos exatamente qual componente falhou e o custo do conserto antes de qualquer serviço. ${CTA_TEXT}.`,
     faq: [
@@ -194,13 +194,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Troca anterior com tela genérica sem reprogramação",
       "Exposição a temperatura extrema causando descolamento"
     ],
-    solution: `Na conserto Avançado, utilizamos telas de alta performance (${PECAS}) e realizamos a reprogramação do CI (chip controlador) da tela. Isso garante que o True Tone, brilho automático e todas as funções de toque funcionem perfeitamente. Nosso processo inclui a transferência dos dados do CI da tela original para a nova, mantendo o pareamento com a circuito lógico. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, utilizamos telas de alta performance (${PECAS}) e realizamos a reprogramação do CI (chip controlador) da tela. Isso garante que o True Tone, brilho automático e todas as funções de toque funcionem perfeitamente. Nosso processo inclui a transferência dos dados do CI da tela original para a nova, mantendo o pareamento com a circuito lógico. ${LOCAL_SEO}`,
     whenToSeek: "Imediatamente após qualquer trinca na tela. Fragmentos de vidro podem causar cortes e a exposição interna à poeira e umidade pode danificar outros componentes.",
     costInfo: `O valor varia conforme o modelo (iPhone 11 ao 16 Pro Max) e o tipo de tela (LCD, OLED, Super Retina XDR). Todas incluem reprogramação True Tone sem custo adicional. ${CTA_TEXT}.`,
     faq: [
       { question: "A tela nova vai ter True Tone funcionando?", answer: "Sim! Realizamos a reprogramação do CI da tela para manter o True Tone, brilho automático e todas as funções de toque funcionando perfeitamente." },
       { question: "Qual a diferença entre tela original e tela de alta performance?", answer: `Nossas telas são ${PECAS}. Possuem a mesma qualidade de cores, resolução e sensibilidade ao toque, com garantia de 3 meses.` },
-      { question: "A troca de tela pode danificar o Face ID?", answer: "Na conserto Avançado, jamais. Nossos profissionals são treinados para preservar 100% do módulo TrueDepth durante a troca. Em oficinas não focadas, esse risco é real." }
+      { question: "A troca de tela pode danificar o Face ID?", answer: "Na Reparo Avançado, jamais. Nossos profissionals são treinados para preservar 100% do módulo TrueDepth durante a troca. Em oficinas não focadas, esse risco é real." }
     ],
     sections: [
       {
@@ -208,7 +208,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         title: "O Que é True Tone e Por Que Você Não Deve Perder",
         content: "O True Tone é uma tecnologia da Apple que ajusta automaticamente a temperatura de cor da tela conforme a iluminação ambiente. Sem ele, as cores ficam artificiais — muito frias (azuladas) ou quentes (amareladas). Muitas oficinas em Salvador não reprogramam o CI da tela, fazendo o cliente perder essa função.",
         subsections: [
-          { title: "Como Funciona a Reprogramação do CI", content: "O CI (chip controlador) da tela armazena dados de calibração e pareamento com a circuito lógico. Na conserto Avançado, utilizamos programador focado para transferir esses dados da tela antiga para a nova, ou reprogramar o CI com os dados corretos." }
+          { title: "Como Funciona a Reprogramação do CI", content: "O CI (chip controlador) da tela armazena dados de calibração e pareamento com a circuito lógico. Na Reparo Avançado, utilizamos programador focado para transferir esses dados da tela antiga para a nova, ou reprogramar o CI com os dados corretos." }
         ]
       }
     ],
@@ -240,13 +240,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Exposição ao vapor do banheiro",
       "A maresia de Salvador que penetra por micro-aberturas"
     ],
-    solution: `O tempo é o fator mais crítico. Na conserto Avançado, realizamos o processo de desoxidação de emergência: abertura imediata do aparelho, banho ultrassônico com solução específica, limpeza componente a componente sob microscópio, secagem controlada e teste completo de todos os circuitos. NUNCA coloque o iPhone no arroz — isso pode introduzir amido nos conectores e piorar a oxidação. ${LOCAL_SEO}`,
+    solution: `O tempo é o fator mais crítico. Na Reparo Avançado, realizamos o processo de desoxidação de emergência: abertura imediata do aparelho, banho ultrassônico com solução específica, limpeza componente a componente sob microscópio, secagem controlada e teste completo de todos os circuitos. NUNCA coloque o iPhone no arroz — isso pode introduzir amido nos conectores e piorar a oxidação. ${LOCAL_SEO}`,
     whenToSeek: "IMEDIATAMENTE. Desligue o iPhone, NÃO tente carregar, NÃO tente ligar. Cada hora conta contra a oxidação. A corrosão pode ser irreversível em 24-48 horas.",
     costInfo: `O avaliação de urgência é gratuito. O valor da desoxidação depende da extensão do dano. Quanto mais rápido trouxer, maior a chance de restauração e menor o custo. ${CTA_TEXT}.`,
     faq: [
       { question: "Funciona colocar o iPhone no arroz?", answer: "NÃO! Esse é um dos maiores mitos. O arroz não remove a umidade interna e pode introduzir partículas de amido nos conectores, piorando a oxidação. O correto é desligar o aparelho e trazer para desoxidação profissional o mais rápido possível." },
       { question: "iPhone é à prova d'água, por que estragou?", answer: "A resistência à água do iPhone é uma classificação de fábrica que se degrada com o uso, quedas e tempo. Nenhum iPhone é 'à prova d'água' permanentemente, especialmente após 1 ano de uso." },
-      { question: "Quanto tempo tenho para trazer o iPhone molhado?", answer: "Idealmente, nas primeiras 2 horas. Após 24 horas, as chances de restauração caem drasticamente. Quanto antes trouxer à conserto Avançado na Boca do Rio, melhor o prognóstico." }
+      { question: "Quanto tempo tenho para trazer o iPhone molhado?", answer: "Idealmente, nas primeiras 2 horas. Após 24 horas, as chances de restauração caem drasticamente. Quanto antes trouxer à Reparo Avançado na Boca do Rio, melhor o prognóstico." }
     ],
     sections: [
       {
@@ -254,7 +254,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         title: "O Que Fazer (e NÃO Fazer) Quando o iPhone Cai na Água",
         content: "Os primeiros minutos após o contato com líquido são decisivos. Siga estas instruções antes de trazer o aparelho à nossa loja.",
         subsections: [
-          { title: "FAÇA Imediatamente", content: "1) Retire da água imediatamente. 2) Desligue o iPhone (mantenha pressionado o botão lateral + volume). 3) Remova a capinha e o chip. 4) Seque o exterior com pano seco. 5) Traga à conserto Avançado o mais rápido possível." },
+          { title: "FAÇA Imediatamente", content: "1) Retire da água imediatamente. 2) Desligue o iPhone (mantenha pressionado o botão lateral + volume). 3) Remova a capinha e o chip. 4) Seque o exterior com pano seco. 5) Traga à Reparo Avançado o mais rápido possível." },
           { title: "NÃO FAÇA De Jeito Nenhum", content: "1) NÃO tente ligar o iPhone. 2) NÃO conecte no carregador. 3) NÃO use secador de cabelo. 4) NÃO coloque no arroz. 5) NÃO balance ou sacuda o aparelho — isso espalha o líquido." }
         ]
       },
@@ -306,14 +306,14 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   {
     slug: "vidro-traseiro-iphone-reparo-laser-salvador",
     title: "Vidro Traseiro iPhone Quebrado? conserto a Laser em Salvador? Diagnóstico em Salvador",
-    h1: "Vidro Traseiro de iPhone Quebrado? Conheça o conserto a Laser da conserto Avançado",
-    metaDescription: "Vidro traseiro do iPhone quebrado? Na conserto Avançado em Salvador fazemos a remoção a laser e troca com acabamento de fábrica. Boca do Rio.",
+    h1: "Vidro Traseiro de iPhone Quebrado? Conheça o conserto a Laser da Reparo Avançado",
+    metaDescription: "Vidro traseiro do iPhone quebrado? Na Reparo Avançado em Salvador fazemos a remoção a laser e troca com acabamento de fábrica. Boca do Rio.",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
     service: "Vidro Traseiro",
     serviceSlug: "vidro-traseiro-iphone-editorial",
-    description: "Como funciona a troca do vidro traseiro do iPhone com remoção a laser na conserto Avançado em Salvador.",
+    description: "Como funciona a troca do vidro traseiro do iPhone com remoção a laser na Reparo Avançado em Salvador.",
     isEditorial: true,
     keywords: ["vidro traseiro iphone", "troca vidro traseiro iphone salvador", "conserto laser iphone", "tampa traseira iphone quebrada"],
     problems: [
@@ -327,7 +327,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Impacto no bolso traseiro ao sentar",
       "O vidro traseiro do iPhone é colado com adesivo industrial, tornando difícil a troca"
     ],
-    solution: `A troca do vidro traseiro do iPhone é um dos conserto mais complexos, pois o vidro é colado com adesivo industrial diretamente no chassi. Na conserto Avançado, utilizamos máquina a laser para separar o vidro sem danificar os componentes internos. Após a remoção, instalamos o novo vidro com acabamento e ajuste perfeito. ${LOCAL_SEO}`,
+    solution: `A troca do vidro traseiro do iPhone é um dos conserto mais complexos, pois o vidro é colado com adesivo industrial diretamente no chassi. Na Reparo Avançado, utilizamos máquina a laser para separar o vidro sem danificar os componentes internos. Após a remoção, instalamos o novo vidro com acabamento e ajuste perfeito. ${LOCAL_SEO}`,
     whenToSeek: "Assim que o vidro trincar. Além do risco de cortes, o vidro quebrado permite entrada de poeira e umidade que podem danificar câmeras e outros componentes internos.",
     costInfo: `O valor varia conforme o modelo do iPhone. O conserto a laser garante acabamento de fábrica sem danos à circuito interno ou bateria. ${CTA_TEXT}.`,
     faq: [
@@ -342,7 +342,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "audio-iphone-baixo-ruido-higienizacao-salvador",
     title: "Áudio do iPhone Baixo ou com Ruído? Higienização em Salvador",
     h1: "Áudio do iPhone Baixo ou com Ruído? A Importância da Higienização das Grades",
-    metaDescription: "Som do iPhone baixo ou com chiado? Na maioria dos casos, a higienização das grades resolve! conserto Avançado na Boca do Rio, Salvador.",
+    metaDescription: "Som do iPhone baixo ou com chiado? Na maioria dos casos, a higienização das grades resolve! Reparo Avançado na Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
@@ -364,7 +364,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Alto-falante danificado por queda ou líquido",
       "Obstrução por película ou capinha mal posicionada"
     ],
-    solution: `Em 70% dos casos de áudio baixo, a causa é simplesmente sujeira acumulada nas grades. Na conserto Avançado, realizamos a higienização profissional com ferramentas focadas, removendo toda obstrução sem danificar os componentes. Quando o problema é no alto-falante em si, realizamos a substituição por ${PECAS}. ${LOCAL_SEO}`,
+    solution: `Em 70% dos casos de áudio baixo, a causa é simplesmente sujeira acumulada nas grades. Na Reparo Avançado, realizamos a higienização profissional com ferramentas focadas, removendo toda obstrução sem danificar os componentes. Quando o problema é no alto-falante em si, realizamos a substituição por ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando perceber redução gradual no volume ou qualquer distorção no áudio. A sujeira acumulada pode eventualmente danificar o alto-falante se não for removida.",
     costInfo: `A higienização das grades é um serviço rápido e acessível. A troca do alto-falante tem valor conforme o modelo. ${CTA_TEXT}.`,
     faq: [
@@ -379,7 +379,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "vale-pena-consertar-iphone-antigo-analise",
     title: "Vale a Pena Consertar iPhone Antigo? Análise de Custo-Benefício",
     h1: "Vale a Pena Consertar iPhone Antigo? Análise Técnica de Custo-Benefício",
-    metaDescription: "iPhone antigo quebrado? Análise técnica para saber se vale consertar ou comprar novo. conserto Avançado em Salvador (Boca do Rio). avaliação grátis!",
+    metaDescription: "iPhone antigo quebrado? Análise técnica para saber se vale consertar ou comprar novo. Reparo Avançado em Salvador (Boca do Rio). avaliação grátis!",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
@@ -399,7 +399,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Múltiplas quedas e danos acumulados",
       "Obsolescência de sistema operacional (sem atualizações)"
     ],
-    solution: `Na conserto Avançado, fazemos uma análise técnica completa e honesta. Avaliamos o estado geral do aparelho, o custo do conserto versus o valor de mercado, e a vida útil restante. Se o conserto custar mais de 60% do valor de um aparelho similar seminovo, recomendamos transparentemente que considere a troca. Nosso compromisso é com a satisfação do cliente, não com vendas desnecessárias. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, fazemos uma análise técnica completa e honesta. Avaliamos o estado geral do aparelho, o custo do conserto versus o valor de mercado, e a vida útil restante. Se o conserto custar mais de 60% do valor de um aparelho similar seminovo, recomendamos transparentemente que considere a troca. Nosso compromisso é com a satisfação do cliente, não com vendas desnecessárias. ${LOCAL_SEO}`,
     whenToSeek: "Sempre que estiver em dúvida. Nosso avaliação é gratuito e oferecemos uma análise honesta de custo-benefício.",
     costInfo: `avaliação gratuita com análise de custo-benefício detalhada. ${CTA_TEXT}.`,
     faq: [
@@ -436,7 +436,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Problema de sistema operacional após atualização do iOS",
       "Antena Wi-Fi/Bluetooth danificada"
     ],
-    solution: `O chip de rádio do iPhone controla Wi-Fi, Bluetooth, GPS e NFC. Quando falha, é necessário reballing ou substituição desse CI na circuito lógico. Na conserto Avançado, realizamos esse conserto com estação BGA profissional e microscópio, garantindo a restauração completa de todas as conectividades. ${LOCAL_SEO}`,
+    solution: `O chip de rádio do iPhone controla Wi-Fi, Bluetooth, GPS e NFC. Quando falha, é necessário reballing ou substituição desse CI na circuito lógico. Na Reparo Avançado, realizamos esse conserto com estação BGA profissional e microscópio, garantindo a restauração completa de todas as conectividades. ${LOCAL_SEO}`,
     whenToSeek: "Quando Wi-Fi ou Bluetooth ficarem cinzas (sem possibilidade de ativar) ou desconectarem constantemente. Primeiro tente resetar as configurações de rede — se não resolver, é provável problema de componentes físicos.",
     costInfo: `O avaliação é gratuito. O conserto do chip de rádio é um serviço focado de micro-soldagem. ${CTA_TEXT}.`,
     faq: [
@@ -473,7 +473,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Lente de proteção trincada",
       "Flex da câmera com mau contato"
     ],
-    solution: `Na conserto Avançado, diagnosticamos se o problema é no módulo da câmera, no flex de conexão, ou na lente de proteção. A troca do módulo é realizada com ${PECAS} e inclui calibração de foco e teste de qualidade de imagem. Para câmeras com OIS, garantimos que a estabilização funcione perfeitamente após o conserto. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, diagnosticamos se o problema é no módulo da câmera, no flex de conexão, ou na lente de proteção. A troca do módulo é realizada com ${PECAS} e inclui calibração de foco e teste de qualidade de imagem. Para câmeras com OIS, garantimos que a estabilização funcione perfeitamente após o conserto. ${LOCAL_SEO}`,
     whenToSeek: "Quando notar tremulação, manchas nas fotos, ou câmera preta. A poeira pode se espalhar para outros componentes se não tratada.",
     costInfo: `O valor depende do modelo e da câmera (frontal, traseira principal, ultra-wide, telefoto). avaliação gratuita. ${CTA_TEXT}.`,
     faq: [
@@ -488,7 +488,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "maresia-salvador-corrosao-iphone",
     title: "Maresia de Salvador e Corrosão do iPhone: Guia de Cuidados",
     h1: "Guia de Cuidados: Como a Maresia de Salvador Acelera a Corrosão do Seu iPhone",
-    metaDescription: "Mora na orla de Salvador? A maresia corrói seu iPhone por dentro! Saiba como prevenir e quando fazer limpeza técnica. conserto Avançado - Boca do Rio.",
+    metaDescription: "Mora na orla de Salvador? A maresia corrói seu iPhone por dentro! Saiba como prevenir e quando fazer limpeza técnica. Reparo Avançado - Boca do Rio.",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
@@ -510,7 +510,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Exposição direta ao ar do mar em praias como Pituba, Costa Azul e Imbuí",
       "Areia que transporta sal para dentro do aparelho"
     ],
-    solution: `Na conserto Avançado, oferecemos limpeza preventiva focada para moradores da orla de Salvador. O processo inclui abertura do aparelho, inspeção sob microscópio, limpeza com solventes anti-corrosão e aplicação de proteção nos contatos. Recomendamos esse serviço a cada 6 meses para quem vive ou trabalha próximo à praia. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, oferecemos limpeza preventiva focada para moradores da orla de Salvador. O processo inclui abertura do aparelho, inspeção sob microscópio, limpeza com solventes anti-corrosão e aplicação de proteção nos contatos. Recomendamos esse serviço a cada 6 meses para quem vive ou trabalha próximo à praia. ${LOCAL_SEO}`,
     whenToSeek: "Preventivamente a cada 6 meses se você mora na orla (Pituba, Boca do Rio, Costa Azul, Imbuí). Imediatamente se notar qualquer sinal de corrosão como botões travando ou conector de carga com mau contato.",
     costInfo: `A limpeza preventiva é um investimento que pode evitar conserto caros no futuro. Consulte nossos planos de conserto. ${CTA_TEXT}.`,
     faq: [
@@ -529,7 +529,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "tela-samsung-mancha-verde-linhas-salvador",
     title: "Tela Verde no Celular após Atualização? O Que Fazer",
     h1: "Tela Samsung com Mancha Verde ou Linhas? Saiba Quando a Troca do Display é Necessária",
-    metaDescription: "Tela Samsung com mancha verde, linhas ou pixels mortos? avaliação gratuita para saber se precisa trocar. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Tela Samsung com mancha verde, linhas ou pixels mortos? avaliação gratuita para saber se precisa trocar. Reparo Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
     brand: "Samsung",
     model: "Galaxy",
@@ -551,7 +551,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Pressão no painel por sentar com o celular no bolso",
       "Contato com líquido que infiltra entre as camadas"
     ],
-    solution: `A tela AMOLED da Samsung é formada por camadas de materiais orgânicos que emitem luz própria. Quando danificados, não há conserto — a troca do display é necessária. Na conserto Avançado, utilizamos ${PECAS} AMOLED que reproduzem as mesmas cores vibrantes e o preto profundo da tela original. ${LOCAL_SEO}`,
+    solution: `A tela AMOLED da Samsung é formada por camadas de materiais orgânicos que emitem luz própria. Quando danificados, não há conserto — a troca do display é necessária. Na Reparo Avançado, utilizamos ${PECAS} AMOLED que reproduzem as mesmas cores vibrantes e o preto profundo da tela original. ${LOCAL_SEO}`,
     whenToSeek: "Assim que a mancha verde ou as linhas aparecerem. O problema tende a se espalhar rapidamente em telas AMOLED danificadas.",
     costInfo: `O valor depende do modelo Samsung (linha S, A, M, Z). Utilizamos displays ${PECAS}. avaliação gratuita. ${CTA_TEXT}.`,
     faq: [
@@ -566,13 +566,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "xiaomi-poco-reiniciando-sozinho-salvador",
     title: "Celular Reiniciando Sozinho? Entenda a Causa do Loop",
     h1: "Xiaomi e Poco Reiniciando Sozinho? O Problema Pode Estar na Bateria ou no sistema operacional",
-    metaDescription: "Xiaomi ou Poco reiniciando sozinho? avaliação gratuita para identificar se é bateria, sistema operacional ou circuito interno. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Xiaomi ou Poco reiniciando sozinho? avaliação gratuita para identificar se é bateria, sistema operacional ou circuito interno. Reparo Avançado - Boca do Rio, Salvador.",
     category: "xiaomi" as Category,
     brand: "Xiaomi",
     model: "Xiaomi/Poco",
     service: "avaliação Reinicialização",
     serviceSlug: "xiaomi-reiniciando-editorial",
-    description: "Descubra as causas de reinicialização em Xiaomi e Poco e como a conserto Avançado resolve cada uma delas.",
+    description: "Descubra as causas de reinicialização em Xiaomi e Poco e como a Reparo Avançado resolve cada uma delas.",
     isEditorial: true,
     keywords: ["xiaomi reiniciando sozinho", "poco reiniciando", "redmi reinicia sozinho", "xiaomi desligando salvador", "poco travando"],
     problems: [
@@ -603,7 +603,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "erro-umidade-samsung-conector-salvador",
     title: "Mau Contato no Carregador? Limpeza de Conector em Salvador",
     h1: "Erro de Umidade no Samsung: Como Resolvemos Sem Precisar Trocar o Conector",
-    metaDescription: "Samsung mostrando erro de umidade? Na maioria dos casos resolvemos sem trocar peça! conserto Avançado - Boca do Rio, Salvador. avaliação gratuita.",
+    metaDescription: "Samsung mostrando erro de umidade? Na maioria dos casos resolvemos sem trocar peça! Reparo Avançado - Boca do Rio, Salvador. avaliação gratuita.",
     category: "samsung" as Category,
     brand: "Samsung",
     model: "Galaxy",
@@ -624,7 +624,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Bug de sistema operacional após atualização One UI",
       "Sensor de umidade hipersensível"
     ],
-    solution: `Em 75% dos casos, o erro de umidade do Samsung é resolvido sem troca de peças. Na conserto Avançado, utilizamos limpeza ultrassônica do conector, remoção de micro-oxidação com solventes específicos, e recalibração do sensor de umidade via sistema operacional. Apenas quando há corrosão severa nos pinos é que a troca do conector se faz necessária. ${LOCAL_SEO}`,
+    solution: `Em 75% dos casos, o erro de umidade do Samsung é resolvido sem troca de peças. Na Reparo Avançado, utilizamos limpeza ultrassônica do conector, remoção de micro-oxidação com solventes específicos, e recalibração do sensor de umidade via sistema operacional. Apenas quando há corrosão severa nos pinos é que a troca do conector se faz necessária. ${LOCAL_SEO}`,
     whenToSeek: "Se o erro persistir após deixar o celular secar por 2 horas em ambiente ventilado. Se aparecer sem motivo aparente, pode ser oxidação que vai piorar.",
     costInfo: `Na maioria dos casos é uma limpeza técnica com valor acessível. avaliação gratuita. ${CTA_TEXT}.`,
     faq: [
@@ -645,7 +645,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     model: "Realme/Poco",
     service: "oficina Realme e Poco",
     serviceSlug: "loja-realme-poco-editorial",
-    description: "A conserto Avançado é referência em oficina de conserto de celular Realme e Poco em Salvador, com peças de qualidade e profissionals focados.",
+    description: "A Reparo Avançado é referência em oficina de conserto de celular Realme e Poco em Salvador, com peças de qualidade e profissionals focados.",
     isEditorial: true,
     keywords: ["oficina realme salvador", "oficina poco salvador", "pecas realme", "pecas poco", "conserto realme boca do rio"],
     problems: [
@@ -659,7 +659,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Rede autorizada ainda limitada em Salvador",
       "Falta de profissionals com experiência nessas marcas"
     ],
-    solution: `A conserto Avançado investe em capacitação constante para atender todas as marcas, incluindo Realme e Poco. Mantemos estoque de ${PECAS} para os modelos mais populares dessas marcas. Nossos profissionals conhecem as particularidades de componentes físicos de cada linha e realizam conserto com a mesma qualidade que oferecemos para iPhone e Samsung. ${LOCAL_SEO}`,
+    solution: `A Reparo Avançado investe em capacitação constante para atender todas as marcas, incluindo Realme e Poco. Mantemos estoque de ${PECAS} para os modelos mais populares dessas marcas. Nossos profissionals conhecem as particularidades de componentes físicos de cada linha e realizam conserto com a mesma qualidade que oferecemos para iPhone e Samsung. ${LOCAL_SEO}`,
     whenToSeek: "Para qualquer problema com seu Realme ou Poco. Somos uma das poucas oficinas em Salvador com peças e experiência real nessas marcas.",
     costInfo: `Preços justos e competitivos. Trabalhamos com ${PECAS} para todas as linhas Realme e Poco. ${CTA_TEXT}.`,
     faq: [
@@ -674,7 +674,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "motorola-nao-carrega-avaliacao-salvador",
     title: "Celular Não Carrega? Defeito no Conector ou Bateria?",
     h1: "Motorola Não Carrega? avaliação de Porta de Carga e Gerenciador de Energia",
-    metaDescription: "Motorola não carrega? Pode ser a porta USB ou o gerenciador de energia no circuito interno. avaliação gratuita na Boca do Rio, Salvador. conserto Avançado.",
+    metaDescription: "Motorola não carrega? Pode ser a porta USB ou o gerenciador de energia no circuito interno. avaliação gratuita na Boca do Rio, Salvador. Reparo Avançado.",
     category: "motorola" as Category,
     brand: "Motorola",
     model: "Moto",
@@ -711,7 +711,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "biometria-tela-parou-troca-amoled-salvador",
     title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Biometria na Tela Parou Após a Troca? A Importância de Telas AMOLED de Alta Performance",
-    metaDescription: "Leitor de digital na tela parou após trocar a tela? A qualidade do display AMOLED é crucial. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Leitor de digital na tela parou após trocar a tela? A qualidade do display AMOLED é crucial. Reparo Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
     brand: "Samsung",
     model: "Galaxy",
@@ -732,7 +732,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "ajuste presencial presencial sem calibração do sensor biométrico",
       "Película de vidro grosso bloqueando o sensor"
     ],
-    solution: `O sensor de digital sob a tela dos Samsung Galaxy S e A funciona com a tela AMOLED — se a tela for trocada por uma IPS/LCD genérica, a biometria para de funcionar. Na conserto Avançado, utilizamos exclusivamente telas AMOLED ${PECAS} que são compatíveis com o sensor ultrassônico. Após a troca, recalibramos o sensor para máxima precisão. ${LOCAL_SEO}`,
+    solution: `O sensor de digital sob a tela dos Samsung Galaxy S e A funciona com a tela AMOLED — se a tela for trocada por uma IPS/LCD genérica, a biometria para de funcionar. Na Reparo Avançado, utilizamos exclusivamente telas AMOLED ${PECAS} que são compatíveis com o sensor ultrassônico. Após a troca, recalibramos o sensor para máxima precisão. ${LOCAL_SEO}`,
     whenToSeek: "Se a biometria parou após troca de tela em outra oficina, traga para avaliarmos. Se precisa trocar a tela, venha direto para garantir que a biometria funcione.",
     costInfo: `Telas AMOLED de alta performance com biometria funcionando perfeitamente. Valor conforme modelo. ${CTA_TEXT}.`,
     faq: [
@@ -747,7 +747,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "recuperacao-conta-google-micloud-salvador",
     title: "restauração de Conta Google e Mi Cloud em Salvador? Diagnóstico em Salvador",
     h1: "restauração de Conta Google e Mi Cloud: conserto presencial Para Softwares Travados",
-    metaDescription: "Celular travado na conta Google (FRP) ou Mi Cloud? conserto presencial focado em Salvador. conserto Avançado - Boca do Rio.",
+    metaDescription: "Celular travado na conta Google (FRP) ou Mi Cloud? conserto presencial focado em Salvador. Reparo Avançado - Boca do Rio.",
     category: "xiaomi" as Category,
     brand: "Diversos",
     model: "Android",
@@ -772,7 +772,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     whenToSeek: "Quando seu celular ficar travado na tela de verificação de conta após restauração de fábrica ou quando não conseguir acessar por esquecimento de senha.",
     costInfo: `Valor acessível conforme a marca e modelo. Exigimos comprovação de propriedade do aparelho. ${CTA_TEXT}.`,
     faq: [
-      { question: "Vocês desbloqueiam celular roubado?", answer: "Absolutamente não. Realizamos o serviço exclusivamente mediante comprovação de propriedade (nota fiscal, documento de compra ou IMEI registrado). Esse é um compromisso ético da conserto Avançado." },
+      { question: "Vocês desbloqueiam celular roubado?", answer: "Absolutamente não. Realizamos o serviço exclusivamente mediante comprovação de propriedade (nota fiscal, documento de compra ou IMEI registrado). Esse é um compromisso ético da Reparo Avançado." },
       { question: "Quanto tempo leva para desbloquear conta Google?", answer: "O procedimento leva de 1 a 3 horas dependendo do modelo e versão do Android." },
       { question: "Perco meus dados no ajuste de sistema?", answer: "Na maioria dos casos de FRP, os dados já foram perdidos na restauração de fábrica. Para Mi Cloud, há possibilidade de preservar dados em alguns modelos." }
     ],
@@ -783,7 +783,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "troca-vidro-vs-tela-completa-economia-salvador",
     title: "Tela do Celular Quebrou? Conserto Rápido em Salvador",
     h1: "Troca de Vidro vs Troca de Tela Completa: Quando Você Pode Economizar no Conserto",
-    metaDescription: "Vidro do celular quebrado? Saiba quando pode trocar só o vidro e quando precisa trocar a tela completa. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Vidro do celular quebrado? Saiba quando pode trocar só o vidro e quando precisa trocar a tela completa. Reparo Avançado - Boca do Rio, Salvador.",
     category: "samsung" as Category,
     brand: "Diversos",
     model: "Smartphones",
@@ -803,11 +803,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Impacto que danificou vidro e display",
       "Pressão que causou trinca sem afetar o LCD/OLED"
     ],
-    solution: `A troca apenas do vidro (refurbish) é possível quando o LCD/OLED e o touch estão funcionando 100% — apenas a camada de vidro frontal está trincada. Na conserto Avançado, utilizamos máquina separadora profissional e OCA (adesivo óptico claro) para realizar a troca de vidro com acabamento de fábrica. Quando o display tem manchas, linhas ou touch com falha, a troca da tela completa é necessária. ${LOCAL_SEO}`,
+    solution: `A troca apenas do vidro (refurbish) é possível quando o LCD/OLED e o touch estão funcionando 100% — apenas a camada de vidro frontal está trincada. Na Reparo Avançado, utilizamos máquina separadora profissional e OCA (adesivo óptico claro) para realizar a troca de vidro com acabamento de fábrica. Quando o display tem manchas, linhas ou touch com falha, a troca da tela completa é necessária. ${LOCAL_SEO}`,
     whenToSeek: "Traga para avaliação gratuita — analisamos se o display interno está intacto e se a troca apenas do vidro é viável para o seu modelo.",
     costInfo: `A troca de vidro custa em média 40-60% menos que a troca de tela completa. avaliação gratuita para determinar a melhor opção. ${CTA_TEXT}.`,
     faq: [
-      { question: "Como saber se posso trocar só o vidro?", answer: "Se a tela mostra imagem perfeita (sem manchas, linhas ou cores estranhas) e o touch responde em todas as áreas, é provável que apenas o vidro esteja danificado. Trazendo à conserto Avançado, confirmamos com avaliação visual." },
+      { question: "Como saber se posso trocar só o vidro?", answer: "Se a tela mostra imagem perfeita (sem manchas, linhas ou cores estranhas) e o touch responde em todas as áreas, é provável que apenas o vidro esteja danificado. Trazendo à Reparo Avançado, confirmamos com avaliação visual." },
       { question: "A troca de vidro fica com a mesma qualidade?", answer: "Sim! Utilizamos OCA (adesivo óptico claro) e máquina profissional que garante acabamento sem bolhas e com a mesma transparência visual." },
       { question: "Para quais modelos é possível trocar só o vidro?", answer: "A viabilidade depende do modelo e do tipo de dano. Em geral, modelos Samsung Galaxy A e M são os mais indicados para troca de vidro. Modelos com tela curva (Galaxy S Ultra, Z Flip) geralmente exigem troca completa." }
     ],
@@ -821,14 +821,14 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   {
     slug: "limpeza-tecnica-celular-sexta-feira-salvador",
     title: "Limpeza Técnica de Celular: Nossa Rotina de Sexta-Feira? Diagnóstico em Salvador",
-    h1: "Limpeza Técnica de Celular: Por Que Fazemos Isso Toda Sexta-Feira na conserto Avançado",
-    metaDescription: "Na conserto Avançado, toda sexta-feira é dia de limpeza técnica! Saiba por que esse ritual melhora a vida útil do seu celular. Boca do Rio, Salvador.",
+    h1: "Limpeza Técnica de Celular: Por Que Fazemos Isso Toda Sexta-Feira na Reparo Avançado",
+    metaDescription: "Na Reparo Avançado, toda sexta-feira é dia de limpeza técnica! Saiba por que esse ritual melhora a vida útil do seu celular. Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
     service: "Limpeza Técnica",
     serviceSlug: "limpeza-tecnica-editorial",
-    description: "Conheça a rotina de limpeza técnica da conserto Avançado e por que a conserto preventiva é o melhor investimento para seu celular.",
+    description: "Conheça a rotina de limpeza técnica da Reparo Avançado e por que a conserto preventiva é o melhor investimento para seu celular.",
     isEditorial: true,
     keywords: ["limpeza técnica celular", "conserto celular", "limpeza interna celular", "limpeza preventiva celular", "cuidados celular salvador"],
     problems: [
@@ -843,7 +843,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de conserto preventiva",
       "Poeira, areia e fiapos que entram pelas aberturas"
     ],
-    solution: `Na conserto Avançado, toda sexta-feira realizamos nosso ritual de limpeza técnica para aparelhos de clientes. O processo inclui: abertura do aparelho, remoção de poeira com ar comprimido filtrado, limpeza dos conectores com solvente anti-estático, higienização das grades de áudio e microfone, e inspeção visual do circuito interno sob microscópio. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, toda sexta-feira realizamos nosso ritual de limpeza técnica para aparelhos de clientes. O processo inclui: abertura do aparelho, remoção de poeira com ar comprimido filtrado, limpeza dos conectores com solvente anti-estático, higienização das grades de áudio e microfone, e inspeção visual do circuito interno sob microscópio. ${LOCAL_SEO}`,
     whenToSeek: "Recomendamos limpeza técnica a cada 6 meses, ou a cada 3 meses para quem mora na orla de Salvador (Pituba, Costa Azul, Imbuí, Boca do Rio, Stiep).",
     costInfo: `Serviço preventivo com excelente custo-benefício. Pode evitar conserto caros no futuro. ${CTA_TEXT}.`,
     faq: [
@@ -858,7 +858,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "celular-esquentando-limpeza-interna-salvador",
     title: "Celular Esquentando Muito? Limpeza Interna Evita Queima? Diagnóstico em Salvador",
     h1: "Celular Esquentando Muito? Como a Limpeza Interna Evita a Queima do circuito interno",
-    metaDescription: "Celular esquentando demais? A limpeza interna pode evitar danos graves à circuito interno. avaliação gratuita na Boca do Rio, Salvador. conserto Avançado.",
+    metaDescription: "Celular esquentando demais? A limpeza interna pode evitar danos graves à circuito interno. avaliação gratuita na Boca do Rio, Salvador. Reparo Avançado.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -880,7 +880,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Bateria degradada gerando calor excessivo",
       "Apps em segundo plano consumindo processador"
     ],
-    solution: `O superaquecimento é um sinal de alerta que não deve ser ignorado. Na conserto Avançado, abrimos o aparelho, realizamos limpeza completa com ar comprimido filtrado, verificamos o estado da bateria (principal causa de aquecimento), e removemos qualquer obstrução no sistema de dissipação térmica. Para celulares com pasta térmica, realizamos a troca com pasta de alta condutividade. ${LOCAL_SEO}`,
+    solution: `O superaquecimento é um sinal de alerta que não deve ser ignorado. Na Reparo Avançado, abrimos o aparelho, realizamos limpeza completa com ar comprimido filtrado, verificamos o estado da bateria (principal causa de aquecimento), e removemos qualquer obstrução no sistema de dissipação térmica. Para celulares com pasta térmica, realizamos a troca com pasta de alta condutividade. ${LOCAL_SEO}`,
     whenToSeek: "Quando o celular esquentar a ponto de ser desconfortável ao toque, quando desligar por superaquecimento, ou quando o carregamento gerar calor excessivo.",
     costInfo: `Limpeza interna com valor acessível que protege o investimento no seu aparelho. ${CTA_TEXT}.`,
     faq: [
@@ -895,7 +895,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "microfone-ruim-ligacoes-poeira-salvador",
     title: "Áudio do WhatsApp Mudo ou Baixo? Conserto de Microfone",
     h1: "Microfone Ruim nas Ligações? Veja Como a Poeira é a Maior Inimiga do Seu Áudio",
-    metaDescription: "Ninguém te ouve nas ligações? A poeira no microfone pode ser a causa! Higienização profissional na Boca do Rio, Salvador. conserto Avançado.",
+    metaDescription: "Ninguém te ouve nas ligações? A poeira no microfone pode ser a causa! Higienização profissional na Boca do Rio, Salvador. Reparo Avançado.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -931,7 +931,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "higienizacao-conector-cabo-carregar-salvador",
     title: "Celular Não Carrega? Defeito no Conector ou Bateria?",
     h1: "Higienização de Conector: O Fim do 'Jeitinho' Para o Cabo Carregar",
-    metaDescription: "Precisa fazer 'jeitinho' para o cabo carregar? A limpeza do conector resolve em 80% dos casos! conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Precisa fazer 'jeitinho' para o cabo carregar? A limpeza do conector resolve em 80% dos casos! Reparo Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -951,7 +951,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Micro-oxidação nos pinos por umidade",
       "Resíduos de bolso (tecido, poeira, migalhas)"
     ],
-    solution: `Em 80% dos casos de carregamento intermitente, o problema é simplesmente sujeira compactada no fundo do conector. Na conserto Avançado, utilizamos ferramentas anti-estáticas e microscópio para remover toda obstrução dos pinos sem danificá-los. O resultado é carregamento firme e estável como novo. ${LOCAL_SEO}`,
+    solution: `Em 80% dos casos de carregamento intermitente, o problema é simplesmente sujeira compactada no fundo do conector. Na Reparo Avançado, utilizamos ferramentas anti-estáticas e microscópio para remover toda obstrução dos pinos sem danificá-los. O resultado é carregamento firme e estável como novo. ${LOCAL_SEO}`,
     whenToSeek: "Ao primeiro sinal de 'jeitinho' para carregar. Quanto mais tempo esperar, mais compactada fica a sujeira e maior o risco de oxidação nos pinos.",
     costInfo: `Serviço rápido (15-20 minutos) e com ótimo custo-benefício. Muito mais barato que trocar o conector. ${CTA_TEXT}.`,
     faq: [
@@ -966,7 +966,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "checklist-manutencao-preventiva-salvador",
     title: "Checklist de conserto Preventiva de Celular? Diagnóstico em Salvador",
     h1: "Checklist de conserto Preventiva: O Que Verificamos no Seu Aparelho",
-    metaDescription: "Conheça nosso checklist de conserto preventiva de celular com 15 pontos de verificação. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Conheça nosso checklist de conserto preventiva de celular com 15 pontos de verificação. Reparo Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -1001,7 +1001,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "poeira-lente-camera-limpeza-interna-salvador",
     title: "Câmera do Celular Embaçada ou Tremendo? Como Consertar",
     h1: "Poeira na Lente da Câmera? Como a Limpeza Interna Devolve a Nitidez às Suas Fotos",
-    metaDescription: "Fotos embaçadas ou com pontos? Pode ser poeira dentro da lente da câmera. Limpeza interna profissional na Boca do Rio, Salvador. conserto Avançado.",
+    metaDescription: "Fotos embaçadas ou com pontos? Pode ser poeira dentro da lente da câmera. Limpeza interna profissional na Boca do Rio, Salvador. Reparo Avançado.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -1021,7 +1021,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Vedação da câmera degradada por uso/queda",
       "Umidade condensada internamente"
     ],
-    solution: `Na conserto Avançado, abrimos o módulo da câmera em ambiente controlado e realizamos limpeza das lentes internas e do sensor com ferramentas ópticas de precisão. Removemos toda partícula de poeira e umidade, restaurando a nitidez original das fotos. Quando a lente de proteção externa está danificada, realizamos a substituição. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, abrimos o módulo da câmera em ambiente controlado e realizamos limpeza das lentes internas e do sensor com ferramentas ópticas de precisão. Removemos toda partícula de poeira e umidade, restaurando a nitidez original das fotos. Quando a lente de proteção externa está danificada, realizamos a substituição. ${LOCAL_SEO}`,
     whenToSeek: "Quando notar névoa, manchas ou pontos persistentes nas fotos que não desaparecem ao limpar a lente externa.",
     costInfo: `Limpeza interna de câmera com preço acessível. avaliação gratuita. ${CTA_TEXT}.`,
     faq: [
@@ -1036,7 +1036,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "vedacao-celular-protecao-agua-tempo-salvador",
     title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "Vedação de Celular: Por Que Seu Aparelho Perde a Proteção Contra Água com o Tempo",
-    metaDescription: "Sabia que a vedação do celular se degrada? Entenda por que e como manter a proteção contra água. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Sabia que a vedação do celular se degrada? Entenda por que e como manter a proteção contra água. Reparo Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -1057,12 +1057,12 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Quedas que descolam as juntas de vedação",
       "Calor extremo que resseca os adesivos"
     ],
-    solution: `A vedação contra água dos celulares utiliza borrachas e adesivos especiais que se degradam com o tempo, calor e impactos. Na conserto Avançado, após qualquer conserto que envolva abertura do aparelho, substituímos toda a vedação com adesivos de qualidade equivalente à original. Também oferecemos o serviço de revedação como conserto preventiva. ${LOCAL_SEO}`,
+    solution: `A vedação contra água dos celulares utiliza borrachas e adesivos especiais que se degradam com o tempo, calor e impactos. Na Reparo Avançado, após qualquer conserto que envolva abertura do aparelho, substituímos toda a vedação com adesivos de qualidade equivalente à original. Também oferecemos o serviço de revedação como conserto preventiva. ${LOCAL_SEO}`,
     whenToSeek: "Após 1 ano de uso, após qualquer conserto que abriu o aparelho, ou após quedas significativas. Se pretende usar o celular na praia ou piscina, considere a revedação.",
     costInfo: `Revedação como serviço avulso ou incluída em conserto que abrem o aparelho. ${CTA_TEXT}.`,
     faq: [
       { question: "A certificação IP68 é permanente?", answer: "Não! A vedação se degrada com o tempo, calor, quedas e uso. Após 1 ano, a proteção já não é a mesma de fábrica. A Apple inclusive não cobre danos por líquido na garantia." },
-      { question: "Após trocar a tela, o celular perde a vedação?", answer: "Sim, se a oficina não repuser o adesivo de vedação. Na conserto Avançado, sempre substituímos a vedação após qualquer conserto que envolva abertura do aparelho." },
+      { question: "Após trocar a tela, o celular perde a vedação?", answer: "Sim, se a oficina não repuser o adesivo de vedação. Na Reparo Avançado, sempre substituímos a vedação após qualquer conserto que envolva abertura do aparelho." },
       { question: "Posso levar meu celular na praia?", answer: "Com cautela. Mesmo celulares com IP68 novo não são resistentes a água salgada. Recomendamos capas impermeáveis para uso na praia e limpeza preventiva após exposição à maresia." }
     ],
     sections: [],
@@ -1072,7 +1072,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "cuidados-maresia-orla-salvador-limpeza",
     title: "Celular Caiu na Água? Não Coloque no Arroz! Desoxidação Urgente",
     h1: "Cuidados com a Maresia: Por Que Quem Mora na Orla de Salvador Precisa de Limpeza Técnica",
-    metaDescription: "Mora na orla de Salvador? A maresia corrói seu celular por dentro! Limpeza técnica focada na Boca do Rio. conserto Avançado.",
+    metaDescription: "Mora na orla de Salvador? A maresia corrói seu celular por dentro! Limpeza técnica focada na Boca do Rio. Reparo Avançado.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -1107,7 +1107,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "mitos-verdades-celular-no-arroz-salvador",
     title: "Mitos e Verdades: Celular no Arroz Funciona?? Diagnóstico em Salvador",
     h1: "Mitos e Verdades: Colocar o Celular no Arroz Realmente Funciona?",
-    metaDescription: "Celular molhado no arroz funciona? Desmistificamos esse e outros mitos sobre conserto. conserto Avançado - Boca do Rio, Salvador.",
+    metaDescription: "Celular molhado no arroz funciona? Desmistificamos esse e outros mitos sobre conserto. Reparo Avançado - Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Geral",
     model: "Todos",
@@ -1126,7 +1126,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de conhecimento profissional do público geral"
     ],
     solution: `Vamos desmentir os principais mitos: 1) ARROZ NÃO FUNCIONA — o arroz não remove umidade interna e pode introduzir amido nos conectores. 2) SECADOR DE CABELO É PERIGOSO — o calor pode derreter componentes e espalhar a umidade. 3) CONGELAR O CELULAR NÃO RESOLVE NADA — pode causar condensação interna. 4) PELÍCULA NÃO PROTEGE CONTRA QUEDAS FORTES — ela protege contra riscos, não contra impacto. 5) CELULAR 'À PROVA D'ÁGUA' NÃO É INDESTRUTÍVEL. A solução real é sempre buscar oficina de conserto de celular qualificada. ${LOCAL_SEO}`,
-    whenToSeek: "Sempre que tiver um problema com o celular. Não tente soluções caseiras que podem piorar o dano. avaliação gratuita na conserto Avançado.",
+    whenToSeek: "Sempre que tiver um problema com o celular. Não tente soluções caseiras que podem piorar o dano. avaliação gratuita na Reparo Avançado.",
     costInfo: `avaliação gratuita para qualquer problema. Pare de arriscar com mitos e tenha certeza com profissionais. ${CTA_TEXT}.`,
     faq: [
       { question: "Colocar o celular no arroz funciona?", answer: "NÃO. O arroz não absorve a umidade de dentro do celular. Pior, pode introduzir partículas de amido nos conectores e causar oxidação adicional. A solução correta é desoxidação profissional." },
@@ -1139,14 +1139,14 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   {
     slug: "reparo-avancado-melhor-avaliacao-boca-do-rio",
     title: "Por Que Somos a Melhor Avaliação da Boca do Rio? Diagnóstico em Salvador",
-    h1: "Por Que a conserto Avançado é a Melhor Avaliação da Boca do Rio? Nossos Processos profissionals",
-    metaDescription: "5 estrelas no Google com 31+ avaliações! Conheça os processos profissionals que fazem da conserto Avançado a melhor oficina da Boca do Rio, Salvador.",
+    h1: "Por Que a Reparo Avançado é a Melhor Avaliação da Boca do Rio? Nossos Processos profissionals",
+    metaDescription: "5 estrelas no Google com 31+ avaliações! Conheça os processos profissionals que fazem da Reparo Avançado a melhor oficina da Boca do Rio, Salvador.",
     category: "iphone" as Category,
-    brand: "conserto Avançado",
+    brand: "Reparo Avançado",
     model: "Institucional",
     service: "Nossos Processos",
     serviceSlug: "nossos-processos-editorial",
-    description: "Conheça os processos profissionals e a filosofia que tornam a conserto Avançado a oficina mais bem avaliada da Boca do Rio, Salvador.",
+    description: "Conheça os processos profissionals e a filosofia que tornam a Reparo Avançado a oficina mais bem avaliada da Boca do Rio, Salvador.",
     isEditorial: true,
     keywords: ["conserto avançado salvador", "melhor oficina de conserto de celular boca do rio", "oficina celular 5 estrelas salvador", "conserto celular qualidade salvador"],
     problems: [
@@ -1164,7 +1164,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     whenToSeek: "Para qualquer problema com seu celular ou notebook. Primeira consulta sempre gratuita.",
     costInfo: `avaliação gratuita. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
     faq: [
-      { question: "Quantas avaliações a conserto Avançado tem no Google?", answer: "Mais de 31 avaliações com nota máxima (5 estrelas). Nossos clientes destacam a transparência, qualidade das peças e atendimento profissional." },
+      { question: "Quantas avaliações a Reparo Avançado tem no Google?", answer: "Mais de 31 avaliações com nota máxima (5 estrelas). Nossos clientes destacam a transparência, qualidade das peças e atendimento profissional." },
       { question: "Vocês oferecem garantia nos conserto?", answer: "Sim! Todos os nossos serviços possuem garantia de 3 meses." },
       { question: "Posso acompanhar o conserto do meu celular?", answer: "Muitos conserto rápidos podem ser acompanhados na loja. Para serviços mais complexos, mantemos você atualizado pelo WhatsApp com fotos e vídeos do processo." }
     ],
@@ -1181,7 +1181,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     model: "Todos",
     service: "Aparelho Não Carrega",
     serviceSlug: "aparelho-nao-carrega",
-    description: "Quando o celular não carrega, muita gente pensa logo que o problema está na bateria. Mas nem sempre é assim. Em muitos casos, a falha pode estar no conector de carga, no carregador, em sujeira acumulada, oxidação ou até em algum componente do circuito interno.\n\nEsse tipo de defeito precisa ser avaliado com cuidado, principalmente quando o aparelho esquenta, carrega apenas em algumas posições, descarrega mesmo conectado ou não reconhece nenhum carregador.\n\nNeste artigo, a conserto Avançado explica as causas mais comuns para um celular parar de carregar, quais sinais merecem atenção e quando o ideal é procurar uma oficina de conserto de celular focada em Salvador.",
+    description: "Quando o celular não carrega, muita gente pensa logo que o problema está na bateria. Mas nem sempre é assim. Em muitos casos, a falha pode estar no conector de carga, no carregador, em sujeira acumulada, oxidação ou até em algum componente do circuito interno.\n\nEsse tipo de defeito precisa ser avaliado com cuidado, principalmente quando o aparelho esquenta, carrega apenas em algumas posições, descarrega mesmo conectado ou não reconhece nenhum carregador.\n\nNeste artigo, a Reparo Avançado explica as causas mais comuns para um celular parar de carregar, quais sinais merecem atenção e quando o ideal é procurar uma oficina de conserto de celular focada em Salvador.",
     isEditorial: true,
     keywords: ["celular nao carrega", "conector de carga", "bateria celular", "loja fisica salvador"],
     problems: [
@@ -1198,7 +1198,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Oxidação interna por umidade ou queda na água",
       "Curto-circuito na circuito lógico ou componentes de carga em curto"
     ],
-    solution: `Na conserto Avançado, realizamos um avaliação completa em todo o circuito de carga do celular. Isso inclui a inspeção visual com microscópio do conector, testes de voltagem e corrente da bateria, e análise térmica da circuito lógico para localizar curtos. O conserto é feito com a substituição do componente danificado (conector, bateria ou CI de carga) com peças premium de alta performance e garantia. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, realizamos um avaliação completa em todo o circuito de carga do celular. Isso inclui a inspeção visual com microscópio do conector, testes de voltagem e corrente da bateria, e análise térmica da circuito lógico para localizar curtos. O conserto é feito com a substituição do componente danificado (conector, bateria ou CI de carga) com peças premium de alta performance e garantia. ${LOCAL_SEO}`,
     whenToSeek: "Procure oficina de conserto de celular focada quando o aparelho não reconhecer nenhum cabo, carregar apenas em algumas posições, esquentar excessivamente durante a carga, descarrega mesmo conectado ou se tiver sofrido queda ou contato com umidade. O avaliação precoce previne danos mais graves aos circuitos internos.",
     costInfo: `O valor depende do modelo do aparelho e do avaliação exato. Oferecemos avaliação gratuita para identificar se o problema é resolvido com uma limpeza técnica, troca de conector, bateria ou conserto de circuito integrado. ${CTA_TEXT}.`,
     faq: [
@@ -1279,7 +1279,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "vale-pena-reparar-carga",
         title: "Vale a pena reparar um celular que não carrega?",
-        content: "Na maioria dos casos, sim. Problemas de carregamento costumam ter solução, principalmente quando identificados no início. O conserto pode envolver limpeza técnica, troca do conector, substituição da bateria ou conserto no circuito interno. O que define se vale a pena é o avaliação. Um profissional precisa avaliar o estado do aparelho, o custo da peça, o risco do conserto e o valor do modelo no mercado. Na conserto Avançado, o avaliação ajuda o cliente a entender se o conserto compensa antes de aprovar o serviço."
+        content: "Na maioria dos casos, sim. Problemas de carregamento costumam ter solução, principalmente quando identificados no início. O conserto pode envolver limpeza técnica, troca do conector, substituição da bateria ou conserto no circuito interno. O que define se vale a pena é o avaliação. Um profissional precisa avaliar o estado do aparelho, o custo da peça, o risco do conserto e o valor do modelo no mercado. Na Reparo Avançado, o avaliação ajuda o cliente a entender se o conserto compensa antes de aprovar o serviço."
       },
       {
         id: "quando-procurar-carga",
@@ -1289,7 +1289,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "loja-salvador-carga",
         title: "oficina de conserto de celular em Salvador para celular que não carrega",
-        content: "A conserto Avançado realiza avaliação profissional em celulares com falha de carregamento em Salvador, avaliando conector, bateria, circuito interno, oxidação e demais componentes relacionados ao sistema de carga. A análise correta evita troca desnecessária de peças e ajuda a identificar a origem real do defeito."
+        content: "A Reparo Avançado realiza avaliação profissional em celulares com falha de carregamento em Salvador, avaliando conector, bateria, circuito interno, oxidação e demais componentes relacionados ao sistema de carga. A análise correta evita troca desnecessária de peças e ajuda a identificar a origem real do defeito."
       }
     ],
     relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "reparo-face-id-iphone-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "face-id-nao-funciona-iphone-causas"]
@@ -1304,7 +1304,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     model: "iPhone",
     service: "conserto de Face ID",
     serviceSlug: "reparo-face-id-editorial",
-    description: "O Face ID é um dos sistemas mais sensíveis do iPhone. Quando ele para de funcionar, o problema pode estar relacionado a sistema operacional, queda, oxidação, troca de tela mal executada, falha na câmera TrueDepth ou defeito em componentes do circuito interno.\n\nMuita gente tenta resolver apenas redefinindo o Face ID nos ajustes, mas quando existe falha física, o problema não volta sozinho. Em alguns casos, uma intervenção incorreta pode piorar a situação e tornar o conserto mais difícil.\n\nNeste artigo, a conserto Avançado explica as principais causas do Face ID não funcionar e quando é necessário procurar uma oficina de conserto de celular focada em conserto avançados.",
+    description: "O Face ID é um dos sistemas mais sensíveis do iPhone. Quando ele para de funcionar, o problema pode estar relacionado a sistema operacional, queda, oxidação, troca de tela mal executada, falha na câmera TrueDepth ou defeito em componentes do circuito interno.\n\nMuita gente tenta resolver apenas redefinindo o Face ID nos ajustes, mas quando existe falha física, o problema não volta sozinho. Em alguns casos, uma intervenção incorreta pode piorar a situação e tornar o conserto mais difícil.\n\nNeste artigo, a Reparo Avançado explica as principais causas do Face ID não funcionar e quando é necessário procurar uma oficina de conserto de celular focada em conserto avançados.",
     isEditorial: true,
     keywords: ["face id nao funciona", "sensor truedepth", "conserto face id salvador", "troca de tela iphone"],
     problems: [
@@ -1321,7 +1321,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Danos no conjunto TrueDepth ou conexões internas",
       "Defeito em circuitos específicos na circuito lógico"
     ],
-    solution: `Na conserto Avançado, realizamos o avaliação focado e o conserto do sistema TrueDepth. Fazemos a análise sob microscópio de precisão, realizamos micro-soldagem em flexíveis danificados ou transferimos componentes essenciais com autorização técnica. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, realizamos o avaliação focado e o conserto do sistema TrueDepth. Fazemos a análise sob microscópio de precisão, realizamos micro-soldagem em flexíveis danificados ou transferimos componentes essenciais com autorização técnica. ${LOCAL_SEO}`,
     whenToSeek: "Procure oficina de conserto de celular focada no momento em que notar falhas no reconhecimento facial, principalmente após o iPhone cair ou molhar. O conserto precoce evita o agravamento de curtos nos sensores.",
     costInfo: `O valor do conserto do Face ID depende do modelo do iPhone e do nível de dano nos sensores ou chapa flex. O avaliação inicial é gratuito. ${CTA_TEXT}.`,
     faq: [
@@ -1393,12 +1393,12 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "cuidados-reparos",
         title: "Cuidado com conserto não focados",
-        content: "O Face ID exige conhecimento profissional e cuidado. Uma tentativa de conserto sem experiência pode danificar componentes sensíveis, comprometer sensores e reduzir as chances de restauração. oficinas não focadas podem trocar peças sem necessidade ou causar danos em áreas próximas ao conjunto frontal do aparelho. Na conserto Avançado, a análise é feita com foco em identificar a causa real do problema antes de indicar qualquer serviço."
+        content: "O Face ID exige conhecimento profissional e cuidado. Uma tentativa de conserto sem experiência pode danificar componentes sensíveis, comprometer sensores e reduzir as chances de restauração. oficinas não focadas podem trocar peças sem necessidade ou causar danos em áreas próximas ao conjunto frontal do aparelho. Na Reparo Avançado, a análise é feita com foco em identificar a causa real do problema antes de indicar qualquer serviço."
       },
       {
         id: "loja-face-id",
         title: "oficina de conserto de celular para Face ID em Salvador",
-        content: "A conserto Avançado realiza avaliação profissional em iPhones com falha no Face ID em Salvador. A avaliação considera histórico de queda, contato com líquido, troca de tela anterior, funcionamento da câmera frontal, mensagens de erro e possíveis falhas em circuito interno. Nosso foco é oferecer uma análise segura, técnica e transparente antes de qualquer conserto."
+        content: "A Reparo Avançado realiza avaliação profissional em iPhones com falha no Face ID em Salvador. A avaliação considera histórico de queda, contato com líquido, troca de tela anterior, funcionamento da câmera frontal, mensagens de erro e possíveis falhas em circuito interno. Nosso foco é oferecer uma análise segura, técnica e transparente antes de qualquer conserto."
       }
     ],
     relatedSlugs: ["reparo-face-id-iphone-salvador", "troca-tela-iphone-true-tone-salvador", "celular-nao-carrega-causas-solucoes", "audio-iphone-baixo-ruido-higienizacao-salvador"]

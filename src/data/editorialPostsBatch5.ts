@@ -356,7 +356,7 @@ export const editorialPostsBatch5: BlogPost[] = [
     category: "conserto",
     brand: "Geral",
     model: "Todos",
-    service: "Diagnóstico Avançado",
+    service: "Reparo Avançado",
     serviceSlug: "reparo-em-placa",
     description: "Você acabou de tirar da tomada em 100%. Nem usou, botou no bolso. Uma hora depois sua perna está fritando de calor. Você olha, e a bateria já caiu pra 60%. Isso é desesperador.",
     tldr: "Se o celular ferve 'parado', o vilão raramente é a bateria. Isso é sinal claro de 'Fuga de Corrente' (Short Circuit): algum componente defeituoso na placa-mãe do celular está drenando a eletricidade desesperadamente e transformando em calor. Trocamos o chip em curto e a temperatura e a durabilidade da bateria voltam ao normal instantaneamente.",
