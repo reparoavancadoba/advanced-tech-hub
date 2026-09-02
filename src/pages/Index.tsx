@@ -1,12 +1,12 @@
 import HeroSection from "@/components/HeroSection";
-import BrandsSection from "@/components/BrandsSection";
-import ServicesSection from "@/components/ServicesSection";
+import ProofLocationSection from "@/components/home/ProofLocationSection";
 import HomeSeoSection from "@/components/HomeSeoSection";
-
+import ServicesSection from "@/components/ServicesSection";
+import BrandsSection from "@/components/BrandsSection";
+import GallerySection from "@/components/home/GallerySection";
+import HowItWorksSection from "@/components/home/HowItWorksSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import SiteLayout from "@/components/SiteLayout";
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
@@ -35,21 +35,13 @@ const Index = () => {
       </Helmet>
       
       <HeroSection />
-      <BrandsSection />
-      <ServicesSection />
-      
-      <div className="container mx-auto px-4 py-4 mb-8 text-center">
-        <Link
-          to="/servicos"
-          className="inline-flex items-center gap-2 text-primary hover:underline font-semibold text-lg"
-        >
-          Ver todos os serviços detalhados <ArrowRight className="w-4 h-4" />
-        </Link>
-      </div>
-
-      <TestimonialsSection />
-      
+      <ProofLocationSection />
       <HomeSeoSection />
+      <ServicesSection />
+      <BrandsSection />
+      <GallerySection />
+      <HowItWorksSection />
+      <TestimonialsSection />
     </SiteLayout>
   );
 };

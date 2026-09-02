@@ -9,7 +9,7 @@ const badges = [
 
 const ProofLocationSection = () => {
   return (
-    <section className="bg-zinc-900 text-white py-6 px-4 md:px-8 border-b border-zinc-800">
+    <section className="bg-zinc-950/80 text-zinc-300 py-6 px-4 md:px-8 border-b border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {badges.map((badge, idx) => (
