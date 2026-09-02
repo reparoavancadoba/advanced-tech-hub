@@ -19,7 +19,7 @@ const realReviews = [
   { name: "Marcos Caldas", time: "Há 22 semanas", text: "Excelente serviço! Achei que teria que trocar o celular, mas eles conseguiram recuperar o circuito interno. Fiquei impressionado com a agilidade e a transparência do atendimento. Voltarei sempre que precisar!" },
 ];
 
-const colors = ["bg-blue-600", "bg-emerald-600", "bg-purple-600", "bg-amber-600", "bg-rose-600", "bg-cyan-600"];
+const colors = ["bg-zinc-800", "bg-zinc-700", "bg-zinc-900"];
 
 const NewReviews = () => {
   const [current, setCurrent] = useState(0);
@@ -36,9 +36,9 @@ const NewReviews = () => {
   }, [next]);
 
   return (
-    <section className="bg-zinc-950 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 border-y border-white/5 overflow-hidden">
+    <section className="bg-[#0066FF] text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center">O que nossos clientes dizem</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-white">O que nossos clientes dizem</h2>
         
         <div className="relative">
           <div
@@ -57,20 +57,20 @@ const NewReviews = () => {
                   className="flex-shrink-0 px-4"
                   style={{ width: `${100 / itemsPerView}%` }}
                 >
-                  <div className="bg-zinc-900 border border-white/5 p-8 rounded-2xl flex flex-col gap-6 h-full shadow-lg">
+                  <div className="bg-white p-8 rounded-2xl flex flex-col gap-6 h-full shadow-lg border border-zinc-100">
                     <div className="flex items-center gap-4">
-                      <div className={`w-14 h-14 rounded-full flex items-center justify-center font-bold text-white shadow-lg ${colorClass} text-xl`}>
+                      <div className={`w-14 h-14 rounded-full flex items-center justify-center font-bold text-white shadow-md ${colorClass} text-xl`}>
                         {initials}
                       </div>
                       <div>
-                        <h4 className="text-base md:text-lg font-semibold mb-2">{rev.name}</h4>
-                        <p className="text-sm text-zinc-400">{rev.time}</p>
+                        <h4 className="text-base md:text-lg font-semibold mb-2 text-zinc-900">{rev.name}</h4>
+                        <p className="text-sm text-zinc-500">{rev.time}</p>
                       </div>
                     </div>
                     <div className="flex gap-1">
-                      {[...Array(5)].map((_, j) => <Star key={j} className="w-5 h-5 fill-blue-500 text-blue-500" />)}
+                      {[...Array(5)].map((_, j) => <Star key={j} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
                     </div>
-                    <p className="text-sm md:text-base text-zinc-300 leading-relaxed italic">"{rev.text}"</p>
+                    <p className="text-sm md:text-base text-zinc-700 leading-relaxed italic">"{rev.text}"</p>
                   </div>
                 </div>
               );
@@ -83,7 +83,7 @@ const NewReviews = () => {
                 key={i}
                 onClick={() => setCurrent(i)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  i === current ? "bg-blue-500 scale-125" : "bg-zinc-700 hover:bg-zinc-500"
+                  i === current ? "bg-white scale-125" : "bg-white/40 hover:bg-white/60"
                 }`}
                 aria-label={`Ir para slide ${i + 1}`}
               />
