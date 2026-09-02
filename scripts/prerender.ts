@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { allPosts } from '../src/data/blogData';
@@ -12,7 +12,7 @@ const distPath = path.resolve(__dirname, '../dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
 if (!fs.existsSync(indexHtmlPath)) {
-  console.error("ERRO: dist/index.html não encontrado. Rode 'npm run build' primeiro.");
+  console.error("ERRO: dist/index.html nÃ£o encontrado. Rode 'npm run build' primeiro.");
   process.exit(1);
 }
 
@@ -32,8 +32,8 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   html = html.replace(/<meta name="twitter:title" content=".*?"\s*\/?>/, `<meta name="twitter:title" content="${title}">`);
   html = html.replace(/<meta name="twitter:description" content=".*?"\s*\/?>/, `<meta name="twitter:description" content="${description}">`);
 
-  // Montar conteúdo legível para o Googlebot dentro do <div id="root">
-  // Quando o React carregar (createRoot), ele vai sobrescrever isso de forma invisível para o usuário, mas o Google já terá lido o código-fonte!
+  // Montar conteÃºdo legÃ­vel para o Googlebot dentro do <div id="root">
+  // Quando o React carregar (createRoot), ele vai sobrescrever isso de forma invisÃ­vel para o usuÃ¡rio, mas o Google jÃ¡ terÃ¡ lido o cÃ³digo-fonte!
   const seoContent = `
     <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" data-seo-prerender="true">
       <header>
@@ -42,10 +42,10 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
       <main>
         <p><strong>Resumo:</strong> ${description}</p>
         ${contentHtml}
-        ${faqHtml ? `<h2>Dúvidas Frequentes (FAQ)</h2>${faqHtml}` : ''}
+        ${faqHtml ? `<h2>DÃºvidas Frequentes (FAQ)</h2>${faqHtml}` : ''}
       </main>
       <footer>
-        <a href="https://wa.me/5571999999999">Fale com um Técnico no WhatsApp</a>
+        <a href="https://wa.me/5571999999999">Fale com um TÃ©cnico no WhatsApp</a>
       </footer>
     </div>
   `;
@@ -53,7 +53,7 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   // Injetar no root
   html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
 
-  // Criar diretório e salvar arquivo
+  // Criar diretÃ³rio e salvar arquivo
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
@@ -63,7 +63,7 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   console.log(`Gerado SSG: ${urlPath} -> index.html`);
 }
 
-// 1. Gerar Páginas do Blog
+// 1. Gerar PÃ¡ginas do Blog
 import { BAIRROS, BUSINESS_ADDRESS } from '../src/data/blogData';
 
 allPosts.forEach(post => {
@@ -73,7 +73,7 @@ allPosts.forEach(post => {
   const h1 = post.h1;
   
   let contentHtml = `<p><strong>Resumo:</strong> ${description}</p>`;
-  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;
+  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo RÃ¡pido)</h2><p>${post.tldr}</p>`;
   
   contentHtml += `<h2>O Problema: ${post.service} ${post.model}</h2>`;
   if (post.problems && post.problems.length) contentHtml += `<ul>${post.problems.map(p => `<li>${p}</li>`).join('')}</ul>`;
@@ -91,8 +91,8 @@ allPosts.forEach(post => {
      }).join('');
   }
 
-  if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2><p>${post.solution}</p>`;
-  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2><p>${post.whenToSeek}</p>`;
+  if (post.solution) contentHtml += `<h2>SoluÃ§Ã£o TÃ©cnica da Reparo AvanÃ§ado</h2><p>${post.solution}</p>`;
+  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo AvanÃ§ado</h2><p>${post.whenToSeek}</p>`;
   if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2><p>${post.costInfo}</p>`;
 
   let faqHtml = '';
@@ -100,45 +100,65 @@ allPosts.forEach(post => {
     faqHtml = post.faq.map(f => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
   }
 
-  let bairrosHtml = `<h2>Atendimento em Salvador – Boca do Rio</h2><p>A Reparo Avançado está localizada na ${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>${BAIRROS.join(', ')}</p>`;
+  let bairrosHtml = `<h2>Atendimento em Salvador â€“ Boca do Rio</h2><p>A Reparo AvanÃ§ado estÃ¡ localizada na ${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>${BAIRROS.join(', ')}</p>`;
   
-  // Substituir os headers hardcoded no seoContent padrão (já que eles variam ou nós customizamos acima)
+  // Substituir os headers hardcoded no seoContent padrÃ£o (jÃ¡ que eles variam ou nÃ³s customizamos acima)
   const fullContent = contentHtml + (faqHtml ? `<h2>Perguntas Frequentes</h2>${faqHtml}` : '') + bairrosHtml;
 
   generatePage(urlPath, title, description, h1, fullContent, '');
 });
 
-// 2. Gerar Páginas de Bairros (LocalConsolidado) - Agora Macro Regiões
+// 2. Gerar PÃ¡ginas de Bairros (LocalConsolidado) - Agora Macro RegiÃµes
 import { macroRegioes } from '../src/data/locaisData';
 
 macroRegioes.forEach(macro => {
   const urlPath = `/assistencia-tecnica-${macro.slug}`;
-  const title = `Assistência Técnica de Celular na ${macro.name} | Reparo Avançado`;
-  const description = `Precisando consertar celular na região da ${macro.name}, Salvador? A Reparo Avançado oferece diagnóstico grátis e conserto na hora.`;
-  const h1 = `Assistência Técnica na ${macro.name}`;
-  const contentHtml = `<p>Atendemos rapidamente em toda a região, cobrindo especificamente os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>. Serviços de troca de tela, bateria, e reparo em placa.</p>`;
+  const title = `AssistÃªncia TÃ©cnica de Celular na ${macro.name} | Reparo AvanÃ§ado`;
+  const description = `Precisando consertar celular na regiÃ£o da ${macro.name}, Salvador? A Reparo AvanÃ§ado oferece diagnÃ³stico grÃ¡tis e conserto na hora.`;
+  const h1 = `AssistÃªncia TÃ©cnica na ${macro.name}`;
+  const contentHtml = `<p>Atendemos rapidamente em toda a regiÃ£o, cobrindo especificamente os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>. ServiÃ§os de troca de tela, bateria, e reparo em placa.</p>`;
   generatePage(urlPath, title, description, h1, contentHtml);
 });
 
 allConsolidatedServices.forEach(servico => {
   const urlPath = `/${servico.slug}`;
   const title = `${servico.title} | Na Hora & Garantia`;
-  const description = `Especialistas em ${servico.h1} em Salvador. Serviços rápidos para iPhone, Samsung e Motorola com peças originais e garantia.`;
+  const description = `Especialistas em ${servico.h1} em Salvador. ServiÃ§os rÃ¡pidos para iPhone, Samsung e Motorola com peÃ§as originais e garantia.`;
   const h1 = servico.title;
   const contentHtml = `<p>${servico.description}</p>`;
   generatePage(urlPath, title, description, h1, contentHtml);
 });
 
-// 4. Gerar Páginas Programáticas (Bairro + Serviço) - Agora Macro Regiões
+// 4. Gerar PÃ¡ginas ProgramÃ¡ticas (Bairro + ServiÃ§o) - Agora Macro RegiÃµes
 allConsolidatedServices.forEach(servico => {
   macroRegioes.forEach(macro => {
     const urlPath = `/conserto/${servico.slug}/na/${macro.slug}`;
     const title = `${servico.h1} na ${macro.name} | Na Hora & Garantia`;
-    const description = `Precisando de ${servico.h1.toLowerCase()} na região da ${macro.name}, Salvador? Conte com a Reparo Avançado. Avaliação gratuita!`;
+    const description = `Precisando de ${servico.h1.toLowerCase()} na regiÃ£o da ${macro.name}, Salvador? Conte com a Reparo AvanÃ§ado. AvaliaÃ§Ã£o gratuita!`;
     const h1 = `${servico.h1} na ${macro.name}`;
-    const contentHtml = `<p>Oferecemos o serviço de ${servico.h1.toLowerCase()} com atendimento dedicado para moradores e trabalhadores de toda a região, incluindo os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>.</p>`;
+    const contentHtml = `<p>Oferecemos o serviÃ§o de ${servico.h1.toLowerCase()} com atendimento dedicado para moradores e trabalhadores de toda a regiÃ£o, incluindo os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>.</p>`;
     generatePage(urlPath, title, description, h1, contentHtml);
   });
 });
 
-console.log('✅ SSG Pré-renderização concluída com sucesso!');
+console.log('âœ… SSG PrÃ©-renderizaÃ§Ã£o concluÃ­da com sucesso!');
+
+// 5. Injetar SEO da Homepage (index.html)
+const homepageSeoContent = `\n  <div class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+    <h1>AssistÃªncia tÃ©cnica de celulares e notebooks com diagnÃ³stico tÃ©cnico e peÃ§as de qualidade.</h1>
+    <p>Mais de 7 anos cuidando do que Ã© importante pra vocÃª. Boca do Rio, Salvador - BA.</p>
+    <ul>
+      <li>+7 anos de experiÃªncia</li>
+      <li>+164 avaliaÃ§Ãµes 5 estrelas no Google</li>
+      <li>PeÃ§as de qualidade</li>
+      <li>Garantia no serviÃ§o</li>
+    </ul>
+  </div>\n`;
+
+let homepageHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
+homepageHtml = homepageHtml.replace('<div id="root"></div>', `<div id="root">${homepageSeoContent}</div>`);
+fs.writeFileSync(indexHtmlPath, homepageHtml);
+console.log('Gerado SSG: / (homepage) -> index.html (conteudo SEO do Hero injetado)');
+
+
+

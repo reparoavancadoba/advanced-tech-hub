@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+﻿import { MessageCircle } from "lucide-react";
 
 const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
