@@ -1,11 +1,13 @@
 import HeroSection from "@/components/HeroSection";
 import TickerSection from "@/components/home/TickerSection";
-import HomeSeoSection from "@/components/HomeSeoSection";
-import ServicesSection from "@/components/ServicesSection";
-import BrandsSection from "@/components/BrandsSection";
-import GallerySection from "@/components/home/GallerySection";
-import HowItWorksSection from "@/components/home/HowItWorksSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import NewCtaBlock from "@/components/home/NewCtaBlock";
+import NewWhatWeDo from "@/components/home/NewWhatWeDo";
+import NewWhyChooseUs from "@/components/home/NewWhyChooseUs";
+import NewSpecialty from "@/components/home/NewSpecialty";
+import NewAboutUs from "@/components/home/NewAboutUs";
+import NewReviews from "@/components/home/NewReviews";
+import NewHowItWorks from "@/components/home/NewHowItWorks";
+import NewFinalCta from "@/components/home/NewFinalCta";
 import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 
@@ -36,12 +38,14 @@ const Index = () => {
       
       <HeroSection />
       <TickerSection />
-      <HomeSeoSection />
-      <ServicesSection />
-      <BrandsSection />
-      <GallerySection />
-      <HowItWorksSection />
-      <TestimonialsSection />
+      <NewCtaBlock />
+      <NewWhatWeDo />
+      <NewWhyChooseUs />
+      <NewSpecialty />
+      <NewAboutUs />
+      <NewReviews />
+      <NewHowItWorks />
+      <NewFinalCta />
     </SiteLayout>
   );
 };
