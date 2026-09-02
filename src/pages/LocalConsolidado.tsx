@@ -181,7 +181,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
                 ⭐ 4.9 no Google
               </span>
               <span className="inline-flex items-center gap-1.5 bg-primary/10 text-primary font-semibold px-3 py-1 rounded-full">
-                <Shield className="w-3.5 h-3.5" /> 9 anos de experiência
+                <Shield className="w-3.5 h-3.5" /> mais de 7 anos de experiência
               </span>
               <span className="inline-flex items-center gap-1.5 bg-green-500/10 text-green-600 font-semibold px-3 py-1 rounded-full">
                 <Wrench className="w-3.5 h-3.5" /> +15.000 reparos realizados

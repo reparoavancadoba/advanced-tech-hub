@@ -122,7 +122,7 @@ const Orcamento = () => {
           <div className="bg-card border-2 border-whatsapp/30 rounded-2xl p-8 shadow-lg">
             <p className="text-2xl font-bold mb-2">✅ Mais de 5.000 aparelhos reparados</p>
             <p className="text-muted-foreground text-sm mb-1">⭐ Avaliação 5.0/5 · 153 avaliações no Google</p>
-            <p className="text-xs text-muted-foreground mb-6">9 anos de experiência em Salvador - BA</p>
+            <p className="text-xs text-muted-foreground mb-6">mais de 7 anos de experiência em Salvador - BA</p>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -47,10 +47,10 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     slug: "salvador",
     path: "/loja-tecnica-salvador",
     name: "Salvador",
-    title: "oficina de conserto de celular de Celular em Salvador | conserto Avançado",
-    h1: "oficina de conserto de celular de Celular em Salvador",
+    title: "oficina de conserto de celular em Salvador | conserto Avançado",
+    h1: "oficina de conserto de celular em Salvador",
     metaDescription: "conserto focado de iPhone, Samsung, Xiaomi e circuito lógico em Salvador. Atendimento rápido com peças premium e garantia. Faça seu orçamento!",
-    description: "A conserto Avançado é referência em oficina de conserto de celular em Salvador (BA). Com mais de 9 anos de experiência e laboratório focado de alta tecnologia, oferecemos conserto rápidos e garantia formal em todos os serviços.",
+    description: "A conserto Avançado é referência em oficina de conserto de celular em Salvador (BA). Com mais de mais de 7 anos de experiência e laboratório focado de alta tecnologia, oferecemos conserto rápidos e garantia formal em todos os serviços.",
     schema: {
       ...baseSchema,
       name: "conserto Avançado - oficina de conserto de celular de Celulares em Salvador",
