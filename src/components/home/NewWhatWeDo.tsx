@@ -10,7 +10,7 @@ const services = [
   { name: "Notebooks", icon: Laptop },
 ];
 const NewWhatWeDo = () => (
-  <section className="bg-zinc-950 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8">
+  <section className="bg-zinc-950 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 bg-cover bg-center relative" style={{ backgroundImage: "url('/images/bg-circuit.png')" }}>
     <div className="max-w-6xl mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center">O que fazemos</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
