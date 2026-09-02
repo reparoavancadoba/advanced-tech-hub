@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight, Clock, Sparkles, AlertTriangle, Info } from "lucide-react";
 import { getPostBySlug, allPosts, BAIRROS, BUSINESS_ADDRESS, categoryLabels } from "@/data/blogData";
 import SiteLayout from "@/components/SiteLayout";
+import AuthorBlock from "@/components/blog/AuthorBlock";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -223,27 +224,12 @@ const BlogPost = () => {
           </h1>
 
           {/* Visual Metadata Block */}
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground mb-8 border-b border-border pb-4">
-            <div className="flex items-center gap-1">
-              <span>Por:</span>
-              <span className="font-bold text-foreground">{post.author || "Paulo Lopes"}</span>
-            </div>
-            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
-            <div className="flex items-center gap-1">
-              <span>Publicado:</span>
-              <span className="font-semibold text-muted-foreground">{post.datePublished || "01/06/2026"}</span>
-            </div>
-            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
-            <div className="flex items-center gap-1">
-              <span>Atualizado:</span>
-              <span className="font-semibold text-muted-foreground">{post.dateModified || "05/06/2026"}</span>
-            </div>
-            <div className="w-1 h-1 rounded-full bg-muted-foreground hidden sm:block" />
-            <div className="flex items-center gap-1 text-primary font-semibold">
-              <Clock className="w-3.5 h-3.5 text-primary" />
-              <span>Leitura: {readingTime} min</span>
-            </div>
-          </div>
+          <AuthorBlock 
+            authorName={post.author} 
+            datePublished={post.datePublished} 
+            dateModified={post.dateModified} 
+            readingTime={readingTime} 
+          />
 
           {/* Description */}
           <p className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-8 font-medium">
