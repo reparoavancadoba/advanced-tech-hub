@@ -17,6 +17,7 @@ import ProgrammaticSEO from "./pages/ProgrammaticSEO.tsx";
 import Orcamento from "./pages/Orcamento.tsx";
 import Contato from "./pages/Contato.tsx";
 import Localizacao from "./pages/Localizacao.tsx";
+import GuiaAssistencia from "./pages/GuiaAssistencia.tsx";
 import WhatsAppRedirect from "./pages/WhatsAppRedirect.tsx";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/locais-de-atendimento" element={<LocaisDeAtendimento />} />
 
+            <Route path="/guia-assistencia-tecnica-salvador" element={<GuiaAssistencia />} />
             {/* Páginas Institucionais (Google Ads Sitelinks) */}
             <Route path="/orcamento" element={<Orcamento />} />
             <Route path="/contato" element={<Contato />} />
