@@ -150,7 +150,7 @@ const homepageSeoContent = `\n  <div class="sr-only" style="position:absolute;wi
     <ul>
       <li>+7 anos de experiência</li>
       <li>+164 avaliações 5 estrelas no Google</li>
-      <li>PeÃ§as de qualidade</li>
+      <li>Peças de qualidade</li>
       <li>Garantia no serviço</li>
     </ul>
   </div>\n`;
