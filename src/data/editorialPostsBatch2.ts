@@ -70,7 +70,7 @@ export const editorialPostsBatch2: BlogPost[] = [
     model: "Todos",
     service: "Diagnóstico",
     serviceSlug: "melhor-assistencia-salvador",
-    description: "Entenda nossos processos, desde o diagnóstico avançado até a entrega, e veja por que somos referência em Salvador.",
+    description: "Entenda nossos processos, desde o Reparo Avançado até a entrega, e veja por que somos referência em Salvador.",
     isEditorial: true,
     keywords: ["melhor assistência técnica celular salvador", "reparo avançado salvador", "assistência de confiança salvador"],
     problems: [

@@ -125,13 +125,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "iphone-nao-liga-avaliacao-placa-salvador",
     title: "iPhone Não Liga ou Travado na Maçã? avaliação de circuito em Salvador",
     h1: "iPhone Não Liga ou Travado na Maçã? Reparo Avançado de circuito integrado na Boca do Rio",
-    metaDescription: "iPhone não liga ou travou na maçã? avaliação avançado de circuito integrado com reballing de processador em Salvador. Recuperamos aparelhos dados como perdidos!",
+    metaDescription: "iPhone não liga ou travou na maçã? Reparo Avançado de circuito integrado com reballing de processador em Salvador. Recuperamos aparelhos dados como perdidos!",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
     service: "avaliação de circuito",
     serviceSlug: "avaliacao-placa-iphone-editorial",
-    description: "Seu iPhone não liga ou ficou travado na maçã? Entenda como o avaliação avançado de circuito integrado pode salvar seu aparelho na Reparo Avançado.",
+    description: "Seu iPhone não liga ou ficou travado na maçã? Entenda como o Reparo Avançado de circuito integrado pode salvar seu aparelho na Reparo Avançado.",
     isEditorial: true,
     keywords: ["iphone não liga", "iphone travado na maçã", "conserto de circuito integrado iphone", "reballing processador iphone", "curto circuito iphone salvador"],
     problems: [
@@ -1148,7 +1148,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     serviceSlug: "nossos-processos-editorial",
     description: "Conheça os processos profissionals e a filosofia que tornam a Reparo Avançado a oficina mais bem avaliada da Boca do Rio, Salvador.",
     isEditorial: true,
-    keywords: ["conserto avançado salvador", "melhor oficina de conserto de celular boca do rio", "oficina celular 5 estrelas salvador", "conserto celular qualidade salvador"],
+    keywords: ["Reparo Avançado salvador", "melhor oficina de conserto de celular boca do rio", "oficina celular 5 estrelas salvador", "conserto celular qualidade salvador"],
     problems: [
       "Dificuldade em encontrar oficina confiável em Salvador",
       "Experiências ruins com oficinas técnicas",
@@ -1304,7 +1304,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     model: "iPhone",
     service: "conserto de Face ID",
     serviceSlug: "reparo-face-id-editorial",
-    description: "O Face ID é um dos sistemas mais sensíveis do iPhone. Quando ele para de funcionar, o problema pode estar relacionado a sistema operacional, queda, oxidação, troca de tela mal executada, falha na câmera TrueDepth ou defeito em componentes do circuito interno.\n\nMuita gente tenta resolver apenas redefinindo o Face ID nos ajustes, mas quando existe falha física, o problema não volta sozinho. Em alguns casos, uma intervenção incorreta pode piorar a situação e tornar o conserto mais difícil.\n\nNeste artigo, a Reparo Avançado explica as principais causas do Face ID não funcionar e quando é necessário procurar uma oficina de conserto de celular focada em conserto avançados.",
+    description: "O Face ID é um dos sistemas mais sensíveis do iPhone. Quando ele para de funcionar, o problema pode estar relacionado a sistema operacional, queda, oxidação, troca de tela mal executada, falha na câmera TrueDepth ou defeito em componentes do circuito interno.\n\nMuita gente tenta resolver apenas redefinindo o Face ID nos ajustes, mas quando existe falha física, o problema não volta sozinho. Em alguns casos, uma intervenção incorreta pode piorar a situação e tornar o conserto mais difícil.\n\nNeste artigo, a Reparo Avançado explica as principais causas do Face ID não funcionar e quando é necessário procurar uma oficina de conserto de celular focada em Reparo Avançados.",
     isEditorial: true,
     keywords: ["face id nao funciona", "sensor truedepth", "conserto face id salvador", "troca de tela iphone"],
     problems: [
@@ -1347,7 +1347,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       },
       {
         question: "Quanto tempo demora?",
-        answer: "Depende da complexidade. Casos simples podem ser mais rápidos, enquanto conserto avançados em circuito interno ou micro soldagem exigem análise mais detalhada."
+        answer: "Depende da complexidade. Casos simples podem ser mais rápidos, enquanto Reparo Avançados em circuito interno ou micro soldagem exigem análise mais detalhada."
       },
       {
         question: "Vale a pena reparar?",
@@ -1432,7 +1432,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     costInfo: "O orçamento é gratuito e feito por técnicos especializados. Fale conosco no WhatsApp para uma avaliação sem compromisso.",
     faq: [
       { question: "Como sei se a assistência técnica de celular é confiável?", answer: "Uma boa assistência técnica de celular deve oferecer transparência no orçamento, laboratório visível, uso de equipamentos profissionais, garantia documentada e avaliações positivas de clientes." },
-      { question: "Vocês fazem assistência técnica de iPhone em Salvador?", answer: "Sim! Somos especialistas em assistência técnica de iPhone em Salvador. Realizamos desde trocas de tela com True Tone, substituição de bateria sem mensagem de erro, até reparos avançados de placa." },
+      { question: "Vocês fazem assistência técnica de iPhone em Salvador?", answer: "Sim! Somos especialistas em assistência técnica de iPhone em Salvador. Realizamos desde trocas de tela com True Tone, substituição de bateria sem mensagem de erro, até Reparos Avançados de placa." },
       { question: "Vocês fazem assistência técnica de Samsung em Salvador?", answer: "Sim, somos especialistas em conserto de celulares da linha Samsung Galaxy (S, Note, A, M e Z Fold/Flip), utilizando peças de alta performance." },
       { question: "O orçamento do conserto de celular é gratuito?", answer: "Sim! Na Reparo Avançado, o diagnóstico primário e o orçamento do conserto de celular são 100% gratuitos." },
       { question: "Quais os serviços de conserto de celular mais comuns?", answer: "Os serviços mais procurados são: troca de tela, troca de bateria, reparo no conector de carga, desoxidação (aparelho que caiu na água) e reparo de placa." },

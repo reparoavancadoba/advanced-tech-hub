@@ -40,12 +40,11 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
         <h1>${h1}</h1>
       </header>
       <main>
-        <p><strong>Resumo:</strong> ${description}</p>
         ${contentHtml}
-        ${faqHtml ? `<h2>DÃºvidas Frequentes (FAQ)</h2>${faqHtml}` : ''}
+        ${faqHtml ? `<h2>Dúvidas Frequentes (FAQ)</h2>${faqHtml}` : ''}
       </main>
       <footer>
-        <a href="https://wa.me/5571999999999">Fale com um Técnico no WhatsApp</a>
+        <a href="https://wa.me/5571991981437">Fale com um Técnico no WhatsApp</a>
       </footer>
     </div>
   `;
@@ -73,7 +72,7 @@ allPosts.forEach(post => {
   const h1 = post.h1;
   
   let contentHtml = `<p><strong>Resumo:</strong> ${description}</p>`;
-  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo RÃ¡pido)</h2><p>${post.tldr}</p>`;
+  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;
   
   contentHtml += `<h2>O Problema: ${post.service} ${post.model}</h2>`;
   if (post.problems && post.problems.length) contentHtml += `<ul>${post.problems.map(p => `<li>${p}</li>`).join('')}</ul>`;

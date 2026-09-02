@@ -27,7 +27,7 @@
     costInfo: "O orçamento é gratuito e feito por técnicos especializados. Fale conosco no WhatsApp para uma avaliação sem compromisso.",
     faq: [
       { question: "Como sei se a assistência técnica de celular é confiável?", answer: "Uma boa assistência técnica de celular deve oferecer transparência no orçamento, laboratório visível, uso de equipamentos profissionais, garantia documentada e avaliações positivas de clientes." },
-      { question: "Vocês fazem assistência técnica de iPhone em Salvador?", answer: "Sim! Somos especialistas em assistência técnica de iPhone em Salvador. Realizamos desde trocas de tela com True Tone, substituição de bateria sem mensagem de erro, até reparos avançados de placa." },
+      { question: "Vocês fazem assistência técnica de iPhone em Salvador?", answer: "Sim! Somos especialistas em assistência técnica de iPhone em Salvador. Realizamos desde trocas de tela com True Tone, substituição de bateria sem mensagem de erro, até Reparos Avançados de placa." },
       { question: "Vocês fazem assistência técnica de Samsung em Salvador?", answer: "Sim, somos especialistas em conserto de celulares da linha Samsung Galaxy (S, Note, A, M e Z Fold/Flip), utilizando peças de alta performance." },
       { question: "O orçamento do conserto de celular é gratuito?", answer: "Sim! Na Reparo Avançado, o diagnóstico primário e o orçamento do conserto de celular são 100% gratuitos." },
       { question: "Quais os serviços de conserto de celular mais comuns?", answer: "Os serviços mais procurados são: troca de tela, troca de bateria, reparo no conector de carga, desoxidação (aparelho que caiu na água) e reparo de placa." },
