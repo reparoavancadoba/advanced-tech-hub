@@ -3,7 +3,7 @@ const NewAboutUs = () => (
     <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
       <div className="flex-1 w-full">
         <div className="aspect-video md:aspect-square bg-zinc-200 rounded-2xl overflow-hidden shadow-lg border border-zinc-300 flex items-center justify-center">
-          <span className="text-zinc-400 font-medium">Foto Real da Loja</span>
+          <img src="/images/fachada-loja.jpg" alt="Fachada da loja Reparo Avançado" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="flex-1 space-y-6">

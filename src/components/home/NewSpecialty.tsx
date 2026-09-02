@@ -12,7 +12,7 @@ const NewSpecialty = () => (
       </div>
       <div className="flex-1 w-full">
         <div className="aspect-video bg-zinc-200 rounded-2xl overflow-hidden shadow-lg border border-zinc-300 flex items-center justify-center">
-          <span className="text-zinc-400 font-medium">Imagem do Laboratório/Reparo</span>
+          <img src="/images/laboratorio.png" alt="Laboratório de Reparo Avançado" className="w-full h-full object-cover" />
         </div>
       </div>
     </div>
