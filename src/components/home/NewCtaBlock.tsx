@@ -1,6 +1,6 @@
 import { Phone, MessageCircle } from "lucide-react";
 const NewCtaBlock = () => (
-  <section className="bg-blue-600 text-white py-10 px-4 shadow-inner">
+  <section className="bg-blue-600 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 shadow-inner">
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="text-center md:text-left">
         <h2 className="text-2xl font-bold mb-1">Precisando de ajuda agora?</h2>

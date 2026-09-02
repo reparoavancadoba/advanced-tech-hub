@@ -10,9 +10,9 @@ const services = [
   { name: "Notebooks", icon: Laptop },
 ];
 const NewWhatWeDo = () => (
-  <section className="bg-zinc-950 text-white py-20 px-4">
+  <section className="bg-zinc-950 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8">
     <div className="max-w-6xl mx-auto text-center">
-      <h2 className="text-3xl md:text-4xl font-bold mb-12">O que fazemos</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center">O que fazemos</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
         {services.map((svc, i) => (
           <div key={i} className="bg-zinc-900 border border-white/5 p-6 md:p-8 rounded-2xl flex flex-col items-center justify-center gap-4 hover:border-blue-500/50 hover:bg-zinc-800/80 transition-all cursor-default">

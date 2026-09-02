@@ -36,9 +36,9 @@ const NewReviews = () => {
   }, [next]);
 
   return (
-    <section className="bg-zinc-950 text-white py-24 px-4 border-y border-white/5 overflow-hidden">
+    <section className="bg-zinc-950 text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 border-y border-white/5 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">O que nossos clientes dizem</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center">O que nossos clientes dizem</h2>
         
         <div className="relative">
           <div
@@ -63,14 +63,14 @@ const NewReviews = () => {
                         {initials}
                       </div>
                       <div>
-                        <h4 className="font-bold text-lg">{rev.name}</h4>
-                        <p className="text-xs text-zinc-400">{rev.time}</p>
+                        <h4 className="text-base md:text-lg font-semibold mb-2">{rev.name}</h4>
+                        <p className="text-sm text-zinc-400">{rev.time}</p>
                       </div>
                     </div>
                     <div className="flex gap-1">
                       {[...Array(5)].map((_, j) => <Star key={j} className="w-5 h-5 fill-blue-500 text-blue-500" />)}
                     </div>
-                    <p className="text-zinc-300 text-base leading-relaxed italic">"{rev.text}"</p>
+                    <p className="text-sm md:text-base text-zinc-300 leading-relaxed italic">"{rev.text}"</p>
                   </div>
                 </div>
               );
