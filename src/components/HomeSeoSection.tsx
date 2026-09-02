@@ -252,7 +252,7 @@ const HomeSeoSection = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-green-600 text-white px-8 py-5 rounded-xl text-lg font-bold hover:bg-green-700 transition-all shadow-lg shadow-green-600/30"
+              className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-5 rounded-xl text-lg font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/30"
             >
               <MessageCircle className="w-6 h-6" />
               Solicitar Orçamento pelo WhatsApp
