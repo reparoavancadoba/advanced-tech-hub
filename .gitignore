@@ -27,3 +27,5 @@ dist-ssr
 google-service-account.json
 .vercel
 .git-credentials
+
+github-token-temp.txt
