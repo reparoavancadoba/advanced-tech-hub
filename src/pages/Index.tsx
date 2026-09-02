@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import TickerSection from "@/components/home/TickerSection";
 import ProofLocationSection from "@/components/home/ProofLocationSection";
 import HomeSeoSection from "@/components/HomeSeoSection";
 import ServicesSection from "@/components/ServicesSection";
@@ -35,6 +36,7 @@ const Index = () => {
       </Helmet>
       
       <HeroSection />
+      <TickerSection />
       <ProofLocationSection />
       <HomeSeoSection />
       <ServicesSection />
