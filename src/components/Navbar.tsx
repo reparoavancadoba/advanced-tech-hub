@@ -43,7 +43,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center z-20 shrink-0">
-          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#0066FF] text-white hover:bg-blue-600 px-5 py-2.5 rounded-lg text-sm font-semibold hover:shadow-lg hover:shadow-blue-600/20 transition-all">
+          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] text-white hover:bg-[#1DA851] shadow-[#25D366]/20 px-5 py-2.5 rounded-lg text-sm font-semibold hover:shadow-lg hover:shadow-blue-600/20 transition-all">
             <MessageCircle className="w-4 h-4" /> WhatsApp
           </a>
         </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0066FF] text-white hover:bg-blue-600 px-4 py-3 rounded-lg text-base font-semibold mt-2">
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white hover:bg-[#1DA851] shadow-[#25D366]/20 px-4 py-3 rounded-lg text-base font-semibold mt-2">
               <MessageCircle className="w-5 h-5" /> Falar no WhatsApp
             </a>
           </div>

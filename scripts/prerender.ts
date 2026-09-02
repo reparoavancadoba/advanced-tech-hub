@@ -161,21 +161,23 @@ fs.writeFileSync(indexHtmlPath, homepageHtml);
 console.log('Gerado SSG: / (homepage) -> index.html (conteudo SEO do Hero injetado)');
 
 
-
-
-
-// 6. Pre-build Mojibake Check
+// 6. Pre-build Mojibake Check (Pure Node.js implementation)
 function checkMojibake(dir) {
   const files = fs.readdirSync(dir);
   for (const file of files) {
     const fullPath = path.join(dir, file);
     if (fs.statSync(fullPath).isDirectory()) {
       checkMojibake(fullPath);
-    } else if (fullPath.endsWith('.html')) {
+    } else if (fullPath.endsWith('.html') || fullPath.endsWith('.js')) {
       const content = fs.readFileSync(fullPath, 'utf8');
-      if (/[\xc3][\xa3\xa9\xa7\xaa\xb3\xad\xe1\xb5]/.test(content) || /Ã[£©§ªóíáµ]/.test(content)) {
+      
+      // Mojibake regex for common Latin-1 encoding issues disguised as UTF-8
+      const mojibakePattern = /Ã[£©§ªóíáµ]/;
+      
+      if (mojibakePattern.test(content)) {
         console.error('❌ MOJIBAKE FOUND IN FILE: ' + fullPath);
-        process.exit(1);
+        console.error('MATCHED STRING:', content.match(new RegExp('.{0,20}' + mojibakePattern.source + '.{0,20}'))[0]);
+        process.exit(1); // Fail the build!
       }
     }
   }
@@ -186,6 +188,6 @@ try {
   checkMojibake(distPath);
   console.log('✅ No mojibake found in generated HTML files.');
 } catch (e) {
-  console.error('Error running mojibake check:', e);
+  console.error('❌ Error running mojibake check:', e);
   process.exit(1);
 }

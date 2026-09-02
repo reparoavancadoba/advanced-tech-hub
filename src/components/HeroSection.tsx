@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="relative z-20 w-full max-w-7xl mx-auto px-6 flex flex-col">
         
         {/* Content Box */}
-        <div className="w-full md:w-[60%] lg:w-[55%] flex flex-col">
+        <div className="w-full md:w-[60%] lg:w-[55%] flex flex-col relative -top-8 md:-top-16">
           <h1 className="text-3xl md:text-4xl lg:text-[46px] xl:text-[52px] font-extrabold tracking-tight mb-4 lg:mb-6 leading-[1.35]">
             Assistência técnica de celulares e notebooks <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças de qualidade.</span>
           </h1>
@@ -33,7 +33,7 @@ const HeroSection = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#0066FF] hover:bg-blue-600 text-white font-bold px-6 py-4 lg:px-8 lg:py-4 rounded-xl transition-all shadow-lg shadow-blue-600/20 text-base lg:text-lg w-full sm:w-auto shrink-0"
+              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white font-bold px-6 py-4 lg:px-8 lg:py-4 rounded-xl transition-all shadow-lg shadow-[#25D366]/20 text-base lg:text-lg w-full sm:w-auto shrink-0"
             >
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
