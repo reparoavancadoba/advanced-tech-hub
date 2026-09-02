@@ -1,4 +1,4 @@
-﻿import { MessageCircle, Star, MessageSquare, BadgeCheck, ShieldCheck } from "lucide-react";
+import { MessageCircle, Star, MessageSquare, BadgeCheck, ShieldCheck } from "lucide-react";
 
 const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
