@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+﻿import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 
 const realReviews = [
@@ -19,76 +19,114 @@ const realReviews = [
   { name: "Marcos Caldas", time: "Há 22 semanas", text: "Excelente serviço! Achei que teria que trocar o celular, mas eles conseguiram recuperar o circuito interno. Fiquei impressionado com a agilidade e a transparência do atendimento. Voltarei sempre que precisar!" },
 ];
 
-const colors = ["bg-zinc-800", "bg-zinc-700", "bg-zinc-900"];
-
 const NewReviews = () => {
   const [current, setCurrent] = useState(0);
-  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 768 ? 3 : 1;
+  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 1024 ? 3 : typeof window !== "undefined" && window.innerWidth >= 768 ? 2 : 1;
   const maxIndex = realReviews.length - itemsPerView;
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev >= maxIndex ? 0 : prev + 1));
   }, [maxIndex]);
 
+  const prev = useCallback(() => {
+    setCurrent((prev) => (prev <= 0 ? maxIndex : prev - 1));
+  }, [maxIndex]);
+
   useEffect(() => {
-    const interval = setInterval(next, 4000);
+    const interval = setInterval(next, 5000);
     return () => clearInterval(interval);
   }, [next]);
 
   return (
-    <section className="bg-[#0066FF] text-white py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-[#0a0f18] text-white py-16 md:py-24 px-4 md:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-white">O que nossos clientes dizem</h2>
+        
+        <div className="mb-12 md:mb-16 text-center md:text-left">
+          <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
+            <span className="w-8 h-[1px] bg-[#0066FF]"></span>
+            <span className="text-[#0066FF] font-semibold text-sm tracking-widest uppercase">Depoimentos</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.2]">
+            Quem já passou aqui <br className="hidden md:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">conta como foi.</span>
+          </h2>
+          <p className="text-slate-400 mt-4 max-w-md mx-auto md:mx-0 text-sm md:text-base">
+            Histórias reais de quem resolveu o problema do aparelho na nossa loja em Salvador.
+          </p>
+        </div>
         
         <div className="relative">
           <div
-            className="flex transition-transform duration-500 ease-in-out"
+            className="flex transition-transform duration-500 ease-out"
             style={{
               transform: `translateX(-${current * (100 / itemsPerView)}%)`,
             }}
           >
             {realReviews.map((rev, i) => {
               const initials = rev.name.substring(0, 2).toUpperCase();
-              const colorClass = colors[i % colors.length];
               
               return (
                 <div
                   key={i}
-                  className="flex-shrink-0 px-4"
+                  className="flex-shrink-0 px-3 md:px-4"
                   style={{ width: `${100 / itemsPerView}%` }}
                 >
-                  <div className="bg-white p-8 rounded-2xl flex flex-col gap-6 h-full shadow-lg border border-zinc-100">
-                    <div className="flex items-center gap-4">
-                      <div className={`w-14 h-14 rounded-full flex items-center justify-center font-bold text-white shadow-md ${colorClass} text-xl`}>
+                  <div className="bg-[#0f172a] border border-[#1e293b] p-6 md:p-8 rounded-2xl flex flex-col gap-6 h-full shadow-lg hover:border-[#0066FF]/50 transition-colors">
+                    
+                    <div className="flex gap-1 text-yellow-500">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-4 h-4 fill-current" />
+                      ))}
+                    </div>
+
+                    <p className="text-slate-300 italic flex-1 text-sm md:text-sm leading-relaxed">
+                      "{rev.text}"
+                    </p>
+                    
+                    <div className="flex items-center gap-4 mt-auto pt-4 border-t border-[#1e293b]">
+                      <div className="w-10 h-10 rounded-full bg-[#0066FF] flex items-center justify-center text-white font-bold text-sm shrink-0">
                         {initials}
                       </div>
                       <div>
-                        <h4 className="text-base md:text-lg font-semibold mb-2 text-zinc-900">{rev.name}</h4>
-                        <p className="text-sm text-zinc-500">{rev.time}</p>
+                        <h4 className="font-bold text-slate-100 text-sm">{rev.name}</h4>
+                        <p className="text-slate-500 text-xs">Avaliação no Google</p>
                       </div>
                     </div>
-                    <div className="flex gap-1">
-                      {[...Array(5)].map((_, j) => <Star key={j} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
-                    </div>
-                    <p className="text-sm md:text-base text-zinc-700 leading-relaxed italic">"{rev.text}"</p>
+
                   </div>
                 </div>
               );
             })}
           </div>
-
-          <div className="flex justify-center gap-3 mt-12">
-            {Array.from({ length: maxIndex + 1 }).map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setCurrent(i)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  i === current ? "bg-white scale-125" : "bg-white/40 hover:bg-white/60"
-                }`}
-                aria-label={`Ir para slide ${i + 1}`}
-              />
-            ))}
+          
+          {/* Controls */}
+          <div className="flex justify-center items-center gap-4 mt-10">
+            <button 
+              onClick={prev}
+              className="w-10 h-10 rounded-full border border-[#1e293b] flex items-center justify-center text-slate-400 hover:text-white hover:border-[#0066FF] hover:bg-[#0066FF]/10 transition-colors"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <div className="flex gap-2">
+              {Array.from({ length: maxIndex + 1 }).map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setCurrent(i)}
+                  className={`w-2 h-2 rounded-full transition-all ${
+                    current === i ? "bg-[#0066FF] w-6" : "bg-slate-700"
+                  }`}
+                  aria-label={`Ir para depoimento ${i + 1}`}
+                />
+              ))}
+            </div>
+            <button 
+              onClick={next}
+              className="w-10 h-10 rounded-full border border-[#1e293b] flex items-center justify-center text-slate-400 hover:text-white hover:border-[#0066FF] hover:bg-[#0066FF]/10 transition-colors"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
           </div>
+          
         </div>
       </div>
     </section>
@@ -96,3 +134,4 @@ const NewReviews = () => {
 };
 
 export default NewReviews;
+
