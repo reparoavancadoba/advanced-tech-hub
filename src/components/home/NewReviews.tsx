@@ -39,10 +39,10 @@ const NewReviews = () => {
   }, [next]);
 
   return (
-    <section className="bg-[#0a0f18] text-white py-20 md:py-32 px-4 md:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-[#0a0f18] text-white py-32 md:py-48 px-4 md:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         
-        <div className="mb-16 md:mb-24 text-center md:text-left">
+        <div className="mb-24 md:mb-40 text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
             <span className="w-12 h-[2px] bg-[#0066FF]"></span>
             <span className="text-[#0066FF] font-bold text-sm tracking-[0.2em] uppercase">Depoimentos</span>

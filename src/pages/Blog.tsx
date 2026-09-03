@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+﻿import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Search, ArrowRight, MessageCircle } from "lucide-react";
 import { allPosts, categoryLabels, type Category } from "@/data/blogData";
@@ -66,9 +66,9 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-20 md:py-32">
         {/* Categories Filter */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        <div className="flex flex-wrap justify-center gap-2 mb-20">
           <button
             onClick={() => { setActiveCategory("all"); setPage(1); }}
             className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${

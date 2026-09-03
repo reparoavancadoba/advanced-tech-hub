@@ -1,4 +1,4 @@
-import { useParams, Link, Navigate } from "react-router-dom";
+﻿import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight, Sparkles, AlertTriangle, Info, ArrowRight, Clock } from "lucide-react";
 import { getPostBySlug, allPosts, categoryLabels } from "@/data/blogData";
 import SiteLayout from "@/components/SiteLayout";
@@ -128,14 +128,14 @@ const BlogPost = () => {
           if (para.trim().startsWith("- ") || para.trim().startsWith("* ")) {
             const items = para.split(/\n[-*]\s+/).map(i => i.replace(/^[-*]\s+/, "").trim()).filter(Boolean);
             return (
-              <ul key={`${index}-${pIdx}`} className="list-disc pl-6 space-y-2 text-zinc-800 text-[16px] md:text-[17px] mb-4">
+              <ul key={`${index}-${pIdx}`} className="list-disc pl-6 space-y-2 text-zinc-800 text-lg mb-4">
                 {items.map((item, itemIdx) => (
                   <li key={itemIdx}>{item}</li>
                 ))}
               </ul>
             );
           }
-          return <p key={`${index}-${pIdx}`} className="text-zinc-800 leading-relaxed mb-4 text-[16px] md:text-[17px] font-normal">{para.trim()}</p>;
+          return <p key={`${index}-${pIdx}`} className="text-zinc-800 leading-relaxed mb-4 text-lg font-normal">{para.trim()}</p>;
         });
       }
 
@@ -235,11 +235,11 @@ const BlogPost = () => {
                     </span>
                   </div>
                   
-                  <h1 className="text-3xl md:text-5xl font-black text-zinc-900 mb-4 tracking-tight leading-tight">
+                  <h1 className="text-3xl md:text-5xl font-black text-zinc-900 mb-8 tracking-tight leading-[1.2]">
                     {post.h1}
                   </h1>
                   
-                  <p className="text-zinc-600 text-lg md:text-xl font-medium mb-4 leading-relaxed">
+                  <p className="text-zinc-600 text-lg md:text-xl font-medium mb-12 leading-relaxed">
                     {post.description || post.metaDescription}
                   </p>
                   
@@ -252,14 +252,14 @@ const BlogPost = () => {
                 </div>
 
                 {/* Article Body */}
-                <article className="space-y-10 text-zinc-800">
+                <article className="space-y-20 text-zinc-800 mt-16">
                   <section id="sintomas">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Sintomas: O Problema com {post.service} {post.model}
                     </h2>
-                    <ul className="space-y-2.5">
+                    <ul className="space-y-5">
                       {post.problems.map((p, i) => (
-                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
+                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-lg">
                           <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
                           {p}
                         </li>
@@ -268,12 +268,12 @@ const BlogPost = () => {
                   </section>
 
                   <section id="causas">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Causas Possíveis
                     </h2>
-                    <ul className="space-y-2.5">
+                    <ul className="space-y-5">
                       {post.causes.map((c, i) => (
-                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
+                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-lg">
                           <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
                           {c}
                         </li>
@@ -309,14 +309,14 @@ const BlogPost = () => {
                   )}
 
                   <section id="solucao">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       O Que Fazer (Solução Técnica)
                     </h2>
                     <div>{parseContent(post.solution)}</div>
                   </section>
 
                   <section id="quando">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Quando Procurar Assistência Profissional
                     </h2>
                     <div>{parseContent(post.whenToSeek)}</div>
@@ -324,7 +324,7 @@ const BlogPost = () => {
 
                   {post.sections && post.sections.length > 0 && post.sections.map((section) => (
                     <section key={section.id} id={section.id}>
-                      <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                         {section.title}
                       </h2>
                       <div className="mb-4">{parseContent(section.content)}</div>
@@ -338,7 +338,7 @@ const BlogPost = () => {
                   ))}
 
                   <section id="custo">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Quanto Custa {post.service} {post.model}?
                     </h2>
                     <div>{parseContent(post.costInfo)}</div>
