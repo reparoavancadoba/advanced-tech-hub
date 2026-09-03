@@ -11,7 +11,7 @@ const services = [
 ];
 
 const NewWhatWeDo = () => (
-  <section id="servicos" className="bg-zinc-50 text-slate-900 py-16 md:py-24 px-4 md:px-6 lg:px-8">
+  <section id="servicos" className="bg-[#0a0f18] text-white py-16 md:py-24 px-4 md:px-6 lg:px-8 border-t border-[#1e293b]">
     <div className="max-w-6xl mx-auto">
       
       <div className="mb-12 md:mb-16">
@@ -23,7 +23,7 @@ const NewWhatWeDo = () => (
           Serviço rápido, <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">direto na loja.</span>
         </h2>
-        <p className="text-slate-500 mt-4 max-w-md text-sm md:text-base">
+        <p className="text-slate-400 mt-4 max-w-md text-sm md:text-base">
           Chame no WhatsApp, combine o horário e conte com nossa equipe pra cuidar do seu aparelho em Salvador.
         </p>
       </div>
@@ -33,14 +33,14 @@ const NewWhatWeDo = () => (
           <Link 
             key={i} 
             to={svc.link}
-            className="bg-white border border-zinc-200 p-8 rounded-2xl flex flex-col items-start gap-4 hover:border-[#0066FF]/30 group transition-all cursor-pointer shadow-sm hover:shadow-md"
+            className="bg-[#0f172a] border border-[#1e293b] p-8 rounded-2xl flex flex-col items-start gap-4 hover:border-[#0066FF]/50 group transition-all cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1"
           >
-            <div className="w-12 h-12 rounded-xl bg-zinc-50 flex items-center justify-center group-hover:bg-[#0066FF]/10 transition-colors">
+            <div className="w-12 h-12 rounded-xl bg-[#0066FF]/10 flex items-center justify-center group-hover:bg-[#0066FF]/20 transition-colors">
               <svc.icon className="w-6 h-6 text-[#0066FF]" />
             </div>
             <div>
-              <h3 className="font-bold text-slate-900 text-lg mb-1">{svc.name}</h3>
-              <p className="text-slate-500 text-sm">{svc.desc}</p>
+              <h3 className="font-bold text-slate-100 text-lg mb-1">{svc.name}</h3>
+              <p className="text-slate-400 text-sm">{svc.desc}</p>
             </div>
           </Link>
         ))}
