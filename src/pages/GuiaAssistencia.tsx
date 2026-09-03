@@ -16,10 +16,10 @@ const AccordionItem = ({ question, answer }: { question: string; answer: React.R
         aria-expanded={isOpen}
       >
         <span className="font-bold text-slate-900 flex items-center gap-3 text-base md:text-lg">
-          <HelpCircle className="w-5 h-5 text-blue-600 shrink-0" />
+          <HelpCircle className="w-5 h-5 text-[#0066FF] shrink-0" />
           {question}
         </span>
-        <span className="text-blue-600 text-3xl leading-none font-light shrink-0 ml-4">
+        <span className="text-[#0066FF] text-3xl leading-none font-light shrink-0 ml-4">
           {isOpen ? '−' : '+'}
         </span>
       </button>
@@ -148,7 +148,7 @@ const GuiaAssistencia = () => {
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
               Especialidade nas Principais Marcas
             </h2>
-            <div className="h-1 w-24 bg-blue-600 mx-auto rounded-full mb-6" />
+            <div className="h-1 w-24 bg-[#0066FF] mx-auto rounded-full mb-6" />
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               Trabalhamos de forma focada e customizada para os ecossistemas das principais marcas globais, 
               garantindo o tratamento técnico adequado.
@@ -212,7 +212,7 @@ const GuiaAssistencia = () => {
             <h2 className="text-3xl font-extrabold text-slate-900 mb-4">
               Perguntas Frequentes
             </h2>
-            <div className="h-1 w-20 bg-blue-600 mx-auto rounded-full mb-6" />
+            <div className="h-1 w-20 bg-[#0066FF] mx-auto rounded-full mb-6" />
           </div>
 
           <div className="mb-12">

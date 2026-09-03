@@ -108,7 +108,7 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de Samsung",
     shortName: "Conserto de Samsung",
     description:
-      "conserto focado em Galaxy: tela AMOLED, circuito interno, bateria e mais — com garantia.",
+      "conserto focado em Galaxy: tela AMOLED, circuito interno, bateria e mais, com garantia.",
   },
   {
     slug: "banho-quimico",

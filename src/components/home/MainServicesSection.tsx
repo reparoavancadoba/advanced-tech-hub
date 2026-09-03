@@ -17,14 +17,14 @@ const MainServicesSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {solutions.map((solution, idx) => (
             <div key={idx} className="bg-white rounded-xl p-6 border border-zinc-200 hover:shadow-lg hover:border-blue-200 transition-all group flex flex-col">
-              <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+              <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4 text-[#0066FF] group-hover:bg-[#0066FF] group-hover:text-white transition-colors">
                 <solution.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">{solution.title}</h3>
               <p className="text-zinc-600 text-sm leading-relaxed flex-grow">{solution.desc}</p>
               <Link
                 to={solution.link}
-                className="text-blue-600 font-semibold text-sm mt-4 inline-flex items-center gap-1 group-hover:gap-2 transition-all"
+                className="text-[#0066FF] font-semibold text-sm mt-4 inline-flex items-center gap-1 group-hover:gap-2 transition-all"
               >
                 Saiba mais →
               </Link>

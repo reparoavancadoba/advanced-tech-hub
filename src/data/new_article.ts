@@ -39,7 +39,7 @@
       {
         id: "introducao",
         title: "Introdução",
-        content: "Procurar uma assistência técnica de celular em Salvador pode ser uma tarefa desafiadora. Com dezenas de opções espalhadas por todos os bairros — da Boca do Rio à Pituba, do Centro às grandes avenidas —, como saber qual empresa realmente vai consertar o seu aparelho sem causar novos defeitos? O conserto de celular exige não apenas ferramentas corretas, mas também conhecimento técnico profundo, principalmente em marcas como Apple (iPhone) e Samsung. Neste artigo, vamos guiar você sobre os pontos fundamentais que devem ser analisados antes de entregar o seu smartphone nas mãos de qualquer técnico."
+        content: "Procurar uma assistência técnica de celular em Salvador pode ser uma tarefa desafiadora. Com dezenas de opções espalhadas por todos os bairros, da Boca do Rio à Pituba, do Centro às grandes avenidas -, como saber qual empresa realmente vai consertar o seu aparelho sem causar novos defeitos? O conserto de celular exige não apenas ferramentas corretas, mas também conhecimento técnico profundo, principalmente em marcas como Apple (iPhone) e Samsung. Neste artigo, vamos guiar você sobre os pontos fundamentais que devem ser analisados antes de entregar o seu smartphone nas mãos de qualquer técnico."
       },
       {
         id: "como-identificar",

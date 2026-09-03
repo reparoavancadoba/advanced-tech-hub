@@ -13,7 +13,7 @@ const FinalCtaSection = () => {
             href="https://wa.me/5571991981437"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-12 px-6 bg-blue-600 text-white hover:bg-blue-500 gap-2"
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-12 px-6 bg-[#0066FF] text-white hover:bg-blue-500 gap-2"
           >
             <MessageSquare className="w-5 h-5" />
             WhatsApp

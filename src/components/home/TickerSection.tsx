@@ -25,7 +25,7 @@ const TickerSection = () => {
   );
 
   return (
-    <div className="w-full bg-blue-600 text-white overflow-hidden py-2.5 border-b border-blue-700 relative z-10 flex">
+    <div className="w-full bg-[#0066FF] text-white overflow-hidden py-2.5 border-b border-[#0052cc] relative z-10 flex">
       <div className="flex w-max animate-ticker-right">
         {/* Render enough blocks to guarantee it spans more than 200vw so the 50% translation is smooth */}
         {block}

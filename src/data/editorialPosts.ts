@@ -1,6 +1,6 @@
 import type { BlogPost, Category } from "./blogData";
 
-const LOCAL_SEO = "A Reparo Avançado está localizada na Boca do Rio, Salvador – BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
+const LOCAL_SEO = "A Reparo Avançado está localizada na Boca do Rio, Salvador, BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
 const PECAS = "Peças de Alta Performance fabricadas com os mesmos padrões da linha de montagem original";
 const CTA_TEXT = "Fale agora com um profissional qualificado pelo WhatsApp (71) 99198-1437";
 
@@ -41,7 +41,7 @@ Para aumentar a vida útil da sua nova bateria, evite utilizar o iPhone enquanto
 [/DICA]
 
 Após a troca, realizamos testes de carga completa e monitoramos a temperatura para garantir funcionamento perfeito. ${LOCAL_SEO}`,
-    whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando o iPhone desligar sozinho, quando a bateria não durar um dia de uso moderado, ou quando aparecer aviso de 'conserto da Bateria'. Não espere a bateria estufar — isso pode danificar a tela e outros componentes.",
+    whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando o iPhone desligar sozinho, quando a bateria não durar um dia de uso moderado, ou quando aparecer aviso de 'conserto da Bateria'. Não espere a bateria estufar, isso pode danificar a tela e outros componentes.",
     costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 3 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.`,
     faq: [
       { question: "A troca de bateria do iPhone vai aparecer 'Peça Desconhecida'?", answer: "Não. Na Reparo Avançado, reprogramamos o chip controlador da bateria para que o iOS reconheça a peça corretamente, exibindo a saúde em 100% sem nenhuma mensagem de erro." },
@@ -147,7 +147,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "BGA do processador com micro-fissuras (cold solder)",
       "CI de carga (Tristar/Hydra) queimado por carregador genérico"
     ],
-    solution: `Na Reparo Avançado, realizamos o avaliação completa da circuito lógico do iPhone utilizando microscópio profissional, fonte de bancada e câmera térmica. Identificamos o componente exato que está em falha — seja o PMIC, Tristar, NAND, ou processador — e realizamos o conserto direcionado com reballing ou substituição do CI. ${LOCAL_SEO}`,
+    solution: `Na Reparo Avançado, realizamos o avaliação completa da circuito lógico do iPhone utilizando microscópio profissional, fonte de bancada e câmera térmica. Identificamos o componente exato que está em falha, seja o PMIC, Tristar, NAND, ou processador, e realizamos o conserto direcionado com reballing ou substituição do CI. ${LOCAL_SEO}`,
     whenToSeek: "Assim que o iPhone parar de ligar ou apresentar loop de boot. Tentativas de forçar a inicialização podem agravar o problema, especialmente se houver curto-circuito.",
     costInfo: `O avaliação é 100% gratuito e detalhado. Informamos exatamente qual componente falhou e o custo do conserto antes de qualquer serviço. ${CTA_TEXT}.`,
     faq: [
@@ -206,7 +206,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "importancia-true-tone",
         title: "O Que é True Tone e Por Que Você Não Deve Perder",
-        content: "O True Tone é uma tecnologia da Apple que ajusta automaticamente a temperatura de cor da tela conforme a iluminação ambiente. Sem ele, as cores ficam artificiais — muito frias (azuladas) ou quentes (amareladas). Muitas oficinas em Salvador não reprogramam o CI da tela, fazendo o cliente perder essa função.",
+        content: "O True Tone é uma tecnologia da Apple que ajusta automaticamente a temperatura de cor da tela conforme a iluminação ambiente. Sem ele, as cores ficam artificiais, muito frias (azuladas) ou quentes (amareladas). Muitas oficinas em Salvador não reprogramam o CI da tela, fazendo o cliente perder essa função.",
         subsections: [
           { title: "Como Funciona a Reprogramação do CI", content: "O CI (chip controlador) da tela armazena dados de calibração e pareamento com a circuito lógico. Na Reparo Avançado, utilizamos programador focado para transferir esses dados da tela antiga para a nova, ou reprogramar o CI com os dados corretos." }
         ]
@@ -240,7 +240,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Exposição ao vapor do banheiro",
       "A maresia de Salvador que penetra por micro-aberturas"
     ],
-    solution: `O tempo é o fator mais crítico. Na Reparo Avançado, realizamos o processo de desoxidação de emergência: abertura imediata do aparelho, banho ultrassônico com solução específica, limpeza componente a componente sob microscópio, secagem controlada e teste completo de todos os circuitos. NUNCA coloque o iPhone no arroz — isso pode introduzir amido nos conectores e piorar a oxidação. ${LOCAL_SEO}`,
+    solution: `O tempo é o fator mais crítico. Na Reparo Avançado, realizamos o processo de desoxidação de emergência: abertura imediata do aparelho, banho ultrassônico com solução específica, limpeza componente a componente sob microscópio, secagem controlada e teste completo de todos os circuitos. NUNCA coloque o iPhone no arroz, isso pode introduzir amido nos conectores e piorar a oxidação. ${LOCAL_SEO}`,
     whenToSeek: "IMEDIATAMENTE. Desligue o iPhone, NÃO tente carregar, NÃO tente ligar. Cada hora conta contra a oxidação. A corrosão pode ser irreversível em 24-48 horas.",
     costInfo: `O avaliação de urgência é gratuito. O valor da desoxidação depende da extensão do dano. Quanto mais rápido trouxer, maior a chance de restauração e menor o custo. ${CTA_TEXT}.`,
     faq: [
@@ -255,7 +255,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "Os primeiros minutos após o contato com líquido são decisivos. Siga estas instruções antes de trazer o aparelho à nossa loja.",
         subsections: [
           { title: "FAÇA Imediatamente", content: "1) Retire da água imediatamente. 2) Desligue o iPhone (mantenha pressionado o botão lateral + volume). 3) Remova a capinha e o chip. 4) Seque o exterior com pano seco. 5) Traga à Reparo Avançado o mais rápido possível." },
-          { title: "NÃO FAÇA De Jeito Nenhum", content: "1) NÃO tente ligar o iPhone. 2) NÃO conecte no carregador. 3) NÃO use secador de cabelo. 4) NÃO coloque no arroz. 5) NÃO balance ou sacuda o aparelho — isso espalha o líquido." }
+          { title: "NÃO FAÇA De Jeito Nenhum", content: "1) NÃO tente ligar o iPhone. 2) NÃO conecte no carregador. 3) NÃO use secador de cabelo. 4) NÃO coloque no arroz. 5) NÃO balance ou sacuda o aparelho, isso espalha o líquido." }
         ]
       },
       {
@@ -292,7 +292,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Desgaste mecânico por inserções repetidas",
       "Dano nos pinos por inserção forçada do cabo"
     ],
-    solution: `Primeiro, realizamos inspeção visual com microscópio para identificar se o problema é sujeira acumulada ou dano físico nos pinos. Em 60% dos casos, uma limpeza técnica profissional resolve completamente — utilizamos ferramentas anti-estáticas e solventes específicos. Quando há dano nos pinos ou oxidação severa, realizamos a troca do módulo de carga completo com ${PECAS}. ${LOCAL_SEO}`,
+    solution: `Primeiro, realizamos inspeção visual com microscópio para identificar se o problema é sujeira acumulada ou dano físico nos pinos. Em 60% dos casos, uma limpeza técnica profissional resolve completamente, utilizamos ferramentas anti-estáticas e solventes específicos. Quando há dano nos pinos ou oxidação severa, realizamos a troca do módulo de carga completo com ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando perceber qualquer inconsistência no carregamento. O 'jeitinho' de inclinar o cabo é sinal de que o problema já está instalado e tende a piorar.",
     costInfo: `A limpeza técnica é um procedimento rápido e acessível. A troca do conector tem valor conforme o modelo. avaliação gratuita para identificar a melhor solução. ${CTA_TEXT}.`,
     faq: [
@@ -437,11 +437,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Antena Wi-Fi/Bluetooth danificada"
     ],
     solution: `O chip de rádio do iPhone controla Wi-Fi, Bluetooth, GPS e NFC. Quando falha, é necessário reballing ou substituição desse CI na circuito lógico. Na Reparo Avançado, realizamos esse conserto com estação BGA profissional e microscópio, garantindo a restauração completa de todas as conectividades. ${LOCAL_SEO}`,
-    whenToSeek: "Quando Wi-Fi ou Bluetooth ficarem cinzas (sem possibilidade de ativar) ou desconectarem constantemente. Primeiro tente resetar as configurações de rede — se não resolver, é provável problema de componentes físicos.",
+    whenToSeek: "Quando Wi-Fi ou Bluetooth ficarem cinzas (sem possibilidade de ativar) ou desconectarem constantemente. Primeiro tente resetar as configurações de rede, se não resolver, é provável problema de componentes físicos.",
     costInfo: `O avaliação é gratuito. O conserto do chip de rádio é um serviço focado de micro-soldagem. ${CTA_TEXT}.`,
     faq: [
       { question: "Por que o Wi-Fi do meu iPhone ficou cinza?", answer: "Geralmente indica falha no chip de rádio (USI/Murata) na circuito lógico. É um problema de componentes físicos que requer conserto focado com micro-soldagem." },
-      { question: "Atualização do iOS pode causar esse problema?", answer: "Raramente a atualização causa o problema — ela geralmente apenas revela uma falha de componentes físicos que já estava se desenvolvendo. A atualização pode estressar o chip danificado até o ponto de falha completa." },
+      { question: "Atualização do iOS pode causar esse problema?", answer: "Raramente a atualização causa o problema, ela geralmente apenas revela uma falha de componentes físicos que já estava se desenvolvendo. A atualização pode estressar o chip danificado até o ponto de falha completa." },
       { question: "Se o Wi-Fi não funciona, o Bluetooth também para?", answer: "Frequentemente sim, pois ambos são controlados pelo mesmo chip de rádio na circuito lógico do iPhone." }
     ],
     sections: [],
@@ -551,11 +551,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Pressão no painel por sentar com o celular no bolso",
       "Contato com líquido que infiltra entre as camadas"
     ],
-    solution: `A tela AMOLED da Samsung é formada por camadas de materiais orgânicos que emitem luz própria. Quando danificados, não há conserto — a troca do display é necessária. Na Reparo Avançado, utilizamos ${PECAS} AMOLED que reproduzem as mesmas cores vibrantes e o preto profundo da tela original. ${LOCAL_SEO}`,
+    solution: `A tela AMOLED da Samsung é formada por camadas de materiais orgânicos que emitem luz própria. Quando danificados, não há conserto, a troca do display é necessária. Na Reparo Avançado, utilizamos ${PECAS} AMOLED que reproduzem as mesmas cores vibrantes e o preto profundo da tela original. ${LOCAL_SEO}`,
     whenToSeek: "Assim que a mancha verde ou as linhas aparecerem. O problema tende a se espalhar rapidamente em telas AMOLED danificadas.",
     costInfo: `O valor depende do modelo Samsung (linha S, A, M, Z). Utilizamos displays ${PECAS}. avaliação gratuita. ${CTA_TEXT}.`,
     faq: [
-      { question: "Por que apareceu uma mancha verde na tela do Samsung?", answer: "A mancha verde em telas AMOLED indica que os subpixels orgânicos verdes estão degradados ou que houve dano interno por queda/pressão. Infelizmente, não há conserto para o painel — a troca é necessária." },
+      { question: "Por que apareceu uma mancha verde na tela do Samsung?", answer: "A mancha verde em telas AMOLED indica que os subpixels orgânicos verdes estão degradados ou que houve dano interno por queda/pressão. Infelizmente, não há conserto para o painel, a troca é necessária." },
       { question: "Burn-in na tela Samsung tem conserto?", answer: "Burn-in severo (marcas permanentes de ícones/barra de navegação) só se resolve com troca do display. Burn-in leve pode ser minimizado com apps específicos, mas não eliminado." },
       { question: "Qual a diferença entre tela AMOLED e tela IPS na troca?", answer: "A tela AMOLED oferece preto verdadeiro, cores mais vibrantes e menor consumo de energia. Recomendamos sempre a troca por AMOLED para manter a experiência original do Samsung." }
     ],
@@ -732,7 +732,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "ajuste presencial presencial sem calibração do sensor biométrico",
       "Película de vidro grosso bloqueando o sensor"
     ],
-    solution: `O sensor de digital sob a tela dos Samsung Galaxy S e A funciona com a tela AMOLED — se a tela for trocada por uma IPS/LCD genérica, a biometria para de funcionar. Na Reparo Avançado, utilizamos exclusivamente telas AMOLED ${PECAS} que são compatíveis com o sensor ultrassônico. Após a troca, recalibramos o sensor para máxima precisão. ${LOCAL_SEO}`,
+    solution: `O sensor de digital sob a tela dos Samsung Galaxy S e A funciona com a tela AMOLED, se a tela for trocada por uma IPS/LCD genérica, a biometria para de funcionar. Na Reparo Avançado, utilizamos exclusivamente telas AMOLED ${PECAS} que são compatíveis com o sensor ultrassônico. Após a troca, recalibramos o sensor para máxima precisão. ${LOCAL_SEO}`,
     whenToSeek: "Se a biometria parou após troca de tela em outra oficina, traga para avaliarmos. Se precisa trocar a tela, venha direto para garantir que a biometria funcione.",
     costInfo: `Telas AMOLED de alta performance com biometria funcionando perfeitamente. Valor conforme modelo. ${CTA_TEXT}.`,
     faq: [
@@ -803,8 +803,8 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Impacto que danificou vidro e display",
       "Pressão que causou trinca sem afetar o LCD/OLED"
     ],
-    solution: `A troca apenas do vidro (refurbish) é possível quando o LCD/OLED e o touch estão funcionando 100% — apenas a camada de vidro frontal está trincada. Na Reparo Avançado, utilizamos máquina separadora profissional e OCA (adesivo óptico claro) para realizar a troca de vidro com acabamento de fábrica. Quando o display tem manchas, linhas ou touch com falha, a troca da tela completa é necessária. ${LOCAL_SEO}`,
-    whenToSeek: "Traga para avaliação gratuita — analisamos se o display interno está intacto e se a troca apenas do vidro é viável para o seu modelo.",
+    solution: `A troca apenas do vidro (refurbish) é possível quando o LCD/OLED e o touch estão funcionando 100%, apenas a camada de vidro frontal está trincada. Na Reparo Avançado, utilizamos máquina separadora profissional e OCA (adesivo óptico claro) para realizar a troca de vidro com acabamento de fábrica. Quando o display tem manchas, linhas ou touch com falha, a troca da tela completa é necessária. ${LOCAL_SEO}`,
+    whenToSeek: "Traga para avaliação gratuita, analisamos se o display interno está intacto e se a troca apenas do vidro é viável para o seu modelo.",
     costInfo: `A troca de vidro custa em média 40-60% menos que a troca de tela completa. avaliação gratuita para determinar a melhor opção. ${CTA_TEXT}.`,
     faq: [
       { question: "Como saber se posso trocar só o vidro?", answer: "Se a tela mostra imagem perfeita (sem manchas, linhas ou cores estranhas) e o touch responde em todas as áreas, é provável que apenas o vidro esteja danificado. Trazendo à Reparo Avançado, confirmamos com avaliação visual." },
@@ -1125,7 +1125,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Informações incorretas disseminadas na internet e redes sociais",
       "Falta de conhecimento profissional do público geral"
     ],
-    solution: `Vamos desmentir os principais mitos: 1) ARROZ NÃO FUNCIONA — o arroz não remove umidade interna e pode introduzir amido nos conectores. 2) SECADOR DE CABELO É PERIGOSO — o calor pode derreter componentes e espalhar a umidade. 3) CONGELAR O CELULAR NÃO RESOLVE NADA — pode causar condensação interna. 4) PELÍCULA NÃO PROTEGE CONTRA QUEDAS FORTES — ela protege contra riscos, não contra impacto. 5) CELULAR 'À PROVA D'ÁGUA' NÃO É INDESTRUTÍVEL. A solução real é sempre buscar oficina de conserto de celular qualificada. ${LOCAL_SEO}`,
+    solution: `Vamos desmentir os principais mitos: 1) ARROZ NÃO FUNCIONA, o arroz não remove umidade interna e pode introduzir amido nos conectores. 2) SECADOR DE CABELO É PERIGOSO, o calor pode derreter componentes e espalhar a umidade. 3) CONGELAR O CELULAR NÃO RESOLVE NADA, pode causar condensação interna. 4) PELÍCULA NÃO PROTEGE CONTRA QUEDAS FORTES, ela protege contra riscos, não contra impacto. 5) CELULAR 'À PROVA D'ÁGUA' NÃO É INDESTRUTÍVEL. A solução real é sempre buscar oficina de conserto de celular qualificada. ${LOCAL_SEO}`,
     whenToSeek: "Sempre que tiver um problema com o celular. Não tente soluções caseiras que podem piorar o dano. avaliação gratuita na Reparo Avançado.",
     costInfo: `avaliação gratuita para qualquer problema. Pare de arriscar com mitos e tenha certeza com profissionais. ${CTA_TEXT}.`,
     faq: [
@@ -1160,7 +1160,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de transparência é comum no segmento",
       "Uso de peças de baixa qualidade sem informar o cliente"
     ],
-    solution: `O que nos diferencia: 1) avaliação gratuita E TRANSPARENTE — você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE — ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL — microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE — nossos profissionals se atualizam com cada novo modelo lançado. 6) HONESTIDADE — se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
+    solution: `O que nos diferencia: 1) avaliação gratuita E TRANSPARENTE, você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE, ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL, microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE, nossos profissionals se atualizam com cada novo modelo lançado. 6) HONESTIDADE, se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
     whenToSeek: "Para qualquer problema com seu celular ou notebook. Primeira consulta sempre gratuita.",
     costInfo: `avaliação gratuita. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
     faq: [
@@ -1444,7 +1444,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "introducao",
         title: "Introdução",
-        content: "Procurar uma assistência técnica de celular em Salvador pode ser uma tarefa desafiadora. Com dezenas de opções espalhadas por todos os bairros — da Boca do Rio à Pituba, do Centro às grandes avenidas —, como saber qual empresa realmente vai consertar o seu aparelho sem causar novos defeitos? O conserto de celular exige não apenas ferramentas corretas, mas também conhecimento técnico profundo, principalmente em marcas como Apple (iPhone) e Samsung. Neste artigo, vamos guiar você sobre os pontos fundamentais que devem ser analisados antes de entregar o seu smartphone nas mãos de qualquer técnico."
+        content: "Procurar uma assistência técnica de celular em Salvador pode ser uma tarefa desafiadora. Com dezenas de opções espalhadas por todos os bairros, da Boca do Rio à Pituba, do Centro às grandes avenidas -, como saber qual empresa realmente vai consertar o seu aparelho sem causar novos defeitos? O conserto de celular exige não apenas ferramentas corretas, mas também conhecimento técnico profundo, principalmente em marcas como Apple (iPhone) e Samsung. Neste artigo, vamos guiar você sobre os pontos fundamentais que devem ser analisados antes de entregar o seu smartphone nas mãos de qualquer técnico."
       },
       {
         id: "como-identificar",
@@ -2175,7 +2175,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "maquina-oca",
         title: "O Segredo Tecnológico: Laminação e Tira-Bolhas OCA",
-        content: "O que torna o acabamento da troca de vidro da Reparo Avançado perfeito é o nosso maquinário. Depois que separamos o vidro quebrado, o vidro novo não é colado com cola líquida (que vaza para os botões). Nós usamos Cola OCA (Optical Clear Adhesive) — uma fita adesiva óptica sólida e invisível.\n\nO aparelho entra numa câmara de pressão a vácuo de 8 Bar de pressão que prensa o vidro novo contra o display original, sugando 100% do oxigênio entre as partes e eliminando as microbolhas. O acabamento é de celular lacrado na caixa da fábrica."
+        content: "O que torna o acabamento da troca de vidro da Reparo Avançado perfeito é o nosso maquinário. Depois que separamos o vidro quebrado, o vidro novo não é colado com cola líquida (que vaza para os botões). Nós usamos Cola OCA (Optical Clear Adhesive), uma fita adesiva óptica sólida e invisível.\n\nO aparelho entra numa câmara de pressão a vácuo de 8 Bar de pressão que prensa o vidro novo contra o display original, sugando 100% do oxigênio entre as partes e eliminando as microbolhas. O acabamento é de celular lacrado na caixa da fábrica."
       },
       {
         id: "economia-ambiente",
@@ -2371,7 +2371,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     relatedSlugs: ["assistencia-tecnica-boca-do-rio", "assistencia-tecnica-imbui", "assistencia-tecnica-pituba", "conserto-de-celular-salvador"]
   },
   // ═══════════════════════════════════════════════════
-  // SÁBADO 21/06/2026 — DROP SEMANAL (12 ARTIGOS)
+  // SÁBADO 21/06/2026, DROP SEMANAL (12 ARTIGOS)
   // ═══════════════════════════════════════════════════
   {
     slug: "troca-de-tela-iphone-15-pro-max-salvador",
@@ -2399,7 +2399,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Impacto na borda de titânio que transferiu a força diretamente para o vidro OLED",
       "Uso de capinhas finas sem elevação frontal (lábio de proteção)"
     ],
-    solution: `O iPhone 15 Pro Max possui o display OLED mais avançado já criado pela Apple: resolução de 2796x1290 pixels, taxa de atualização ProMotion de 120Hz e brilho máximo de 2000 nits. Trocar essa tela exige precisão absoluta.\n\nNa Reparo Avançado, nosso processo é cirúrgico:\n\n**Etapa 1 — Diagnóstico Pré-Troca:** Antes de abrir, testamos o Face ID, alto-falante e microfone para garantir que nenhum outro componente foi danificado pela queda.\n**Etapa 2 — Abertura Controlada:** Usamos ventosas industriais e espátulas de nylon aquecidas para descolar a vedação de cola sem danificar os cabos flexíveis internos.\n**Etapa 3 — Transferência de Componentes:** Transferimos o sensor do Face ID (Módulo TrueDepth), o alto-falante auricular e o sensor de proximidade da tela antiga para a nova.\n**Etapa 4 — Reprogramação True Tone:** Utilizamos maquinário especializado para copiar os dados de calibração de cor da tela original para a nova, mantendo o True Tone funcionando perfeitamente.\n\n[DICA]\nSe a tela quebrou mas o touch ainda funciona, faça um backup no iCloud ANTES de trazer para a troca. Embora seus dados estejam 100% seguros conosco, ter um backup é sempre a melhor prática.\n[/DICA]\n\n${LOCAL_SEO}`,
+    solution: `O iPhone 15 Pro Max possui o display OLED mais avançado já criado pela Apple: resolução de 2796x1290 pixels, taxa de atualização ProMotion de 120Hz e brilho máximo de 2000 nits. Trocar essa tela exige precisão absoluta.\n\nNa Reparo Avançado, nosso processo é cirúrgico:\n\n**Etapa 1, Diagnóstico Pré-Troca:** Antes de abrir, testamos o Face ID, alto-falante e microfone para garantir que nenhum outro componente foi danificado pela queda.\n**Etapa 2, Abertura Controlada:** Usamos ventosas industriais e espátulas de nylon aquecidas para descolar a vedação de cola sem danificar os cabos flexíveis internos.\n**Etapa 3, Transferência de Componentes:** Transferimos o sensor do Face ID (Módulo TrueDepth), o alto-falante auricular e o sensor de proximidade da tela antiga para a nova.\n**Etapa 4, Reprogramação True Tone:** Utilizamos maquinário especializado para copiar os dados de calibração de cor da tela original para a nova, mantendo o True Tone funcionando perfeitamente.\n\n[DICA]\nSe a tela quebrou mas o touch ainda funciona, faça um backup no iCloud ANTES de trazer para a troca. Embora seus dados estejam 100% seguros conosco, ter um backup é sempre a melhor prática.\n[/DICA]\n\n${LOCAL_SEO}`,
     whenToSeek: "Imediatamente após a queda. Continuar usando uma tela trincada no iPhone 15 Pro Max pode causar cortes nos dedos e permite que umidade entre no interior do aparelho, danificando a placa-mãe e o Face ID.",
     costInfo: `O display do iPhone 15 Pro Max é uma das peças mais valiosas do mercado mobile. Trabalhamos com displays OLED Premium que mantêm a mesma qualidade visual, brilho e resposta tátil do original. ${CTA_TEXT}.`,
     faq: [
@@ -2443,7 +2443,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Uso de capinhas que não cobrem as bordas laterais curvas do display",
       "Defeito crônico de solda fria no flat da tela (tela verde/branca)"
     ],
-    solution: `O Galaxy S24 Ultra é o rei dos smartphones Android. Sua tela de 6.8 polegadas com resolução QHD+ e taxa de 120Hz é uma obra-prima, mas também é extremamente delicada nas bordas curvas.\n\nNa Reparo Avançado, trabalhamos com duas opções de display para o S24 Ultra:\n\n**Opção 1 — Display AMOLED com Aro (Frame):** A tela já vem colada em uma nova carcaça lateral de alumínio. O resultado é um celular que parece ter saído da caixa, com biometria 100% funcional e sem riscos de descolamento.\n\n**Opção 2 — Apenas Display (sem aro):** Para clientes que querem economizar e cuja carcaça está em bom estado. Colamos o display novo usando máquina OCA e autoclave.\n\n[IMPORTANTE]\nCUIDADO com telas TFT/LCD baratas vendidas como "compatíveis" para o S24 Ultra. Essas telas:\n- NÃO possuem sensor de digital sob a tela\n- NÃO atingem o brilho de 2600 nits do original\n- NÃO suportam a S-Pen (sem digitalizador Wacom)\n- Ficam com cores lavadas e amareladas\n[/IMPORTANTE]\n\n${LOCAL_SEO}`,
+    solution: `O Galaxy S24 Ultra é o rei dos smartphones Android. Sua tela de 6.8 polegadas com resolução QHD+ e taxa de 120Hz é uma obra-prima, mas também é extremamente delicada nas bordas curvas.\n\nNa Reparo Avançado, trabalhamos com duas opções de display para o S24 Ultra:\n\n**Opção 1, Display AMOLED com Aro (Frame):** A tela já vem colada em uma nova carcaça lateral de alumínio. O resultado é um celular que parece ter saído da caixa, com biometria 100% funcional e sem riscos de descolamento.\n\n**Opção 2, Apenas Display (sem aro):** Para clientes que querem economizar e cuja carcaça está em bom estado. Colamos o display novo usando máquina OCA e autoclave.\n\n[IMPORTANTE]\nCUIDADO com telas TFT/LCD baratas vendidas como "compatíveis" para o S24 Ultra. Essas telas:\n- NÃO possuem sensor de digital sob a tela\n- NÃO atingem o brilho de 2600 nits do original\n- NÃO suportam a S-Pen (sem digitalizador Wacom)\n- Ficam com cores lavadas e amareladas\n[/IMPORTANTE]\n\n${LOCAL_SEO}`,
     whenToSeek: "Urgente se a mancha preta na tela estiver crescendo. Isso significa que o líquido cristalino do AMOLED está vazando internamente e pode atingir o circuito do sensor biométrico, inutilizando-o.",
     costInfo: `O display do S24 Ultra com aro é uma peça de alto valor. Sempre oferecemos a opção de troca apenas do vidro (se o display estiver intacto por dentro), economizando até 60% do valor. ${CTA_TEXT}.`,
     faq: [
@@ -2574,7 +2574,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Backlight (retroiluminação) do LCD queimou (tela parece preta mas a imagem existe de forma muito fraca)",
       "Chip de vídeo (GPU) na placa-mãe perdeu comunicação com o display"
     ],
-    solution: `Esse é um dos defeitos que mais causam pânico no cliente. A boa notícia? Em **90% dos casos, é só a tela** — e não a placa-mãe. Seus dados, fotos e aplicativos estão 100% intactos dentro do aparelho.\n\nNa Reparo Avançado, nós fazemos um teste simples e genial para confirmar:\n\n**Teste da Lanterna (para LCD):** Apontamos uma lanterna forte contra a tela preta em um ambiente escuro. Se conseguirmos ver uma sombra fraquíssima da imagem, o backlight queimou mas o LCD está vivo. A troca da tela resolve tudo.\n\n**Teste da Fonte DC:** Conectamos a placa-mãe diretamente na nossa fonte de alimentação. Se o consumo de energia subir normalmente quando a placa liga, significa que o processador e a GPU estão saudáveis. O problema é exclusivamente no display.\n\n**Teste do Conector:** Abrimos o aparelho e reconectamos o flat da tela. Em 20% dos casos, a queda apenas desencaixou o conector e o display volta a funcionar sem custo de peça.\n\n[DICA]\nSe a tela ficou preta mas o celular funciona, NÃO tente fazer "Force Restart" repetidamente. Se o problema for no conector desencaixado, a vibração do restart pode piorar. Traga direto para diagnóstico.\n[/DICA]\n\n${LOCAL_SEO}`,
+    solution: `Esse é um dos defeitos que mais causam pânico no cliente. A boa notícia? Em **90% dos casos, é só a tela**, e não a placa-mãe. Seus dados, fotos e aplicativos estão 100% intactos dentro do aparelho.\n\nNa Reparo Avançado, nós fazemos um teste simples e genial para confirmar:\n\n**Teste da Lanterna (para LCD):** Apontamos uma lanterna forte contra a tela preta em um ambiente escuro. Se conseguirmos ver uma sombra fraquíssima da imagem, o backlight queimou mas o LCD está vivo. A troca da tela resolve tudo.\n\n**Teste da Fonte DC:** Conectamos a placa-mãe diretamente na nossa fonte de alimentação. Se o consumo de energia subir normalmente quando a placa liga, significa que o processador e a GPU estão saudáveis. O problema é exclusivamente no display.\n\n**Teste do Conector:** Abrimos o aparelho e reconectamos o flat da tela. Em 20% dos casos, a queda apenas desencaixou o conector e o display volta a funcionar sem custo de peça.\n\n[DICA]\nSe a tela ficou preta mas o celular funciona, NÃO tente fazer "Force Restart" repetidamente. Se o problema for no conector desencaixado, a vibração do restart pode piorar. Traga direto para diagnóstico.\n[/DICA]\n\n${LOCAL_SEO}`,
     whenToSeek: "Assim que perceber que o celular está funcionando com a tela apagada. Quanto mais tempo você usar o celular 'cego', maior o risco de aceitar ligações indesejadas ou enviar mensagens acidentais pelo toque fantasma.",
     costInfo: `Se for apenas reconexão do flat, o custo pode ser mínimo (apenas a mão de obra da abertura). Se for troca de display, o valor varia conforme o modelo. Diagnóstico gratuito! ${CTA_TEXT}.`,
     faq: [
@@ -2617,7 +2617,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Concentração das autorizadas apenas em grandes shoppings (Salvador Shopping, Salvador Norte)",
       "Mercado informal de 'técnicos de fundo de quintal' que geram desconfiança"
     ],
-    solution: `Se você mora ou trabalha na **Pituba**, **Imbuí** ou **Costa Azul**, temos uma excelente notícia: a Reparo Avançado está na **Boca do Rio**, literalmente a 5 minutos de carro de qualquer um desses bairros.\n\nNão importa se é um iPhone com a tela destruída, um Samsung com a bateria estufando ou um Xiaomi que apagou do nada — nosso laboratório completo resolve tudo sem terceirizar:\n\n**Pituba → Boca do Rio:** 5 minutos pela Av. Octávio Mangabeira\n**Imbuí → Boca do Rio:** 4 minutos pela Av. Jorge Amado\n**Costa Azul → Boca do Rio:** 3 minutos pela Rua Arthur Azevedo Machado\n\n[DICA]\nVocê não precisa sair do conforto do seu bairro para ter um orçamento. Mande uma foto do defeito pelo WhatsApp que respondemos em minutos com o preço estimado. Só venha à loja quando estiver decidido!\n[/DICA]\n\nNossa missão é ser o laboratório de referência da Orla de Salvador, oferecendo o que antes só existia em grandes centros técnicos. ${LOCAL_SEO}`,
+    solution: `Se você mora ou trabalha na **Pituba**, **Imbuí** ou **Costa Azul**, temos uma excelente notícia: a Reparo Avançado está na **Boca do Rio**, literalmente a 5 minutos de carro de qualquer um desses bairros.\n\nNão importa se é um iPhone com a tela destruída, um Samsung com a bateria estufando ou um Xiaomi que apagou do nada, nosso laboratório completo resolve tudo sem terceirizar:\n\n**Pituba → Boca do Rio:** 5 minutos pela Av. Octávio Mangabeira\n**Imbuí → Boca do Rio:** 4 minutos pela Av. Jorge Amado\n**Costa Azul → Boca do Rio:** 3 minutos pela Rua Arthur Azevedo Machado\n\n[DICA]\nVocê não precisa sair do conforto do seu bairro para ter um orçamento. Mande uma foto do defeito pelo WhatsApp que respondemos em minutos com o preço estimado. Só venha à loja quando estiver decidido!\n[/DICA]\n\nNossa missão é ser o laboratório de referência da Orla de Salvador, oferecendo o que antes só existia em grandes centros técnicos. ${LOCAL_SEO}`,
     whenToSeek: "Sempre que precisar de conserto rápido e profissional sem perder o dia inteiro em fila de shopping. A maioria dos nossos serviços é entregue no mesmo dia.",
     costInfo: `Nossos preços são justos e transparentes, sem surpresas. A localização na Boca do Rio nos permite manter custos operacionais menores que shoppings e repassar a economia para você. ${CTA_TEXT}.`,
     faq: [
@@ -2705,7 +2705,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Oxidação dos contatos metálicos por suor das mãos e maresia de Salvador",
       "Desgaste natural das molas de retenção do conector após 2+ anos de uso diário"
     ],
-    solution: `O conector de carga é a parte do celular que mais sofre estresse mecânico diário: você conecta e desconecta o cabo pelo menos 2 vezes por dia, puxa em ângulo enquanto usa deitado, e a entrada acumula toda a poeira do seu bolso.\n\nAntes de trocar a peça, nós fazemos uma limpeza técnica gratuita:\n\n**Etapa 1 — Limpeza com Ar Comprimido e Pinças Anti-Estáticas:** Removemos fiapos e poeira compactada no fundo do conector. Em 30% dos casos, isso já resolve o problema sem custo de peça!\n\n**Etapa 2 — Teste de Continuidade:** Verificamos se os pinos de dados e carga estão fazendo contato elétrico correto.\n\n**Etapa 3 — Troca da Peça (se necessário):**\n- **Samsung:** Trocamos a Sub-Placa PBA inteira (plaquinha inferior que contém o conector, microfone e alto-falante inferior). Serviço rápido.\n- **iPhone:** Trocamos o cabo Flex do conector Lightning/USB-C com peças certificadas.\n- **Motorola/Xiaomi:** Muitos modelos possuem o conector soldado na placa-mãe. Exige micro-soldagem profissional.\n\n[DICA]\nPara evitar que o conector estrague de novo: nunca puxe o cabo pelo fio, sempre segure pela ponta plástica do conector. E limpe a entrada com um palito de plástico (NUNCA metal) uma vez por mês.\n[/DICA]\n\n${LOCAL_SEO}`,
+    solution: `O conector de carga é a parte do celular que mais sofre estresse mecânico diário: você conecta e desconecta o cabo pelo menos 2 vezes por dia, puxa em ângulo enquanto usa deitado, e a entrada acumula toda a poeira do seu bolso.\n\nAntes de trocar a peça, nós fazemos uma limpeza técnica gratuita:\n\n**Etapa 1, Limpeza com Ar Comprimido e Pinças Anti-Estáticas:** Removemos fiapos e poeira compactada no fundo do conector. Em 30% dos casos, isso já resolve o problema sem custo de peça!\n\n**Etapa 2, Teste de Continuidade:** Verificamos se os pinos de dados e carga estão fazendo contato elétrico correto.\n\n**Etapa 3, Troca da Peça (se necessário):**\n- **Samsung:** Trocamos a Sub-Placa PBA inteira (plaquinha inferior que contém o conector, microfone e alto-falante inferior). Serviço rápido.\n- **iPhone:** Trocamos o cabo Flex do conector Lightning/USB-C com peças certificadas.\n- **Motorola/Xiaomi:** Muitos modelos possuem o conector soldado na placa-mãe. Exige micro-soldagem profissional.\n\n[DICA]\nPara evitar que o conector estrague de novo: nunca puxe o cabo pelo fio, sempre segure pela ponta plástica do conector. E limpe a entrada com um palito de plástico (NUNCA metal) uma vez por mês.\n[/DICA]\n\n${LOCAL_SEO}`,
     whenToSeek: "Assim que perceber que precisa ficar ajeitando o cabo para carregar. Mau contato causa micro-arcos elétricos que queimam os pinos e podem fritar o CI de carga na placa-mãe (um reparo muito mais caro).",
     costInfo: `A troca de conector (sub-placa ou flex) é um dos serviços mais acessíveis e rápidos. Em muitos modelos, concluímos em 30 minutos. Se for apenas limpeza, pode sair de graça! ${CTA_TEXT}.`,
     faq: [
@@ -2761,7 +2761,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "dynamic-island",
         title: "A Dynamic Island e o Cuidado na Troca de Tela",
-        content: "O iPhone 14 Pro Max introduziu a Dynamic Island, que integra o módulo de câmera frontal e sensores do Face ID diretamente na tela. Ao trocar a tela, é obrigatório transferir esse conjunto com extremo cuidado, pois um fio flex rompido significa perda total do Face ID — um reparo que custa quase tanto quanto a própria tela."
+        content: "O iPhone 14 Pro Max introduziu a Dynamic Island, que integra o módulo de câmera frontal e sensores do Face ID diretamente na tela. Ao trocar a tela, é obrigatório transferir esse conjunto com extremo cuidado, pois um fio flex rompido significa perda total do Face ID, um reparo que custa quase tanto quanto a própria tela."
       }
     ],
     relatedSlugs: ["troca-de-tela-iphone-15-pro-max-salvador", "troca-de-bateria-iphone-salvador-saude-100", "assistencia-tecnica-iphone-salvador-especializada"]
@@ -2792,7 +2792,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de assistência oficial da Realme em Salvador, gerando acúmulo de aparelhos sem conserto",
       "Software ColorOS/Realme UI com bugs que travam o sistema após atualizações"
     ],
-    solution: `A Realme cresceu explosivamente no Brasil, mas a rede de assistência técnica não acompanhou. Em Salvador, encontrar alguém que conserte Realme de verdade é quase impossível — a maioria das lojas recusa ou manda para São Paulo.\n\nNa Reparo Avançado, nós abraçamos a Realme:\n\n**Troca de Tela:** Trabalhamos com displays Incell e OLED para os modelos Realme 8, 9, 10, 11, GT e C-series. As telas são compatíveis com a digitalização de toque capacitivo de fábrica.\n**Bateria:** Substituímos baterias compatíveis com o carregamento DART Charge, mantendo a velocidade de recarga ultrarrápida.\n**Reparo de Placa:** Como a Realme usa chipsets Qualcomm e MediaTek padrão, nosso laboratório de micro-soldagem atende sem problemas.\n**Software:** Possuímos ferramentas para Flash via Modo Qualcomm (EDL 9008) e MediaTek (SP Flash Tool), salvando aparelhos travados no boot.\n\n[DICA]\nSe o seu Realme parou de carregar no DART Charge (65W), tente usar um carregador USB-C comum de 10W. Se carregar normalmente, o problema é no CI de carga rápida, não no conector. Traga para avaliação!\n[/DICA]\n\n${LOCAL_SEO}`,
+    solution: `A Realme cresceu explosivamente no Brasil, mas a rede de assistência técnica não acompanhou. Em Salvador, encontrar alguém que conserte Realme de verdade é quase impossível, a maioria das lojas recusa ou manda para São Paulo.\n\nNa Reparo Avançado, nós abraçamos a Realme:\n\n**Troca de Tela:** Trabalhamos com displays Incell e OLED para os modelos Realme 8, 9, 10, 11, GT e C-series. As telas são compatíveis com a digitalização de toque capacitivo de fábrica.\n**Bateria:** Substituímos baterias compatíveis com o carregamento DART Charge, mantendo a velocidade de recarga ultrarrápida.\n**Reparo de Placa:** Como a Realme usa chipsets Qualcomm e MediaTek padrão, nosso laboratório de micro-soldagem atende sem problemas.\n**Software:** Possuímos ferramentas para Flash via Modo Qualcomm (EDL 9008) e MediaTek (SP Flash Tool), salvando aparelhos travados no boot.\n\n[DICA]\nSe o seu Realme parou de carregar no DART Charge (65W), tente usar um carregador USB-C comum de 10W. Se carregar normalmente, o problema é no CI de carga rápida, não no conector. Traga para avaliação!\n[/DICA]\n\n${LOCAL_SEO}`,
     whenToSeek: "Quando o celular travar na logo de boot ou quando o carregamento ultrarrápido parar de funcionar. Também quando a bateria começar a estufar (urgência máxima!).",
     costInfo: `Peças de Realme costumam ter preços competitivos no mercado, tornando o reparo financeiramente vantajoso. A disponibilidade de peças pode variar, mas mantemos estoque dos modelos mais populares. ${CTA_TEXT}.`,
     faq: [
@@ -2836,7 +2836,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Barreira técnica que impede o cliente de verificar o que foi feito",
       "Pressão financeira que leva o consumidor a escolher sempre o mais barato"
     ],
-    solution: `Escolher a assistência errada pode custar mais caro do que o próprio conserto. Aqui estão os 7 sinais de uma oficina confiável:\n\n**✅ 1. Laboratório Visível:** Desconfie de quem esconde a bancada. Na Reparo Avançado, nosso laboratório é aberto — você pode acompanhar o serviço.\n**✅ 2. Orçamento Por Escrito:** Antes de abrir, o valor deve ser combinado por WhatsApp ou papel.\n**✅ 3. Garantia Documentada:** Toda peça e mão de obra devem ter garantia mínima de 90 dias (CDC).\n**✅ 4. Avaliações Online:** Confira Google Maps, Instagram e reclameaqui. Loja sem avaliação é red flag.\n**✅ 5. Especialização:** Prefira assistências que focam em celulares, não lojas que consertam "tudo" (TV, micro-ondas, notebook...).\n**✅ 6. Peças à Vista:** A loja mostra a peça antiga removida e a nova antes de instalar.\n**✅ 7. Tempo de Mercado:** Lojas com anos de operação no mesmo endereço são mais confiáveis.\n\n[ATENCAO]\n**5 Red Flags Para Fugir Correndo:**\n1. "Tem que deixar o celular e a gente liga quando ficar pronto" (sem prazo definido)\n2. Orçamento muito abaixo do mercado (peças roubadas ou falsificadas)\n3. Não emite nota fiscal nem ordem de serviço\n4. Pede sua senha de desbloqueio sem justificativa técnica\n5. Não tem endereço fixo (conserta na "casa" ou pelo Instagram sem CNPJ)\n[/ATENCAO]\n\n${LOCAL_SEO}`,
+    solution: `Escolher a assistência errada pode custar mais caro do que o próprio conserto. Aqui estão os 7 sinais de uma oficina confiável:\n\n**✅ 1. Laboratório Visível:** Desconfie de quem esconde a bancada. Na Reparo Avançado, nosso laboratório é aberto, você pode acompanhar o serviço.\n**✅ 2. Orçamento Por Escrito:** Antes de abrir, o valor deve ser combinado por WhatsApp ou papel.\n**✅ 3. Garantia Documentada:** Toda peça e mão de obra devem ter garantia mínima de 90 dias (CDC).\n**✅ 4. Avaliações Online:** Confira Google Maps, Instagram e reclameaqui. Loja sem avaliação é red flag.\n**✅ 5. Especialização:** Prefira assistências que focam em celulares, não lojas que consertam "tudo" (TV, micro-ondas, notebook...).\n**✅ 6. Peças à Vista:** A loja mostra a peça antiga removida e a nova antes de instalar.\n**✅ 7. Tempo de Mercado:** Lojas com anos de operação no mesmo endereço são mais confiáveis.\n\n[ATENCAO]\n**5 Red Flags Para Fugir Correndo:**\n1. "Tem que deixar o celular e a gente liga quando ficar pronto" (sem prazo definido)\n2. Orçamento muito abaixo do mercado (peças roubadas ou falsificadas)\n3. Não emite nota fiscal nem ordem de serviço\n4. Pede sua senha de desbloqueio sem justificativa técnica\n5. Não tem endereço fixo (conserta na "casa" ou pelo Instagram sem CNPJ)\n[/ATENCAO]\n\n${LOCAL_SEO}`,
     whenToSeek: "Sempre que precisar de conserto. Use este guia como checklist antes de entregar seu aparelho a qualquer assistência em Salvador.",
     costInfo: `Na Reparo Avançado, praticamos todos os 7 sinais de confiança listados acima. Orçamento gratuito, transparente e por escrito. ${CTA_TEXT}.`,
     faq: [
@@ -2875,12 +2875,12 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Usou o celular no banheiro e o vapor do chuveiro quente entrou"
     ],
     causes: [
-      "Salvador é uma cidade litorânea — a exposição à água é constante",
+      "Salvador é uma cidade litorânea, a exposição à água é constante",
       "Confiança excessiva na classificação IP67/IP68 (a vedação degrada com o tempo)",
       "Uso do celular na praia para fotos e músicas (areia + água salgada = combo mortal)",
       "Chuvas tropicais repentinas que pegam de surpresa quem está na rua"
     ],
-    solution: `Salvador é uma das cidades com mais acidentes de celular com água no Brasil. Porto da Barra, Flamengo, Stella Maris — todo final de semana recebemos aparelhos que caíram no mar.\n\n**Os 5 passos de emergência que você deve seguir AGORA:**\n\n1. **Tire da água IMEDIATAMENTE** — cada segundo conta\n2. **NÃO LIGUE e NÃO coloque na tomada** — isso causa curto-circuito fatal\n3. **NÃO sacuda** — a agitação espalha a água para áreas que estavam secas\n4. **NÃO coloque no arroz** — mito! O arroz não ajuda e o amido entope o conector\n5. **Traga para nós o mais rápido possível** — nosso laboratório possui Cuba Ultrassônica para desoxidação profunda\n\n[IMPORTANTE]\n**ÁGUA DO MAR é 10x mais perigosa que água doce!** O sal (cloreto de sódio) é altamente condutor e começa a corroer as trilhas de cobre da placa-mãe em 30 minutos. Se seu celular caiu no mar de Salvador, a corrida contra o tempo é dobrada.\n[/IMPORTANTE]\n\nNa Reparo Avançado, possuímos o kit completo de salvamento: Cuba Ultrassônica industrial, solução química de desoxidação, estufa de secagem controlada e microscópio para inspeção pós-limpeza. ${LOCAL_SEO}`,
+    solution: `Salvador é uma das cidades com mais acidentes de celular com água no Brasil. Porto da Barra, Flamengo, Stella Maris, todo final de semana recebemos aparelhos que caíram no mar.\n\n**Os 5 passos de emergência que você deve seguir AGORA:**\n\n1. **Tire da água IMEDIATAMENTE**, cada segundo conta\n2. **NÃO LIGUE e NÃO coloque na tomada**, isso causa curto-circuito fatal\n3. **NÃO sacuda**, a agitação espalha a água para áreas que estavam secas\n4. **NÃO coloque no arroz**, mito! O arroz não ajuda e o amido entope o conector\n5. **Traga para nós o mais rápido possível**, nosso laboratório possui Cuba Ultrassônica para desoxidação profunda\n\n[IMPORTANTE]\n**ÁGUA DO MAR é 10x mais perigosa que água doce!** O sal (cloreto de sódio) é altamente condutor e começa a corroer as trilhas de cobre da placa-mãe em 30 minutos. Se seu celular caiu no mar de Salvador, a corrida contra o tempo é dobrada.\n[/IMPORTANTE]\n\nNa Reparo Avançado, possuímos o kit completo de salvamento: Cuba Ultrassônica industrial, solução química de desoxidação, estufa de secagem controlada e microscópio para inspeção pós-limpeza. ${LOCAL_SEO}`,
     whenToSeek: "MÁXIMA URGÊNCIA! Traga no mesmo dia, preferencialmente nas primeiras 4 horas. A cada hora que passa com o celular molhado (especialmente água do mar), as chances de recuperação caem drasticamente.",
     costInfo: `A desoxidação química tem um custo fixo de laboratório. Se peças adicionais forem danificadas pela água (tela, bateria), enviaremos orçamento complementar sem compromisso. ${CTA_TEXT}.`,
     faq: [

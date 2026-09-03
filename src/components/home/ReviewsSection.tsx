@@ -20,7 +20,7 @@ const ReviewsSection = () => {
             href="https://google.com/search?q=Reparo+Avan%C3%A7ado+Boca+do+Rio+Salvador"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-500 transition-colors"
+            className="bg-[#0066FF] text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-500 transition-colors"
           >
             Ver mais avaliações no Google
           </a>

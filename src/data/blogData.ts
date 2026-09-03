@@ -289,7 +289,7 @@ export const problemPosts: BlogPost[] = [
   return {
     slug,
     title: `${problem} em Salvador? Reparo Avançado`,
-    h1: `${problem} em Salvador (BA) – avaliação e conserto Profissional`,
+    h1: `${problem} em Salvador (BA), avaliação e conserto Profissional`,
     metaDescription: `Seu ${problem.toLowerCase()}? A Reparo Avançado em Salvador (Boca do Rio) resolve com avaliação gratuita. Atendemos Pituba, Imbuí, Stiep e região.`,
     category: "iphone" as Category,
     brand: "Geral",

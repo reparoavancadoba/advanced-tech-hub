@@ -11,7 +11,7 @@ const NewSpecialty = () => (
         </p>
       </div>
       <div className="flex-1 w-full">
-        <div className="aspect-video bg-blue-700 rounded-2xl overflow-hidden shadow-2xl border border-white/20 flex items-center justify-center">
+        <div className="aspect-video bg-[#0052cc] rounded-2xl overflow-hidden shadow-2xl border border-white/20 flex items-center justify-center">
           <img src="/images/laboratorio.png" alt="Laboratório de Reparo Avançado" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" />
         </div>
       </div>

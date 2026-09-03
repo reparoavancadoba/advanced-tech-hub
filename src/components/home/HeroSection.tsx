@@ -161,7 +161,7 @@ const HeroSection = () => {
               href="https://wa.me/5571991981437?text=Olá! Vim pelo site e gostaria de solicitar um diagnóstico para o meu aparelho."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-full transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] transform hover:scale-105 w-full sm:w-auto text-lg"
+              className="inline-flex items-center justify-center gap-2 bg-[#0066FF] hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-full transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] transform hover:scale-105 w-full sm:w-auto text-lg"
             >
               <MessageSquare className="w-5 h-5" />
               Falar no WhatsApp agora

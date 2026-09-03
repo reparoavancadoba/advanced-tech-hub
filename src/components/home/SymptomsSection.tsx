@@ -20,7 +20,7 @@ const SymptomsSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {reasons.map((reason, idx) => (
             <div key={idx} className="border border-zinc-200 rounded-xl p-6 flex flex-col items-center text-center hover:shadow-lg hover:border-blue-200 transition-all group">
-              <div className="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+              <div className="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-[#0066FF] group-hover:bg-[#0066FF] group-hover:text-white transition-colors">
                 <reason.icon className="w-7 h-7" />
               </div>
               <h3 className="text-lg font-bold mb-2">{reason.title}</h3>

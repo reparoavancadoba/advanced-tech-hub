@@ -1,6 +1,6 @@
 import type { BlogPost, Category } from "./blogData";
 
-const LOCAL_SEO = "A Reparo Avançado está localizada na Boca do Rio, Salvador – BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
+const LOCAL_SEO = "A Reparo Avançado está localizada na Boca do Rio, Salvador, BA, e atende clientes de toda a região, incluindo Stiep, Imbuí, Pituba e Costa Azul.";
 const PECAS = "Peças de Alta Performance fabricadas com os mesmos padrões da linha de montagem original";
 const CTA_TEXT = "Fale agora com um profissional qualificado pelo WhatsApp (71) 99198-1437";
 
@@ -27,29 +27,29 @@ export const editorialPostsBatch2: BlogPost[] = [
       "Carregamento mais lento que o habitual, especialmente em dias quentes"
     ],
     causes: [
-      "As baterias de íon de lítio degradam quimicamente de forma acelerada acima de 35°C — temperatura frequente em Salvador durante boa parte do ano",
+      "As baterias de íon de lítio degradam quimicamente de forma acelerada acima de 35°C, temperatura frequente em Salvador durante boa parte do ano",
       "Uso do GPS e aplicativos de navegação no carro sob o sol forte, que combina processamento intenso com calor externo",
       "Saúde da bateria (em Ajustes > Bateria) já abaixo de 80%, indicando desgaste avançado das células",
       "Carregamento com o aparelho exposto ao sol ou sobre superfícies que retêm calor (painel do carro, sofá)",
       "Uso de capinhas grossas ou emborrachadas que impedem a dissipação natural de calor do chassi de alumínio"
     ],
-    solution: `O clima tropical de Salvador exige mais das baterias de lítio da Apple. A faixa ideal de operação do iPhone é entre 0°C e 35°C, mas a temperatura ambiente em Salvador ultrapassa esse limite com frequência — e dentro de um carro estacionado ao sol, o aparelho pode atingir temperaturas internas acima de 45°C.
+    solution: `O clima tropical de Salvador exige mais das baterias de lítio da Apple. A faixa ideal de operação do iPhone é entre 0°C e 35°C, mas a temperatura ambiente em Salvador ultrapassa esse limite com frequência, e dentro de um carro estacionado ao sol, o aparelho pode atingir temperaturas internas acima de 45°C.
 
 Na Reparo Avançado, nosso protocolo para iPhones com descarga acelerada começa com um diagnóstico que diferencia problema de bateria de problema de software:
 
 [DICA]
-Etapa 1 — Leitura da Saúde Real: verificamos a capacidade máxima da bateria e o número de ciclos de carga acumulados, dados que vão além do que o iOS exibe.
-Etapa 2 — Teste de Consumo em Repouso: monitoramos se o iPhone consome energia anormal em standby, o que pode indicar processos de software em loop ou defeito no CI de carga.
-Etapa 3 — Inspeção Física: abrimos o aparelho para verificar se a bateria apresenta sinais de inchaço, oxidação nos conectores ou deformação térmica.
+Etapa 1, Leitura da Saúde Real: verificamos a capacidade máxima da bateria e o número de ciclos de carga acumulados, dados que vão além do que o iOS exibe.
+Etapa 2, Teste de Consumo em Repouso: monitoramos se o iPhone consome energia anormal em standby, o que pode indicar processos de software em loop ou defeito no CI de carga.
+Etapa 3, Inspeção Física: abrimos o aparelho para verificar se a bateria apresenta sinais de inchaço, oxidação nos conectores ou deformação térmica.
 [/DICA]
 
 Se a bateria estiver degradada, realizamos a substituição utilizando células de alta densidade com capacidade nominal igual ou superior à original. Reprogramamos o chip controlador para que o iOS exiba a saúde em 100% sem mensagem de "Peça Desconhecida". Se o problema for software (apps em segundo plano consumindo bateria), orientamos o cliente gratuitamente sobre os ajustes corretos. ${LOCAL_SEO}`,
-    whenToSeek: "Se o iPhone esquenta a ponto de exibir o aviso de temperatura, se a bateria não dura metade de um dia de uso normal, ou se a porcentagem cai de forma irregular (pula de 30% para desligado). Não espere a bateria estufar — isso pode danificar a tela e o chassi.",
+    whenToSeek: "Se o iPhone esquenta a ponto de exibir o aviso de temperatura, se a bateria não dura metade de um dia de uso normal, ou se a porcentagem cai de forma irregular (pula de 30% para desligado). Não espere a bateria estufar, isso pode danificar a tela e o chassi.",
     costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone. Todas as baterias são de alta qualidade com garantia de 90 dias. O diagnóstico completo (software + hardware) é sempre gratuito. ${CTA_TEXT}`,
     faq: [
       { question: "O calor de Salvador realmente estraga a bateria do iPhone?", answer: "Sim. A Apple confirma que temperaturas acima de 35°C causam danos permanentes à capacidade da bateria de íon de lítio. Em Salvador, onde a temperatura média ultrapassa esse limite em boa parte do ano, o desgaste é naturalmente mais rápido do que em regiões mais frias." },
       { question: "Como saber se preciso trocar a bateria ou se é problema de software?", answer: "Acesse Ajustes > Bateria > Saúde e Carregamento. Se a capacidade máxima estiver abaixo de 85%, a bateria provavelmente precisa ser trocada. Se estiver acima de 85% mas o iPhone ainda descarrega rápido, pode ser um app consumindo em segundo plano. Na Reparo Avançado fazemos o diagnóstico gratuito para diferenciar os dois cenários." },
-      { question: "Posso usar o iPhone na praia sem prejudicar a bateria?", answer: "Use com moderação e evite deixá-lo exposto ao sol direto. Retire a capinha para ajudar na dissipação de calor. Se o aviso de temperatura aparecer, mova o aparelho para a sombra e aguarde ele esfriar antes de continuar usando — forçar o uso nesse estado acelera a degradação da bateria." }
+      { question: "Posso usar o iPhone na praia sem prejudicar a bateria?", answer: "Use com moderação e evite deixá-lo exposto ao sol direto. Retire a capinha para ajudar na dissipação de calor. Se o aviso de temperatura aparecer, mova o aparelho para a sombra e aguarde ele esfriar antes de continuar usando, forçar o uso nesse estado acelera a degradação da bateria." }
     ],
     sections: [
       {
@@ -95,9 +95,9 @@ Se a bateria estiver degradada, realizamos a substituição utilizando células 
     solution: `Na Reparo Avançado, nosso primeiro passo nunca é condenar a peça. Seguimos um protocolo de diagnóstico em 3 etapas antes de qualquer intervenção:
 
 [DICA]
-Etapa 1 — Inspeção Visual com Microscópio: examinamos a porta com aumento de 20x para identificar fiapos compactados, oxidação visível ou pinos tortos.
-Etapa 2 — Teste de Continuidade: verificamos se os pinos estão conduzindo eletricidade corretamente usando multímetro de precisão.
-Etapa 3 — Teste com Cabos Certificados: descartamos a possibilidade de ser o cabo e não a porta.
+Etapa 1, Inspeção Visual com Microscópio: examinamos a porta com aumento de 20x para identificar fiapos compactados, oxidação visível ou pinos tortos.
+Etapa 2, Teste de Continuidade: verificamos se os pinos estão conduzindo eletricidade corretamente usando multímetro de precisão.
+Etapa 3, Teste com Cabos Certificados: descartamos a possibilidade de ser o cabo e não a porta.
 [/DICA]
 
 Na maioria dos casos que atendemos, o problema é resolvido com higienização técnica: utilizamos pinças antiestáticas de ponta fina e álcool isopropílico 99% para remover a sujeira compactada sem riscar os pinos. Esse procedimento leva cerca de 5 a 10 minutos e é extremamente acessível.
@@ -201,18 +201,18 @@ Nos casos restantes, onde os pinos estão fisicamente rompidos ou o flex de carg
       "Curto-circuito no CI de gerenciamento de energia (PMIC), frequente na linha Edge após oscilação de rede elétrica",
       "Problema crônico no botão de energia (botão afundado ou com mau contato no flex interno)",
       "Corrupção do bootloader após atualização de sistema interrompida (comum na linha Moto G com atualizações OTA)",
-      "Dano na tela ou no flex do display — o aparelho liga, mas não exibe imagem (confundido com 'não liga')"
+      "Dano na tela ou no flex do display, o aparelho liga, mas não exibe imagem (confundido com 'não liga')"
     ],
     solution: `A linha Motorola é robusta, mas falhas no gerenciamento de energia são comuns após uso prolongado. Quando seu Motorola não liga, a Reparo Avançado aplica um protocolo de diagnóstico específico para identificar a causa real:
 
 [DICA]
-Etapa 1 — Injeção de Voltagem em Bancada: abrimos o aparelho com segurança e alimentamos a placa-mãe diretamente com fonte de bancada controlada. O amperímetro nos revela na hora se a placa está em curto (consumo alto sem ligar), se a bateria está morta (consumo zero), ou se o problema está na tela (consumo normal mas sem imagem).
-Etapa 2 — Teste de Componentes Isolados: testamos bateria, tela e botão de energia separadamente para isolar o defeito exato.
-Etapa 3 — Microsoldagem (se necessário): se o defeito estiver no CI de carga ou PMIC, realizamos a substituição do componente via estação de solda com ar quente controlado.
+Etapa 1, Injeção de Voltagem em Bancada: abrimos o aparelho com segurança e alimentamos a placa-mãe diretamente com fonte de bancada controlada. O amperímetro nos revela na hora se a placa está em curto (consumo alto sem ligar), se a bateria está morta (consumo zero), ou se o problema está na tela (consumo normal mas sem imagem).
+Etapa 2, Teste de Componentes Isolados: testamos bateria, tela e botão de energia separadamente para isolar o defeito exato.
+Etapa 3, Microsoldagem (se necessário): se o defeito estiver no CI de carga ou PMIC, realizamos a substituição do componente via estação de solda com ar quente controlado.
 [/DICA]
 
-É importante diferenciar "não liga" de "não dá imagem": muitos Motorolas chegam com o diagnóstico de "morto" mas na verdade estão ligando normalmente — o problema é no display ou no flex da tela, que pode ter se desconectado após uma queda. Esse diagnóstico correto evita que o cliente pague por um reparo de placa quando precisa apenas de uma reconexão ou troca de tela. ${LOCAL_SEO}`,
-    whenToSeek: "Não tente conectar na tomada repetidas vezes se ele esquentar e não der imagem — isso pode agravar um possível curto no PMIC. Se o aparelho apagou após queda, atualização ou contato com líquido, traga o quanto antes para avaliação.",
+É importante diferenciar "não liga" de "não dá imagem": muitos Motorolas chegam com o diagnóstico de "morto" mas na verdade estão ligando normalmente, o problema é no display ou no flex da tela, que pode ter se desconectado após uma queda. Esse diagnóstico correto evita que o cliente pague por um reparo de placa quando precisa apenas de uma reconexão ou troca de tela. ${LOCAL_SEO}`,
+    whenToSeek: "Não tente conectar na tomada repetidas vezes se ele esquentar e não der imagem, isso pode agravar um possível curto no PMIC. Se o aparelho apagou após queda, atualização ou contato com líquido, traga o quanto antes para avaliação.",
     costInfo: `O diagnóstico para celulares que não ligam é sempre gratuito. Só cobramos pelo reparo efetivamente realizado, após aprovação do orçamento. O valor varia conforme o defeito: troca de bateria é mais acessível; reparo de placa com microsoldagem tem custo proporcional à complexidade. ${CTA_TEXT}`,
     faq: [
       { question: "Meu Motorola não liga após uma atualização de sistema. Tem conserto?", answer: "Sim. Atualizações OTA interrompidas podem corromper o bootloader do Android. Na Reparo Avançado, conseguimos restaurar o firmware via ferramentas de flash conectadas diretamente à placa, recuperando o aparelho sem perda de dados na maioria dos casos." },
@@ -223,7 +223,7 @@ Etapa 3 — Microsoldagem (se necessário): se o defeito estiver no CI de carga 
       {
         id: "diagnostico-nao-liga-vs-nao-da-imagem",
         title: "Não Liga vs Não Dá Imagem: Uma Diferença Crucial",
-        content: "Muitos clientes chegam dizendo que o Motorola 'morreu', quando na verdade o aparelho está funcionando normalmente — apenas a tela não exibe nada. Isso acontece com frequência após quedas que desconectam o flex do display internamente. Na Reparo Avançado, nosso primeiro teste é justamente verificar se há consumo de energia na placa (sinal de que está ligando) antes de qualquer intervenção.",
+        content: "Muitos clientes chegam dizendo que o Motorola 'morreu', quando na verdade o aparelho está funcionando normalmente, apenas a tela não exibe nada. Isso acontece com frequência após quedas que desconectam o flex do display internamente. Na Reparo Avançado, nosso primeiro teste é justamente verificar se há consumo de energia na placa (sinal de que está ligando) antes de qualquer intervenção.",
         subsections: [
           { title: "Sinais de Que o Aparelho Está Ligando (Mesmo Sem Tela)", content: "Se o Motorola vibra ao segurar o botão de energia, se toca som de notificação, ou se aparece como dispositivo conectado ao plugar no computador, ele está ligando. O problema é exclusivamente na tela ou no flex do display." },
           { title: "Sinais de Defeito Real na Placa", content: "Se não há vibração, som, LED de carga nem reconhecimento no computador, o problema pode estar na placa-mãe (PMIC, CI de carga) ou na bateria completamente colapsada. O teste de bancada com fonte controlada é a forma mais segura de diagnosticar." }
@@ -265,9 +265,9 @@ Etapa 3 — Microsoldagem (se necessário): se o defeito estiver no CI de carga 
 Na Reparo Avançado, empregamos um protocolo emergencial de Desoxidação (Banho Químico) projetado para interromper a corrosão:
 
 [DICA]
-Etapa 1 — Desmontagem Imediata e Desconexão de Energia: o aparelho é aberto rapidamente para desconectar a bateria, cessando a corrente elétrica que acelera a corrosão galvânica.
-Etapa 2 — Banho Químico Ultrassônico: a placa-mãe é isolada e submetida a uma cuba ultrassônica com álcool isopropílico 99,8% e solventes específicos para eletrônica. O ultrassom remove a cristalização de sal até mesmo debaixo dos CIs blindados.
-Etapa 3 — Secagem em Estufa e Teste de Componentes: após a limpeza, a placa passa por uma estufa de secagem controlada. Em seguida, injetamos tensão na placa com a fonte de bancada para detectar eventuais curtos-circuitos remanescentes e testamos módulos individuais (tela, câmeras, bateria).
+Etapa 1, Desmontagem Imediata e Desconexão de Energia: o aparelho é aberto rapidamente para desconectar a bateria, cessando a corrente elétrica que acelera a corrosão galvânica.
+Etapa 2, Banho Químico Ultrassônico: a placa-mãe é isolada e submetida a uma cuba ultrassônica com álcool isopropílico 99,8% e solventes específicos para eletrônica. O ultrassom remove a cristalização de sal até mesmo debaixo dos CIs blindados.
+Etapa 3, Secagem em Estufa e Teste de Componentes: após a limpeza, a placa passa por uma estufa de secagem controlada. Em seguida, injetamos tensão na placa com a fonte de bancada para detectar eventuais curtos-circuitos remanescentes e testamos módulos individuais (tela, câmeras, bateria).
 [/DICA]
 
 Nosso objetivo primário nesse tipo de reparo é a recuperação funcional da placa para resgatar os dados do cliente (fotos, documentos, aplicativos de banco). Na maioria dos casos em que o atendimento é rápido, o aparelho volta a funcionar perfeitamente. Em situações extremas onde a tela ou bateria entraram em curto irremediável, informamos o estado e o custo das peças adicionais para que o cliente decida. ${LOCAL_SEO}`,
@@ -386,9 +386,9 @@ Para garantir um reparo seguro, observe 3 indicadores de qualidade:
 3. Termo de Garantia: a assistência emite ordem de serviço formal detalhando o conserto e a garantia legal?
 [/DICA]
 
-Nosso foco é entregar o Custo-Benefício Real. Cobramos um valor justo que nos permite utilizar Peças Premium de Alta Fidelidade (OLED/Incell AAA) e insumos de padrão industrial (como fitas dupla-face estruturais). Nossos profissionais seguem protocolos de desmontagem utilizando mantas e pulseiras antiestáticas, evitando qualquer dano secundário à placa-mãe. Todo aparelho finalizado passa por um checklist de testes em bancada antes da entrega. Seu smartphone guarda seus aplicativos de banco e suas memórias pessoais — não o entregue na mão de curiosos por causa de R$ 50 de diferença. ${LOCAL_SEO}`,
+Nosso foco é entregar o Custo-Benefício Real. Cobramos um valor justo que nos permite utilizar Peças Premium de Alta Fidelidade (OLED/Incell AAA) e insumos de padrão industrial (como fitas dupla-face estruturais). Nossos profissionais seguem protocolos de desmontagem utilizando mantas e pulseiras antiestáticas, evitando qualquer dano secundário à placa-mãe. Todo aparelho finalizado passa por um checklist de testes em bancada antes da entrega. Seu smartphone guarda seus aplicativos de banco e suas memórias pessoais, não o entregue na mão de curiosos por causa de R$ 50 de diferença. ${LOCAL_SEO}`,
     whenToSeek: "Antes de aprovar um orçamento 'milagroso' pela internet apenas com base no preço mais baixo. Traga seu aparelho para a Reparo Avançado na Boca do Rio para um orçamento técnico fundamentado e transparente.",
-    costInfo: `Nossos orçamentos são baseados em tabelas de peças de fornecedores homologados. Não somos a assistência mais cara, nem a mais barata — somos aquela que resolve o problema de forma definitiva com garantia clara de 90 dias. A avaliação do aparelho é sempre gratuita. ${CTA_TEXT}`,
+    costInfo: `Nossos orçamentos são baseados em tabelas de peças de fornecedores homologados. Não somos a assistência mais cara, nem a mais barata, somos aquela que resolve o problema de forma definitiva com garantia clara de 90 dias. A avaliação do aparelho é sempre gratuita. ${CTA_TEXT}`,
     faq: [
       { question: "Peça paralela pode danificar outras partes do meu celular?", answer: "Sim. Uma tela TFT de baixíssima qualidade consome muito mais energia que o normal, forçando o CI de imagem da placa-mãe a superaquecer. Já uma bateria pirata não possui o chip controlador de carga adequado, podendo estufar, vazar ou até causar incêndios durante o carregamento." },
       { question: "Como saber se a tela que colocaram no meu celular é boa?", answer: "Telas de baixa qualidade apresentam cores lavadas (preto acinzentado), o vidro é mais espesso, o brilho máximo não é suficiente para uso sob o sol, e o touch costuma falhar nas bordas ou ao digitar rápido. Telas de qualidade Premium mantêm a experiência idêntica à de fábrica." },
