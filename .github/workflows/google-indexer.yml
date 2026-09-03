@@ -1,0 +1,40 @@
+﻿name: Google Indexing API
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build and Generate Sitemap
+        run: npm run build
+
+      - name: Run Google Indexer
+        env:
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT" ]; then
+            echo "ERRO: O secret GOOGLE_SERVICE_ACCOUNT nao esta configurado no GitHub."
+            echo "Por favor, crie um Repository Secret chamado GOOGLE_SERVICE_ACCOUNT contendo o JSON."
+            exit 1
+          fi
+          echo "$GOOGLE_SERVICE_ACCOUNT" > google-service-account.json
+          npm run index:google
+          rm google-service-account.json
+

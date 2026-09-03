@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "index:google": "node scripts/run-indexer.js"
+    "index:google": "npx tsx scripts/run-indexer.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
