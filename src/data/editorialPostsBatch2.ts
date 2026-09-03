@@ -7,7 +7,7 @@ const CTA_TEXT = "Fale agora com um profissional qualificado pelo WhatsApp (71) 
 export const editorialPostsBatch2: BlogPost[] = [
   {
     slug: "assistencia-tecnica-boca-do-rio-conserto-rapido",
-    title: "Assistência Técnica na Boca do Rio: Onde Consertar seu Celular Rápido",
+    title: "Assistência Técnica de Celular Rápida",
     h1: "Assistência Técnica na Boca do Rio, Salvador: Conserto de Celular Rápido e Seguro",
     metaDescription: "Procurando assistência técnica de celular na Boca do Rio? A Reparo Avançado oferece conserto na hora para iPhone, Samsung e Xiaomi com garantia de 90 dias.",
     category: "conserto" as Category,
@@ -62,7 +62,7 @@ export const editorialPostsBatch2: BlogPost[] = [
   },
   {
     slug: "melhor-assistencia-tecnica-salvador-reparo-avancado",
-    title: "Por Que a Reparo Avançado é a Melhor Assistência Técnica de Salvador",
+    title: "Sua Melhor Escolha Para Conserto de Celular",
     h1: "O Que Faz da Reparo Avançado a Melhor Assistência Técnica de Salvador?",
     metaDescription: "Procurando a melhor assistência técnica de celular em Salvador? Conheça os diferenciais da Reparo Avançado: laboratório próprio, garantia real e transparência.",
     category: "conserto" as Category,
@@ -88,7 +88,7 @@ export const editorialPostsBatch2: BlogPost[] = [
   },
   {
     slug: "iphone-descarregando-rapido-calor-salvador",
-    title: "iPhone Descarregando Rápido no Calor de Salvador? Entenda o Porquê",
+    title: "iPhone Descarregando Rápido no Calor?",
     h1: "O Calor de Salvador Faz o iPhone Descarregar Mais Rápido? Entenda",
     metaDescription: "Seu iPhone está descarregando rápido e esquentando em Salvador? O clima afeta a bateria. Veja como a Reparo Avançado resolve isso com troca de bateria premium.",
     category: "iphone" as Category,
@@ -168,7 +168,7 @@ export const editorialPostsBatch2: BlogPost[] = [
   },
   {
     slug: "troca-tela-samsung-s23-s24-salvador",
-    title: "Troca de Tela Samsung S23 e S24 em Salvador: O que Você Precisa Saber",
+    title: "Troca de Tela Samsung Linha Galaxy S",
     h1: "Como Funciona a Troca de Tela da Linha Samsung S23 e S24 em Salvador",
     metaDescription: "Quebrou a tela do seu Galaxy S23 ou S24? A Reparo Avançado em Salvador realiza a troca preservando a vedação e a biometria ultrassônica na tela.",
     category: "samsung" as Category,
@@ -194,7 +194,7 @@ export const editorialPostsBatch2: BlogPost[] = [
   },
   {
     slug: "assistencia-tecnica-xiaomi-pituba-regiao",
-    title: "Assistência Técnica Xiaomi na Pituba e Região: Peças de Alta Qualidade",
+    title: "Assistência Técnica Xiaomi e Região",
     h1: "Assistência Técnica Xiaomi em Salvador: Soluções Próximas à Pituba e Boca do Rio",
     metaDescription: "Seu Xiaomi (Redmi, Poco ou Mi) quebrou? A Reparo Avançado resolve! Troca de tela, bateria e software para linha Xiaomi em Salvador, perto da Pituba.",
     category: "xiaomi" as Category,
@@ -296,7 +296,7 @@ export const editorialPostsBatch2: BlogPost[] = [
   },
   {
     slug: "quanto-custa-consertar-celular-salvador-cuidado",
-    title: "Quanto Custa Consertar um Celular em Salvador? Cuidado com o Barato",
+    title: "Quanto Custa Consertar o Celular?",
     h1: "Preço de Conserto de Celular em Salvador: O Barato Pode Sair Muito Caro",
     metaDescription: "Buscando o conserto mais barato de celular em Salvador? Cuidado com peças falsificadas e perda de dados. Entenda como valorizar o reparo de qualidade.",
     category: "conserto" as Category,

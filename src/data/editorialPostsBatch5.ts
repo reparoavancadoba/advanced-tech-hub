@@ -388,7 +388,7 @@ export const editorialPostsBatch5: BlogPost[] = [
   },
   {
     slug: "troca-de-bateria-iphone-11-12-13-original",
-    title: "Trocar Bateria do iPhone (11 ao 14) Sem Aviso de Peça Desconhecida",
+    title: "Troca de Bateria iPhone 11, 12 e 13",
     h1: "Troca de Bateria Premium iPhone (Manutenção de 100% Saúde)",
     metaDescription: "Quer trocar a bateria do iPhone mas tem medo da mensagem irritante de 'Peça Desconhecida'? Nós fazemos a troca com leitura 100% oficial em Salvador.",
     category: "iphone",

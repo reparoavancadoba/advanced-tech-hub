@@ -89,9 +89,9 @@
   },
   {
     slug: "troca-de-bateria-celular-salvador",
-    title: "Troca de Bateria de Celular em Salvador: 7 Sinais de Que Chegou a Hora",
+    title: "Troca de Bateria: 7 Sinais de Que Chegou a Hora",
     h1: "Troca de Bateria de Celular em Salvador: 7 Sinais de Que Está na Hora de Trocar",
-    metaDescription: "Bateria descarregando rápido? Celular esquentando muito? Veja os 7 sinais claros de que você precisa de uma troca de bateria de celular em Salvador. Orçamento grátis!",
+    metaDescription: "Bateria descarregando rápido? Celular esquentando muito? Veja os 7 sinais claros de que você precisa de uma troca de bateria de celular em Salvador....",
     category: "samsung" as Category,
     brand: "Multimarca",
     model: "Geral",

@@ -65,7 +65,7 @@ export const editorialPostsBatch7: BlogPost[] = [
   },
   {
     slug: "celular-nao-liga-causas",
-    title: "Celular não liga? Entenda as principais causas antes de concluir que perdeu o aparelho",
+    title: "Por Que o Celular Não Liga? Diagnóstico Completo",
     h1: "Celular não liga? Entenda as principais causas antes de concluir que perdeu o aparelho",
     metaDescription: "Seu aparelho apagou de repente ou não liga mais? Entenda a diferença entre tela preta, falha de bateria e placa. Veja o que fazer.",
     category: "conserto",
@@ -128,7 +128,7 @@ export const editorialPostsBatch7: BlogPost[] = [
   },
   {
     slug: "samsung-com-tela-preta",
-    title: "Samsung com tela preta: o que pode ser e quando procurar assistência",
+    title: "Samsung com Tela Preta? Descubra o Motivo",
     h1: "Samsung com tela preta: o que pode ser e quando procurar assistência",
     metaDescription: "Seu celular Samsung apagou mas continua vibrando? Descubra o que causa a tela preta e os procedimentos recomendados.",
     category: "samsung",
@@ -247,7 +247,7 @@ export const editorialPostsBatch7: BlogPost[] = [
   },
   {
     slug: "bateria-celular-descarregando-rapido",
-    title: "Bateria do celular descarregando rápido? Veja o que pode estar acontecendo",
+    title: "Bateria Descarregando Rápido? Como Resolver",
     h1: "Bateria do celular descarregando rápido? Veja o que pode estar acontecendo",
     metaDescription: "Seu celular descarrega rápido demais, esquenta ou desliga sozinho? Entenda as causas para o consumo elevado e saiba quando é hora de trocar a bateria.",
     category: "conserto",

@@ -1,8 +1,8 @@
   ,{
     slug: "conserto-de-celular-salvador",
-    title: "Conserto de Celular em Salvador: Problemas Mais Comuns e Como Resolver",
+    title: "Conserto de Celular: Problemas Mais Comuns",
     h1: "Conserto de Celular em Salvador: Os 5 Problemas Mais Comuns e Suas Soluções",
-    metaDescription: "Precisa de conserto de celular em Salvador? Conheça os defeitos mais comuns (não liga, tela quebrada, não carrega) e como a Reparo Avançado resolve. Orçamento grátis!",
+    metaDescription: "Precisa de conserto de celular em Salvador? Conheça os defeitos mais comuns (não liga, tela quebrada, não carrega) e como a Reparo Avançado resolve....",
     category: "samsung" as Category,
     brand: "Multimarca",
     model: "Geral",

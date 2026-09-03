@@ -1,6 +1,6 @@
   ,{
     slug: "assistencia-tecnica-celular-salvador",
-    title: "Assistência Técnica de Celular em Salvador: Como Escolher a Melhor Empresa?",
+    title: "Assistência Técnica de Celular Especializada",
     h1: "Assistência Técnica de Celular em Salvador: Como Escolher a Melhor Empresa?",
     metaDescription: "Procurando assistência técnica de celular em Salvador? Saiba como escolher a melhor oficina para iPhone e Samsung na Boca do Rio. Orçamento gratuito!",
     category: "samsung" as Category,
