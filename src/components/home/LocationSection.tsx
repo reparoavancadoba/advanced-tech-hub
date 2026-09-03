@@ -19,7 +19,7 @@ const LocationSection = () => {
             <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
               <h3 className="font-semibold text-lg">Horário de Funcionamento</h3>
-              <p className="text-zinc-600">Segunda a Sexta: 09:00 - 18:00<br/>Sábado: 09:00 - 13:00</p>
+              <p className="text-zinc-600">Segunda a Sexta: 08:00 - 18:00<br/>Sábado: 08:00 - 17:00</p>
             </div>
           </div>
 

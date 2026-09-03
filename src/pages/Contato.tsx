@@ -1,4 +1,4 @@
-import SiteLayout from "@/components/SiteLayout";
+﻿import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, Phone, MapPin, Clock, Mail, Instagram } from "lucide-react";
 
@@ -26,8 +26,8 @@ const Contato = () => {
       "reviewCount": "153"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
     ]
   };
 
@@ -127,11 +127,11 @@ const Contato = () => {
               <div className="space-y-3 text-muted-foreground text-sm">
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary shrink-0" />
-                  <span><strong className="text-foreground">Seg a Sex:</strong> 9h às 18h</span>
+                  <span><strong className="text-foreground">Seg a Sex:</strong> 8h às 18h</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary shrink-0" />
-                  <span><strong className="text-foreground">Sábado:</strong> 9h às 13h</span>
+                  <span><strong className="text-foreground">Sábado:</strong> 8h às 17h</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-muted-foreground shrink-0" />

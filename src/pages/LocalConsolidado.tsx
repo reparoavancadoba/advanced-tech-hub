@@ -54,14 +54,14 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
           {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
+            "opens": "08:00",
             "closes": "18:00"
           },
           {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Saturday"],
-            "opens": "09:00",
-            "closes": "13:00"
+            "opens": "08:00",
+            "closes": "17:00"
           }
         ],
         "sameAs": local.schema.socials,
@@ -239,7 +239,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
                   <Clock className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-foreground block">Horário de Funcionamento</strong>
-                    Segunda a Sexta: 09h às 18h | Sábados: 09h às 13h
+                    Segunda a Sexta: 8h às 18h | Sábados: 8h às 17h
                   </div>
                 </li>
               </ul>

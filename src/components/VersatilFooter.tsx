@@ -50,8 +50,8 @@ const VersatilFooter = () => {
                 <Clock className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
                   <strong className="text-white block mb-1">Horário de Atendimento</strong>
-                  Segunda a Sexta: 09h às 18h<br />
-                  Sábados: 09h às 13h
+                  Segunda a Sexta: 8h às 18h<br />
+                  Sábados: 8h às 17h
                 </div>
               </li>
             </ul>

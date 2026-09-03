@@ -1,4 +1,4 @@
-import SiteLayout from "@/components/SiteLayout";
+﻿import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { MessageCircle, ShieldCheck, Zap, Clock } from "lucide-react";
 
@@ -26,8 +26,8 @@ const Orcamento = () => {
       "reviewCount": "153"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
     ]
   };
 

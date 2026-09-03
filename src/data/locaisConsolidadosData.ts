@@ -1,4 +1,4 @@
-export interface LocalBusinessSchemaData {
+﻿export interface LocalBusinessSchemaData {
   name: string;
   streetAddress: string;
   addressLocality: string;
@@ -34,7 +34,7 @@ const baseSchema: LocalBusinessSchemaData = {
   telephone: "+5571991981437",
   latitude: -12.9777,
   longitude: -38.4413,
-  hours: "Mo-Fr 09:00-18:00, Sa 09:00-13:00",
+  hours: "Mo-Fr 08:00-18:00, Sa 08:00-17:00",
   socials: [
     "https://instagram.com/reparoavancadosalvador",
     "https://facebook.com/reparoavancadosalvador"

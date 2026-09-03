@@ -1,6 +1,7 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight, Sparkles, AlertTriangle, Info, ArrowRight, Clock } from "lucide-react";
 import { getPostBySlug, allPosts, categoryLabels } from "@/data/blogData";
+import { getBrandDisplayName } from "@/data/businessInfo";
 import SiteLayout from "@/components/SiteLayout";
 import AuthorBlock from "@/components/blog/AuthorBlock";
 import { useEffect } from "react";
@@ -347,7 +348,7 @@ const BlogPost = () => {
                   {/* Service Page Link */}
                   <div className="mt-8 mb-4">
                     <Link to={matchedServiceUrl} className="inline-flex items-center gap-2 text-[#0066FF] font-bold hover:underline text-lg">
-                      Saiba mais sobre {post.category || "nossos serviços"} <ArrowRight className="w-5 h-5" />
+                      Saiba mais sobre {getBrandDisplayName(post.category) || "nossos serviços"} <ArrowRight className="w-5 h-5" />
                     </Link>
                   </div>
                 </article>

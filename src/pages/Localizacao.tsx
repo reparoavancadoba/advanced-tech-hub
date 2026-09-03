@@ -34,8 +34,8 @@ const Localizacao = () => {
       "reviewCount": "153"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
     ]
   };
 
@@ -88,8 +88,8 @@ const Localizacao = () => {
                   <Clock className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                   <div>
                     <p className="font-semibold text-foreground">Horário de Funcionamento</p>
-                    <p className="text-muted-foreground text-sm">Seg a Sex: 9h às 18h</p>
-                    <p className="text-muted-foreground text-sm">Sábado: 9h às 13h</p>
+                    <p className="text-muted-foreground text-sm">Seg a Sex: 8h às 18h</p>
+                    <p className="text-muted-foreground text-sm">Sábado: 8h às 17h</p>
                   </div>
                 </div>
               </div>

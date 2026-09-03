@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from "react";
+﻿import { ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
@@ -87,14 +87,14 @@ const SiteLayout = ({ children, showFooter = true }: SiteLayoutProps) => {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
+        "opens": "08:00",
         "closes": "18:00"
       },
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "13:00"
+        "opens": "08:00",
+        "closes": "17:00"
       }
     ]
   };
