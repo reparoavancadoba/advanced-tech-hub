@@ -1,6 +1,26 @@
 {
   "redirects": [
     {
+      "source": "/blog/assistencia-tecnica-boca-do-rio-conserto-rapido",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conserto-celular-imbui-stiep-rapido",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/assistencia-tecnica-xiaomi-pituba-regiao",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/melhor-assistencia-tecnica-salvador-reparo-avancado",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/blog/troca-de-tela-:path((?!iphone-15-pro-max-salvador|celular-salvador-original).*)",
       "destination": "/troca-de-tela",
       "permanent": true

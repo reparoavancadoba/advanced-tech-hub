@@ -6,87 +6,6 @@ const CTA_TEXT = "Fale agora com um profissional qualificado pelo WhatsApp (71) 
 
 export const editorialPostsBatch2: BlogPost[] = [
   {
-    slug: "assistencia-tecnica-boca-do-rio-conserto-rapido",
-    title: "Assistência Técnica de Celular Rápida",
-    h1: "Assistência Técnica na Boca do Rio, Salvador: Conserto de Celular Rápido e Seguro",
-    metaDescription: "Procurando assistência técnica de celular na Boca do Rio? A Reparo Avançado oferece conserto na hora para iPhone, Samsung e Xiaomi com garantia de 90 dias.",
-    category: "conserto" as Category,
-    brand: "Multimarcas",
-    model: "Todos",
-    service: "Assistência Técnica",
-    serviceSlug: "assistencia-tecnica",
-    description: "Conheça a Reparo Avançado, a principal assistência técnica da Boca do Rio em Salvador, focada em reparos rápidos e transparentes.",
-    isEditorial: true,
-    keywords: ["assistência técnica celular boca do rio", "conserto celular boca do rio", "onde consertar celular salvador", "loja de conserto de celular"],
-    problems: [
-      "Dificuldade em encontrar uma assistência de confiança no bairro",
-      "Demora de dias para realizar um reparo simples",
-      "Medo de peças paralelas e perda de dados"
-    ],
-    causes: [
-      "Falta de laboratório próprio nas assistências menores",
-      "Falta de estoque local de peças premium"
-    ],
-    solution: `Na Reparo Avançado, localizada no coração da Boca do Rio, oferecemos um serviço de conserto de celular focado em transparência e agilidade. Mais de 80% dos nossos reparos, como troca de tela e bateria, são concluídos em menos de 1 hora. Utilizamos ${PECAS} e nosso laboratório é equipado para diagnóstico imediato. ${LOCAL_SEO}`,
-    whenToSeek: "Quando precisar de um conserto de celular de confiança perto de você, sem precisar ir a shoppings ou deixar o aparelho por dias.",
-    costInfo: `O orçamento é 100% gratuito e feito na hora. Você só paga se aprovar o serviço. ${CTA_TEXT}`,
-    faq: [
-      { question: "O conserto é feito na hora?", answer: "Sim, para serviços como troca de tela, bateria e conector, realizamos o reparo em cerca de 40 minutos a 1 hora na nossa unidade na Boca do Rio." }
-    ]
-  },
-  {
-    slug: "conserto-celular-imbui-stiep-rapido",
-    title: "Conserto de Celular no Imbuí e Stiep: Serviço Rápido e Seguro",
-    h1: "Conserto de Celular Próximo ao Imbuí e Stiep: Rapidez e Segurança",
-    metaDescription: "Mora no Imbuí ou Stiep? A Reparo Avançado é sua vizinha na Boca do Rio! Conserto de celular especializado em iPhone e Samsung com agilidade e peças premium.",
-    category: "conserto" as Category,
-    brand: "Multimarcas",
-    model: "Todos",
-    service: "Conserto Especializado",
-    serviceSlug: "conserto-celular-imbui",
-    description: "Atendimento especializado e rápido para clientes do Imbuí e Stiep que precisam de conserto de celular seguro.",
-    isEditorial: true,
-    keywords: ["conserto celular imbuí", "assistência técnica stiep", "conserto iphone imbuí", "assistência samsung stiep"],
-    problems: [
-      "Celular quebrado e necessidade de conserto urgente",
-      "Falta de tempo para se deslocar longas distâncias",
-      "Insegurança ao deixar o aparelho longe de casa"
-    ],
-    causes: [
-      "Acidentes diários, quedas ou falhas de bateria",
-      "Desgaste natural do uso constante"
-    ],
-    solution: `Para quem mora no Imbuí e Stiep, a Reparo Avançado oferece a conveniência de estar a poucos minutos de distância, na Boca do Rio. Oferecemos um atendimento premium, focado em agilidade. Seu iPhone ou Samsung pode ser avaliado e reparado enquanto você aguarda na nossa recepção confortável. Garantimos a integridade dos seus dados e a devolução rápida da sua principal ferramenta de comunicação.`,
-    whenToSeek: "A qualquer momento que seu smartphone apresentar falhas, seja tela quebrada, bateria descarregando rápido ou falhas no carregamento.",
-    costInfo: `Valores justos e competitivos, com a garantia de 90 dias que você merece. ${CTA_TEXT}`,
-  },
-  {
-    slug: "melhor-assistencia-tecnica-salvador-reparo-avancado",
-    title: "Sua Melhor Escolha Para Conserto de Celular",
-    h1: "O Que Faz da Reparo Avançado a Melhor Assistência Técnica de Salvador?",
-    metaDescription: "Procurando a melhor assistência técnica de celular em Salvador? Conheça os diferenciais da Reparo Avançado: laboratório próprio, garantia real e transparência.",
-    category: "conserto" as Category,
-    brand: "Multimarcas",
-    model: "Todos",
-    service: "Diagnóstico",
-    serviceSlug: "melhor-assistencia-salvador",
-    description: "Entenda nossos processos, desde o Reparo Avançado até a entrega, e veja por que somos referência em Salvador.",
-    isEditorial: true,
-    keywords: ["melhor assistência técnica celular salvador", "reparo avançado salvador", "assistência de confiança salvador"],
-    problems: [
-      "Experiências ruins anteriores com consertos",
-      "Preços abusivos sem justificativa técnica",
-      "Aparelhos devolvidos com novos defeitos"
-    ],
-    causes: [
-      "Amadorismo no reparo de placas e componentes sensíveis",
-      "Uso de peças falsificadas para aumentar o lucro"
-    ],
-    solution: `Nosso diferencial começa na honestidade. A Reparo Avançado se consolidou em Salvador entregando laudos técnicos reais. Se o defeito é apenas sujeira, cobramos pela limpeza, não por uma peça nova. Nosso laboratório possui microscópios de alta precisão para microsoldagem e técnicos certificados para iPhone e Android. Além disso, trabalhamos apenas com ${PECAS}. ${LOCAL_SEO}`,
-    whenToSeek: "Sempre que você quiser a certeza de que não está sendo enganado e que seu aparelho será tratado por profissionais.",
-    costInfo: `Nosso diagnóstico é grátis. Você entende o defeito antes de pagar 1 centavo. ${CTA_TEXT}`,
-  },
-  {
     slug: "iphone-descarregando-rapido-calor-salvador",
     title: "iPhone Descarregando Rápido no Calor?",
     h1: "O Calor de Salvador Faz o iPhone Descarregar Mais Rápido? Entenda",
@@ -191,32 +110,6 @@ export const editorialPostsBatch2: BlogPost[] = [
     solution: `A linha S23 e S24 da Samsung utiliza displays Dynamic AMOLED 2X de altíssima fidelidade cromática e sensores ultrassônicos embutidos na tela. Na Reparo Avançado, aplicamos apenas painéis compatíveis de altíssima qualidade, mantendo a resposta tátil perfeita de 120Hz e garantindo que a sua biometria continue rápida e segura. Finalizamos o reparo com a aplicação de fitas de vedação dupla-face estruturais para manter a proteção do aparelho. ${LOCAL_SEO}`,
     whenToSeek: "Imediatamente após a quebra, pois o suor do rosto ou umidade podem entrar pela rachadura e queimar a placa-mãe do aparelho premium.",
     costInfo: `Trabalhamos com opções de display completas (com aro) para um acabamento perfeito de fábrica. ${CTA_TEXT}`,
-  },
-  {
-    slug: "assistencia-tecnica-xiaomi-pituba-regiao",
-    title: "Assistência Técnica Xiaomi e Região",
-    h1: "Assistência Técnica Xiaomi em Salvador: Soluções Próximas à Pituba e Boca do Rio",
-    metaDescription: "Seu Xiaomi (Redmi, Poco ou Mi) quebrou? A Reparo Avançado resolve! Troca de tela, bateria e software para linha Xiaomi em Salvador, perto da Pituba.",
-    category: "xiaomi" as Category,
-    brand: "Xiaomi",
-    model: "Redmi, Poco, Mi",
-    service: "Assistência Técnica",
-    serviceSlug: "assistencia-xiaomi",
-    description: "Manutenção especializada na linha Xiaomi (Poco, Redmi Note, Mi) com amplo estoque de peças na Bahia.",
-    isEditorial: true,
-    keywords: ["assistência xiaomi salvador", "conserto xiaomi pituba", "troca de tela poco", "bateria redmi note salvador"],
-    problems: [
-      "Poco X3/X4 ou Redmi Note reiniciando infinitamente (Loop infinito)",
-      "Tela quebrada em modelos Xiaomi populares",
-      "Bateria viciada ou estufada"
-    ],
-    causes: [
-      "Falha crônica de solda fria no processador (comum na linha Poco)",
-      "Atualizações de sistema (MIUI/HyperOS) que corrompem o boot"
-    ],
-    solution: `Os smartphones da Xiaomi oferecem um excelente custo-benefício, mas exigem técnicos que entendam da arquitetura interna da marca. Na Reparo Avançado (localizada estrategicamente ao lado da Pituba, na Boca do Rio), resolvemos desde a clássica troca de tela de Redmi Note até o complexo "Reballing de CPU" para modelos Poco que desligam do nada. Contamos com um canal direto com fornecedores de peças premium para Xiaomi em Salvador, garantindo rapidez.`,
-    whenToSeek: "Se o seu Xiaomi não passar da tela de boot (logo da MIUI) ou apresentar toques fantasmas na tela.",
-    costInfo: `Nossos consertos para Xiaomi têm um excelente custo-benefício. Faça um orçamento em 5 minutos. ${CTA_TEXT}`,
   },
   {
     slug: "motorola-edge-nao-liga-boca-do-rio",
