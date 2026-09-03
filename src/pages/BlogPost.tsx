@@ -1,4 +1,4 @@
-﻿import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight, Sparkles, AlertTriangle, Info, ArrowRight, Clock } from "lucide-react";
 import { getPostBySlug, allPosts, categoryLabels } from "@/data/blogData";
 import SiteLayout from "@/components/SiteLayout";
@@ -201,7 +201,7 @@ const BlogPost = () => {
       </Helmet>
 
       <div className="bg-zinc-950 text-white min-h-screen w-full transition-colors duration-300 font-sans">
-        <div className="container mx-auto px-4 py-12 max-w-[1200px]">
+        <div className="container mx-auto px-6 md:px-10 lg:px-16 py-12 max-w-[1200px]">
           
           {/* Breadcrumb */}
           <nav className="flex items-center gap-1 text-xs text-zinc-400 mb-6 flex-wrap font-medium">
