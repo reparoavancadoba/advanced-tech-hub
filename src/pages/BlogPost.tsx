@@ -201,7 +201,7 @@ const BlogPost = () => {
       </Helmet>
 
       <div className="bg-zinc-950 text-white min-h-screen w-full transition-colors duration-300 font-sans">
-        <div className="container mx-auto px-4 py-12 max-w-[800px]">
+        <div className="container mx-auto px-4 py-12 max-w-[1200px]">
           
           {/* Breadcrumb */}
           <nav className="flex items-center gap-1 text-xs text-zinc-400 mb-6 flex-wrap font-medium">
@@ -216,158 +216,203 @@ const BlogPost = () => {
             <span className="text-white font-semibold">{post.service}</span>
           </nav>
 
-          {/* H1 Title */}
-          <h1 className="text-3xl md:text-5xl font-black text-white mb-4 tracking-tight leading-tight">
-            {post.h1}
-          </h1>
-
-          {/* Author Block */}
-          <AuthorBlock 
-            authorName={post.author} 
-            datePublished={post.datePublished} 
-            dateModified={post.dateModified} 
-            readingTime={readingTime} 
-          />
-
-          {/* Corpo do Artigo Claro / White Paper Wrapper */}
-          <div className="bg-white rounded-[2rem] p-6 md:p-10 shadow-2xl mt-10 mb-12 border border-zinc-200">
-            {/* Short Answer (Direto ao Ponto) */}
-            <div className="bg-zinc-50 border border-zinc-200 p-6 rounded-xl mb-10 shadow-sm">
-              <p className="text-zinc-800 font-medium leading-relaxed text-base md:text-lg">
-                {post.tldr || post.description}
-              </p>
-            </div>
-
-            {/* Article Body */}
-            <article className="space-y-10 text-zinc-800">
-              <section id="sintomas">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                  Sintomas: O Problema com {post.service} {post.model}
-                </h2>
-                <ul className="space-y-2.5">
-                  {post.problems.map((p, i) => (
-                    <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
-                      <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
-                      {p}
-                    </li>
-                  ))}
-                </ul>
-              </section>
-
-              <section id="causas">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                  Causas Possíveis
-                </h2>
-                <ul className="space-y-2.5">
-                  {post.causes.map((c, i) => (
-                    <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
-                      <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
-                      {c}
-                    </li>
-                  ))}
-                </ul>
-              </section>
-
-              {/* Mid-article Conversion CTA */}
-              <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8 text-center my-12 shadow-xl transform -mx-4 md:mx-0">
-                <p className="font-bold text-white mb-4 text-lg md:text-xl px-4">
-                  Reconhece esse problema no seu aparelho? Fale com a gente agora.
-                </p>
-                <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1DA851] transition-all shadow-md w-[90%] sm:w-auto">
-                  <MessageCircle className="w-5 h-5" />
-                  Falar com Técnico (WhatsApp)
-                </a>
-              </div>
-
-              <section id="solucao">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                  O Que Fazer (Solução Técnica)
-                </h2>
-                <div>{parseContent(post.solution)}</div>
-              </section>
-
-              <section id="quando">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                  Quando Procurar Assistência Profissional
-                </h2>
-                <div>{parseContent(post.whenToSeek)}</div>
-              </section>
-
-              {post.sections && post.sections.length > 0 && post.sections.map((section) => (
-                <section key={section.id} id={section.id}>
-                  <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                    {section.title}
-                  </h2>
-                  <div className="mb-4">{parseContent(section.content)}</div>
-                  {section.subsections?.map((sub, i) => (
-                    <div key={i} className="ml-4 mb-4 mt-6">
-                      <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-3">{sub.title}</h3>
-                      <div>{parseContent(sub.content)}</div>
-                    </div>
-                  ))}
-                </section>
-              ))}
-
-              <section id="custo">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
-                  Quanto Custa {post.service} {post.model}?
-                </h2>
-                <div>{parseContent(post.costInfo)}</div>
-              </section>
+          <div className="flex flex-col lg:flex-row gap-10 items-start">
+            
+            {/* Main Column (70%) */}
+            <div className="w-full lg:w-[70%]">
               
-              {/* Service Page Link */}
-              <div className="mt-8 mb-4">
-                <Link to={matchedServiceUrl} className="inline-flex items-center gap-2 text-[#0066FF] font-bold hover:underline text-lg">
-                  Saiba mais sobre {post.category || "nossos serviços"} <ArrowRight className="w-5 h-5" />
-                </Link>
-              </div>
-            </article>
-          </div>
-
-          {/* FAQ Accordion Section */}
-          {post.faq && post.faq.length > 0 && (
-            <section id="faq" className="pt-6">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 pb-2 border-b border-zinc-800">
-                Perguntas Frequentes
-              </h2>
-              <div className="space-y-4">
-                {post.faq.map((item, i) => (
-                  <details key={i} className="group bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
-                    <summary className="flex justify-between items-center font-bold cursor-pointer list-none p-5 text-white hover:bg-zinc-800/50 transition-colors">
-                      <span>{item.question}</span>
-                      <span className="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                      </span>
-                    </summary>
-                    <p className="text-zinc-400 p-5 pt-0 mt-2 leading-relaxed">
-                      {item.answer}
-                    </p>
-                  </details>
-                ))}
-              </div>
-            </section>
-          )}
-          
-          {/* Related Posts */}
-          {relatedPosts.length > 0 && (
-            <div className="mt-16 pt-10 border-t border-zinc-800">
-              <h2 className="text-2xl font-bold text-white mb-8 text-center">Artigos Relacionados</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {relatedPosts.map((rp) => rp && (
-                  <Link
-                    key={rp.slug}
-                    to={`/blog/${rp.slug}`}
-                    className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl flex flex-col items-center justify-center gap-4 hover:border-[#0066FF]/50 hover:bg-[#0066FF]/10 transition-all shadow-lg text-center"
-                  >
-                    <span className="text-xs font-bold uppercase tracking-wider text-[#0066FF]">
-                      {rp.service}
+              {/* White Card Wrapper for Article */}
+              <div className="bg-white rounded-[2rem] p-6 md:p-10 shadow-2xl mb-12 border border-zinc-200">
+                
+                {/* Header inside White Card */}
+                <div className="mb-8">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="bg-[#0066FF] text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
+                      {post.brand}
                     </span>
-                    <h3 className="text-sm md:text-base font-bold text-white mt-1 leading-snug">{rp.h1}</h3>
-                  </Link>
-                ))}
+                    <span className="bg-[#0066FF] text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
+                      {post.category}
+                    </span>
+                  </div>
+                  
+                  <h1 className="text-3xl md:text-5xl font-black text-zinc-900 mb-4 tracking-tight leading-tight">
+                    {post.h1}
+                  </h1>
+                  
+                  <p className="text-zinc-600 text-lg md:text-xl font-medium mb-4 leading-relaxed">
+                    {post.description || post.metaDescription}
+                  </p>
+                  
+                  <AuthorBlock 
+                    authorName={post.author} 
+                    datePublished={post.datePublished} 
+                    dateModified={post.dateModified} 
+                    readingTime={readingTime} 
+                  />
+                </div>
+
+                {/* Article Body */}
+                <article className="space-y-10 text-zinc-800">
+                  <section id="sintomas">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      Sintomas: O Problema com {post.service} {post.model}
+                    </h2>
+                    <ul className="space-y-2.5">
+                      {post.problems.map((p, i) => (
+                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
+                          <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
+                          {p}
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+
+                  <section id="causas">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      Causas Possíveis
+                    </h2>
+                    <ul className="space-y-2.5">
+                      {post.causes.map((c, i) => (
+                        <li key={i} className="flex items-start gap-2 text-zinc-800 text-[16px] md:text-[17px]">
+                          <span className="w-2 h-2 rounded-full bg-[#0066FF] mt-2 shrink-0" />
+                          {c}
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+
+                  {/* Mid-article Conversion CTA */}
+                  <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8 text-center my-12 shadow-xl transform -mx-4 md:mx-0">
+                    <p className="font-bold text-white mb-4 text-lg md:text-xl px-4">
+                      Reconhece esse problema no seu aparelho? Fale com a gente agora.
+                    </p>
+                    <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1DA851] transition-all shadow-md w-[90%] sm:w-auto">
+                      <MessageCircle className="w-5 h-5" />
+                      Falar com Técnico (WhatsApp)
+                    </a>
+                  </div>
+
+                  {/* Mobile Stacked Related Articles (Visível apenas em telas menores) */}
+                  {relatedPosts.length > 0 && (
+                    <div className="block lg:hidden my-12 bg-zinc-50 border border-zinc-200 rounded-2xl p-6 shadow-sm">
+                      <h2 className="text-xl font-bold text-zinc-900 mb-6 text-center">Você também pode gostar:</h2>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {relatedPosts.map((rp) => rp && (
+                          <Link key={rp.slug} to={`/blog/${rp.slug}`} className="bg-white border border-zinc-200 p-4 rounded-xl flex flex-col gap-2 hover:border-[#0066FF] transition-all">
+                            <span className="text-xs font-bold text-[#0066FF] uppercase">{rp.category}</span>
+                            <h3 className="text-sm font-bold text-zinc-900 leading-snug">{rp.h1}</h3>
+                            <span className="text-xs text-zinc-400 mt-auto pt-2">{rp.datePublished || "2026"}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <section id="solucao">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      O Que Fazer (Solução Técnica)
+                    </h2>
+                    <div>{parseContent(post.solution)}</div>
+                  </section>
+
+                  <section id="quando">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      Quando Procurar Assistência Profissional
+                    </h2>
+                    <div>{parseContent(post.whenToSeek)}</div>
+                  </section>
+
+                  {post.sections && post.sections.length > 0 && post.sections.map((section) => (
+                    <section key={section.id} id={section.id}>
+                      <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                        {section.title}
+                      </h2>
+                      <div className="mb-4">{parseContent(section.content)}</div>
+                      {section.subsections?.map((sub, i) => (
+                        <div key={i} className="ml-4 mb-4 mt-6">
+                          <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-3">{sub.title}</h3>
+                          <div>{parseContent(sub.content)}</div>
+                        </div>
+                      ))}
+                    </section>
+                  ))}
+
+                  <section id="custo">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-4 pb-2 border-b border-zinc-100">
+                      Quanto Custa {post.service} {post.model}?
+                    </h2>
+                    <div>{parseContent(post.costInfo)}</div>
+                  </section>
+                  
+                  {/* Service Page Link */}
+                  <div className="mt-8 mb-4">
+                    <Link to={matchedServiceUrl} className="inline-flex items-center gap-2 text-[#0066FF] font-bold hover:underline text-lg">
+                      Saiba mais sobre {post.category || "nossos serviços"} <ArrowRight className="w-5 h-5" />
+                    </Link>
+                  </div>
+                </article>
               </div>
+
+              {/* FAQ Accordion Section (Abaixo do White Card, mas dentro da coluna 70%) */}
+              {post.faq && post.faq.length > 0 && (
+                <section id="faq" className="pt-6 mb-12">
+                  <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 pb-2 border-b border-zinc-800">
+                    Perguntas Frequentes
+                  </h2>
+                  <div className="space-y-4">
+                    {post.faq.map((item, i) => (
+                      <details key={i} className="group bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden">
+                        <summary className="flex justify-between items-center font-bold cursor-pointer list-none p-5 text-white hover:bg-zinc-800/50 transition-colors">
+                          <span>{item.question}</span>
+                          <span className="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                          </span>
+                        </summary>
+                        <p className="text-zinc-400 p-5 pt-0 mt-2 leading-relaxed">
+                          {item.answer}
+                        </p>
+                      </details>
+                    ))}
+                  </div>
+                </section>
+              )}
             </div>
-          )}
+
+            {/* Sidebar Column (30%) - Visível apenas no Desktop */}
+            <aside className="hidden lg:block w-[30%] sticky top-24">
+              <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 shadow-xl">
+                <h2 className="text-xl font-bold text-white mb-6 pb-2 border-b border-zinc-800">
+                  Você também pode gostar:
+                </h2>
+                <div className="flex flex-col gap-5">
+                  {relatedPosts.map((rp) => rp && (
+                    <Link 
+                      key={rp.slug} 
+                      to={`/blog/${rp.slug}`} 
+                      className="group flex gap-4 items-start"
+                    >
+                      {/* Thumbnail Placeholder */}
+                      <div className="w-16 h-16 shrink-0 rounded-lg bg-zinc-800 flex items-center justify-center border border-zinc-700 group-hover:border-[#0066FF] transition-colors overflow-hidden">
+                        <span className="text-zinc-500 font-bold text-xs uppercase">{rp.brand}</span>
+                      </div>
+                      
+                      {/* Text */}
+                      <div className="flex flex-col">
+                        <h3 className="text-sm font-bold text-zinc-200 group-hover:text-[#0066FF] leading-snug transition-colors line-clamp-2">
+                          {rp.h1}
+                        </h3>
+                        <span className="text-xs text-zinc-500 mt-2 flex items-center gap-1">
+                          <Clock className="w-3 h-3" />
+                          {rp.datePublished || "2026"}
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </aside>
+            
+          </div>
 
           {/* Final CTA Banner */}
           <div className="mt-16 bg-[#0066FF] rounded-2xl p-8 md:p-12 text-center shadow-2xl">
