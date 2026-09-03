@@ -1,4 +1,4 @@
-import { Clock } from "lucide-react";
+﻿import { Clock } from "lucide-react";
 
 interface AuthorBlockProps {
   authorName?: string;
@@ -34,3 +34,4 @@ const AuthorBlock = ({
 };
 
 export default AuthorBlock;
+

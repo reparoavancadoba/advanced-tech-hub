@@ -61,7 +61,7 @@ const BlogPost = () => {
   const customMessage = `Olá! Vi o artigo sobre ${topic} no blog de vocês e gostaria de um orçamento.`;
   const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(customMessage)}`;
 
-  const relatedPosts = post.relatedSlugs
+  const relatedPosts = (post.relatedSlugs || [])
     .map((s) => allPosts.find((p) => p.slug === s))
     .filter(Boolean)
     .slice(0, 3);
