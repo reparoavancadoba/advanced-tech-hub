@@ -10,6 +10,7 @@ import NewHowItWorks from "@/components/home/NewHowItWorks";
 import NewFinalCta from "@/components/home/NewFinalCta";
 import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
+import { FadeIn } from "@/components/FadeIn";
 
 const Index = () => {
   const orgJsonLd = {
@@ -37,15 +38,16 @@ const Index = () => {
       </Helmet>
       
       <HeroSection />
-      <TickerSection />
-      <NewCtaBlock />
-      <NewWhatWeDo />
-      <NewWhyChooseUs />
-      <NewSpecialty />
-      <NewAboutUs />
-      <NewReviews />
-      <NewHowItWorks />
-      <NewFinalCta />
+      
+      <FadeIn><TickerSection /></FadeIn>
+      <FadeIn><NewCtaBlock /></FadeIn>
+      <FadeIn><NewWhatWeDo /></FadeIn>
+      <FadeIn><NewWhyChooseUs /></FadeIn>
+      <FadeIn><NewSpecialty /></FadeIn>
+      <FadeIn><NewAboutUs /></FadeIn>
+      <FadeIn><NewReviews /></FadeIn>
+      <FadeIn><NewHowItWorks /></FadeIn>
+      <FadeIn><NewFinalCta /></FadeIn>
     </SiteLayout>
   );
 };
