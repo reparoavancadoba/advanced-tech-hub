@@ -1,5 +1,4 @@
-﻿import { Star, ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useState, useCallback } from "react";
+import { Star } from "lucide-react";
 
 const realReviews = [
   { name: "Daniela Falcão", text: "Amei, obrigada!" },
@@ -20,91 +19,63 @@ const realReviews = [
 ];
 
 const NewReviews = () => {
-  const [current, setCurrent] = useState(0);
-  const itemsPerView = typeof window !== "undefined" && window.innerWidth >= 1024 ? 3 : 1;
-  const maxIndex = realReviews.length - itemsPerView;
-
-  const next = useCallback(() => {
-    setCurrent((prev) => (prev >= maxIndex ? 0 : prev + 1));
-  }, [maxIndex]);
-
-  const prev = useCallback(() => {
-    setCurrent((prev) => (prev <= 0 ? maxIndex : prev - 1));
-  }, [maxIndex]);
-
-  useEffect(() => {
-    const interval = setInterval(next, 5000);
-    return () => clearInterval(interval);
-  }, [next]);
+  // Triplicar a lista para garantir o preenchimento da tela e o scroll infinito perfeito sem saltos
+  const tripledReviews = [...realReviews, ...realReviews, ...realReviews];
 
   return (
-    <section className="bg-[#0a0f18] text-white py-16 md:py-20 px-4 md:px-6 lg:px-8 overflow-hidden">
-      <div className="max-w-5xl mx-auto">
-        
-        <div className="mb-10 text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
-            <span className="w-8 h-[2px] bg-[#0066FF]"></span>
-            <span className="text-[#0066FF] font-semibold text-xs tracking-[0.2em] uppercase">Depoimentos</span>
-          </div>
-          <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
-            Quem já passou aqui{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">conta como foi.</span>
-          </h2>
-          <p className="text-slate-400 mt-2 max-w-md mx-auto md:mx-0 text-sm">
-            Histórias reais de quem resolveu o problema na nossa loja em Salvador.
-          </p>
+    <section className="bg-[#0a0f18] text-white py-16 md:py-20 overflow-hidden border-y border-[#1e293b]">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 mb-10 text-center md:text-left">
+        <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
+          <span className="w-8 h-[2px] bg-[#0066FF]"></span>
+          <span className="text-[#0066FF] font-semibold text-xs tracking-[0.2em] uppercase">Depoimentos</span>
         </div>
+        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
+          Quem já passou aqui{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">conta como foi.</span>
+        </h2>
+        <p className="text-slate-400 mt-2 max-w-md mx-auto md:mx-0 text-sm">
+          Histórias reais de quem resolveu o problema na nossa loja em Salvador.
+        </p>
+      </div>
+      
+      {/* Container do Carrossel Infinito */}
+      <div className="relative w-full overflow-hidden">
         
-        <div className="relative">
-          <div
-            className="flex transition-transform duration-500 ease-out"
-            style={{ transform: `translateX(-${current * (100 / itemsPerView)}%)` }}
-          >
-            {realReviews.map((rev, i) => {
-              const initials = rev.name.substring(0, 2).toUpperCase();
-              return (
-                <div key={i} className="flex-shrink-0 px-2" style={{ width: `${100 / itemsPerView}%` }}>
-                  <div className="bg-[#0f172a] border border-[#1e293b] p-5 rounded-xl flex flex-col gap-3 h-[200px] hover:border-[#0066FF]/40 transition-colors">
-                    <div className="flex gap-0.5 text-yellow-500">
-                      {[...Array(5)].map((_, j) => (
-                        <Star key={j} className="w-3.5 h-3.5 fill-current" />
-                      ))}
-                    </div>
-                    <p className="text-slate-300 italic flex-1 text-xs leading-relaxed line-clamp-4">
-                      "{rev.text}"
-                    </p>
-                    <div className="flex items-center gap-3 pt-2 border-t border-[#1e293b]/50">
-                      <div className="w-8 h-8 rounded-full bg-[#0066FF] flex items-center justify-center text-white font-bold text-[10px] shrink-0">
-                        {initials}
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-slate-100 text-xs">{rev.name}</h4>
-                        <p className="text-slate-500 text-[10px]">Avaliação no Google</p>
-                      </div>
-                    </div>
+        {/* Máscaras de Gradiente (Opcional, dá um efeito suave nas bordas) */}
+        <div className="absolute inset-y-0 left-0 w-12 md:w-32 bg-gradient-to-r from-[#0a0f18] to-transparent z-10 pointer-events-none" />
+        <div className="absolute inset-y-0 right-0 w-12 md:w-32 bg-gradient-to-l from-[#0a0f18] to-transparent z-10 pointer-events-none" />
+        
+        {/* Trilho da animação */}
+        <div className="flex w-max min-w-full animate-marquee items-stretch gap-6 py-4">
+          {tripledReviews.map((rev, i) => {
+            const initials = rev.name.substring(0, 2).toUpperCase();
+            return (
+              <div 
+                key={i} 
+                className="w-[280px] sm:w-[320px] md:w-[350px] flex-shrink-0 bg-[#0f172a] border border-[#1e293b] p-5 md:p-6 rounded-2xl flex flex-col gap-4 hover:border-[#0066FF]/40 transition-colors shadow-lg"
+              >
+                <div className="flex gap-0.5 text-yellow-500">
+                  {[...Array(5)].map((_, j) => (
+                    <Star key={j} className="w-4 h-4 fill-current" />
+                  ))}
+                </div>
+                
+                <p className="text-slate-300 italic flex-1 text-sm leading-relaxed">
+                  "{rev.text}"
+                </p>
+                
+                <div className="flex items-center gap-3 pt-4 border-t border-[#1e293b]/50 mt-auto">
+                  <div className="w-10 h-10 rounded-full bg-[#0066FF] flex items-center justify-center text-white font-bold text-sm shrink-0">
+                    {initials}
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-100 text-sm">{rev.name}</h4>
+                    <p className="text-slate-500 text-xs">Avaliação no Google</p>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-          
-          <div className="flex justify-center items-center gap-4 mt-8">
-            <button onClick={prev} className="w-8 h-8 rounded-full border border-[#1e293b] flex items-center justify-center text-slate-400 hover:text-white hover:border-[#0066FF] transition-colors">
-              <ChevronLeft className="w-4 h-4" />
-            </button>
-            <div className="flex gap-1.5">
-              {Array.from({ length: Math.min(maxIndex + 1, 10) }).map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setCurrent(i)}
-                  className={`h-1.5 rounded-full transition-all ${current === i ? "bg-[#0066FF] w-5" : "bg-slate-700 w-1.5"}`}
-                />
-              ))}
-            </div>
-            <button onClick={next} className="w-8 h-8 rounded-full border border-[#1e293b] flex items-center justify-center text-slate-400 hover:text-white hover:border-[#0066FF] transition-colors">
-              <ChevronRight className="w-4 h-4" />
-            </button>
-          </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
@@ -112,4 +83,3 @@ const NewReviews = () => {
 };
 
 export default NewReviews;
-
