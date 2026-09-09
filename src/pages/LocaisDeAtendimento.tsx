@@ -6,7 +6,7 @@ import { listLocaisConsolidados } from "@/data/locaisConsolidadosData";
 import { servicesHubList } from "@/data/servicosConsolidadosData";
 
 const LocaisDeAtendimento = () => {
-  const title = "Locais de Atendimento em Salvador | conserto Avançado";
+  const title = "Locais de Atendimento em Salvador | Reparo Avançado";
   const description =
     "atendimento presencial focado nos principais bairros de Salvador: Boca do Rio, Imbuí, Pituba, Brotas e Salvador Centro. Agilidade e garantia perto de você.";
   const canonical = "https://site.reparoavancado.com.br/locais-de-atendimento";
@@ -34,13 +34,13 @@ const LocaisDeAtendimento = () => {
       {/* Locations Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-6">
             {listLocaisConsolidados.map((local) => (
               <div key={local.slug} className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 hover:glow-blue transition-all flex flex-col justify-between">
                 <div>
                   <div className="flex items-center gap-2 mb-4">
                     <MapPin className="w-5 h-5 text-primary" />
-                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("oficina de conserto de celular de Celular na ", "").replace("oficina de conserto de celular de Celular em ", "")}</h2>
+                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("oficina de conserto de celular na ", "").replace("oficina de conserto de celular em ", "")}</h2>
                   </div>
                   <p className="text-sm text-muted-foreground mb-6">
                     {local.description}
@@ -49,7 +49,7 @@ const LocaisDeAtendimento = () => {
                   {/* Internal Linking: Link to consolidated service pages under local context */}
                   <div className="mb-6">
                     <span className="text-xs font-bold text-primary uppercase tracking-wider block mb-3">Serviços Disponíveis</span>
-                    <ul className="grid grid-cols-2 gap-2">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {servicesHubList.slice(0, 4).map((serv) => (
                         <li key={serv.slug} className="flex items-center gap-1.5 text-xs text-muted-foreground">
                           <Check className="w-3.5 h-3.5 text-whatsapp shrink-0" />

@@ -72,7 +72,7 @@
       {
         id: "saber-se-grave",
         title: "Como saber se o problema é grave?",
-        content: "Existem alguns sinais que ajudam a diferenciar um defeito simples de um problema gravíssimo na placa mãe:\n\n1. O aparelho sofreu queda recente ou impacto violento? (Risco de solda trincada na placa)\n2. O celular teve contato com líquidos ou vapor de banho? (Altíssimo risco de oxidação severa)\n3. O aparelho emite muito calor ao ser conectado na tomada, mesmo sem carregar? (Curto-circuito interno consumindo energia em forma de calor)\n\nSe a resposta for sim para qualquer uma dessas perguntas, retire o aparelho da tomada. Continuar forçando o carregamento pode derreter plásticos internos e causar danos irreparáveis aos dados armazenados."
+        content: "Existem alguns sinais que ajudam a diferenciar um defeito simples de um problema gravíssimo na placa mãe:\n\n1. O aparelho sofreu queda recente ou impacto violento? (Risco de solda trincada na placa)\n2. O celular teve contato com líquidos ou vapor de banho? (Altíssimo risco de oxidação severa)\n3. O aparelho emite muito calor ao ser conectado na tomada, mesmo sem carregar? (Curto-placa consumindo energia em forma de calor)\n\nSe a resposta for sim para qualquer uma dessas perguntas, retire o aparelho da tomada. Continuar forçando o carregamento pode derreter plásticos internos e causar danos irreparáveis aos dados armazenados."
       },
       {
         id: "quando-procurar",

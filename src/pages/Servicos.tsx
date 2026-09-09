@@ -22,7 +22,7 @@ const Servicos = () => {
 
   const hubFaqs = [
     {
-      q: "Como funciona a garantia dos serviços na conserto Avançado?",
+      q: "Como funciona a garantia dos serviços na Reparo Avançado?",
       a: "Todos os nossos serviços de substituição de peças (telas, baterias, conectores) e conserto de circuito integrado possuem garantia por escrito de 3 meses (90 dias)."
     },
     {
@@ -38,8 +38,8 @@ const Servicos = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Serviços e Especialidades | conserto Avançado Salvador</title>
-        <meta name="description" content="Central de Serviços da conserto Avançado. Conheça nossas especialidades: troca de tela, bateria, conserto de circuito integrado e desoxidação com garantia e atendimento local." />
+        <title>Serviços e Especialidades | Reparo Avançado Salvador</title>
+        <meta name="description" content="Central de Serviços da Reparo Avançado. Conheça nossas especialidades: troca de tela, bateria, conserto de circuito integrado e desoxidação com garantia e atendimento local." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/servicos" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -48,7 +48,7 @@ const Servicos = () => {
             "name": "oficina de conserto de celular e Conserto de Celulares em Salvador",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "conserto Avançado",
+              "name": "Reparo Avançado",
               "image": "https://site.reparoavancado.com.br/favicon.png",
               "telephone": "+5571991981437",
               "address": {
@@ -89,7 +89,7 @@ const Servicos = () => {
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Especialidades Técnicas Otimizadas</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {servicesHubList.map((service) => {
               const Icon = serviceIcons[service.slug] || Wrench;
               return (
@@ -141,7 +141,7 @@ const Servicos = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Dicas do nosso Blog</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-1 sm:grid-cols-3 gap-6">
             {latestArticles.map((article) => (
               <Link
                 key={article.slug}

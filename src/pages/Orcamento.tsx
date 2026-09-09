@@ -74,7 +74,7 @@ const Orcamento = () => {
       {/* Benefícios */}
       <section className="py-16 bg-secondary/30 border-y border-border">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
               { icon: Zap, title: "Resposta Imediata", desc: "Nossa equipe responde em até 5 minutos pelo WhatsApp. Sem espera, sem burocracia." },
               { icon: ShieldCheck, title: "Sem Compromisso", desc: "Você recebe o valor exato do conserto e decide com calma. Não obrigamos ninguém." },

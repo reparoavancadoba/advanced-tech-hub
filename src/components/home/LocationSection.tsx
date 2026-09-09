@@ -2,7 +2,7 @@ import { MapPin, Clock, Phone } from "lucide-react";
 
 const LocationSection = () => {
   return (
-    <section className="bg-white text-zinc-900 py-16 px-4 md:px-8 border-t border-zinc-200">
+    <section className="bg-white text-zinc-900 py-16 border-t border-zinc-200">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center">
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-3xl font-bold">Venha nos fazer uma visita</h2>

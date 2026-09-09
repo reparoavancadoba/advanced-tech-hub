@@ -1,4 +1,4 @@
-﻿import { Smartphone, Battery, PlugZap, Camera, Cpu, Droplet } from "lucide-react";
+import { Smartphone, Battery, PlugZap, Camera, Cpu, Droplet } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -11,7 +11,7 @@ const services = [
 ];
 
 const NewWhatWeDo = () => (
-  <section id="servicos" className="bg-[#0a0f18] text-white py-16 md:py-20 px-4 md:px-6 lg:px-8 border-t border-[#1e293b]">
+  <section id="servicos" className="bg-[#0a0f18] text-white py-16 md:py-20 border-t border-[#1e293b]">
     <div className="max-w-5xl mx-auto">
       
       <div className="mb-10">
@@ -28,7 +28,7 @@ const NewWhatWeDo = () => (
         </p>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {services.map((svc, i) => (
           <Link 
             key={i} 

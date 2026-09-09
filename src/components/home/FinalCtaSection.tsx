@@ -2,7 +2,7 @@ import { MessageSquare, Phone, MapPin } from "lucide-react";
 
 const FinalCtaSection = () => {
   return (
-    <section className="bg-zinc-900 text-white py-20 px-4 md:px-8 text-center">
+    <section className="bg-zinc-900 text-white py-20 text-center">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">Pronto para consertar seu aparelho?</h2>
         <p className="text-lg text-zinc-300 mb-10">

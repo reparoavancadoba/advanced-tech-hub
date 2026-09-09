@@ -4,7 +4,7 @@ const steps = [
   { num: "3", title: "Reparo Rápido", desc: "Aprovou? Consertamos e devolvemos seu aparelho." },
 ];
 const NewHowItWorks = () => (
-  <section className="bg-white text-zinc-900 py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 border-y border-zinc-100 overflow-hidden">
+  <section className="bg-white text-zinc-900 py-12 md:py-16 lg:py-20 border-y border-zinc-100 overflow-hidden">
     <div className="max-w-6xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-zinc-900">Como funciona</h2>
       <div className="relative flex flex-col md:flex-row justify-between gap-6 md:gap-8 md:gap-0">

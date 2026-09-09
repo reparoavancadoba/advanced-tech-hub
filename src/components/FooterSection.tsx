@@ -17,7 +17,7 @@ const bairrosLink = [
 const FooterSection = () => {
   return (
     <footer id="contato" className="bg-card/50 border-t border-border">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto pt-16 pb-28">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Info */}
           <div>

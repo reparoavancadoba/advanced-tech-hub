@@ -181,7 +181,7 @@ export const editorialPostsBatch5: BlogPost[] = [
       "Bateria já ultrapassou o limite de ciclos vitais"
     ],
     solution: "[DICA] Traga até nós! Colocamos no nosso Doc Test (testador de amperagem militar). Se o visor registrar 0.0 amperes, sabemos que a corrente está bloqueada. Trocaremos a placa de carga completa ou, se necessário, o CI Controlador de Carga na placa principal. O reparo é preciso e rápido. [/DICA]",
-    whenToSeek: "Logo após testar outro cabo e outro adaptador de tomada e notar que o problema continua. Ficar forçando o carregamento falso pode piorar um curto-circuito interno.",
+    whenToSeek: "Logo após testar outro cabo e outro adaptador de tomada e notar que o problema continua. Ficar forçando o carregamento falso pode piorar um curto-placa.",
     costInfo: "Se for apenas o sub-placa / conector, o conserto é rapidíssimo e super em conta. Solicite orçamento.",
     relatedSlugs: ["celular-motorola-nao-carrega", "iphone-15-nao-carrega-usb-c"],
     isEditorial: true,

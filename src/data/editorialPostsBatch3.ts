@@ -288,7 +288,7 @@ export const editorialPostsBatch3: BlogPost[] = [
       },
       {
         question: "Carregador turbo genérico estraga o celular?",
-        answer: "Sim! Carregadores baratos não regulam a tensão direito. Uma variação de energia queima o CI de carga (Circuito Integrado) na placa do seu celular, e aí o reparo sai bem mais caro do que comprar um carregador original."
+        answer: "Sim! Carregadores baratos não regulam a tensão direito. Uma variação de energia queima o CI de carga (placa) na placa do seu celular, e aí o reparo sai bem mais caro do que comprar um carregador original."
       }
     ],
     sections: [

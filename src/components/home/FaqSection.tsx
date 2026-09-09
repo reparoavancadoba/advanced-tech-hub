@@ -14,7 +14,7 @@ const faqs = [
 
 const FaqSection = () => {
   return (
-    <section className="bg-zinc-900 text-white py-16 px-4 md:px-8">
+    <section className="bg-zinc-900 text-white py-16">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Perguntas Frequentes</h2>
         <Accordion type="single" collapsible className="w-full">

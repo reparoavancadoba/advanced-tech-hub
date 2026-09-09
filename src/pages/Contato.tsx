@@ -61,7 +61,7 @@ const Contato = () => {
       {/* Cards de Contato */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {/* WhatsApp */}
             <a
               href={WHATSAPP_LINK}
@@ -114,7 +114,7 @@ const Contato = () => {
       {/* Informações Adicionais */}
       <section className="py-16 bg-secondary/30 border-y border-border">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-10">
             <div>
               <h2 className="text-2xl font-bold mb-6">Endereço</h2>
               <div className="flex items-start gap-3 text-muted-foreground">

@@ -212,7 +212,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       {/* LocalBusiness Info Section */}
       <section className="py-20 border-t border-border">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-10 items-center">
             {/* Info Details */}
             <div>
               <h2 className="text-3xl font-bold mb-6 text-foreground">Como Chegar e Contato</h2>
@@ -260,7 +260,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             {/* Map Frame */}
             <div className="rounded-2xl overflow-hidden border border-border">
               <iframe
-                title={`Mapa de Localização - conserto Avançado atendendo ${local.name}`}
+                title={`Mapa de Localização - Reparo Avançado atendendo ${local.name}`}
                 src={mapsEmbed}
                 width="100%"
                 height="350"

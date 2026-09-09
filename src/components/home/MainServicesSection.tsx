@@ -11,7 +11,7 @@ const solutions = [
 
 const MainServicesSection = () => {
   return (
-    <section id="servicos" className="bg-zinc-50 text-zinc-900 py-20 px-4 md:px-8">
+    <section id="servicos" className="bg-zinc-50 text-zinc-900 py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">Encontre a solução ideal para o seu aparelho.</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

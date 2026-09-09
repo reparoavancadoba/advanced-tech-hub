@@ -11,8 +11,8 @@ const Atendimento = () => {
 
   if (!bairro || !servico) return <Navigate to="/locais-de-atendimento" replace />;
 
-  const title = `${servico.name} no ${bairro.name} - Salvador (BA) | conserto Avançado`;
-  const description = `equipe em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a conserto Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
+  const title = `${servico.name} no ${bairro.name} - Salvador (BA) | Reparo Avançado`;
+  const description = `equipe em ${servico.name} no bairro ${bairro.name}, Salvador (BA). Se você mora no ${bairro.name} e precisa de ${servico.name}, fale com a Reparo Avançado: atendimento rápido, peças de alta performance e garantia real. Solicite orçamento de ${servico.name} no ${bairro.name} via WhatsApp.`;
   
   // Consolidação Gradual: Aponta o canonical para a página principal consolidada do bairro correspondente
   const strategicBairros = ["boca-do-rio", "pituba", "imbui", "brotas"];
@@ -43,7 +43,7 @@ const Atendimento = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: `conserto Avançado - ${servico.name} no ${bairro.name}`,
+            name: `Reparo Avançado - ${servico.name} no ${bairro.name}`,
             description,
             url: canonical,
             telephone: "+5571991981437",
@@ -99,7 +99,7 @@ const Atendimento = () => {
       {/* BENEFITS */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {benefits.map((b) => (
               <div key={b.title} className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-all">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
@@ -120,10 +120,10 @@ const Atendimento = () => {
             {servico.name} no {bairro.name}: atendimento presencial presencial
           </h2>
           <p className="text-muted-foreground mb-4">
-            Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a conserto Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com mais de 7 anos de tradição e mais de 153 avaliações reais 5.0 ⭐.
+            Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a Reparo Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com mais de 7 anos de tradição e mais de 153 avaliações reais 5.0 ⭐.
           </p>
           <p className="text-muted-foreground mb-4">
-            Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão atendimento comercial rigoroso, com peças de alta performance e avaliação avançado. Diferente das lojas comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
+            Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão atendimento comercial rigoroso, com peças de alta performance e Reparo Avançado. Diferente das lojas comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
           </p>
           <h3 className="text-xl font-bold mt-8 mb-3">
             Por que escolher nossa {servico.shortName.toLowerCase()} no {bairro.name}?

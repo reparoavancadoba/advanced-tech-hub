@@ -355,7 +355,7 @@ export const editorialPostsBatch6: BlogPost[] = [
     ],
     causes: [
       "Impactos mecânicos no chão duro ou pisões de pé acidentais",
-      "Curto circuito interno por gota de chuva ou mergulho (muitos Motorolas não possuem IP68)"
+      "Curto placa por gota de chuva ou mergulho (muitos Motorolas não possuem IP68)"
     ],
     solution: "[DICA] Para a linha Motorola, trabalhamos forte com telas com 'Frame' (Módulo com o Aro metálico novo de fábrica). Isso garante que botões desgastados ganhem nova vida e o encaixe da tela no aparelho fique firme, sem aquela sensação de 'tela levantando' mal colada que as assistências fracas deixam. [/DICA]",
     whenToSeek: "Hoje, caso precise urgentemente do celular para comunicação, entrega de iFood, motoristas Uber, etc.",

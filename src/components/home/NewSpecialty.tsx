@@ -5,7 +5,7 @@
 ];
 
 const NewSpecialty = () => (
-  <section className="bg-[#0a0f18] text-white py-16 md:py-20 px-4 md:px-6 lg:px-8 border-t border-[#1e293b]">
+  <section className="bg-[#0a0f18] text-white py-16 md:py-20 border-t border-[#1e293b]">
     <div className="max-w-5xl mx-auto">
       
       <div className="mb-10">

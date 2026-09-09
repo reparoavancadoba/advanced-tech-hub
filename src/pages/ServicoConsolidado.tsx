@@ -45,7 +45,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         },
         "provider": {
           "@type": "LocalBusiness",
-          "name": "conserto Avançado",
+          "name": "Reparo Avançado",
           "telephone": "+5571991981437",
           "priceRange": "$$",
           "image": "https://site.reparoavancado.com.br/favicon.png",
@@ -158,7 +158,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       {/* Benefits Section */}
       <section className="py-16 bg-secondary/30 border-y border-border">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {benefits.map((b) => (
               <div key={b.title} className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-all">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
@@ -195,7 +195,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       {/* Core Details */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-10">
             <div>
               <h2 className="text-2xl font-bold mb-6 text-foreground">Sintomas e Problemas Comuns</h2>
               <ul className="space-y-4">
@@ -229,7 +229,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       <section className="py-20 bg-secondary/20 border-t border-border">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold text-center mb-4">Perguntas Frequentes</h2>
-          <p className="text-muted-foreground text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na conserto Avançado.</p>
+          <p className="text-muted-foreground text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na Reparo Avançado.</p>
           <div className="space-y-6">
             {service.faqs.map((faq, index) => (
               <div key={index} className="bg-card border border-border rounded-2xl p-6">

@@ -69,7 +69,7 @@ const Localizacao = () => {
       {/* Endereço + Mapa */}
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="grid md:grid-cols-2 gap-10 items-start">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-10 items-start">
             {/* Info */}
             <div>
               <h2 className="text-2xl font-bold mb-6">Endereço Completo</h2>

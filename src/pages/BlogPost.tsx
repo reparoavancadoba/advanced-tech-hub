@@ -287,7 +287,7 @@ const BlogPost = () => {
                     <p className="font-bold text-white mb-4 text-lg md:text-xl px-4">
                       Reconhece esse problema no seu aparelho? Fale com a gente agora.
                     </p>
-                    <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1DA851] transition-all shadow-md w-[90%] sm:w-auto">
+                    <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1DA851] transition-all shadow-md w-full sm:w-auto">
                       <MessageCircle className="w-5 h-5" />
                       Falar com Técnico (WhatsApp)
                     </a>

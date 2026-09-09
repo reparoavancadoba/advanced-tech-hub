@@ -36,8 +36,8 @@ const Blog = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Blog | conserto Avançado - Guias de conserto de Celulares em Salvador</title>
-        <meta name="description" content="Guias completos de conserto para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a conserto Avançado, em Salvador - BA." />
+        <title>Blog | Reparo Avançado - Guias de conserto de Celulares em Salvador</title>
+        <meta name="description" content="Guias completos de conserto para iPhone, Samsung, Xiaomi e mais. Tire dúvidas e solicite orçamento gratuito com a Reparo Avançado, em Salvador - BA." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/blog" />
       </Helmet>
       <div className="bg-gradient-to-b from-primary/10 via-background to-background pt-20 pb-16 border-b border-border">

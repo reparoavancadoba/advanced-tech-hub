@@ -52,7 +52,7 @@ const Acessorios = () => {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((cat, idx) => {
               const Icon = cat.icon;
               return (

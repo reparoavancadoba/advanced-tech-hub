@@ -23,7 +23,7 @@ export const editorialPostsBatch7: BlogPost[] = [
       "Acúmulo de sujeira ou poeira no conector",
       "Conector de carga desgastado ou oxidado",
       "Problema na bateria",
-      "Falha no circuito interno (placa)"
+      "Falha no placa (placa)"
     ],
     solution: "Se testes com outros cabos e limpeza superficial não resolverem, o diagnóstico técnico com equipamentos adequados é a solução definitiva.",
     whenToSeek: "Se você já testou outro cabo/fonte originais e limpou suavemente o conector, mas o aparelho continua sem carregar. Nunca force ou introduza agulhas no conector.",
@@ -86,7 +86,7 @@ export const editorialPostsBatch7: BlogPost[] = [
       "Defeito apenas na tela (aparelho está ligado, mas sem imagem)",
       "Conector de alimentação danificado",
       "Danos invisíveis por líquido ou oxidação",
-      "Falha no circuito interno (placa)"
+      "Falha no placa (placa)"
     ],
     solution: "É essencial um diagnóstico de hardware e medição de consumo na bancada para saber exatamente se a falha é na tela, bateria ou placa.",
     whenToSeek: "Imediatamente, especialmente se você ouviu algum ruído, se o aparelho esquentou demais antes de apagar, ou se sofreu queda recentemente.",
@@ -294,7 +294,7 @@ export const editorialPostsBatch7: BlogPost[] = [
       {
         id: "causas-bateria",
         title: "Por Que o Consumo Está Tão Elevado?",
-        content: "O consumo elevado não significa automaticamente que a bateria é defeituosa e precisa ser descartada. Pode estar relacionado a:\n\n- **Configurações e Sistema:** Atualizações com bugs ou aplicativos pesados podem devorar a carga.\n- **Desgaste Natural:** Baterias de lítio possuem vida útil. Após 2 anos de uso, a química interna pode não segurar energia.\n- **Possíveis Falhas de Hardware:** Se o seu aparelho tomou um tombo, peças da placa podem estar gerando uma fuga de corrente (curto-circuito interno que dissipa eletricidade em formato de calor)."
+        content: "O consumo elevado não significa automaticamente que a bateria é defeituosa e precisa ser descartada. Pode estar relacionado a:\n\n- **Configurações e Sistema:** Atualizações com bugs ou aplicativos pesados podem devorar a carga.\n- **Desgaste Natural:** Baterias de lítio possuem vida útil. Após 2 anos de uso, a química interna pode não segurar energia.\n- **Possíveis Falhas de Hardware:** Se o seu aparelho tomou um tombo, peças da placa podem estar gerando uma fuga de corrente (curto-placa que dissipa eletricidade em formato de calor)."
       },
       {
         id: "quando-trocar",

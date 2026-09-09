@@ -36,7 +36,7 @@ export const macroRegioes: MacroRegiao[] = [
     slug: "centro-e-sul",
     name: "Centro e Sul",
     bairrosInternos: ["Barra", "Graça", "Vitória", "Ondina", "Rio Vermelho", "Centro", "Nazaré", "Liberdade"],
-    oldSlugs: ["barra", "graca", "vitoria", "ondina", "rio-vermelho", "centro", "naze", "liberdade"]
+    oldSlugs: ["barra", "graca", "vitoria", "ondina", "rio-vermelho", "centro", "nazare", "liberdade"]
   },
   {
     slug: "orla-norte-e-aeroporto",
@@ -73,7 +73,7 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de iPhone",
     shortName: "Conserto de iPhone",
     description:
-      "avaliação profissional avançado e conserto completo de iPhone com peças de alta performance e garantia real.",
+      "Reparo Avançado e conserto completo de iPhone com peças de alta performance e garantia real.",
   },
   {
     slug: "troca-de-tela",
@@ -87,12 +87,12 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Troca de Bateria",
     shortName: "Troca de Bateria",
     description:
-      "Saúde 100% restaurada com baterias de alta performance, ajuste presencial presencial rápida e garantia.",
+      "Saúde 100% restaurada com baterias de alta performance, instalação rápida e garantia.",
   },
   {
     slug: "reparo-de-placa",
-    name: "conserto de circuito interno",
-    shortName: "conserto de circuito interno",
+    name: "conserto de placa",
+    shortName: "conserto de placa",
     description:
       "Microeletrônica avançada. Recuperamos aparelhos condenados por outras oficinas.",
   },
@@ -101,14 +101,14 @@ export const servicosLocais: ServicoLocal[] = [
     name: "Conserto de Xiaomi",
     shortName: "Conserto de Xiaomi",
     description:
-      "profissionais em todos os modelos Xiaomi e Redmi. Peças premium e atendimento ágil.",
+      "especialistas em todos os modelos Xiaomi e Redmi. Peças premium e atendimento ágil.",
   },
   {
     slug: "conserto-de-samsung",
     name: "Conserto de Samsung",
     shortName: "Conserto de Samsung",
     description:
-      "conserto focado em Galaxy: tela AMOLED, circuito interno, bateria e mais, com garantia.",
+      "conserto focado em Galaxy: tela AMOLED, placa, bateria e mais, com garantia.",
   },
   {
     slug: "banho-quimico",

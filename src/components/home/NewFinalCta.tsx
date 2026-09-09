@@ -1,6 +1,6 @@
 ﻿import { MessageCircle } from "lucide-react";
 const NewFinalCta = () => (
-  <section className="bg-[#0a0f18] text-white py-16 md:py-20 px-4 md:px-6 lg:px-8 text-center border-t border-[#1e293b]">
+  <section className="bg-[#0a0f18] text-white py-16 md:py-20 text-center border-t border-[#1e293b]">
     <div className="max-w-3xl mx-auto flex flex-col items-center">
       <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight mb-4">
         Pronto pra{" "}
