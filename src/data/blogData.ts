@@ -314,8 +314,9 @@ import { editorialPostsBatch5 } from "./editorialPostsBatch5";
 import { editorialPostsBatch6 } from "./editorialPostsBatch6";
 import { editorialPostsBatch7 } from "./editorialPostsBatch7";
 import { editorialPostsBatch8 } from "./editorialPostsBatch8";
+import { editorialPostsBatch9 } from "./editorialPostsBatch9";
 
-export const allPosts: BlogPost[] = [...editorialPosts, ...editorialPostsBatch2, ...editorialPostsBatch3, ...editorialPostsBatch4, ...editorialPostsBatch5, ...editorialPostsBatch6, ...editorialPostsBatch7, ...editorialPostsBatch8, ...problemPosts];
+export const allPosts: BlogPost[] = [...editorialPosts, ...editorialPostsBatch2, ...editorialPostsBatch3, ...editorialPostsBatch4, ...editorialPostsBatch5, ...editorialPostsBatch6, ...editorialPostsBatch7, ...editorialPostsBatch8, ...editorialPostsBatch9, ...problemPosts];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return allPosts.find((p) => p.slug === slug);
