@@ -1,77 +1,83 @@
-import { MessageCircle, Star, MessageSquare, BadgeCheck, ShieldCheck } from "lucide-react";
+import { MessageCircle, Star, MessageSquare, BadgeCheck, ShieldCheck, MapPin } from "lucide-react";
+import { HeroParticles } from "@/components/HeroParticles";
 
 const WHATSAPP_LINK = "https://wa.me/5571991981437";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full text-white overflow-hidden bg-[#0a0f18] min-h-screen flex flex-col md:justify-center">
-      
-      {/* Desktop Background Image (Absolute) / Mobile Image (Stacked at bottom) */}
-      <div className="order-2 md:order-none md:absolute md:inset-0 md:z-0 w-full h-[40vh] md:h-full relative mt-8 md:mt-0">
-        <img 
-          src="/HERO (2).png" 
-          alt="Fachada Reparo Avançado" 
+    <section className="relative w-full text-white overflow-hidden bg-[#0a0f18] min-h-screen flex flex-col justify-center">
+      {/* Fundo: foto da loja + overlay escuro, igual à LP */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/HERO (2).png"
+          alt="Fachada Reparo Avançado"
           className="w-full h-full object-cover object-center md:object-right-top"
         />
-        {/* Mobile Gradient (Bottom up) / Desktop Gradient (Left to Right) */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f18] via-[#0a0f18]/60 to-transparent md:bg-gradient-to-r md:from-[#0a0f18] md:via-[#0a0f18]/90 md:to-transparent" />
+        <div className="absolute inset-0 bg-[#0a0f18]/70 md:bg-gradient-to-r md:from-[#0a0f18]/95 md:via-[#0a0f18]/70 md:to-[#0a0f18]/40" />
       </div>
 
-      <div className="relative z-20 w-full max-w-7xl mx-auto pt-28 md:pt-0 pb-8 flex flex-col order-1 md:order-none">
-        
-        {/* Content Box */}
-        <div className="w-full md:w-[65%] lg:w-[55%] flex flex-col">
-          <h1 className="text-3xl sm:text-4xl lg:text-[46px] xl:text-[52px] font-extrabold tracking-tight mb-4 lg:mb-6 leading-[1.25] md:leading-[1.15]">
-            Assistência técnica de celulares e notebooks <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças de qualidade.</span>
-          </h1>
-          
-          <p className="text-base sm:text-lg lg:text-xl text-slate-300 mb-8 max-w-xl leading-relaxed">
-            Mais de 7 anos cuidando do que é importante pra você. Boca do Rio, <span className="text-[#3b82f6] font-semibold">Salvador - BA.</span>
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 mb-10 w-full">
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white font-bold px-6 py-4 rounded-xl transition-all shadow-lg shadow-[#25D366]/20 text-lg w-full sm:w-auto min-h-[44px]"
-            >
-              <MessageCircle className="w-5 h-5" />
-              Falar no WhatsApp
-            </a>
-            <a
-              href="#servicos"
-              className="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/5 border border-white/20 text-white font-semibold px-6 py-4 rounded-xl transition-all text-lg w-full sm:w-auto min-h-[44px]"
-            >
-              Ver serviços
-            </a>
-          </div>
+      {/* Camadas decorativas: grid animado + glow pulsante + partículas, igual à LP */}
+      <div className="absolute inset-0 z-0 grid-pattern-animated opacity-40" aria-hidden />
+      <div className="hero-glow absolute right-[-6rem] top-[-6rem] z-0" aria-hidden />
+      <HeroParticles className="absolute inset-0 z-0 opacity-70" />
 
-          {/* Trust Badges Row */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 w-full">
-            <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-2xl bg-[#111827]/80 backdrop-blur-md">
-              <Star className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-              <span className="font-bold text-xs sm:text-sm text-white leading-tight">+7 anos</span>
-              <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">de experiência</span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-2xl bg-[#111827]/80 backdrop-blur-md">
-              <MessageSquare className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-              <span className="font-bold text-xs sm:text-sm text-white leading-tight">+164 avaliações</span>
-              <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-tight">5 estrelas no Google</span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-2xl bg-[#111827]/80 backdrop-blur-md">
-              <BadgeCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-              <span className="font-bold text-xs sm:text-sm text-white leading-tight">Peças de</span>
-              <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">qualidade</span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-2xl bg-[#111827]/80 backdrop-blur-md">
-              <ShieldCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-              <span className="font-bold text-xs sm:text-sm text-white leading-tight">Garantia no</span>
-              <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">serviço</span>
-            </div>
+      {/* Conteúdo central, igual ao layout da LP */}
+      <div className="relative z-10 mx-auto max-w-3xl w-full px-6 sm:px-8 pt-28 md:pt-24 pb-12 flex flex-col items-center text-center">
+        <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-white/80">
+          <MapPin className="h-3.5 w-3.5 text-[#3b82f6]" />
+          Boca do Rio · Salvador - BA
+        </span>
+
+        <h1 className="mt-5 text-3xl sm:text-4xl lg:text-[46px] font-extrabold tracking-tight leading-[1.2] max-w-2xl">
+          Assistência técnica de celulares e notebooks{" "}
+          <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças de qualidade.</span>
+        </h1>
+
+        <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed">
+          Mais de 7 anos cuidando do que é importante pra você. Boca do Rio, <span className="text-[#3b82f6] font-semibold">Salvador - BA.</span>
+        </p>
+
+        <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center">
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-[#25D366]/30 hover:scale-105 active:scale-95 text-lg w-full sm:w-auto min-h-[48px]"
+          >
+            <MessageCircle className="w-5 h-5" />
+            Falar no WhatsApp
+          </a>
+          <a
+            href="#servicos"
+            className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/20 text-white font-semibold px-8 py-4 rounded-xl transition-all text-lg w-full sm:w-auto min-h-[48px]"
+          >
+            Ver serviços
+          </a>
+        </div>
+
+        {/* Mini cards de confiança */}
+        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 w-full max-w-2xl">
+          <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
+            <Star className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">+7 anos</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">de experiência</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
+            <MessageSquare className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">+164 avaliações</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-tight">5 estrelas no Google</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
+            <BadgeCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">Peças de</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">qualidade</span>
+          </div>
+          <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
+            <ShieldCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">Garantia no</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">serviço</span>
           </div>
         </div>
-        
       </div>
     </section>
   );

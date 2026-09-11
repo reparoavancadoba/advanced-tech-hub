@@ -115,3 +115,33 @@
   .animate-marquee { animation: marquee 120s linear infinite; }
   .animate-marquee:hover { animation-play-state: paused; }
 }
+
+/* ===== Hero: mesmo tratamento visual da LP (grid animado + glow) ===== */
+@layer utilities {
+  .grid-pattern-animated {
+    background-image:
+      linear-gradient(hsl(225 73% 57% / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(225 73% 57% / 0.1) 1px, transparent 1px);
+    background-size: 48px 48px;
+    animation: mesh-scroll 18s linear infinite;
+  }
+
+  @keyframes mesh-scroll {
+    0% { background-position: 0px 0px, 0px 0px; }
+    100% { background-position: 48px 48px, 48px 48px; }
+  }
+
+  .hero-glow {
+    position: absolute;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 9999px;
+    background: radial-gradient(circle, hsl(225 73% 57% / 0.28) 0%, transparent 68%);
+    animation: glow-pulse 5s ease-in-out infinite;
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { opacity: 0.55; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.08); }
+  }
+}
