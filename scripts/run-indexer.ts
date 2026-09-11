@@ -1,10 +1,32 @@
 ﻿import { google } from "googleapis";
-import { readFileSync, existsSync, statSync } from "fs";
+import { readFileSync, existsSync, statSync, writeFileSync } from "fs";
 import { join } from "path";
 import { allPosts } from "../src/data/blogData";
 
 const DOMAIN = "https://site.reparoavancado.com.br";
 const QUOTA = 200;
+// Se não muda em 7 dias, não reenvia (evita gastar cota com URL já notificada)
+const DEDUPE_DAYS = 7;
+const LOG_PATH = join(process.cwd(), "scripts", "indexing-log.json");
+// Se as primeiras tentativas já vierem com erro de cota, para de bater na API
+// (evita gastar minutos de CI mandando 200 requests que sabemos que vão falhar)
+const QUOTA_ERROR_STREAK_LIMIT = 3;
+
+type IndexingLog = Record<string, string>; // url -> ISO timestamp do último envio OK
+
+function loadLog(): IndexingLog {
+  if (!existsSync(LOG_PATH)) return {};
+  try {
+    return JSON.parse(readFileSync(LOG_PATH, "utf-8"));
+  } catch {
+    console.warn("Aviso: indexing-log.json corrompido ou ilegível, iniciando log vazio.");
+    return {};
+  }
+}
+
+function isQuotaError(message: string): boolean {
+  return /quota exceeded/i.test(message);
+}
 
 async function run() {
   console.log("Iniciando script de indexação...");
@@ -359,6 +381,24 @@ async function run() {
 
   let finalUrls = [...priorityUrls, ...otherUrls];
 
+  // Deduplicação: não reenviar URL que já foi confirmada com sucesso nos últimos N dias
+  const log = loadLog();
+  const now = Date.now();
+  const skippedByDedupe: string[] = [];
+  finalUrls = finalUrls.filter((url) => {
+    const last = log[url];
+    if (!last) return true;
+    const ageDays = (now - new Date(last).getTime()) / (1000 * 60 * 60 * 24);
+    if (ageDays < DEDUPE_DAYS) {
+      skippedByDedupe.push(url);
+      return false;
+    }
+    return true;
+  });
+  if (skippedByDedupe.length > 0) {
+    console.log(`Pulando ${skippedByDedupe.length} URLs já indexadas com sucesso nos últimos ${DEDUPE_DAYS} dias.`);
+  }
+
   if (finalUrls.length > QUOTA) {
     console.log(`Limitando envio para ${QUOTA} URLs (Cota diária do Google). Faltarão ${finalUrls.length - QUOTA} para amanhã/próximo push.`);
     finalUrls = finalUrls.slice(0, QUOTA);
@@ -376,6 +416,8 @@ async function run() {
 
   let successCount = 0;
   let errorCount = 0;
+  let consecutiveQuotaErrors = 0;
+  let stoppedEarlyForQuota = false;
 
   for (let i = 0; i < finalUrls.length; i++) {
     const url = finalUrls[i];
@@ -388,19 +430,53 @@ async function run() {
       });
       console.log(`[OK] ${url} -> Status: ${response.status}`);
       successCount++;
+      consecutiveQuotaErrors = 0;
+      log[url] = new Date().toISOString();
       // Aumentar o delay para evitar 429 Too Many Requests do Google (cotas por minuto)
       await new Promise(r => setTimeout(r, 300));
     } catch (error: any) {
       console.error(`[ERRO] ${url} -> ${error.message}`);
       errorCount++;
+
+      if (isQuotaError(error.message)) {
+        consecutiveQuotaErrors++;
+        if (consecutiveQuotaErrors >= QUOTA_ERROR_STREAK_LIMIT) {
+          console.error(
+            `\nParando cedo: ${consecutiveQuotaErrors} erros seguidos de cota excedida. ` +
+            `Restam ${finalUrls.length - i - 1} URLs que nem foram tentadas — a cota diária já está zerada, ` +
+            `não faz sentido continuar batendo na API.`
+          );
+          stoppedEarlyForQuota = true;
+          break;
+        }
+      } else {
+        consecutiveQuotaErrors = 0;
+      }
     }
   }
 
+  // Persiste o log de URLs indexadas com sucesso (mesmo em parada antecipada)
+  try {
+    writeFileSync(LOG_PATH, JSON.stringify(log, null, 2));
+  } catch (e: any) {
+    console.warn(`Aviso: não consegui salvar ${LOG_PATH}: ${e.message}`);
+  }
+
+  const attempted = successCount + errorCount;
   console.log("\n=================================");
   console.log("RESUMO DA INDEXAÇÃO:");
   console.log(`Sucesso: ${successCount}`);
   console.log(`Erros: ${errorCount}`);
+  if (stoppedEarlyForQuota) console.log("Motivo: parada antecipada por cota diária excedida.");
   console.log("=================================\n");
+
+  // Falha real do job: sem isso, o GitHub Actions mostrava "sucesso" mesmo com
+  // 0 URLs indexadas de fato (o script só logava o erro e seguia em frente).
+  const failedRun = attempted > 0 && (successCount === 0 || errorCount / attempted > 0.5);
+  if (failedRun) {
+    console.error("Marcando job como FALHOU: taxa de erro acima de 50% (ou 0 sucessos).");
+    process.exitCode = 1;
+  }
 }
 
 run();
