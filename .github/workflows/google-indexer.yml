@@ -1,10 +1,13 @@
-﻿name: Google Indexing API
+name: Google Indexing API
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   index:
@@ -38,3 +41,14 @@ jobs:
           npm run index:google
           rm google-service-account.json
 
+      - name: Save indexing log (deduplicação)
+        run: |
+          if [ -n "$(git status --porcelain scripts/indexing-log.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add scripts/indexing-log.json
+            git commit -m "chore: atualiza log de indexacao [skip ci]"
+            git push
+          else
+            echo "Nenhuma mudanca no log de indexacao."
+          fi
