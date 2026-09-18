@@ -314,7 +314,7 @@ export const editorialPostsBatch5: BlogPost[] = [
     slug: "conserto-placa-mae-iphone-curto",
     title: "Placa Mãe do iPhone Queimou? Assitências Condenaram?",
     h1: "Conserto de Placa Mãe de iPhone em Salvador (Especializado)",
-    metaDescription: "Outra loja disse que 'deu pau na placa e não tem jeito'? Pare! A Reparo Avançado é referência em microeletrônica avançada para placas de iPhone. Damos um jeito.",
+    metaDescription: "Outra loja disse que 'deu pau na placa e não tem jeito'? Pare! A Reparo Avançado é referência em microeletrônica avançada para placas de iPhone. Damos um...",
     category: "iphone",
     brand: "Apple",
     model: "Toda linha iPhone",
