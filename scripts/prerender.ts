@@ -104,7 +104,7 @@ function buildProgrammaticContent(servico: any, macro: any) {
   if (servico.problems && servico.problems.length) {
      contentHtml += `<h2>Problemas que resolvemos</h2><ul>${servico.problems.map((p:string) => `<li>${p}</li>`).join('')}</ul>`;
   }
-  contentHtml += `<h2>Solução Especializada</h2><p>${servico.solution}</p>`;
+  if (servico.solution) { contentHtml += `<h2>Solução Especializada</h2><p>${servico.solution}</p>`; }
   if (servico.faqs && servico.faqs.length) {
      contentHtml += `<h2>Perguntas Frequentes</h2>` + servico.faqs.map((f:any) => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
   }

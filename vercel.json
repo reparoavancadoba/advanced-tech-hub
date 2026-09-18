@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/loja-tecnica-:bairro",
+      "destination": "/assistencia-tecnica-:bairro",
+      "permanent": true
+    },
+    {
       "source": "/blog/assistencia-tecnica-boca-do-rio-conserto-rapido",
       "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
       "permanent": true

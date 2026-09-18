@@ -45,7 +45,7 @@ const baseSchema: LocalBusinessSchemaData = {
 export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   "salvador": {
     slug: "salvador",
-    path: "/loja-tecnica-salvador",
+    path: "/assistencia-tecnica-salvador",
     name: "Salvador",
     title: "assistência técnica em Salvador | Reparo Avançado",
     h1: "assistência técnica em Salvador",
@@ -60,7 +60,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   },
   "boca-do-rio": {
     slug: "boca-do-rio",
-    path: "/loja-tecnica-boca-do-rio",
+    path: "/assistencia-tecnica-boca-do-rio",
     name: "Boca do Rio",
     title: "Conserto Celular Boca do Rio: Pronto em 1h com Garantia",
     h1: "assistência técnica na Boca do Rio",
@@ -75,7 +75,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   },
   "pituba": {
     slug: "pituba",
-    path: "/loja-tecnica-pituba",
+    path: "/assistencia-tecnica-pituba",
     name: "Pituba",
     title: "Conserto de Celular na Pituba: Perto de Você e Rápido",
     h1: "assistência técnica na Pituba",
@@ -90,7 +90,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   },
   "imbui": {
     slug: "imbui",
-    path: "/loja-tecnica-imbui",
+    path: "/assistencia-tecnica-imbui",
     name: "Imbuí",
     title: "Conserto de Celular no Imbuí: Orçamento Rápido e Grátis",
     h1: "assistência técnica no Imbuí",
@@ -105,7 +105,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
   },
   "brotas": {
     slug: "brotas",
-    path: "/loja-tecnica-brotas",
+    path: "/assistencia-tecnica-brotas",
     name: "Brotas",
     title: "Conserto Celular Brotas: Reparo Rápido e Peças Premium",
     h1: "assistência técnica em Brotas",
@@ -151,12 +151,12 @@ export function getLocalConsolidadoByPath(path: string): LocalConsolidadoData | 
   return listLocaisConsolidados.find((l) => l.path === path);
 }
 export const bairrosEstrategicos = [
-  { slug: "boca-do-rio", name: "Boca do Rio", path: "/loja-tecnica-boca-do-rio" },
-  { slug: "pituba", name: "Pituba", path: "/loja-tecnica-pituba" },
-  { slug: "imbui", name: "Imbuí", path: "/loja-tecnica-imbui" },
-  { slug: "brotas", name: "Brotas", path: "/loja-tecnica-brotas" }
+  { slug: "boca-do-rio", name: "Boca do Rio", path: "/assistencia-tecnica-boca-do-rio" },
+  { slug: "pituba", name: "Pituba", path: "/assistencia-tecnica-pituba" },
+  { slug: "imbui", name: "Imbuí", path: "/assistencia-tecnica-imbui" },
+  { slug: "brotas", name: "Brotas", path: "/assistencia-tecnica-brotas" }
 ];
 export const allBairrosList = [
   ...bairrosEstrategicos,
-  { slug: "salvador", name: "Salvador (Geral)", path: "/loja-tecnica-salvador" }
+  { slug: "salvador", name: "Salvador (Geral)", path: "/assistencia-tecnica-salvador" }
 ];
