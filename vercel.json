@@ -136,37 +136,77 @@
       "permanent": true
     },
     {
-      "source": "/conserto/:servico/em/:bairro(itaigara|costa-azul|caminho-das-arvores|jardim-armacao|patamares|stiep)",
-      "destination": "/conserto/:servico/na/boca-do-rio-e-orla",
+      "source": "/conserto/:servico/na/boca-do-rio-e-orla",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/na/miolo-e-centro-financeiro",
+      "destination": "/assistencia-tecnica-miolo-e-centro-financeiro",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/na/centro-e-sul",
+      "destination": "/assistencia-tecnica-centro-e-sul",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/na/orla-norte-e-aeroporto",
+      "destination": "/assistencia-tecnica-orla-norte-e-aeroporto",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/na/cajazeiras-e-regiao",
+      "destination": "/assistencia-tecnica-cajazeiras-e-regiao",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/na/regiao-metropolitana",
+      "destination": "/assistencia-tecnica-regiao-metropolitana",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/em/:bairro(itaigara|caminho-das-arvores)",
+      "destination": "/assistencia-tecnica-caminho-das-arvores",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/:servico/em/:bairro(costa-azul|jardim-armacao|patamares|stiep)",
+      "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
       "permanent": true
     },
     {
       "source": "/conserto/:servico/em/:bairro(iguatemi|paralela|cabula|pernambues|sao-rafael|tancredo-neves)",
-      "destination": "/conserto/:servico/na/miolo-e-centro-financeiro",
+      "destination": "/assistencia-tecnica-miolo-e-centro-financeiro",
       "permanent": true
     },
     {
       "source": "/conserto/:servico/em/:bairro(barra|graca|vitoria|ondina|rio-vermelho|centro|naze|liberdade)",
-      "destination": "/conserto/:servico/na/centro-e-sul",
+      "destination": "/assistencia-tecnica-centro-e-sul",
       "permanent": true
     },
     {
       "source": "/conserto/:servico/em/:bairro(piata|itapua|stella-maris|sao-cristovao|mussurunga)",
-      "destination": "/conserto/:servico/na/orla-norte-e-aeroporto",
+      "destination": "/assistencia-tecnica-orla-norte-e-aeroporto",
       "permanent": true
     },
     {
       "source": "/conserto/:servico/em/:bairro(cajazeiras|pau-da-lima)",
-      "destination": "/conserto/:servico/na/cajazeiras-e-regiao",
+      "destination": "/assistencia-tecnica-cajazeiras-e-regiao",
       "permanent": true
     },
     {
       "source": "/conserto/:servico/em/:bairro(lauro-de-freitas|vilas-do-atlantico)",
-      "destination": "/conserto/:servico/na/regiao-metropolitana",
+      "destination": "/assistencia-tecnica-regiao-metropolitana",
       "permanent": true
     },
     {
-      "source": "/assistencia-tecnica-:bairro(itaigara|costa-azul|caminho-das-arvores|jardim-armacao|patamares|stiep)",
+      "source": "/assistencia-tecnica-:bairro(itaigara|caminho-das-arvores)",
+      "destination": "/assistencia-tecnica-caminho-das-arvores",
+      "permanent": true
+    },
+    {
+      "source": "/assistencia-tecnica-:bairro(costa-azul|jardim-armacao|patamares|stiep)",
       "destination": "/assistencia-tecnica-boca-do-rio-e-orla",
       "permanent": true
     },
@@ -193,6 +233,11 @@
     {
       "source": "/assistencia-tecnica-:bairro(lauro-de-freitas|vilas-do-atlantico)",
       "destination": "/assistencia-tecnica-regiao-metropolitana",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento/:bairro(caminho-das-arvores|itaigara)/:servico*",
+      "destination": "/assistencia-tecnica-caminho-das-arvores",
       "permanent": true
     },
     {

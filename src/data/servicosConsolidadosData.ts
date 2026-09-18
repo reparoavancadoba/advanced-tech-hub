@@ -137,7 +137,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     slug: "celular-nao-carrega",
     title: "Celular Não Carrega em Salvador | Troca de Conector de Carga",
     h1: "Celular Não Carrega ou Mau Contato no Conector",
-    metaDescription: "Celular com mau contato para carregar ou erro de umidade? avaliação gratuita e troca de conector USB-C ou Lightning na Boca do Rio, Salvador.",
+    metaDescription: "Celular com mau contato para carregar ou erro de umidade? diagnóstico gratuito e troca de conector USB-C ou Lightning na Boca do Rio, Salvador.",
     description: "Se o seu celular só carrega se inclinar o cabo, não reconhece o carregador ou exibe avisos de erro (como presença de umidade no conector), nós resolvemos o problema rapidamente.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [

@@ -120,7 +120,7 @@ function buildLocalConsolidadoContent(local: any) {
 }
 
 // 0. Institucionais
-generatePage('/', 'Reparo Avançado: Assistência técnica de celular em Salvador', 'Assistência técnica de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. Mais de 7 anos de experiência na Boca do Rio. Orçamento gratuito!', 'Assistência técnica de celular em Salvador', '<p>Laboratório técnico para conserto de celulares, troca de tela, bateria e reparo de placas.</p>', baseLocalBusinessSchema);
+generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência técnica de celular na Boca do Rio, Salvador: troca de tela, bateria e reparo de placa com orçamento gratuito e garantia de 90 dias.', 'Assistência técnica de celular em Salvador', '<p>Laboratório técnico para conserto de celulares, troca de tela, bateria e reparo de placas.</p>', baseLocalBusinessSchema);
 generatePage('/servicos', 'Nossos Serviços | Reparo Avançado', 'Conheça os serviços especializados da Reparo Avançado em Salvador: troca de tela, substituição de bateria, banho químico e reparo avançado de placas.', 'Nossos Serviços', '<p>Oferecemos consertos especializados para diversas marcas e modelos.</p>', baseLocalBusinessSchema);
 generatePage('/blog', 'Blog da Reparo Avançado', 'Acompanhe o blog da Reparo Avançado. Dicas, guias, novidades e tutoriais completos sobre conserto de celulares, troca de tela e placas em Salvador.', 'Blog da Reparo Avançado', '<p>Confira nossos artigos e novidades.</p>', baseLocalBusinessSchema);
 generatePage('/locais-de-atendimento', 'Locais de Atendimento | Reparo Avançado', 'Confira todos os bairros e regiões de Salvador atendidos pela Reparo Avançado. Oferecemos assistência técnica especializada para celulares e notebooks.', 'Locais de Atendimento', '<p>Veja as áreas que cobrimos na nossa assistência técnica em Salvador.</p>', baseLocalBusinessSchema);
@@ -234,41 +234,6 @@ allConsolidatedServices.forEach(servico => {
     ]
   };
   generatePage(urlPath, title, description, h1, fullContent, serviceSchema);
-});
-
-// 4. Programáticas (servicosLocais X macroRegioes)
-servicosLocais.forEach(servico => {
-  macroRegioes.forEach(macro => {
-    const urlPath = `/conserto/${servico.slug}/na/${macro.slug}`;
-    const title = `${servico.shortName} na ${macro.name} | Reparo Avançado`;
-    let description = `Precisando de ${servico.shortName.toLowerCase()} na região da ${macro.name}? A Reparo Avançado oferece ${servico.description.toLowerCase()}`;
-    if (description.length > 158) { let trunc = description.substring(0, 155).trim(); description = trunc.substring(0, Math.min(trunc.length, trunc.lastIndexOf(" "))) + "..."; }
-    if (description.length < 120) description += " Solicite um orçamento grátis.";
-    const h1 = `${servico.shortName} na ${macro.name}`;
-    const contentHtml = buildProgrammaticContent(servico, macro);
-    
-    const programmaticSchema = {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "name": h1,
-          "description": description,
-          "provider": { "@type": "LocalBusiness", "name": businessInfo.name, "telephone": businessInfo.telephone, "address": baseLocalBusinessSchema.address },
-          "areaServed": macro.bairrosInternos.map((area: string) => ({ "@type": "Place", "name": `${area}, ${businessInfo.city} - ${businessInfo.state}` }))
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://site.reparoavancado.com.br/" },
-            { "@type": "ListItem", "position": 2, "name": "Conserto", "item": `https://site.reparoavancado.com.br/conserto/${servico.slug}/na/boca-do-rio-e-orla` },
-            { "@type": "ListItem", "position": 3, "name": h1, "item": `https://site.reparoavancado.com.br${urlPath}` }
-          ]
-        }
-      ]
-    };
-    generatePage(urlPath, title, description, h1, contentHtml, programmaticSchema);
-  });
 });
 
 // 5. 404

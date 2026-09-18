@@ -130,7 +130,7 @@ export const editorialPostsBatch7: BlogPost[] = [
     slug: "samsung-com-tela-preta",
     title: "Samsung com Tela Preta? Descubra o Motivo",
     h1: "Samsung com tela preta: o que pode ser e quando procurar assistência",
-    metaDescription: "Seu celular Samsung apagou mas continua vibrando? Descubra o que causa a tela preta e os procedimentos recomendados. Veja como consertar de forma rápida.",
+    metaDescription: "Seu celular Samsung apagou mas continua vibrando? Descubra o que causa a tela preta e os procedimentos recomendados.",
     category: "samsung",
     brand: "Samsung",
     model: "Geral",

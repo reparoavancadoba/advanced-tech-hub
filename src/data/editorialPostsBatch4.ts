@@ -3,9 +3,9 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch4: BlogPost[] = [
   {
     slug: "tela-iphone-13-verde-branca-apos-atualizacao",
-    title: "Tela do iPhone 13 Ficou Verde ou Branca? Solução Definitiva",
+      title: "Tela Verde no iPhone 13: causa e como resolver",
     h1: "Tela Verde ou Branca no iPhone 13, 13 Pro e 13 Pro Max",
-    metaDescription: "Seu iPhone 13 ficou com a tela verde ou branca do nada após atualizar? Descubra a causa desse defeito crônico e como consertar em Salvador.",
+    metaDescription: "Tela do iPhone 13 ficou verde ou branca depois da atualização? Entenda o defeito, se existe solução sem trocar o display e o que costuma ser necessário.",
     category: "iphone",
     brand: "Apple",
     model: "iPhone 13",
@@ -373,9 +373,9 @@ export const editorialPostsBatch4: BlogPost[] = [
   },
   {
     slug: "iphone-15-nao-carrega-usb-c",
-    title: "iPhone 15 Não Carrega com Cabo Original? O Vilão do USB-C",
+      title: "iPhone 15 Não Carrega no USB-C? Causas e conserto",
     h1: "Problemas no Conector USB-C do iPhone 15 e 15 Pro",
-    metaDescription: "A Apple mudou para USB-C no iPhone 15, mas os problemas continuam. Descubra por que ele não carrega e como consertar em Salvador sem perder garantia.",
+    metaDescription: "iPhone 15 ou 15 Pro parou de carregar mesmo com cabo original? Veja o que costuma falhar no conector USB-C, o que testar antes e quando ainda tem reparo.",
     category: "iphone",
     brand: "Apple",
     model: "iPhone 15 / 15 Pro Max",

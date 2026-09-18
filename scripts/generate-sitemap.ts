@@ -63,19 +63,6 @@ listLocaisConsolidados.forEach((local) => {
   </url>`);
 });
 
-// 4. Programmatic SEO Pages (The Macro-Region Generator)
-const programmaticDate = getFileDate("src/data/locaisData.ts");
-servicosLocais.forEach((servico) => {
-  macroRegioes.forEach((macro) => {
-    urls.push(`  <url>
-    <loc>${DOMAIN}/conserto/${servico.slug}/na/${macro.slug}</loc>
-    <lastmod>${programmaticDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>`);
-  });
-});
-
 // 5. Active Blog Articles
 allPosts.forEach((post) => {
   const priority = post.isEditorial ? "0.8" : "0.6";

@@ -9,7 +9,7 @@ export const editorialPostsBatch2: BlogPost[] = [
     slug: "iphone-descarregando-rapido-calor-salvador",
     title: "iPhone Descarregando Rápido no Calor?",
     h1: "O Calor de Salvador Faz o iPhone Descarregar Mais Rápido? Entenda",
-    metaDescription: "Seu iPhone está descarregando rápido e esquentando em Salvador? O clima afeta a bateria. Veja como a Reparo Avançado resolve isso com troca de bateria...",
+    metaDescription: "Seu iPhone está descarregando rápido e esquentando em Salvador? O clima afeta a bateria. Veja como a Reparo Avançado resolve isso com troca de bateria.",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",

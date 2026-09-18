@@ -115,7 +115,7 @@ export const editorialPostsBatch6: BlogPost[] = [
     slug: "touch-tela-iphone-clicando-sozinho-fantasma",
     title: "Ghost Touch: Tela Clicando Sozinha e Abrindo Apps",
     h1: "Toque Fantasma: Celular Mexendo Sozinho e Como Resolver",
-    metaDescription: "O touch do seu celular está maluco, digitando coisas e ligando para as pessoas sozinho? Entenda o perigo do Ghost Touch e por que você precisa trocar a...",
+    metaDescription: "O touch do seu celular está maluco, digitando coisas e ligando para as pessoas sozinho? Entenda o perigo do Ghost Touch e por que você precisa trocar a.",
     category: "conserto",
     brand: "Geral",
     model: "Todos",
