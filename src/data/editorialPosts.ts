@@ -55,7 +55,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "A bateria de íon de lítio do iPhone é projetada para reter até 80% da capacidade original após 500 ciclos de carga. No entanto, o clima quente de Salvador e a exposição ao sol aceleram significativamente esse processo. Carregar o iPhone com carregadores não certificados ou deixar o aparelho conectado a noite toda também contribui para o desgaste prematuro.",
         subsections: [
           { title: "O Impacto do Clima de Salvador na Bateria", content: "A temperatura média de Salvador, combinada com a maresia da orla (Pituba, Costa Azul, Imbuí), cria um ambiente que pode reduzir a vida útil da bateria em até 20%. O calor acelera as reações químicas internas e a umidade salina pode causar micro-oxidação nos contatos." },
-          { title: "Como Verificar a Saúde da Bateria", content: "Acesse Ajustes > Bateria > Saúde e Carregamento. Se a capacidade máxima estiver abaixo de 85%, é hora de considerar a troca. A Reparo Avançado oferece avaliação gratuita com relatório completo do estado da bateria." }
+          { title: "Como Verificar a Saúde da Bateria", content: "Acesse Ajustes > Bateria > Saúde e Carregamento. Se a capacidade máxima estiver abaixo de 85%, é hora de considerar a troca. A Reparo Avançado oferece diagnóstico gratuito com relatório completo do estado da bateria." }
         ]
       },
       {
@@ -294,7 +294,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Primeiro, realizamos inspeção visual com microscópio para identificar se o problema é sujeira acumulada ou dano físico nos pinos. Em 60% dos casos, uma limpeza técnica profissional resolve completamente, utilizamos ferramentas anti-estáticas e solventes específicos. Quando há dano nos pinos ou oxidação severa, realizamos a troca do módulo de carga completo com ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando perceber qualquer inconsistência no carregamento. O 'jeitinho' de inclinar o cabo é sinal de que o problema já está instalado e tende a piorar.",
-    costInfo: `A limpeza técnica é um procedimento rápido e acessível. A troca do conector tem valor conforme o modelo. avaliação gratuita para identificar a melhor solução. ${CTA_TEXT}.`,
+    costInfo: `A limpeza técnica é um procedimento rápido e acessível. A troca do conector tem valor conforme o modelo. diagnóstico gratuito para identificar a melhor solução. ${CTA_TEXT}.`,
     faq: [
       { question: "Limpeza do conector resolve ou precisa trocar?", answer: "Depende. Em 60% dos casos, a limpeza técnica profissional resolve. Fazemos avaliação com microscópio para determinar se há dano nos pinos que exija troca do módulo completo." },
       { question: "Posso limpar o conector do iPhone em casa?", answer: "Não recomendamos. Palitos e objetos metálicos podem danificar os pinos do conector. A limpeza técnica profissional utiliza ferramentas anti-estáticas e solventes específicos." },
@@ -370,7 +370,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     faq: [
       { question: "Limpeza resolve o som baixo do iPhone?", answer: "Na maioria dos casos, sim! Cerca de 70% dos problemas de áudio baixo são causados por sujeira nas grades. A higienização profissional restaura o volume original." },
       { question: "Como evitar que o som do iPhone fique baixo?", answer: "Evite usar o iPhone em ambientes com muita poeira, limpe regularmente as grades com escova macia e seca, e considere fazer uma limpeza técnica preventiva a cada 6 meses." },
-      { question: "Preciso trocar o alto-falante do iPhone?", answer: "Somente se a higienização não resolver. Fazemos avaliação gratuita para determinar se é sujeira ou defeito no componente." }
+      { question: "Preciso trocar o alto-falante do iPhone?", answer: "Somente se a higienização não resolver. Fazemos diagnóstico gratuito para determinar se é sujeira ou defeito no componente." }
     ],
     sections: [],
     relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "microfone-ruim-ligacoes-poeira-salvador", "limpeza-tecnica-celular-sexta-feira-salvador"]
@@ -401,7 +401,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Na Reparo Avançado, fazemos uma análise técnica completa e honesta. Avaliamos o estado geral do aparelho, o custo do conserto versus o valor de mercado, e a vida útil restante. Se o conserto custar mais de 60% do valor de um aparelho similar seminovo, recomendamos transparentemente que considere a troca. Nosso compromisso é com a satisfação do cliente, não com vendas desnecessárias. ${LOCAL_SEO}`,
     whenToSeek: "Sempre que estiver em dúvida. Nosso avaliação é gratuito e oferecemos uma análise honesta de custo-benefício.",
-    costInfo: `avaliação gratuita com análise de custo-benefício detalhada. ${CTA_TEXT}.`,
+    costInfo: `diagnóstico gratuito com análise de custo-benefício detalhada. ${CTA_TEXT}.`,
     faq: [
       { question: "Até que modelo de iPhone vale a pena consertar?", answer: "Depende do tipo de conserto. Uma troca de bateria vale a pena até em modelos como o iPhone 11. Já um conserto de placa complexo pode não compensar em modelos muito antigos. Fazemos a análise caso a caso." },
       { question: "Vocês são honestos sobre quando não vale consertar?", answer: "Sim! Nossa filosofia é transparência. Se o conserto não fizer sentido financeiramente, diremos isso claramente. Preferimos um cliente satisfeito que volte no futuro." },
@@ -475,7 +475,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Na Reparo Avançado, diagnosticamos se o problema é no módulo da câmera, no flex de conexão, ou na lente de proteção. A troca do módulo é realizada com ${PECAS} e inclui calibração de foco e teste de qualidade de imagem. Para câmeras com OIS, garantimos que a estabilização funcione perfeitamente após o conserto. ${LOCAL_SEO}`,
     whenToSeek: "Quando notar tremulação, manchas nas fotos, ou câmera preta. A poeira pode se espalhar para outros componentes se não tratada.",
-    costInfo: `O valor depende do modelo e da câmera (frontal, traseira principal, ultra-wide, telefoto). avaliação gratuita. ${CTA_TEXT}.`,
+    costInfo: `O valor depende do modelo e da câmera (frontal, traseira principal, ultra-wide, telefoto). diagnóstico gratuito. ${CTA_TEXT}.`,
     faq: [
       { question: "Por que a câmera do iPhone treme?", answer: "Geralmente é falha no sistema OIS (estabilização óptica de imagem). O mecanismo de estabilização magnético se desalinha após quedas, causando tremulação constante." },
       { question: "As manchas nas fotos são sujeira ou defeito?", answer: "Pode ser ambos. Fazemos avaliação para identificar se é poeira na lente (limpeza resolve) ou defeito no sensor (troca necessária)." },
@@ -553,7 +553,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `A tela AMOLED da Samsung é formada por camadas de materiais orgânicos que emitem luz própria. Quando danificados, não há conserto, a troca do display é necessária. Na Reparo Avançado, utilizamos ${PECAS} AMOLED que reproduzem as mesmas cores vibrantes e o preto profundo da tela original. ${LOCAL_SEO}`,
     whenToSeek: "Assim que a mancha verde ou as linhas aparecerem. O problema tende a se espalhar rapidamente em telas AMOLED danificadas.",
-    costInfo: `O valor depende do modelo Samsung (linha S, A, M, Z). Utilizamos displays ${PECAS}. avaliação gratuita. ${CTA_TEXT}.`,
+    costInfo: `O valor depende do modelo Samsung (linha S, A, M, Z). Utilizamos displays ${PECAS}. diagnóstico gratuito. ${CTA_TEXT}.`,
     faq: [
       { question: "Por que apareceu uma mancha verde na tela do Samsung?", answer: "A mancha verde em telas AMOLED indica que os subpixels orgânicos verdes estão degradados ou que houve dano interno por queda/pressão. Infelizmente, não há conserto para o painel, a troca é necessária." },
       { question: "Burn-in na tela Samsung tem conserto?", answer: "Burn-in severo (marcas permanentes de ícones/barra de navegação) só se resolve com troca do display. Burn-in leve pode ser minimizado com apps específicos, mas não eliminado." },
@@ -590,9 +590,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `O avaliação diferencial é essencial: testamos a bateria com equipamento de medição de capacidade real, verificamos o sistema operacional com ferramentas de avaliação, e inspecionamos o placa com câmera térmica. Na maioria dos casos, o problema é bateria (40%) ou sistema operacional (35%). Quando é placa (25%), realizamos conserto com micro-soldagem. ${LOCAL_SEO}`,
     whenToSeek: "Quando as reinicializações se tornarem frequentes (mais de uma vez por semana). Reinicializações durante o carregamento podem indicar problema no CI de carga.",
-    costInfo: `avaliação gratuita para identificar a causa exata. O valor depende se é troca de bateria, formatação de sistema operacional ou conserto de placa. ${CTA_TEXT}.`,
+    costInfo: `diagnóstico gratuito para identificar a causa exata. O valor depende se é troca de bateria, formatação de sistema operacional ou conserto de placa. ${CTA_TEXT}.`,
     faq: [
-      { question: "Por que meu Xiaomi reinicia sozinho?", answer: "As causas mais comuns são: bateria degradada (40%), bug de sistema operacional MIUI (35%), ou problema no placa (25%). O avaliação gratuita identifica a causa exata." },
+      { question: "Por que meu Xiaomi reinicia sozinho?", answer: "As causas mais comuns são: bateria degradada (40%), bug de sistema operacional MIUI (35%), ou problema no placa (25%). O diagnóstico gratuito identifica a causa exata." },
       { question: "Formatação resolve o problema de reinicialização?", answer: "Se a causa for sistema operacional, sim. Mas é importante fazer avaliação primeiro para não formatar desnecessariamente e descobrir depois que o problema é componentes físicos." },
       { question: "Vocês trabalham com todas as linhas Xiaomi?", answer: "Sim! Atendemos toda a linha Redmi Note, Poco X, Poco F, Poco M, e Xiaomi numerados. Temos peças para todos os modelos populares." }
     ],
@@ -626,7 +626,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Em 75% dos casos, o erro de umidade do Samsung é resolvido sem troca de peças. Na Reparo Avançado, utilizamos limpeza ultrassônica do conector, remoção de micro-oxidação com solventes específicos, e recalibração do sensor de umidade via sistema operacional. Apenas quando há corrosão severa nos pinos é que a troca do conector se faz necessária. ${LOCAL_SEO}`,
     whenToSeek: "Se o erro persistir após deixar o celular secar por 2 horas em ambiente ventilado. Se aparecer sem motivo aparente, pode ser oxidação que vai piorar.",
-    costInfo: `Na maioria dos casos é uma limpeza técnica com valor acessível. avaliação gratuita. ${CTA_TEXT}.`,
+    costInfo: `Na maioria dos casos é uma limpeza técnica com valor acessível. diagnóstico gratuito. ${CTA_TEXT}.`,
     faq: [
       { question: "Erro de umidade do Samsung tem conserto?", answer: "Sim! Em 75% dos casos resolvemos sem trocar nenhuma peça, apenas com limpeza técnica e recalibração do sensor." },
       { question: "Posso usar secador de cabelo para secar o conector?", answer: "Não recomendamos. O calor excessivo pode danificar o conector. Deixe secar naturalmente em ambiente ventilado. Se persistir, traga para avaliação." },
@@ -698,7 +698,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Realizamos avaliação em toda a cadeia de carga do Motorola: porta USB-C, flex de carga, bateria, CI de gerenciamento de energia e trilhas do placa. Identificamos o componente exato em falha e realizamos o conserto com ${PECAS}. Para Motorola, verificamos também o Turbo Power para restaurar o carregamento rápido. ${LOCAL_SEO}`,
     whenToSeek: "Quando o carregamento ficar inconsistente ou o Turbo Power parar de funcionar. Carregar o Motorola com carregadores genéricos pode danificar o CI de energia.",
-    costInfo: `avaliação gratuita e detalhado. Valor conforme o componente que precisa de conserto. ${CTA_TEXT}.`,
+    costInfo: `diagnóstico gratuito e detalhado. Valor conforme o componente que precisa de conserto. ${CTA_TEXT}.`,
     faq: [
       { question: "Por que o carregamento turbo do Motorola parou?", answer: "Pode ser o cabo, o carregador, ou o CI de carga rápida no placa. Fazemos avaliação para identificar o componente exato. Usar carregadores genéricos é a causa mais comum." },
       { question: "Vocês atendem toda a linha Motorola?", answer: "Sim! Desde o Moto G14 ao Moto Edge 50, incluindo Moto G200 e G100. Temos peças para todos os modelos populares." },
@@ -804,8 +804,8 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Pressão que causou trinca sem afetar o LCD/OLED"
     ],
     solution: `A troca apenas do vidro (refurbish) é possível quando o LCD/OLED e o touch estão funcionando 100%, apenas a camada de vidro frontal está trincada. Na Reparo Avançado, utilizamos máquina separadora profissional e OCA (adesivo óptico claro) para realizar a troca de vidro com acabamento de fábrica. Quando o display tem manchas, linhas ou touch com falha, a troca da tela completa é necessária. ${LOCAL_SEO}`,
-    whenToSeek: "Traga para avaliação gratuita, analisamos se o display interno está intacto e se a troca apenas do vidro é viável para o seu modelo.",
-    costInfo: `A troca de vidro custa em média 40-60% menos que a troca de tela completa. avaliação gratuita para determinar a melhor opção. ${CTA_TEXT}.`,
+    whenToSeek: "Traga para diagnóstico gratuito, analisamos se o display interno está intacto e se a troca apenas do vidro é viável para o seu modelo.",
+    costInfo: `A troca de vidro custa em média 40-60% menos que a troca de tela completa. diagnóstico gratuito para determinar a melhor opção. ${CTA_TEXT}.`,
     faq: [
       { question: "Como saber se posso trocar só o vidro?", answer: "Se a tela mostra imagem perfeita (sem manchas, linhas ou cores estranhas) e o touch responde em todas as áreas, é provável que apenas o vidro esteja danificado. Trazendo à Reparo Avançado, confirmamos com avaliação visual." },
       { question: "A troca de vidro fica com a mesma qualidade?", answer: "Sim! Utilizamos OCA (adesivo óptico claro) e máquina profissional que garante acabamento sem bolhas e com a mesma transparência visual." },
@@ -918,9 +918,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Em 65% dos casos, a simples higienização profissional da grade do microfone resolve o problema. Utilizamos ferramentas de precisão e solventes anti-estáticos para remover toda obstrução sem danificar o componente. Quando o microfone está realmente danificado, realizamos a troca do módulo com ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando pessoas começarem a reclamar que não te ouvem nas ligações ou quando o áudio de vídeos ficar abafado.",
-    costInfo: `Higienização rápida e acessível. avaliação gratuita para diferenciar sujeira de defeito. ${CTA_TEXT}.`,
+    costInfo: `Higienização rápida e acessível. diagnóstico gratuito para diferenciar sujeira de defeito. ${CTA_TEXT}.`,
     faq: [
-      { question: "Como saber se é sujeira ou microfone queimado?", answer: "Se o problema apareceu gradualmente (piorando com o tempo), é provável sujeira. Se apareceu de repente (após queda ou contato com líquido), pode ser dano no componente. O avaliação gratuita confirma." },
+      { question: "Como saber se é sujeira ou microfone queimado?", answer: "Se o problema apareceu gradualmente (piorando com o tempo), é provável sujeira. Se apareceu de repente (após queda ou contato com líquido), pode ser dano no componente. O diagnóstico gratuito confirma." },
       { question: "Posso limpar o microfone em casa?", answer: "Você pode soprar levemente na grade, mas não use objetos pontiagudos. A limpeza profissional é mais segura e eficaz." },
       { question: "Minha capinha pode estar causando o problema?", answer: "Sim! Algumas capinhas mais grossas cobrem parcialmente o microfone inferior. Teste remover a capinha durante uma ligação para verificar." }
     ],
@@ -1023,7 +1023,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Na Reparo Avançado, abrimos o módulo da câmera em ambiente controlado e realizamos limpeza das lentes internas e do sensor com ferramentas ópticas de precisão. Removemos toda partícula de poeira e umidade, restaurando a nitidez original das fotos. Quando a lente de proteção externa está danificada, realizamos a substituição. ${LOCAL_SEO}`,
     whenToSeek: "Quando notar névoa, manchas ou pontos persistentes nas fotos que não desaparecem ao limpar a lente externa.",
-    costInfo: `Limpeza interna de câmera com preço acessível. avaliação gratuita. ${CTA_TEXT}.`,
+    costInfo: `Limpeza interna de câmera com preço acessível. diagnóstico gratuito. ${CTA_TEXT}.`,
     faq: [
       { question: "Como a poeira entra dentro da câmera?", answer: "Com o tempo, a vedação da câmera se degrada, permitindo que micro-partículas de poeira entrem entre a lente e o sensor. Quedas podem acelerar esse processo." },
       { question: "Limpar a lente por fora não resolve?", answer: "Se o problema é poeira interna, não. A sujeira está entre as camadas de lente e o sensor, acessível apenas com abertura do módulo." },
@@ -1126,8 +1126,8 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de conhecimento profissional do público geral"
     ],
     solution: `Vamos desmentir os principais mitos: 1) ARROZ NÃO FUNCIONA, o arroz não remove umidade interna e pode introduzir amido nos conectores. 2) SECADOR DE CABELO É PERIGOSO, o calor pode derreter componentes e espalhar a umidade. 3) CONGELAR O CELULAR NÃO RESOLVE NADA, pode causar condensação interna. 4) PELÍCULA NÃO PROTEGE CONTRA QUEDAS FORTES, ela protege contra riscos, não contra impacto. 5) CELULAR 'À PROVA D'ÁGUA' NÃO É INDESTRUTÍVEL. A solução real é sempre buscar assistência técnica qualificada. ${LOCAL_SEO}`,
-    whenToSeek: "Sempre que tiver um problema com o celular. Não tente soluções caseiras que podem piorar o dano. avaliação gratuita na Reparo Avançado.",
-    costInfo: `avaliação gratuita para qualquer problema. Pare de arriscar com mitos e tenha certeza com profissionais. ${CTA_TEXT}.`,
+    whenToSeek: "Sempre que tiver um problema com o celular. Não tente soluções caseiras que podem piorar o dano. diagnóstico gratuito na Reparo Avançado.",
+    costInfo: `diagnóstico gratuito para qualquer problema. Pare de arriscar com mitos e tenha certeza com profissionais. ${CTA_TEXT}.`,
     faq: [
       { question: "Colocar o celular no arroz funciona?", answer: "NÃO. O arroz não absorve a umidade de dentro do celular. Pior, pode introduzir partículas de amido nos conectores e causar oxidação adicional. A solução correta é desoxidação profissional." },
       { question: "Posso usar secador de cabelo no celular molhado?", answer: "NÃO. O calor do secador pode derreter adesivos internos, deformar componentes plásticos e empurrar a umidade para áreas mais profundas do placa." },
@@ -1160,9 +1160,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de transparência é comum no segmento",
       "Uso de peças de baixa qualidade sem informar o cliente"
     ],
-    solution: `O que nos diferencia: 1) avaliação gratuita E TRANSPARENTE, você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE, ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL, microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE, nossos profissionais se atualizam com cada novo modelo lançado. 6) HONESTIDADE, se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
+    solution: `O que nos diferencia: 1) diagnóstico gratuito E TRANSPARENTE, você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE, ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL, microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE, nossos profissionais se atualizam com cada novo modelo lançado. 6) HONESTIDADE, se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
     whenToSeek: "Para qualquer problema com seu celular ou notebook. Primeira consulta sempre gratuita.",
-    costInfo: `avaliação gratuita. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
+    costInfo: `diagnóstico gratuito. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
     faq: [
       { question: "Quantas avaliações a Reparo Avançado tem no Google?", answer: "Mais de 31 avaliações com nota máxima (5 estrelas). Nossos clientes destacam a transparência, qualidade das peças e atendimento profissional." },
       { question: "Vocês oferecem garantia nos conserto?", answer: "Sim! Todos os nossos serviços possuem garantia de 3 meses." },
@@ -1200,7 +1200,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Na Reparo Avançado, realizamos um avaliação completa em todo o circuito de carga do celular. Isso inclui a inspeção visual com microscópio do conector, testes de voltagem e corrente da bateria, e análise térmica da placa para localizar curtos. O conserto é feito com a substituição do componente danificado (conector, bateria ou CI de carga) com peças premium de alta performance e garantia. ${LOCAL_SEO}`,
     whenToSeek: "Procure assistência técnica focada quando o aparelho não reconhecer nenhum cabo, carregar apenas em algumas posições, esquentar excessivamente durante a carga, descarrega mesmo conectado ou se tiver sofrido queda ou contato com umidade. O avaliação precoce previne danos mais graves aos circuitos internos.",
-    costInfo: `O valor depende do modelo do aparelho e do avaliação exato. Oferecemos avaliação gratuita para identificar se o problema é resolvido com uma limpeza técnica, troca de conector, bateria ou conserto de placa. ${CTA_TEXT}.`,
+    costInfo: `O valor depende do modelo do aparelho e do avaliação exato. Oferecemos diagnóstico gratuito para identificar se o problema é resolvido com uma limpeza técnica, troca de conector, bateria ou conserto de placa. ${CTA_TEXT}.`,
     faq: [
       {
         question: "Colocar o celular no arroz resolve quando ele não carrega?",
@@ -1569,7 +1569,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "reparo-avancado",
         title: "Reparo Avançado Salvador: A Solução de Confiança",
-        content: "Cansado de promessas vazias e consertos que quebram de novo uma semana depois? A Reparo Avançado é a melhor assistência técnica de celular que foca na resolução real do problema. Localizada na Boca do Rio, somos especializados no reparo em nível de componente e substituição de periféricos com peças de alta performance.\n\nSeu celular não liga, não carrega ou está com a tela trincada? Nosso laboratório em Salvador está equipado com as ferramentas de precisão essenciais para iPhones, Samsungs, Xiaomis e Motorolas.\n\nClique no botão do WhatsApp agora e agende sua avaliação gratuita com nossos especialistas em tecnologia móvel!"
+        content: "Cansado de promessas vazias e consertos que quebram de novo uma semana depois? A Reparo Avançado é a melhor assistência técnica de celular que foca na resolução real do problema. Localizada na Boca do Rio, somos especializados no reparo em nível de componente e substituição de periféricos com peças de alta performance.\n\nSeu celular não liga, não carrega ou está com a tela trincada? Nosso laboratório em Salvador está equipado com as ferramentas de precisão essenciais para iPhones, Samsungs, Xiaomis e Motorolas.\n\nClique no botão do WhatsApp agora e agende sua diagnóstico gratuito com nossos especialistas em tecnologia móvel!"
       }
     ],
     relatedSlugs: ["assistencia-tecnica-celular-salvador", "tela-samsung-mancha-verde-linhas-salvador", "vale-pena-consertar-iphone-antigo-analise"]
@@ -1940,7 +1940,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   // ═══════════════════════════════════════════
   {
     slug: "celular-nao-liga-motivos-salvador",
-    title: "Celular Não Liga ou Travou na Maçã? Avaliação Grátis",
+    title: "Celular Não Liga ou Travou na Maçã? diagnóstico grátis",
     h1: "Meu Celular Não Liga Mais: Tela Preta, Morto ou Apenas Descarregado?",
     metaDescription: "Celular apagou e não liga mais? Veja os testes de emergência que você pode fazer em casa e quando é hora de trazer na nossa assistência na Boca do Rio,.",
     category: "outros" as Category,
@@ -2455,7 +2455,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       {
         id: "vidro-vs-display-s24",
         title: "Troca de Vidro vs Tela Completa no S24 Ultra",
-        content: "Se a imagem do seu S24 Ultra está perfeita, sem manchas pretas e com touch funcionando em 100% da tela, você é candidato à troca apenas do vidro externo. Esse procedimento custa uma fração do display completo e mantém a biometria original de fábrica intacta. Consulte-nos para avaliação gratuita."
+        content: "Se a imagem do seu S24 Ultra está perfeita, sem manchas pretas e com touch funcionando em 100% da tela, você é candidato à troca apenas do vidro externo. Esse procedimento custa uma fração do display completo e mantém a biometria original de fábrica intacta. Consulte-nos para diagnóstico gratuito."
       }
     ],
     relatedSlugs: ["assistencia-tecnica-samsung-salvador-autorizada", "troca-vidro-ou-tela-completa-celular-diferenca", "troca-de-tela-celular-salvador-original"]

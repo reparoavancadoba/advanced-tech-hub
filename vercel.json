@@ -166,7 +166,7 @@
       "permanent": true
     },
     {
-      "source": "/conserto/:servico/em/:bairro(itaigara|caminho-das-arvores)",
+      "source": "/conserto/:servico/em/:bairro(itaigara)",
       "destination": "/assistencia-tecnica-caminho-das-arvores",
       "permanent": true
     },
@@ -201,7 +201,7 @@
       "permanent": true
     },
     {
-      "source": "/assistencia-tecnica-:bairro(itaigara|caminho-das-arvores)",
+      "source": "/assistencia-tecnica-:bairro(itaigara)",
       "destination": "/assistencia-tecnica-caminho-das-arvores",
       "permanent": true
     },

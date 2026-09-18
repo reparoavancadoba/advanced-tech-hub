@@ -19,7 +19,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   "troca-de-tela": {
     slug: "troca-de-tela",
     title: "Troca de Tela de Celular em Salvador | Peças Premium e Garantia",
-    h1: "Troca de Tela de Celular em Salvador",
+    h1: "Troca de Tela de Celular",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
     description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a Reparo Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
@@ -48,7 +48,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   "troca-de-bateria": {
     slug: "troca-de-bateria",
     title: "Troca de Bateria de Celular em Salvador | Saúde 100% | Reparo Avançado",
-    h1: "Troca de Bateria de Celular em Salvador",
+    h1: "Troca de Bateria de Celular",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
     description: "Restaure a autonomia original do seu smartphone. Substituímos baterias gastas ou estufadas por componentes certificados de alta performance que devolvem a capacidade de carga completa ao aparelho.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme", "Notebooks (Dell, HP, Apple, etc.)"],
@@ -106,7 +106,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   "conserto-de-celular": {
     slug: "conserto-de-celular",
     title: "Conserto de Celular em Salvador | assistência técnica Multimarcas",
-    h1: "Conserto de Celular em Salvador - profissionais Multimarcas",
+    h1: "Conserto de Celular",
     metaDescription: "assistência técnica completa para celulares em Salvador. conserto de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
     description: "Oferecemos uma gama completa de soluções de conserto para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
@@ -167,7 +167,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Celular Não Liga em Salvador | avaliação profissional Gratuito",
     h1: "Celular Não Liga ou Não Dá Sinais de Vida",
     metaDescription: "Smartphone apagou e não liga mais? Oferecemos avaliação 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
-    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves no placa. Nós oferecemos um avaliação gratuita de precisão.",
+    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves no placa. Nós oferecemos um diagnóstico gratuito de precisão.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho apagou completamente e não dá sinal de carga nem imagem",
@@ -231,6 +231,6 @@ export const servicesHubList = [
   { slug: "reparo-em-placa", name: "conserto em placa", desc: "Micro-soldagem e eletrônica de alta complexidade.", iconName: "Cpu" },
   { slug: "conserto-de-celular", name: "Conserto Geral", desc: "conserto de câmeras, áudio, botões e carcaça.", iconName: "Wrench" },
   { slug: "celular-nao-carrega", name: "Não Carrega", desc: "Troca e limpeza de conectores USB-C e Lightning.", iconName: "BatteryCharging" },
-  { slug: "celular-nao-liga", name: "Não Liga", desc: "avaliação gratuita de falha elétrica e inicialização.", iconName: "Power" },
+  { slug: "celular-nao-liga", name: "Não Liga", desc: "diagnóstico gratuito de falha elétrica e inicialização.", iconName: "Power" },
   { slug: "celular-caiu-na-agua", name: "Caiu na Água", desc: "Banho químico ultrassônico imediato anti-oxidação.", iconName: "Droplet" }
 ];
