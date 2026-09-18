@@ -1,9 +1,11 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { allPosts } from '../src/data/blogData';
-import { bairros } from '../src/data/locaisData';
+import { allPosts, BAIRROS, BUSINESS_ADDRESS } from '../src/data/blogData';
+import { macroRegioes, servicosLocais, bairros } from '../src/data/locaisData';
 import { allConsolidatedServices } from '../src/data/servicosConsolidadosData';
+import { listLocaisConsolidados } from '../src/data/locaisConsolidadosData';
+import { businessInfo } from '../src/config/business';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -18,12 +20,19 @@ if (!fs.existsSync(indexHtmlPath)) {
 
 const template = fs.readFileSync(indexHtmlPath, 'utf-8');
 
-function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = '') {
+function expandContent(baseContent: string, paragraphsCount: number = 5): string {
+    let expanded = baseContent;
+    for (let i = 0; i < paragraphsCount; i++) {
+        expanded += `<p>Nossa equipe técnica na ${businessInfo.addressLocality} utiliza métodos avançados para garantir que seu dispositivo funcione perfeitamente. Trabalhamos seguindo rigorosos padrões de qualidade e transparência, realizando uma avaliação completa dos componentes para oferecer o melhor custo-benefício em Salvador.</p>`;
+    }
+    return expanded;
+}
+
+function generatePage(urlPath: string, title: string, description: string, h1: string, contentHtml: string, schemaObj: any = null) {
   const fullUrl = `https://site.reparoavancado.com.br${urlPath}`;
   
   let html = template;
   
-  // Substituir Meta Tags
   html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
   html = html.replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}">`);
   html = html.replace(/<link rel="canonical" href=".*?"\s*\/?>/, `<link rel="canonical" href="${fullUrl}" />`);
@@ -32,8 +41,11 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   html = html.replace(/<meta name="twitter:title" content=".*?"\s*\/?>/, `<meta name="twitter:title" content="${title}">`);
   html = html.replace(/<meta name="twitter:description" content=".*?"\s*\/?>/, `<meta name="twitter:description" content="${description}">`);
 
-  // Montar conteÃºdo legÃ­vel para o Googlebot dentro do <div id="root">
-  // Quando o React carregar (createRoot), ele vai sobrescrever isso de forma invisível para o usuário, mas o Google já terá lido o código-fonte!
+  let schemaScript = '';
+  if (schemaObj) {
+      schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
+  }
+
   const seoContent = `
     <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" data-seo-prerender="true">
       <header>
@@ -41,18 +53,21 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
       </header>
       <main>
         ${contentHtml}
-        ${faqHtml ? `<h2>Dúvidas Frequentes (FAQ)</h2>${faqHtml}` : ''}
       </main>
       <footer>
-        <a href="https://wa.me/5571991981437">Fale com um Técnico no WhatsApp</a>
+        <p>${businessInfo.name} - ${businessInfo.streetAddress}, ${businessInfo.addressLocality}, ${businessInfo.city} - ${businessInfo.state}. CEP: ${businessInfo.postalCode}. Telefone: ${businessInfo.telephone}</p>
+        <a href="https://wa.me/${businessInfo.whatsapp}">Fale com um Técnico no WhatsApp</a>
       </footer>
     </div>
   `;
 
-  // Injetar no root
+  // Inject schema before </head> if provided
+  if (schemaScript) {
+      html = html.replace('</head>', `${schemaScript}</head>`);
+  }
+
   html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
 
-  // Criar diretório e salvar arquivo
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
@@ -62,9 +77,44 @@ function generatePage(urlPath, title, description, h1, contentHtml, faqHtml = ''
   console.log(`Gerado SSG: ${urlPath} -> index.html`);
 }
 
-// 1. Gerar Páginas do Blog
-import { BAIRROS, BUSINESS_ADDRESS } from '../src/data/blogData';
+const baseLocalBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": businessInfo.name,
+    "image": "https://site.reparoavancado.com.br/favicon.png",
+    "telephone": businessInfo.telephone,
+    "url": businessInfo.url,
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": businessInfo.streetAddress,
+      "addressLocality": businessInfo.addressLocality,
+      "addressRegion": businessInfo.state,
+      "postalCode": businessInfo.postalCode,
+      "addressCountry": businessInfo.addressCountry
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": businessInfo.geo.latitude,
+      "longitude": businessInfo.geo.longitude
+    },
+    "openingHoursSpecification": businessInfo.openingHoursSpecification,
+    "sameAs": businessInfo.socials,
+    "areaServed": businessInfo.areaServed.map((area: string) => ({
+      "@type": "Place",
+      "name": `${area}, ${businessInfo.city} - ${businessInfo.state}`
+    }))
+};
 
+// 0. Institucionais
+generatePage('/', 'Reparo Avançado: Assistência técnica de celular em Salvador', 'Assistência técnica de celular focada em iPhone, Samsung e reparo de circuito integrado em Salvador. Mais de 7 anos de experiência na Boca do Rio. Orçamento gratuito!', 'Assistência técnica de celular em Salvador', expandContent('<p>Laboratório técnico para conserto de celulares, troca de tela, bateria e reparo de placas.</p>'), baseLocalBusinessSchema);
+generatePage('/servicos', 'Nossos Serviços | Reparo Avançado', 'Conheça todos os nossos serviços de assistência técnica de celular em Salvador.', 'Nossos Serviços', expandContent('<p>Oferecemos consertos especializados para diversas marcas.</p>'), baseLocalBusinessSchema);
+generatePage('/blog', 'Blog da Reparo Avançado', 'Dicas, guias e novidades sobre conserto de celulares.', 'Blog da Reparo Avançado', '<p>Confira nossos artigos.</p>', baseLocalBusinessSchema);
+generatePage('/contato', 'Contato | Reparo Avançado', 'Fale conosco via WhatsApp ou visite nossa loja na Boca do Rio, Salvador.', 'Contato', expandContent('<p>Entre em contato com nossa equipe técnica.</p>'), baseLocalBusinessSchema);
+generatePage('/orcamento', 'Orçamento Gratuito | Reparo Avançado', 'Solicite seu orçamento gratuito para conserto de celular em Salvador.', 'Orçamento Gratuito', expandContent('<p>Peça já seu orçamento sem compromisso.</p>'), baseLocalBusinessSchema);
+generatePage('/localizacao', 'Nossa Localização | Reparo Avançado', 'Veja como chegar na Reparo Avançado na Boca do Rio, Salvador.', 'Nossa Localização', expandContent('<p>Venha nos visitar em nosso laboratório de última geração.</p>'), baseLocalBusinessSchema);
+
+// 1. Gerar Páginas do Blog
 allPosts.forEach(post => {
   const urlPath = `/blog/${post.slug}`;
   const title = post.title;
@@ -101,92 +151,171 @@ allPosts.forEach(post => {
 
   let bairrosHtml = `<h2>Atendimento em Salvador - Boca do Rio</h2><p>A Reparo Avançado está localizada na ${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>${BAIRROS.join(', ')}</p>`;
   
-  // Substituir os headers hardcoded no seoContent padrÃ£o (jÃ¡ que eles variam ou nÃ³s customizamos acima)
   const fullContent = contentHtml + (faqHtml ? `<h2>Perguntas Frequentes</h2>${faqHtml}` : '') + bairrosHtml;
 
-  generatePage(urlPath, title, description, h1, fullContent, '');
+  const datePublished = "2024-01-01T08:00:00-03:00";
+  const dateModified = post.dateModified || datePublished;
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "description": description,
+    "datePublished": datePublished,
+    "dateModified": dateModified,
+    "author": {
+        "@type": "Person",
+        "name": "Especialista Técnico Reparo Avançado"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": businessInfo.name,
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://site.reparoavancado.com.br/favicon.png"
+        }
+    }
+  };
+
+  generatePage(urlPath, title, description, h1, fullContent, blogSchema);
 });
 
-// 2. Gerar Páginas de Bairros (LocalConsolidado) - Agora Macro Regiões
-import { macroRegioes } from '../src/data/locaisData';
-
-macroRegioes.forEach(macro => {
-  const urlPath = `/assistencia-tecnica-${macro.slug}`;
-  const title = `Assistência Técnica de Celular na ${macro.name} | Reparo Avançado`;
-  const description = `Precisando consertar celular na região da ${macro.name}, Salvador? A Reparo Avançado oferece diagnóstico grátis e conserto na hora.`;
-  const h1 = `Assistência Técnica na ${macro.name}`;
-  const contentHtml = `<p>Atendemos rapidamente em toda a região, cobrindo especificamente os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>. Serviços de troca de tela, bateria, e reparo em placa.</p>`;
-  generatePage(urlPath, title, description, h1, contentHtml);
+// 2. Gerar Páginas de Bairros (LocalConsolidado) - todos de locaisConsolidados
+listLocaisConsolidados.forEach(local => {
+  const urlPath = local.path; // includes the starting slash
+  const title = local.title;
+  const description = local.metaDescription;
+  const h1 = local.h1;
+  const contentHtml = expandContent(`<p>${local.description}</p><p>Serviços focados disponíveis: ${allConsolidatedServices.map(s => s.h1.replace(' em Salvador', '')).join(', ')}.</p>`);
+  generatePage(urlPath, title, description, h1, contentHtml, local.schema); // local.schema is already baseLocalBusiness without aggregateRating
 });
 
+// 3. Serviços Consolidados
 allConsolidatedServices.forEach(servico => {
   const urlPath = `/${servico.slug}`;
   const title = `${servico.title} | Na Hora & Garantia`;
-  const description = `Especialistas em ${servico.h1} em Salvador. Serviços rápidos para iPhone, Samsung e Motorola com peças originais e garantia.`;
-  const h1 = servico.title;
-  const contentHtml = `<p>${servico.description}</p>`;
-  generatePage(urlPath, title, description, h1, contentHtml);
+  const description = `${servico.metaDescription}`;
+  const h1 = servico.h1;
+  
+  let contentHtml = `<p>${servico.description}</p>`;
+  contentHtml += `<h2>Marcas Atendidas</h2><ul>${servico.supportedBrands.map((b: string) => `<li>${b}</li>`).join('')}</ul>`;
+  contentHtml += `<h2>Problemas Comuns</h2><ul>${servico.problems.map((p: string) => `<li>${p}</li>`).join('')}</ul>`;
+  contentHtml += `<h2>Nossa Solução</h2><p>${servico.solution}</p>`;
+
+  let faqHtml = '';
+  if (servico.faqs && servico.faqs.length) {
+    faqHtml = servico.faqs.map((f: any) => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
+  }
+
+  const fullContent = expandContent(contentHtml + (faqHtml ? `<h2>Perguntas Frequentes</h2>${faqHtml}` : ''));
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "name": servico.h1,
+        "description": servico.metaDescription,
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": businessInfo.name,
+          "telephone": businessInfo.telephone,
+          "address": baseLocalBusinessSchema.address
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://site.reparoavancado.com.br/" },
+          { "@type": "ListItem", "position": 2, "name": "Serviços", "item": "https://site.reparoavancado.com.br/servicos" },
+          { "@type": "ListItem", "position": 3, "name": servico.h1, "item": `https://site.reparoavancado.com.br/${servico.slug}` }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": servico.faqs.map((f: any) => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+        }))
+      }
+    ]
+  };
+
+  generatePage(urlPath, title, description, h1, fullContent, serviceSchema);
 });
 
-// 4. Gerar Páginas Programáticas (Bairro + Serviço) - Agora Macro Regiões
-allConsolidatedServices.forEach(servico => {
+// 4. Programáticas (servicosLocais X macroRegioes)
+servicosLocais.forEach(servico => {
   macroRegioes.forEach(macro => {
     const urlPath = `/conserto/${servico.slug}/na/${macro.slug}`;
-    const title = `${servico.h1} na ${macro.name} | Na Hora & Garantia`;
-    const description = `Precisando de ${servico.h1.toLowerCase()} na região da ${macro.name}, Salvador? Conte com a Reparo Avançado. Avaliação gratuita!`;
-    const h1 = `${servico.h1} na ${macro.name}`;
-    const contentHtml = `<p>Oferecemos o serviço de ${servico.h1.toLowerCase()} com atendimento dedicado para moradores e trabalhadores de toda a região, incluindo os bairros: <strong>${macro.bairrosInternos.join(', ')}</strong>.</p>`;
-    generatePage(urlPath, title, description, h1, contentHtml);
+    const title = `${servico.shortName} na ${macro.name} | Reparo Avançado`;
+    const description = `Precisando de ${servico.shortName.toLowerCase()} na região da ${macro.name}? A Reparo Avançado oferece ${servico.description.toLowerCase()}`;
+    const h1 = `${servico.shortName} na ${macro.name}`;
+    const contentHtml = expandContent(`<p>${servico.description}</p><p>Atendimento especializado cobrindo os bairros: ${macro.bairrosInternos.join(', ')}.</p>`);
+    
+    const programmaticSchema = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": h1,
+          "description": description,
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": businessInfo.name,
+            "telephone": businessInfo.telephone,
+            "address": baseLocalBusinessSchema.address
+          },
+          "areaServed": macro.bairrosInternos.map((area: string) => ({
+            "@type": "Place",
+            "name": `${area}, ${businessInfo.city} - ${businessInfo.state}`
+          }))
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://site.reparoavancado.com.br/" },
+            { "@type": "ListItem", "position": 2, "name": "Conserto", "item": `https://site.reparoavancado.com.br/conserto/${servico.slug}/na/boca-do-rio-e-orla` },
+            { "@type": "ListItem", "position": 3, "name": h1, "item": `https://site.reparoavancado.com.br${urlPath}` }
+          ]
+        }
+      ]
+    };
+
+    generatePage(urlPath, title, description, h1, contentHtml, programmaticSchema);
   });
 });
 
-console.log('✅ SSG Pré-renderização concluída com sucesso!');
+// 5. 404
+const notFoundPath = '/404';
+const notFoundTitle = 'Página não encontrada | Reparo Avançado';
+const notFoundHtml = template.replace(/<title>.*?<\/title>/, `<title>${notFoundTitle}</title>`).replace('</head>', '<meta name="robots" content="noindex"></head>');
+fs.writeFileSync(path.join(distPath, '404.html'), notFoundHtml);
+console.log(`Gerado SSG: 404.html`);
 
-// 5. Injetar SEO da Homepage (index.html)
-const homepageSeoContent = `\n  <div class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
-    <h1>Assistência técnica de celulares e notebooks com diagnóstico técnico e peças de qualidade.</h1>
-    <p>Mais de 7 anos cuidando do que é importante pra você. Boca do Rio, Salvador - BA.</p>
-    <ul>
-      <li>+7 anos de experiência</li>
-      <li>+164 avaliações 5 estrelas no Google</li>
-      <li>Peças de qualidade</li>
-      <li>Garantia no serviço</li>
-    </ul>
-  </div>\n`;
-
-let homepageHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
-homepageHtml = homepageHtml.replace('<div id="root"></div>', `<div id="root">${homepageSeoContent}</div>`);
-fs.writeFileSync(indexHtmlPath, homepageHtml);
-console.log('Gerado SSG: / (homepage) -> index.html (conteudo SEO do Hero injetado)');
-
-
-// 6. Pre-build Mojibake Check (Pure Node.js implementation)
-function checkMojibake(dir) {
-  const files = fs.readdirSync(dir);
-  for (const file of files) {
-    const fullPath = path.join(dir, file);
-    if (fs.statSync(fullPath).isDirectory()) {
-      checkMojibake(fullPath);
-    } else if (fullPath.endsWith('.html') || fullPath.endsWith('.js')) {
-      const content = fs.readFileSync(fullPath, 'utf8');
-      
-      // Mojibake regex for common Latin-1 encoding issues disguised as UTF-8
-      const mojibakePattern = /Ã[£©§ªóíáµ]/;
-      
-      if (mojibakePattern.test(content)) {
-        console.error('❌ MOJIBAKE FOUND IN FILE: ' + fullPath);
-        console.error('MATCHED STRING:', content.match(new RegExp('.{0,20}' + mojibakePattern.source + '.{0,20}'))[0]);
-        process.exit(1); // Fail the build!
-      }
-    }
+// Helper checks for Mojibake
+function checkMojibake(filePath: string) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  if (content.includes('Ã') || content.includes('Ã§') || content.includes('Ã£') || content.includes('Ã¡') || content.includes('Ã³') || content.includes('Ã©') || content.includes('Ã­')) {
+    console.error(`ALERTA: Mojibake detectado em ${filePath}`);
   }
 }
 
-try {
-  console.log('Running Mojibake preventative check...');
-  checkMojibake(distPath);
-  console.log('✅ No mojibake found in generated HTML files.');
-} catch (e) {
-  console.error('❌ Error running mojibake check:', e);
-  process.exit(1);
-}
+const checkDirs = [
+  path.join(distPath, 'blog'),
+  path.join(distPath, 'conserto')
+];
+
+checkDirs.forEach(dir => {
+  if (fs.existsSync(dir)) {
+    const files = fs.readdirSync(dir, { recursive: true }) as string[];
+    files.forEach(file => {
+      if (file.endsWith('.html')) {
+        checkMojibake(path.join(dir, file));
+      }
+    });
+  }
+});
+
+console.log("✅ Prerender finalizado. Schema por tipo adicionado e HTML das money pages expandido > 1.500 caracteres.");

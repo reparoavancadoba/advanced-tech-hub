@@ -48,7 +48,6 @@ consolidatedServices.forEach((service) => {
 // 3. Strategic Local Pages
 const strategicLocals = [
   "assistencia-tecnica-salvador",
-  "assistencia-tecnica-boca-do-rio",
   "assistencia-tecnica-pituba",
   "assistencia-tecnica-imbui",
   "assistencia-tecnica-brotas"
@@ -141,6 +140,7 @@ redirectLines.push(
 
 macroRegioes.forEach(macro => {
   macro.oldSlugs.forEach(bairro => {
+      if (['boca-do-rio', 'pituba', 'imbui', 'brotas'].includes(bairro)) return;
     // Redirects for `/assistencia-tecnica-:bairro` -> `/assistencia-tecnica-:macro`
     redirectLines.push(`/assistencia-tecnica-${bairro} /assistencia-tecnica-${macro.slug} 301`);
     
@@ -154,7 +154,7 @@ macroRegioes.forEach(macro => {
 redirectLines.push(
   "",
   "# 4. SPA Fallback (Catch-all para o React Router)",
-  "/* /index.html 200"
+  ""
 );
 
 writeFileSync("public/_redirects", redirectLines.join("\n"));

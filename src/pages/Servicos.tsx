@@ -27,7 +27,7 @@ const Servicos = () => {
     },
     {
       q: "O avaliação do meu aparelho é cobrado?",
-      a: "Não! O avaliação inicial em nosso laboratório é 100% gratuito. Você traz o celular, nossos profissionals avaliam o circuito interno e componentes, passam o orçamento e você só faz se concordar. Caso contrário, pode retirar sem nenhum custo."
+      a: "Não! O avaliação inicial em nosso laboratório é 100% gratuito. Você traz o celular, nossos profissionais avaliam o circuito interno e componentes, passam o orçamento e você só faz se concordar. Caso contrário, pode retirar sem nenhum custo."
     },
     {
       q: "Vocês atendem em domicílio ou têm serviço de coleta?",
@@ -45,7 +45,7 @@ const Servicos = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "oficina de conserto de celular e Conserto de Celulares em Salvador",
+            "name": "assistência técnica de celular e Conserto de Celulares em Salvador",
             "provider": {
               "@type": "LocalBusiness",
               "name": "Reparo Avançado",
@@ -71,7 +71,7 @@ const Servicos = () => {
             Nossos <span className="text-gradient">Serviços e Especialidades</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Soluções completas com profissionals profissionais e laboratório moderno. Clique na especialidade desejada para ver informações detalhadas sobre modelos e marcas.
+            Soluções completas com profissionais profissionais e laboratório moderno. Clique na especialidade desejada para ver informações detalhadas sobre modelos e marcas.
           </p>
           <a
             href={waLink}

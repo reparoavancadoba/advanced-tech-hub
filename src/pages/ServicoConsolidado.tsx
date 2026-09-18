@@ -38,11 +38,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         "@type": "LocalBusiness",
         "name": service.h1,
         "description": service.metaDescription,
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "153"
-        },
+        
         "provider": {
           "@type": "LocalBusiness",
           "name": "Reparo Avançado",
@@ -132,7 +128,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
               {service.h1}
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-              {service.description} Oferecemos avaliações precisos e conserto com agilidade e alto padrão profissional.
+              {service.description} Oferecemos diagnósticos precisos e conserto com agilidade e alto padrão profissional.
             </p>
             <a
               href={waLink}
@@ -145,7 +141,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
             </a>
             <div className="flex items-center justify-center gap-6 mt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
-                <Clock className="w-4 h-4 text-primary" /> avaliação Rápido
+                <Clock className="w-4 h-4 text-primary" /> Diagnóstico Rápido
               </div>
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-whatsapp" /> 3 Meses de Garantia
@@ -172,13 +168,13 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         </div>
       </section>
 
-      {/* Mid-page CTA Box with Social Proof */}
+            {/* Mid-page CTA */}
       <section className="py-10 bg-gradient-to-r from-primary/5 via-whatsapp/5 to-primary/5">
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <div className="bg-card border-2 border-whatsapp/30 rounded-2xl p-8 shadow-lg">
-            <p className="text-2xl font-bold mb-2">✅ Mais de 5.000 aparelhos reparados</p>
-            <p className="text-muted-foreground text-sm mb-1">⭐ Avaliação 4.9/5 · Mais de 8 anos de experiência em Salvador</p>
-            <p className="text-xs text-muted-foreground mb-6">Orçamento gratuito · Atendimento imediato pelo WhatsApp</p>
+            <p className="text-2xl font-bold mb-2">Orçamento Gratuito e Sem Compromisso</p>
+            <p className="text-muted-foreground text-sm mb-1">Garantia de 90 dias em todos os serviços · Atendimento rápido na Boca do Rio</p>
+            <p className="text-xs text-muted-foreground mb-6">Atendimento imediato pelo WhatsApp</p>
             <a
               href={waLink}
               target="_blank"
@@ -186,7 +182,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
               className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-xl text-lg font-bold hover:brightness-110 transition-all animate-pulse-whatsapp shadow-lg"
             >
               <MessageCircle className="w-6 h-6" />
-              Quero Meu Orçamento Grátis
+              Solicitar Orçamento no WhatsApp
             </a>
           </div>
         </div>
@@ -258,7 +254,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                 to={loc.path}
                 className="text-xs bg-card border border-border text-foreground px-4 py-2 rounded-full hover:border-primary hover:text-primary transition-all"
               >
-                oficina na {loc.name}
+                Assistência técnica na {loc.name}
               </Link>
             ))}
           </div>

@@ -29,8 +29,8 @@ const HeroSection = () => {
         </span>
 
         <h1 className="mt-5 text-3xl sm:text-4xl lg:text-[46px] font-extrabold tracking-tight leading-[1.2] max-w-2xl">
-          Assistência técnica de celulares e notebooks{" "}
-          <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças de qualidade.</span>
+          Assistência técnica de celular em Salvador{" "}
+          <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças premium.</span>
         </h1>
 
         <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed">

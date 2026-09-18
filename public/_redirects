@@ -121,6 +121,21 @@
 /blog/samsung-com-tela-preta /index.html 200
 /blog/celular-caiu-na-agua-o-que-fazer /index.html 200
 /blog/bateria-celular-descarregando-rapido /index.html 200
+/blog/xiaomi-redmi-tela-manchada-linhas-coloridas /index.html 200
+/blog/motorola-travando-reiniciando-sozinho-loop /index.html 200
+/blog/notebook-lento-quando-trocar-ssd-resolve /index.html 200
+/blog/notebook-esquentando-desligando-sozinho /index.html 200
+/blog/celular-sem-sinal-nao-reconhece-chip /index.html 200
+/blog/iphone-cameras-borrada-nao-abre-app /index.html 200
+/blog/samsung-nao-reconhece-cartao-sd-armazenamento /index.html 200
+/blog/notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada /index.html 200
+/blog/celular-tela-touch-nao-responde-partes /index.html 200
+/blog/xiaomi-atualizacao-miui-travou-nao-liga /index.html 200
+/blog/celular-carregamento-sem-fio-nao-funciona-salvador /index.html 200
+/blog/vidro-traseiro-samsung-quebrado-troca-salvador /index.html 200
+/blog/notebook-teclado-nao-funciona-teclas-travando-salvador /index.html 200
+/blog/realme-tela-quebrada-touch-nao-funciona-salvador /index.html 200
+/blog/celular-vibracao-nao-funciona-motor-vibracall-salvador /index.html 200
 /blog/celular-nao-liga /index.html 200
 /blog/celular-nao-carrega /index.html 200
 /blog/celular-descarregando-rapido /index.html 200
@@ -155,22 +170,6 @@
 /blog/dobradicas-* /conserto-de-celular 301
 
 # 3. Redirecionamentos 301 de Rotas Locais (Macro-Regiões)
-/assistencia-tecnica-boca-do-rio /assistencia-tecnica-boca-do-rio-e-orla 301
-/conserto/conserto-de-iphone/em/boca-do-rio /conserto/conserto-de-iphone/na/boca-do-rio-e-orla 301
-/conserto/troca-de-tela/em/boca-do-rio /conserto/troca-de-tela/na/boca-do-rio-e-orla 301
-/conserto/troca-de-bateria/em/boca-do-rio /conserto/troca-de-bateria/na/boca-do-rio-e-orla 301
-/conserto/reparo-de-placa/em/boca-do-rio /conserto/reparo-de-placa/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-xiaomi/em/boca-do-rio /conserto/conserto-de-xiaomi/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-samsung/em/boca-do-rio /conserto/conserto-de-samsung/na/boca-do-rio-e-orla 301
-/conserto/banho-quimico/em/boca-do-rio /conserto/banho-quimico/na/boca-do-rio-e-orla 301
-/assistencia-tecnica-pituba /assistencia-tecnica-boca-do-rio-e-orla 301
-/conserto/conserto-de-iphone/em/pituba /conserto/conserto-de-iphone/na/boca-do-rio-e-orla 301
-/conserto/troca-de-tela/em/pituba /conserto/troca-de-tela/na/boca-do-rio-e-orla 301
-/conserto/troca-de-bateria/em/pituba /conserto/troca-de-bateria/na/boca-do-rio-e-orla 301
-/conserto/reparo-de-placa/em/pituba /conserto/reparo-de-placa/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-xiaomi/em/pituba /conserto/conserto-de-xiaomi/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-samsung/em/pituba /conserto/conserto-de-samsung/na/boca-do-rio-e-orla 301
-/conserto/banho-quimico/em/pituba /conserto/banho-quimico/na/boca-do-rio-e-orla 301
 /assistencia-tecnica-itaigara /assistencia-tecnica-boca-do-rio-e-orla 301
 /conserto/conserto-de-iphone/em/itaigara /conserto/conserto-de-iphone/na/boca-do-rio-e-orla 301
 /conserto/troca-de-tela/em/itaigara /conserto/troca-de-tela/na/boca-do-rio-e-orla 301
@@ -211,14 +210,6 @@
 /conserto/conserto-de-xiaomi/em/patamares /conserto/conserto-de-xiaomi/na/boca-do-rio-e-orla 301
 /conserto/conserto-de-samsung/em/patamares /conserto/conserto-de-samsung/na/boca-do-rio-e-orla 301
 /conserto/banho-quimico/em/patamares /conserto/banho-quimico/na/boca-do-rio-e-orla 301
-/assistencia-tecnica-imbui /assistencia-tecnica-boca-do-rio-e-orla 301
-/conserto/conserto-de-iphone/em/imbui /conserto/conserto-de-iphone/na/boca-do-rio-e-orla 301
-/conserto/troca-de-tela/em/imbui /conserto/troca-de-tela/na/boca-do-rio-e-orla 301
-/conserto/troca-de-bateria/em/imbui /conserto/troca-de-bateria/na/boca-do-rio-e-orla 301
-/conserto/reparo-de-placa/em/imbui /conserto/reparo-de-placa/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-xiaomi/em/imbui /conserto/conserto-de-xiaomi/na/boca-do-rio-e-orla 301
-/conserto/conserto-de-samsung/em/imbui /conserto/conserto-de-samsung/na/boca-do-rio-e-orla 301
-/conserto/banho-quimico/em/imbui /conserto/banho-quimico/na/boca-do-rio-e-orla 301
 /assistencia-tecnica-stiep /assistencia-tecnica-boca-do-rio-e-orla 301
 /conserto/conserto-de-iphone/em/stiep /conserto/conserto-de-iphone/na/boca-do-rio-e-orla 301
 /conserto/troca-de-tela/em/stiep /conserto/troca-de-tela/na/boca-do-rio-e-orla 301
@@ -243,14 +234,6 @@
 /conserto/conserto-de-xiaomi/em/paralela /conserto/conserto-de-xiaomi/na/miolo-e-centro-financeiro 301
 /conserto/conserto-de-samsung/em/paralela /conserto/conserto-de-samsung/na/miolo-e-centro-financeiro 301
 /conserto/banho-quimico/em/paralela /conserto/banho-quimico/na/miolo-e-centro-financeiro 301
-/assistencia-tecnica-brotas /assistencia-tecnica-miolo-e-centro-financeiro 301
-/conserto/conserto-de-iphone/em/brotas /conserto/conserto-de-iphone/na/miolo-e-centro-financeiro 301
-/conserto/troca-de-tela/em/brotas /conserto/troca-de-tela/na/miolo-e-centro-financeiro 301
-/conserto/troca-de-bateria/em/brotas /conserto/troca-de-bateria/na/miolo-e-centro-financeiro 301
-/conserto/reparo-de-placa/em/brotas /conserto/reparo-de-placa/na/miolo-e-centro-financeiro 301
-/conserto/conserto-de-xiaomi/em/brotas /conserto/conserto-de-xiaomi/na/miolo-e-centro-financeiro 301
-/conserto/conserto-de-samsung/em/brotas /conserto/conserto-de-samsung/na/miolo-e-centro-financeiro 301
-/conserto/banho-quimico/em/brotas /conserto/banho-quimico/na/miolo-e-centro-financeiro 301
 /assistencia-tecnica-cabula /assistencia-tecnica-miolo-e-centro-financeiro 301
 /conserto/conserto-de-iphone/em/cabula /conserto/conserto-de-iphone/na/miolo-e-centro-financeiro 301
 /conserto/troca-de-tela/em/cabula /conserto/troca-de-tela/na/miolo-e-centro-financeiro 301
@@ -331,14 +314,7 @@
 /conserto/conserto-de-xiaomi/em/centro /conserto/conserto-de-xiaomi/na/centro-e-sul 301
 /conserto/conserto-de-samsung/em/centro /conserto/conserto-de-samsung/na/centro-e-sul 301
 /conserto/banho-quimico/em/centro /conserto/banho-quimico/na/centro-e-sul 301
-/assistencia-tecnica-naze /assistencia-tecnica-centro-e-sul 301
-/conserto/conserto-de-iphone/em/naze /conserto/conserto-de-iphone/na/centro-e-sul 301
-/conserto/troca-de-tela/em/naze /conserto/troca-de-tela/na/centro-e-sul 301
-/conserto/troca-de-bateria/em/naze /conserto/troca-de-bateria/na/centro-e-sul 301
-/conserto/reparo-de-placa/em/naze /conserto/reparo-de-placa/na/centro-e-sul 301
-/conserto/conserto-de-xiaomi/em/naze /conserto/conserto-de-xiaomi/na/centro-e-sul 301
-/conserto/conserto-de-samsung/em/naze /conserto/conserto-de-samsung/na/centro-e-sul 301
-/conserto/banho-quimico/em/naze /conserto/banho-quimico/na/centro-e-sul 301
+/assistencia-tecnica-nazare /assistencia-tecnica-centro-e-sul 301
 /conserto/conserto-de-iphone/em/nazare /conserto/conserto-de-iphone/na/centro-e-sul 301
 /conserto/troca-de-tela/em/nazare /conserto/troca-de-tela/na/centro-e-sul 301
 /conserto/troca-de-bateria/em/nazare /conserto/troca-de-bateria/na/centro-e-sul 301
@@ -428,4 +404,3 @@
 /conserto/banho-quimico/em/vilas-do-atlantico /conserto/banho-quimico/na/regiao-metropolitana 301
 
 # 4. SPA Fallback (Catch-all para o React Router)
-/* /index.html 200

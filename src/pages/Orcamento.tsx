@@ -100,7 +100,7 @@ const Orcamento = () => {
             {[
               { step: "1", title: "Envie uma mensagem", desc: "Clique no botão do WhatsApp e descreva o problema do seu aparelho (pode mandar foto ou vídeo)." },
               { step: "2", title: "Receba o orçamento", desc: "Em minutos, nosso técnico analisa e envia o valor exato do serviço com prazo de entrega." },
-              { step: "3", title: "Aprove e traga o aparelho", desc: "Se concordar, traga seu celular na nossa oficina na Boca do Rio. Sem surpresas no final." },
+              { step: "3", title: "Aprove e traga o aparelho", desc: "Se concordar, traga seu celular na nossa Assistência técnica na Boca do Rio. Sem surpresas no final." },
             ].map((item) => (
               <div key={item.step} className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg shrink-0">

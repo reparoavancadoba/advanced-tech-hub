@@ -95,7 +95,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Por que outras oficinas condenam o placa e vocês conseguem recuperar?",
-        answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de avaliação térmico, soldagem BGA e profissionals formados em microeletrônica de precisão."
+        answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de avaliação térmico, soldagem BGA e profissionais formados em microeletrônica de precisão."
       },
       {
         question: "Quanto custa um conserto de placa?",

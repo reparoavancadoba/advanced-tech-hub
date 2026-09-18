@@ -2,8 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
 Disallow: /private/
 
 Sitemap: https://site.reparoavancado.com.br/sitemap.xml

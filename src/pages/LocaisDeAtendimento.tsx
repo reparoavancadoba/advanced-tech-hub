@@ -40,7 +40,7 @@ const LocaisDeAtendimento = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-4">
                     <MapPin className="w-5 h-5 text-primary" />
-                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("oficina de conserto de celular na ", "").replace("oficina de conserto de celular em ", "")}</h2>
+                    <h2 className="text-xl font-bold text-foreground">{local.h1.replace("assistência técnica de celular na ", "").replace("assistência técnica de celular em ", "")}</h2>
                   </div>
                   <p className="text-sm text-muted-foreground mb-6">
                     {local.description}

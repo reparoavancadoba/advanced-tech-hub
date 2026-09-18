@@ -151,7 +151,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       <section className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-center mb-4 text-foreground">Serviços Disponíveis para {local.name}</h2>
-          <p className="text-muted-foreground text-center mb-12">Consertos rápidos realizados por profissionals focados com peças premium e garantia por escrito.</p>
+          <p className="text-muted-foreground text-center mb-12">Consertos rápidos realizados por profissionais focados com peças premium e garantia por escrito.</p>
           
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {Object.values(servicosConsolidados).map((serv) => (
@@ -217,7 +217,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             <div>
               <h2 className="text-3xl font-bold mb-6 text-foreground">Como Chegar e Contato</h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Nosso laboratório principal fica localizado próximo a você na Boca do Rio. Oferecemos atendimento completo com profissionals e equipamentos qualificados.
+                Nosso laboratório principal fica localizado próximo a você na Boca do Rio. Oferecemos atendimento completo com profissionais e equipamentos qualificados.
               </p>
               
               <ul className="space-y-4 mb-8 text-muted-foreground">

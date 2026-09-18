@@ -200,7 +200,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     faq: [
       { question: "A tela nova vai ter True Tone funcionando?", answer: "Sim! Realizamos a reprogramação do CI da tela para manter o True Tone, brilho automático e todas as funções de toque funcionando perfeitamente." },
       { question: "Qual a diferença entre tela original e tela de alta performance?", answer: `Nossas telas são ${PECAS}. Possuem a mesma qualidade de cores, resolução e sensibilidade ao toque, com garantia de 3 meses.` },
-      { question: "A troca de tela pode danificar o Face ID?", answer: "Na Reparo Avançado, jamais. Nossos profissionals são treinados para preservar 100% do módulo TrueDepth durante a troca. Em oficinas não focadas, esse risco é real." }
+      { question: "A troca de tela pode danificar o Face ID?", answer: "Na Reparo Avançado, jamais. Nossos profissionais são treinados para preservar 100% do módulo TrueDepth durante a troca. Em oficinas não focadas, esse risco é real." }
     ],
     sections: [
       {
@@ -639,13 +639,13 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     slug: "loja-realme-poco-salvador-pecas",
     title: "Assistência Especializada Realme e Poco",
     h1: "assistência técnica Realme e Poco em Salvador: Onde Encontrar Peças de Qualidade",
-    metaDescription: "assistência técnica focada em Realme e Poco em Salvador. Peças de alta performance e profissionals qualificados. Boca do Rio. Orçamento gratuito!",
+    metaDescription: "assistência técnica focada em Realme e Poco em Salvador. Peças de alta performance e profissionais qualificados. Boca do Rio. Orçamento gratuito!",
     category: "realme" as Category,
     brand: "Realme/Poco",
     model: "Realme/Poco",
     service: "oficina Realme e Poco",
     serviceSlug: "loja-realme-poco-editorial",
-    description: "A Reparo Avançado é referência em assistência técnica Realme e Poco em Salvador, com peças de qualidade e profissionals focados.",
+    description: "A Reparo Avançado é referência em assistência técnica Realme e Poco em Salvador, com peças de qualidade e profissionais focados.",
     isEditorial: true,
     keywords: ["oficina realme salvador", "oficina poco salvador", "pecas realme", "pecas poco", "conserto realme boca do rio"],
     problems: [
@@ -657,9 +657,9 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     causes: [
       "Realme e Poco são marcas relativamente novas no Brasil",
       "Rede autorizada ainda limitada em Salvador",
-      "Falta de profissionals com experiência nessas marcas"
+      "Falta de profissionais com experiência nessas marcas"
     ],
-    solution: `A Reparo Avançado investe em capacitação constante para atender todas as marcas, incluindo Realme e Poco. Mantemos estoque de ${PECAS} para os modelos mais populares dessas marcas. Nossos profissionals conhecem as particularidades de componentes físicos de cada linha e realizam conserto com a mesma qualidade que oferecemos para iPhone e Samsung. ${LOCAL_SEO}`,
+    solution: `A Reparo Avançado investe em capacitação constante para atender todas as marcas, incluindo Realme e Poco. Mantemos estoque de ${PECAS} para os modelos mais populares dessas marcas. Nossos profissionais conhecem as particularidades de componentes físicos de cada linha e realizam conserto com a mesma qualidade que oferecemos para iPhone e Samsung. ${LOCAL_SEO}`,
     whenToSeek: "Para qualquer problema com seu Realme ou Poco. Somos uma das poucas oficinas em Salvador com peças e experiência real nessas marcas.",
     costInfo: `Preços justos e competitivos. Trabalhamos com ${PECAS} para todas as linhas Realme e Poco. ${CTA_TEXT}.`,
     faq: [
@@ -1139,14 +1139,14 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
   {
     slug: "reparo-avancado-melhor-avaliacao-boca-do-rio",
     title: "A Melhor Assistência da Boca do Rio",
-    h1: "Por Que a Reparo Avançado é a Melhor Avaliação da Boca do Rio? Nossos Processos profissionals",
-    metaDescription: "5 estrelas no Google com 31+ avaliações! Conheça os processos profissionals que fazem da Reparo Avançado a melhor oficina da Boca do Rio, Salvador.",
+    h1: "Por Que a Reparo Avançado é a Melhor Avaliação da Boca do Rio? Nossos Processos profissionais",
+    metaDescription: "5 estrelas no Google com 31+ avaliações! Conheça os processos profissionais que fazem da Reparo Avançado a melhor oficina da Boca do Rio, Salvador.",
     category: "iphone" as Category,
     brand: "Reparo Avançado",
     model: "Institucional",
     service: "Nossos Processos",
     serviceSlug: "nossos-processos-editorial",
-    description: "Conheça os processos profissionals e a filosofia que tornam a Reparo Avançado a oficina mais bem avaliada da Boca do Rio, Salvador.",
+    description: "Conheça os processos profissionais e a filosofia que tornam a Reparo Avançado a oficina mais bem avaliada da Boca do Rio, Salvador.",
     isEditorial: true,
     keywords: ["Reparo Avançado salvador", "melhor assistência técnica boca do rio", "oficina celular 5 estrelas salvador", "conserto celular qualidade salvador"],
     problems: [
@@ -1160,7 +1160,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
       "Falta de transparência é comum no segmento",
       "Uso de peças de baixa qualidade sem informar o cliente"
     ],
-    solution: `O que nos diferencia: 1) avaliação gratuita E TRANSPARENTE, você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE, ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL, microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE, nossos profissionals se atualizam com cada novo modelo lançado. 6) HONESTIDADE, se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
+    solution: `O que nos diferencia: 1) avaliação gratuita E TRANSPARENTE, você sabe exatamente o que tem e quanto custa antes de aprovar. 2) PEÇAS DE ALTA PERFORMANCE, ${PECAS}, jamais componentes genéricos de baixa qualidade. 3) GARANTIA EM TODOS OS SERVIÇOS. 4) EQUIPAMENTO PROFISSIONAL, microscópio, estação BGA, câmera térmica, banho ultrassônico. 5) ATUALIZAÇÃO CONSTANTE, nossos profissionais se atualizam com cada novo modelo lançado. 6) HONESTIDADE, se não vale a pena consertar, dizemos isso. ${LOCAL_SEO}`,
     whenToSeek: "Para qualquer problema com seu celular ou notebook. Primeira consulta sempre gratuita.",
     costInfo: `avaliação gratuita. Orçamento transparente. Garantia em todos os serviços. ${CTA_TEXT}.`,
     faq: [
@@ -1317,7 +1317,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     causes: [
       "Queda do iPhone que afeta os sensores frontais",
       "Contato com água ou umidade que causa oxidação",
-      "Troca de tela mal executada por profissionals não focados",
+      "Troca de tela mal executada por profissionais não focados",
       "Danos no conjunto TrueDepth ou conexões internas",
       "Defeito em circuitos específicos na placa"
     ],
