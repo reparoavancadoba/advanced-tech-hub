@@ -10,7 +10,7 @@ export const businessInfo = {
   whatsapp: "5571991981437",
   hoursDisplay: "Seg a Sex 8h–18h · Sáb 8h–17h · Dom fechado",
   url: "https://site.reparoavancado.com.br/",
-  experience: "mais de 7 anos",
+  experience: "desde 2018",
   warranty: "90 dias (3 meses)",
   geo: {
     latitude: -12.9777,

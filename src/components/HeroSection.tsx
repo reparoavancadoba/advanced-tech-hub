@@ -34,7 +34,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed">
-          Mais de 7 anos cuidando do que é importante pra você. Boca do Rio, <span className="text-[#3b82f6] font-semibold">Salvador - BA.</span>
+          Desde 2018 cuidando do que é importante pra você. Boca do Rio, <span className="text-[#3b82f6] font-semibold">Salvador - BA.</span>
         </p>
 
         <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center">
@@ -59,7 +59,7 @@ const HeroSection = () => {
         <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 w-full max-w-2xl">
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <Star className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-            <span className="font-bold text-xs sm:text-sm text-white leading-tight">+7 anos</span>
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">Desde 2018</span>
             <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">de experiência</span>
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">

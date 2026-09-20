@@ -1,7 +1,7 @@
 import { Shield, Award, Users, BadgeCheck } from "lucide-react";
 
 const badges = [
-  { icon: Award, label: "7 anos de Mercado" },
+  { icon: Award, label: "Desde 2018" },
   { icon: Shield, label: "Peças Premium" },
   { icon: Users, label: "profissionais qualificados" },
   { icon: BadgeCheck, label: "Garantia em todos os serviços" },

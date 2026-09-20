@@ -9,7 +9,7 @@ const NewAboutUs = () => (
       <div className="flex-1 space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-zinc-900">Quem somos</h2>
         <p className="text-sm md:text-base text-zinc-600 leading-relaxed">
-          Há mais de 7 anos cuidando do que é importante pra você na Boca do Rio e região.
+          Desde 2018 cuidando do que é importante pra você na Boca do Rio e região.
         </p>
         <p className="text-sm md:text-base text-zinc-600 leading-relaxed">
           Nossa missão é oferecer um serviço de assistência técnica pautado na honestidade, transparência e alta capacidade técnica. Sabemos o quanto seu celular ou notebook faz falta no dia a dia, por isso focamos em resolver rápido sem perder a qualidade.
