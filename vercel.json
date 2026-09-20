@@ -116,6 +116,16 @@
       "permanent": true
     },
     {
+      "source": "/blog/troca-de-vidro-apple-watch-salvador",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bateria-apple-watch-inchada-tela-descolando",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
       "source": "/blog/celular-nao-carrega-causas",
       "destination": "/blog/celular-motorola-nao-carrega",
       "permanent": true
@@ -183,16 +193,6 @@
     {
       "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
       "destination": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
-      "permanent": true
-    },
-    {
-      "source": "/blog/troca-de-vidro-apple-watch-salvador",
-      "destination": "/conserto-de-celular",
-      "permanent": true
-    },
-    {
-      "source": "/blog/bateria-apple-watch-inchada-tela-descolando",
-      "destination": "/conserto-de-celular",
       "permanent": true
     }
   ],
