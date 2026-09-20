@@ -186,13 +186,13 @@
       "permanent": true
     },
     {
-      "source": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
-      "destination": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
+      "source": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
+      "destination": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
       "permanent": true
     },
     {
       "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
-      "destination": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
+      "destination": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
       "permanent": true
     }
   ],
