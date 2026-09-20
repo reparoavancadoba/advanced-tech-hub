@@ -222,7 +222,7 @@ generatePage('/localizacao', 'Nossa Localização | Reparo Avançado', 'Veja com
 // ═══════════════════════════════════════════
 // 1. BLOG INDEX WITH PAGINATION (Section 3)
 // ═══════════════════════════════════════════
-const POSTS_PER_PAGE = 20;
+const POSTS_PER_PAGE = 24;
 const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
 
 for (let page = 1; page <= totalPages; page++) {

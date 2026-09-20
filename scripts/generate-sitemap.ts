@@ -43,7 +43,7 @@ staticPages.forEach((p) => {
 
 
 // 1.5 Blog pagination pages
-const POSTS_PER_PAGE = 20;
+const POSTS_PER_PAGE = 24;
 const totalBlogPages = Math.ceil(allPosts.filter(p => !["celular-nao-carrega-causas","celular-nao-carrega-causas-solucoes","celular-nao-carrega-salvador","motorola-nao-carrega-avaliacao-salvador","higienizacao-conector-cabo-carregar-salvador","celular-caiu-na-agua-o-que-fazer","celular-caiu-na-agua-desoxidacao-salvador","celular-molhou-chuva-praia-salvador-socorro","celular-caiu-no-mar-vale-a-pena-consertar","troca-de-bateria-celular-salvador","celular-descarregando-rapido","celular-esquentando-descarregando-rapido-bateria","troca-vidro-ou-tela-completa-celular-diferenca","troca-vidro-vs-tela-completa-economia-salvador"].includes(p.slug)).length / POSTS_PER_PAGE);
 for (let page = 2; page <= totalBlogPages; page++) {
   urls.push(`  <url>
