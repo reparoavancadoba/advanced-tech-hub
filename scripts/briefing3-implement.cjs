@@ -1,4 +1,53 @@
-import fs from 'fs';
+// BRIEFING 3 — Complete implementation script
+// This script rewrites prerender.ts to add:
+// 1. /blog pagination index pages
+// 2. Service page links in every article
+// 3. Topic cluster cross-links ("Leia também")
+// 4. CTA blocks (mid + end)
+// 5. BreadcrumbList schema
+// 6. Visible dates
+// 7. Local page links where Salvador/bairro mentioned
+// 8. Fix H1 /reparo-em-placa
+// 9. Fix description /assistencia-tecnica-caminho-das-arvores
+// 10. Author page stub
+
+const fs = require('fs');
+const path = require('path');
+
+// ============================================================
+// STEP 0: Fix Section 8 pendencies in source data
+// ============================================================
+
+// Fix H1 of reparo-em-placa
+let servicosData = fs.readFileSync('src/data/servicosConsolidadosData.ts', 'utf8');
+servicosData = servicosData.replace(
+    'h1: "conserto de placa de Celular em Salvador"',
+    'h1: "Reparo de Placa de Celular em Salvador"'
+);
+servicosData = servicosData.replace(
+    'title: "conserto de placa de Celular em Salvador | Microeletrônica Avançada"',
+    'title: "Reparo de Placa de Celular em Salvador | Microeletrônica Avançada"'
+);
+// Also fix remaining "avaliação gratuita" if any
+servicosData = servicosData.replace(/avaliação gratuit[ao]/gi, 'diagnóstico gratuito');
+servicosData = servicosData.replace(/avaliação grátis/gi, 'diagnóstico grátis');
+fs.writeFileSync('src/data/servicosConsolidadosData.ts', servicosData);
+
+// Fix description of caminho-das-arvores (161 -> <=160)
+let locaisData = fs.readFileSync('src/data/locaisConsolidadosData.ts', 'utf8');
+locaisData = locaisData.replace(
+    'Assistência técnica especializada em iPhone e Samsung para clientes do Caminho das Árvores e Itaigara. Diagnóstico preciso e reparo com peças de altíssima linha.',
+    'Assistência técnica de celular no Caminho das Árvores e Itaigara. Diagnóstico preciso e reparo com peças de alta qualidade.'
+);
+fs.writeFileSync('src/data/locaisConsolidadosData.ts', locaisData);
+
+console.log('✅ Step 0: Section 8 pendencies fixed in source data');
+
+// ============================================================
+// STEP 1: Rewrite prerender.ts completely
+// ============================================================
+
+const prerenderContent = `import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { allPosts, BAIRROS, BUSINESS_ADDRESS } from '../src/data/blogData';
@@ -23,43 +72,43 @@ const DOMAIN = 'https://site.reparoavancado.com.br';
 const WA_NUMBER = businessInfo.whatsapp;
 
 function generatePage(urlPath: string, title: string, description: string, h1: string, contentHtml: string, schemaObj: any = null) {
-  const fullUrl = `${DOMAIN}${urlPath}`;
+  const fullUrl = \`\${DOMAIN}\${urlPath}\`;
   
   let html = template;
   
-  html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
-  html = html.replace(/<meta name="description" content=".*?"\s*\/?>/,  `<meta name="description" content="${description}">`);
-  html = html.replace(/<link rel="canonical" href=".*?"\s*\/?>/,  `<link rel="canonical" href="${fullUrl}" />`);
-  html = html.replace(/<meta property="og:title" content=".*?"\s*\/?>/,  `<meta property="og:title" content="${title}">`);
-  html = html.replace(/<meta property="og:description" content=".*?"\s*\/?>/,  `<meta property="og:description" content="${description}">`);
-  html = html.replace(/<meta name="twitter:title" content=".*?"\s*\/?>/,  `<meta name="twitter:title" content="${title}">`);
-  html = html.replace(/<meta name="twitter:description" content=".*?"\s*\/?>/,  `<meta name="twitter:description" content="${description}">`);
+  html = html.replace(/<title>.*?<\\/title>/, \`<title>\${title}</title>\`);
+  html = html.replace(/<meta name="description" content=".*?"\\s*\\/?>/,  \`<meta name="description" content="\${description}">\`);
+  html = html.replace(/<link rel="canonical" href=".*?"\\s*\\/?>/,  \`<link rel="canonical" href="\${fullUrl}" />\`);
+  html = html.replace(/<meta property="og:title" content=".*?"\\s*\\/?>/,  \`<meta property="og:title" content="\${title}">\`);
+  html = html.replace(/<meta property="og:description" content=".*?"\\s*\\/?>/,  \`<meta property="og:description" content="\${description}">\`);
+  html = html.replace(/<meta name="twitter:title" content=".*?"\\s*\\/?>/,  \`<meta name="twitter:title" content="\${title}">\`);
+  html = html.replace(/<meta name="twitter:description" content=".*?"\\s*\\/?>/,  \`<meta name="twitter:description" content="\${description}">\`);
 
   let schemaScript = '';
   if (schemaObj) {
-      schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
+      schemaScript = \`\\n    <script type="application/ld+json">\\n    \${JSON.stringify(schemaObj)}\\n    </script>\\n\`;
   }
 
-  const seoContent = `
+  const seoContent = \`
     <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" data-seo-prerender="true">
       <header>
-        <h1>${h1}</h1>
+        <h1>\${h1}</h1>
       </header>
       <main>
-        ${contentHtml}
+        \${contentHtml}
       </main>
       <footer>
-        <p>${businessInfo.name} - ${businessInfo.streetAddress}, ${businessInfo.addressLocality}, ${businessInfo.city} - ${businessInfo.state}. CEP: ${businessInfo.postalCode}. Telefone: ${businessInfo.telephone}</p>
-        <a href="https://wa.me/${WA_NUMBER}">Fale com um Técnico no WhatsApp</a>
+        <p>\${businessInfo.name} - \${businessInfo.streetAddress}, \${businessInfo.addressLocality}, \${businessInfo.city} - \${businessInfo.state}. CEP: \${businessInfo.postalCode}. Telefone: \${businessInfo.telephone}</p>
+        <a href="https://wa.me/\${WA_NUMBER}">Fale com um Técnico no WhatsApp</a>
       </footer>
     </div>
-  `;
+  \`;
 
   if (schemaScript) {
-      html = html.replace('</head>', `${schemaScript}</head>`);
+      html = html.replace('</head>', \`\${schemaScript}</head>\`);
   }
 
-  html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
+  html = html.replace('<div id="root"></div>', \`<div id="root">\${seoContent}</div>\`);
 
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
@@ -67,14 +116,14 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   }
   
   fs.writeFileSync(path.join(outDir, 'index.html'), html);
-  console.log(`Gerado SSG: ${urlPath}`);
+  console.log(\`Gerado SSG: \${urlPath}\`);
 }
 
 const baseLocalBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": businessInfo.name,
-    "image": `${DOMAIN}/favicon.png`,
+    "image": \`\${DOMAIN}/favicon.png\`,
     "telephone": businessInfo.telephone,
     "url": businessInfo.url,
     "priceRange": "$$",
@@ -95,7 +144,7 @@ const baseLocalBusinessSchema = {
     "sameAs": businessInfo.socials,
     "areaServed": businessInfo.areaServed.map((area: string) => ({
       "@type": "Place",
-      "name": `${area}, ${businessInfo.city} - ${businessInfo.state}`
+      "name": \`\${area}, \${businessInfo.city} - \${businessInfo.state}\`
     }))
 };
 
@@ -108,12 +157,12 @@ function getServicePageForPost(post: any): string {
   const h1 = (post.h1 || '').toLowerCase();
   const combined = slug + ' ' + title + ' ' + service + ' ' + h1;
 
-  if (combined.match(/\b(agua|água|umidade|maresia|oxidação|oxidacao|molhou|banho|desoxida|caiu.*(agua|água|mar|piscina|vaso|chuva)|arroz)/)) return '/celular-caiu-na-agua';
-  if (combined.match(/\b(tela|display|touch|amoled|oled|incell|vidro|mancha|verde|branca|preta|linhas|fantasma|clicando.sozinho|lcd|trinca)/)) return '/troca-de-tela';
-  if (combined.match(/\b(bateria|descarreg|saúde|saude|incha|carrega.*rapido|esquenta|aquece|superaquec)/)) return '/troca-de-bateria';
-  if (combined.match(/\b(conector|carga|usb|carrega|não.carrega|nao.carrega|carreg)/)) return '/celular-nao-carrega';
-  if (combined.match(/\b(placa|micro.sold|reballing|curto|ci |face.id|biometria|loop|não.liga|nao.liga|apagou|maca|reiniciando|wifi|bluetooth|sinal|chip.*cinza)/)) return '/reparo-em-placa';
-  if (combined.match(/\b(não.liga|nao.liga|morto|apagou|desligou|power)/)) return '/celular-nao-liga';
+  if (combined.match(/\\b(agua|água|umidade|maresia|oxidação|oxidacao|molhou|banho|desoxida|caiu.*(agua|água|mar|piscina|vaso|chuva)|arroz)/)) return '/celular-caiu-na-agua';
+  if (combined.match(/\\b(tela|display|touch|amoled|oled|incell|vidro|mancha|verde|branca|preta|linhas|fantasma|clicando.sozinho|lcd|trinca)/)) return '/troca-de-tela';
+  if (combined.match(/\\b(bateria|descarreg|saúde|saude|incha|carrega.*rapido|esquenta|aquece|superaquec)/)) return '/troca-de-bateria';
+  if (combined.match(/\\b(conector|carga|usb|carrega|não.carrega|nao.carrega|carreg)/)) return '/celular-nao-carrega';
+  if (combined.match(/\\b(placa|micro.sold|reballing|curto|ci |face.id|biometria|loop|não.liga|nao.liga|apagou|maca|reiniciando|wifi|bluetooth|sinal|chip.*cinza)/)) return '/reparo-em-placa';
+  if (combined.match(/\\b(não.liga|nao.liga|morto|apagou|desligou|power)/)) return '/celular-nao-liga';
   return '/conserto-de-celular';
 }
 
@@ -180,7 +229,7 @@ function formatDateBR(isoDate: string): string {
   try {
     const d = new Date(isoDate);
     const months = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
-    return `${d.getDate()} de ${months[d.getMonth()]} de ${d.getFullYear()}`;
+    return \`\${d.getDate()} de \${months[d.getMonth()]} de \${d.getFullYear()}\`;
   } catch(e) { return isoDate; }
 }
 
@@ -227,29 +276,29 @@ for (let page = 1; page <= totalPages; page++) {
   pagePosts.forEach(post => {
     const dateStr = post.datePublished ? formatDateBR(post.datePublished) : '';
     const desc = (post.metaDescription || post.description || '').substring(0, 120);
-    contentHtml += `<li><a href="/blog/${post.slug}">${post.title}</a>`;
-    if (dateStr) contentHtml += ` — <time>${dateStr}</time>`;
-    contentHtml += `<br/><span>${desc}</span></li>`;
+    contentHtml += \`<li><a href="/blog/\${post.slug}">\${post.title}</a>\`;
+    if (dateStr) contentHtml += \` — <time>\${dateStr}</time>\`;
+    contentHtml += \`<br/><span>\${desc}</span></li>\`;
   });
   contentHtml += '</ul>';
   
   // Pagination nav
   contentHtml += '<nav aria-label="Paginação">';
   if (page > 1) {
-    const prevUrl = page === 2 ? '/blog' : `/blog/pagina/${page - 1}`;
-    contentHtml += `<a href="${prevUrl}">← Página anterior</a> `;
+    const prevUrl = page === 2 ? '/blog' : \`/blog/pagina/\${page - 1}\`;
+    contentHtml += \`<a href="\${prevUrl}">← Página anterior</a> \`;
   }
-  contentHtml += `Página ${page} de ${totalPages} `;
+  contentHtml += \`Página \${page} de \${totalPages} \`;
   if (page < totalPages) {
-    contentHtml += `<a href="/blog/pagina/${page + 1}">Próxima página →</a>`;
+    contentHtml += \`<a href="/blog/pagina/\${page + 1}">Próxima página →</a>\`;
   }
   contentHtml += '</nav>';
   
-  const urlPath = page === 1 ? '/blog' : `/blog/pagina/${page}`;
-  const title = page === 1 ? 'Blog da Reparo Avançado | Dicas de Conserto de Celular' : `Blog da Reparo Avançado — Página ${page}`;
+  const urlPath = page === 1 ? '/blog' : \`/blog/pagina/\${page}\`;
+  const title = page === 1 ? 'Blog da Reparo Avançado | Dicas de Conserto de Celular' : \`Blog da Reparo Avançado — Página \${page}\`;
   const desc = page === 1 
     ? 'Dicas, guias e tutoriais sobre conserto de celulares, troca de tela e reparo de placas em Salvador. Artigos atualizados pela equipe da Reparo Avançado.'
-    : `Página ${page} do blog da Reparo Avançado. Continue lendo artigos sobre conserto de celulares em Salvador.`;
+    : \`Página \${page} do blog da Reparo Avançado. Continue lendo artigos sobre conserto de celulares em Salvador.\`;
   
   generatePage(urlPath, title, desc, 'Blog da Reparo Avançado', contentHtml, baseLocalBusinessSchema);
 }
@@ -258,7 +307,7 @@ for (let page = 1; page <= totalPages; page++) {
 // 2. BLOG ARTICLES (Sections 4, 5, 7)
 // ═══════════════════════════════════════════
 allPosts.forEach(post => {
-  const urlPath = `/blog/${post.slug}`;
+  const urlPath = \`/blog/\${post.slug}\`;
   const title = post.title;
   const description = post.metaDescription || post.description;
   const h1 = post.h1;
@@ -280,90 +329,90 @@ allPosts.forEach(post => {
   let contentHtml = '';
   
   // Breadcrumb (visible)
-  contentHtml += `<nav aria-label="Breadcrumb"><a href="/">Início</a> › <a href="/blog">Blog</a> › ${title}</nav>`;
+  contentHtml += \`<nav aria-label="Breadcrumb"><a href="/">Início</a> › <a href="/blog">Blog</a> › \${title}</nav>\`;
   
   // Visible dates
-  contentHtml += `<p><time datetime="${datePublished}">Publicado em ${formatDateBR(datePublished)}</time>`;
+  contentHtml += \`<p><time datetime="\${datePublished}">Publicado em \${formatDateBR(datePublished)}</time>\`;
   if (dateModified !== datePublished) {
-    contentHtml += ` · <time datetime="${dateModified}">Atualizado em ${formatDateBR(dateModified)}</time>`;
+    contentHtml += \` · <time datetime="\${dateModified}">Atualizado em \${formatDateBR(dateModified)}</time>\`;
   }
   contentHtml += '</p>';
   
   // Main content
-  contentHtml += `<p><strong>Resumo:</strong> ${description}</p>`;
-  if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;
-  contentHtml += `<h2>O Problema: ${post.service} ${post.model}</h2>`;
-  if (post.problems && post.problems.length) contentHtml += `<ul>${post.problems.map((p: string) => `<li>${p}</li>`).join('')}</ul>`;
-  contentHtml += `<h2>Causas Comuns</h2>`;
-  if (post.causes && post.causes.length) contentHtml += `<ul>${post.causes.map((c: string) => `<li>${c}</li>`).join('')}</ul>`;
+  contentHtml += \`<p><strong>Resumo:</strong> \${description}</p>\`;
+  if (post.tldr) contentHtml += \`<h2>Direto ao Ponto (Resumo Rápido)</h2><p>\${post.tldr}</p>\`;
+  contentHtml += \`<h2>O Problema: \${post.service} \${post.model}</h2>\`;
+  if (post.problems && post.problems.length) contentHtml += \`<ul>\${post.problems.map((p: string) => \`<li>\${p}</li>\`).join('')}</ul>\`;
+  contentHtml += \`<h2>Causas Comuns</h2>\`;
+  if (post.causes && post.causes.length) contentHtml += \`<ul>\${post.causes.map((c: string) => \`<li>\${c}</li>\`).join('')}</ul>\`;
   
   // Sections (first half)
   const sections = post.sections || [];
   const midPoint = Math.ceil(sections.length / 2);
   
   sections.slice(0, midPoint).forEach((section: any) => {
-    contentHtml += `<h2>${section.title}</h2><p>${section.content}</p>`;
+    contentHtml += \`<h2>\${section.title}</h2><p>\${section.content}</p>\`;
     if (section.subsections) {
       section.subsections.forEach((sub: any) => {
-        contentHtml += `<h3>${sub.title}</h3><p>${sub.content}</p>`;
+        contentHtml += \`<h3>\${sub.title}</h3><p>\${sub.content}</p>\`;
       });
     }
   });
   
   // ── MID-ARTICLE CTA (Section 5) ──
-  const waMsg = encodeURIComponent(`Olá! Vi o artigo "${post.title}" e preciso de ajuda com ${post.service}.`);
-  contentHtml += `<aside style="border-left:3px solid #007bff;padding:12px;margin:20px 0;">
-    <p>Precisa de <strong>${servicePageName}</strong>? A Reparo Avançado resolve com garantia de ${businessInfo.warranty}.</p>
-    <a href="https://wa.me/${WA_NUMBER}?text=${waMsg}">Fale pelo WhatsApp</a>
-  </aside>`;
+  const waMsg = encodeURIComponent(\`Olá! Vi o artigo "\${post.title}" e preciso de ajuda com \${post.service}.\`);
+  contentHtml += \`<aside style="border-left:3px solid #007bff;padding:12px;margin:20px 0;">
+    <p>Precisa de <strong>\${servicePageName}</strong>? A Reparo Avançado resolve com garantia de \${businessInfo.warranty}.</p>
+    <a href="https://wa.me/\${WA_NUMBER}?text=\${waMsg}">Fale pelo WhatsApp</a>
+  </aside>\`;
   
   // Sections (second half)
   sections.slice(midPoint).forEach((section: any) => {
-    contentHtml += `<h2>${section.title}</h2><p>${section.content}</p>`;
+    contentHtml += \`<h2>\${section.title}</h2><p>\${section.content}</p>\`;
     if (section.subsections) {
       section.subsections.forEach((sub: any) => {
-        contentHtml += `<h3>${sub.title}</h3><p>${sub.content}</p>`;
+        contentHtml += \`<h3>\${sub.title}</h3><p>\${sub.content}</p>\`;
       });
     }
   });
   
-  if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2><p>${post.solution}</p>`;
-  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2><p>${post.whenToSeek}</p>`;
-  if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2><p>${post.costInfo}</p>`;
+  if (post.solution) contentHtml += \`<h2>Solução Técnica da Reparo Avançado</h2><p>\${post.solution}</p>\`;
+  if (post.whenToSeek) contentHtml += \`<h2>Quando Procurar a Reparo Avançado</h2><p>\${post.whenToSeek}</p>\`;
+  if (post.costInfo) contentHtml += \`<h2>Quanto Custa \${post.service} \${post.model}?</h2><p>\${post.costInfo}</p>\`;
 
   // FAQ
   if (post.faq && post.faq.length) {
     contentHtml += '<h2>Perguntas Frequentes</h2>';
-    contentHtml += post.faq.map((f: any) => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
+    contentHtml += post.faq.map((f: any) => \`<h3>\${f.question}</h3><p>\${f.answer}</p>\`).join('');
   }
   
   // Bairros
-  contentHtml += `<h2>Atendimento em Salvador - Boca do Rio</h2><p>A Reparo Avançado está localizada na ${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>${BAIRROS.join(', ')}</p>`;
+  contentHtml += \`<h2>Atendimento em Salvador - Boca do Rio</h2><p>A Reparo Avançado está localizada na \${BUSINESS_ADDRESS}. Atendemos clientes de toda Salvador, com destaque para os bairros:</p><p>\${BAIRROS.join(', ')}</p>\`;
   
   // ── LINK TO SERVICE PAGE (Section 4.1) ──
-  contentHtml += `<p>Saiba mais sobre nosso serviço de <a href="${servicePage}">${servicePageName}</a> em Salvador.</p>`;
+  contentHtml += \`<p>Saiba mais sobre nosso serviço de <a href="\${servicePage}">\${servicePageName}</a> em Salvador.</p>\`;
   
   // ── LINK TO LOCAL PAGE (Section 4.3) ──
   if (localLink) {
-    contentHtml += `<p>Atendemos na região: <a href="${localLink.path}">Assistência Técnica em ${localLink.name}</a>.</p>`;
+    contentHtml += \`<p>Atendemos na região: <a href="\${localLink.path}">Assistência Técnica em \${localLink.name}</a>.</p>\`;
   }
   
   // ── "LEIA TAMBÉM" (Section 4.2) ──
   if (relatedPosts.length > 0) {
     contentHtml += '<h2>Leia Também</h2><ul>';
     relatedPosts.forEach(rp => {
-      contentHtml += `<li><a href="/blog/${rp.slug}">${rp.title}</a></li>`;
+      contentHtml += \`<li><a href="/blog/\${rp.slug}">\${rp.title}</a></li>\`;
     });
     contentHtml += '</ul>';
   }
   
   // ── END-OF-ARTICLE CTA (Section 5) ──
-  contentHtml += `<aside style="border:2px solid #007bff;padding:16px;margin:24px 0;border-radius:8px;">
-    <p><strong>${servicePageName} na Reparo Avançado</strong></p>
-    <p>Garantia de ${businessInfo.warranty}. Loja na Boca do Rio, Salvador.</p>
-    <a href="https://wa.me/${WA_NUMBER}?text=${waMsg}">Fale pelo WhatsApp</a> · 
-    <a href="${servicePage}">Ver serviço de ${servicePageName}</a>
-  </aside>`;
+  contentHtml += \`<aside style="border:2px solid #007bff;padding:16px;margin:24px 0;border-radius:8px;">
+    <p><strong>\${servicePageName} na Reparo Avançado</strong></p>
+    <p>Garantia de \${businessInfo.warranty}. Loja na Boca do Rio, Salvador.</p>
+    <a href="https://wa.me/\${WA_NUMBER}?text=\${waMsg}">Fale pelo WhatsApp</a> · 
+    <a href="\${servicePage}">Ver serviço de \${servicePageName}</a>
+  </aside>\`;
 
   // Schema
   const blogSchema = {
@@ -376,15 +425,15 @@ allPosts.forEach(post => {
         "datePublished": datePublished,
         "dateModified": dateModified,
         "author": { "@type": "Organization", "name": businessInfo.name, "url": businessInfo.url },
-        "publisher": { "@type": "Organization", "name": businessInfo.name, "logo": { "@type": "ImageObject", "url": `${DOMAIN}/favicon.png` } },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": `${DOMAIN}${urlPath}` }
+        "publisher": { "@type": "Organization", "name": businessInfo.name, "logo": { "@type": "ImageObject", "url": \`\${DOMAIN}/favicon.png\` } },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": \`\${DOMAIN}\${urlPath}\` }
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": `${DOMAIN}/` },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${DOMAIN}/blog` },
-          { "@type": "ListItem", "position": 3, "name": title, "item": `${DOMAIN}${urlPath}` }
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": \`\${DOMAIN}/\` },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": \`\${DOMAIN}/blog\` },
+          { "@type": "ListItem", "position": 3, "name": title, "item": \`\${DOMAIN}\${urlPath}\` }
         ]
       }
     ]
@@ -406,7 +455,7 @@ allPosts.forEach(post => {
 // After all posts are processed, check for orphans
 const orphanSlugs = Object.entries(incomingLinks).filter(([slug, count]) => count === 0).map(([slug]) => slug);
 if (orphanSlugs.length > 0) {
-  console.log(`⚠️ ${orphanSlugs.length} orphan slugs found, force-linking them...`);
+  console.log(\`⚠️ \${orphanSlugs.length} orphan slugs found, force-linking them...\`);
   // These will have been handled by the greedy sort in getRelatedPosts
 }
 
@@ -414,12 +463,12 @@ if (orphanSlugs.length > 0) {
 // 3. LOCAL PAGES
 // ═══════════════════════════════════════════
 function buildLocalConsolidadoContent(local: any) {
-  let contentHtml = `<p>${local.description}</p>`;
-  if (local.access) contentHtml += `<h2>Como Chegar</h2><p>${local.access}</p>`;
-  if (local.distance) contentHtml += `<h2>Distância e Tempo</h2><p>${local.distance}</p>`;
-  if (local.topServices) contentHtml += `<h2>Serviços Mais Procurados</h2><p>${local.topServices}</p>`;
+  let contentHtml = \`<p>\${local.description}</p>\`;
+  if (local.access) contentHtml += \`<h2>Como Chegar</h2><p>\${local.access}</p>\`;
+  if (local.distance) contentHtml += \`<h2>Distância e Tempo</h2><p>\${local.distance}</p>\`;
+  if (local.topServices) contentHtml += \`<h2>Serviços Mais Procurados</h2><p>\${local.topServices}</p>\`;
   
-  contentHtml += `
+  contentHtml += \`
   <h2>Principais Serviços</h2>
   <ul>
     <li><a href="/troca-de-tela">Troca de Tela de Celular</a></li>
@@ -430,11 +479,11 @@ function buildLocalConsolidadoContent(local: any) {
     <li><a href="/celular-nao-carrega">Reparo de Conector e Carregamento</a></li>
     <li><a href="/celular-caiu-na-agua">Desoxidação (Caiu na Água)</a></li>
   </ul>
-  `;
+  \`;
   
   const macros = ['salvador', 'boca-do-rio-e-orla', 'miolo-e-centro-financeiro', 'centro-e-sul', 'orla-norte-e-aeroporto', 'cajazeiras-e-regiao', 'regiao-metropolitana'];
   if (!macros.includes(local.slug)) {
-     contentHtml += `<p>Veja também nossa página de cobertura ampla da região: <a href="/assistencia-tecnica-salvador">Assistência em Salvador</a>.</p>`;
+     contentHtml += \`<p>Veja também nossa página de cobertura ampla da região: <a href="/assistencia-tecnica-salvador">Assistência em Salvador</a>.</p>\`;
   }
   
   return contentHtml;
@@ -453,22 +502,22 @@ listLocaisConsolidados.forEach(local => {
 // 4. SERVICE PAGES
 // ═══════════════════════════════════════════
 allConsolidatedServices.forEach(servico => {
-  const urlPath = `/${servico.slug}`;
-  const title = `${servico.title} | Na Hora & Garantia`;
-  const description = `${servico.metaDescription}`;
+  const urlPath = \`/\${servico.slug}\`;
+  const title = \`\${servico.title} | Na Hora & Garantia\`;
+  const description = \`\${servico.metaDescription}\`;
   const h1 = servico.h1;
   
-  let contentHtml = `<p>${servico.description}</p>`;
-  contentHtml += `<h2>Marcas Atendidas</h2><ul>${servico.supportedBrands.map((b: string) => `<li>${b}</li>`).join('')}</ul>`;
-  contentHtml += `<h2>Problemas Comuns</h2><ul>${servico.problems.map((p: string) => `<li>${p}</li>`).join('')}</ul>`;
-  contentHtml += `<h2>Nossa Solução</h2><p>${servico.solution}</p>`;
+  let contentHtml = \`<p>\${servico.description}</p>\`;
+  contentHtml += \`<h2>Marcas Atendidas</h2><ul>\${servico.supportedBrands.map((b: string) => \`<li>\${b}</li>\`).join('')}</ul>\`;
+  contentHtml += \`<h2>Problemas Comuns</h2><ul>\${servico.problems.map((p: string) => \`<li>\${p}</li>\`).join('')}</ul>\`;
+  contentHtml += \`<h2>Nossa Solução</h2><p>\${servico.solution}</p>\`;
 
   let faqHtml = '';
   if (servico.faqs && servico.faqs.length) {
-    faqHtml = servico.faqs.map((f: any) => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');
+    faqHtml = servico.faqs.map((f: any) => \`<h3>\${f.question}</h3><p>\${f.answer}</p>\`).join('');
   }
 
-  const fullContent = contentHtml + (faqHtml ? `<h2>Perguntas Frequentes</h2>${faqHtml}` : '');
+  const fullContent = contentHtml + (faqHtml ? \`<h2>Perguntas Frequentes</h2>\${faqHtml}\` : '');
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -482,9 +531,9 @@ allConsolidatedServices.forEach(servico => {
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": `${DOMAIN}/` },
-          { "@type": "ListItem", "position": 2, "name": "Serviços", "item": `${DOMAIN}/servicos` },
-          { "@type": "ListItem", "position": 3, "name": servico.h1, "item": `${DOMAIN}/${servico.slug}` }
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": \`\${DOMAIN}/\` },
+          { "@type": "ListItem", "position": 2, "name": "Serviços", "item": \`\${DOMAIN}/servicos\` },
+          { "@type": "ListItem", "position": 3, "name": servico.h1, "item": \`\${DOMAIN}/\${servico.slug}\` }
         ]
       },
       {
@@ -509,7 +558,73 @@ console.log('⚠️ Página de autor: estrutura implementada, aguardando dados r
 // 6. 404 page
 // ═══════════════════════════════════════════
 const notFoundTitle = 'Página não encontrada | Reparo Avançado';
-const notFoundHtml = template.replace(/<title>.*?<\/title>/, `<title>${notFoundTitle}</title>`).replace('</head>', '<meta name="robots" content="noindex"></head>');
+const notFoundHtml = template.replace(/<title>.*?<\\/title>/, \`<title>\${notFoundTitle}</title>\`).replace('</head>', '<meta name="robots" content="noindex"></head>');
 fs.writeFileSync(path.join(distPath, '404.html'), notFoundHtml);
 
 console.log("✅ Prerender finalizado.");
+`;
+
+fs.writeFileSync('scripts/prerender.ts', prerenderContent);
+console.log('✅ Step 1: prerender.ts rewritten');
+
+// ============================================================
+// STEP 2: Update generate-sitemap.ts to include pagination pages
+// ============================================================
+
+let sitemapContent = fs.readFileSync('scripts/generate-sitemap.ts', 'utf8');
+
+// Add pagination pages after the /blog entry
+const paginationBlock = `
+// 1.5 Blog pagination pages
+const POSTS_PER_PAGE = 20;
+const totalBlogPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+for (let page = 2; page <= totalBlogPages; page++) {
+  urls.push(\`  <url>
+    <loc>\${DOMAIN}/blog/pagina/\${page}</loc>
+    <lastmod>\${getFileDate("src/data/blogData.ts")}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>\`);
+}
+`;
+
+sitemapContent = sitemapContent.replace(
+    '// 2. Consolidated Service Pages',
+    paginationBlock + '\n// 2. Consolidated Service Pages'
+);
+
+fs.writeFileSync('scripts/generate-sitemap.ts', sitemapContent);
+console.log('✅ Step 2: generate-sitemap.ts updated with pagination');
+
+// ============================================================
+// STEP 3: Scan editorial files for "avaliação gratuita" residuals
+// ============================================================
+const editorialFiles = [
+    'src/data/blogData.ts',
+    'src/data/editorialPosts.ts',
+    'src/data/editorialPostsBatch2.ts',
+    'src/data/editorialPostsBatch3.ts',
+    'src/data/editorialPostsBatch4.ts',
+    'src/data/editorialPostsBatch5.ts',
+    'src/data/editorialPostsBatch6.ts',
+    'src/data/editorialPostsBatch7.ts',
+    'src/data/editorialPostsBatch8.ts',
+    'src/data/editorialPostsBatch9.ts',
+    'src/data/editorialPostsBatch10.ts',
+];
+
+let avaliacaoCount = 0;
+editorialFiles.forEach(f => {
+    if (!fs.existsSync(f)) return;
+    let content = fs.readFileSync(f, 'utf8');
+    const before = content;
+    content = content.replace(/avaliação gratuit[ao]/gi, 'diagnóstico gratuito');
+    content = content.replace(/avaliação grátis/gi, 'diagnóstico grátis');
+    if (content !== before) {
+        avaliacaoCount++;
+        fs.writeFileSync(f, content);
+    }
+});
+console.log(`✅ Step 3: Fixed "avaliação gratuita" in ${avaliacaoCount} files`);
+
+console.log('\n🎯 All modifications complete. Run npm run build to generate the final output.');

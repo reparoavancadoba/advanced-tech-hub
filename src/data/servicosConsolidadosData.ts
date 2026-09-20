@@ -76,8 +76,8 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "reparo-em-placa": {
     slug: "reparo-em-placa",
-    title: "conserto de placa de Celular em Salvador | Microeletrônica Avançada",
-    h1: "conserto de placa de Celular em Salvador",
+    title: "Reparo de Placa de Celular em Salvador | Microeletrônica Avançada",
+    h1: "Reparo de Placa de Celular em Salvador",
     metaDescription: "especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa de celulares. Recuperamos aparelhos condenados por outras oficinas.",
     description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de avaliações minuciosos por microscópio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],

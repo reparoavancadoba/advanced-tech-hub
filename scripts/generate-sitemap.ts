@@ -41,6 +41,19 @@ staticPages.forEach((p) => {
   </url>`);
 });
 
+
+// 1.5 Blog pagination pages
+const POSTS_PER_PAGE = 20;
+const totalBlogPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+for (let page = 2; page <= totalBlogPages; page++) {
+  urls.push(`  <url>
+    <loc>${DOMAIN}/blog/pagina/${page}</loc>
+    <lastmod>${getFileDate("src/data/blogData.ts")}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+}
+
 // 2. Consolidated Service Pages
 const servicosDate = getFileDate("src/data/servicosConsolidadosData.ts");
 allConsolidatedServices.forEach((service) => {

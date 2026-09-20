@@ -142,7 +142,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     name: "Caminho das Árvores e Itaigara",
     title: "Conserto de Celular no Caminho das Árvores e Itaigara",
     h1: "Assistência Técnica de Celular no Caminho das Árvores",
-    metaDescription: "Assistência técnica especializada em iPhone e Samsung para clientes do Caminho das Árvores e Itaigara. Diagnóstico preciso e reparo com peças de altíssima linha.",
+    metaDescription: "Assistência técnica de celular no Caminho das Árvores e Itaigara. Diagnóstico preciso e reparo com peças de alta qualidade.",
     description: "Para o pólo comercial do Caminho das Árvores e residencial do Itaigara, garantimos total discrição de dados, agilidade no reparo e peças de reposição premium.",
     access: "Partindo do Shopping da Bahia ou da Av. ACM, você pode seguir a Magalhães Neto até chegar à orla. De lá, a Rua Abelardo Andrade de Carvalho na Boca do Rio fica a poucos minutos, oferecendo uma rota segura e bem pavimentada.",
     distance: "Apenas 10 a 12 minutos de trajeto de carro até o nosso laboratório técnico na Boca do Rio, com facilidade de parada.",
