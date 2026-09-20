@@ -33,7 +33,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     faqs: [
       {
         question: "A tela quebrou, mas o touch ainda funciona. Preciso trocar tudo?",
-        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para avaliação profissional na loja."
+        answer: "Na Reparo Avançado, avaliamos se é possível trocar apenas o vidro ou se a substituição completa da tela é necessária. O ideal é levar o aparelho para diagnóstico profissional na loja."
       },
       {
         question: "Quanto tempo demora a troca de tela?",
@@ -79,7 +79,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Reparo de Placa de Celular em Salvador | Microeletrônica Avançada",
     h1: "Reparo de Placa de Celular em Salvador",
     metaDescription: "especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa de celulares. Recuperamos aparelhos condenados por outras oficinas.",
-    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de avaliações minuciosos por microscópio.",
+    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de diagnósticos minuciosos por microscópio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],
     problems: [
       "Celular não liga de forma alguma e não consome corrente no carregador",
@@ -94,12 +94,12 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
         answer: "O conserto é seguro e realizado por profissionais sob microscópio. Na grande maioria dos casos, os dados do aparelho (fotos, contatos e arquivos) são preservados intactos, exceto quando há dano físico irreversível na memória (NAND)."
       },
       {
-        question: "Por que outras oficinas condenam o placa e vocês conseguem recuperar?",
-        answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de avaliação térmico, soldagem BGA e profissionais formados em microeletrônica de precisão."
+        question: "Por que outras oficinas condenam a placa e vocês conseguem recuperar?",
+        answer: "A maioria das oficinas atua apenas na troca de módulos (tela, bateria, conectores). Nós possuímos equipamentos profissionais de análise térmica, soldagem BGA e profissionais formados em microeletrônica de precisão."
       },
       {
         question: "Quanto custa um conserto de placa?",
-        answer: "O valor é baseado na complexidade do circuito afetado. O avaliação profissional inicial é 100% gratuito e o orçamento é apresentado antes de iniciarmos qualquer intervenção."
+        answer: "O valor é baseado na complexidade do circuito afetado. O diagnóstico profissional inicial é 100% gratuito e o orçamento é apresentado antes de iniciarmos qualquer intervenção."
       }
     ]
   },
@@ -154,7 +154,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       },
       {
         question: "Como resolver o erro persistente de umidade no Samsung?",
-        answer: "Usamos calibração via sistema operacional e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar o placa de carga na maioria das vezes."
+        answer: "Usamos calibração via sistema operacional e limpeza química ultrassônica do conector para reestabelecer os parâmetros elétricos corretos dos sensores, eliminando o erro falso sem necessidade de trocar a placa de carga na maioria das vezes."
       },
       {
         question: "A substituição do conector de carga é feita na hora?",
@@ -164,10 +164,10 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "celular-nao-liga": {
     slug: "celular-nao-liga",
-    title: "Celular Não Liga em Salvador | avaliação profissional Gratuito",
+    title: "Celular Não Liga em Salvador | diagnóstico profissional Gratuito",
     h1: "Celular Não Liga ou Não Dá Sinais de Vida",
-    metaDescription: "Smartphone apagou e não liga mais? Oferecemos avaliação 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
-    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves no placa. Nós oferecemos um diagnóstico gratuito de precisão.",
+    metaDescription: "Smartphone apagou e não liga mais? Oferecemos diagnóstico 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
+    description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves na placa. Nós oferecemos um diagnóstico gratuito de precisão.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho apagou completamente e não dá sinal de carga nem imagem",
@@ -175,11 +175,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Fica travado na tela inicial e reinicia em loop",
       "O LED de carga pisca, mas o aparelho não inicia"
     ],
-    solution: "Testamos a saúde elétrica da bateria, o consumo de corrente na fonte de bancada, a integridade da tela e o placa para identificar o problema exato, aplicando o conserto adequado com transparência.",
+    solution: "Testamos a saúde elétrica da bateria, o consumo de corrente na fonte de bancada, a integridade da tela e a placa para identificar o problema exato, aplicando o conserto adequado com transparência.",
     faqs: [
       {
         question: "Vocês cobram para descobrir por que o celular não liga?",
-        answer: "Não. O nosso avaliação profissional é 100% gratuito. Nós abrimos o aparelho, analisamos os circuitos e apresentamos o orçamento. Se você optar por não fazer o serviço, não paga nada pelo orçamento."
+        answer: "Não. O nosso diagnóstico profissional é 100% gratuito. Nós abrimos o aparelho, analisamos os circuitos e apresentamos o orçamento. Se você optar por não fazer o serviço, não paga nada pelo orçamento."
       },
       {
         question: "Pode ser apenas um travamento de sistema?",
@@ -204,11 +204,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Câmeras embaçadas por condensação interna",
       "Celular parou de ligar ou descarrega em minutos após molhar"
     ],
-    solution: "Efetuamos a desmontagem completa imediata, banho químico ultrassônico com solventes isopropílicos de alta pureza para interromper a corrosão, limpeza microscópica dos conectores e secagem controlada do placa.",
+    solution: "Efetuamos a desmontagem completa imediata, banho químico ultrassônico com solventes isopropílicos de alta pureza para interromper a corrosão, limpeza microscópica dos conectores e secagem controlada da placa.",
     faqs: [
       {
         question: "O celular caiu na água. Colocar no arroz resolve?",
-        answer: "Não. O arroz não remove oxidação, sal, minerais ou umidade interna do placa. O recomendado é desligar o aparelho e procurar uma assistência técnica focada o quanto antes."
+        answer: "Não. O arroz não remove oxidação, sal, minerais ou umidade interna da placa. O recomendado é desligar o aparelho e procurar uma assistência técnica focada o quanto antes."
       },
       {
         question: "O que devo fazer imediatamente se o celular molhar?",

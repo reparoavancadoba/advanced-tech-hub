@@ -263,8 +263,9 @@ allPosts.forEach(post => {
   const description = post.metaDescription || post.description;
   const h1 = post.h1;
   
-  const datePublished = post.datePublished || "2024-01-01T08:00:00-03:00";
-  const dateModified = post.dateModified || datePublished;
+  const hasRealDate = post.datePublished && post.datePublished !== "2024-01-01T08:00:00-03:00";
+  const datePublished = hasRealDate ? post.datePublished : null;
+  const dateModified = hasRealDate ? (post.dateModified || post.datePublished) : null;
   
   // Service page for this article
   const servicePage = getServicePageForPost(post);
@@ -282,12 +283,14 @@ allPosts.forEach(post => {
   // Breadcrumb (visible)
   contentHtml += `<nav aria-label="Breadcrumb"><a href="/">Início</a> › <a href="/blog">Blog</a> › ${title}</nav>`;
   
-  // Visible dates
-  contentHtml += `<p><time datetime="${datePublished}">Publicado em ${formatDateBR(datePublished)}</time>`;
-  if (dateModified !== datePublished) {
-    contentHtml += ` · <time datetime="${dateModified}">Atualizado em ${formatDateBR(dateModified)}</time>`;
+  // Visible dates (only if real date exists)
+  if (datePublished) {
+    contentHtml += `<p><time datetime="${datePublished}">Publicado em ${formatDateBR(datePublished)}</time>`;
+    if (dateModified && dateModified !== datePublished) {
+      contentHtml += ` · <time datetime="${dateModified}">Atualizado em ${formatDateBR(dateModified)}</time>`;
+    }
+    contentHtml += '</p>';
   }
-  contentHtml += '</p>';
   
   // Main content
   contentHtml += `<p><strong>Resumo:</strong> ${description}</p>`;
@@ -373,8 +376,8 @@ allPosts.forEach(post => {
         "@type": "BlogPosting",
         "headline": title,
         "description": description,
-        "datePublished": datePublished,
-        "dateModified": dateModified,
+        ...(datePublished ? { "datePublished": datePublished } : {}),
+        ...(dateModified ? { "dateModified": dateModified } : {}),
         "author": { "@type": "Organization", "name": businessInfo.name, "url": businessInfo.url },
         "publisher": { "@type": "Organization", "name": businessInfo.name, "logo": { "@type": "ImageObject", "url": `${DOMAIN}/favicon.png` } },
         "mainEntityOfPage": { "@type": "WebPage", "@id": `${DOMAIN}${urlPath}` }

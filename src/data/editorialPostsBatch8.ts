@@ -26,7 +26,7 @@ export const editorialPostsBatch8: BlogPost[] = [
       "Dano direto aos LEDs/OLEDs do painel interno",
       "Exposição à umidade afetando os contatos da tela"
     ],
-    solution: "Avaliação técnica para confirmar se o dano é apenas no display. Na maioria dos casos de manchas e linhas, é necessária a substituição completa do módulo frontal (display + touch).",
+    solution: "diagnóstico técnico para confirmar se o dano é apenas no display. Na maioria dos casos de manchas e linhas, é necessária a substituição completa do módulo frontal (display + touch).",
     whenToSeek: "Imediatamente após notar as manchas, pois o líquido interno (OLED/LCD) costuma vazar e a mancha vai crescer até cobrir toda a tela, impedindo o uso do aparelho.",
     costInfo: "Diagnóstico gratuito e orçamento sem compromisso após análise presencial.",
     relatedSlugs: ["troca-de-tela-celular", "celular-caiu-na-agua-o-que-fazer"],
@@ -131,7 +131,7 @@ export const editorialPostsBatch8: BlogPost[] = [
       {
         id: "solucao",
         title: "O Caminho Seguro para a Solução",
-        content: "Tentar fazer processos de 'Hard Reset' em casa vendo vídeos na internet pode agravar o problema e apagar todos os seus dados desnecessariamente se a causa for o botão Power.\n\nNa Reparo Avançado, nossa abordagem é clínica:\n- Testamos o consumo elétrico do aparelho na fonte de bancada, o que nos diz instantaneamente se há um curto no botão.\n- Conectamos baterias de teste certificadas para isolar falhas de energia.\n- Só aplicamos intervenções de software após garantir que o hardware está perfeito, priorizando sempre a tentativa de recuperação dos seus dados e fotos.\n\nNão jogue seu Motorola na gaveta. Traga para uma avaliação técnica gratuita e vamos descobrir o que realmente está travando o sistema."
+        content: "Tentar fazer processos de 'Hard Reset' em casa vendo vídeos na internet pode agravar o problema e apagar todos os seus dados desnecessariamente se a causa for o botão Power.\n\nNa Reparo Avançado, nossa abordagem é clínica:\n- Testamos o consumo elétrico do aparelho na fonte de bancada, o que nos diz instantaneamente se há um curto no botão.\n- Conectamos baterias de teste certificadas para isolar falhas de energia.\n- Só aplicamos intervenções de software após garantir que o hardware está perfeito, priorizando sempre a tentativa de recuperação dos seus dados e fotos.\n\nNão jogue seu Motorola na gaveta. Traga para uma diagnóstico técnico gratuita e vamos descobrir o que realmente está travando o sistema."
       }
     ]
   },

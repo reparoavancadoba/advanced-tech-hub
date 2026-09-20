@@ -23,7 +23,7 @@ export const editorialPostsBatch7: BlogPost[] = [
       "Acúmulo de sujeira ou poeira no conector",
       "Conector de carga desgastado ou oxidado",
       "Problema na bateria",
-      "Falha no placa (placa)"
+      "Falha na placa (placa)"
     ],
     solution: "Se testes com outros cabos e limpeza superficial não resolverem, o diagnóstico técnico com equipamentos adequados é a solução definitiva.",
     whenToSeek: "Se você já testou outro cabo/fonte originais e limpou suavemente o conector, mas o aparelho continua sem carregar. Nunca force ou introduza agulhas no conector.",
@@ -86,7 +86,7 @@ export const editorialPostsBatch7: BlogPost[] = [
       "Defeito apenas na tela (aparelho está ligado, mas sem imagem)",
       "Conector de alimentação danificado",
       "Danos invisíveis por líquido ou oxidação",
-      "Falha no placa (placa)"
+      "Falha na placa (placa)"
     ],
     solution: "É essencial um diagnóstico de hardware e medição de consumo na bancada para saber exatamente se a falha é na tela, bateria ou placa.",
     whenToSeek: "Imediatamente, especialmente se você ouviu algum ruído, se o aparelho esquentou demais antes de apagar, ou se sofreu queda recentemente.",
@@ -181,8 +181,8 @@ export const editorialPostsBatch7: BlogPost[] = [
       },
       {
         id: "solucao",
-        title: "A Avaliação Técnica Profissional",
-        content: "Testes e troca de display exigem extremo cuidado, ferramentas de vedação e conhecimento das proteções originais da Samsung.\n\nNão conseguiu identificar a causa? Fale com a equipe. Traga o seu Samsung para uma avaliação técnica sem compromisso na Reparo Avançado em Salvador. Testamos a tela rapidamente e confirmamos o diagnóstico de forma confiável."
+        title: "A diagnóstico técnico Profissional",
+        content: "Testes e troca de display exigem extremo cuidado, ferramentas de vedação e conhecimento das proteções originais da Samsung.\n\nNão conseguiu identificar a causa? Fale com a equipe. Traga o seu Samsung para uma diagnóstico técnico sem compromisso na Reparo Avançado em Salvador. Testamos a tela rapidamente e confirmamos o diagnóstico de forma confiável."
       }
     ]
   },
@@ -236,12 +236,12 @@ export const editorialPostsBatch7: BlogPost[] = [
       {
         id: "riscos",
         title: "Riscos e Consequências do Celular Molhado",
-        content: "De forma simples: a placa do celular possui vias microscópicas. O risco da umidade e resíduos (sais minerais da água) é que eles criam pontes entre caminhos que nunca deveriam se cruzar, causando oxidação celular.\n\n[DICA] Uma avaliação técnica pode ser necessária mesmo se o aparelho voltar a funcionar inicialmente! Muitos aparelhos molhados secam, voltam a ligar, e o dono acha que resolveu. Semanas depois, a oxidação silenciosa e corrosiva faz a placa 'apodrecer' internamente. [/DICA]"
+        content: "De forma simples: a placa do celular possui vias microscópicas. O risco da umidade e resíduos (sais minerais da água) é que eles criam pontes entre caminhos que nunca deveriam se cruzar, causando oxidação celular.\n\n[DICA] Uma diagnóstico técnico pode ser necessária mesmo se o aparelho voltar a funcionar inicialmente! Muitos aparelhos molhados secam, voltam a ligar, e o dono acha que resolveu. Semanas depois, a oxidação silenciosa e corrosiva faz a placa 'apodrecer' internamente. [/DICA]"
       },
       {
         id: "cta",
         title: "A Solução Profissional",
-        content: "A Reparo Avançado em Salvador possui laboratório com banho químico ultrassônico que higieniza as impurezas no nível microscópico.\n\nSeu celular apresenta esse problema? Solicite uma avaliação hoje mesmo. Cada minuto conta!"
+        content: "A Reparo Avançado em Salvador possui laboratório com banho químico ultrassônico que higieniza as impurezas no nível microscópico.\n\nSeu celular apresenta esse problema? Solicite uma diagnóstico hoje mesmo. Cada minuto conta!"
       }
     ]
   },
@@ -299,12 +299,12 @@ export const editorialPostsBatch7: BlogPost[] = [
       {
         id: "quando-trocar",
         title: "Quando pode ser hora de trocar a bateria?",
-        content: "Os sintomas podem variar, mas você deve considerar a substituição (ou diagnóstico profundo) quando:\n\n1. O celular desliga e religa pedindo tomada repetidamente.\n2. A tela começa a descolar (isso indica que a bateria está estufada, gerando enorme risco físico).\n3. O aparelho esquenta demais mesmo em uso básico (ligação, WhatsApp).\n\n[ATENCAO] Se houver sinais físicos anormais, como estufamento do aparelho, evite manipulação inadequada ou tentativas caseiras de abrir a tampa e procure avaliação profissional urgente. Baterias expostas pegam fogo. [/ATENCAO]"
+        content: "Os sintomas podem variar, mas você deve considerar a substituição (ou diagnóstico profundo) quando:\n\n1. O celular desliga e religa pedindo tomada repetidamente.\n2. A tela começa a descolar (isso indica que a bateria está estufada, gerando enorme risco físico).\n3. O aparelho esquenta demais mesmo em uso básico (ligação, WhatsApp).\n\n[ATENCAO] Se houver sinais físicos anormais, como estufamento do aparelho, evite manipulação inadequada ou tentativas caseiras de abrir a tampa e procure diagnóstico profissional urgente. Baterias expostas pegam fogo. [/ATENCAO]"
       },
       {
         id: "cta-bateria",
         title: "Troca e Diagnóstico Seguro",
-        content: "Precisa avaliar o estado do seu aparelho em Salvador? A Reparo Avançado oferece serviço de troca de bateria para diversas marcas, com total segurança.\n\nNossos técnicos medem se o desgaste é apenas natural ou se a placa está em curto, garantindo a solução correta. Fale conosco e solicite uma avaliação."
+        content: "Precisa diagnosticar o estado do seu aparelho em Salvador? A Reparo Avançado oferece serviço de troca de bateria para diversas marcas, com total segurança.\n\nNossos técnicos medem se o desgaste é apenas natural ou se a placa está em curto, garantindo a solução correta. Fale conosco e solicite uma avaliação."
       }
     ]
   }

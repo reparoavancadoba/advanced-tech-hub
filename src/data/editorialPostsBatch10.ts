@@ -99,7 +99,7 @@ export const editorialPostsBatch10: BlogPost[] = [
     ],
     solution: "Remoção do vidro traseiro danificado com laser de precisão (sem calor excessivo na placa) e colagem de um novo vidro com padrão de fábrica, preservando a vedação original.",
     whenToSeek: "Assim que notar a rachadura, mesmo que pequena. Trincas se espalham com o tempo e comprometem a proteção contra poeira e água.",
-    costInfo: "Orçamento gratuito e sem compromisso, com avaliação do estado da vedação interna.",
+    costInfo: "Orçamento gratuito e sem compromisso, com diagnóstico do estado da vedação interna.",
     relatedSlugs: ["vidro-traseiro-iphone-reparo-laser-salvador", "erro-umidade-samsung-conector-salvador"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
@@ -186,7 +186,7 @@ export const editorialPostsBatch10: BlogPost[] = [
     faq: [
       {
         question: "Café ou água caiu no teclado do notebook, o que eu faço primeiro?",
-        answer: "Desligue o notebook imediatamente e não ligue novamente até uma avaliação técnica. Ligar o aparelho molhado pode levar o líquido a curto-circuitar componentes na placa-mãe, transformando um problema simples de teclado em um problema muito mais caro.",
+        answer: "Desligue o notebook imediatamente e não ligue novamente até uma diagnóstico técnico. Ligar o aparelho molhado pode levar o líquido a curto-circuitar componentes na placa-mãe, transformando um problema simples de teclado em um problema muito mais caro.",
       },
       {
         question: "Por que só uma tecla específica parou de funcionar?",
