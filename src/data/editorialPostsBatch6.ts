@@ -223,44 +223,7 @@ export const editorialPostsBatch6: BlogPost[] = [
       }
     ]
   },
-  {
-    slug: "bateria-apple-watch-inchada-tela-descolando",
-    title: "Tela do Apple Watch Levantou ou Descolou Sozinha?",
-    h1: "Bateria Inchada no Apple Watch: Risco Iminente e Troca",
-    metaDescription: "Acordou e viu que o vidro da tela do seu relógio Apple Watch está soltando da carcaça? Perigo de bateria estufada! Realizamos a substituição urgente.",
-    category: "iphone", // General apple umbrella
-    brand: "Apple",
-    model: "Apple Watch Series 1 ao Ultra",
-    service: "Troca de Bateria Smartwatch",
-    serviceSlug: "troca-de-bateria",
-    description: "Você olha pro seu pulso e percebe que a telinha está torta, como se uma mola tivesse empurrado o vidro de dentro para fora, revelando as colas de vedação da lateral.",
-    tldr: "Este é o maior perigo de um Apple Watch! A bateria de íons de lítio extremamente minúscula sofreu uma reação com calor/água, gerou gases internos (inchaço) e está fazendo tanta pressão mecânica que arrancou a tela de OLED para fora. NÃO APERTE DE VOLTA! Apertar vai rasgar os cabos (flex) caríssimos da tela e danificar o display, gerando prejuízo gigantesco. A Reparo Avançado alivia a pressão, troca a bateria perigosamente inchada e cola a tela de novo usando selantes de fábrica.",
-    problems: [
-      "Tela levantando quebrando a vedação de resistência a água",
-      "Relógio descarrega em 2 horas de uso",
-      "Fica quente encostando na pele",
-      "Visor não responde mais (cabos muito esticados)"
-    ],
-    causes: [
-      "Entrada imperceptível de água ou suor com o tempo",
-      "Deixar o relógio no carregador magnético dias a fio gerando calor contínuo",
-      "Idade da bateria (muito comuns a partir do Series 3 ao 6)"
-    ],
-    solution: "[ATENCAO] Traga o relógio de imediato para a loja. Se você apertar e colar com 'Super Bonder' vai destruir seu relógio para sempre. Nós somos capacitados em desmontar a carcaça miniaturizada do Apple Watch e efetuar o reparo com responsabilidade e ferramentas ideais. [/ATENCAO]",
-    whenToSeek: "Hoje! Um tropeço com a tela do relógio levantada vai arrancar a peça mais cara e inviabilizar o smartwatch.",
-    costInfo: "Depende da geração (Séries) do Apple Watch. O custo da bateria nova é muito menor do que o custo de uma tela OLED arrancada.",
-    relatedSlugs: ["troca-de-vidro-apple-watch-salvador", "bateria-xiaomi-inchada-descolando-tela"],
-    isEditorial: true,
-    author: "Paulo Lopes",
-    datePublished: "2026-07-16",
-    dateModified: "2026-07-16",
-    faq: [
-      {
-        question: "Ele volta a ser 100% a prova d'água?",
-        answer: "Usamos colas selantes T7000 e pressas fortes, recuperando altíssima vedação. Porém, como recomendação técnica para qualquer aparelho que já foi aberto um dia, desaconselhamos mergulhos em piscina prolongados."
-      }
-    ]
-  },
+  
   {
     slug: "troca-bateria-ipad-descarregando-rapido",
     title: "iPad Descarregando Rápido Demais ou Só Funciona na Tomada",

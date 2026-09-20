@@ -1,0 +1,786 @@
+[
+  {
+    "slug": "troca-de-tela",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "troca-de-bateria",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "reparo-de-placa",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "conector-de-carga",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "troca-de-microfone",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "alto-falante-audio",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "cameras",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "face-id",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "biometria",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "desoxidacao",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "sistema operacional",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "aparelho-nao-liga",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "aparelho-nao-carrega",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "upgrade-ssd",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "upgrade-ram",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "limpeza-interna",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "pasta-termica",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "dobradicas",
+    "file": "blogData.ts"
+  },
+  {
+    "slug": "troca-de-bateria-iphone-salvador-saude-100",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "reparo-face-id-iphone-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "iphone-nao-liga-avaliacao-placa-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-tela-iphone-true-tone-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "iphone-caiu-na-agua-desoxidacao-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "conector-carga-iphone-limpeza-troca-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "vidro-traseiro-iphone-reparo-laser-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "audio-iphone-baixo-ruido-higienizacao-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "vale-pena-consertar-iphone-antigo-analise",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "wifi-bluetooth-iphone-chip-radio-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "camera-iphone-tremula-manchas-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "maresia-salvador-corrosao-iphone",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "tela-samsung-mancha-verde-linhas-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "xiaomi-poco-reiniciando-sozinho-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "erro-umidade-samsung-conector-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "loja-realme-poco-salvador-pecas",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "motorola-nao-carrega-avaliacao-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "biometria-tela-parou-troca-amoled-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "recuperacao-conta-google-micloud-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-vidro-vs-tela-completa-economia-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "limpeza-tecnica-celular-sexta-feira-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-esquentando-limpeza-interna-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "microfone-ruim-ligacoes-poeira-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "higienizacao-conector-cabo-carregar-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "checklist-manutencao-preventiva-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "poeira-lente-camera-limpeza-interna-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "vedacao-celular-protecao-agua-tempo-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "cuidados-maresia-orla-salvador-limpeza",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "mitos-verdades-celular-no-arroz-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "reparo-avancado-melhor-avaliacao-boca-do-rio",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-nao-carrega-causas-solucoes",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "face-id-nao-funciona-iphone-causas",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-celular-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "conserto-de-celular-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-nao-carrega-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-de-bateria-celular-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-de-tela-celular-salvador-original",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "reparo-placa-celular-salvador-vale-a-pena",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-caiu-na-agua-desoxidacao-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-nao-liga-motivos-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-iphone-salvador-especializada",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-samsung-salvador-autorizada",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-xiaomi-salvador-conserto",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-vidro-ou-tela-completa-celular-diferenca",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "camera-celular-embacada-quebrada-conserto-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-esquentando-descarregando-rapido-bateria",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "conserto-botao-power-volume-celular-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "onde-consertar-celular-boca-do-rio-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-de-tela-iphone-15-pro-max-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "tela-samsung-galaxy-s24-ultra-troca-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-bateria-samsung-galaxy-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "conserto-motorola-moto-g-edge-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-tela-preta-mas-funciona-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "conserto-celular-pituba-imbui-costa-azul",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-travando-lento-resetar-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "troca-conector-carga-usb-c-celular-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "iphone-14-pro-max-conserto-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-realme-salvador",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "como-escolher-assistencia-tecnica-celular-confiavel",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-molhou-chuva-praia-salvador-socorro",
+    "file": "editorialPosts.ts"
+  },
+  {
+    "slug": "celular-carregamento-sem-fio-nao-funciona-salvador",
+    "file": "editorialPostsBatch10.ts"
+  },
+  {
+    "slug": "vidro-traseiro-samsung-quebrado-troca-salvador",
+    "file": "editorialPostsBatch10.ts"
+  },
+  {
+    "slug": "notebook-teclado-nao-funciona-teclas-travando-salvador",
+    "file": "editorialPostsBatch10.ts"
+  },
+  {
+    "slug": "realme-tela-quebrada-touch-nao-funciona-salvador",
+    "file": "editorialPostsBatch10.ts"
+  },
+  {
+    "slug": "celular-vibracao-nao-funciona-motor-vibracall-salvador",
+    "file": "editorialPostsBatch10.ts"
+  },
+  {
+    "slug": "iphone-descarregando-rapido-calor-salvador",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "conector-carga-iphone-mau-contato-limpeza-troca",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "troca-tela-iphone-13-14-cuidados-face-id",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "troca-tela-samsung-s23-s24-salvador",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "motorola-edge-nao-liga-boca-do-rio",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "celular-caiu-no-mar-armacao-desoxidacao",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "vale-pena-trocar-vidro-ou-tela-completa",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "quanto-custa-consertar-celular-salvador-cuidado",
+    "file": "editorialPostsBatch2.ts"
+  },
+  {
+    "slug": "por-que-iphone-13-esquenta-muito",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "quanto-custa-trocar-tela-samsung-s23",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "celular-xiaomi-nao-liga-o-que-fazer",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "como-saber-hora-trocar-bateria-iphone",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "troca-vidro-traseiro-iphone-14",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "celular-motorola-nao-carrega",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "diferenca-tela-original-primeira-linha",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "aviso-umidade-detectada",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "face-id-parou-de-funcionar",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "camera-iphone-12-tremendo",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "o-que-e-reparo-de-placa-de-celular",
+    "file": "editorialPostsBatch3.ts"
+  },
+  {
+    "slug": "tela-iphone-13-verde-branca-apos-atualizacao",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "bateria-xiaomi-inchada-descolando-tela",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "celular-caiu-no-mar-vale-a-pena-consertar",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "face-id-parou-apos-banho-vapor",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "como-recuperar-fotos-celular-quebrado-nao-liga",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "ipad-nao-carrega-conector-ou-placa",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "botao-power-samsung-parou-de-funcionar",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "troca-de-vidro-apple-watch-salvador",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "samsung-reiniciando-sozinho-logo",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "iphone-15-nao-carrega-usb-c",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "diferenca-bateria-original-paralela",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "onde-consertar-celular-rapido-boca-do-rio-salvador",
+    "file": "editorialPostsBatch4.ts"
+  },
+  {
+    "slug": "trocar-tampa-traseira-iphone-laser-salvador",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "camera-do-iphone-tremendo-fazendo-barulho",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "som-baixo-ligacao-audio-whatsapp",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "mancha-roxa-tela-samsung-crescendo",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "celular-carrega-mas-porcentagem-nao-sobe",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "motorola-reiniciando-tela-azul-apagou",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "celular-nao-reconhece-chip-sim-sem-servico",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "tablet-ipad-tela-quebrada-troca-salvador",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "conserto-placa-mae-iphone-curto",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "meu-celular-esquenta-muito-e-descarrega-rapido",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "troca-de-bateria-iphone-11-12-13-original",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-especializada-xiaomi-salvador",
+    "file": "editorialPostsBatch5.ts"
+  },
+  {
+    "slug": "troca-vidro-camera-traseira-iphone-quebrado",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "iphone-preso-na-maca-loop-infinito",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "microfone-iphone-nao-funciona-audio-mudo",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "touch-tela-iphone-clicando-sozinho-fantasma",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "celular-nao-conecta-wifi-bluetooth-cinza",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "bateria-samsung-desliga-30-porcento",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "bateria-apple-watch-inchada-tela-descolando",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "troca-bateria-ipad-descarregando-rapido",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "limpeza-lente-camera-celular-embacada-suja",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "troca-tela-motorola-moto-g-quebrada",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "botao-power-iphone-afundado-nao-clica",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "celular-caiu-vaso-sanitario-agua-doce",
+    "file": "editorialPostsBatch6.ts"
+  },
+  {
+    "slug": "celular-nao-carrega-causas",
+    "file": "editorialPostsBatch7.ts"
+  },
+  {
+    "slug": "celular-nao-liga-causas",
+    "file": "editorialPostsBatch7.ts"
+  },
+  {
+    "slug": "samsung-com-tela-preta",
+    "file": "editorialPostsBatch7.ts"
+  },
+  {
+    "slug": "celular-caiu-na-agua-o-que-fazer",
+    "file": "editorialPostsBatch7.ts"
+  },
+  {
+    "slug": "bateria-celular-descarregando-rapido",
+    "file": "editorialPostsBatch7.ts"
+  },
+  {
+    "slug": "xiaomi-redmi-tela-manchada-linhas-coloridas",
+    "file": "editorialPostsBatch8.ts"
+  },
+  {
+    "slug": "motorola-travando-reiniciando-sozinho-loop",
+    "file": "editorialPostsBatch8.ts"
+  },
+  {
+    "slug": "notebook-lento-quando-trocar-ssd-resolve",
+    "file": "editorialPostsBatch8.ts"
+  },
+  {
+    "slug": "notebook-esquentando-desligando-sozinho",
+    "file": "editorialPostsBatch8.ts"
+  },
+  {
+    "slug": "celular-sem-sinal-nao-reconhece-chip",
+    "file": "editorialPostsBatch8.ts"
+  },
+  {
+    "slug": "iphone-cameras-borrada-nao-abre-app",
+    "file": "editorialPostsBatch9.ts"
+  },
+  {
+    "slug": "samsung-nao-reconhece-cartao-sd-armazenamento",
+    "file": "editorialPostsBatch9.ts"
+  },
+  {
+    "slug": "notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada",
+    "file": "editorialPostsBatch9.ts"
+  },
+  {
+    "slug": "celular-tela-touch-nao-responde-partes",
+    "file": "editorialPostsBatch9.ts"
+  },
+  {
+    "slug": "xiaomi-atualizacao-miui-travou-nao-liga",
+    "file": "editorialPostsBatch9.ts"
+  },
+  {
+    "slug": "salvador",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "boca-do-rio",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "pituba",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "imbui",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "brotas",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "caminho-das-arvores",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "boca-do-rio",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "pituba",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "imbui",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "brotas",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "caminho-das-arvores",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "salvador",
+    "file": "locaisConsolidadosData.ts"
+  },
+  {
+    "slug": "boca-do-rio-e-orla",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "miolo-e-centro-financeiro",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "centro-e-sul",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "orla-norte-e-aeroporto",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "cajazeiras-e-regiao",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "regiao-metropolitana",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "conserto-de-iphone",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "troca-de-tela",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "troca-de-bateria",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "reparo-de-placa",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "conserto-de-xiaomi",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "conserto-de-samsung",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "banho-quimico",
+    "file": "locaisData.ts"
+  },
+  {
+    "slug": "assistencia-tecnica-celular-salvador",
+    "file": "new_article.ts"
+  },
+  {
+    "slug": "conserto-de-celular-salvador",
+    "file": "new_article2.ts"
+  },
+  {
+    "slug": "celular-nao-carrega-salvador",
+    "file": "new_articles_batch.ts"
+  },
+  {
+    "slug": "troca-de-bateria-celular-salvador",
+    "file": "new_articles_batch.ts"
+  },
+  {
+    "slug": "troca-de-tela",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "troca-de-bateria",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "reparo-em-placa",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "conserto-de-celular",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-nao-carrega",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-nao-liga",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-caiu-na-agua",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "troca-de-tela",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "troca-de-bateria",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "reparo-em-placa",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "conserto-de-celular",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-nao-carrega",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-nao-liga",
+    "file": "servicosConsolidadosData.ts"
+  },
+  {
+    "slug": "celular-caiu-na-agua",
+    "file": "servicosConsolidadosData.ts"
+  }
+]

@@ -6,6 +6,7 @@ import { macroRegioes, servicosLocais, bairros } from '../src/data/locaisData';
 import { allConsolidatedServices } from '../src/data/servicosConsolidadosData';
 import { listLocaisConsolidados } from '../src/data/locaisConsolidadosData';
 import { businessInfo } from '../src/config/business';
+const mergedSlugs = ["celular-nao-carrega-causas","celular-nao-carrega-causas-solucoes","celular-nao-carrega-salvador","motorola-nao-carrega-avaliacao-salvador","higienizacao-conector-cabo-carregar-salvador","celular-caiu-na-agua-o-que-fazer","celular-caiu-na-agua-desoxidacao-salvador","celular-molhou-chuva-praia-salvador-socorro","celular-caiu-no-mar-vale-a-pena-consertar","troca-de-bateria-celular-salvador","celular-descarregando-rapido","celular-esquentando-descarregando-rapido-bateria","troca-vidro-ou-tela-completa-celular-diferenca","troca-vidro-vs-tela-completa-economia-salvador"];
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -108,6 +109,8 @@ function getServicePageForPost(post: any): string {
   const h1 = (post.h1 || '').toLowerCase();
   const combined = slug + ' ' + title + ' ' + service + ' ' + h1;
 
+  if (combined.match(/\b(tablet|ipad|tab)/)) return '/conserto-de-tablet';
+  if (combined.match(/\b(notebook|macbook|laptop|ssd|ram|dobradiça|teclado)/)) return '/conserto-de-notebook';
   if (combined.match(/\b(agua|água|umidade|maresia|oxidação|oxidacao|molhou|banho|desoxida|caiu.*(agua|água|mar|piscina|vaso|chuva)|arroz)/)) return '/celular-caiu-na-agua';
   if (combined.match(/\b(tela|display|touch|amoled|oled|incell|vidro|mancha|verde|branca|preta|linhas|fantasma|clicando.sozinho|lcd|trinca)/)) return '/troca-de-tela';
   if (combined.match(/\b(bateria|descarreg|saúde|saude|incha|carrega.*rapido|esquenta|aquece|superaquec)/)) return '/troca-de-bateria';
@@ -131,15 +134,16 @@ function getTopicGroup(post: any): string {
 
 // Build the cross-link map once
 const topicGroups: Record<string, typeof allPosts> = {};
-allPosts.forEach(post => {
+allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   const group = getTopicGroup(post);
   if (!topicGroups[group]) topicGroups[group] = [];
+  if (mergedSlugs.includes(post.slug)) return;
   topicGroups[group].push(post);
 });
 
 // Track how many times each post is linked to ensure zero orphans
 const incomingLinks: Record<string, number> = {};
-allPosts.forEach(p => { incomingLinks[p.slug] = 0; });
+allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(p => { incomingLinks[p.slug] = 0; });
 
 function getRelatedPosts(post: any): any[] {
   const group = getTopicGroup(post);
@@ -185,7 +189,8 @@ function formatDateBR(isoDate: string): string {
 }
 
 // Sort posts by date (newest first)
-const sortedPosts = [...allPosts].sort((a, b) => {
+
+const sortedPosts = [...allPosts].filter(p => !mergedSlugs.includes(p.slug)).sort((a, b) => {
   const da = new Date(a.datePublished || '2024-01-01').getTime();
   const db = new Date(b.datePublished || '2024-01-01').getTime();
   return db - da;
@@ -193,6 +198,8 @@ const sortedPosts = [...allPosts].sort((a, b) => {
 
 // ── SERVICE PAGE NAMES (for descriptive link text) ──
 const servicePageNames: Record<string, string> = {
+  '/conserto-de-tablet': 'Conserto de Tablet',
+  '/conserto-de-notebook': 'Conserto de Notebook',
   '/troca-de-tela': 'Troca de Tela de Celular',
   '/troca-de-bateria': 'Troca de Bateria de Celular',
   '/reparo-em-placa': 'Reparo de Placa de Celular',
@@ -205,7 +212,7 @@ const servicePageNames: Record<string, string> = {
 // ═══════════════════════════════════════════
 // 0. Institutional Pages
 // ═══════════════════════════════════════════
-generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência técnica de celular na Boca do Rio, Salvador: troca de tela, bateria e reparo de placa com orçamento gratuito e garantia de 90 dias.', 'Assistência técnica de celular em Salvador', '<p>Laboratório técnico para conserto de celulares, troca de tela, bateria e reparo de placas.</p>', baseLocalBusinessSchema);
+generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência de celular na Boca do Rio, Salvador: conserto de tela, bateria e placa de iPhones e Androids. Orçamento grátis e garantia.', 'Assistência técnica de celular em Salvador', '<p>Laboratório técnico para conserto de celulares, troca de tela, bateria e reparo de placas.</p>', baseLocalBusinessSchema);
 generatePage('/servicos', 'Nossos Serviços | Reparo Avançado', 'Conheça os serviços especializados da Reparo Avançado em Salvador: troca de tela, substituição de bateria, banho químico e reparo avançado de placas.', 'Nossos Serviços', '<p>Oferecemos consertos especializados para diversas marcas e modelos.</p>', baseLocalBusinessSchema);
 generatePage('/locais-de-atendimento', 'Locais de Atendimento | Reparo Avançado', 'Confira todos os bairros e regiões de Salvador atendidos pela Reparo Avançado. Oferecemos assistência técnica especializada para celulares e notebooks.', 'Locais de Atendimento', '<p>Veja as áreas que cobrimos na nossa assistência técnica em Salvador.</p>', baseLocalBusinessSchema);
 generatePage('/contato', 'Contato | Reparo Avançado', 'Entre em contato com a Reparo Avançado pelo WhatsApp ou visite nossa assistência técnica na Boca do Rio, Salvador, para diagnósticos e reparos.', 'Contato', '<p>Entre em contato com nossa equipe técnica.</p>', baseLocalBusinessSchema);
@@ -257,7 +264,7 @@ for (let page = 1; page <= totalPages; page++) {
 // ═══════════════════════════════════════════
 // 2. BLOG ARTICLES (Sections 4, 5, 7)
 // ═══════════════════════════════════════════
-allPosts.forEach(post => {
+allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   const urlPath = `/blog/${post.slug}`;
   const title = post.title;
   const description = post.metaDescription || post.description;
@@ -417,6 +424,8 @@ if (orphanSlugs.length > 0) {
 // 3. LOCAL PAGES
 // ═══════════════════════════════════════════
 function buildLocalConsolidadoContent(local: any) {
+  const waMsgLocal = encodeURIComponent(`Olá! Vim pela página de assistencia em ${local.title} e preciso de conserto.`);
+
   let contentHtml = `<p>${local.description}</p>`;
   if (local.access) contentHtml += `<h2>Como Chegar</h2><p>${local.access}</p>`;
   if (local.distance) contentHtml += `<h2>Distância e Tempo</h2><p>${local.distance}</p>`;
@@ -432,10 +441,16 @@ function buildLocalConsolidadoContent(local: any) {
     <li><a href="/celular-nao-liga">Aparelho Que Não Liga</a></li>
     <li><a href="/celular-nao-carrega">Reparo de Conector e Carregamento</a></li>
     <li><a href="/celular-caiu-na-agua">Desoxidação (Caiu na Água)</a></li>
+    <li><a href="/conserto-de-tablet">Conserto de Tablet</a></li>
+    <li><a href="/conserto-de-notebook">Conserto de Notebook</a></li>
   </ul>
   `;
   
   const macros = ['salvador', 'boca-do-rio-e-orla', 'miolo-e-centro-financeiro', 'centro-e-sul', 'orla-norte-e-aeroporto', 'cajazeiras-e-regiao', 'regiao-metropolitana'];
+  contentHtml += `<aside style="border:2px solid #25D366;padding:16px;margin:24px 0;border-radius:8px;background:#f0fff4;">
+    <p><strong>Fale com um técnico agora</strong></p>
+    <a href="https://wa.me/${WA_NUMBER}?text=${waMsgLocal}" style="color:#25D366;font-weight:bold;">Chamar no WhatsApp</a>
+  </aside>`;
   if (!macros.includes(local.slug)) {
      contentHtml += `<p>Veja também nossa página de cobertura ampla da região: <a href="/assistencia-tecnica-salvador">Assistência em Salvador</a>.</p>`;
   }
@@ -466,6 +481,11 @@ allConsolidatedServices.forEach(servico => {
   contentHtml += `<h2>Problemas Comuns</h2><ul>${servico.problems.map((p: string) => `<li>${p}</li>`).join('')}</ul>`;
   contentHtml += `<h2>Nossa Solução</h2><p>${servico.solution}</p>`;
 
+  const waMsgService = encodeURIComponent(`Olá! Vim pela página de ${servico.h1} e preciso de ajuda com meu aparelho.`);
+  contentHtml += `<aside style="border:2px solid #25D366;padding:16px;margin:24px 0;border-radius:8px;background:#f0fff4;">
+    <p><strong>Fale com um técnico agora sobre ${servico.h1}</strong></p>
+    <a href="https://wa.me/${WA_NUMBER}?text=${waMsgService}" style="color:#25D366;font-weight:bold;">Chamar no WhatsApp</a>
+  </aside>`;
   let faqHtml = '';
   if (servico.faqs && servico.faqs.length) {
     faqHtml = servico.faqs.map((f: any) => `<h3>${f.question}</h3><p>${f.answer}</p>`).join('');

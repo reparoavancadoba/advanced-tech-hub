@@ -114,6 +114,86 @@
       "source": "/atendimento/:bairro/:servico*",
       "destination": "/assistencia-tecnica-salvador",
       "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-carrega-causas",
+      "destination": "/blog/celular-motorola-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-carrega-causas-solucoes",
+      "destination": "/blog/celular-motorola-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-carrega-salvador",
+      "destination": "/blog/celular-motorola-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/motorola-nao-carrega-avaliacao-salvador",
+      "destination": "/blog/celular-motorola-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/higienizacao-conector-cabo-carregar-salvador",
+      "destination": "/blog/celular-motorola-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-caiu-na-agua-o-que-fazer",
+      "destination": "/blog/aviso-umidade-detectada",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-caiu-na-agua-desoxidacao-salvador",
+      "destination": "/blog/aviso-umidade-detectada",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-molhou-chuva-praia-salvador-socorro",
+      "destination": "/blog/aviso-umidade-detectada",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-caiu-no-mar-vale-a-pena-consertar",
+      "destination": "/blog/aviso-umidade-detectada",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-bateria-celular-salvador",
+      "destination": "/blog/bateria-celular-descarregando-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-descarregando-rapido",
+      "destination": "/blog/bateria-celular-descarregando-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-esquentando-descarregando-rapido-bateria",
+      "destination": "/blog/bateria-celular-descarregando-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
+      "destination": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
+      "destination": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-vidro-apple-watch-salvador",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bateria-apple-watch-inchada-tela-descolando",
+      "destination": "/conserto-de-celular",
+      "permanent": true
     }
   ],
   "cleanUrls": true

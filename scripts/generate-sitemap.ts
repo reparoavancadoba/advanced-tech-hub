@@ -44,7 +44,7 @@ staticPages.forEach((p) => {
 
 // 1.5 Blog pagination pages
 const POSTS_PER_PAGE = 20;
-const totalBlogPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+const totalBlogPages = Math.ceil(allPosts.filter(p => !["celular-nao-carrega-causas","celular-nao-carrega-causas-solucoes","celular-nao-carrega-salvador","motorola-nao-carrega-avaliacao-salvador","higienizacao-conector-cabo-carregar-salvador","celular-caiu-na-agua-o-que-fazer","celular-caiu-na-agua-desoxidacao-salvador","celular-molhou-chuva-praia-salvador-socorro","celular-caiu-no-mar-vale-a-pena-consertar","troca-de-bateria-celular-salvador","celular-descarregando-rapido","celular-esquentando-descarregando-rapido-bateria","troca-vidro-ou-tela-completa-celular-diferenca","troca-vidro-vs-tela-completa-economia-salvador"].includes(p.slug)).length / POSTS_PER_PAGE);
 for (let page = 2; page <= totalBlogPages; page++) {
   urls.push(`  <url>
     <loc>${DOMAIN}/blog/pagina/${page}</loc>
@@ -77,7 +77,7 @@ listLocaisConsolidados.forEach((local) => {
 });
 
 // 5. Active Blog Articles
-allPosts.forEach((post) => {
+allPosts.filter(p => !["celular-nao-carrega-causas","celular-nao-carrega-causas-solucoes","celular-nao-carrega-salvador","motorola-nao-carrega-avaliacao-salvador","higienizacao-conector-cabo-carregar-salvador","celular-caiu-na-agua-o-que-fazer","celular-caiu-na-agua-desoxidacao-salvador","celular-molhou-chuva-praia-salvador-socorro","celular-caiu-no-mar-vale-a-pena-consertar","troca-de-bateria-celular-salvador","celular-descarregando-rapido","celular-esquentando-descarregando-rapido-bateria","troca-vidro-ou-tela-completa-celular-diferenca","troca-vidro-vs-tela-completa-economia-salvador"].includes(p.slug)).forEach((post) => {
   const priority = post.isEditorial ? "0.8" : "0.6";
   const postDate = (post.dateModified || post.datePublished || new Date().toISOString()).split('T')[0];
   urls.push(`  <url>

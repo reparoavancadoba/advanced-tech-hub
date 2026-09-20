@@ -291,48 +291,6 @@ export const editorialPostsBatch4: BlogPost[] = [
     ]
   },
   {
-    slug: "troca-de-vidro-apple-watch-salvador",
-    title: "Troca de Vidro de Apple Watch: Vale a Pena? Onde Fazer?",
-    h1: "Conserto de Tela e Vidro do Apple Watch em Salvador",
-    metaDescription: "Quebrou a tela do Apple Watch? Não jogue fora! Saiba como fazemos a troca do vidro quebrado mantendo o display original da Apple.",
-    category: "iphone", // Or smartwatches
-    brand: "Apple",
-    model: "Apple Watch Series",
-    service: "Troca de Vidro Watch",
-    serviceSlug: "troca-de-tela",
-    description: "Você esbarrou o pulso na parede, ouve o estalo, e a dor vem na alma: o vidro do seu Apple Watch está em estilhaços. A Apple cobra uma fortuna, quase o preço de um relógio novo. Mas nós temos o segredo.",
-    tldr: "Se a tela do Apple Watch quebrou o vidro, mas a imagem está perfeita e o touch funciona, não troque a tela toda! Nós utilizamos máquinas de laminação a vácuo e congelamento a -150°C para remover SÓ o vidro trincado, preservando seu display OLED original. Sai infinitamente mais barato.",
-    problems: [
-      "Vidro frontal do Apple Watch estilhaçado",
-      "Pequeno trinco no canto da tela",
-      "Touch Screen ainda obedece normal",
-      "Imagem perfeita, sem manchas pretas ou listras"
-    ],
-    causes: [
-      "Esbarrões em paredes ásperas, quinas de mesa",
-      "Quedas no chão ao tirar do pulso",
-      "Impactos na academia com pesos"
-    ],
-    solution: "[IMPORTANTE] O processo de reconstrução do vidro é industrial. Cortamos o vidro quebrado com fio de molibdênio, limpamos a cola UV, aplicamos o vidro novo e prensamos em maquinário especial a vácuo para que pareça novo em folha. [/IMPORTANTE]",
-    whenToSeek: "O mais rápido possível. Um Apple Watch trincado perde TOTALMENTE a resistência à água (mesmo o suor do pulso pode entrar e matar a placa dele de um dia pro outro).",
-    costInfo: "Custa cerca de 50% a 70% menos do que o valor que a Apple cobra para te dar outro aparelho. Uma economia monstruosa.",
-    relatedSlugs: ["diferenca-tela-original-primeira-linha"],
-    isEditorial: true,
-    author: "Paulo Lopes",
-    datePublished: "2026-07-15",
-    dateModified: "2026-07-15",
-    faq: [
-      {
-        question: "Ele volta a ser à prova d'água?",
-        answer: "Nós refazemos a vedação com selantes originais de alta qualidade. Ele resistirá ao suor, lavagem de mãos e respingos tranquilamente, mas por precaução e para proteger seu investimento, não recomendamos mais mergulhos profundos no mar ou piscina."
-      },
-      {
-        question: "E se o touch parou?",
-        answer: "Nesse caso o processo é a troca do 'Touch + Vidro', que também conseguimos fazer preservando a imagem original (LCD/OLED) do aparelho."
-      }
-    ]
-  },
-  {
     slug: "samsung-reiniciando-sozinho-logo",
     title: "Celular Samsung Reiniciando Sozinho e Travado na Logo (Loop)",
     h1: "Samsung Preso na Tela Inicial (Loop Infinito): Causas",
