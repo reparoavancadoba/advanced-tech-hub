@@ -19,14 +19,14 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
 
   "conserto-de-iphone": {
     slug: "conserto-de-iphone",
-    title: "Conserto de iPhone em Salvador | Assistência Técnica Apple",
-    metaDescription: "Assistência técnica especializada em iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
-    description: "Assistência técnica especializada em iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
+    title: "Conserto de iPhone em Salvador | Reparo Avançado",
+    metaDescription: "Conserto de iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
+    description: "Seu iPhone parou? Conte com a nossa assistência técnica iphone para um conserto rápido. <h2>Assistência Técnica iPhone: Serviços</h2> Realizamos os serviços reais: tela, bateria, placa, Face ID, câmera, conector, e realizamos diagnóstico antes do orçamento.",
     shortName: "Conserto de iPhone",
     h1: "Conserto de iPhone em Salvador",
     supportedBrands: ["iPhone (Apple)"],
     problems: ["Tela quebrada", "Bateria viciada", "Placa em curto", "Face ID parou", "Câmera falhando"],
-    solution: "Temos técnicos qualificados para resolver qualquer defeito no seu dispositivo da Apple.",
+    solution: "Os serviços reais (tela, bateria, placa, Face ID, câmera, conector) são realizados com peças premium e diagnóstico antes do orçamento.",
     contentHtml: `<p>Procurando por <strong>conserto de iphone salvador</strong>? A Reparo Avançado é a sua <strong>assistência técnica iphone</strong> de confiança na Boca do Rio. Temos técnicos qualificados para resolver qualquer defeito no seu dispositivo da Apple.</p>
     <p>Nossos serviços incluem a substituição de tela com display premium, troca de bateria para recuperar a saúde 100%, manutenção do conector de carga (Lightning/USB-C), conserto de câmera traseira, recuperação de Face ID e reparos de placa que outras assistências condenam.</p>`,
     faqs: [
@@ -48,7 +48,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Tela de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Tela de Celular",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
-    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a Reparo Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
+    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, nossa troca de tela celular é a solução definitiva. Especializados na troca de tela iphone (para tela quebrada iphone) e na troca de tela samsung, oferecemos a substituição completa com peças premium.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Vidro trincado ou completamente estilhaçado",
@@ -77,7 +77,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Bateria de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Bateria de Celular",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
-    description: "Restaure a autonomia original do seu smartphone. Substituímos baterias gastas ou estufadas por componentes certificados de alta performance que devolvem a capacidade de carga completa ao aparelho.",
+    description: "A bateria original perde capacidade com o tempo. Realizamos a troca de bateria iphone com peças de alta qualidade e também a troca de bateria samsung, devolvendo autonomia máxima.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme", "Notebooks (Dell, HP, Apple, etc.)"],
     problems: [
       "Bateria descarregando muito rápido em poucas horas",
@@ -87,6 +87,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     ],
     solution: "Instalamos baterias de alta performance com ciclos e capacidade equivalentes aos padrões originais. Para iPhones, realizamos a reprogramação do chip da bateria para evitar a mensagem de 'Peça Desconhecida' e exibir 100% de saúde no iOS.",
     faqs: [
+      { question: "A saúde da bateria aparece em 100% depois da troca?", answer: "Fazemos o transplante do flex da bateria original para a nova, para que a saúde seja exibida corretamente nos ajustes do iPhone." },
       {
         question: "A bateria nova vai exibir 100% de saúde sem mensagens de erro?",
         answer: "Sim! Na Reparo Avançado, utilizamos programadores dedicados para transferir e reprogramar o controlador da bateria original, garantindo que o sistema reconheça a nova bateria com 100% de integridade e sem alertas."
@@ -106,7 +107,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Reparo de Placa de Celular em Salvador | Reparo Avançado",
     h1: "Reparo de Placa de Celular em Salvador",
     metaDescription: "especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa de celulares. Recuperamos aparelhos condenados por outras oficinas.",
-    description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de diagnósticos minuciosos por microscópio.",
+    description: "Quando outras lojas condenam, nós fazemos o reparo de placa celular. Utilizando equipamentos de ponta para microssoldagem celular, ressuscitamos aparelhos considerados sem conserto, como curtos totais, falhas de carga e defeitos de áudio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],
     problems: [
       "Celular não liga de forma alguma e não consome corrente no carregador",
@@ -223,7 +224,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Celular Caiu na Água? Desoxidação em Salvador",
     h1: "Celular Caiu na Água ou Contato com Líquido",
     metaDescription: "Celular molhou na piscina, chuva ou no mar? Faça desoxidação profissional imediata. NÃO use arroz! Atendimento de urgência em Salvador.",
-    description: "A infiltração de água e, principalmente, da maresia e do sal de Salvador nas circuitos internos de celular causa corrosão acelerada. Agir rápido com uma desoxidação química profissional é crucial para salvar o aparelho.",
+    description: "Um celular molhado sofre oxidação interna rápida. O nosso conserto de celular molhado através da desoxidação de celular em banho ultrassônico aumenta significativamente as chances de salvação do dispositivo.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho caiu no mar, piscina, vaso sanitário ou molhou na chuva",

@@ -53,7 +53,7 @@ export const locaisConsolidados: Record<string, LocalConsolidadoData> = {
     title: "Assistência Técnica de Celular em Salvador | Reparo Avançado",
     h1: "Assistência Técnica de Celular em Salvador",
     metaDescription: "Assistência técnica de celular em Salvador: iPhone, Samsung, Xiaomi e Motorola. Troca de tela, bateria e placa com garantia de 90 dias e orçamento grátis.",
-    description: "A Reparo Avançado atende toda a cidade de Salvador com infraestrutura laboratorial completa.",
+    description: "Seja qual for o problema, a nossa assistência técnica celular atende toda a capital. Temos o laboratório mais completo para reparos complexos na Boca do Rio.",
     access: "Com sede estrategicamente localizada na Boca do Rio, recebemos clientes de diversos pontos da capital baiana via orla (Av. Octávio Mangabeira), Av. Paralela e Magalhães Neto. A localização centralizada facilita o acesso tanto para quem vem da orla norte quanto do centro financeiro.",
     distance: "Oferecemos coleta e entrega via motoboy para toda Salvador, ou atendimento presencial com estacionamento fácil no local.",
     topServices: "Os serviços mais buscados por nossa clientela de Salvador incluem a troca de vidro e tela original (Apple e Samsung), além de reparos complexos em placas e diagnóstico de aparelhos que não ligam.",

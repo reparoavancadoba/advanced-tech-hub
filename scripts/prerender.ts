@@ -434,6 +434,7 @@ function buildLocalConsolidadoContent(local: any) {
   contentHtml += `
   <h2>Principais Serviços</h2>
   <ul>
+    <li><a href="/conserto-de-iphone">Conserto de iPhone</a></li>
     <li><a href="/troca-de-tela">Troca de Tela de Celular</a></li>
     <li><a href="/troca-de-bateria">Substituição de Bateria</a></li>
     <li><a href="/reparo-em-placa">Reparo de Placa Mãe</a></li>
