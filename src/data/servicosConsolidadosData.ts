@@ -37,11 +37,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
 
 
-  
-      { question: "A bateria instalada exibe a saúde nos ajustes?", answer: "Sim. Realizamos o transplante do flex da bateria original para a bateria nova para garantir que a saúde marque 100% nas configurações." },
-      { question: "O conserto de placa do iPhone apaga meus dados?", answer: "O reparo de placa geralmente não afeta a memória, então os dados costumam permanecer intactos, mas é sempre altamente recomendável ter um backup atualizado." }
-    ]
-  },
+
+
+
+
+
 
   "troca-de-tela": {
     slug: "troca-de-tela",
