@@ -137,7 +137,7 @@ export const editorialPostsBatch8: BlogPost[] = [
   },
   {
     slug: "notebook-lento-quando-trocar-ssd-resolve",
-    title: "Notebook Muito Lento: Quando o Upgrade para SSD Realmente Resolve?",
+    title: "Notebook Lento: Quando o SSD Realmente Resolve?",
     h1: "Notebook Lento e Travando: O SSD é Sempre a Solução?",
     metaDescription: "Seu notebook está insuportavelmente lento? Descubra se um upgrade para SSD vai resolver o seu problema ou se a lentidão é causada por falta de RAM ou.",
     category: "notebooks",
@@ -209,7 +209,7 @@ export const editorialPostsBatch8: BlogPost[] = [
   },
   {
     slug: "notebook-esquentando-desligando-sozinho",
-    title: "Notebook Esquentando Muito e Desligando Sozinho? Entenda os Riscos",
+    title: "Notebook Esquentando e Desligando Sozinho? Entenda",
     h1: "Notebook Esquentando e Desligando Sozinho: Limpeza e Pasta Térmica",
     metaDescription: "Seu notebook está esquentando muito, fazendo barulho alto de ventoinha ou desligando sozinho durante o uso? Saiba por que isso pode causar danos.",
     category: "notebooks",

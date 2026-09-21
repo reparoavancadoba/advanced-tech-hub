@@ -1,25 +1,24 @@
 const fs = require('fs');
-const path = require('path');
-const file = path.join(process.cwd(), 'scripts/prerender.ts');
 
-let content = fs.readFileSync(file, 'utf8');
+// ITEM 1 & 4: Expanding Institutional Pages HTML in prerender.ts
+let pre = fs.readFileSync('scripts/prerender.ts', 'utf8');
 
-// Fix WA number
-content = content.replace(/5571999999999/g, "5571991981437");
+const htmlHome = `<p>A Reparo Avançado é a sua principal assistência técnica de celular em Salvador. Com laboratório próprio na Boca do Rio, somos especializados no conserto de celular molhado, troca de tela celular e reparo avançado de placas. Se o seu smartphone quebrou, seja um display danificado que precisa de troca de tela iphone ou troca de tela samsung, nós resolvemos com rapidez e excelência. Nossa equipe técnica domina tudo sobre assistência técnica celular, usando peças premium e maquinário de ponta para garantir vida nova ao seu dispositivo. Oferecemos diagnóstico completo e um serviço de confiança para toda a região, consolidando nosso nome em assistência técnica de celular em Salvador.</p>`;
+const htmlServicos = `<p>Descubra todos os consertos que oferecemos em nossa assistência. Realizamos troca de bateria, substituição de tela, reparo avançado de placas, microssoldagem e desoxidação. Seu aparelho está em boas mãos.</p>`;
+const htmlLocais = `<p>Atendemos toda a cidade de Salvador com rapidez e segurança. Se você está na Boca do Rio, Pituba, Imbuí, Caminho das Árvores, Cajazeiras ou outras regiões, conte com nossa assistência técnica perto de você.</p>`;
+const htmlContato = `<p>Fale conosco hoje mesmo. Nosso WhatsApp está disponível para tirar dúvidas, fazer agendamentos e passar pré-orçamentos. O atendimento da nossa assistência técnica é humanizado e ágil para toda Salvador.</p>`;
+const htmlOrcamento = `<h2>Orçamento Conserto Celular: Como Funciona?</h2><p>Solicitar um orçamento conserto celular na Reparo Avançado é muito fácil e transparente.</p><h3>Como funciona o orçamento</h3><p>Nossa equipe realiza uma triagem inicial para entender os sintomas do seu aparelho. O diagnóstico presencial é gratuito e, em muitos casos, passamos a estimativa na hora.</p><h3>O que o cliente precisa informar</h3><p>Para agilizarmos seu atendimento via WhatsApp, pedimos que informe a marca, o modelo exato do aparelho e descreva brevemente o defeito (ex: tela quebrada, não liga, não carrega).</p><h3>Prazo de resposta pelo WhatsApp</h3><p>Nosso tempo médio de resposta pelo WhatsApp é de poucos minutos em horário comercial. Estamos prontos para devolver o seu celular funcionando no menor tempo possível.</p>`;
+const htmlLocalizacao = `<p>Venha conhecer nosso laboratório na Boca do Rio, Salvador. Contamos com um ambiente climatizado, estacionamento acessível e estrutura técnica de última geração para receber você e reparar o seu celular com toda segurança.</p>`;
 
-// Fix duplicate Resumo logic in generatePage
-content = content.replace(
-  /<p><strong>Resumo:<\/strong> \$\{description\}<\/p>\s*\$\{contentHtml\}/, 
-  '${contentHtml}'
-);
+pre = pre.replace(/generatePage\('\/',.*?baseLocalBusinessSchema\);/, `generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência de celular na Boca do Rio, Salvador: conserto de tela, bateria e placa de iPhones e Androids. Orçamento grátis e garantia.', 'Assistência técnica de celular em Salvador', \`${htmlHome}\`, baseLocalBusinessSchema);`);
+pre = pre.replace(/generatePage\('\/servicos',.*?baseLocalBusinessSchema\);/, `generatePage('/servicos', 'Nossos Serviços | Reparo Avançado', 'Conheça os serviços especializados da Reparo Avançado em Salvador: troca de tela, substituição de bateria, banho químico e reparo avançado de placas.', 'Nossos Serviços', \`${htmlServicos}\`, baseLocalBusinessSchema);`);
+pre = pre.replace(/generatePage\('\/locais-de-atendimento',.*?baseLocalBusinessSchema\);/, `generatePage('/locais-de-atendimento', 'Locais de Atendimento | Reparo Avançado', 'Confira todos os bairros e regiões de Salvador atendidos pela Reparo Avançado. Oferecemos assistência técnica especializada para celulares e notebooks.', 'Locais de Atendimento', \`${htmlLocais}\`, baseLocalBusinessSchema);`);
+pre = pre.replace(/generatePage\('\/contato',.*?baseLocalBusinessSchema\);/, `generatePage('/contato', 'Contato e WhatsApp | Reparo Avançado – Boca do Rio, Salvador', 'Entre em contato com a Reparo Avançado pelo WhatsApp ou visite nossa assistência técnica na Boca do Rio, Salvador, para diagnósticos e reparos.', 'Contato', \`${htmlContato}\`, baseLocalBusinessSchema);`);
+pre = pre.replace(/generatePage\('\/orcamento',.*?baseLocalBusinessSchema\);/, `generatePage('/orcamento', 'Orçamento Gratuito | Reparo Avançado', 'Solicite um orçamento gratuito e sem compromisso para o conserto do seu celular em Salvador. Reparos rápidos, peças originais e garantia de 90 dias.', 'Orçamento Gratuito', \`${htmlOrcamento}\`, baseLocalBusinessSchema);`);
+pre = pre.replace(/generatePage\('\/localizacao',.*?baseLocalBusinessSchema\);/, `generatePage('/localizacao', 'Nossa Localização | Reparo Avançado', 'Veja como chegar na Reparo Avançado. Assistência técnica especializada localizada na Rua Abelardo Andrade de Carvalho, 8, Boca do Rio, Salvador - BA.', 'Nossa Localização', \`${htmlLocalizacao}\`, baseLocalBusinessSchema);`);
 
-// Fix mojibake
-// We'll just replace the whole blocks that have mojibake because the file might be read with weird chars
-content = content.replace(/if\s*\(post.tldr\)\s*contentHtml\s*\+=\s*`<h2>.*?<\/h2><p>\$\{post.tldr\}<\/p>`;/, 'if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;');
-content = content.replace(/<h2>Solu.*?nica da Reparo Avan.*?o<\/h2>/, '<h2>Solução Técnica da Reparo Avançado</h2>');
-content = content.replace(/<h2>Quando Procurar a Reparo Avan.*?o<\/h2>/, '<h2>Quando Procurar a Reparo Avançado</h2>');
-content = content.replace(/<h2>D.*?vidas Frequentes \(FAQ\)<\/h2>/, '<h2>Dúvidas Frequentes (FAQ)</h2>');
-content = content.replace(/>Fale com um T.*?cnico no WhatsApp</, '>Fale com um Técnico no WhatsApp<');
+// ITEM 2: Remove | Na Hora & Garantia
+pre = pre.replace(/const title = \`\$\{servico\.title\} \| Na Hora & Garantia\`;/g, 'const title = servico.title;');
 
-fs.writeFileSync(file, content, 'utf8');
-console.log("Fixed prerender.ts");
+fs.writeFileSync('scripts/prerender.ts', pre);
+console.log('Updated prerender.ts');

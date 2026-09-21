@@ -3,7 +3,7 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch10: BlogPost[] = [
   {
     slug: "celular-carregamento-sem-fio-nao-funciona-salvador",
-    title: "Carregamento Sem Fio (Wireless/MagSafe) Não Funciona? Veja as Causas",
+    title: "Carregamento Sem Fio Não Funciona? Veja as Causas",
     h1: "Celular Não Carrega no Carregador Sem Fio (Wireless ou MagSafe)",
     metaDescription: "Colocou o iPhone ou Samsung no carregador sem fio e não carrega ou carrega muito lento? Entenda as causas (bobina, capinha, alinhamento) e a solução técnica.",
     category: "conserto",
@@ -75,7 +75,7 @@ export const editorialPostsBatch10: BlogPost[] = [
   },
   {
     slug: "vidro-traseiro-samsung-quebrado-troca-salvador",
-    title: "Vidro Traseiro do Samsung Quebrado? Veja Como Consertar Sem Trocar a Placa",
+    title: "Vidro Traseiro do Samsung Quebrado? Como Consertar",
     h1: "Vidro Traseiro do Samsung Galaxy Rachado ou Quebrado",
     metaDescription: "A tampa de vidro traseira do seu Samsung Galaxy trincou ou quebrou? Entenda os riscos de deixar assim e como a troca a laser resolve sem mexer na placa.",
     category: "samsung",

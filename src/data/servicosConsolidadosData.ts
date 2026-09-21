@@ -16,9 +16,36 @@ export interface ServicoConsolidadoData {
 }
 
 export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
+
+  "conserto-de-iphone": {
+    slug: "conserto-de-iphone",
+    title: "Conserto de iPhone em Salvador | Assistência Técnica Apple",
+    metaDescription: "Assistência técnica especializada em iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
+    description: "Assistência técnica especializada em iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
+    shortName: "Conserto de iPhone",
+    h1: "Conserto de iPhone em Salvador",
+    supportedBrands: ["iPhone (Apple)"],
+    problems: ["Tela quebrada", "Bateria viciada", "Placa em curto", "Face ID parou", "Câmera falhando"],
+    solution: "Temos técnicos qualificados para resolver qualquer defeito no seu dispositivo da Apple.",
+    contentHtml: `<p>Procurando por <strong>conserto de iphone salvador</strong>? A Reparo Avançado é a sua <strong>assistência técnica iphone</strong> de confiança na Boca do Rio. Temos técnicos qualificados para resolver qualquer defeito no seu dispositivo da Apple.</p>
+    <p>Nossos serviços incluem a substituição de tela com display premium, troca de bateria para recuperar a saúde 100%, manutenção do conector de carga (Lightning/USB-C), conserto de câmera traseira, recuperação de Face ID e reparos de placa que outras assistências condenam.</p>`,
+    faqs: [
+      { question: "Vocês reparam Face ID que parou de funcionar?", answer: "Sim! Somos especialistas no conserto do módulo TrueDepth e Face ID, restaurando a leitura facial do seu iPhone na maioria dos casos sem perder a biometria original." },
+      { question: "A bateria instalada exibe a saúde nos ajustes?", answer: "Sim. Realizamos o transplante do flex da bateria original para a bateria nova para garantir que a saúde marque 100% nas configurações." },
+      { question: "O conserto de placa do iPhone apaga meus dados?", answer: "O reparo de placa geralmente não afeta a memória, então os dados costumam permanecer intactos, mas é sempre altamente recomendável ter um backup atualizado." }
+    ]
+  },
+
+
+  
+      { question: "A bateria instalada exibe a saúde nos ajustes?", answer: "Sim. Realizamos o transplante do flex da bateria original para a bateria nova para garantir que a saúde marque 100% nas configurações." },
+      { question: "O conserto de placa do iPhone apaga meus dados?", answer: "O reparo de placa geralmente não afeta a memória, então os dados costumam permanecer intactos, mas é sempre altamente recomendável ter um backup atualizado." }
+    ]
+  },
+
   "troca-de-tela": {
     slug: "troca-de-tela",
-    title: "Troca de Tela de Celular em Salvador | Peças Premium e Garantia",
+    title: "Troca de Tela de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Tela de Celular",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
     description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, a Reparo Avançado realiza a substituição completa do display com peças premium de alta fidelidade de cores, brilho e sensibilidade.",
@@ -47,7 +74,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "troca-de-bateria": {
     slug: "troca-de-bateria",
-    title: "Troca de Bateria de Celular em Salvador | Saúde 100% | Reparo Avançado",
+    title: "Troca de Bateria de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Bateria de Celular",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
     description: "Restaure a autonomia original do seu smartphone. Substituímos baterias gastas ou estufadas por componentes certificados de alta performance que devolvem a capacidade de carga completa ao aparelho.",
@@ -76,7 +103,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "reparo-em-placa": {
     slug: "reparo-em-placa",
-    title: "Reparo de Placa de Celular em Salvador | Microeletrônica Avançada",
+    title: "Reparo de Placa de Celular em Salvador | Reparo Avançado",
     h1: "Reparo de Placa de Celular em Salvador",
     metaDescription: "especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa de celulares. Recuperamos aparelhos condenados por outras oficinas.",
     description: "Somos um dos poucos laboratórios de Salvador focados em microeletrônica avançada. Recuperamos circuitos internos condenadas por outras oficinas técnicas através de diagnósticos minuciosos por microscópio.",
@@ -105,7 +132,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "conserto-de-celular": {
     slug: "conserto-de-celular",
-    title: "Conserto de Celular em Salvador | assistência técnica Multimarcas",
+    title: "Conserto de Celular em Salvador | Reparo Avançado",
     h1: "Conserto de Celular",
     metaDescription: "assistência técnica completa para celulares em Salvador. conserto de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
     description: "Oferecemos uma gama completa de soluções de conserto para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
@@ -135,7 +162,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "celular-nao-carrega": {
     slug: "celular-nao-carrega",
-    title: "Celular Não Carrega em Salvador | Troca de Conector de Carga",
+    title: "Celular Não Carrega? Conserto em Salvador | Reparo Avançado",
     h1: "Celular Não Carrega ou Mau Contato no Conector",
     metaDescription: "Celular com mau contato para carregar ou erro de umidade? diagnóstico gratuito e troca de conector USB-C ou Lightning na Boca do Rio, Salvador.",
     description: "Se o seu celular só carrega se inclinar o cabo, não reconhece o carregador ou exibe avisos de erro (como presença de umidade no conector), nós resolvemos o problema rapidamente.",
@@ -164,7 +191,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "celular-nao-liga": {
     slug: "celular-nao-liga",
-    title: "Celular Não Liga em Salvador | diagnóstico profissional Gratuito",
+    title: "Celular Não Liga? Conserto em Salvador | Reparo Avançado",
     h1: "Celular Não Liga ou Não Dá Sinais de Vida",
     metaDescription: "Smartphone apagou e não liga mais? Oferecemos diagnóstico 100% gratuito em Salvador (Boca do Rio) para identificar a causa exata e o conserto ideal.",
     description: "Quando um smartphone para de ligar repentinamente, pode ser desde um travamento simples de sistema operacional até falhas graves na placa. Nós oferecemos um diagnóstico gratuito de precisão.",
@@ -193,7 +220,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "celular-caiu-na-agua": {
     slug: "celular-caiu-na-agua",
-    title: "Celular Caiu na Água em Salvador | Desoxidação e Banho Químico",
+    title: "Celular Caiu na Água? Desoxidação em Salvador",
     h1: "Celular Caiu na Água ou Contato com Líquido",
     metaDescription: "Celular molhou na piscina, chuva ou no mar? Faça desoxidação profissional imediata. NÃO use arroz! Atendimento de urgência em Salvador.",
     description: "A infiltração de água e, principalmente, da maresia e do sal de Salvador nas circuitos internos de celular causa corrosão acelerada. Agir rápido com uma desoxidação química profissional é crucial para salvar o aparelho.",
@@ -223,7 +250,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
 ,
   "conserto-de-tablet": {
     slug: "conserto-de-tablet",
-    title: "Conserto de Tablet em Salvador | Especializados em iPad e Samsung Galaxy Tab",
+    title: "Conserto de Tablet em Salvador | Reparo Avançado",
     metaDescription: "Assistência técnica especializada em conserto de tablet em Salvador. Trocamos tela, bateria e reparamos placa de iPads e Galaxy Tabs com peças de alta qualidade.",
     h1: "Conserto de Tablet em Salvador",
     description: "A Reparo Avançado oferece serviço técnico especializado para tablets das principais marcas. Sabemos o quanto o seu tablet é importante para trabalho, estudo ou entretenimento. Realizamos reparos complexos em placas, troca de telas que sofreram impacto e substituição de baterias viciadas.",
@@ -250,7 +277,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "conserto-de-notebook": {
     slug: "conserto-de-notebook",
-    title: "Conserto de Notebook em Salvador | Upgrade, Limpeza e Reparo de Placa",
+    title: "Conserto de Notebook em Salvador | Reparo Avançado",
     metaDescription: "Assistência técnica para notebooks em Salvador. Fazemos upgrade de SSD/RAM, conserto de carcaça, troca de tela, bateria e manutenção preventiva.",
     h1: "Conserto de Notebook em Salvador",
     description: "Serviço completo de manutenção de notebooks. De upgrades para deixar a máquina mais rápida até reparos avançados na placa-mãe. Se o seu notebook está esquentando muito, lento, ou se a carcaça/dobradiça quebrou, nós temos a solução adequada com garantia e segurança.",
@@ -282,6 +309,7 @@ export function getConsolidatedServiceBySlug(slug: string): ServicoConsolidadoDa
   return servicosConsolidados[slug];
 }
 export const servicesHubList = [
+  { slug: "conserto-de-iphone", name: "Conserto de iPhone", desc: "Especialista Apple: Tela, Bateria 100%, Face ID e Placa.", iconName: "Smartphone" },
   { slug: "troca-de-tela", name: "Troca de Tela", desc: "Telas premium AMOLED/OLED. Cores vivas e touch perfeito.", iconName: "Smartphone" },
   { slug: "troca-de-bateria", name: "Troca de Bateria", desc: "Restauração de saúde 100% sem erros de sistema.", iconName: "Battery" },
   { slug: "reparo-em-placa", name: "conserto em placa", desc: "Micro-soldagem e eletrônica de alta complexidade.", iconName: "Cpu" },
