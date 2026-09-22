@@ -24,7 +24,7 @@ const NewSpecialty = () => (
           <div key={i} className="bg-[#0f172a] p-6 md:p-8 flex flex-col hover:bg-[#131d36] transition-colors">
             <span className="text-[#0066FF] font-mono text-xs font-bold mb-4">{feat.num}</span>
             <h3 className="text-base font-bold text-slate-100 mb-2">{feat.title}</h3>
-            <p className="text-slate-400 text-sm leading-relaxed">{feat.desc}</p>
+            <p className="text-slate-500 text-sm leading-relaxed">{feat.desc}</p>
           </div>
         ))}
       </div>

@@ -53,7 +53,7 @@ const GuiaAssistencia = () => {
 
           {/* Intro - Quebra de densidade de texto */}
           <div className="mb-16">
-            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+            <p className="text-center text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed">
               Ficar com o celular quebrado ou apresentando falhas é sempre um grande transtorno. Seja para trabalho, 
               comunicação com a família ou lazer, os smartphones hoje são ferramentas indispensáveis. Quando surge um problema, 
               a escolha de uma <strong>assistência técnica em Salvador</strong> de confiança é crucial para garantir que o seu aparelho 
@@ -66,7 +66,7 @@ const GuiaAssistencia = () => {
                   <Search className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground text-lg mb-2">Diagnóstico Detalhado</h3>
-                <p className="text-sm text-muted-foreground">Avaliação técnica precisa antes de qualquer intervenção no seu aparelho.</p>
+                <p className="text-sm text-foreground/80">Avaliação técnica precisa antes de qualquer intervenção no seu aparelho.</p>
               </div>
               
               <div className="bg-card/30 border border-border p-6 rounded-2xl flex flex-col items-center text-center hover:bg-card/50 transition-colors">
@@ -74,7 +74,7 @@ const GuiaAssistencia = () => {
                   <DollarSign className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground text-lg mb-2">Orçamento Transparente</h3>
-                <p className="text-sm text-muted-foreground">Valores justos e sem surpresas na hora de realizar o pagamento.</p>
+                <p className="text-sm text-foreground/80">Valores justos e sem surpresas na hora de realizar o pagamento.</p>
               </div>
 
               <div className="bg-card/30 border border-border p-6 rounded-2xl flex flex-col items-center text-center hover:bg-card/50 transition-colors">
@@ -82,7 +82,7 @@ const GuiaAssistencia = () => {
                   <ShieldCheck className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground text-lg mb-2">Garantia de 90 Dias</h3>
-                <p className="text-sm text-muted-foreground">Segurança total e suporte garantido em todos os serviços executados.</p>
+                <p className="text-sm text-foreground/80">Segurança total e suporte garantido em todos os serviços executados.</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ const GuiaAssistencia = () => {
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0" />
                 Troca de Tela de Celular
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-foreground/80 leading-relaxed">
                 A tela é a interface principal do seu dispositivo e, por ser de vidro, o componente mais vulnerável a acidentes cotidianos. 
                 Se a tela do seu aparelho trincou, quebrou, apresenta manchas escuras ou o touch screen parou de responder, nós podemos ajudar. 
                 Realizamos a <Link to="/troca-de-tela" className="text-primary hover:underline font-semibold">Troca de Tela</Link> utilizando 
@@ -114,7 +114,7 @@ const GuiaAssistencia = () => {
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0" />
                 Troca de Bateria com Alta Durabilidade
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-foreground/80 leading-relaxed">
                 Você percebeu que a bateria do seu celular descarrega rápido, o aparelho desliga sozinho mesmo com carga ou a carcaça parece 
                 estar estufando? Estes são sintomas clássicos de desgaste. A 
                 <Link to="/troca-de-bateria" className="text-primary hover:underline font-semibold"> Troca de Bateria</Link> é recomendada quando a 
@@ -128,7 +128,7 @@ const GuiaAssistencia = () => {
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0" />
                 Reparo de Placa: Microeletrônica Avançada
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-foreground/80 leading-relaxed">
                 Muitas assistências tradicionais costumam condenar celulares que não ligam ou que tiveram contato com líquidos. 
                 Na Reparo Avançado, somos especialistas em 
                 <Link to="/reparo-em-placa" className="text-primary hover:underline font-semibold"> Reparo de Placa</Link>. Nosso laboratório é 
@@ -192,11 +192,11 @@ const GuiaAssistencia = () => {
           <h2 className="text-3xl font-extrabold text-foreground mb-6">
             Onde Estamos: Atendimento Presencial
           </h2>
-          <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+          <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
             Nossa sede física está localizada na <strong>Boca do Rio</strong>, um ponto estratégico de fácil acesso para quem mora ou trabalha em Salvador. 
             Se você reside em bairros como Pituba, Imbuí, Stiep ou Costa Azul, nosso endereço oferece rotas simples e estacionamento conveniente.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-foreground/80 leading-relaxed">
             Você pode consultar todos os <Link to="/locais-de-atendimento" className="text-primary hover:underline font-semibold">Locais de Atendimento</Link> em 
             nosso site. Visite também o nosso <Link to="/blog" className="text-primary hover:underline font-semibold">Blog</Link> para dicas técnicas. 
             Oferecemos serviço rápido: trocas de tela e bateria geralmente são feitas em <strong>menos de 1 hora!</strong>

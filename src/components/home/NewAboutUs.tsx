@@ -3,7 +3,7 @@ const NewAboutUs = () => (
     <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-6 md:gap-8">
       <div className="flex-1 w-full">
         <div className="aspect-video md:aspect-square bg-zinc-50 rounded-2xl overflow-hidden shadow-lg border border-zinc-200 flex items-center justify-center">
-          <img src="/images/fachada-loja.jpg" alt="Fachada da loja Reparo Avançado" className="w-full h-full object-cover" />
+          <img src="/images/fachada-loja.jpg" alt="Fachada da loja Reparo Avançado" className="w-full h-full object-cover" loading="lazy" width={400} height={300} />
         </div>
       </div>
       <div className="flex-1 space-y-6">

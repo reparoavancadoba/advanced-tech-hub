@@ -9,8 +9,13 @@ const HeroSection = () => {
       {/* Fundo: foto da loja + overlay escuro, igual à LP */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/HERO (2).png"
+          src="/hero-desktop.webp"
+          srcSet="/hero-mobile.webp 800w, /hero-desktop.webp 1672w"
+          sizes="(max-width: 800px) 100vw, 1672px"
           alt="Fachada Reparo Avançado"
+          width={1672}
+          height={941}
+          fetchPriority="high"
           className="w-full h-full object-cover object-center md:object-right-top"
         />
         <div className="absolute inset-0 bg-[#0a0f18]/70 md:bg-gradient-to-r md:from-[#0a0f18]/95 md:via-[#0a0f18]/70 md:to-[#0a0f18]/40" />
@@ -60,22 +65,22 @@ const HeroSection = () => {
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <Star className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
             <span className="font-bold text-xs sm:text-sm text-white leading-tight">Desde 2018</span>
-            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">de experiência</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-300 mt-1">de experiência</span>
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <MessageSquare className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
             <span className="font-bold text-xs sm:text-sm text-white leading-tight">+164 avaliações</span>
-            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-tight">5 estrelas no Google</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-300 mt-1 leading-tight">5 estrelas no Google</span>
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <BadgeCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
             <span className="font-bold text-xs sm:text-sm text-white leading-tight">Peças de</span>
-            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">qualidade</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-300 mt-1">qualidade</span>
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <ShieldCheck className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
             <span className="font-bold text-xs sm:text-sm text-white leading-tight">Garantia no</span>
-            <span className="text-[10px] sm:text-[11px] text-slate-400 mt-1">serviço</span>
+            <span className="text-[10px] sm:text-[11px] text-slate-300 mt-1">serviço</span>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const Orcamento = () => {
             <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6">
               Orçamento <span className="text-gradient">Gratuito</span> para Conserto de Celular
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
+            <p className="text-lg md:text-xl text-foreground/80 mb-10 leading-relaxed">
               Fale agora com um profissional qualificado e receba o valor exato do conserto do seu aparelho. Sem compromisso, sem pegadinhas.
             </p>
             <a
@@ -85,7 +85,7 @@ const Orcamento = () => {
                   <b.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{b.title}</h3>
-                <p className="text-sm text-muted-foreground">{b.desc}</p>
+                <p className="text-sm text-foreground/80">{b.desc}</p>
               </div>
             ))}
           </div>
@@ -108,7 +108,7 @@ const Orcamento = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.desc}</p>
+                  <p className="text-foreground/80 text-sm">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -121,8 +121,8 @@ const Orcamento = () => {
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <div className="bg-card border-2 border-whatsapp/30 rounded-2xl p-8 shadow-lg">
             <p className="text-2xl font-bold mb-2">✅ Mais de 5.000 aparelhos reparados</p>
-            <p className="text-muted-foreground text-sm mb-1">⭐ Avaliação 5.0/5 · 153 avaliações no Google</p>
-            <p className="text-xs text-muted-foreground mb-6">experiência desde 2018 em Salvador - BA</p>
+            <p className="text-foreground/80 text-sm mb-1">⭐ Avaliação 5.0/5 · 153 avaliações no Google</p>
+            <p className="text-xs text-foreground/80 mb-6">experiência desde 2018 em Salvador - BA</p>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

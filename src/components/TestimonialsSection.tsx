@@ -75,7 +75,7 @@ const TestimonialsSection = () => {
                     </div>
                     <div>
                       <p className="font-bold text-foreground">{t.name}</p>
-                      <p className="text-muted-foreground text-xs">{t.time}</p>
+                      <p className="text-foreground/80 text-xs">{t.time}</p>
                     </div>
                   </div>
                   <div className="flex gap-0.5 mb-3">
@@ -83,7 +83,7 @@ const TestimonialsSection = () => {
                       <Star key={i} className="w-5 h-5 fill-gold text-gold" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{t.text}</p>
+                  <p className="text-foreground/80 text-sm leading-relaxed">{t.text}</p>
                 </div>
               </div>
             ))}

@@ -68,7 +68,7 @@ const ProgrammaticSEO = () => {
         <h2 className="text-3xl font-bold mb-6">
           {variant === 0 ? `Precisando de ${servico.shortName.toLowerCase()} no bairro ${bairro.name}?` : `A Solução Definitiva em ${servico.name} para ${bairro.name}`}
         </h2>
-        <div className="space-y-4 text-lg text-muted-foreground">
+        <div className="space-y-4 text-lg text-foreground/80">
           <p>{introTexts[variant]}</p>
           <p>
             Sabemos que ficar com o aparelho defeituoso gera muita dor de cabeça. Por isso, oferecemos um serviço ágil para solucionar problemas relacionados a <strong>{servico.shortName.toLowerCase()}</strong>. Utilizamos peças de reposição com qualidade garantida para assegurar a máxima durabilidade do reparo.
@@ -88,21 +88,21 @@ const ProgrammaticSEO = () => {
             <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">1</div>
             <div>
               <h4 className="font-bold text-foreground">Contato Imediato</h4>
-              <p className="text-sm text-muted-foreground">Clique no WhatsApp. Nossa equipe responderá super rápido para agilizar seu atendimento vindo de {bairro.name}.</p>
+              <p className="text-sm text-foreground/80">Clique no WhatsApp. Nossa equipe responderá super rápido para agilizar seu atendimento vindo de {bairro.name}.</p>
             </div>
           </li>
           <li className="flex gap-4">
             <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">2</div>
             <div>
               <h4 className="font-bold text-foreground">Orçamento Transparente</h4>
-              <p className="text-sm text-muted-foreground">Diagnóstico técnico rigoroso. Você saberá exatamente o que será feito e o valor, sem surpresas.</p>
+              <p className="text-sm text-foreground/80">Diagnóstico técnico rigoroso. Você saberá exatamente o que será feito e o valor, sem surpresas.</p>
             </div>
           </li>
           <li className="flex gap-4">
             <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">3</div>
             <div>
               <h4 className="font-bold text-foreground">Reparo e Entrega</h4>
-              <p className="text-sm text-muted-foreground">Conserto executado no laboratório. Você sai com seu aparelho funcionando e com certificado de garantia.</p>
+              <p className="text-sm text-foreground/80">Conserto executado no laboratório. Você sai com seu aparelho funcionando e com certificado de garantia.</p>
             </div>
           </li>
         </ul>
@@ -120,13 +120,13 @@ const ProgrammaticSEO = () => {
           <h2 className="text-3xl font-bold mb-4 flex items-center justify-center gap-2">
             <HelpCircle className="w-8 h-8 text-primary" /> Dúvidas Frequentes
           </h2>
-          <p className="text-muted-foreground">Respostas rápidas para clientes de {bairro.name} sobre {servico.shortName.toLowerCase()}.</p>
+          <p className="text-foreground/80">Respostas rápidas para clientes de {bairro.name} sobre {servico.shortName.toLowerCase()}.</p>
         </div>
         <div className="space-y-4">
           {faqs.map((f, i) => (
             <div key={i} className="bg-card border border-border p-6 rounded-2xl">
               <h3 className="font-bold text-lg mb-2">{f.q}</h3>
-              <p className="text-muted-foreground">{f.a}</p>
+              <p className="text-foreground/80">{f.a}</p>
             </div>
           ))}
         </div>
@@ -196,7 +196,7 @@ const ProgrammaticSEO = () => {
               </h1>
             )}
 
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-medium">
+            <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-2xl mx-auto font-medium">
               {servico.description}
             </p>
             
@@ -210,7 +210,7 @@ const ProgrammaticSEO = () => {
                 <MessageCircle className="w-6 h-6" />
                 Fazer Orçamento Grátis
               </a>
-              <div className="text-sm font-medium text-muted-foreground flex items-center gap-2">
+              <div className="text-sm font-medium text-foreground/80 flex items-center gap-2">
                 <Clock className="w-4 h-4 text-primary" /> Resposta em até 5 min
               </div>
             </div>
@@ -243,7 +243,7 @@ const ProgrammaticSEO = () => {
       <section className="py-16 bg-primary/5 border-b border-primary/10">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h2 className="text-3xl font-bold mb-4">Pronto para resolver o problema do seu aparelho?</h2>
-          <p className="text-lg text-muted-foreground mb-8">Moradores de {bairro.name} têm atendimento priorizado. Nossa equipe está online agora no WhatsApp pronta para receber seu contato.</p>
+          <p className="text-lg text-foreground/80 mb-8">Moradores de {bairro.name} têm atendimento priorizado. Nossa equipe está online agora no WhatsApp pronta para receber seu contato.</p>
           <a
             href={waLink}
             target="_blank"

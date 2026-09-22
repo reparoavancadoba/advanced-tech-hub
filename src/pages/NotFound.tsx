@@ -19,7 +19,7 @@ const NotFound = () => {
       <div className="flex flex-col min-h-[60vh] items-center justify-center bg-background px-4">
         <div className="text-center max-w-md">
           <h1 className="mb-4 text-6xl font-bold text-primary">404</h1>
-          <p className="mb-6 text-xl text-muted-foreground">Ops! A página que você tentou acessar não existe ou foi movida.</p>
+          <p className="mb-6 text-xl text-foreground/80">Ops! A página que você tentou acessar não existe ou foi movida.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/" className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
               Voltar ao Início
