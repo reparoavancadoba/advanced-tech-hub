@@ -45,7 +45,7 @@ const Blog = () => {
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
             Blog da <span className="text-gradient">Reparo Avançado</span>
           </h1>
-          <p className="text-lg text-foreground/80 mb-10 max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
             Guias práticos, diagnósticos e soluções reais para os problemas mais comuns do seu smartphone. Tudo escrito por especialistas em microeletrônica.
           </p>
 
@@ -53,7 +53,7 @@ const Blog = () => {
           <div className="max-w-2xl mx-auto relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-blue-600 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative flex items-center bg-card rounded-2xl border border-border shadow-lg p-2">
-              <Search className="w-6 h-6 text-foreground/80 ml-4" />
+              <Search className="w-6 h-6 text-muted-foreground ml-4" />
               <input
                 type="text"
                 placeholder="Busque por 'tela quebrada', 'bateria', 'iPhone 13'..."
@@ -74,7 +74,7 @@ const Blog = () => {
             className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
               activeCategory === "all"
                 ? "bg-primary text-primary-foreground shadow-md scale-105"
-                : "bg-card border border-border text-foreground/80 hover:border-primary/50 hover:text-foreground"
+                : "bg-card border border-border text-muted-foreground hover:border-primary/50 hover:text-foreground"
             }`}
           >
             Todos
@@ -86,7 +86,7 @@ const Blog = () => {
               className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
                 activeCategory === cat
                   ? "bg-primary text-primary-foreground shadow-md scale-105"
-                  : "bg-card border border-border text-foreground/80 hover:border-primary/50 hover:text-foreground"
+                  : "bg-card border border-border text-muted-foreground hover:border-primary/50 hover:text-foreground"
               }`}
             >
               {categoryLabels[cat]}
@@ -96,7 +96,7 @@ const Blog = () => {
 
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-bold">Artigos Recentes</h2>
-          <p className="text-sm text-foreground/80 font-medium">{filtered.length} encontrados</p>
+          <p className="text-sm text-muted-foreground font-medium">{filtered.length} encontrados</p>
         </div>
 
         {/* Posts Grid - Modern Cards */}
@@ -120,7 +120,7 @@ const Blog = () => {
                   {post.h1}
                 </h3>
                 
-                <p className="text-sm text-foreground/80 mb-8 flex-1 line-clamp-3 leading-relaxed">
+                <p className="text-sm text-muted-foreground mb-8 flex-1 line-clamp-3 leading-relaxed">
                   {post.metaDescription}
                 </p>
                 
@@ -144,7 +144,7 @@ const Blog = () => {
                 Anterior
               </button>
             )}
-            <span className="text-sm font-medium text-foreground/80">
+            <span className="text-sm font-medium text-muted-foreground">
               Página <strong className="text-foreground">{page}</strong> de {totalPages}
             </span>
             {page < totalPages && (

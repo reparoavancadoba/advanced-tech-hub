@@ -107,7 +107,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       {/* Breadcrumbs */}
       <div className="bg-secondary/10 border-b border-border py-3">
         <div className="container mx-auto px-4">
-          <nav className="flex items-center gap-2 text-xs text-foreground/80">
+          <nav className="flex items-center gap-2 text-xs text-muted-foreground">
             <Link to="/" className="hover:text-foreground">Início</Link>
             <ChevronRight className="w-3 h-3" />
             <Link to="/servicos" className="hover:text-foreground">Serviços</Link>
@@ -127,7 +127,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {service.h1}
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
               {service.description} Oferecemos diagnósticos precisos e conserto com agilidade e alto padrão profissional.
             </p>
             <a
@@ -139,7 +139,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
               <MessageCircle className="w-6 h-6" />
               Solicitar Orçamento no WhatsApp
             </a>
-            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-foreground/80">
+            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4 text-primary" /> Diagnóstico Rápido
               </div>
@@ -161,7 +161,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                   <b.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{b.title}</h3>
-                <p className="text-sm text-foreground/80">{b.desc}</p>
+                <p className="text-sm text-muted-foreground">{b.desc}</p>
               </div>
             ))}
           </div>
@@ -173,8 +173,8 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <div className="bg-card border-2 border-whatsapp/30 rounded-2xl p-8 shadow-lg">
             <p className="text-2xl font-bold mb-2">Orçamento Gratuito e Sem Compromisso</p>
-            <p className="text-foreground/80 text-sm mb-1">Garantia de 90 dias em todos os serviços · Atendimento rápido na Boca do Rio</p>
-            <p className="text-xs text-foreground/80 mb-6">Atendimento imediato pelo WhatsApp</p>
+            <p className="text-muted-foreground text-sm mb-1">Garantia de 90 dias em todos os serviços · Atendimento rápido na Boca do Rio</p>
+            <p className="text-xs text-muted-foreground mb-6">Atendimento imediato pelo WhatsApp</p>
             <a
               href={waLink}
               target="_blank"
@@ -198,14 +198,14 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                 {service.problems.map((prob, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-destructive shrink-0 mt-0.5" />
-                    <span className="text-foreground/80 text-sm leading-relaxed">{prob}</span>
+                    <span className="text-muted-foreground text-sm leading-relaxed">{prob}</span>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
               <h2 className="text-2xl font-bold mb-6 text-foreground">Solução Técnica Avançada</h2>
-              <p className="text-foreground/80 text-sm leading-relaxed mb-6">
+              <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                 {service.solution}
               </p>
               <h3 className="font-bold text-sm uppercase tracking-wider text-primary mb-3">Marcas e Modelos Suportados</h3>
@@ -225,7 +225,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       <section className="py-20 bg-secondary/20 border-t border-border">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold text-center mb-4">Perguntas Frequentes</h2>
-          <p className="text-foreground/80 text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na Reparo Avançado.</p>
+          <p className="text-muted-foreground text-center mb-12">Tire suas dúvidas sobre {service.h1.toLowerCase()} na Reparo Avançado.</p>
           <div className="space-y-6">
             {service.faqs.map((faq, index) => (
               <div key={index} className="bg-card border border-border rounded-2xl p-6">
@@ -233,7 +233,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
                   <span className="text-primary font-extrabold">Q.</span>
                   {faq.question}
                 </h3>
-                <p className="text-foreground/80 text-sm leading-relaxed pl-6 border-l border-primary/20">
+                <p className="text-muted-foreground text-sm leading-relaxed pl-6 border-l border-primary/20">
                   {faq.answer}
                 </p>
               </div>
@@ -246,7 +246,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
       <section className="py-16 border-t border-border bg-background">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-xl font-bold mb-6">Locais de Atendimento em Salvador</h2>
-          <p className="text-sm text-foreground/80 mb-8">Oferecemos atendimento presencial focado para diversos bairros em Salvador de forma prática:</p>
+          <p className="text-sm text-muted-foreground mb-8">Oferecemos atendimento presencial focado para diversos bairros em Salvador de forma prática:</p>
           <div className="flex flex-wrap justify-center gap-2 mb-10">
             {listLocaisConsolidados.map((loc) => (
               <Link

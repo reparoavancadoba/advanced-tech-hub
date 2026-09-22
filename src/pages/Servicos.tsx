@@ -70,7 +70,7 @@ const Servicos = () => {
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
             Nossos <span className="text-gradient">Serviços e Especialidades</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 mb-8">
+          <p className="text-lg md:text-xl text-muted-foreground mb-8">
             Soluções completas com profissionais profissionais e laboratório moderno. Clique na especialidade desejada para ver informações detalhadas sobre modelos e marcas.
           </p>
           <a
@@ -99,7 +99,7 @@ const Servicos = () => {
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
                     <h3 className="font-bold text-lg mb-2 text-foreground">{service.name}</h3>
-                    <p className="text-foreground/80 text-sm leading-relaxed mb-6">{service.desc}</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed mb-6">{service.desc}</p>
                   </div>
                   <Link
                     to={`/${service.slug}`}
@@ -118,7 +118,7 @@ const Servicos = () => {
       <section className="py-16 bg-secondary/15 border-y border-border">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Bairros de Atendimento Estratégico</h2>
-          <p className="text-foreground/80 mb-8">Atendemos de forma ágil com cobertura local nestes bairros em Salvador:</p>
+          <p className="text-muted-foreground mb-8">Atendemos de forma ágil com cobertura local nestes bairros em Salvador:</p>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             {listLocaisConsolidados.map((local) => (
               <Link
@@ -154,7 +154,7 @@ const Servicos = () => {
                     Artigo Editorial
                   </span>
                   <h3 className="font-bold text-sm text-foreground mb-2 line-clamp-2">{article.h1}</h3>
-                  <p className="text-foreground/80 text-xs leading-relaxed line-clamp-3 mb-4">{article.metaDescription}</p>
+                  <p className="text-muted-foreground text-xs leading-relaxed line-clamp-3 mb-4">{article.metaDescription}</p>
                 </div>
                 <span className="text-primary text-xs font-semibold inline-flex items-center gap-0.5">
                   Ler artigo completo <ChevronRight className="w-3.5 h-3.5" />
@@ -202,7 +202,7 @@ const Servicos = () => {
                 <HelpCircle className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-foreground text-base mb-1.5">{faq.q}</h3>
-                  <p className="text-foreground/80 text-sm leading-relaxed">{faq.a}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{faq.a}</p>
                 </div>
               </div>
             ))}

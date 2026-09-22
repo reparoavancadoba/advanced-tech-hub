@@ -19,7 +19,13 @@ if (!fs.existsSync(indexHtmlPath)) {
   process.exit(1);
 }
 
-const template = fs.readFileSync(indexHtmlPath, 'utf-8');
+let template = fs.readFileSync(indexHtmlPath, 'utf-8');
+    const distAssets = fs.readdirSync(path.resolve(__dirname, '../dist/assets'));
+    const cssFile = distAssets.find(f => f.endsWith('.css'));
+    if (cssFile) {
+      const cssContent = fs.readFileSync(path.resolve(__dirname, '../dist/assets', cssFile), 'utf-8');
+      template = template.replace(/<link rel="stylesheet"[^>]*>/, '<style>' + cssContent + '</style>');
+    }
 const DOMAIN = 'https://site.reparoavancado.com.br';
 const WA_NUMBER = businessInfo.whatsapp;
 

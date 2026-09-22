@@ -51,7 +51,7 @@ const Contato = () => {
             <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6">
               Fale com a <span className="text-gradient">Reparo Avançado</span>
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-10 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
               Estamos prontos para atender você. Escolha o canal mais conveniente e entre em contato agora mesmo.
             </p>
           </div>
@@ -74,7 +74,7 @@ const Contato = () => {
                 <MessageCircle className="w-8 h-8 text-whatsapp" />
               </div>
               <h2 className="font-bold text-xl mb-2">WhatsApp</h2>
-              <p className="text-foreground/80 text-sm mb-3">Atendimento mais rápido</p>
+              <p className="text-muted-foreground text-sm mb-3">Atendimento mais rápido</p>
               <span className="text-whatsapp font-bold">(71) 99198-1437</span>
             </a>
 
@@ -88,7 +88,7 @@ const Contato = () => {
                 <Phone className="w-8 h-8 text-primary" />
               </div>
               <h2 className="font-bold text-xl mb-2">Telefone</h2>
-              <p className="text-foreground/80 text-sm mb-3">Ligue diretamente</p>
+              <p className="text-muted-foreground text-sm mb-3">Ligue diretamente</p>
               <span className="text-primary font-bold">(71) 99198-1437</span>
             </a>
 
@@ -104,7 +104,7 @@ const Contato = () => {
                 <Instagram className="w-8 h-8 text-pink-500" />
               </div>
               <h2 className="font-bold text-xl mb-2">Instagram</h2>
-              <p className="text-foreground/80 text-sm mb-3">Acompanhe nosso trabalho</p>
+              <p className="text-muted-foreground text-sm mb-3">Acompanhe nosso trabalho</p>
               <span className="text-pink-500 font-bold">@reparoavancadoba</span>
             </a>
           </div>
@@ -117,14 +117,14 @@ const Contato = () => {
           <div className="grid md:grid-cols-1 sm:grid-cols-2 gap-10">
             <div>
               <h2 className="text-2xl font-bold mb-6">Endereço</h2>
-              <div className="flex items-start gap-3 text-foreground/80">
+              <div className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <p>R. Abelardo Andrade de Carvalho, 8 – Boca do Rio, Salvador – BA, 41706-710</p>
               </div>
             </div>
             <div>
               <h2 className="text-2xl font-bold mb-6">Horário de Funcionamento</h2>
-              <div className="space-y-3 text-foreground/80 text-sm">
+              <div className="space-y-3 text-muted-foreground text-sm">
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary shrink-0" />
                   <span><strong className="text-foreground">Seg a Sex:</strong> 8h às 18h</span>
@@ -134,7 +134,7 @@ const Contato = () => {
                   <span><strong className="text-foreground">Sábado:</strong> 8h às 17h</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Clock className="w-5 h-5 text-foreground/80 shrink-0" />
+                  <Clock className="w-5 h-5 text-muted-foreground shrink-0" />
                   <span>Domingo: Fechado</span>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const Contato = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <h2 className="text-2xl font-bold mb-4">Precisa de ajuda agora?</h2>
-          <p className="text-foreground/80 mb-8">O jeito mais rápido de resolver é pelo WhatsApp. Resposta em até 5 minutos.</p>
+          <p className="text-muted-foreground mb-8">O jeito mais rápido de resolver é pelo WhatsApp. Resposta em até 5 minutos.</p>
           <a
             href={WHATSAPP_LINK}
             target="_blank"

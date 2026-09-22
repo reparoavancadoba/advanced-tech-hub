@@ -50,7 +50,7 @@ const DetailedServicesSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Todos os <span className="text-gradient">Serviços</span>
         </h2>
-        <p className="text-foreground/80 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
           Somos profissionais em todos os tipos de reparo. Peças premium, garantia em todos os serviços e atendimento rápido na Boca do Rio, Salvador.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
@@ -67,7 +67,7 @@ const DetailedServicesSection = () => {
                   <Icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-sm font-bold text-foreground mb-1">{service.name}</h3>
-                <p className="text-xs text-foreground/80 mb-3 flex-1 line-clamp-2">{service.desc}</p>
+                <p className="text-xs text-muted-foreground mb-3 flex-1 line-clamp-2">{service.desc}</p>
                 <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary group-hover:underline">
                   Ver serviço <ChevronRight className="w-3 h-3" />
                 </span>

@@ -14,7 +14,7 @@ const GallerySection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {images.map((img, idx) => (
             <div key={idx} className="rounded-xl overflow-hidden aspect-video bg-zinc-800">
-              <img src={img} alt={`Galeria ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy" width={400} height={300} />
+              <img src={img} alt={`Galeria ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy" width={600} height={400} />
             </div>
           ))}
         </div>

@@ -25,7 +25,7 @@ const LocaisDeAtendimento = () => {
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Locais de Atendimento em <span className="text-gradient">Salvador</span>
           </h1>
-          <p className="text-foreground/80 text-lg">
+          <p className="text-muted-foreground text-lg">
             Consolidação de atendimento local. Selecione a sua região para obter direções, horários de atendimento e conserto de celulares em Salvador próximo a você.
           </p>
         </div>
@@ -42,7 +42,7 @@ const LocaisDeAtendimento = () => {
                     <MapPin className="w-5 h-5 text-primary" />
                     <h2 className="text-xl font-bold text-foreground">{local.h1.replace("assistência técnica de celular na ", "").replace("assistência técnica de celular em ", "")}</h2>
                   </div>
-                  <p className="text-sm text-foreground/80 mb-6">
+                  <p className="text-sm text-muted-foreground mb-6">
                     {local.description}
                   </p>
                   
@@ -51,7 +51,7 @@ const LocaisDeAtendimento = () => {
                     <span className="text-xs font-bold text-primary uppercase tracking-wider block mb-3">Serviços Disponíveis</span>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {servicesHubList.slice(0, 4).map((serv) => (
-                        <li key={serv.slug} className="flex items-center gap-1.5 text-xs text-foreground/80">
+                        <li key={serv.slug} className="flex items-center gap-1.5 text-xs text-muted-foreground">
                           <Check className="w-3.5 h-3.5 text-whatsapp shrink-0" />
                           <Link to={`/${serv.slug}`} className="hover:text-primary hover:underline transition-colors">
                             {serv.name}

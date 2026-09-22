@@ -69,7 +69,7 @@ const Atendimento = () => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {servico.name} no <span className="text-gradient">{bairro.name}</span>
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8">
               {servico.description} Atendimento rápido para moradores do {bairro.name} e região, com peças de alta performance e garantia formal.
             </p>
             <a
@@ -81,7 +81,7 @@ const Atendimento = () => {
               <MessageCircle className="w-6 h-6" />
               Solicitar orçamento no WhatsApp
             </a>
-            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-foreground/80">
+            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
                 <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" /> 5.0 ★
               </div>
@@ -106,7 +106,7 @@ const Atendimento = () => {
                   <b.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{b.title}</h3>
-                <p className="text-sm text-foreground/80">{b.desc}</p>
+                <p className="text-sm text-muted-foreground">{b.desc}</p>
               </div>
             ))}
           </div>
@@ -119,16 +119,16 @@ const Atendimento = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             {servico.name} no {bairro.name}: atendimento presencial presencial
           </h2>
-          <p className="text-foreground/80 mb-4">
+          <p className="text-muted-foreground mb-4">
             Se você mora na região de <strong>{bairro.name}</strong> e está buscando equipe em <strong>{servico.shortName.toLowerCase()}</strong>, a Reparo Avançado oferece o atendimento mais rápido de Salvador. Somos referência em <strong>{servico.shortName.toLowerCase()} no {bairro.name}</strong>, com tradição desde 2018 e mais de 153 avaliações reais 5.0 ⭐.
           </p>
-          <p className="text-foreground/80 mb-4">
+          <p className="text-muted-foreground mb-4">
             Cada serviço de <strong>{servico.shortName.toLowerCase()}</strong> realizado para clientes do <strong>{bairro.name}</strong> segue um padrão atendimento comercial rigoroso, com peças de alta performance e Reparo Avançado. Diferente das lojas comuns do {bairro.name}, entregamos seu aparelho funcionando como novo, sem improvisos.
           </p>
           <h3 className="text-xl font-bold mt-8 mb-3">
             Por que escolher nossa {servico.shortName.toLowerCase()} no {bairro.name}?
           </h3>
-          <p className="text-foreground/80 mb-4">
+          <p className="text-muted-foreground mb-4">
             Atendemos moradores do <strong>{bairro.name}</strong> e bairros vizinhos com agilidade total. Ao solicitar {servico.shortName.toLowerCase()} no {bairro.name}, você recebe avaliação atendimento comercial, orçamento transparente sem surpresas e garantia formal por escrito. O contato é direto via WhatsApp — tire suas dúvidas sobre {servico.shortName.toLowerCase()} em minutos e agende seu atendimento no {bairro.name} hoje mesmo.
           </p>
           <div className="text-center mt-10">
@@ -159,7 +159,7 @@ const Atendimento = () => {
       {/* Internal links */}
       <section className="py-12 border-t border-border">
         <div className="container mx-auto px-4">
-          <p className="text-center text-sm text-foreground/80 mb-4">Veja outros serviços disponíveis no {bairro.name}:</p>
+          <p className="text-center text-sm text-muted-foreground mb-4">Veja outros serviços disponíveis no {bairro.name}:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {servicosLocais
               .filter((s) => s.slug !== servico.slug)

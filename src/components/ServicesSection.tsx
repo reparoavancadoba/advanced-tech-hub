@@ -40,7 +40,7 @@ const ServicesSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Nossos <span className="text-gradient">Serviços</span>
         </h2>
-        <p className="text-foreground/80 text-center mb-12 max-w-xl mx-auto">
+        <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto">
           Escolha a categoria e fale direto com nosso profissional
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -55,11 +55,11 @@ const ServicesSection = () => {
                   alt={service.label}
                   className="max-h-full max-w-full object-contain mix-blend-screen"
                   loading="lazy"
-                / width={400} height={300}>
+                />
               </div>
               <div className="p-5 flex flex-col flex-1">
                 <h3 className="text-lg font-bold mb-2 text-foreground">{service.label}</h3>
-                <p className="text-foreground/80 text-sm mb-5 flex-1">{service.text}</p>
+                <p className="text-muted-foreground text-sm mb-5 flex-1">{service.text}</p>
                 <a
                   href={service.whatsapp}
                   target="_blank"

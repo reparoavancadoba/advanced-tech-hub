@@ -23,7 +23,7 @@ const NewWhatWeDo = () => (
           Serviço rápido,{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">direto na loja.</span>
         </h2>
-        <p className="text-slate-500 mt-2 max-w-md text-sm">
+        <p className="text-slate-400 mt-2 max-w-md text-sm">
           Chame no WhatsApp, combine o horário e conte com nossa equipe pra cuidar do seu aparelho em Salvador.
         </p>
       </div>
@@ -40,7 +40,7 @@ const NewWhatWeDo = () => (
             </div>
             <div>
               <h3 className="font-bold text-slate-100 text-sm mb-0.5">{svc.name}</h3>
-              <p className="text-slate-500 text-xs">{svc.desc}</p>
+              <p className="text-slate-400 text-xs">{svc.desc}</p>
             </div>
           </Link>
         ))}

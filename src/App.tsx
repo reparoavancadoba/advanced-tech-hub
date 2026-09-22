@@ -30,7 +30,7 @@ const Loader = () => (
   <div className="min-h-screen flex items-center justify-center bg-[#0a0f18] text-white">
     <div className="animate-pulse flex flex-col items-center">
       <div className="w-12 h-12 border-4 border-[#3b82f6] border-t-transparent rounded-full animate-spin"></div>
-      <span className="mt-4 text-sm text-slate-500">Carregando...</span>
+      <span className="mt-4 text-sm text-slate-400">Carregando...</span>
     </div>
   </div>
 );

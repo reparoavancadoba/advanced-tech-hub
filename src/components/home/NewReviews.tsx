@@ -33,7 +33,7 @@ const NewReviews = () => {
           Quem já passou aqui{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">conta como foi.</span>
         </h2>
-        <p className="text-slate-500 mt-2 max-w-md mx-auto md:mx-0 text-sm">
+        <p className="text-slate-400 mt-2 max-w-md mx-auto md:mx-0 text-sm">
           Histórias reais de quem resolveu o problema na nossa loja em Salvador.
         </p>
       </div>
@@ -70,7 +70,7 @@ const NewReviews = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-100 text-sm">{rev.name}</h4>
-                    <p className="text-slate-500 text-xs">Avaliação no Google</p>
+                    <p className="text-slate-400 text-xs">Avaliação no Google</p>
                   </div>
                 </div>
               </div>

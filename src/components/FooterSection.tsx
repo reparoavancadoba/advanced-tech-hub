@@ -21,8 +21,8 @@ const FooterSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Info */}
           <div>
-            <img src={logo} alt="Reparo Avançado" className="h-12 mb-4" loading="lazy" width={400} height={300} />
-            <p className="text-foreground/80 text-sm mb-4">
+            <img src={logo} alt="Reparo Avançado" className="h-12 mb-4" loading="lazy" width={1018} height={392} />
+            <p className="text-muted-foreground text-sm mb-4">
               assistência técnica de celular focada em smartphones e tablets. Experiência desde 2018 em Salvador.
             </p>
             <a
@@ -39,7 +39,7 @@ const FooterSection = () => {
           {/* Contact */}
           <div>
             <h4 className="font-bold text-foreground mb-4">Contato</h4>
-            <ul className="space-y-3 text-sm text-foreground/80">
+            <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710
@@ -63,7 +63,7 @@ const FooterSection = () => {
                 <Link
                   key={b.path}
                   to={b.path}
-                  className="bg-secondary text-foreground/80 hover:bg-primary hover:text-primary-foreground text-xs px-3 py-1.5 rounded-full transition-all"
+                  className="bg-secondary text-muted-foreground hover:bg-primary hover:text-primary-foreground text-xs px-3 py-1.5 rounded-full transition-all"
                 >
                   {b.name}
                 </Link>
@@ -99,7 +99,7 @@ const FooterSection = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-6 border-t border-border text-center text-xs text-foreground/80">
+        <div className="mt-8 pt-6 border-t border-border text-center text-xs text-muted-foreground">
           © {new Date().getFullYear()} Reparo Avançado. Todos os direitos reservados.
         </div>
       </div>

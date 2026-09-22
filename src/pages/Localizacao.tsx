@@ -59,7 +59,7 @@ const Localizacao = () => {
             <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6">
               Nossa <span className="text-gradient">Localização</span>
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-10 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
               Estamos na Boca do Rio, Salvador - BA. Fácil acesso pela Avenida Paralela, Pituba, Imbuí e Costa Azul.
             </p>
           </div>
@@ -78,9 +78,9 @@ const Localizacao = () => {
                   <MapPin className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                   <div>
                     <p className="font-semibold text-foreground">Reparo Avançado</p>
-                    <p className="text-foreground/80 text-sm">R. Abelardo Andrade de Carvalho, 8</p>
-                    <p className="text-foreground/80 text-sm">Boca do Rio, Salvador – BA</p>
-                    <p className="text-foreground/80 text-sm">CEP: 41706-710</p>
+                    <p className="text-muted-foreground text-sm">R. Abelardo Andrade de Carvalho, 8</p>
+                    <p className="text-muted-foreground text-sm">Boca do Rio, Salvador – BA</p>
+                    <p className="text-muted-foreground text-sm">CEP: 41706-710</p>
                   </div>
                 </div>
 
@@ -88,8 +88,8 @@ const Localizacao = () => {
                   <Clock className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                   <div>
                     <p className="font-semibold text-foreground">Horário de Funcionamento</p>
-                    <p className="text-foreground/80 text-sm">Seg a Sex: 8h às 18h</p>
-                    <p className="text-foreground/80 text-sm">Sábado: 8h às 17h</p>
+                    <p className="text-muted-foreground text-sm">Seg a Sex: 8h às 18h</p>
+                    <p className="text-muted-foreground text-sm">Sábado: 8h às 17h</p>
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Localizacao = () => {
       <section className="py-16 bg-secondary/30 border-y border-border">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl font-bold mb-4">Atendemos toda Salvador</h2>
-          <p className="text-foreground/80 mb-8 text-sm">Clientes dos seguintes bairros nos visitam semanalmente:</p>
+          <p className="text-muted-foreground mb-8 text-sm">Clientes dos seguintes bairros nos visitam semanalmente:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {[
               "Boca do Rio", "Pituba", "Imbuí", "Costa Azul", "Stiep", "Patamares",
@@ -147,7 +147,7 @@ const Localizacao = () => {
               "Rio Vermelho", "Ondina", "Brotas", "Cabula", "Paralela", "Iguatemi",
               "Caminho das Árvores", "Itaigara", "Tancredo Neves", "Centro", "Lauro de Freitas"
             ].map((b) => (
-              <span key={b} className="px-3 py-1.5 rounded-full bg-card border border-border text-foreground/80 text-xs font-medium hover:border-primary hover:text-primary transition-all">
+              <span key={b} className="px-3 py-1.5 rounded-full bg-card border border-border text-muted-foreground text-xs font-medium hover:border-primary hover:text-primary transition-all">
                 {b}
               </span>
             ))}

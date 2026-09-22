@@ -111,7 +111,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       {/* Breadcrumbs */}
       <div className="bg-secondary/10 border-b border-border py-3">
         <div className="container mx-auto px-4">
-          <nav className="flex items-center gap-2 text-xs text-foreground/80">
+          <nav className="flex items-center gap-2 text-xs text-muted-foreground">
             <Link to="/" className="hover:text-foreground">Início</Link>
             <ChevronRight className="w-3 h-3" />
             <Link to="/locais-de-atendimento" className="hover:text-foreground">Locais de Atendimento</Link>
@@ -131,7 +131,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {local.h1}
             </h1>
-            <p className="text-lg md:text-xl text-foreground/80 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
               {local.description} Moradores de {local.name} contam com orçamento rápido, leva e traz ou atendimento presencial no laboratório com padrão de fábrica.
             </p>
             <a
@@ -151,14 +151,14 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       <section className="py-20 bg-secondary/10">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-center mb-4 text-foreground">Serviços Disponíveis para {local.name}</h2>
-          <p className="text-foreground/80 text-center mb-12">Consertos rápidos realizados por profissionais focados com peças premium e garantia por escrito.</p>
+          <p className="text-muted-foreground text-center mb-12">Consertos rápidos realizados por profissionais focados com peças premium e garantia por escrito.</p>
           
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {Object.values(servicosConsolidados).map((serv) => (
               <div key={serv.slug} className="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-all flex flex-col justify-between">
                 <div>
                   <h3 className="font-bold text-lg mb-2 text-foreground">{serv.h1.replace(" em Salvador", "")}</h3>
-                  <p className="text-foreground/80 text-sm line-clamp-3 mb-4">{serv.description}</p>
+                  <p className="text-muted-foreground text-sm line-clamp-3 mb-4">{serv.description}</p>
                 </div>
                 <Link
                   to={`/${serv.slug}`}
@@ -190,7 +190,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             <h2 className="text-2xl md:text-3xl font-bold mb-3 text-foreground">
               Precisa de conserto em {local.name}?
             </h2>
-            <p className="text-foreground/80 mb-6 leading-relaxed">
+            <p className="text-muted-foreground mb-6 leading-relaxed">
               Orçamento gratuito e sem compromisso. Atendimento imediato pelo WhatsApp — resposta em minutos!
             </p>
             <a
@@ -202,7 +202,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
               <MessageCircle className="w-6 h-6" />
               Quero Meu Orçamento Grátis
             </a>
-            <p className="text-xs text-foreground/80 mt-4">
+            <p className="text-xs text-muted-foreground mt-4">
               🔒 Seus dados estão seguros. Sem spam.
             </p>
           </div>
@@ -216,11 +216,11 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
             {/* Info Details */}
             <div>
               <h2 className="text-3xl font-bold mb-6 text-foreground">Como Chegar e Contato</h2>
-              <p className="text-foreground/80 mb-8 leading-relaxed">
+              <p className="text-muted-foreground mb-8 leading-relaxed">
                 Nosso laboratório principal fica localizado próximo a você na Boca do Rio. Oferecemos atendimento completo com profissionais e equipamentos qualificados.
               </p>
               
-              <ul className="space-y-4 mb-8 text-foreground/80">
+              <ul className="space-y-4 mb-8 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                   <div>
@@ -278,7 +278,7 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
       <section className="py-16 bg-secondary/20 border-t border-border">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-xl font-bold mb-6">Outras Áreas Atendidas em Salvador</h2>
-          <p className="text-sm text-foreground/80 mb-8">Conheça outras regiões estratégicas com conserto presencial dedicado da nossa equipe:</p>
+          <p className="text-sm text-muted-foreground mb-8">Conheça outras regiões estratégicas com conserto presencial dedicado da nossa equipe:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {listLocaisConsolidados
               .filter((loc) => loc.slug !== local.slug)

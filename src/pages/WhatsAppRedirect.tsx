@@ -38,7 +38,7 @@ const WhatsAppRedirect = () => {
         <div className="text-center px-4">
           <div className="w-16 h-16 border-4 border-whatsapp border-t-transparent rounded-full animate-spin mx-auto mb-6" />
           <h1 className="text-2xl font-bold text-foreground mb-2">Redirecionando para o WhatsApp...</h1>
-          <p className="text-foreground/80 text-sm mb-6">Aguarde, estamos abrindo o chat.</p>
+          <p className="text-muted-foreground text-sm mb-6">Aguarde, estamos abrindo o chat.</p>
           <a
             href={WHATSAPP_LINK}
             className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-6 py-3 rounded-xl font-bold hover:brightness-110 transition-all"
