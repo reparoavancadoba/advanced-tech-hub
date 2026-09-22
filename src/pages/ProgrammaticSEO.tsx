@@ -20,7 +20,7 @@ const ProgrammaticSEO = () => {
   const layoutVariant = seed % 2;
 
   const title = variant === 0 
-    ? `${servico.name} em ${bairro.name} | Na Hora & Garantia`
+    ? `${servico.name} em ${bairro.name} | Reparo Avançado`
     : variant === 1 
     ? `Especializada em ${servico.name}: ${bairro.name} | Orçamento Grátis`
     : `Assistência Técnica: ${servico.name} - ${bairro.name} (Garantia 90d)`;

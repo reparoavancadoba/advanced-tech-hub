@@ -95,7 +95,7 @@ const ServicoConsolidado = ({ slug }: ServicoConsolidadoProps) => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>{service.title} | Na Hora & Garantia</title>
+        <title>{service.title}</title>
         <meta name="description" content={service.metaDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={service.title} />

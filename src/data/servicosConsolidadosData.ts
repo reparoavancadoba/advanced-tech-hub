@@ -48,7 +48,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Tela de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Tela de Celular",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
-    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, nossa troca de tela celular é a solução definitiva. Especializados na troca de tela iphone (para tela quebrada iphone) e na troca de tela samsung, oferecemos a substituição completa com peças premium.",
+    description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, nossa troca de tela celular é a solução definitiva. Fazemos a troca de tela iphone e a troca de tela samsung, seja para um display manchado ou para uma tela quebrada iphone, utilizando peças premium e devolvendo a qualidade original.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Vidro trincado ou completamente estilhaçado",
@@ -77,7 +77,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Troca de Bateria de Celular em Salvador | Reparo Avançado",
     h1: "Troca de Bateria de Celular",
     metaDescription: "Bateria descarregando rápido ou desligando sozinha? Troca de bateria para iPhone, Samsung e Xiaomi com saúde 100% sem mensagens de erro.",
-    description: "A bateria original perde capacidade com o tempo. Realizamos a troca de bateria iphone com peças de alta qualidade e também a troca de bateria samsung, devolvendo autonomia máxima.",
+    description: "A bateria do aparelho perde capacidade com o tempo, descarregando mais rápido. Nós realizamos a troca de bateria iphone, utilizando células de alta qualidade, bem como a troca de bateria samsung, para devolver a autonomia máxima que você precisa no dia a dia.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme", "Notebooks (Dell, HP, Apple, etc.)"],
     problems: [
       "Bateria descarregando muito rápido em poucas horas",
@@ -107,7 +107,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Reparo de Placa de Celular em Salvador | Reparo Avançado",
     h1: "Reparo de Placa de Celular em Salvador",
     metaDescription: "especialistas em micro-soldagem BGA e diagnóstico de curto-circuito na placa de celulares. Recuperamos aparelhos condenados por outras oficinas.",
-    description: "Quando outras lojas condenam, nós fazemos o reparo de placa celular. Utilizando equipamentos de ponta para microssoldagem celular, ressuscitamos aparelhos considerados sem conserto, como curtos totais, falhas de carga e defeitos de áudio.",
+    description: "Quando outras assistências condenam o seu aparelho, nós realizamos o reparo de placa celular. Contamos com um laboratório avançado de microssoldagem celular para ressuscitar dispositivos considerados sem conserto, resolvendo problemas complexos como curtos totais, falhas de carga e defeitos de áudio.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Notebooks (MacBook, Dell, etc.)"],
     problems: [
       "Celular não liga de forma alguma e não consome corrente no carregador",
@@ -224,7 +224,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
     title: "Celular Caiu na Água? Desoxidação em Salvador",
     h1: "Celular Caiu na Água ou Contato com Líquido",
     metaDescription: "Celular molhou na piscina, chuva ou no mar? Faça desoxidação profissional imediata. NÃO use arroz! Atendimento de urgência em Salvador.",
-    description: "Um celular molhado sofre oxidação interna rápida. O nosso conserto de celular molhado através da desoxidação de celular em banho ultrassônico aumenta significativamente as chances de salvação do dispositivo.",
+    description: "Qualquer aparelho que entra em contato com líquido sofre oxidação interna rápida, danificando os componentes. O nosso conserto de celular molhado através do processo de desoxidação de celular em banho ultrassônico remove os minerais corrosivos e aumenta significativamente as chances de salvar o dispositivo.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
       "Aparelho caiu no mar, piscina, vaso sanitário ou molhou na chuva",
