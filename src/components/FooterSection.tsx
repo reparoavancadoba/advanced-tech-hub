@@ -21,7 +21,7 @@ const FooterSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Info */}
           <div>
-            <img src={logo} alt="Reparo Avançado" className="h-12 mb-4" loading="lazy" width={1018} height={392} />
+            <img src="/logo-reparo.webp" alt="Reparo Avançado" className="h-12 mb-4" loading="lazy" width={254} height={98} />
             <p className="text-muted-foreground text-sm mb-4">
               assistência técnica de celular focada em smartphones e tablets. Experiência desde 2018 em Salvador.
             </p>

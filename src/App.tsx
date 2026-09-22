@@ -6,20 +6,22 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Suspense, lazy } from "react";
 
+// CRITICAL PRE-RENDERED ROUTES (Static Import to avoid LCP delay)
+import Index from "./pages/Index";
+import Servicos from "./pages/Servicos";
+import LocaisDeAtendimento from "./pages/LocaisDeAtendimento";
+import ServicoConsolidado from "./pages/ServicoConsolidado";
+import LocalConsolidado from "./pages/LocalConsolidado";
+import Orcamento from "./pages/Orcamento";
+import Contato from "./pages/Contato";
+import Localizacao from "./pages/Localizacao";
+
 // LAZY LOADED ROUTES
-const Index = lazy(() => import("./pages/Index"));
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogPost = lazy(() => import("./pages/BlogPost"));
-const Servicos = lazy(() => import("./pages/Servicos"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Atendimento = lazy(() => import("./pages/Atendimento"));
-const LocaisDeAtendimento = lazy(() => import("./pages/LocaisDeAtendimento"));
-const ServicoConsolidado = lazy(() => import("./pages/ServicoConsolidado"));
-const LocalConsolidado = lazy(() => import("./pages/LocalConsolidado"));
 const ProgrammaticSEO = lazy(() => import("./pages/ProgrammaticSEO"));
-const Orcamento = lazy(() => import("./pages/Orcamento"));
-const Contato = lazy(() => import("./pages/Contato"));
-const Localizacao = lazy(() => import("./pages/Localizacao"));
 const GuiaAssistencia = lazy(() => import("./pages/GuiaAssistencia"));
 const WhatsAppRedirect = lazy(() => import("./pages/WhatsAppRedirect"));
 

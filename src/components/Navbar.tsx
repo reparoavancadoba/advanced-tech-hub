@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0f18]/60 backdrop-blur-xl border-b border-white/10 shadow-sm">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between max-w-7xl relative">
         <Link to="/" className="flex items-center z-20 shrink-0">
-          <img src={logo} alt="Reparo Avançado" className="h-10 md:h-12" width={1018} height={392} />
+          <img src="/logo-reparo.webp" alt="Reparo Avançado" className="h-10 md:h-12" width={254} height={98} />
         </Link>
         <div className="hidden md:flex items-center justify-center absolute inset-0 pointer-events-none">
           <div className="flex items-center gap-8 pointer-events-auto">
