@@ -182,15 +182,7 @@ const BlogPost = () => {
 
   const canonicalUrl = `https://site.reparoavancado.com.br/blog/${post.slug}`;
 
-  const serviceLinkMap: Record<string, string> = {
-    "Troca de Tela": "/troca-de-tela",
-    "Bateria": "/troca-de-bateria",
-    "Placa": "/reparo-em-placa",
-    "Água/Desoxidação": "/celular-caiu-na-agua",
-    "Não Liga": "/celular-nao-liga",
-    "Não Carrega": "/celular-nao-carrega"
-  };
-  const matchedServiceUrl = serviceLinkMap[post.category] || "/servicos";
+  const matchedServiceUrl = post.serviceSlug ? `/${post.serviceSlug}` : "/servicos";
 
   return (
     <SiteLayout>

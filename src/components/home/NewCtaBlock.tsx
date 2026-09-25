@@ -4,7 +4,7 @@ const NewCtaBlock = () => (
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="text-center md:text-left">
         <h2 className="text-2xl font-bold mb-1 text-zinc-900">Precisando de ajuda agora?</h2>
-        <p className="text-zinc-600">Fale com nossos técnicos e resolva o problema do seu aparelho rápido.</p>
+        <p className="text-zinc-600">Fale com nossos técnicos e resolva o problema do seu aparelho rápido. Somos a referência em conserto de celular perto de mim para quem mora na Boca do Rio e região de Salvador.</p>
       </div>
       <div className="flex flex-col sm:flex-row gap-6 items-center">
         <div className="flex items-center gap-2 font-bold text-xl text-zinc-900">

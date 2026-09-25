@@ -150,6 +150,11 @@ export const editorialPostsBatch3: BlogPost[] = [
         id: "teste",
         title: "Teste antes de levar na assistência",
         content: "[DICA] Tente o 'Hard Reset Forçado': Segure o botão de Ligar/Desligar (Power) e o botão de Diminuir Volume ao mesmo tempo por cerca de 15 a 20 segundos. Se for apenas um travamento da MIUI, o celular vai reiniciar e voltar ao normal. Se nada acontecer, é falha de hardware e o técnico será necessário. [/DICA]"
+      },
+      {
+        id: "poco-x3-placa",
+        title: "POCO X3: quando o problema é a placa, não a bateria",
+        content: "No POCO X3 especificamente, quando o aparelho não liga mesmo depois de carregado por horas, o problema tem mais chance de estar na placa do que nos modelos Redmi comuns — o POCO X3 tem histórico de falha em componentes de alimentação na placa. Vale priorizar o diagnóstico de placa se as tentativas básicas (outro carregador, reinicialização forçada) não resolverem."
       }
     ]
   },
@@ -296,6 +301,11 @@ export const editorialPostsBatch3: BlogPost[] = [
         id: "dica",
         title: "Evite Queimar seu Aparelho",
         content: "[DICA] Evite usar o celular deitado na cama apoiando o cabo na barriga. Essa pressão diária no cabo é a maior causa de quebra interna da porta USB-C dos Motorolas e Samsungs. E jamais carregue no banheiro; o vapor do chuveiro causa oxidação violenta nas trilhas de carga. [/DICA]"
+      },
+      {
+        id: "moto-g8-conector",
+        title: "Moto G8: o defeito mais comum de conector de carga",
+        content: "O Moto G8 tem um histórico conhecido de falha no conector de carga — é um dos modelos Motorola com mais relatos desse problema especificamente. Se o seu Moto G8 só carrega em posições específicas do cabo, ou parou de reconhecer o carregador, o conector costuma ser o primeiro suspeito, antes mesmo da bateria."
       }
     ]
   },
