@@ -5,7 +5,7 @@
 ];
 
 const NewSpecialty = () => (
-  <section className="bg-[#0a0f18] text-white py-16 md:py-20 border-t border-[#1e293b]">
+  <section className="bg-[#0a0f18] text-white py-10 md:py-20 border-t border-[#1e293b]">
     <div className="max-w-5xl mx-auto">
       
       <div className="mb-10">
@@ -13,7 +13,7 @@ const NewSpecialty = () => (
           <span className="w-8 h-[2px] bg-[#0066FF]"></span>
           <span className="text-[#0066FF] font-semibold text-xs tracking-[0.2em] uppercase">Por que a Reparo Avançado</span>
         </div>
-        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight max-w-2xl">
+        <h2 className="text-center md:text-left text-2xl md:text-3xl font-extrabold tracking-tight leading-tight max-w-2xl">
           Feito pra quem não{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">pode ficar sem celular.</span>
         </h2>
@@ -21,7 +21,7 @@ const NewSpecialty = () => (
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#1e293b] rounded-xl overflow-hidden border border-[#1e293b]">
         {features.map((feat, i) => (
-          <div key={i} className="bg-[#0f172a] p-6 md:p-8 flex flex-col hover:bg-[#131d36] transition-colors">
+          <div key={i} className="bg-[#0f172a] p-6 md:p-8 flex flex-col items-center md:items-start text-center md:text-left hover:bg-[#131d36] transition-colors">
             <span className="text-[#0066FF] font-mono text-xs font-bold mb-4">{feat.num}</span>
             <h3 className="text-base font-bold text-slate-100 mb-2">{feat.title}</h3>
             <p className="text-slate-400 text-sm leading-relaxed">{feat.desc}</p>

@@ -11,19 +11,19 @@ const services = [
 ];
 
 const NewWhatWeDo = () => (
-  <section id="servicos" className="bg-[#0a0f18] text-white py-16 md:py-20 border-t border-[#1e293b]">
+  <section id="servicos" className="bg-[#0a0f18] text-white py-10 md:py-20 border-t border-[#1e293b]">
     <div className="max-w-5xl mx-auto">
       
       <div className="mb-10">
-        <div className="flex items-center gap-3 mb-3">
+        <div className="flex justify-center md:justify-start items-center gap-3 mb-3">
           <span className="w-8 h-[2px] bg-[#0066FF]"></span>
           <span className="text-[#0066FF] font-semibold text-xs tracking-[0.2em] uppercase">O que resolvemos</span>
         </div>
-        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
+        <h2 className="text-center md:text-left text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
           Serviço rápido,{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">direto na loja.</span>
         </h2>
-        <p className="text-slate-400 mt-2 max-w-md text-sm">
+        <p className="text-center md:text-left text-slate-400 mt-2 max-w-md text-sm mx-auto md:mx-0">
           Chame no WhatsApp, combine o horário e conte com nossa equipe pra cuidar do seu aparelho em Salvador.
         </p>
       </div>
@@ -33,7 +33,7 @@ const NewWhatWeDo = () => (
           <Link 
             key={i} 
             to={svc.link}
-            className="bg-[#0f172a] border border-[#1e293b] p-5 rounded-xl flex flex-col items-start gap-3 hover:border-[#0066FF]/40 group transition-all cursor-pointer"
+            className="bg-[#0f172a] border border-[#1e293b] p-5 rounded-xl flex flex-col items-center md:items-start text-center md:text-left gap-3 hover:border-[#0066FF]/40 group transition-all cursor-pointer"
           >
             <div className="w-10 h-10 rounded-lg bg-[#0066FF]/10 flex items-center justify-center group-hover:bg-[#0066FF]/20 transition-colors">
               <svc.icon className="w-5 h-5 text-[#0066FF]" />

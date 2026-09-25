@@ -23,13 +23,13 @@ const NewReviews = () => {
   const tripledReviews = [...realReviews, ...realReviews, ...realReviews];
 
   return (
-    <section className="bg-[#0a0f18] text-white py-16 md:py-20 overflow-hidden border-y border-[#1e293b]">
+    <section className="bg-[#0a0f18] text-white py-10 md:py-20 overflow-hidden border-y border-[#1e293b]">
       <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 mb-10 text-center md:text-left">
         <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
           <span className="w-8 h-[2px] bg-[#0066FF]"></span>
           <span className="text-[#0066FF] font-semibold text-xs tracking-[0.2em] uppercase">Depoimentos</span>
         </div>
-        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
+        <h2 className="text-center md:text-left text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
           Quem já passou aqui{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0066FF] to-[#60a5fa]">conta como foi.</span>
         </h2>

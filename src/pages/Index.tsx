@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import TickerSection from "@/components/home/TickerSection";
 import NewCtaBlock from "@/components/home/NewCtaBlock";
 import NewWhatWeDo from "@/components/home/NewWhatWeDo";
-import NewWhyChooseUs from "@/components/home/NewWhyChooseUs";
+
 import NewSpecialty from "@/components/home/NewSpecialty";
 import NewAboutUs from "@/components/home/NewAboutUs";
 import NewReviews from "@/components/home/NewReviews";
@@ -42,7 +42,7 @@ const Index = () => {
       <FadeIn><TickerSection /></FadeIn>
       <FadeIn><NewCtaBlock /></FadeIn>
       <FadeIn><NewWhatWeDo /></FadeIn>
-      <FadeIn><NewWhyChooseUs /></FadeIn>
+      
       <FadeIn><NewSpecialty /></FadeIn>
       <FadeIn><NewAboutUs /></FadeIn>
       <FadeIn><NewReviews /></FadeIn>
