@@ -18,10 +18,10 @@ const FooterSection = () => {
   return (
     <footer id="contato" className="bg-card/50 border-t border-border">
       <div className="container mx-auto pt-16 pb-28">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
           {/* Info */}
           <div>
-            <img src="/logo-reparo.webp" alt="Reparo Avançado" className="h-12 w-auto mb-4" loading="lazy" width={254} height={98} />
+            <img src="/logo-reparo.webp" alt="Reparo Avançado" className="h-12 w-auto mb-4 mx-auto md:mx-0" loading="lazy" width={254} height={98} />
             <p className="text-muted-foreground text-sm mb-4">
               assistência técnica de celular focada em smartphones e tablets. Experiência desde 2018 em Salvador.
             </p>
@@ -39,7 +39,7 @@ const FooterSection = () => {
           {/* Contact */}
           <div>
             <h4 className="font-bold text-foreground mb-4">Contato</h4>
-            <ul className="space-y-3 text-sm text-muted-foreground">
+            <ul className="space-y-3 text-sm text-muted-foreground flex flex-col items-center md:items-start">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710
@@ -58,7 +58,7 @@ const FooterSection = () => {
           {/* Bairros */}
           <div>
             <h4 className="font-bold text-foreground mb-4">Atendemos toda Salvador</h4>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap justify-center md:justify-start gap-2">
               {bairrosLink.map((b) => (
                 <Link
                   key={b.path}
