@@ -109,6 +109,9 @@ const baseLocalBusinessSchema = {
 // ── TOPIC CLUSTER MAPPING ──
 // Map each article to a service page based on keywords
 function getServicePageForPost(post: any): string {
+  if (post.serviceSlug) {
+    return post.serviceSlug.startsWith("/") ? post.serviceSlug : `/${post.serviceSlug}`;
+  }
   const slug = post.slug.toLowerCase();
   const title = (post.title || '').toLowerCase();
   const service = (post.service || '').toLowerCase();
@@ -152,6 +155,9 @@ const incomingLinks: Record<string, number> = {};
 allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(p => { incomingLinks[p.slug] = 0; });
 
 function getRelatedPosts(post: any): any[] {
+  if (post.relatedSlugs && post.relatedSlugs.length > 0) {
+    return post.relatedSlugs.map((s: string) => allPosts.find((p: any) => p.slug === s)).filter(Boolean);
+  }
   const group = getTopicGroup(post);
   const peers = (topicGroups[group] || []).filter(p => p.slug !== post.slug);
   
@@ -213,6 +219,7 @@ const servicePageNames: Record<string, string> = {
   '/celular-nao-liga': 'Celular Não Liga — Diagnóstico',
   '/celular-nao-carrega': 'Celular Não Carrega — Reparo',
   '/celular-caiu-na-agua': 'Celular Caiu na Água — Desoxidação',
+  '/assistencia-tecnica-salvador': 'Assistência Técnica em Salvador',
 };
 
 // ═══════════════════════════════════════════
