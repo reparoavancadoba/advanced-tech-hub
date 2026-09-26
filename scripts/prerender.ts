@@ -66,7 +66,15 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
       html = html.replace('</head>', `${schemaScript}</head>`);
   }
 
-  html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
+  // For the home page, also inject a visible SEO paragraph (not hidden) so
+  // crawlers that don't execute JS (GPTBot, ClaudeBot, etc.) still see the text.
+  if (urlPath === '/') {
+    const visibleText = contentHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const homeVisibleBlock = `<div id="seo-static-home" style="font-size:14px;color:#444;padding:16px;max-width:800px;margin:0 auto;"><p>${visibleText}</p></div>`;
+    html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>${homeVisibleBlock}`);
+  } else {
+    html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
+  }
 
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
@@ -225,7 +233,7 @@ const servicePageNames: Record<string, string> = {
 // ═══════════════════════════════════════════
 // 0. Institutional Pages
 // ═══════════════════════════════════════════
-generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência de celular na Boca do Rio, Salvador: conserto de tela, bateria e placa de iPhones e Androids. Orçamento grátis e garantia.', 'Assistência técnica de celular em Salvador', `<p>A Reparo Avançado é a sua principal assistência técnica de celular em Salvador. Com laboratório próprio na Boca do Rio, somos especializados no conserto de celular molhado, troca de tela celular e reparo avançado de placas. Se o seu smartphone quebrou, seja um display danificado que precisa de troca de tela iphone ou troca de tela samsung, nós resolvemos com rapidez e excelência. Nossa equipe técnica domina tudo sobre assistência técnica celular, usando peças premium e maquinário de ponta para garantir vida nova ao seu dispositivo. Oferecemos diagnóstico completo e um serviço de confiança para toda a região, consolidando nosso nome em assistência técnica de celular em Salvador.</p>`, baseLocalBusinessSchema);
+generatePage('/', 'Conserto de Celular em Salvador | Reparo Avançado', 'Assistência de celular na Boca do Rio, Salvador: conserto de tela, bateria e placa de iPhones e Androids. Orçamento grátis e garantia.', 'Assistência técnica de celular em Salvador', `<p>A Reparo Avançado é a sua principal assistência técnica de celular em Salvador. Com laboratório próprio na Boca do Rio, somos especializados no conserto de celular molhado, troca de tela celular e reparo avançado de placas. Se o seu smartphone quebrou, seja um display danificado que precisa de troca de tela iphone ou troca de tela samsung, nós resolvemos com rapidez e excelência. Nossa equipe técnica domina tudo sobre assistência técnica celular, usando peças premium e maquinário de ponta para garantir vida nova ao seu dispositivo. Oferecemos diagnóstico completo e um serviço de confiança para toda a região, consolidando nosso nome em assistência técnica de celular em Salvador.</p><p>Se você está procurando <strong>conserto de celular perto de mim</strong> em Salvador, a Reparo Avançado atende na Boca do Rio com orçamento grátis, peças originais e garantia. Atendemos toda a capital baiana: Pituba, Imbuí, Caminho das Árvores, Cajazeiras, Barra e região.</p>`, baseLocalBusinessSchema);
 generatePage('/servicos', 'Nossos Serviços | Reparo Avançado', 'Conheça os serviços especializados da Reparo Avançado em Salvador: troca de tela, substituição de bateria, banho químico e reparo avançado de placas.', 'Nossos Serviços', `<p>Descubra todos os consertos que oferecemos em nossa assistência. Realizamos troca de bateria, substituição de tela, reparo avançado de placas, microssoldagem e desoxidação. Seu aparelho está em boas mãos.</p>`, baseLocalBusinessSchema);
 generatePage('/locais-de-atendimento', 'Locais de Atendimento | Reparo Avançado', 'Confira todos os bairros e regiões de Salvador atendidos pela Reparo Avançado. Oferecemos assistência técnica especializada para celulares e notebooks.', 'Locais de Atendimento', `<p>Atendemos toda a cidade de Salvador com rapidez e segurança. Se você está na Boca do Rio, Pituba, Imbuí, Caminho das Árvores, Cajazeiras ou outras regiões, conte com nossa assistência técnica perto de você.</p>`, baseLocalBusinessSchema);
 generatePage('/contato', 'Contato e WhatsApp | Reparo Avançado – Boca do Rio, Salvador', 'Entre em contato com a Reparo Avançado pelo WhatsApp ou visite nossa assistência técnica na Boca do Rio, Salvador, para diagnósticos e reparos.', 'Contato', `<p>Fale conosco hoje mesmo. Nosso WhatsApp está disponível para tirar dúvidas, fazer agendamentos e passar pré-orçamentos. O atendimento da nossa assistência técnica é humanizado e ágil para toda Salvador.</p>`, baseLocalBusinessSchema);
