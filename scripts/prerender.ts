@@ -42,10 +42,31 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   html = html.replace(/<meta name="twitter:title" content=".*?"\s*\/?>/,  `<meta name="twitter:title" content="${title}">`);
   html = html.replace(/<meta name="twitter:description" content=".*?"\s*\/?>/,  `<meta name="twitter:description" content="${description}">`);
 
+  let schemaScript = '';
   if (schemaObj) {
-      const schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
+      schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
+  }
+
+  const seoContent = `
+    <div data-seo-prerender="true">
+      <header>
+        <h1>${h1}</h1>
+      </header>
+      <main>
+        ${contentHtml}
+      </main>
+      <footer>
+        <p>${businessInfo.name} - ${businessInfo.streetAddress}, ${businessInfo.addressLocality}, ${businessInfo.city} - ${businessInfo.state}. CEP: ${businessInfo.postalCode}. Telefone: ${businessInfo.telephone}</p>
+        <a href="https://wa.me/${WA_NUMBER}">Fale com um Técnico no WhatsApp</a>
+      </footer>
+    </div>
+  `;
+
+  if (schemaScript) {
       html = html.replace('</head>', `${schemaScript}</head>`);
   }
+
+  html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
 
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
