@@ -42,38 +42,9 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   html = html.replace(/<meta name="twitter:title" content=".*?"\s*\/?>/,  `<meta name="twitter:title" content="${title}">`);
   html = html.replace(/<meta name="twitter:description" content=".*?"\s*\/?>/,  `<meta name="twitter:description" content="${description}">`);
 
-  let schemaScript = '';
   if (schemaObj) {
-      schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
-  }
-
-  const seoContent = `
-    <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" data-seo-prerender="true">
-      <header>
-        <h1>${h1}</h1>
-      </header>
-      <main>
-        ${contentHtml}
-      </main>
-      <footer>
-        <p>${businessInfo.name} - ${businessInfo.streetAddress}, ${businessInfo.addressLocality}, ${businessInfo.city} - ${businessInfo.state}. CEP: ${businessInfo.postalCode}. Telefone: ${businessInfo.telephone}</p>
-        <a href="https://wa.me/${WA_NUMBER}">Fale com um Técnico no WhatsApp</a>
-      </footer>
-    </div>
-  `;
-
-  if (schemaScript) {
+      const schemaScript = `\n    <script type="application/ld+json">\n    ${JSON.stringify(schemaObj)}\n    </script>\n`;
       html = html.replace('</head>', `${schemaScript}</head>`);
-  }
-
-  // For the home page, also inject a visible SEO paragraph (not hidden) so
-  // crawlers that don't execute JS (GPTBot, ClaudeBot, etc.) still see the text.
-  if (urlPath === '/') {
-    const visibleText = contentHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    const homeVisibleBlock = `<div id="seo-static-home" style="font-size:14px;color:#444;padding:16px;max-width:800px;margin:0 auto;"><p>${visibleText}</p></div>`;
-    html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>${homeVisibleBlock}`);
-  } else {
-    html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
   }
 
   const outDir = path.join(distPath, urlPath);
