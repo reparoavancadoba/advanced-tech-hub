@@ -15,6 +15,8 @@ import LocalConsolidado from "./pages/LocalConsolidado";
 import Orcamento from "./pages/Orcamento";
 import Contato from "./pages/Contato";
 import Localizacao from "./pages/Localizacao";
+import InformacoesIndex from "./pages/InformacoesIndex";
+import InformacaoPage from "./pages/InformacaoPage";
 
 // LAZY LOADED ROUTES
 const Blog = lazy(() => import("./pages/Blog"));
