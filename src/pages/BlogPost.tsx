@@ -246,7 +246,8 @@ const BlogPost = () => {
 
                 {/* Article Body */}
                 <article className="space-y-20 text-zinc-800 mt-16">
-                  <section id="sintomas">
+                  {post.problems && post.problems.length > 0 && (
+<section id="sintomas">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Sintomas: O Problema com {post.service} {post.model}
                     </h2>
@@ -259,8 +260,10 @@ const BlogPost = () => {
                       ))}
                     </ul>
                   </section>
+)}
 
-                  <section id="causas">
+                  {post.causes && post.causes.length > 0 && (
+<section id="causas">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Causas Possíveis
                     </h2>
@@ -273,6 +276,7 @@ const BlogPost = () => {
                       ))}
                     </ul>
                   </section>
+)}
 
                   {/* Mid-article Conversion CTA */}
                   <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8 text-center my-12 shadow-xl transform -mx-4 md:mx-0">
@@ -301,19 +305,23 @@ const BlogPost = () => {
                     </div>
                   )}
 
-                  <section id="solucao">
+                  {post.solution && post.solution.trim() !== '' && (
+<section id="solucao">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       O Que Fazer (Solução Técnica)
                     </h2>
                     <div>{parseContent(post.solution)}</div>
                   </section>
+)}
 
-                  <section id="quando">
+                  {post.whenToSeek && post.whenToSeek.trim() !== '' && (
+<section id="quando">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Quando Procurar Assistência Profissional
                     </h2>
                     <div>{parseContent(post.whenToSeek)}</div>
                   </section>
+)}
 
                   {post.sections && post.sections.length > 0 && post.sections.map((section) => (
                     <section key={section.id} id={section.id}>
@@ -330,12 +338,14 @@ const BlogPost = () => {
                     </section>
                   ))}
 
-                  <section id="custo">
+                  {post.costInfo && post.costInfo.trim() !== '' && (
+<section id="custo">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
                       Quanto Custa {post.service} {post.model}?
                     </h2>
                     <div>{parseContent(post.costInfo)}</div>
                   </section>
+)}
                   
                   {/* Service Page Link */}
                   <div className="mt-8 mb-4">
