@@ -11,7 +11,8 @@ const bairrosLink = [
   { name: "Boca do Rio", path: "/assistencia-tecnica-boca-do-rio" },
   { name: "Pituba", path: "/assistencia-tecnica-pituba" },
   { name: "Imbuí", path: "/assistencia-tecnica-imbui" },
-  { name: "Brotas", path: "/assistencia-tecnica-brotas" }
+  { name: "Brotas", path: "/assistencia-tecnica-brotas" },
+  { name: "Informações", path: "/informacoes" }
 ];
 
 const FooterSection = () => {

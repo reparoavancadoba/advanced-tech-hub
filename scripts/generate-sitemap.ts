@@ -5,6 +5,7 @@ import { allPosts } from "../src/data/blogData";
 import { macroRegioes, servicosLocais } from "../src/data/locaisData";
 import { listLocaisConsolidados } from "../src/data/locaisConsolidadosData";
 import { allConsolidatedServices } from "../src/data/servicosConsolidadosData";
+import { informacoesPages, informacoesIndex } from "../src/data/informacoesData";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
