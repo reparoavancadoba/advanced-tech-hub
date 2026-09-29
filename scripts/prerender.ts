@@ -463,6 +463,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
     });
   }
 
+  contentHtml = contentHtml.replace(/<h2>\s*<\/h2>/g, '');
   generatePage(urlPath, title, description, h1, contentHtml, blogSchema);
 });
 
