@@ -90,9 +90,9 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
     </div>
   `;
 
-  if (schemaScript) {
-      html = html.replace('</head>', `${schemaScript}</head>`);
-  }
+  // Inject style to hide pre-rendered content from visual display (crawlers still read it)
+  const seoHideStyle = '<style>[data-seo-prerender]{height:0;overflow:hidden;opacity:0;position:absolute;pointer-events:none}</style>';
+  html = html.replace('</head>', `${seoHideStyle}${schemaScript}</head>`);
 
   html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
 
