@@ -8,6 +8,28 @@ import { listLocaisConsolidados } from '../src/data/locaisConsolidadosData';
 import { businessInfo } from '../src/config/business';
 import { informacoesPages, informacoesIndex } from '../src/data/informacoesData';
 
+
+function parseMarkdown(text) {
+  if (!text) return '';
+  let html = text;
+  html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+  html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+  html = html.replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>');
+  
+  html = html.replace(/(?:^[\*\-] .*(?:\r?\n)?)+/gim, (match) => {
+      const items = match.trim().split(/\r?\n/).map(line => `<li>${line.replace(/^[\*\-]\s+/, '')}</li>`).join('');
+      return `<ul>${items}</ul>`;
+  });
+  
+  html = html.split(/\r?\n\r?\n+/).map(para => {
+    if (para.trim() === '') return '';
+    if (para.startsWith('<h') || para.startsWith('<ul')) return para;
+    return `<p>${para.trim()}</p>`;
+  }).join('');
+  
+  return html;
+}
+
 const mergedSlugs = ["celular-nao-carrega-causas","celular-nao-carrega-causas-solucoes","celular-nao-carrega-salvador","motorola-nao-carrega-avaliacao-salvador","higienizacao-conector-cabo-carregar-salvador","celular-caiu-na-agua-o-que-fazer","celular-caiu-na-agua-desoxidacao-salvador","celular-molhou-chuva-praia-salvador-socorro","celular-caiu-no-mar-vale-a-pena-consertar","troca-de-bateria-celular-salvador","celular-descarregando-rapido","celular-esquentando-descarregando-rapido-bateria","vale-pena-trocar-vidro-ou-tela-completa","troca-vidro-vs-tela-completa-economia-salvador"];
 
 const __filename = fileURLToPath(import.meta.url);
@@ -339,10 +361,10 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   const midPoint = Math.ceil(sections.length / 2);
   
   sections.slice(0, midPoint).forEach((section: any) => {
-    contentHtml += `<h2>${section.title}</h2><p>${section.content}</p>`;
+    contentHtml += `<h2>${section.title}</h2>${parseMarkdown(section.content)}`;
     if (section.subsections) {
       section.subsections.forEach((sub: any) => {
-        contentHtml += `<h3>${sub.title}</h3><p>${sub.content}</p>`;
+        contentHtml += `<h3>${sub.title}</h3>${parseMarkdown(sub.content)}`;
       });
     }
   });
@@ -356,17 +378,17 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   
   // Sections (second half)
   sections.slice(midPoint).forEach((section: any) => {
-    contentHtml += `<h2>${section.title}</h2><p>${section.content}</p>`;
+    contentHtml += `<h2>${section.title}</h2>${parseMarkdown(section.content)}`;
     if (section.subsections) {
       section.subsections.forEach((sub: any) => {
-        contentHtml += `<h3>${sub.title}</h3><p>${sub.content}</p>`;
+        contentHtml += `<h3>${sub.title}</h3>${parseMarkdown(sub.content)}`;
       });
     }
   });
   
-  if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2><p>${post.solution}</p>`;
-  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2><p>${post.whenToSeek}</p>`;
-  if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2><p>${post.costInfo}</p>`;
+  if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2>${parseMarkdown(post.solution)}`;
+  if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2>${parseMarkdown(post.whenToSeek)}`;
+  if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2>${parseMarkdown(post.costInfo)}`;
 
   // FAQ
   if (post.faq && post.faq.length) {
