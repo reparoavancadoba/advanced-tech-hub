@@ -89,6 +89,24 @@ allPosts.filter(p => !["celular-nao-carrega-causas","celular-nao-carrega-causas-
   </url>`);
 });
 
+
+// 6. Informacoes Pilot Pages
+const infoDate = getFileDate("src/data/informacoesData.ts");
+urls.push(`  <url>
+    <loc>${DOMAIN}/informacoes</loc>
+    <lastmod>${infoDate}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+informacoesPages.forEach((page) => {
+  urls.push(`  <url>
+    <loc>${DOMAIN}/informacoes/${page.slug}</loc>
+    <lastmod>${infoDate}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+});
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>`;
 
 writeFileSync("public/sitemap.xml", sitemap);

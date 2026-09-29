@@ -168,6 +168,18 @@ macroRegioes.forEach(macro => {
       titleStr = `Assistência Técnica de Celular na Boca do Rio e Orla`;
       metaDesc = `Conserto de celular na Boca do Rio e Orla: troca de tela, bateria e placa no mesmo dia. Loja física na R. Abelardo Andrade de Carvalho, 8. Orçamento grátis.`;
   }
+  if (macro.slug === 'miolo-e-centro-financeiro') {
+      titleStr = 'Assistência Técnica de Celular no Miolo e Centro Financeiro';
+  }
+  if (macro.slug === 'orla-norte-e-aeroporto') {
+      titleStr = 'Assistência Técnica de Celular na Orla Norte e Aeroporto';
+  }
+  if (macro.slug === 'cajazeiras-e-regiao') {
+      titleStr = 'Assistência Técnica de Celular em Cajazeiras e Região';
+  }
+  if (macro.slug === 'regiao-metropolitana') {
+      titleStr = 'Assistência Técnica de Celular na Região Metropolitana';
+  }
 
   const data = {
     slug: macro.slug,
