@@ -1,8 +1,13 @@
 import HeroSection from "@/components/HeroSection";
-import NewLpAbout from "@/components/home/NewLpAbout";
-import NewLpDelivery from "@/components/home/NewLpDelivery";
-import NewLpReasons from "@/components/home/NewLpReasons";
+import TickerSection from "@/components/home/TickerSection";
+import NewCtaBlock from "@/components/home/NewCtaBlock";
+import NewWhatWeDo from "@/components/home/NewWhatWeDo";
+
+import NewSpecialty from "@/components/home/NewSpecialty";
+import NewAboutUs from "@/components/home/NewAboutUs";
 import NewReviews from "@/components/home/NewReviews";
+import NewHowItWorks from "@/components/home/NewHowItWorks";
+import NewFinalCta from "@/components/home/NewFinalCta";
 import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { FadeIn } from "@/components/FadeIn";
@@ -27,17 +32,22 @@ const Index = () => {
     <SiteLayout>
       <Helmet>
         <title>Assistência Técnica de Celular em Salvador | Reparo Avançado</title>
-        <meta name="description" content="Assistência técnica focada em iPhone, Samsung e reparo avançado de placa em Salvador. Experiência desde 2018 na Boca do Rio." />
+        <meta name="description" content="Assistência técnica focada em iPhone, Samsung e reparo avançado de placa em Salvador. Experiência desde 2018 na Boca do Rio. Orçamento gratuito na hora!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
       </Helmet>
       
       <HeroSection />
       
-      <FadeIn><NewLpAbout /></FadeIn>
-      <FadeIn><NewLpDelivery /></FadeIn>
-      <FadeIn><NewLpReasons /></FadeIn>
+      <FadeIn><TickerSection /></FadeIn>
+      <FadeIn><NewCtaBlock /></FadeIn>
+      <FadeIn><NewWhatWeDo /></FadeIn>
+      
+      <FadeIn><NewSpecialty /></FadeIn>
+      <FadeIn><NewAboutUs /></FadeIn>
       <FadeIn><NewReviews /></FadeIn>
+      <FadeIn><NewHowItWorks /></FadeIn>
+      <FadeIn><NewFinalCta /></FadeIn>
     </SiteLayout>
   );
 };
