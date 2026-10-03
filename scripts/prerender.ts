@@ -72,6 +72,7 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   }
 
   const heroReviews = urlPath === '/' ? '<p>+165 avaliações · 5 estrelas no Google</p>' : '';
+  const homeLocalLink = urlPath === '/' ? '<p><a href="/assistencia-tecnica-boca-do-rio">Nossa loja na Boca do Rio</a></p>' : '';
 
   const seoContent = `
     <div data-seo-prerender="true">
@@ -85,6 +86,7 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
       <footer>
         <p>${businessInfo.name} - ${businessInfo.streetAddress}, ${businessInfo.addressLocality}, ${businessInfo.city} - ${businessInfo.state}. CEP: ${businessInfo.postalCode}. Telefone: ${businessInfo.telephone}</p>
         <p>★ 5,0 · 165 avaliações no Google</p>
+        ${homeLocalLink}
         <a href="https://wa.me/${WA_NUMBER}">Fale com um Técnico no WhatsApp</a>
       </footer>
     </div>
@@ -421,6 +423,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
     contentHtml += '</ul>';
   }
   
+  contentHtml += `<p>Conheça a nossa <a href="/assistencia-tecnica-salvador">assistência técnica de celular em Salvador</a>, com loja na <a href="/assistencia-tecnica-boca-do-rio">Boca do Rio</a>.</p>`;
   // ── END-OF-ARTICLE CTA (Section 5) ──
   contentHtml += `<aside style="border:2px solid #007bff;padding:16px;margin:24px 0;border-radius:8px;">
     <p><strong>${servicePageName} na Reparo Avançado</strong></p>

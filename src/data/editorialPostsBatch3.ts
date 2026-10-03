@@ -44,11 +44,6 @@ export const editorialPostsBatch3: BlogPost[] = [
     ],
     sections: [
       {
-          id: "aviso-umidade",
-          title: "Aviso de umidade aparecendo na tela do celular: o que significa",
-          content: "O aviso de umidade aparece quando o celular detecta líquido ou sujeira úmida no conector de carga. É uma proteção: o aparelho bloqueia o carregamento pelo cabo até o conector secar. Em muitos casos, o aviso some sozinho depois que o conector seca. Evite colocar objetos dentro do conector e não use calor direto para secar."
-        },
-        {
         id: "sinais",
         title: "Sinais de Alerta Críticos",
         content: "Não ignore os avisos do seu aparelho. [ATENCAO] Quando o iPhone escurece a tela sozinho mesmo com o brilho no máximo, é o sistema de defesa térmico atuando para proteger o processador de fritar. Se isso virar rotina, a bateria irá estufar em poucas semanas. [/ATENCAO]"
@@ -360,6 +355,31 @@ export const editorialPostsBatch3: BlogPost[] = [
     ],
     sections: [
       {
+        id: "o-que-e-primeira-linha",
+        title: "O que é tela de primeira linha?",
+        content: "\"Primeira linha\" é um nome usado no mercado para telas compatíveis, ou seja, que não vieram de fábrica, mas que o fornecedor considera de melhor qualidade dentro da linha dele. Como não existe um padrão oficial, a qualidade de uma tela \"primeira linha\" pode variar bastante de um fornecedor para outro. Por isso, mais importante que o nome é saber qual é a tecnologia da tela e qual é a garantia."
+      },
+      {
+        id: "tela-nacional-original",
+        title: "Tela nacional é original?",
+        content: "Não necessariamente. \"Nacional\" também é um nome comercial, e cada loja usa de um jeito. Antes de fechar o serviço, pergunte diretamente se a tela é original de fábrica, OLED compatível ou incell."
+      },
+      {
+        id: "tela-oled-original",
+        title: "Tela OLED é original?",
+        content: "OLED é o tipo de tecnologia da tela, e não a origem dela. Existe tela OLED original, que vem de fábrica em muitos aparelhos, e existe tela OLED compatível, feita por outros fabricantes. As duas têm cores vivas e preto profundo, mas a compatível pode ter pequenas diferenças de brilho e de cor."
+      },
+      {
+        id: "incell-vs-oled",
+        title: "Tela incell vs OLED: o que muda na prática",
+        content: "- Incell: costuma ser a opção mais econômica, com cores menos intensas. Em aparelhos que vieram com tela OLED de fábrica, ela pode deixar a imagem um pouco diferente da original.\n- OLED compatível: cores mais próximas da original, com custo intermediário.\n- Original: máxima fidelidade de cor e de toque, com custo maior."
+      },
+      {
+        id: "primeira-linha-e-boa",
+        title: "Tela de primeira linha é boa?",
+        content: "Pode ser, desde que você saiba qual é o tipo de tela e que o serviço tenha garantia. Na Reparo Avançado, explicamos as opções disponíveis para o seu modelo antes da troca, e todo serviço sai com garantia de 90 dias."
+      },
+      {
         id: "golpe",
         title: "Cuidado com 'Original China'",
         content: "[ATENCAO] Muitos lugares vendem telas como 'Original China' cobrando valor de Original Nacional. Exija ver o encaixe, o cabo flex e pergunte se a garantia cobre problemas de toque na tela (touch fantasma). Na Reparo Avançado, não fazemos pegadinhas: o que está no orçamento é o que vai para o seu celular. [/ATENCAO]"
@@ -410,6 +430,11 @@ export const editorialPostsBatch3: BlogPost[] = [
       }
     ],
     sections: [
+      {
+        id: "aviso-umidade-significado",
+        title: "Aviso de umidade aparecendo na tela do celular: o que significa",
+        content: "O aviso de umidade aparece quando o celular detecta líquido ou sujeira úmida no conector de carga. É uma proteção: o aparelho bloqueia o carregamento pelo cabo até o conector secar. Em muitos casos, o aviso some sozinho depois que o conector seca. Evite colocar objetos dentro do conector e não use calor direto para secar."
+      },
       {
         id: "bypass",
         title: "Evite 'gambiarras'",
