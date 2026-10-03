@@ -103,6 +103,8 @@ export const editorialPostsBatch8: BlogPost[] = [
     dateModified: new Date().toISOString().split('T')[0],
     keywords: ["motorola reiniciando sozinho", "moto g travado no logo", "loop infinito motorola", "celular travando muito", "conserto motorola", "celular congela a tela"],
     faq: [
+        { question: "O modo de segurança ajuda a descobrir o problema?", answer: "Sim. No modo de segurança, os aplicativos instalados por você ficam desativados. Se o Motorola parar de travar ou reiniciar nesse modo, a causa provável é um aplicativo. Em muitos aparelhos, você entra segurando o botão de ligar e, depois, pressionando por alguns segundos a opção 'Desligar' até aparecer 'Reiniciar no modo de segurança'." },
+        { question: "Motorola reiniciando sozinho perde os dados?", answer: "Nem sempre. Depende da causa, que o diagnóstico identifica. Se o aparelho ainda liga, faça backup antes de levar." },
       {
         question: "Vou perder meus dados se o celular estiver em loop?",
         answer: "Depende da causa. Se for apenas um curto no botão Power ou falha na bateria, a troca da peça resolve e seus dados são mantidos intactos. Se for uma falha grave de software ou memória flash corrompida, pode ser necessária a restauração de fábrica."

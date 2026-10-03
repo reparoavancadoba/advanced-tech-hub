@@ -495,6 +495,11 @@ function buildLocalConsolidadoContent(local: any) {
   const waMsgLocal = encodeURIComponent(`Olá! Vim pela página de assistencia em ${local.title} e preciso de conserto.`);
 
   let contentHtml = `<p>${local.description}</p>`;
+
+    if (local.slug === "boca-do-rio") {
+      contentHtml += `<h2>Nossa loja na Boca do Rio</h2><p>A Reparo Avançado fica na própria Boca do Rio, na R. Abelardo Andrade de Carvalho, 8, CEP 41706-710, em Salvador. Você pode trazer o aparelho direto na loja ou pedir a coleta e entrega na região.</p><ul><li>Endereço: R. Abelardo Andrade de Carvalho, 8 – Boca do Rio, Salvador – BA, 41706-710</li><li>Horário: segunda a sexta, das 8h às 18h; sábado, das 8h às 17h</li><li>Telefone e WhatsApp: (71) 99198-1437</li><li>Avaliação no Google: nota 5,0</li></ul><iframe title="Mapa da Reparo Avançado na Boca do Rio" src="https://www.google.com/maps?q=R.+Abelardo+Andrade+de+Carvalho,+8,+Boca+do+Rio,+Salvador+-+BA,+41706-710&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
+    }
+
   if (local.access) contentHtml += `<h2>Como Chegar</h2><p>${local.access}</p>`;
   if (local.distance) contentHtml += `<h2>Distância e Tempo</h2><p>${local.distance}</p>`;
   if (local.topServices) contentHtml += `<h2>Serviços Mais Procurados</h2><p>${local.topServices}</p>`;

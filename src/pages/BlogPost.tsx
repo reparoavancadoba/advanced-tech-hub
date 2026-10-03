@@ -385,9 +385,7 @@ const BlogPost = () => {
                             <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                           </span>
                         </summary>
-                        <p className="text-zinc-400 p-5 pt-0 mt-2 leading-relaxed">
-                          {item.answer}
-                        </p>
+                        <div className="text-zinc-400 p-5 pt-0 mt-2 leading-relaxed" dangerouslySetInnerHTML={{ __html: item.answer }} />
                       </details>
                     ))}
                   </div>
@@ -429,6 +427,12 @@ const BlogPost = () => {
               </div>
             </aside>
             
+          </div>
+
+          
+          {/* Internal Links to Local Pages */}
+          <div className="mt-8 mb-4 text-zinc-300 text-lg">
+            <p>Conheça a nossa <Link to="/assistencia-tecnica-salvador" className="text-[#0066FF] hover:underline font-bold">assistência técnica de celular em Salvador</Link>, com loja na <Link to="/assistencia-tecnica-boca-do-rio" className="text-[#0066FF] hover:underline font-bold">Boca do Rio</Link>.</p>
           </div>
 
           {/* Final CTA Banner */}

@@ -53,7 +53,7 @@ const FooterSection = () => {
             <ul className="space-y-3 text-sm text-muted-foreground flex flex-col items-center md:items-start">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710
+                <span>R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710<br/><Link to="/assistencia-tecnica-boca-do-rio" className="text-primary hover:underline font-bold mt-1 inline-block">Nossa loja na Boca do Rio</Link></span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />

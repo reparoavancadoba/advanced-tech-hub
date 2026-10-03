@@ -44,6 +44,11 @@ export const editorialPostsBatch3: BlogPost[] = [
     ],
     sections: [
       {
+          id: "aviso-umidade",
+          title: "Aviso de umidade aparecendo na tela do celular: o que significa",
+          content: "O aviso de umidade aparece quando o celular detecta líquido ou sujeira úmida no conector de carga. É uma proteção: o aparelho bloqueia o carregamento pelo cabo até o conector secar. Em muitos casos, o aviso some sozinho depois que o conector seca. Evite colocar objetos dentro do conector e não use calor direto para secar."
+        },
+        {
         id: "sinais",
         title: "Sinais de Alerta Críticos",
         content: "Não ignore os avisos do seu aparelho. [ATENCAO] Quando o iPhone escurece a tela sozinho mesmo com o brilho no máximo, é o sistema de defesa térmico atuando para proteger o processador de fritar. Se isso virar rotina, a bateria irá estufar em poucas semanas. [/ATENCAO]"
@@ -134,8 +139,11 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-07-04",
+    dateModified: "2026-10-03",
     faq: [
+        { question: "Xiaomi não liga e não aparece o ícone de carregando, o que pode ser?", answer: "Pode ser bateria totalmente descarregada, cabo ou carregador com defeito, conector de carga ou placa. Antes de tudo, deixe carregando por pelo menos 30 minutos com outro cabo e outro carregador." },
+        { question: "Xiaomi travado na logo é a mesma coisa que não ligar?", answer: "Não. Se a logo aparece, o aparelho está ligando, e o problema costuma estar no sistema. Nesse caso, veja o nosso artigo sobre Xiaomi que travou depois da atualização. <a href=\"/blog/xiaomi-atualizacao-miui-travou-nao-liga\" class=\"text-primary hover:underline\">Leia mais</a>." },
+        { question: "Como forçar a reinicialização de um Xiaomi?", answer: "Em muitos modelos, basta segurar o botão de ligar por cerca de 10 a 15 segundos, até o aparelho reiniciar." },
       {
         question: "O que é reballing em celular Xiaomi?",
         answer: "É refazer as 'esferas de solda' embaixo do processador (cérebro do celular). Com o tempo e calor extremo de jogos, essas esferas racham e o aparelho morre. Nós removemos, refazemos as soldas milimétricas e o celular volta à vida."
@@ -311,9 +319,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "diferenca-tela-original-primeira-linha",
-      title: "Tela Incell ou OLED? Diferença para a Original e 1ª Linha",
-    h1: "Tela Original vs. Tela Incell/OLED: O Guia Definitivo antes do Conserto",
-    metaDescription: "Entenda a diferença entre tela Incell, OLED, original e primeira linha antes de trocar o display: cor, brilho, sensibilidade ao toque e o que dura mais.",
+      title: "Tela Original, Primeira Linha, OLED ou Incell? Qual Escolher",
+    h1: "Tela Original, Primeira Linha, OLED ou Incell: Qual Escolher?",
+    metaDescription: "Tela original, primeira linha, OLED, incell ou nacional? Entenda o que cada nome significa, o que muda na cor e no toque e como n\u00e3o ser enganado.",
     category: "conserto",
     brand: "Todas",
     model: "Todos",
@@ -338,8 +346,9 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-07-04",
+    dateModified: "2026-10-03",
     faq: [
+        { question: "Como saber qual tela foi colocada no meu celular?", answer: "Peça que o tipo de tela venha descrito na ordem de serviço. É a forma mais segura de saber exatamente o que foi instalado." },
       {
         question: "O que é Tela Incell?",
         answer: "Incell é uma tela de tecnologia LCD. Se o seu celular originalmente era OLED (cores muito vivas e preto absoluto), ao colocar uma Incell, a imagem ficará azulada/pálida, a tela ficará mais grossa e consumirá muito mais bateria. É a tela 'baratinha' e não recomendamos."
@@ -385,10 +394,12 @@ export const editorialPostsBatch3: BlogPost[] = [
     costInfo: "Uma limpeza química custa muito pouco e salva o seu celular. Se tentar forçar carga, o reparo na placa será bem mais caro. Orçamento rápido pelo zap.",
     relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador"],
     isEditorial: true,
-    author: "Equipe Reparo Avançado",
+
+      author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-07-04",
+    dateModified: "2026-10-03",
     faq: [
+        { question: "O aviso de umidade aparece mesmo com o celular seco, por quê?", answer: "Pode ser sujeira ou oxidação no conector, ou falha no sensor. Se o aviso continuar por mais de um dia com o aparelho seco, vale levar para análise." },
       {
         question: "Posso secar com secador de cabelo?",
         answer: "Jamais! O ar quente do secador derrete os plásticos internos do celular e empurra a água mais para o fundo do aparelho, destruindo a placa-mãe."
