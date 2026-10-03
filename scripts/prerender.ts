@@ -93,10 +93,10 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   `;
 
   // Inject style to hide pre-rendered content from visual display (crawlers still read it)
-  const seoHideStyle = `<style>body{margin:0}[data-seo-prerender]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#0a0f18;color:#fff;min-height:100vh}[data-seo-prerender]::before{content:"Reparo Avançado";display:flex;align-items:center;height:64px;background-color:#0a0f18;border-bottom:1px solid #1f2937;padding:0 24px;font-weight:700;font-size:1.25rem;color:#fff}[data-seo-prerender] header,[data-seo-prerender] main,[data-seo-prerender] footer{max-width:1200px;margin:0 auto;padding:32px 24px;width:100%;box-sizing:border-box}[data-seo-prerender] h1{font-size:2.25rem;font-weight:800;color:#fff;margin-bottom:16px;line-height:1.2}[data-seo-prerender] h2{font-size:1.875rem;font-weight:700;color:#fff;margin-top:32px;margin-bottom:16px}[data-seo-prerender] h3{font-size:1.5rem;font-weight:600;color:#d1d5db;margin-top:24px;margin-bottom:8px}[data-seo-prerender] p{color:#d1d5db;line-height:1.75;margin-bottom:16px;font-size:1rem}[data-seo-prerender] a{color:#3b82f6;text-decoration:none}[data-seo-prerender] a:hover{text-decoration:underline}[data-seo-prerender] ul{padding-left:24px;margin-bottom:16px}[data-seo-prerender] li{color:#d1d5db;margin-bottom:8px;line-height:1.75}[data-seo-prerender] aside{background:rgba(59,130,246,0.1);border:1px solid #3b82f6;padding:24px;border-radius:8px;margin:24px 0}[data-seo-prerender] footer{border-top:1px solid #1f2937;margin-top:48px;padding-top:24px;color:#9ca3af;font-size:0.875rem}</style>`;
+  const seoHideStyle = '<style>[data-seo-prerender] {  position: absolute !important;  width: 1px !important;  height: 1px !important;  padding: 0 !important;  margin: -1px !important;  overflow: hidden !important;  clip-path: inset(50%) !important;  white-space: nowrap !important;  border: 0 !important;}</style>';
   html = html.replace('</head>', `${seoHideStyle}${schemaScript}</head>`);
 
-  html = html.replace('<div id="root"></div>', `<div id="root">${seoContent}</div>`);
+  html = html.replace('<div id="root"></div>', `<div id="root"></div>\n${seoContent}`);
 
   const outDir = path.join(distPath, urlPath);
   if (!fs.existsSync(outDir)) {
