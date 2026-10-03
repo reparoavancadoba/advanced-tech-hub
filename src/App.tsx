@@ -17,10 +17,10 @@ import Contato from "./pages/Contato";
 import Localizacao from "./pages/Localizacao";
 import InformacoesIndex from "./pages/InformacoesIndex";
 import InformacaoPage from "./pages/InformacaoPage";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 // LAZY LOADED ROUTES
-const Blog = lazy(() => import("./pages/Blog"));
-const BlogPost = lazy(() => import("./pages/BlogPost"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Atendimento = lazy(() => import("./pages/Atendimento"));
 const ProgrammaticSEO = lazy(() => import("./pages/ProgrammaticSEO"));
