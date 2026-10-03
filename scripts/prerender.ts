@@ -351,8 +351,9 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   // Main content
   contentHtml += `<p><strong>Resumo:</strong> ${description}</p>`;
   if (post.tldr) contentHtml += `<h2>Direto ao Ponto (Resumo Rápido)</h2><p>${post.tldr}</p>`;
+  const displayModelH2 = (!post.model || post.model.toLowerCase() === "todos") ? "" : ` ${post.model}`;
   if (!post.isEditorial) {
-    contentHtml += `<h2>O Problema: ${post.service} ${post.model}</h2>`;
+    contentHtml += `<h2>O Problema: ${post.service}${displayModelH2}</h2>`;
     if (post.problems && post.problems.length) contentHtml += `<ul>${post.problems.map((p: string) => `<li>${p}</li>`).join('')}</ul>`;
     contentHtml += `<h2>Causas Comuns</h2>`;
     if (post.causes && post.causes.length) contentHtml += `<ul>${post.causes.map((c: string) => `<li>${c}</li>`).join('')}</ul>`;
@@ -391,7 +392,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   if (!post.isEditorial) {
     if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2>${parseMarkdown(post.solution)}`;
     if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2>${parseMarkdown(post.whenToSeek)}`;
-    if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service} ${post.model}?</h2>${parseMarkdown(post.costInfo)}`;
+    if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service}${displayModelH2}?</h2>${parseMarkdown(post.costInfo)}`;
   }
 
   // FAQ
@@ -439,7 +440,20 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
         ...(datePublished ? { "datePublished": datePublished } : {}),
         ...(dateModified ? { "dateModified": dateModified } : {}),
         "author": { "@type": "Organization", "name": businessInfo.name, "url": businessInfo.url },
-        "publisher": { "@type": "Organization", "name": businessInfo.name, "logo": { "@type": "ImageObject", "url": `${DOMAIN}/favicon.png` } },
+        "publisher": {
+          "@type": "LocalBusiness",
+          "name": businessInfo.name,
+          "logo": { "@type": "ImageObject", "url": `${DOMAIN}/favicon.png` },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. Abelardo Andrade de Carvalho, 8",
+            "addressLocality": "Salvador",
+            "addressRegion": "BA",
+            "postalCode": "41706-710",
+            "addressCountry": "BR"
+          },
+          "areaServed": "Salvador"
+        },
         "mainEntityOfPage": { "@type": "WebPage", "@id": `${DOMAIN}${urlPath}` }
       },
       {

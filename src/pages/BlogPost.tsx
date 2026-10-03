@@ -58,7 +58,10 @@ const BlogPost = () => {
   const wordCount = getWordCount();
   const readingTime = Math.ceil(wordCount / 200);
 
-  const topic = post.title || `${post.service} ${post.model}`;
+  const isTodos = (val?: string) => !val || val.toLowerCase() === 'todos';
+  const displayModel = isTodos(post.model) ? 'aparelho' : post.model;
+  const displayModelH2 = isTodos(post.model) ? '' : ` ${post.model}`;
+  const topic = post.title || `${post.service}${displayModelH2}`;
   const customMessage = `Olá! Vi o artigo sobre ${topic} no blog de vocês e gostaria de um orçamento.`;
   const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(customMessage)}`;
 
@@ -71,7 +74,7 @@ const BlogPost = () => {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "BlogPosting",
         headline: post.h1,
         description: post.metaDescription,
         datePublished: post.datePublished || "2026-06-01",
@@ -86,13 +89,22 @@ const BlogPost = () => {
           }
         },
         publisher: {
-          "@type": "Organization",
+          "@type": "LocalBusiness",
           "name": "Reparo Avançado",
-          url: "https://site.reparoavancado.com.br",
-          logo: {
+          "url": "https://site.reparoavancado.com.br",
+          "logo": {
             "@type": "ImageObject",
-            url: "https://site.reparoavancado.com.br/favicon.png"
-          }
+            "url": "https://site.reparoavancado.com.br/favicon.png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. Abelardo Andrade de Carvalho, 8",
+            "addressLocality": "Salvador",
+            "addressRegion": "BA",
+            "postalCode": "41706-710",
+            "addressCountry": "BR"
+          },
+          "areaServed": "Salvador"
         },
       },
     ],
@@ -220,9 +232,11 @@ const BlogPost = () => {
                 {/* Header inside White Card */}
                 <div className="mb-8">
                   <div className="flex items-center gap-2 mb-4">
-                    <span className="bg-[#0066FF] text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
-                      {post.brand}
-                    </span>
+                    {!isTodos(post.brand) && (
+                      <span className="bg-[#0066FF] text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
+                        {post.brand}
+                      </span>
+                    )}
                     <span className="bg-[#0066FF] text-white px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
                       {post.category}
                     </span>
@@ -249,7 +263,7 @@ const BlogPost = () => {
                   {post.problems && post.problems.length > 0 && (
 <section id="sintomas">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
-                      Sintomas: O Problema com {post.service} {post.model}
+                      Sintomas: O Problema com {post.service}{displayModelH2}
                     </h2>
                     <ul className="space-y-5">
                       {post.problems.map((p, i) => (
@@ -341,7 +355,7 @@ const BlogPost = () => {
                   {post.costInfo && post.costInfo.trim() !== '' && (
 <section id="custo">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
-                      Quanto Custa {post.service} {post.model}?
+                      Quanto Custa {post.service}{displayModelH2}?
                     </h2>
                     <div>{parseContent(post.costInfo)}</div>
                   </section>
@@ -396,7 +410,7 @@ const BlogPost = () => {
                     >
                       {/* Thumbnail Placeholder */}
                       <div className="w-16 h-16 shrink-0 rounded-lg bg-zinc-800 flex items-center justify-center border border-zinc-700 group-hover:border-[#0066FF] transition-colors overflow-hidden">
-                        <span className="text-zinc-500 font-bold text-xs uppercase">{rp.brand}</span>
+                        <span className="text-zinc-500 font-bold text-xs uppercase">{isTodos(rp.brand) ? "Dicas" : rp.brand}</span>
                       </div>
                       
                       {/* Text */}
@@ -423,7 +437,7 @@ const BlogPost = () => {
               Pronto pra resolver?
             </h2>
             <p className="text-blue-100 mb-8 text-base md:text-lg max-w-2xl mx-auto">
-              Fale agora com nosso profissional e resolva o problema do seu {post.model}. Orçamento sem compromisso.
+              Fale agora com nosso profissional e resolva o problema do seu {displayModel}. Orçamento sem compromisso.
             </p>
             <a
               href={waLink}
