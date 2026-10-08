@@ -42,7 +42,11 @@ Para aumentar a vida útil da sua nova bateria, evite utilizar o iPhone enquanto
 
 Após a troca, realizamos testes de carga completa e monitoramos a temperatura para garantir funcionamento perfeito. ${LOCAL_SEO}`,
     whenToSeek: "Quando a saúde da bateria cair abaixo de 85%, quando o iPhone desligar sozinho, quando a bateria não durar um dia de uso moderado, ou quando aparecer aviso de 'conserto da Bateria'. Não espere a bateria estufar, isso pode danificar a tela e outros componentes.",
-    costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 3 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.`,
+    costInfo: `O valor da troca de bateria varia conforme o modelo do iPhone (do iPhone 11 ao iPhone 16 Pro Max). Todas as baterias são ${PECAS}. Oferecemos garantia de 3 meses e o serviço é realizado em até 40 minutos. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "A troca de bateria do iPhone vai aparecer 'Peça Desconhecida'?", answer: "Não. Na Reparo Avançado, reprogramamos o chip controlador da bateria para que o iOS reconheça a peça corretamente, exibindo a saúde em 100% sem nenhuma mensagem de erro." },
       { question: "Quanto tempo dura a bateria nova do iPhone?", answer: "Nossas baterias de alta performance têm vida útil equivalente à original, suportando mais de 500 ciclos de carga completa mantendo acima de 80% de capacidade." },
@@ -97,7 +101,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `O Face ID é um dos sistemas mais complexos do iPhone, composto pelo projetor de pontos, câmera infravermelha e iluminador flood. Na Reparo Avançado, utilizamos microscópio profissional e estação de micro-soldagem para diagnosticar e reparar cada componente individualmente. Em casos de flex danificado por troca de tela, realizamos a transferência do módulo TrueDepth com precisão cirúrgica. ${LOCAL_SEO}`,
     whenToSeek: "Imediatamente ao perceber que o Face ID parou de funcionar, especialmente após queda ou troca de tela. O atraso pode permitir que a oxidação se espalhe pelos contatos do sensor.",
-    costInfo: `O conserto do Face ID requer equipamento focado e mão de obra técnica de precisão. O diagnóstico é gratuito e o valor varia conforme o tipo de dano. Utilizamos ${PECAS}. ${CTA_TEXT}.`,
+    costInfo: `O conserto do Face ID requer equipamento focado e mão de obra técnica de precisão. O diagnóstico é gratuito e o valor varia conforme o tipo de dano. Utilizamos ${PECAS}. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "É possível recuperar o Face ID do iPhone?", answer: "Sim, em muitos casos. Na Reparo Avançado temos taxa de sucesso superior a 85% na restauração do Face ID através de micro-soldagem e conserto do módulo TrueDepth." },
       { question: "Face ID parou após trocar a tela, tem solução?", answer: "Sim. Geralmente o flex do módulo TrueDepth foi danificado durante a troca. Realizamos a transferência ou conserto do flex com micro-soldagem de precisão." },
@@ -196,7 +204,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Na Reparo Avançado, utilizamos telas de alta performance (${PECAS}) e realizamos a reprogramação do CI (chip controlador) da tela. Isso garante que o True Tone, brilho automático e todas as funções de toque funcionem perfeitamente. Nosso processo inclui a transferência dos dados do CI da tela original para a nova, mantendo o pareamento com a placa. ${LOCAL_SEO}`,
     whenToSeek: "Imediatamente após qualquer trinca na tela. Fragmentos de vidro podem causar cortes e a exposição interna à poeira e umidade pode danificar outros componentes.",
-    costInfo: `O valor varia conforme o modelo (iPhone 11 ao 16 Pro Max) e o tipo de tela (LCD, OLED, Super Retina XDR). Todas incluem reprogramação True Tone sem custo adicional. ${CTA_TEXT}.`,
+    costInfo: `O valor varia conforme o modelo (iPhone 11 ao 16 Pro Max) e o tipo de tela (LCD, OLED, Super Retina XDR). Todas incluem reprogramação True Tone sem custo adicional. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "A tela nova vai ter True Tone funcionando?", answer: "Sim! Realizamos a reprogramação do CI da tela para manter o True Tone, brilho automático e todas as funções de toque funcionando perfeitamente." },
       { question: "Qual a diferença entre tela original e tela de alta performance?", answer: `Nossas telas são ${PECAS}. Possuem a mesma qualidade de cores, resolução e sensibilidade ao toque, com garantia de 3 meses.` },
@@ -242,7 +254,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `O tempo é o fator mais crítico. Na Reparo Avançado, realizamos o processo de desoxidação de emergência: abertura imediata do aparelho, banho ultrassônico com solução específica, limpeza componente a componente sob microscópio, secagem controlada e teste completo de todos os circuitos. NUNCA coloque o iPhone no arroz, isso pode introduzir amido nos conectores e piorar a oxidação. ${LOCAL_SEO}`,
     whenToSeek: "IMEDIATAMENTE. Desligue o iPhone, NÃO tente carregar, NÃO tente ligar. Cada hora conta contra a oxidação. A corrosão pode ser irreversível em 24-48 horas.",
-    costInfo: `O diagnóstico de urgência é gratuito. O valor da desoxidação depende da extensão do dano. Quanto mais rápido trouxer, maior a chance de restauração e menor o custo. ${CTA_TEXT}.`,
+    costInfo: `O diagnóstico de urgência é gratuito. O valor da desoxidação depende da extensão do dano. Quanto mais rápido trouxer, maior a chance de restauração e menor o custo. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "Funciona colocar o iPhone no arroz?", answer: "NÃO! Esse é um dos maiores mitos. O arroz não remove a umidade interna e pode introduzir partículas de amido nos conectores, piorando a oxidação. O correto é desligar o aparelho e trazer para desoxidação profissional o mais rápido possível." },
       { question: "iPhone é à prova d'água, por que estragou?", answer: "A resistência à água do iPhone é uma classificação de fábrica que se degrada com o uso, quedas e tempo. Nenhum iPhone é 'à prova d'água' permanentemente, especialmente após 1 ano de uso." },
@@ -294,7 +310,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Primeiro, realizamos inspeção visual com microscópio para identificar se o problema é sujeira acumulada ou dano físico nos pinos. Em 60% dos casos, uma limpeza técnica profissional resolve completamente, utilizamos ferramentas anti-estáticas e solventes específicos. Quando há dano nos pinos ou oxidação severa, realizamos a troca do módulo de carga completo com ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando perceber qualquer inconsistência no carregamento. O 'jeitinho' de inclinar o cabo é sinal de que o problema já está instalado e tende a piorar.",
-    costInfo: `A limpeza técnica é um procedimento rápido e acessível. A troca do conector tem valor conforme o modelo. diagnóstico gratuito para identificar a melhor solução. ${CTA_TEXT}.`,
+    costInfo: `A limpeza técnica é um procedimento rápido e acessível. A troca do conector tem valor conforme o modelo. diagnóstico gratuito para identificar a melhor solução. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "Limpeza do conector resolve ou precisa trocar?", answer: "Depende. Em 60% dos casos, a limpeza técnica profissional resolve. Fazemos diagnóstico com microscópio para determinar se há dano nos pinos que exija troca do módulo completo." },
       { question: "Posso limpar o conector do iPhone em casa?", answer: "Não recomendamos. Palitos e objetos metálicos podem danificar os pinos do conector. A limpeza técnica profissional utiliza ferramentas anti-estáticas e solventes específicos." },
@@ -329,7 +349,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `A troca do vidro traseiro do iPhone é um dos conserto mais complexos, pois o vidro é colado com adesivo industrial diretamente no chassi. Na Reparo Avançado, utilizamos máquina a laser para separar o vidro sem danificar os componentes internos. Após a remoção, instalamos o novo vidro com acabamento e ajuste perfeito. ${LOCAL_SEO}`,
     whenToSeek: "Assim que o vidro trincar. Além do risco de cortes, o vidro quebrado permite entrada de poeira e umidade que podem danificar câmeras e outros componentes internos.",
-    costInfo: `O valor varia conforme o modelo do iPhone. O conserto a laser garante acabamento de fábrica sem danos à placa ou bateria. ${CTA_TEXT}.`,
+    costInfo: `O valor varia conforme o modelo do iPhone. O conserto a laser garante acabamento de fábrica sem danos à placa ou bateria. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "É possível trocar só o vidro traseiro do iPhone?", answer: "Sim! Com a tecnologia de remoção a laser, conseguimos trocar apenas o vidro sem precisar substituir o chassi completo, resultando em um conserto mais econômico." },
       { question: "O carregamento sem fio volta a funcionar?", answer: "Sim, desde que a bobina de carregamento wireless não tenha sido danificada. Verificamos todos os componentes durante o conserto." },
@@ -366,7 +390,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `Em 70% dos casos de áudio baixo, a causa é simplesmente sujeira acumulada nas grades. Na Reparo Avançado, realizamos a higienização profissional com ferramentas focadas, removendo toda obstrução sem danificar os componentes. Quando o problema é no alto-falante em si, realizamos a substituição por ${PECAS}. ${LOCAL_SEO}`,
     whenToSeek: "Quando perceber redução gradual no volume ou qualquer distorção no áudio. A sujeira acumulada pode eventualmente danificar o alto-falante se não for removida.",
-    costInfo: `A higienização das grades é um serviço rápido e acessível. A troca do alto-falante tem valor conforme o modelo. ${CTA_TEXT}.`,
+    costInfo: `A higienização das grades é um serviço rápido e acessível. A troca do alto-falante tem valor conforme o modelo. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "Limpeza resolve o som baixo do iPhone?", answer: "Na maioria dos casos, sim! Cerca de 70% dos problemas de áudio baixo são causados por sujeira nas grades. A higienização profissional restaura o volume original." },
       { question: "Como evitar que o som do iPhone fique baixo?", answer: "Evite usar o iPhone em ambientes com muita poeira, limpe regularmente as grades com escova macia e seca, e considere fazer uma limpeza técnica preventiva a cada 6 meses." },
@@ -438,7 +466,11 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
     ],
     solution: `O chip de rádio do iPhone controla Wi-Fi, Bluetooth, GPS e NFC. Quando falha, é necessário reballing ou substituição desse CI na placa. Na Reparo Avançado, realizamos esse conserto com estação BGA profissional e microscópio, garantindo a restauração completa de todas as conectividades. ${LOCAL_SEO}`,
     whenToSeek: "Quando Wi-Fi ou Bluetooth ficarem cinzas (sem possibilidade de ativar) ou desconectarem constantemente. Primeiro tente resetar as configurações de rede, se não resolver, é provável problema de componentes físicos.",
-    costInfo: `O diagnóstico é gratuito. O conserto do chip de rádio é um serviço focado de micro-soldagem. ${CTA_TEXT}.`,
+    costInfo: `O diagnóstico é gratuito. O conserto do chip de rádio é um serviço focado de micro-soldagem. ${CTA_TEXT}.
+
+### O que fazer se o seu iPhone continuar com esse problema
+
+Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 90 dias de garantia. Atendemos na Boca do Rio com coleta e entrega, e funcionamos de segunda a sexta e sábado até 17h. Fale conosco pelo WhatsApp ou saiba mais sobre [conserto de iPhone](/conserto-de-iphone) e [conserto de iPhone na Boca do Rio](/informacoes/conserto-de-iphone-boca-do-rio).`,
     faq: [
       { question: "Por que o Wi-Fi do meu iPhone ficou cinza?", answer: "Geralmente indica falha no chip de rádio (USI/Murata) na placa. É um problema de componentes físicos que requer conserto focado com micro-soldagem." },
       { question: "Atualização do iOS pode causar esse problema?", answer: "Raramente a atualização causa o problema, ela geralmente apenas revela uma falha de componentes físicos que já estava se desenvolvendo. A atualização pode estressar o chip danificado até o ponto de falha completa." },

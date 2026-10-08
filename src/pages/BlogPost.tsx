@@ -43,7 +43,7 @@ const BlogPost = () => {
   }
 
   const getWordCount = () => {
-    let text = `${post.h1} ${post.description} ${post.solution} ${post.whenToSeek} ${post.costInfo}`;
+    let text = `${post.h1} ${post.description} ${post.solution} ${post.whenToSeek} ${post.costInfo} ${post.casoReal || ''}`;
     if (post.sections) {
       post.sections.forEach(s => {
         text += ` ${s.title} ${s.content}`;
@@ -351,6 +351,16 @@ const BlogPost = () => {
                       ))}
                     </section>
                   ))}
+
+                  
+                  {post.casoReal && post.casoReal.trim() !== '' && (
+                    <section id="caso-real" className="mt-12">
+                      <h2 className="text-2xl md:text-3xl font-bold text-[#0066FF] mb-8 pb-4 border-b border-zinc-100">
+                        O que fazer se o seu iPhone continuar com esse problema
+                      </h2>
+                      <div>{parseContent(post.casoReal)}</div>
+                    </section>
+                  )}
 
                   {post.costInfo && post.costInfo.trim() !== '' && (
 <section id="custo">
