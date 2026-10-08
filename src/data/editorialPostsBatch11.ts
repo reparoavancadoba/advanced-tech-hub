@@ -14,7 +14,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     brand: "Apple",
     model: "iPhone 11",
     service: "conector de carga do iPhone 11",
-    serviceSlug: "celular-nao-carrega",
+    serviceSlug: "celular-motorola-nao-carrega",
     description:
       "O iPhone 11 é um dos aparelhos mais usados no Brasil até hoje, e um dos defeitos mais comuns nele é justamente parar de carregar — ou carregar só quando o cabo está numa posição exata. Antes de gastar com a peça errada, dá para eliminar algumas causas em casa.",
     problems: [

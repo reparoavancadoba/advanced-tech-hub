@@ -818,12 +818,12 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "Estar com o smartphone quebrado hoje em dia não é apenas um incômodo; é estar desconectado do trabalho, da família e das próprias contas bancárias. Em uma capital dinâmica como Salvador, o fluxo intenso do dia a dia resulta em inúmeros acidentes: quedas no asfalto, exposição à umidade e uso intenso da bateria. Saber o que está causando o defeito e a quem recorrer para o conserto de celular é crucial para não gastar dinheiro duas vezes."
       },
       {
-        id: "celular-nao-liga",
+        id: "celular-nao-liga-motivos-salvador",
         title: "Celular não liga: Tela preta ou morte súbita?",
         content: "Um dos maiores sustos é tentar acender a tela e o aparelho não responder de forma alguma. Quando o celular não liga, a primeira suspeita da maioria das pessoas é que o aparelho 'queimou'. No entanto, existem diversas nuances técnicas.\n\n[DICA]\nAntes de se desesperar, conecte o aparelho ao carregador, espere 10 minutos e ligue para ele de outro telefone. Se ele tocar ou vibrar, o defeito não é na placa e sim no display que ficou totalmente preto após uma queda.\n[/DICA]\n\nSe o celular realmente não der sinal de vida (nem carregar), o defeito está concentrado na placa. Isso geralmente acontece devido a um curto-circuito primário ou falha no Power Management IC (PMIC). A solução profissional em Salvador é realizar uma análise de consumo na fonte de bancada, onde o técnico rastreia exatamente o microcomponente que está roubando a corrente."
       },
       {
-        id: "celular-nao-carrega",
+        id: "celular-motorola-nao-carrega",
         title: "Celular não carrega: Conector, cabo ou sistema?",
         content: "Se o seu aparelho avisa que está conectado, mas a bateria drena ao invés de subir, ou pior, o cabo fica 'bambo' no encaixe, você tem um problema de carregamento.\n\n[ATENCAO]\nJamais utilize agulhas ou clipes de metal para tentar limpar o conector do seu smartphone. Você pode amassar os pinos dourados de contato, fechando um curto irreversível que transforma uma simples limpeza em uma troca completa de placa conectorizada.\n[/ATENCAO]\n\nNa Reparo Avançado, a abordagem para quando o celular não carrega é dividida em 3 etapas:\n1. Limpeza técnica sob microscópio para remoção de fuligem e algodão compactado.\n2. Avaliação de tensão para ver se a corrente do carregador entra na placa.\n3. Caso haja dano, realizamos a substituição do conector de carga de forma isolada."
       },
@@ -1266,7 +1266,7 @@ Após a troca, realizamos testes de carga completa e monitoramos a temperatura p
         content: "Seu celular não está ligando porque, simplesmente, faz 3 dias que ele não carrega de verdade. A entrada do cabo (o conector Tipo-C ou Lightning) costuma acumular tanta poeira de bolso e fiapos de roupa que o cabo não encosta nos pinos de metal. \n\n[IMPORTANTE]\nNunca enfie palitos de dente ou agulhas para limpar. Você vai quebrar as trilhas de dados. Nós fazemos a limpeza técnica com pinças de cerâmica anti-estática gratuitas na nossa loja.\n[/IMPORTANTE]"
       }
     ],
-    relatedSlugs: ["celular-nao-carrega-salvador", "reparo-placa-celular-salvador-vale-a-pena", "celular-esquentando"]
+    relatedSlugs: ["celular-nao-carrega-salvador", "reparo-placa-celular-salvador-vale-a-pena", "meu-celular-esquenta-muito-e-descarrega-rapido"]
   },
   {
     slug: "assistencia-tecnica-iphone-salvador-especializada",

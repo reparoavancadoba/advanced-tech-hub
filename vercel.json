@@ -194,6 +194,46 @@
       "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
       "destination": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
       "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-liga",
+      "destination": "/celular-nao-liga",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-nao-carrega",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-esquentando",
+      "destination": "/blog/meu-celular-esquenta-muito-e-descarrega-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tela-preta",
+      "destination": "/blog/celular-liga-mas-a-tela-nao-acende",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-descarregando-rapido",
+      "destination": "/blog/meu-celular-esquenta-muito-e-descarrega-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-caiu-na-agua",
+      "destination": "/celular-caiu-na-agua",
+      "permanent": true
+    },
+    {
+      "source": "/blog/microfone-nao-funciona",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-sem-som",
+      "destination": "/conserto-de-celular",
+      "permanent": true
     }
   ],
   "cleanUrls": true

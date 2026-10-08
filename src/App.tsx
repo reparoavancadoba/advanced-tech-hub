@@ -68,8 +68,8 @@ const App = () => (
               <Route path="/troca-de-bateria" element={<ServicoConsolidado slug="troca-de-bateria" />} />
               <Route path="/reparo-em-placa" element={<ServicoConsolidado slug="reparo-em-placa" />} />
               <Route path="/conserto-de-celular" element={<ServicoConsolidado slug="conserto-de-celular" />} />
-              <Route path="/celular-nao-carrega" element={<ServicoConsolidado slug="celular-nao-carrega" />} />
-              <Route path="/celular-nao-liga" element={<ServicoConsolidado slug="celular-nao-liga" />} />
+              <Route path="/celular-nao-carrega" element={<ServicoConsolidado slug="celular-motorola-nao-carrega" />} />
+              <Route path="/celular-nao-liga" element={<ServicoConsolidado slug="celular-nao-liga-motivos-salvador" />} />
               <Route path="/celular-caiu-na-agua" element={<ServicoConsolidado slug="celular-caiu-na-agua" />} />
               <Route path="/conserto-de-tablet" element={<ServicoConsolidado slug="conserto-de-tablet" />} />
               <Route path="/conserto-de-notebook" element={<ServicoConsolidado slug="conserto-de-notebook" />} />

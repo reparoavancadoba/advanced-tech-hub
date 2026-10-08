@@ -11,8 +11,8 @@ const serviceIcons: Record<string, React.ElementType> = {
   "troca-de-bateria": Battery,
   "reparo-em-placa": Cpu,
   "conserto-de-celular": Wrench,
-  "celular-nao-carrega": BatteryCharging,
-  "celular-nao-liga": Power,
+  "celular-motorola-nao-carrega": BatteryCharging,
+  "celular-nao-liga-motivos-salvador": Power,
   "celular-caiu-na-agua": Droplet
 };
 
