@@ -52,6 +52,7 @@ export const editorialPostsBatch11: BlogPost[] = [
       "conserto iphone 11 salvador",
     ],
     faq: [
+      { question: "Aparece \"Este acessório pode não ser compatível\" ou \"Acessório não suportado\" ao carregar o iPhone. O que fazer?", answer: "Essa mensagem costuma aparecer quando o iPhone não reconhece o cabo ou o carregador, ou quando há sujeira ou umidade no conector. Teste outro cabo e outro carregador, confira se o conector está limpo e seco e reinicie o aparelho. Se a mensagem continuar mesmo com acessórios que funcionam em outro aparelho, o problema pode estar no conector de carga, e vale levar para diagnóstico." },
       {
         question:
           "Vale a pena consertar o conector de carga do iPhone 11 ou é melhor trocar de aparelho?",

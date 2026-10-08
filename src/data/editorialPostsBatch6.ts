@@ -68,6 +68,8 @@ export const editorialPostsBatch6: BlogPost[] = [
     datePublished: "2026-07-16",
     dateModified: "2026-07-16",
     faq: [
+      { question: "O iPhone fica preso na maçã ou reinicia sozinho. O que pode ser?", answer: "Pode ser falha de sistema, por exemplo depois de uma atualização interrompida, ou defeito de hardware, como bateria ou placa. Force a reinicialização do modelo e, se o aparelho conectar ao computador, escolha Atualizar em vez de Restaurar para tentar preservar os dados. Se o problema continuar, leve para diagnóstico antes de insistir, para não perder arquivos." },
+      { question: "O que significa o erro 4013 ao restaurar o iPhone pelo computador?", answer: "É um erro que aparece durante a restauração ou atualização pelo computador e, em geral, indica que a comunicação entre o iPhone e o computador foi interrompida. Tente outro cabo e outra porta USB e atualize o iTunes ou o Finder antes de repetir. Se o erro voltar, pode haver defeito de hardware no aparelho, e o diagnóstico técnico confirma. Evite repetir a restauração várias vezes sem saber a causa, porque ela apaga os dados do aparelho." },
       {
         question: "Vou perder minhas coisas?",
         answer: "Depende muito da causa. Se foi um curto periférico (o mais comum após banheiro quente), assim que substituímos a peça em curto o celular liga intacto. Se for memória corrompida pelo armazenamento 100% cheio, o risco de perda é maior, mas aplicamos técnicas de 'Update' forçado antes de qualquer restauro."
