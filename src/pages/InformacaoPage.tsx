@@ -34,6 +34,62 @@ const InformacaoPage = () => {
       <Helmet>
         <title>{page.title}</title>
         <meta name="description" content={page.meta} />
+        {/* JSON-LD Schema */}
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Service",
+                "name": "${page.h1}",
+                "provider": {
+                  "@type": "LocalBusiness",
+                  "name": "Reparo Avançado",
+                  "telephone": "${businessInfo.whatsapp}"
+                },
+                "areaServed": {
+                  "@type": "City",
+                  "name": "${page.areaServed}"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Início",
+                    "item": "https://site.reparoavancado.com.br/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Informações",
+                    "item": "https://site.reparoavancado.com.br/informacoes"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "${page.title}",
+                    "item": "https://site.reparoavancado.com.br/informacoes/${page.slug}"
+                  }
+                ]
+              }${page.faq && page.faq.length > 0 ? `,
+              {
+                "@type": "FAQPage",
+                "mainEntity": [${page.faq.map(f => `{
+                  "@type": "Question",
+                  "name": "${f.question}",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "${f.answer}"
+                  }
+                }`).join(',')}]
+              }` : ''}
+            ]
+          }`}
+        </script>
+
       </Helmet>
 
       <div className="bg-[#001D4A] py-16 text-center text-white">
@@ -46,7 +102,27 @@ const InformacaoPage = () => {
         <div className="max-w-3xl mx-auto space-y-8 text-zinc-700 text-lg">
           <div dangerouslySetInnerHTML={{ __html: parseContent(page.content) }} />
 
+          
+          {page.faq && page.faq.length > 0 && (
+            <div className="mt-12">
+              <h2 className="text-2xl font-bold text-[#0066FF] mb-6">Perguntas Frequentes</h2>
+              <div className="space-y-4">
+                {page.faq.map((f, i) => (
+                  <details key={i} className="group bg-zinc-50 border border-zinc-100 rounded-xl overflow-hidden cursor-pointer">
+                    <summary className="font-bold p-5 hover:bg-zinc-100 transition-colors list-none flex justify-between items-center">
+                      {f.question}
+                    </summary>
+                    <div className="p-5 pt-0 text-zinc-700 leading-relaxed border-t border-zinc-100">
+                      {f.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          )}
+          
           <div className="mt-12 p-8 bg-zinc-50 rounded-2xl border border-zinc-100 flex flex-col items-center text-center gap-6">
+
             <h3 className="text-2xl font-bold text-zinc-900">Precisa de ajuda agora?</h3>
             <a 
               href={waUrl}
