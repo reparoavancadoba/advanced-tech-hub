@@ -273,7 +273,7 @@ export const editorialPostsBatch7: BlogPost[] = [
     solution: "Realizar uma inspeção de consumo na placa lógica. Se a placa estiver consumindo normalmente, a substituição por uma bateria nova de alta qualidade resolve o problema de autonomia.",
     whenToSeek: "Se o celular estufar, esquentar de forma insuportável ou desligar no meio do uso com a porcentagem mostrando 30% ou mais.",
     costInfo: "Diagnóstico inicial rápido. Caso seja apenas a bateria, o reparo costuma levar cerca de 40 minutos.",
-    relatedSlugs: [],
+    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

@@ -281,7 +281,7 @@ export const editorialPostsBatch9: BlogPost[] = [
     solution: "Recuperação via EDL Mode (Software avançado) ou reballing / ressolda do PMIC/Processador na placa-mãe (Micro-soldagem).",
     whenToSeek: "Imediatamente. Tentar forçar reinicializações ou aplicar softwares duvidosos baixados da internet pode queimar de vez a memória e perder dados permanentemente.",
     costInfo: "Diagnóstico gratuito para determinar se o 'brick' foi apenas de software ou falha física de placa.",
-    relatedSlugs: ["motorola-travando-reiniciando-sozinho-loop", "celular-nao-liga-o-que-fazer"],
+    relatedSlugs: ["motorola-travando-reiniciando-sozinho-loop", "celular-nao-liga-o-que-fazer", "xiaomi-poco-reiniciando-sozinho-salvador", "assistencia-tecnica-xiaomi-salvador-conserto"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

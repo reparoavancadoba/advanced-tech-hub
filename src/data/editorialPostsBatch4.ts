@@ -317,7 +317,7 @@ export const editorialPostsBatch4: BlogPost[] = [
     solution: "1) Tentativa de Flash de ROM oficial (Software). 2) Se o software der erro no PC, partimos para inspeção de hardware: checar Botão Power, Bateria e finalmente Reballing de CPU/Memória.",
     whenToSeek: "Se você tentar forçar a reinicialização apertando Volume Menos + Power por 15 segundos e ele continuar no loop eterno.",
     costInfo: "Varia imensamente. Restauração de software é barato e rápido. Reparo de processador tem outro valor. Orçamento presencial sem compromisso.",
-    relatedSlugs: ["celular-xiaomi-nao-liga-o-que-fazer", "o-que-e-reparo-de-placa-de-celular"],
+    relatedSlugs: ["celular-xiaomi-nao-liga-o-que-fazer", "o-que-e-reparo-de-placa-de-celular", "tela-samsung-mancha-verde-linhas-salvador"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-15",

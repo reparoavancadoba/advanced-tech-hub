@@ -534,7 +534,7 @@ export const editorialPostsBatch11: BlogPost[] = [
       "Sempre que for entregar o Samsung para qualquer assistência técnica, antes de deixar o aparelho.",
     costInfo:
       "A ativação do Modo de Manutenção é gratuita e feita pelo próprio usuário. Na Reparo Avançado, orientamos todos os clientes sobre esse recurso antes do reparo.",
-    relatedSlugs: [],
+    relatedSlugs: ["conector-carga-iphone-limpeza-troca-salvador"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: today,
