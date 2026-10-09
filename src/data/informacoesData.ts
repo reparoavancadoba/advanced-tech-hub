@@ -24,6 +24,158 @@ export const informacoesIndex = {
 export const informacoesPages: InformacaoPage[] = [
 
   {
+    slug: "celular-nao-liga-boca-do-rio",
+    title: "Celular Não Liga na Boca do Rio | Reparo Avançado",
+    meta: "Celular que não liga na Boca do Rio, em Salvador? Diagnóstico antes do orçamento, loja no bairro e garantia de 90 dias no serviço.",
+    h1: "Celular Não Liga na Boca do Rio",
+    serviceSlug: "/celular-nao-liga",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Moro na Boca do Rio e meu celular não liga.",
+    faq: [
+      { question: "Celular que não liga tem conserto?", answer: "Na maioria dos casos, sim. Bateria, conector e falhas de sistema costumam ter solução direta. Defeitos na placa dependem do diagnóstico." },
+      { question: "Os dados são perdidos?", answer: "Quando a causa é bateria ou conector, o aparelho volta a ligar com os dados. Por isso, evite restaurar de fábrica antes de passar por diagnóstico." }
+    ],
+    content: "Celular que não liga é um dos defeitos mais comuns que chegam à nossa bancada. A Reparo Avançado fica na Boca do Rio, na R. Abelardo Andrade de Carvalho, 8, e atende de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 17h. Se você está por aqui, pode trazer o aparelho direto na loja.\n\n## O que pode estar por trás\n\n- Bateria totalmente descarregada ou sem capacidade\n- Conector de carga ou cabo com defeito\n- Falha de sistema depois de uma atualização\n- Queda ou contato com líquido\n- Defeito na placa\n\n## O que conferir antes de vir\n\n1. Deixe o celular no carregador por 20 a 30 minutos.\n2. Teste outro cabo e outro carregador.\n3. Force a reinicialização segurando o botão de ligar por cerca de 10 a 15 segundos.\n4. Anote o que aconteceu antes: travou, esquentou, caiu ou molhou.\n\nSe nada disso resolver, traga o aparelho. Evite restaurar de fábrica sem backup, porque isso apaga os dados.\n\n## Como funciona na loja\n\nFazemos o diagnóstico para descobrir a causa antes de passar o orçamento, que é gratuito. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "celular-nao-liga-pituba",
+    title: "Celular Não Liga na Pituba | Reparo Avançado",
+    meta: "Celular que não liga na Pituba, em Salvador? Veja o que testar e como funciona a coleta e entrega até a nossa loja, na Boca do Rio.",
+    h1: "Celular Que Não Liga na Pituba",
+    serviceSlug: "/celular-nao-liga",
+    localSlug: "/assistencia-tecnica-pituba",
+    areaServed: "Pituba, Salvador",
+    whatsapp: "Olá! Estou na Pituba e meu celular não liga.",
+    faq: [
+      { question: "Preciso levar o carregador junto?", answer: "Se puder, sim. Ele ajuda a testar se o problema está no aparelho ou no acessório." },
+      { question: "A coleta tem custo?", answer: "Consulte pelo WhatsApp as condições de coleta e entrega para o seu endereço." }
+    ],
+    content: "Se o seu celular parou de ligar e você está na Pituba, não precisa deixar o problema para depois. A Reparo Avançado atende de duas formas: você pode levar o aparelho até a nossa loja, na Boca do Rio, ou pedir a coleta e entrega. Consulte a disponibilidade para o seu endereço pelo WhatsApp.\n\n## Sinais que ajudam no diagnóstico\n\nQuando você nos chama, algumas informações aceleram a avaliação:\n\n- A marca e o modelo do celular\n- Se ele vibra, faz barulho ou acende alguma luz ao ser ligado no carregador\n- Se esquentou, caiu ou molhou antes de parar\n- Se estava no meio de uma atualização\n\n## Testes simples antes de chamar\n\n1. Deixe no carregador por 20 a 30 minutos antes de tentar ligar.\n2. Use outro cabo e outro carregador.\n3. Segure o botão de ligar por 10 a 15 segundos para forçar a reinicialização.\n\n## Como funciona com coleta e entrega\n\n1. Você chama no WhatsApp e conta o que aconteceu.\n2. Combinamos a coleta do aparelho.\n3. Fazemos o diagnóstico e enviamos o orçamento, que é gratuito.\n4. Com a sua aprovação, fazemos o reparo, testamos e devolvemos.\n\nO serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "celular-caiu-na-agua-boca-do-rio",
+    title: "Celular Caiu na Água na Boca do Rio | Reparo Avançado",
+    meta: "Celular caiu na água ou molhou na Boca do Rio, em Salvador? Veja o que fazer na hora e traga para diagnóstico. Garantia de 90 dias.",
+    h1: "Celular Caiu na Água na Boca do Rio",
+    serviceSlug: "/celular-caiu-na-agua",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Meu celular caiu na água e estou na Boca do Rio.",
+    faq: [
+      { question: "Meu celular molhou, mas ligou normalmente. Posso ficar tranquilo?", answer: "Não necessariamente. A corrosão avança aos poucos e o defeito pode aparecer dias depois. Vale passar por diagnóstico mesmo assim." },
+      { question: "Dá para recuperar os dados de um celular que molhou?", answer: "Depende do estado do aparelho. Por isso é importante não ligar nem carregar e levar para avaliação rapidamente." }
+    ],
+    content: "Celular que molhou pede pressa. Quanto mais tempo a umidade fica dentro do aparelho, maior o risco de corrosão na placa. Por isso, quem está na Boca do Rio pode vir direto à Reparo Avançado, na R. Abelardo Andrade de Carvalho, 8, sem precisar esperar.\n\n## O que fazer na hora\n\n1. Retire o celular da água e desligue, se ainda estiver ligado.\n2. Tire a capinha, o chip e o cartão de memória.\n3. Seque o lado de fora com um pano macio.\n4. Não ligue e não coloque para carregar.\n5. Traga para avaliação o quanto antes.\n\n## O que não fazer\n\n- Não coloque o aparelho no arroz, porque isso não seca por dentro e pode deixar resíduos.\n- Não use secador de cabelo, forno ou micro-ondas.\n- Não balance nem aperte os botões para \"tirar a água\".\n- Não ligue para testar se funciona.\n\n## Como funciona na loja\n\nAbrimos o aparelho para verificar o estado da placa e dos conectores antes de passar o orçamento, que é gratuito. Nem todo celular molhado tem a mesma chance de recuperação, e dizemos o que o diagnóstico encontrou. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "celular-caiu-na-agua-imbui",
+    title: "Celular Molhado no Imbuí: Diagnóstico | Reparo Avançado",
+    meta: "Celular caiu no mar, na piscina ou no banheiro e você está no Imbuí? Veja o que fazer e como pedir coleta e entrega até a Boca do Rio.",
+    h1: "Celular Que Molhou para Quem Está no Imbuí",
+    serviceSlug: "/celular-caiu-na-agua",
+    localSlug: "/assistencia-tecnica-imbui",
+    areaServed: "Imbuí, Salvador",
+    whatsapp: "Olá! Estou no Imbuí e meu celular molhou.",
+    faq: [
+      { question: "Celular que caiu no mar tem conserto?", answer: "Depende do estado em que o aparelho chega e do tempo desde o contato com a água. O diagnóstico mostra o que dá para recuperar." },
+      { question: "Posso esperar secar sozinho?", answer: "Não é recomendado. A umidade dentro do aparelho continua agindo, e quanto antes ele for avaliado, melhor." }
+    ],
+    content: "Praia, piscina, chuva, vaso sanitário: celular molhado acontece de várias formas, e cada uma pede um cuidado. Para quem está no Imbuí, a Reparo Avançado atende na loja, na Boca do Rio, ou por coleta e entrega. Consulte a disponibilidade para o seu endereço pelo WhatsApp.\n\n## Água do mar, piscina ou água doce\n\nA água do mar é a que costuma causar corrosão mais rápido, por causa do sal. A água de piscina e a água doce também deixam resíduos que, com o tempo, danificam a placa. Em qualquer caso, o passo mais importante é o mesmo: desligar o aparelho e não carregar.\n\n## Primeiros cuidados\n\n1. Desligue o celular e retire a capinha, o chip e o cartão de memória.\n2. Seque o exterior com um pano macio.\n3. Não carregue e não tente ligar.\n4. Chame no WhatsApp e conte o que aconteceu.\n\n## O que informar quando você chamar\n\n- A marca e o modelo do celular\n- Em que tipo de água ele caiu e há quanto tempo\n- Se ele chegou a ligar depois\n- Se já apareceu algum aviso de umidade na tela\n\n## Como funciona\n\nCombinamos a coleta, fazemos o diagnóstico para verificar a placa e os conectores e enviamos o orçamento, que é gratuito. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "conserto-de-notebook-boca-do-rio",
+    title: "Conserto de Notebook na Boca do Rio | Reparo Avançado",
+    meta: "Notebook que não liga, com tela preta ou com defeito na Boca do Rio, Salvador? Diagnóstico antes do orçamento e garantia de 90 dias.",
+    h1: "Conserto de Notebook na Boca do Rio",
+    serviceSlug: "/conserto-de-notebook",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Estou na Boca do Rio e preciso consertar meu notebook.",
+    faq: [
+      { question: "Vocês consertam notebook de qualquer marca?", answer: "Chame no WhatsApp e informe a marca e o modelo, que confirmamos o atendimento." },
+      { question: "Notebook com tela preta tem conserto?", answer: "Em muitos casos, sim. A causa pode estar na tela, no cabo da tela, na memória ou na placa, e o diagnóstico identifica qual é." }
+    ],
+    content: "Além de celulares e tablets, a Reparo Avançado também conserta notebooks. A loja fica na Boca do Rio, na R. Abelardo Andrade de Carvalho, 8, e você pode trazer o equipamento direto, de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 17h.\n\n## Defeitos que avaliamos\n\n- Notebook que não liga ou liga e não mostra imagem\n- Tela com listras, piscando ou quebrada\n- Notebook que não carrega, mesmo conectado na tomada\n- Equipamento que esquenta demais ou desliga sozinho\n- Lentidão que não melhora\n\n## Antes de trazer\n\n1. Anote o que aconteceu: caiu, molhou, apagou do nada ou foi esquentando aos poucos.\n2. Traga o carregador junto, porque ele ajuda a testar o equipamento.\n3. Se tiver arquivos importantes, avise no atendimento. Nunca formatamos o equipamento sem autorização.\n\n## Como funciona na loja\n\nFazemos o diagnóstico para descobrir a causa antes de passar o orçamento, que é gratuito. Com a sua aprovação, fazemos o reparo. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "conserto-de-notebook-pituba",
+    title: "Notebook Lento ou Esquentando na Pituba | Reparo Avançado",
+    meta: "Notebook lento, esquentando ou desligando sozinho na Pituba, em Salvador? Veja o que pode ser e como falar com a Reparo Avançado.",
+    h1: "Notebook Lento, Esquentando ou Desligando na Pituba",
+    serviceSlug: "/conserto-de-notebook",
+    localSlug: "/assistencia-tecnica-pituba",
+    areaServed: "Pituba, Salvador",
+    whatsapp: "Olá! Estou na Pituba e meu notebook está lento e esquentando.",
+    faq: [
+      { question: "Notebook lento sempre precisa de peça nova?", answer: "Não. Em alguns casos o problema está no sistema ou no excesso de programas. O diagnóstico mostra se há necessidade de troca de componente." },
+      { question: "Posso continuar usando um notebook que esquenta muito?", answer: "Não é recomendado. O calor excessivo pode danificar componentes, então vale avaliar o quanto antes." }
+    ],
+    content: "Notebook que demora para abrir, esquenta muito ou desliga no meio do trabalho costuma estar pedindo manutenção. Para quem está na Pituba, a Reparo Avançado recebe o equipamento na loja, na Boca do Rio, e você pode consultar pelo WhatsApp se a coleta está disponível para o seu endereço.\n\n## O que costuma causar esses sintomas\n\n- Poeira acumulada nas saídas de ar, que prende o calor\n- Disco antigo, que deixa o sistema lento\n- Pouca memória para o uso que você faz\n- Ventilação com defeito\n- Falhas de sistema ou excesso de programas abertos\n\n## O que observar antes de chamar\n\n1. O notebook esquenta logo ao ligar ou só depois de um tempo de uso?\n2. O ventilador faz barulho alto ou ficou em silêncio?\n3. A lentidão é geral ou só em alguns programas?\n4. Ele desliga sozinho ou trava e fica parado?\n\nEssas respostas ajudam muito no diagnóstico.\n\n## Como funciona\n\nFazemos o diagnóstico para identificar a causa antes de passar o orçamento, que é gratuito. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "conserto-de-xiaomi-boca-do-rio",
+    title: "Conserto de Xiaomi na Boca do Rio | Reparo Avançado",
+    meta: "Xiaomi, Redmi ou Poco com defeito na Boca do Rio, em Salvador? Tela, bateria, não liga ou reiniciando. Diagnóstico e garantia de 90 dias.",
+    h1: "Conserto de Xiaomi, Redmi e Poco na Boca do Rio",
+    serviceSlug: "/blog/assistencia-tecnica-xiaomi-salvador-conserto",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Moro na Boca do Rio e preciso consertar meu Xiaomi.",
+    faq: [
+      { question: "Vocês desbloqueiam conta Mi ou Google?", answer: "Não. Não fazemos desbloqueio ou recuperação de conta Google ou Mi Cloud." },
+      { question: "Meu Xiaomi não liga mais. Tem conserto?", answer: "Em muitos casos, sim. A causa pode ser bateria, conector de carga, sistema ou placa, e o diagnóstico confirma." }
+    ],
+    content: "Xiaomi, Redmi e Poco são marcas muito presentes em Salvador, e os defeitos mais comuns se repetem. A Reparo Avançado fica na Boca do Rio, na R. Abelardo Andrade de Carvalho, 8, e atende esses aparelhos direto na loja.\n\n## Defeitos mais comuns nessas marcas\n\n- Aparelho que desliga do nada e não liga mais\n- Bateria inchada, com a tela ou a tampa levantando\n- Tela com manchas, linhas coloridas ou toque falhando\n- Celular que reinicia sozinho ou fica preso na logo\n- Problemas depois de uma atualização do sistema\n\n## Sinal de alerta: bateria inchada\n\nSe a tampa traseira ou a tela estiver levantando, pare de carregar o aparelho e traga para avaliação. A bateria inchada precisa ser trocada antes de qualquer outro teste.\n\n## Como funciona na loja\n\n1. Você traz o aparelho.\n2. Fazemos o diagnóstico para identificar a causa.\n3. Passamos o orçamento, que é gratuito.\n4. Com a sua aprovação, fazemos o reparo e testamos antes da entrega.\n\nO serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "conserto-de-xiaomi-brotas",
+    title: "Conserto de Xiaomi em Brotas | Reparo Avançado",
+    meta: "Xiaomi, Redmi ou Poco com defeito em Brotas, Salvador? Veja o que informar, como funciona a coleta e entrega e a garantia de 90 dias.",
+    h1: "Conserto de Xiaomi, Redmi e Poco para Quem Está em Brotas",
+    serviceSlug: "/blog/assistencia-tecnica-xiaomi-salvador-conserto",
+    localSlug: "/assistencia-tecnica-brotas",
+    areaServed: "Brotas, Salvador",
+    whatsapp: "Olá! Estou em Brotas e preciso consertar meu Xiaomi.",
+    faq: [
+      { question: "Preciso fazer backup antes?", answer: "Se o aparelho ainda liga, sim, é sempre recomendado. Se não liga, não restaure de fábrica antes do diagnóstico, para não apagar os dados." },
+      { question: "Vocês fazem desbloqueio de conta Mi?", answer: "Não. Não fazemos desbloqueio ou recuperação de conta Google ou Mi Cloud." }
+    ],
+    content: "Se o seu Xiaomi, Redmi ou Poco apresentou defeito e você está em Brotas, a Reparo Avançado atende na loja, na Boca do Rio, ou por coleta e entrega. Consulte a disponibilidade para o seu endereço pelo WhatsApp.\n\n## Problemas que mais recebemos nessas marcas\n\n- Tela manchada, com linhas coloridas ou com o toque falhando\n- Celular que não carrega ou só carrega em certa posição do cabo\n- Bateria que descarrega rápido ou está inchada\n- Aparelho que reinicia sem parar\n\n## O que informar ao chamar no WhatsApp\n\n1. O modelo exato, por exemplo Redmi Note ou Poco, com a versão se souber.\n2. O que aconteceu antes do defeito: queda, líquido, atualização ou nada.\n3. Se o aparelho liga, vibra ou fica totalmente sem resposta.\n4. Se a tampa ou a tela estão levantando.\n\n## Como funciona\n\nCombinamos a coleta, fazemos o diagnóstico e enviamos o orçamento, que é gratuito. Com a sua aprovação, fazemos o reparo, testamos e devolvemos. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "reparo-de-placa-celular-boca-do-rio",
+    title: "Reparo de Placa de Celular na Boca do Rio | Reparo Avançado",
+    meta: "Celular não liga depois de queda ou umidade e pode ser a placa? Diagnóstico na Boca do Rio, Salvador, e orçamento gratuito. Garantia de 90 dias.",
+    h1: "Reparo de Placa de Celular na Boca do Rio",
+    serviceSlug: "/reparo-em-placa",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Estou na Boca do Rio e acho que o problema do meu celular é na placa.",
+    faq: [
+      { question: "Placa de celular tem conserto?", answer: "Em muitos casos, sim, mas depende do tipo de defeito e do estado do aparelho. O diagnóstico mostra o que é possível." },
+      { question: "Vale a pena consertar a placa?", answer: "Depende do modelo, do defeito e do valor do aparelho. Explicamos as opções no orçamento para você decidir." }
+    ],
+    content: "A placa é a parte do celular que liga todos os componentes. Quando ela tem defeito, o aparelho pode parar de ligar, não carregar, reiniciar sozinho ou perder imagem, mesmo com tela, bateria e conector em bom estado. A Reparo Avançado avalia esses casos na loja, na Boca do Rio, na R. Abelardo Andrade de Carvalho, 8.\n\n## Quando o problema pode ser na placa\n\n- O celular não liga depois de uma queda ou contato com líquido\n- Ele não carrega, mesmo com cabo e carregador bons\n- Reinicia sozinho ou desliga sem motivo claro\n- Esquenta muito sem estar em uso\n- A tela funciona em outro teste, mas o aparelho continua sem resposta\n\nEsses sinais não confirmam a placa por si só. Bateria, conector e tela também podem causar sintomas parecidos, e por isso o diagnóstico vem primeiro.\n\n## Como funciona na loja\n\n1. Você traz o aparelho e conta o que aconteceu.\n2. Fazemos o diagnóstico para separar o problema da placa de defeitos mais simples.\n3. Passamos o orçamento, que é gratuito, e explicamos o que foi encontrado.\n\nNem toda placa compensa o reparo. Quando for esse o caso, dizemos antes de você decidir. O serviço sai com garantia de 90 dias."
+  },
+  {
+    slug: "conserto-de-tablet-boca-do-rio",
+    title: "Conserto de Tablet na Boca do Rio | Reparo Avançado",
+    meta: "Tablet com tela quebrada, que não liga ou não carrega na Boca do Rio, em Salvador? Diagnóstico antes do orçamento e garantia de 90 dias.",
+    h1: "Conserto de Tablet na Boca do Rio",
+    serviceSlug: "/conserto-de-tablet",
+    localSlug: "/assistencia-tecnica-boca-do-rio",
+    areaServed: "Boca do Rio, Salvador",
+    whatsapp: "Olá! Estou na Boca do Rio e preciso consertar meu tablet.",
+    faq: [
+      { question: "Vocês consertam tablet de qualquer marca?", answer: "Chame no WhatsApp e informe a marca e o modelo, que confirmamos o atendimento." },
+      { question: "Tablet com tela quebrada ainda funciona?", answer: "Muitas vezes sim, mas continuar usando pode agravar o dano ou machucar. O diagnóstico confirma se o problema é só a tela." }
+    ],
+    content: "Tablet também quebra, e muita gente não sabe onde levar. A Reparo Avançado conserta tablets na loja, na Boca do Rio, na R. Abelardo Andrade de Carvalho, 8, de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 17h.\n\n## Defeitos comuns em tablets\n\n- Tela trincada ou com o toque falhando\n- Tablet que não carrega ou só carrega em certa posição do cabo\n- Aparelho que não liga ou desliga sozinho\n- Bateria que dura pouco\n- Imagem com manchas ou linhas\n\n## O que trazer\n\n1. O tablet, com o carregador original, se tiver.\n2. Informação sobre o que aconteceu: queda, líquido ou desgaste.\n3. Se a tela está presa por senha, esteja pronto para liberar o acesso no atendimento, se for necessário para o teste.\n\n## Como funciona na loja\n\nFazemos o diagnóstico para descobrir a causa antes de passar o orçamento, que é gratuito. Com a sua aprovação, fazemos o reparo e testamos antes da entrega. O serviço sai com garantia de 90 dias."
+  }
+,
+
+  {
     slug: "troca-de-bateria-iphone-11-salvador",
     title: "Troca de Bateria iPhone 11 em Salvador | Reparo Avançado",
     meta: "Troca de bateria do iPhone 11 em Salvador. Diagnóstico e orçamento gratuitos. Recuperamos a saúde do seu aparelho sem perda de dados e com 90 dias de garantia.",
