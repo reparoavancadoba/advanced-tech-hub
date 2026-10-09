@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 const BairrosAtendidos = () => {
   return (
@@ -57,4 +56,5 @@ const BairrosAtendidos = () => {
 };
 
 export default BairrosAtendidos;
+
 
