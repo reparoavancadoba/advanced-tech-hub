@@ -227,12 +227,12 @@
     },
     {
       "source": "/blog/microfone-nao-funciona",
-      "destination": "/conserto-de-celular",
+      "destination": "/blog/microfone-iphone-nao-funciona-audio-mudo",
       "permanent": true
     },
     {
       "source": "/blog/celular-sem-som",
-      "destination": "/conserto-de-celular",
+      "destination": "/blog/som-baixo-ligacao-audio-whatsapp",
       "permanent": true
     }
   ],

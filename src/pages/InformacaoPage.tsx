@@ -17,6 +17,7 @@ const InformacaoPage = () => {
     let contentHtml = text;
     contentHtml = contentHtml.replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold mt-8 mb-4 text-[#0066FF]">$1</h2>');
     contentHtml = contentHtml.replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>');
+    contentHtml = contentHtml.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" class="text-[#0066FF] hover:underline">$1</a>');
     
     contentHtml = contentHtml.replace(/(?:^- .*\n?)+/gim, (match) => {
         const items = match.trim().split('\n').map(line => `<li class="mb-2 flex items-start gap-2"><span class="mt-1 w-2 h-2 rounded-full bg-[#0066FF] flex-shrink-0"></span><span>${line.replace(/^- /, '')}</span></li>`).join('');

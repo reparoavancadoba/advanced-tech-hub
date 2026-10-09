@@ -110,6 +110,18 @@ const BlogPost = () => {
     ],
   };
 
+  
+  const parseLinks = (text: string) => {
+    const parts = text.split(/(\[.*?\]\(.*?\))/g);
+    return parts.map((part, i) => {
+      const match = part.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        return <a key={i} href={match[2]} className="text-[#0066FF] hover:underline font-medium">{match[1]}</a>;
+      }
+      return <span key={i}>{part}</span>;
+    });
+  };
+
   const parseContent = (text: string) => {
     if (!text) return null;
     const regex = /\[(DICA|ATENCAO|IMPORTANTE)\]([\s\S]*?)\[\/\1\]/g;
@@ -143,12 +155,12 @@ const BlogPost = () => {
             return (
               <ul key={`${index}-${pIdx}`} className="list-disc pl-6 space-y-2 text-zinc-800 text-lg mb-4">
                 {items.map((item, itemIdx) => (
-                  <li key={itemIdx}>{item}</li>
+                  <li key={itemIdx}>{parseLinks(item)}</li>
                 ))}
               </ul>
             );
           }
-          return <p key={`${index}-${pIdx}`} className="text-zinc-800 leading-relaxed mb-4 text-lg font-normal">{para.trim()}</p>;
+          return <p key={`${index}-${pIdx}`} className="text-zinc-800 leading-relaxed mb-4 text-lg font-normal">{parseLinks(para.trim())}</p>;
         });
       }
 

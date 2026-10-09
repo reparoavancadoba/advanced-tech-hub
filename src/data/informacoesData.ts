@@ -36,29 +36,32 @@ export const informacoesPages: InformacaoPage[] = [
       { question: "A bateria do iPhone 11 estufou. O que fazer?", answer: "Se a bateria estiver estufada, desligue o aparelho imediatamente e não tente carregar. O estufamento pode quebrar a tela e danificar placas internas. Traga o aparelho para diagnóstico técnico." },
       { question: "Como funciona o orçamento?", answer: "Oferecemos diagnóstico e orçamento gratuitos. O valor depende do modelo exato do aparelho e da bateria escolhida. Fale conosco no WhatsApp para consultar as opções." },
       { question: "Vou perder os meus dados durante o serviço?", answer: "Não. A substituição da bateria não apaga fotos, aplicativos ou arquivos do sistema. Aconselhamos fazer backup em casa apenas por segurança." },
-      { question: "Qual a garantia da nova bateria?", answer: "Oferecemos 90 dias de garantia em todos os nossos serviços." }
+      { question: "Qual a garantia da nova bateria?", answer: "Oferecemos 90 dias de garantia em todos os nossos serviços." },
+      { question: "Quanto tempo demora para trocar a bateria?", answer: "Na maioria dos casos, o serviço é concluído no mesmo dia, após a aprovação do orçamento, sujeito à disponibilidade da peça no estoque." },
+      { question: "Por que o celular descarrega tão rápido?", answer: "Com o passar dos anos, o processo de degradação química é natural nas células de íons de lítio. O aparelho perde a capacidade de reter a carga total original, causando a necessidade de recargas frequentes." }
     ],
-    content: `A troca de bateria do iPhone 11 é um dos serviços mais importantes para devolver o desempenho original ao seu smartphone. Com o passar do tempo, as células de íons de lítio se desgastam e o aparelho começa a descarregar mais rápido, podendo até mesmo desligar sozinho ou apresentar lentidão excessiva. 
+    content: `A troca de bateria do iPhone 11 é um dos serviços mais importantes para devolver o desempenho original ao seu smartphone. Com o passar do tempo e o aumento dos ciclos de carga, as células de íons de lítio se desgastam naturalmente. O aparelho começa a descarregar mais rápido, exigindo o uso constante de carregadores portáteis, podendo até mesmo desligar sozinho ou apresentar lentidão excessiva devido a sistemas de proteção interna.
 
-Se você está em Salvador e precisa resolver esse problema, a Reparo Avançado oferece diagnóstico e orçamento gratuitos para o seu iPhone 11. Nossa assistência atende com profissionais dedicados e laboratório equipado para fazer o serviço com máxima precisão.
+Se você está em Salvador e precisa resolver esse problema definitivamente, a Reparo Avançado oferece diagnóstico e orçamento gratuitos para o seu iPhone 11. Nossa assistência atende com profissionais dedicados e ferramentas adequadas para fazer o serviço com total segurança e cuidado.
 
 ## Sinais de que a bateria precisa ser trocada
 
-Você não precisa esperar o aparelho parar de funcionar para procurar ajuda. Alguns sintomas indicam claramente o desgaste:
-- A porcentagem da carga cai bruscamente (ex: de 40% para 10% do nada).
-- O iPhone 11 desliga sozinho ao abrir aplicativos pesados, como câmera ou mapas.
-- A "Saúde da Bateria", exibida nas configurações, está abaixo de 80%.
-- O aparelho esquenta fora do normal durante o carregamento.
+Você não precisa esperar o aparelho parar de funcionar totalmente para procurar ajuda. Alguns sintomas indicam claramente o desgaste excessivo:
+- A porcentagem da carga cai bruscamente (ex: de 40% para 10% de forma repentina e sem uso intenso).
+- O iPhone 11 desliga sozinho ao abrir aplicativos pesados, como câmera, jogos ou mapas de navegação GPS.
+- A "Saúde da Bateria", exibida diretamente nas configurações do sistema iOS, está marcada abaixo de 80%, o que indica um desgaste avançado e a recomendação de assistência.
+- O aparelho esquenta fora do normal durante o carregamento ou ao ser usado por pouco tempo.
+- O sistema operacional começa a apresentar lentidão (throttling), travamentos na rolagem ou demora ao alternar entre janelas de aplicativos, pois o sistema reduz o processamento para não forçar a bateria desgastada.
 
 ## Segurança e cuidado com o seu iPhone 11
 
-Sabemos que o smartphone é essencial para o trabalho e a rotina. O processo é feito por técnicos especialistas para assegurar que nenhum outro componente seja afetado. Além disso, a troca de bateria é um procedimento físico e não apaga os dados: suas fotos, vídeos e aplicativos continuam intactos. 
+Sabemos que o smartphone é essencial para o trabalho e a rotina diária. O processo é feito por técnicos especialistas para assegurar que nenhum outro componente seja afetado durante a abertura do aparelho. Além disso, a troca de bateria é um procedimento físico na placa, portanto não apaga os dados: suas fotos, vídeos e aplicativos continuam totalmente intactos.
 
-Nossa equipe está na Boca do Rio, com coleta e entrega disponíveis para facilitar o seu dia. Todos os serviços contam com 90 dias de garantia. 
+Nossa equipe está na Boca do Rio, com coleta e entrega disponíveis para facilitar o seu dia e evitar que você precise se deslocar pelo trânsito da cidade. Todos os serviços contam com 90 dias de garantia.
 
 ## Quanto custa a troca?
 
-O preço varia conforme a qualidade da bateria que você escolher e as necessidades de reprogramação de software. O diagnóstico é técnico e oferecemos um orçamento gratuito na hora. Basta nos chamar no WhatsApp para mais informações e avaliação inicial sem compromisso.`
+O valor depende do modelo exato do aparelho e da bateria escolhida (bateria original, primeira linha, etc). O diagnóstico é técnico e oferecemos um orçamento gratuito na hora, sem compromisso. Basta nos chamar no WhatsApp para mais informações e para agendar uma avaliação inicial rápida e transparente.`
   },
 
   {

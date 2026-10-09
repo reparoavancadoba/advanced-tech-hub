@@ -15,6 +15,7 @@ function parseMarkdown(text) {
   html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
   html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
   html = html.replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>');
+    html = html.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>');
   
   html = html.replace(/(?:^[\*\-] .*(?:\r?\n)?)+/gim, (match) => {
       const items = match.trim().split(/\r?\n/).map(line => `<li>${line.replace(/^[\*\-]\s+/, '')}</li>`).join('');
@@ -391,11 +392,10 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
     }
   });
   
-  if (!post.isEditorial) {
     if (post.solution) contentHtml += `<h2>Solução Técnica da Reparo Avançado</h2>${parseMarkdown(post.solution)}`;
     if (post.whenToSeek) contentHtml += `<h2>Quando Procurar a Reparo Avançado</h2>${parseMarkdown(post.whenToSeek)}`;
     if (post.costInfo) contentHtml += `<h2>Quanto Custa ${post.service}${displayModelH2}?</h2>${parseMarkdown(post.costInfo)}`;
-  }
+    if (post.casoReal) contentHtml += `<h2>O que fazer se o seu ${post.category || 'aparelho'} continuar com esse problema</h2>${parseMarkdown(post.casoReal)}`;
 
   // FAQ
   if (post.faq && post.faq.length) {
@@ -651,29 +651,40 @@ fs.writeFileSync(path.join(distPath, '404.html'), notFoundHtml);
     contentHtml += `<p><a href="${waUrl}">Falar no WhatsApp</a></p>`;
     contentHtml += `<p><strong>Serviço:</strong> <a href="${page.serviceSlug}">Conheça nosso serviço</a> | <strong>Local:</strong> <a href="${page.localSlug}">Atendimento na região</a></p>`;
 
-    const pageSchema = [
-      {
-        "@type": "Service",
-        "serviceType": page.h1,
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Reparo Avançado",
-          "address": BUSINESS_ADDRESS
+    const pageSchema: any[] = [
+        {
+          "@type": "Service",
+          "serviceType": page.h1,
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Reparo Avançado",
+            "address": BUSINESS_ADDRESS
+          },
+          "areaServed": {
+             "@type": "Place",
+             "name": "Salvador, BA"
+          }
         },
-        "areaServed": {
-           "@type": "Place",
-           "name": page.areaServed
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Início", "item": DOMAIN + "/" },
+            { "@type": "ListItem", "position": 2, "name": "Informações", "item": DOMAIN + "/informacoes" },
+            { "@type": "ListItem", "position": 3, "name": page.h1, "item": DOMAIN + urlPath }
+          ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": DOMAIN + "/" },
-          { "@type": "ListItem", "position": 2, "name": "Informações", "item": DOMAIN + "/informacoes" },
-          { "@type": "ListItem", "position": 3, "name": page.h1, "item": DOMAIN + urlPath }
-        ]
+      ];
+      
+      if (page.faq && page.faq.length > 0) {
+        pageSchema.push({
+          "@type": "FAQPage",
+          "mainEntity": page.faq.map((f: any) => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+          }))
+        });
       }
-    ];
 
     generatePage(urlPath, page.title, page.meta, page.h1, contentHtml, pageSchema);
   });
