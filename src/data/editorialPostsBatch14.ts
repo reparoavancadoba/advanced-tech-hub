@@ -56,7 +56,7 @@ export const editorialPostsBatch14: BlogPost[] = [
       {
         id: "evitar",
         title: "O que não fazer",
-        content: "- Não restaure de fábrica sem backup, porque isso apaga os dados.\\n- Não use o celular com o toque descontrolado para operações importantes, como banco, porque a tela pode confirmar ações sozinha.\\n- Não pressione a tela com força para \\"assentar\\" o toque."
+        content: "- Não restaure de fábrica sem backup, porque isso apaga os dados.\\n- Não use o celular com o toque descontrolado para operações importantes, como banco, porque a tela pode confirmar ações sozinha.\\n- Não pressione a tela com força para \"assentar\" o toque."
       }
     ]
   },
