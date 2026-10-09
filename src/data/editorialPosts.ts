@@ -1992,7 +1992,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "A memória interna do celular (eMMC ou UFS) tem vida útil limitada, assim como um SSD de computador. Após milhares de ciclos de leitura e escrita, setores começam a falhar. O celular trava ao tentar acessar um arquivo nesses setores corrompidos. Infelizmente, a troca do chip de memória é um procedimento de alta complexidade (reballing) e nem sempre compensa financeiramente em modelos mais antigos."
       }
     ],
-    relatedSlugs: ["celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria", "reparo-placa-celular-salvador-vale-a-pena"]
+    relatedSlugs: ["celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria", "reparo-placa-celular-salvador-vale-a-pena", "manutencao-de-celular-quando-fazer-e-o-que-conferir"]
   },
   {
     slug: "troca-conector-carga-usb-c-celular-salvador",

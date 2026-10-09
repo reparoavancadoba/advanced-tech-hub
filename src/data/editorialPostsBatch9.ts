@@ -220,7 +220,7 @@ export const editorialPostsBatch9: BlogPost[] = [
     solution: "Substituição do módulo frontal (tela completa com touch) ou, em casos de baterias inchadas, a troca da bateria e realinhamento da carcaça.",
     whenToSeek: "Se você já removeu a película de proteção, reiniciou o aparelho, e a tela continua travando ou apertando coisas sozinha.",
     costInfo: "Orçamento sem compromisso e diagnóstico gratuito na loja.",
-    relatedSlugs: ["xiaomi-redmi-tela-manchada-linhas-coloridas", "celular-caiu-na-agua-o-que-fazer"],
+    relatedSlugs: ["xiaomi-redmi-tela-manchada-linhas-coloridas", "celular-caiu-na-agua-o-que-fazer", "tela-celular-clicando-sozinha-toque-fantasma-causas"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],
