@@ -3,6 +3,7 @@ import { Link, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { MapPin, Phone, Clock, MessageCircle, ChevronRight, Navigation, Globe, Shield, Wrench } from "lucide-react";
 import SiteLayout from "@/components/SiteLayout";
+import BairrosAtendidos from "@/components/BairrosAtendidos";
 import { getLocalConsolidadoBySlug, listLocaisConsolidados } from "@/data/locaisConsolidadosData";
 import { servicosConsolidados } from "@/data/servicosConsolidadosData";
 
@@ -326,6 +327,8 @@ const LocalConsolidado = ({ slug }: LocalConsolidadoProps) => {
           </div>
         </div>
       </section>
+
+      { (slug === "salvador" || slug === "boca-do-rio") && <BairrosAtendidos /> }
 
       {/* Sticky WhatsApp Bottom Bar - Mobile Only */}
       <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-whatsapp/95 backdrop-blur-sm border-t border-green-600 shadow-[0_-4px_20px_rgba(0,0,0,0.15)] p-3">

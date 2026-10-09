@@ -12,7 +12,7 @@ const bairrosLink = [
   { name: "Pituba", path: "/assistencia-tecnica-pituba" },
   { name: "Imbuí", path: "/assistencia-tecnica-imbui" },
   { name: "Brotas", path: "/assistencia-tecnica-brotas" },
-  { name: "Informações", path: "/informacoes" }
+  { name: "Atendimento por bairro", path: "/informacoes" }
 ];
 
 const FooterSection = () => {
@@ -70,6 +70,7 @@ const FooterSection = () => {
           <div>
             <h4 className="font-bold text-foreground mb-4">Atendemos toda Salvador</h4>
             <div className="flex flex-wrap justify-center md:justify-start gap-2">
+              <a href="/informacoes" className="bg-secondary text-muted-foreground hover:bg-primary hover:text-primary-foreground text-xs px-3 py-1.5 rounded-full transition-all">Atendimento por bairro</a>
               {bairrosLink.map((b) => (
                 <Link
                   key={b.path}

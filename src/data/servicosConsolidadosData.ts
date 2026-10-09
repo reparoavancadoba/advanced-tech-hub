@@ -46,7 +46,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   "troca-de-tela": {
     slug: "troca-de-tela",
     title: "Troca de Tela de Celular em Salvador | Reparo Avançado",
-    h1: "Troca de Tela de Celular",
+    h1: "Troca de Tela de Celular em Salvador",
     metaDescription: "Substituição de tela trincada ou touch quebrado para iPhone, Samsung, Xiaomi e Motorola. Display premium, serviço rápido e garantia na Boca do Rio.",
     description: "Se a tela do seu celular quebrou, manchou ou parou de responder ao toque, nossa troca de tela celular é a solução definitiva. Fazemos a troca de tela iphone e a troca de tela samsung, seja para um display manchado ou para uma tela quebrada iphone, utilizando peças premium e devolvendo a qualidade original.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],

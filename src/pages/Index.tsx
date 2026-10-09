@@ -8,6 +8,7 @@ import NewAboutUs from "@/components/home/NewAboutUs";
 import NewReviews from "@/components/home/NewReviews";
 import NewHowItWorks from "@/components/home/NewHowItWorks";
 import NewFinalCta from "@/components/home/NewFinalCta";
+import BairrosAtendidos from "@/components/BairrosAtendidos";
 import SiteLayout from "@/components/SiteLayout";
 import { Helmet } from "react-helmet-async";
 import { FadeIn } from "@/components/FadeIn";
@@ -31,7 +32,7 @@ const Index = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Assistência Técnica de Celular em Salvador | Reparo Avançado</title>
+        <title>Reparo Avançado | Assistência Técnica na Boca do Rio, Salvador</title>
         <meta name="description" content="Assistência técnica focada em iPhone, Samsung e reparo avançado de placa em Salvador. Experiência desde 2018 na Boca do Rio. Orçamento gratuito na hora!" />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
@@ -47,6 +48,7 @@ const Index = () => {
       <FadeIn><NewAboutUs /></FadeIn>
       <FadeIn><NewReviews /></FadeIn>
       <FadeIn><NewHowItWorks /></FadeIn>
+      <FadeIn><BairrosAtendidos /></FadeIn>
       <FadeIn><NewFinalCta /></FadeIn>
     </SiteLayout>
   );

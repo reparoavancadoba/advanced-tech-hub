@@ -48,6 +48,9 @@ const Blog = () => {
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
             Guias práticos, diagnósticos e soluções reais para os problemas mais comuns do seu smartphone. Tudo escrito por especialistas em microeletrônica.
           </p>
+          <div className="mb-6 text-center">
+            <a href="/informacoes" className="text-primary hover:underline font-medium text-lg">Veja também: informações por bairro e serviço</a>
+          </div>
 
           {/* Search Bar - Centralized and Modern */}
           <div className="max-w-2xl mx-auto relative group">
