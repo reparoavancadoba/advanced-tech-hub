@@ -130,7 +130,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     solution: "Se o hard reset não funcionar, nosso laboratório entra em ação. Para problemas crônicos (como do Poco X3), fazemos o 'Reballing' (ressolda do processador e memória). É um procedimento de alta precisão que devolve a vida ao aparelho mantendo suas fotos.",
     whenToSeek: "Se ao colocar o carregador original ele nem sinalizar LED ou vibrar. Não tente forçar ligar repetidas vezes se ele estiver preso na tela de boot, pois isso agrava falhas no sistema.",
     costInfo: "Diagnóstico cortesia. O reballing de processador é um serviço de microeletrônica avançado, mas custa muito menos do que comprar um celular novo da mesma potência.",
-    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena"],
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "xiaomi-desligou-do-nada-e-nao-liga-mais", "xiaomi-nao-liga-e-nao-carrega-o-que-fazer"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
@@ -412,7 +412,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     solution: "Se secagem normal não funcionar, levamos o aparelho ao microscópio. Aplicamos um banho químico no conector e escovação técnica para remover todo o 'zinabre' (crosta verde) da oxidação. Se a corrosão destruiu o pino, substituímos o conector.",
     whenToSeek: "Se o aviso não sumir após 12 horas deixando o celular secar naturalmente com a porta virada para baixo em local ventilado.",
     costInfo: "Uma limpeza química custa muito pouco e salva o seu celular. Se tentar forçar carga, o reparo na placa será bem mais caro. Orçamento rápido pelo zap.",
-    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "erro-umidade-samsung-conector-salvador", "iphone-caiu-na-agua-desoxidacao-salvador"],
+    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "erro-umidade-samsung-conector-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "sinais-de-umidade-no-celular-como-saber-se-molhou"],
     isEditorial: true,
 
       author: "Equipe Reparo Avançado",

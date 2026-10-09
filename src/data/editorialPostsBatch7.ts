@@ -91,7 +91,7 @@ export const editorialPostsBatch7: BlogPost[] = [
     solution: "É essencial um diagnóstico de hardware e medição de consumo na bancada para saber exatamente se a falha é na tela, bateria ou placa.",
     whenToSeek: "Imediatamente, especialmente se você ouviu algum ruído, se o aparelho esquentou demais antes de apagar, ou se sofreu queda recentemente.",
     costInfo: "O diagnóstico profissional identifica a causa exata, evitando trocas de peças desnecessárias.",
-    relatedSlugs: [],
+    relatedSlugs: ["celular-apagou-do-nada-e-nao-liga-mais"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

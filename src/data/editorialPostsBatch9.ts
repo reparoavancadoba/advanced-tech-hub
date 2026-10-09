@@ -158,7 +158,7 @@ export const editorialPostsBatch9: BlogPost[] = [
     solution: "Limpeza/troca de memória, regravação de BIOS em bancada, ou reparo avançado eletrônico na placa-mãe.",
     whenToSeek: "Se você já tentou ligar o notebook em um monitor externo/TV (via cabo HDMI) e mesmo assim não há imagem alguma.",
     costInfo: "Diagnóstico gratuito em laboratório para identificar com precisão o circuito responsável pela falha.",
-    relatedSlugs: ["notebook-lento-quando-trocar-ssd-resolve", "notebook-esquentando-desligando-sozinho"],
+    relatedSlugs: ["notebook-lento-quando-trocar-ssd-resolve", "notebook-esquentando-desligando-sozinho", "tela-notebook-com-defeito-listras-piscando-sem-imagem"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

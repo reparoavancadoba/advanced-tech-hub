@@ -44,25 +44,31 @@
   </url>
   <url>
     <loc>https://site.reparoavancado.com.br/blog/pagina/2</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://site.reparoavancado.com.br/blog/pagina/3</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://site.reparoavancado.com.br/blog/pagina/4</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://site.reparoavancado.com.br/blog/pagina/5</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/pagina/6</loc>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -897,6 +903,36 @@
   <url>
     <loc>https://site.reparoavancado.com.br/blog/iphone-11-usado-vale-a-pena-o-que-checar</loc>
     <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/xiaomi-desligou-do-nada-e-nao-liga-mais</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/xiaomi-nao-liga-e-nao-carrega-o-que-fazer</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/celular-apagou-do-nada-e-nao-liga-mais</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/sinais-de-umidade-no-celular-como-saber-se-molhou</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site.reparoavancado.com.br/blog/tela-notebook-com-defeito-listras-piscando-sem-imagem</loc>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
