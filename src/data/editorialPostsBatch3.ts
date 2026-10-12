@@ -106,9 +106,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "celular-xiaomi-nao-liga-o-que-fazer",
-      title: "Xiaomi Não Liga? Redmi e Poco: o que fazer antes de forçar",
+      title: "Xiaomi Não Liga? Redmi, Poco e Mi: Causas e Reparo em Salvador",
     h1: "Seu Xiaomi apagou e não liga mais? Passo a passo e causas comuns",
-    metaDescription: "Seu Redmi ou Poco apagou do nada e não liga? Veja as causas mais comuns, o que dá para testar em casa e por que forçar o carregamento pode queimar a placa.",
+    metaDescription: "Xiaomi, Redmi ou Poco não liga mais? Veja as causas, o que testar em casa sem queimar a placa e quando levar a uma assistência técnica em Salvador, Bahia.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Todos",
@@ -134,7 +134,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-10-03",
+    dateModified: "2026-10-12",
     faq: [
         { question: "Xiaomi não liga e não aparece o ícone de carregando, o que pode ser?", answer: "Pode ser bateria totalmente descarregada, cabo ou carregador com defeito, conector de carga ou placa. Antes de tudo, deixe carregando por pelo menos 30 minutos com outro cabo e outro carregador." },
         { question: "Xiaomi travado na logo é a mesma coisa que não ligar?", answer: "Não. Se a logo aparece, o aparelho está ligando, e o problema costuma estar no sistema. Nesse caso, veja o nosso artigo sobre Xiaomi que travou depois da atualização. <a href=\"/blog/xiaomi-atualizacao-miui-travou-nao-liga\" class=\"text-primary hover:underline\">Leia mais</a>." },
@@ -158,6 +158,11 @@ export const editorialPostsBatch3: BlogPost[] = [
         id: "poco-x3-placa",
         title: "POCO X3: quando o problema é a placa, não a bateria",
         content: "No POCO X3 especificamente, quando o aparelho não liga mesmo depois de carregado por horas, o problema tem mais chance de estar na placa do que nos modelos Redmi comuns — o POCO X3 tem histórico de falha em componentes de alimentação na placa. Vale priorizar o diagnóstico de placa se as tentativas básicas (outro carregador, reinicialização forçada) não resolverem."
+      },
+      {
+        id: "atendimento-salvador-bahia",
+        title: "Assistência técnica em Salvador, Bahia",
+        content: "Seu Xiaomi, Redmi ou Poco não liga e você está em Salvador? A Reparo Avançado fica na Boca do Rio, em Salvador, Bahia, e atende clientes de bairros como Pituba, Imbuí, Brotas, Costa Azul e Itaigara. Para quem é de outro bairro, consulte a disponibilidade de coleta e entrega. Chame no WhatsApp, informe o modelo e o defeito e receba orientação. Todos os serviços têm 90 dias de garantia."
       }
     ]
   },
@@ -314,9 +319,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "diferenca-tela-original-primeira-linha",
-      title: "Tela Original, Primeira Linha, OLED ou Incell? Qual Escolher",
+      title: "Tela Original ou Primeira Linha? OLED, Incell e Nacional",
     h1: "Tela Original, Primeira Linha, OLED ou Incell: Qual Escolher?",
-    metaDescription: "Tela original, primeira linha, OLED, incell ou nacional? Entenda o que cada nome significa, o que muda na cor e no toque e como n\u00e3o ser enganado.",
+    metaDescription: "Tela original, primeira linha, nacional, OLED ou incell: veja a diferença na cor e no toque e como não ser enganado. Assistência em Salvador, Bahia.",
     category: "conserto",
     brand: "Todas",
     model: "Todos",
@@ -341,7 +346,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-10-03",
+    dateModified: "2026-10-12",
     faq: [
         { question: "Como saber qual tela foi colocada no meu celular?", answer: "Peça que o tipo de tela venha descrito na ordem de serviço. É a forma mais segura de saber exatamente o que foi instalado." },
       {
@@ -383,14 +388,19 @@ export const editorialPostsBatch3: BlogPost[] = [
         id: "golpe",
         title: "Cuidado com 'Original China'",
         content: "[ATENCAO] Muitos lugares vendem telas como 'Original China' cobrando valor de Original Nacional. Exija ver o encaixe, o cabo flex e pergunte se a garantia cobre problemas de toque na tela (touch fantasma). Na Reparo Avançado, não fazemos pegadinhas: o que está no orçamento é o que vai para o seu celular. [/ATENCAO]"
+      },
+      {
+        id: "atendimento-salvador-bahia",
+        title: "Assistência técnica em Salvador, Bahia",
+        content: "Vai trocar a tela do celular em Salvador e quer saber qual tipo escolher? A Reparo Avançado fica na Boca do Rio, em Salvador, Bahia, e atende clientes de bairros como Pituba, Imbuí, Brotas, Costa Azul e Itaigara. Para quem é de outro bairro, consulte a disponibilidade de coleta e entrega. Chame no WhatsApp, informe o modelo e o defeito e receba orientação. Todos os serviços têm 90 dias de garantia."
       }
     ]
   },
   {
     slug: "aviso-umidade-detectada",
-      title: "Umidade Detectada no Celular: como tirar o aviso",
+      title: "Aviso de Umidade Detectada no Celular: Como Tirar com Segurança",
     h1: "O aviso de 'Umidade Detectada na porta USB' não some? Resolva agora!",
-    metaDescription: "O aviso de umidade detectada na porta USB não sai? Veja como secar com segurança, o que nunca fazer e como saber se o conector já está oxidado.",
+    metaDescription: "O aviso de umidade detectada na porta USB não sai? Veja como secar com segurança, o que nunca fazer e quando levar à assistência técnica em Salvador, Bahia.",
     category: "samsung",
     brand: "Samsung / Androids",
     model: "Linhas Galaxy",
@@ -417,7 +427,7 @@ export const editorialPostsBatch3: BlogPost[] = [
 
       author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-10-03",
+    dateModified: "2026-10-12",
     faq: [
         { question: "O aviso de umidade aparece mesmo com o celular seco, por quê?", answer: "Pode ser sujeira ou oxidação no conector, ou falha no sensor. Se o aviso continuar por mais de um dia com o aparelho seco, vale levar para análise." },
       {
@@ -439,6 +449,11 @@ export const editorialPostsBatch3: BlogPost[] = [
         id: "bypass",
         title: "Evite 'gambiarras'",
         content: "[IMPORTANTE] Se o seu celular avisou que tem água e bloqueou o cabo, é um mecanismo de segurança incrível para salvar a placa-mãe de um curto mortal de 5 Volts. Tentar burlar isso (reiniciando com o cabo conectado, por exemplo) vai fritar o seu celular permanentemente. Use o bom senso: traga para um laboratório profissional. [/IMPORTANTE]"
+      },
+      {
+        id: "atendimento-salvador-bahia",
+        title: "Assistência técnica em Salvador, Bahia",
+        content: "O aviso de umidade não some e você precisa de avaliação em Salvador? A Reparo Avançado fica na Boca do Rio, em Salvador, Bahia, e atende clientes de bairros como Pituba, Imbuí, Brotas, Costa Azul e Itaigara. Para quem é de outro bairro, consulte a disponibilidade de coleta e entrega. Chame no WhatsApp, informe o modelo e o defeito e receba orientação. Todos os serviços têm 90 dias de garantia."
       }
     ]
   },

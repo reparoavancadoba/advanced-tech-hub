@@ -3,9 +3,9 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch8: BlogPost[] = [
   {
     slug: "xiaomi-redmi-tela-manchada-linhas-coloridas",
-    title: "Tela do Xiaomi com Manchas ou Linhas Coloridas? Saiba o Que Fazer",
+    title: "Tela do Xiaomi/Redmi com Mancha ou Linhas: Troca em Salvador",
     h1: "Tela do Xiaomi ou Redmi com Manchas e Linhas Coloridas",
-    metaDescription: "Seu Xiaomi ou Redmi apareceu com manchas roxas, pretas ou linhas coloridas na tela? Entenda a diferença entre dano no display e touch, e veja a solução real.",
+    metaDescription: "Xiaomi ou Redmi com manchas roxas, azuis, laranja ou linhas coloridas na tela? Entenda display x touch e veja quando trocar. Assistência em Salvador, Bahia.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Redmi / Poco / Mi",
@@ -65,6 +65,11 @@ export const editorialPostsBatch8: BlogPost[] = [
         id: "solucao",
         title: "Como a Reparo Avançado Resolve Isso?",
         content: "Quando você traz seu Xiaomi até nós, o protocolo é direto e transparente:\n\n1. **diagnóstico gratuito:** Verificamos o estado do aro, da bateria (se não está estufada causando pressão) e do painel frontal.\n2. **Isolamento do Defeito:** Confirmamos que não há dano na placa principal, garantindo que o defeito é apenas periférico (a tela).\n3. **Substituição Profissional:** Realizamos a troca completa do módulo frontal (vidro + touch + display), utilizando peças de alta qualidade, garantindo a mesma fluidez e cores vibrantes que você está acostumado.\n4. **Selagem e Teste:** O aparelho é devidamente selado e passa por testes rigorosos de brilho, resposta ao toque em múltiplos pontos e sensor de proximidade.\n\nNão deixe a mancha tomar conta do seu celular e te deixar sem acesso aos seus dados. O conserto da tela é um procedimento seguro e com excelente custo-benefício."
+      },
+      {
+        id: "atendimento-salvador-bahia",
+        title: "Assistência técnica em Salvador, Bahia",
+        content: "A tela do seu Xiaomi ou Redmi apareceu com mancha ou linhas? A Reparo Avançado fica na Boca do Rio, em Salvador, Bahia, e atende clientes de bairros como Pituba, Imbuí, Brotas, Costa Azul e Itaigara. Para quem é de outro bairro, consulte a disponibilidade de coleta e entrega. Chame no WhatsApp, informe o modelo e o defeito e receba orientação. Todos os serviços têm 90 dias de garantia."
       }
     ]
   },

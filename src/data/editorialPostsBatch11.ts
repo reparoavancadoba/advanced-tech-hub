@@ -425,10 +425,10 @@ export const editorialPostsBatch11: BlogPost[] = [
   // ─── ARTIGO 6: Celular liga mas a tela não acende ───────────────────────────
   {
     slug: "celular-liga-mas-a-tela-nao-acende",
-    title: "Celular Liga mas a Tela Não Acende: Causas Possíveis",
+    title: "Celular Liga, Toca ou Vibra mas a Tela Não Acende: Causas",
     h1: "Celular Liga mas a Tela Não Acende: O Que Fazer?",
     metaDescription:
-      "Celular toca, vibra e recebe mensagem, mas a tela continua preta? Veja o que pode ser antes de trocar a tela sem necessidade.",
+      "Celular liga ou vibra, mas a tela não acende? Veja causas (tela, conector, placa ou software), o que testar e quando ir à assistência em Salvador, Bahia.",
     category: "conserto" as const,
     brand: "Geral",
     model: "Todos",
@@ -502,6 +502,11 @@ export const editorialPostsBatch11: BlogPost[] = [
         content:
           "Se a causa for o cabo flex solto, às vezes o reparo é bem mais simples e barato que uma troca de tela completa. Fazer a troca sem confirmar a causa pode significar pagar por uma peça nova quando o problema era uma conexão solta.",
       },
+      {
+        id: "atendimento-salvador-bahia",
+        title: "Assistência técnica em Salvador, Bahia",
+        content: "Seu celular liga mas a tela continua apagada? A Reparo Avançado fica na Boca do Rio, em Salvador, Bahia, e atende clientes de bairros como Pituba, Imbuí, Brotas, Costa Azul e Itaigara. Para quem é de outro bairro, consulte a disponibilidade de coleta e entrega. Chame no WhatsApp, informe o modelo e o defeito e receba orientação. Todos os serviços têm 90 dias de garantia."
+      }
     ],
   },
 
