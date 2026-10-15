@@ -51,12 +51,10 @@ Objetivo: atrair clientes de fundo de funil (aparelho já quebrado) e gerar What
 - Bairros prioritários: Boca do Rio, Pituba, Imbuí, Brotas, Costa Azul, Itaigara, Caminho das Árvores.
 
 ## 8. Calendário de indexação (3/dia, feito pelo Paulo)
-- 13/10: /informacoes/celular-nao-liga-boca-do-rio, /informacoes/conserto-de-xiaomi-boca-do-rio, blog tela-celular-clicando-sozinha-toque-fantasma-causas
-- 14/10: blog notebook-nao-carrega-bateria-carregador-conectado, /informacoes/celular-caiu-na-agua-boca-do-rio, /informacoes/conserto-de-notebook-boca-do-rio
-- 15/10: blog notebook-tela-azul-reiniciando-sozinho-o-que-fazer, blog manutencao-de-celular-quando-fazer-e-o-que-conferir, /informacoes/reparo-de-placa-celular-boca-do-rio
-- 16/10: /informacoes/celular-nao-liga-pituba, /informacoes/celular-caiu-na-agua-imbui, /informacoes/conserto-de-tablet-boca-do-rio
-- 17/10: /informacoes/conserto-de-notebook-pituba, /informacoes/conserto-de-xiaomi-brotas, blog celular-tela-touch-nao-responde-partes
-- Sobra de cota: blog celular-travando-lento-resetar-salvador, notebook-esquentando-desligando-sozinho, notebook-lento-quando-trocar-ssd-resolve. Home: 1 pedido.
+- 13/10 a 15/10: concluído (lotes anteriores)
+- Sex 16/10: celular-xiaomi-nao-liga-o-que-fazer, diferenca-tela-original-primeira-linha, aviso-umidade-detectada
+- Seg 19/10: xiaomi-redmi-tela-manchada-linhas-coloridas, celular-liga-mas-a-tela-nao-acende + /blog/vale-a-pena-consertar-celular-ou-comprar-outro
+- Ter 20/10 em diante: 3 páginas /informacoes/ por dia com o bloco novo, começando por Boca do Rio, Pituba e Imbuí
 - O agente NÃO indexa. Garante sitemap, links internos e páginas indexáveis (200, sem noindex, canonical correto).
 
 ## 9. Checkpoints
