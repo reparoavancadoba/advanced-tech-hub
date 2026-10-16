@@ -234,6 +234,141 @@
       "source": "/blog/celular-sem-som",
       "destination": "/blog/som-baixo-ligacao-audio-whatsapp",
       "permanent": true
+    },
+    {
+      "source": "/blog/vidro-traseiro-samsung-quebrado-troca-salvador",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/notebook-teclado-nao-funciona-teclas-travando-salvador",
+      "destination": "/conserto-de-notebook",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-carregamento-sem-fio-nao-funciona-salvador",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/realme-tela-quebrada-touch-nao-funciona-salvador",
+      "destination": "/blog/assistencia-tecnica-realme-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/celular-vibracao-nao-funciona-motor-vibracall-salvador",
+      "destination": "/conserto-de-celular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conserto-celular-imbui-stiep-rapido",
+      "destination": "/assistencia-tecnica-imbui",
+      "permanent": true
+    },
+    {
+      "source": "/conserto-botao-power-volume-celular-salvador",
+      "destination": "/blog/conserto-botao-power-volume-celular-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/camera-celular-embacada-quebrada-conserto-salvador",
+      "destination": "/blog/camera-celular-embacada-quebrada-conserto-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-bateria-galaxy-a71",
+      "destination": "/blog/troca-bateria-samsung-galaxy-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-bateria-galaxy-s20",
+      "destination": "/blog/troca-bateria-samsung-galaxy-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-bateria-realme-c33",
+      "destination": "/troca-de-bateria",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/conserto-de-iphone/em/imbui",
+      "destination": "/assistencia-tecnica-imbui",
+      "permanent": true
+    },
+    {
+      "source": "/conserto/troca-de-bateria/em/imbui",
+      "destination": "/assistencia-tecnica-imbui",
+      "permanent": true
+    },
+    {
+      "source": "/desoxidacao",
+      "destination": "/celular-caiu-na-agua",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-nao-liga",
+      "destination": "/celular-nao-liga",
+      "permanent": true
+    },
+    {
+      "source": "/biometria-amoled-editorial",
+      "destination": "/blog/biometria-tela-parou-troca-amoled-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/conector-de-carga",
+      "destination": "/celular-nao-carrega",
+      "permanent": true
+    },
+    {
+      "source": "/blog/melhor-assistencia-tecnica-salvador-reparo-avancado",
+      "destination": "/assistencia-tecnica-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/checklist-manutencao-preventiva-salvador",
+      "destination": "/blog/manutencao-de-celular-quando-fazer-e-o-que-conferir",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mitos-verdades-celular-no-arroz-salvador",
+      "destination": "/celular-caiu-na-agua",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuidados-maresia-orla-salvador-limpeza",
+      "destination": "/blog/maresia-salvador-corrosao-iphone",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reparo-avancado-melhor-avaliacao-boca-do-rio",
+      "destination": "/assistencia-tecnica-boca-do-rio",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vedacao-celular-protecao-agua-tempo-salvador",
+      "destination": "/blog/aviso-umidade-detectada",
+      "permanent": true
+    },
+    {
+      "source": "/blog/biometria-galaxy-z-flip-3",
+      "destination": "/blog/biometria-tela-parou-troca-amoled-salvador",
+      "permanent": true
+    },
+    {
+      "source": "/blog/assistencia-tecnica-boca-do-rio-conserto-rapido",
+      "destination": "/assistencia-tecnica-boca-do-rio",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aparelho-nao-liga-galaxy-a22",
+      "destination": "/blog/samsung-com-tela-preta",
+      "permanent": true
+    },
+    {
+      "source": "/blog/troca-de-microfone-galaxy-a13",
+      "destination": "/conserto-de-celular",
+      "permanent": true
     }
   ],
   "cleanUrls": true

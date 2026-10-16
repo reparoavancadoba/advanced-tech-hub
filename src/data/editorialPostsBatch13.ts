@@ -269,7 +269,7 @@ export const editorialPostsBatch13: BlogPost[] = [
     solution: "O diagnóstico técnico identifica se o defeito é na tela, no cabo flat ou na placa e define o reparo adequado. Na Reparo Avançado, o orçamento é gratuito e o serviço sai com 90 dias de garantia. Quem não pode ir até a Boca do Rio pode pedir coleta e entrega do notebook.",
     whenToSeek: "Se não consegue usar através do monitor externo ou se a tela está inviável.",
     costInfo: "Diagnóstico sem custo, garantia de 90 dias após aprovado.",
-    relatedSlugs: ["notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada", "notebook-esquentando-desligando-sozinho", "notebook-lento-quando-trocar-ssd-resolve"],
+    relatedSlugs: ["notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada", "notebook-esquentando-desligando-sozinho", "notebook-lento-quando-trocar-ssd-resolve", "notebook-tela-azul-reiniciando-sozinho-o-que-fazer"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

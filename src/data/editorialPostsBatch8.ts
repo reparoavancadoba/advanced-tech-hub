@@ -170,7 +170,7 @@ export const editorialPostsBatch8: BlogPost[] = [
     solution: "Análise de gargalo do sistema. Substituição do HD por um SSD (com clonagem ou instalação limpa) ou adição de memória RAM de acordo com o padrão de uso.",
     whenToSeek: "Quando a lentidão impactar sua produtividade diária, como demorar minutos para ligar, abrir o navegador ou carregar planilhas.",
     costInfo: "Diagnóstico gratuito. Oferecemos pacotes de SSD + Instalação de Sistema com excelente custo-benefício.",
-    relatedSlugs: ["notebook-esquentando-desligando-sozinho", "celular-nao-liga-o-que-fazer", "notebook-nao-carrega-bateria-carregador-conectado"],
+    relatedSlugs: ["notebook-esquentando-desligando-sozinho", "celular-nao-liga-o-que-fazer", "notebook-nao-carrega-bateria-carregador-conectado", "notebook-tela-azul-reiniciando-sozinho-o-que-fazer"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

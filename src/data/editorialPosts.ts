@@ -553,7 +553,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Capinha e película protegem contra maresia?", answer: "Parcialmente. Elas ajudam contra impacto e riscos, mas a maresia entra pelas aberturas (conector, alto-falante, microfone). A proteção real é a limpeza interna periódica." }
     ],
     sections: [],
-    relatedSlugs: ["iphone-caiu-na-agua-desoxidacao-salvador", "cuidados-maresia-orla-salvador-limpeza", "limpeza-tecnica-celular-sexta-feira-salvador"]
+    relatedSlugs: ["iphone-caiu-na-agua-desoxidacao-salvador", "maresia-salvador-corrosao-iphone", "limpeza-tecnica-celular-sexta-feira-salvador"]
   },
 
   // ═══════════════════════════════════════════
@@ -2168,7 +2168,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "O golpe mais frequente que vemos em Salvador é a 'troca silenciosa': a oficina abre seu celular, remove a tela OLED original (que vale R$500+), coloca uma paralela de R$80 e te devolve dizendo que 'consertou'. Você só percebe meses depois quando as cores ficam estranhas. Outro golpe é o 'orçamento crescente': dizem que é R$150, abrem o celular, e depois dizem que 'acharam mais defeitos' e cobram R$400."
       }
     ],
-    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "conserto-celular-pituba-imbui-costa-azul", "reparo-avancado-melhor-avaliacao-boca-do-rio"]
+    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "conserto-celular-pituba-imbui-costa-azul", "onde-consertar-celular-boca-do-rio-salvador"]
   },
   {
     slug: "celular-molhou-chuva-praia-salvador-socorro",
@@ -2212,6 +2212,6 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Porto da Barra, Praia do Farol, Itapuã e Stella Maris são as campeãs de incidentes. A combinação de areia fina (que entra nas frestas do celular), sal marinho (condutor elétrico brutal) e sol escaldante (que seca a vedação) transforma a ida à praia em uma sentença de morte para smartphones desprotegidos. Nossa dica: use uma pochete impermeável de R$20 e salve um celular de R$5.000."
       }
     ],
-    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "mitos-verdades-celular-no-arroz-salvador"]
+    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "iphone-caiu-na-agua-desoxidacao-salvador", "aviso-umidade-detectada"]
   }
 ];

@@ -159,11 +159,6 @@ const ProgrammaticSEO = () => {
                 "addressCountry": "BR"
               }
             },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "153"
-            },
             "areaServed": {
               "@type": "Neighborhood",
               "name": bairro.name

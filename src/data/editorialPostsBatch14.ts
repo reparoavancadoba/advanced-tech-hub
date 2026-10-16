@@ -142,7 +142,7 @@ export const editorialPostsBatch14: BlogPost[] = [
     solution: "Se o notebook continua sem carregar depois desses testes, o problema pode estar na entrada de energia, na bateria ou na placa. Na Reparo Avançado, o diagnóstico vem antes do orçamento, que é gratuito, e o serviço sai com garantia de 90 dias.",
     whenToSeek: "Se trocando a fonte o problema persistir ou houver mau contato notável no plug.",
     costInfo: "Diagnóstico gratuito para defeitos elétricos.",
-    relatedSlugs: ["notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada", "notebook-esquentando-desligando-sozinho", "notebook-lento-quando-trocar-ssd-resolve", "tela-notebook-com-defeito-listras-piscando-sem-imagem"],
+    relatedSlugs: ["notebook-nao-liga-tela-preta-liga-mas-nao-mostra-nada", "notebook-esquentando-desligando-sozinho", "notebook-lento-quando-trocar-ssd-resolve", "tela-notebook-com-defeito-listras-piscando-sem-imagem", "notebook-tela-azul-reiniciando-sozinho-o-que-fazer"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

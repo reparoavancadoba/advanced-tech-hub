@@ -292,7 +292,7 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
       "Bateria não segura carga",
       "Tela trincada, com listras ou manchas"
     ],
-    solution: "A Reparo Avançado utiliza componentes de primeira linha para realizar upgrades (HD para SSD, aumento de RAM) que dão sobrevida de anos ao equipamento. Realizamos também manutenção preventiva (limpeza interna e troca de pasta térmica) para evitar a queima do processador ou do chip de vídeo.",
+    solution: "A Reparo Avançado utiliza componentes de primeira linha para realizar upgrades (HD para SSD, aumento de RAM) que dão sobrevida de anos ao equipamento. Realizamos também manutenção preventiva (limpeza interna e troca de pasta térmica) para evitar a queima do processador ou do chip de vídeo. Se você está enfrentando falhas no sistema, consulte nosso artigo sobre <a href='/blog/notebook-tela-azul-reiniciando-sozinho-o-que-fazer'>notebook com tela azul reiniciando sozinho</a> e veja também nosso atendimento de <a href='/informacoes/conserto-de-notebook-pituba'>conserto de notebook na Pituba</a>.",
     faqs: [
       {
         question: "Meu notebook está muito lento. SSD resolve?",
