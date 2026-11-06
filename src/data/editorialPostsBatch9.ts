@@ -194,9 +194,9 @@ export const editorialPostsBatch9: BlogPost[] = [
   },
   {
     slug: "celular-tela-touch-nao-responde-partes",
-    title: "Touch da Tela Não Responde em Algumas Partes? O Que Fazer",
+    title: "Touch do Celular Não Responde em Partes da Tela? Causas",
     h1: "Tela do Celular: Touch Não Funciona ou Falha em Partes",
-    metaDescription: "Seu celular está com toques fantasmas (mexendo sozinho) ou o touch parou de funcionar em uma letra do teclado? Descubra a causa e como a assistência.",
+    metaDescription: "Parte da tela do celular não responde ao toque? Veja as causas mais comuns e quando levar para avaliação grátis.",
     category: "conserto",
     brand: "Geral",
     model: "Todos",
@@ -224,7 +224,7 @@ export const editorialPostsBatch9: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],
-    dateModified: new Date().toISOString().split('T')[0],
+    dateModified: "2026-11-06",
     keywords: ["touch parou de funcionar", "celular clicando sozinho", "toque fantasma tela", "ghost touch", "teclado do celular não pega algumas letras", "conserto de touch"],
     faq: [
       {

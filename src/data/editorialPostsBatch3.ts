@@ -106,9 +106,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "celular-xiaomi-nao-liga-o-que-fazer",
-      title: "Xiaomi Não Liga? Redmi, Poco e Mi: Causas e Reparo em Salvador",
+      title: "Celular Xiaomi Não Liga? O Que Fazer Antes de Levar",
     h1: "Seu Xiaomi apagou e não liga mais? Passo a passo e causas comuns",
-    metaDescription: "Xiaomi, Redmi ou Poco não liga mais? Veja as causas, o que testar em casa sem queimar a placa e quando levar a uma assistência técnica em Salvador, Bahia.",
+    metaDescription: "Xiaomi, Redmi ou Poco não liga? Veja o que testar em casa, as causas mais comuns e quando levar para avaliação grátis em Salvador.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Todos",
@@ -134,7 +134,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-10-12",
+    dateModified: "2026-11-06",
     faq: [
         { question: "Xiaomi não liga e não aparece o ícone de carregando, o que pode ser?", answer: "Pode ser bateria totalmente descarregada, cabo ou carregador com defeito, conector de carga ou placa. Antes de tudo, deixe carregando por pelo menos 30 minutos com outro cabo e outro carregador." },
         { question: "Xiaomi travado na logo é a mesma coisa que não ligar?", answer: "Não. Se a logo aparece, o aparelho está ligando, e o problema costuma estar no sistema. Nesse caso, veja o nosso artigo sobre Xiaomi que travou depois da atualização. <a href=\"/blog/xiaomi-atualizacao-miui-travou-nao-liga\" class=\"text-primary hover:underline\">Leia mais</a>." },
@@ -319,9 +319,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "diferenca-tela-original-primeira-linha",
-      title: "Tela Original ou Primeira Linha? OLED, Incell e Nacional",
+      title: "Tela Original ou Primeira Linha: Qual a Diferença?",
     h1: "Tela Original, Primeira Linha, OLED ou Incell: Qual Escolher?",
-    metaDescription: "Tela original, primeira linha, nacional, OLED ou incell: veja a diferença na cor e no toque e como não ser enganado. Assistência em Salvador, Bahia.",
+    metaDescription: "Tela original ou de primeira linha? Entenda as diferenças de cor, toque e garantia, incluindo OLED, incell e nacional, antes de trocar a tela.",
     category: "conserto",
     brand: "Todas",
     model: "Todos",
@@ -346,7 +346,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-10-12",
+    dateModified: "2026-11-06",
     faq: [
         { question: "Como saber qual tela foi colocada no meu celular?", answer: "Peça que o tipo de tela venha descrito na ordem de serviço. É a forma mais segura de saber exatamente o que foi instalado." },
       {

@@ -101,7 +101,7 @@ export const editorialPostsBatch8: BlogPost[] = [
     solution: "Diagnóstico completo isolando bateria, periféricos (como botão power) e software. Reparo direcionado apenas no componente defeituoso ou reinstalação limpa do sistema.",
     whenToSeek: "Quando o aparelho entrar em loop infinito e não sair da tela inicial, ou quando os travamentos impedirem tarefas básicas do dia a dia.",
     costInfo: "Diagnóstico gratuito e sem compromisso para identificar a origem exata do loop.",
-    relatedSlugs: ["celular-nao-liga-o-que-fazer", "celular-esquentando-e-descarregando-rapido"],
+    relatedSlugs: ["celular-nao-liga-o-que-fazer", "celular-esquentando-e-descarregando-rapido", "motorola-desligou-do-nada-e-nao-liga-mais"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],

@@ -62,7 +62,7 @@ export const editorialPostsBatch6: BlogPost[] = [
     solution: "[DICA] Não tente plugar no iTunes e clicar em 'Restaurar' em casa, pois isso vai APAGAR TUDO definitivamente. Traga para a nossa bancada. Faremos um diagnóstico isolando periféricos (câmera, auricular) para descobrir quem está travando a inicialização do iOS. [/DICA]",
     whenToSeek: "O mais rápido possível. Deixar em loop acaba descarregando o aparelho a zero, o que dificulta mais ainda o reparo.",
     costInfo: "Varia se for apenas um erro de atualização, desconexão de flex em curto ou reballing na placa. Orçamento na hora.",
-    relatedSlugs: ["como-recuperar-fotos-celular-quebrado-nao-liga"],
+    relatedSlugs: ["como-recuperar-fotos-celular-quebrado-nao-liga", "iphone-desligou-do-nada-e-nao-liga-mais"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-16",

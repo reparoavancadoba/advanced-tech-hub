@@ -66,9 +66,9 @@ Se a bateria estiver degradada, realizamos a substituição utilizando células 
   },
   {
     slug: "conector-carga-iphone-mau-contato-limpeza-troca",
-    title: "Conector de Carga do iPhone com Mau Contato: Limpeza ou Troca?",
+    title: "iPhone Com Mau Contato no Carregador: Limpeza ou Troca?",
     h1: "Mau Contato no Conector do iPhone: Você Precisa de Limpeza ou Troca?",
-    metaDescription: "Cabo do iPhone não entra direito ou fica frouxo? Pode ser apenas poeira ou necessidade de troca do conector. A Reparo Avançado faz o diagnóstico gratuito.",
+    metaDescription: "iPhone com mau contato ou carregando só em certa posição? Veja quando basta limpar o conector e quando é preciso trocar. Avaliação grátis.",
     category: "iphone" as Category,
     brand: "Apple",
     model: "iPhone",
@@ -76,6 +76,7 @@ Se a bateria estiver degradada, realizamos a substituição utilizando células 
     serviceSlug: "conector-carga",
     description: "Entenda a diferença entre sujeira no conector Lightning/USB-C e a quebra do componente no iPhone, e quando cada solução se aplica.",
     isEditorial: true,
+    dateModified: "2026-11-06",
     keywords: ["conector iphone salvador", "iphone não carrega", "mau contato iphone", "limpeza conector iphone", "trocar conector iphone lightning", "cabo frouxo iphone"],
     problems: [
       "O cabo carregador não entra até o final ou fica frouxo",
