@@ -3,9 +3,9 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch3: BlogPost[] = [
   {
     slug: "por-que-iphone-13-esquenta-muito",
-      title: "iPhone 13 Esquentando Muito? Causas e o que fazer",
+      title: "iPhone 13 Esquentando Muito? Causas e O Que Fazer",
     h1: "O que fazer quando o iPhone 13 esquenta muito? Causas e Solução Definitiva",
-    metaDescription: "iPhone 13 esquentando mesmo parado ou carregando? Veja as causas mais comuns, quais são normais e quando o calor já está danificando a bateria.",
+    metaDescription: "iPhone 13 esquenta muito? Veja as causas mais comuns (bateria, apps, carregamento) e quando levar para avaliação grátis em Salvador.",
     category: "iphone",
     brand: "Apple",
     model: "iPhone 13",
@@ -31,7 +31,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",
-    dateModified: "2026-07-04",
+    dateModified: "2026-10-27",
     faq: [
       {
         question: "É normal o iPhone 13 esquentar carregando?",
@@ -398,7 +398,7 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "aviso-umidade-detectada",
-      title: "Aviso de Umidade Detectada no Celular: Como Tirar com Segurança",
+      title: "Aviso de Umidade no Celular: Como Resolver com Segurança",
     h1: "O aviso de 'Umidade Detectada na porta USB' não some? Resolva agora!",
     metaDescription: "O aviso de umidade detectada na porta USB não sai? Veja como secar com segurança, o que nunca fazer e quando levar à assistência técnica em Salvador, Bahia.",
     category: "samsung",

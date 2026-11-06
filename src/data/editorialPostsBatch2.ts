@@ -125,7 +125,7 @@ Nos casos restantes, onde os pinos estão fisicamente rompidos ou o flex de carg
   },
   {
     slug: "troca-tela-iphone-13-14-cuidados-face-id",
-    title: "Troca de Tela iPhone 13 e 14: Cuidados para não perder o Face ID",
+    title: "Troca de Tela iPhone 13 e 14: Cuidados com o Face ID",
     h1: "Troca de Tela de iPhone 13 e 14 em Salvador: Preservando Face ID e True Tone",
     metaDescription: "Vai trocar a tela do iPhone 13 ou 14? Cuidado com amadores! A Reparo Avançado em Salvador garante a troca mantendo Face ID e True Tone perfeitos.",
     category: "iphone" as Category,
@@ -177,7 +177,7 @@ Nos casos restantes, onde os pinos estão fisicamente rompidos ou o flex de carg
   },
   {
     slug: "motorola-edge-nao-liga-boca-do-rio",
-    title: "Motorola Edge Não Liga? Diagnóstico Especializado na Boca do Rio",
+    title: "Motorola Edge Não Liga? Diagnóstico na Boca do Rio",
     h1: "Conserto de Motorola Edge e Moto G que Não Ligam em Salvador",
     metaDescription: "Seu Motorola apagou do nada? A Reparo Avançado em Salvador possui laboratório para reparo de placa e baterias da linha Motorola Edge e Moto G.",
     category: "motorola" as Category,

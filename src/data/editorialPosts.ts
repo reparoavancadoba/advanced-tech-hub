@@ -407,7 +407,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "vale-pena-consertar-iphone-antigo-analise",
-    title: "Vale a Pena Consertar iPhone Antigo? Análise de Custo-Benefício",
+    title: "Vale a Pena Consertar iPhone Antigo? Análise e Guia",
     h1: "Vale a Pena Consertar iPhone Antigo? Análise Técnica de Custo-Benefício",
     metaDescription: "iPhone antigo quebrado? Análise técnica para saber se vale consertar ou comprar novo. Reparo Avançado em Salvador (Boca do Rio). diagnóstico grátis!",
     category: "iphone" as Category,
@@ -1600,9 +1600,9 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "conserto-botao-power-volume-celular-salvador",
-    title: "Conserto de Botão Power e Volume de Celular",
+    title: "Conserto de Botão Power e Volume de Celular em Salvador",
     h1: "Botão Power ou Volume Quebrado? Conserto Rápido e Barato na Boca do Rio",
-    metaDescription: "Celular afundou o botão de ligar ou o volume não funciona? Fazemos a troca do flex power e botões físicos de iPhone, Samsung, Xiaomi e Motorola em Salvador.",
+    metaDescription: "Botão power ou volume do celular travado ou sem funcionar? Conserto em Salvador, na Boca do Rio, com avaliação grátis e 90 dias de garantia.",
     category: "outros" as Category,
     brand: "Diversas",
     model: "Smartphones",
@@ -1610,6 +1610,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
     serviceSlug: "conserto-botao-power-volume-celular-salvador",
     description: "Um defeito que parece simples, mas inutiliza o celular. Descubra como substituímos o mecanismo interno de botões afundados ou rasgados.",
     isEditorial: true,
+    dateModified: "2026-10-27",
     keywords: ["conserto botao power celular", "botao volume afundado conserto", "trocar flex power iphone", "arrumar botao de ligar celular salvador", "celular travado no volume"],
     problems: [
       "O botão de ligar (Power) afundou e não faz mais o 'clique'",
@@ -1952,7 +1953,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "celular-travando-lento-resetar-salvador",
-    title: "Celular Travando e Muito Lento? Precisa Resetar ou Trocar Peça?",
+    title: "Celular Travando e Lento? Resetar ou Consertar Peça?",
     h1: "Celular Travando, Lento ou Reiniciando Sozinho: O Que Fazer em Salvador",
     metaDescription: "Seu celular Android ou iPhone está travando, lento demais ou reiniciando sozinho? Descubra se é bug de software ou defeito de hardware. Diagnóstico.",
     category: "outros" as Category,

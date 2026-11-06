@@ -121,9 +121,9 @@ export const editorialPostsBatch5: BlogPost[] = [
   },
   {
     slug: "mancha-roxa-tela-samsung-crescendo",
-    title: "Mancha Roxa ou Azul na Tela do Samsung Crescendo: O Que É?",
+    title: "Mancha Roxa na Tela do Samsung Crescendo? Tem Conserto?",
     h1: "Vazamento de Cristal Líquido (OLED): Mancha Roxa no Samsung",
-    metaDescription: "Uma pequena mancha roxa apareceu na borda do seu celular e está se espalhando? Descubra o que causa o sangramento da tela OLED e o que fazer.",
+    metaDescription: "Mancha roxa na tela do Samsung aumentando? Entenda a causa, se tem conserto e quando trocar a tela. Avaliação grátis na Boca do Rio.",
     category: "samsung",
     brand: "Samsung",
     model: "Linha S (S20, S21, S22, S23) e Note",
@@ -149,7 +149,7 @@ export const editorialPostsBatch5: BlogPost[] = [
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-16",
-    dateModified: "2026-07-16",
+    dateModified: "2026-10-27",
     faq: [
       {
         question: "Tem como impedir a mancha de crescer?",
@@ -427,7 +427,7 @@ export const editorialPostsBatch5: BlogPost[] = [
   },
   {
     slug: "assistencia-tecnica-especializada-xiaomi-salvador",
-    title: "Assistência Técnica Especializada Xiaomi (Poco/Redmi) em Salvador",
+    title: "Assistência Técnica Xiaomi em Salvador | Poco e Redmi",
     h1: "Conserto Profissional de Celular Xiaomi, Poco e Redmi na Boca do Rio",
     metaDescription: "Seu Poco X3 apagou? Seu Redmi Note trincou a tela? Descubra o maior centro especializado em conserto e diagnóstico de celulares Xiaomi em Salvador.",
     category: "xiaomi",

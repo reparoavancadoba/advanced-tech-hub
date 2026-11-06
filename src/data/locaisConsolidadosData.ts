@@ -168,6 +168,9 @@ macroRegioes.forEach(macro => {
       titleStr = `Assistência Técnica de Celular na Boca do Rio e Orla`;
       metaDesc = `Conserto de celular na Boca do Rio e Orla: troca de tela, bateria e placa no mesmo dia. Loja física na R. Abelardo Andrade de Carvalho, 8. Orçamento grátis.`;
   }
+  if (macro.slug === 'centro-e-sul') {
+      titleStr = 'Assistência Técnica Centro e Sul Salvador | Reparo Avançado';
+  }
   if (macro.slug === 'miolo-e-centro-financeiro') {
       titleStr = 'Assistência Técnica de Celular no Miolo e Centro Financeiro';
   }

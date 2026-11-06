@@ -59,6 +59,9 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   
   let html = template;
   
+  if (urlPath !== '/') {
+    html = html.replace(/<link rel="preload" as="image"[^>]*hero[^>]*>\s*/gi, '');
+  }
   html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
   html = html.replace(/<meta name="description" content=".*?"\s*\/?>/,  `<meta name="description" content="${description}">`);
   html = html.replace(/<link rel="canonical" href=".*?"\s*\/?>/,  `<link rel="canonical" href="${fullUrl}" />`);

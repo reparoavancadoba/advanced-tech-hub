@@ -8,8 +8,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     slug: "iphone-11-nao-carrega-conector-ou-bateria",
     title: "iPhone 11 Não Carrega: Conector ou Bateria? Como Saber",
     h1: "iPhone 11 Não Carrega: Conector ou Bateria?",
-    metaDescription:
-      "iPhone 11 não carrega ou carrega devagar? Veja como diferenciar problema de conector, cabo e bateria antes de pagar pelo reparo errado.",
+    metaDescription: "iPhone 11 não carrega? Aprenda a diferenciar problema de conector e de bateria e saiba quando procurar a assistência. Avaliação grátis em Salvador.",
     category: "iphone" as const,
     brand: "Apple",
     model: "iPhone 11",
@@ -43,7 +42,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: today,
-    dateModified: today,
+    dateModified: "2026-10-27",
     keywords: [
       "iphone 11 não carrega",
       "iphone 11 conector de carga",
@@ -342,10 +341,9 @@ export const editorialPostsBatch11: BlogPost[] = [
   // ─── ARTIGO 5: Celular carrega mas não liga ──────────────────────────────────
   {
     slug: "celular-carrega-mas-nao-liga-causas",
-    title: "Celular Carrega mas Não Liga: Causas e o Que Fazer",
+    title: "Celular Carrega Mas Não Liga? Causas e Soluções",
     h1: "Celular Carrega mas Não Liga: O Que Pode Ser?",
-    metaDescription:
-      "Celular mostra o ícone de carregamento mas a tela não liga? Veja as causas mais comuns, do software à placa, antes de se preocupar.",
+    metaDescription: "Celular carrega mas não liga? Veja as causas (bateria, tela, software) e o que testar antes de levar à assistência. Avaliação grátis em Salvador.",
     category: "conserto" as const,
     brand: "Geral",
     model: "Todos",
@@ -378,7 +376,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: today,
-    dateModified: today,
+    dateModified: "2026-10-27",
     keywords: [
       "celular carrega mas não liga",
       "celular reage carregador mas não liga",

@@ -288,9 +288,9 @@ export const editorialPostsBatch8: BlogPost[] = [
   },
   {
     slug: "celular-sem-sinal-nao-reconhece-chip",
-    title: "Celular Sem Sinal ou Não Reconhece o Chip? Causas e Soluções",
+    title: "Celular Sem Sinal ou Não Reconhece o Chip? O Que Fazer",
     h1: "Celular Não Lê o Chip SIM ou Fica Sem Serviço",
-    metaDescription: "Seu celular diz 'Sem Serviço', 'Apenas Emergência' ou não reconhece o Chip SIM de jeito nenhum? Descubra se é defeito no leitor, antena interna ou.",
+    metaDescription: "Celular sem sinal ou não reconhece o chip? Veja o que testar em casa e quando o problema é de hardware. Avaliação grátis na Boca do Rio, Salvador.",
     category: "conserto",
     brand: "Geral",
     model: "Todos",
@@ -318,7 +318,7 @@ export const editorialPostsBatch8: BlogPost[] = [
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: new Date().toISOString().split('T')[0],
-    dateModified: new Date().toISOString().split('T')[0],
+    dateModified: "2026-10-27",
     keywords: ["celular não reconhece chip", "celular sem serviço", "só chamada de emergência", "nenhum cartão sim inserido", "consertar antena celular", "leitor de chip quebrado"],
     faq: [
       {

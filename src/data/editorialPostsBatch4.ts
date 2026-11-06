@@ -406,7 +406,7 @@ export const editorialPostsBatch4: BlogPost[] = [
   },
   {
     slug: "onde-consertar-celular-rapido-boca-do-rio-salvador",
-    title: "Onde Consertar Celular Rápido e Barato na Boca do Rio, Salvador",
+    title: "Onde Consertar Celular Rápido na Boca do Rio, Salvador",
     h1: "Conserto de Celular Boca do Rio (Salvador): Melhor Avaliada",
     metaDescription: "Procurando assistência técnica de confiança na Boca do Rio, Imbuí ou Pituba? A Reparo Avançado faz orçamento grátis e serviço na hora. 5 Estrelas no Google.",
     category: "conserto",

@@ -48,7 +48,7 @@ const Navbar = () => {
             <MessageCircle className="w-4 h-4" /> WhatsApp
           </a>
         </div>
-        <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-white z-20" aria-label="Menu">
+        <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-white z-20" aria-label={open ? "Fechar menu" : "Abrir menu"} aria-expanded={open}>
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>

@@ -15,7 +15,7 @@ export interface InformacaoPage {
 
 export const informacoesIndex = {
   slug: "",
-  title: "Informações sobre Conserto de Celular em Salvador | Reparo Avançado",
+  title: "Conserto de Celular em Salvador por Bairro | Reparo Avançado",
   meta: "Informações sobre troca de tela, bateria, conserto de iPhone e Samsung por bairro de Salvador. Reparo Avançado, na Boca do Rio.",
   h1: "Informações por Serviço e Bairro",
   text: "Reunimos aqui informações sobre os serviços mais procurados na Reparo Avançado, organizadas por bairro de Salvador. Nossa loja fica na Boca do Rio, e consulte a disponibilidade de coleta e entrega do aparelho."
