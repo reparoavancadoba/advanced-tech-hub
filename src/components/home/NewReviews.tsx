@@ -54,7 +54,7 @@ const NewReviews = () => {
                 key={i} 
                 className="w-[280px] sm:w-[320px] md:w-[350px] flex-shrink-0 bg-[#0f172a] border border-[#1e293b] p-5 md:p-6 rounded-2xl flex flex-col gap-4 hover:border-[#0066FF]/40 transition-colors shadow-lg"
               >
-                <div className="flex gap-0.5 text-yellow-500" aria-label="Avaliação 5 estrelas">
+                <div className="flex gap-0.5 text-yellow-500" role="img" aria-label="Avaliação 5 estrelas">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} className="w-4 h-4 fill-current" aria-hidden="true" />
                   ))}

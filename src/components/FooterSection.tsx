@@ -40,7 +40,7 @@ const FooterSection = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-whatsapp text-whatsapp-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:brightness-110 transition-all"
+              className="inline-flex items-center gap-2 bg-whatsapp text-[#0f172a] px-5 py-2.5 rounded-lg text-sm font-semibold hover:brightness-110 transition-all"
             >
               <MessageCircle className="w-4 h-4" />
               Fale Conosco
@@ -53,7 +53,7 @@ const FooterSection = () => {
             <ul className="space-y-3 text-sm text-muted-foreground flex flex-col items-center md:items-start">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span>R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710<br/><Link to="/assistencia-tecnica-boca-do-rio" className="text-primary hover:underline font-bold mt-1 inline-block">Nossa loja na Boca do Rio</Link></span>
+                <span>R. Abelardo Andrade de Carvalho, 8 - Boca do Rio, Salvador - BA, 41706-710<br/><Link to="/assistencia-tecnica-boca-do-rio" className="text-blue-300 hover:underline font-bold mt-1 inline-block">Nossa loja na Boca do Rio</Link></span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
