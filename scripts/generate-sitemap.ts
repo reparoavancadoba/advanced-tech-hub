@@ -31,6 +31,7 @@ const staticPages = [
   { loc: "/orcamento", priority: "0.9", changefreq: "monthly", file: "src/pages/Orcamento.tsx" },
   { loc: "/contato", priority: "0.8", changefreq: "monthly", file: "src/pages/Contato.tsx" },
   { loc: "/localizacao", priority: "0.8", changefreq: "monthly", file: "src/pages/Localizacao.tsx" },
+  { loc: "/loja", priority: "0.8", changefreq: "monthly", file: "src/pages/Loja.tsx" },
 ];
 
 staticPages.forEach((p) => {

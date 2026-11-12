@@ -15,6 +15,7 @@ import LocalConsolidado from "./pages/LocalConsolidado";
 import Orcamento from "./pages/Orcamento";
 import Contato from "./pages/Contato";
 import Localizacao from "./pages/Localizacao";
+import Loja from "./pages/Loja";
 import InformacoesIndex from "./pages/InformacoesIndex";
 import InformacaoPage from "./pages/InformacaoPage";
 import Blog from "./pages/Blog";
@@ -61,6 +62,7 @@ const App = () => (
               <Route path="/orcamento" element={<Orcamento />} />
               <Route path="/contato" element={<Contato />} />
               <Route path="/localizacao" element={<Localizacao />} />
+              <Route path="/loja" element={<Loja />} />
               <Route path="/whatsapp" element={<WhatsAppRedirect />} />
               
               {/* Novas Rotas de Serviços Consolidados */}

@@ -14,6 +14,7 @@
 - Celulares (iPhone, Samsung, Xiaomi/Redmi/POCO, Motorola, realme): troca de tela, troca de bateria, conector de carga, câmera, áudio, botões, reparo de placa e microssoldagem, desoxidação de aparelho molhado.
 - Tablets e iPads: tela, bateria, carregamento e placa.
 - Notebooks: diagnóstico, limpeza técnica, formatação, upgrade de SSD e memória RAM, tela, teclado, bateria e placa.
+- Loja: iPhones seminovos, celulares Samsung e Xiaomi, compra e troca de celular usado (mediante avaliação) e acessórios (películas, capas, carregadores, cabos, power banks e fones).
 - Avaliação gratuita e orçamento sem compromisso. Todos os serviços têm 90 dias de garantia.
 - Coleta e entrega em Salvador (consultar disponibilidade pelo WhatsApp).
 
@@ -37,6 +38,7 @@
 - [Conserto de notebook](https://site.reparoavancado.com.br/conserto-de-notebook)
 - [Orçamento](https://site.reparoavancado.com.br/orcamento)
 - [Como chegar](https://site.reparoavancado.com.br/localizacao)
+- [Loja: seminovos, compra e troca de usado, acessórios](https://site.reparoavancado.com.br/loja)
 
 ## Blog
 Guias sobre defeitos comuns, com causas, testes simples em casa e quando levar o aparelho para avaliação: https://site.reparoavancado.com.br/blog
