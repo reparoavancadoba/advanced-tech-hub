@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { MessageCircle, ChevronRight, Sparkles, AlertTriangle, Info, ArrowRight, Clock } from "lucide-react";
 import { getPostBySlug, allPosts, categoryLabels } from "@/data/blogData";
 import { getBrandDisplayName } from "@/data/businessInfo";
+import { getBlogTitles } from "@/data/blogTitle";
 import SiteLayout from "@/components/SiteLayout";
 import AuthorBlock from "@/components/blog/AuthorBlock";
 import { useEffect } from "react";
@@ -211,7 +212,7 @@ const BlogPost = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>{post.title} | Avaliação Grátis</title>
+        <title>{getBlogTitles(post.slug, post.title).hydrated}</title>
         <meta name="description" content={post.metaDescription} />
         <link rel="canonical" href={canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

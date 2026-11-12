@@ -7,6 +7,7 @@ import { allConsolidatedServices } from '../src/data/servicosConsolidadosData';
 import { listLocaisConsolidados } from '../src/data/locaisConsolidadosData';
 import { businessInfo } from '../src/config/business';
 import { informacoesPages, informacoesIndex } from '../src/data/informacoesData';
+import { getBlogTitles } from '../src/data/blogTitle';
 
 
 function parseMarkdown(text) {
@@ -54,7 +55,7 @@ let template = fs.readFileSync(indexHtmlPath, 'utf-8');
 const DOMAIN = 'https://site.reparoavancado.com.br';
 const WA_NUMBER = businessInfo.whatsapp;
 
-function generatePage(urlPath: string, title: string, description: string, h1: string, contentHtml: string, schemaObj: any = null) {
+function generatePage(urlPath: string, title: string, description: string, h1: string, contentHtml: string, schemaObj: any = null, docTitle?: string) {
   const fullUrl = `${DOMAIN}${urlPath}`;
   
   let html = template;
@@ -62,7 +63,7 @@ function generatePage(urlPath: string, title: string, description: string, h1: s
   if (urlPath !== '/') {
     html = html.replace(/<link rel="preload" as="image"[^>]*hero[^>]*>\s*/gi, '');
   }
-  html = html.replace(/<title>.*?<\/title>/, `<title>${title}</title>`);
+  html = html.replace(/<title>.*?<\/title>/, `<title>${docTitle ?? title}</title>`);
   html = html.replace(/<meta name="description" content=".*?"\s*\/?>/,  `<meta name="description" content="${description}">`);
   html = html.replace(/<link rel="canonical" href=".*?"\s*\/?>/,  `<link rel="canonical" href="${fullUrl}" />`);
   html = html.replace(/<meta property="og:title" content=".*?"\s*\/?>/,  `<meta property="og:title" content="${title}">`);
@@ -503,7 +504,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   }
 
   contentHtml = contentHtml.replace(/<h2>\s*<\/h2>/g, '');
-  generatePage(urlPath, title, description, h1, contentHtml, blogSchema);
+  generatePage(urlPath, title, description, h1, contentHtml, blogSchema, getBlogTitles(post.slug, title).prerender);
 });
 
 // After all posts are processed, check for orphans
