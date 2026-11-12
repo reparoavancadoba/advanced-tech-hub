@@ -61,8 +61,8 @@ const BlogPost = () => {
   const isTodos = (val?: string) => !val || val.toLowerCase() === 'todos';
   const displayModel = isTodos(post.model) ? 'aparelho' : post.model;
   const displayModelH2 = isTodos(post.model) ? '' : ` ${post.model}`;
-  const topic = post.title || `${post.service}${displayModelH2}`;
-  const customMessage = `Olá! Vi o artigo sobre ${topic} no blog de vocês e gostaria de um orçamento.`;
+  const articleTitle = post.title || `${post.service}${displayModelH2}`;
+  const customMessage = `Olá! Vi o artigo "${articleTitle}" no site e quero uma avaliação grátis.`;
   const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(customMessage)}`;
 
   const relatedPosts = (post.relatedSlugs || [])
@@ -306,8 +306,11 @@ const BlogPost = () => {
 
                   {/* Mid-article Conversion CTA */}
                   <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8 text-center my-12 shadow-xl transform -mx-4 md:mx-0">
-                    <p className="font-bold text-white mb-4 text-lg md:text-xl px-4">
+                    <p className="font-bold text-white mb-2 text-lg md:text-xl px-4">
                       Reconhece esse problema no seu aparelho? Fale com a gente agora.
+                    </p>
+                    <p className="text-zinc-300 text-sm mb-4 px-4">
+                      Avaliação grátis, coleta e entrega em Salvador. Garantia de 90 dias.
                     </p>
                     <a href={waLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1DA851] transition-all shadow-md w-full sm:w-auto">
                       <MessageCircle className="w-5 h-5" />

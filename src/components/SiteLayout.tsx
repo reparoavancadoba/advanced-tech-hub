@@ -44,7 +44,8 @@ const SiteLayout = ({ children, showFooter = true }: SiteLayoutProps) => {
           (window as any).gtag('event', 'whatsapp_click', {
             page_location: window.location.href,
             page_type: pageType,
-            service_name: serviceName
+            service_name: serviceName,
+            ...(path.startsWith('/blog/') ? { article_slug: path.replace(/^\/blog\//, '').replace(/\/$/, '') } : {})
           });
         }
         

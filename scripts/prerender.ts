@@ -398,7 +398,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   });
   
   // ── MID-ARTICLE CTA (Section 5) ──
-  const waMsg = encodeURIComponent(`Olá! Vi o artigo "${post.title}" e preciso de ajuda com ${post.service}.`);
+  const waMsg = encodeURIComponent(`Olá! Vi o artigo "${post.title}" no site e quero uma avaliação grátis.`);
   contentHtml += `<aside style="border-left:3px solid #007bff;padding:12px;margin:20px 0;">
     <p>Precisa de <strong>${servicePageName}</strong>? A Reparo Avançado resolve com garantia de ${businessInfo.warranty}.</p>
     <a href="https://wa.me/${WA_NUMBER}?text=${waMsg}">Fale pelo WhatsApp</a>
