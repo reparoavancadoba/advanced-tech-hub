@@ -3,6 +3,7 @@ import { MessageCircle, ChevronRight, Sparkles, AlertTriangle, Info, ArrowRight,
 import { getPostBySlug, allPosts, categoryLabels } from "@/data/blogData";
 import { getBrandDisplayName } from "@/data/businessInfo";
 import { getBlogTitles } from "@/data/blogTitle";
+import { NO_WHATSAPP_POST_SLUGS, NO_WHATSAPP_NOTICE } from "@/data/blogCtaRules";
 import SiteLayout from "@/components/SiteLayout";
 import AuthorBlock from "@/components/blog/AuthorBlock";
 import { useEffect } from "react";
@@ -65,6 +66,7 @@ const BlogPost = () => {
   const articleTitle = post.title || `${post.service}${displayModelH2}`;
   const customMessage = `Olá! Vi o artigo "${articleTitle}" no site e quero uma avaliação grátis.`;
   const waLink = `https://wa.me/5571991981437?text=${encodeURIComponent(customMessage)}`;
+  const hideWhatsApp = NO_WHATSAPP_POST_SLUGS.has(post.slug);
 
   const relatedPosts = (post.relatedSlugs || [])
     .map((s) => allPosts.find((p) => p.slug === s))
@@ -306,6 +308,11 @@ const BlogPost = () => {
 )}
 
                   {/* Mid-article Conversion CTA */}
+                  {hideWhatsApp ? (
+                    <div className="bg-amber-900/10 border-l-4 border-amber-500 p-5 rounded-r-xl my-6 shadow-sm">
+                      <p className="text-zinc-800 text-base leading-relaxed font-semibold">{NO_WHATSAPP_NOTICE}</p>
+                    </div>
+                  ) : (
                   <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8 text-center my-12 shadow-xl transform -mx-4 md:mx-0">
                     <p className="font-bold text-white mb-2 text-lg md:text-xl px-4">
                       Reconhece esse problema no seu aparelho? Fale com a gente agora.
@@ -318,6 +325,7 @@ const BlogPost = () => {
                       Falar com Técnico (WhatsApp)
                     </a>
                   </div>
+                  )}
 
                   {/* Mobile Stacked Related Articles (Visível apenas em telas menores) */}
                   {relatedPosts.length > 0 && (
@@ -462,6 +470,7 @@ const BlogPost = () => {
           </div>
 
           {/* Final CTA Banner */}
+          {!hideWhatsApp && (
           <div className="mt-16 bg-[#0066FF] rounded-2xl p-8 md:p-12 text-center shadow-2xl">
             <h2 className="text-3xl font-bold text-white mb-4">
               Pronto pra resolver?
@@ -479,11 +488,13 @@ const BlogPost = () => {
               Falar no WhatsApp
             </a>
           </div>
+          )}
 
         </div>
       </div>
 
       {/* Mobile Sticky Bar */}
+      {!hideWhatsApp && (
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-zinc-950 border-t border-zinc-800 p-4 z-50 shadow-[0_-10px_20px_-10px_rgba(0,0,0,0.5)]">
         <a
           href={waLink}
@@ -495,6 +506,7 @@ const BlogPost = () => {
           Falar com Técnico Agora
         </a>
       </div>
+      )}
     </SiteLayout>
   );
 };

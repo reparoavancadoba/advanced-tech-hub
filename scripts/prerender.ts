@@ -8,6 +8,7 @@ import { listLocaisConsolidados } from '../src/data/locaisConsolidadosData';
 import { businessInfo } from '../src/config/business';
 import { informacoesPages, informacoesIndex } from '../src/data/informacoesData';
 import { getBlogTitles } from '../src/data/blogTitle';
+import { NO_WHATSAPP_POST_SLUGS, NO_WHATSAPP_NOTICE } from '../src/data/blogCtaRules';
 
 
 function parseMarkdown(text) {
@@ -400,7 +401,9 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   
   // ── MID-ARTICLE CTA (Section 5) ──
   const waMsg = encodeURIComponent(`Olá! Vi o artigo "${post.title}" no site e quero uma avaliação grátis.`);
-  contentHtml += `<aside style="border-left:3px solid #007bff;padding:12px;margin:20px 0;">
+  const hideWhatsApp = NO_WHATSAPP_POST_SLUGS.has(post.slug);
+  if (hideWhatsApp) contentHtml += `<aside style="border-left:3px solid #f59e0b;padding:12px;margin:20px 0;"><p><strong>${NO_WHATSAPP_NOTICE}</strong></p></aside>`;
+  else contentHtml += `<aside style="border-left:3px solid #007bff;padding:12px;margin:20px 0;">
     <p>Precisa de <strong>${servicePageName}</strong>? A Reparo Avançado resolve com garantia de ${businessInfo.warranty}.</p>
     <a href="https://wa.me/${WA_NUMBER}?text=${waMsg}">Fale pelo WhatsApp</a>
   </aside>`;
@@ -448,7 +451,7 @@ allPosts.filter(p => !mergedSlugs.includes(p.slug)).forEach(post => {
   
   contentHtml += `<p>Conheça a nossa <a href="/assistencia-tecnica-salvador">assistência técnica de celular em Salvador</a>, com loja na <a href="/assistencia-tecnica-boca-do-rio">Boca do Rio</a>.</p>`;
   // ── END-OF-ARTICLE CTA (Section 5) ──
-  contentHtml += `<aside style="border:2px solid #007bff;padding:16px;margin:24px 0;border-radius:8px;">
+  if (!hideWhatsApp) contentHtml += `<aside style="border:2px solid #007bff;padding:16px;margin:24px 0;border-radius:8px;">
     <p><strong>${servicePageName} na Reparo Avançado</strong></p>
     <p>Garantia de ${businessInfo.warranty}. Loja na Boca do Rio, Salvador.</p>
     <a href="https://wa.me/${WA_NUMBER}?text=${waMsg}">Fale pelo WhatsApp</a> · 
