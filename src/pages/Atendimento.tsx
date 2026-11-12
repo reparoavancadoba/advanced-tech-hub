@@ -89,7 +89,7 @@ const Atendimento = () => {
                 <Clock className="w-4 h-4" /> tradição desde 2018
               </div>
               <div className="hidden sm:flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-whatsapp" /> +153 avaliações reais
+                <CheckCircle2 className="w-4 h-4 text-whatsapp" /> +160 avaliações reais
               </div>
             </div>
           </div>

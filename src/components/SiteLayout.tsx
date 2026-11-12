@@ -79,8 +79,8 @@ const SiteLayout = ({ children, showFooter = true }: SiteLayoutProps) => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -12.9798, // Coordenada aproximada de Salvador/Boca do Rio
-      "longitude": -38.4556 
+      "latitude": -12.9777, // mesma coordenada do mapa do site (businessInfo)
+      "longitude": -38.4413
     },
     "url": "https://site.reparoavancado.com.br",
     "priceRange": "$$",
