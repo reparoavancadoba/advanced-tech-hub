@@ -235,7 +235,7 @@ export const editorialPostsBatch5: BlogPost[] = [
   },
   {
     slug: "celular-nao-reconhece-chip-sim-sem-servico",
-    title: "Celular Não Reconhece o Chip: Erro 'Buscando' ou 'Sem Serviço'",
+    title: "Celular Não Reconhece o Chip: 'Buscando' ou 'Sem Serviço'",
     h1: "Falha de Rede e Chip (Baseband) em iPhone e Android",
     metaDescription: "Seu celular só dá 'Buscando' ou parou de ler o SIM Card do nada? Especialistas em reparo de gaveta e Baseband (Placa) em Salvador resolvem na hora.",
     category: "conserto",

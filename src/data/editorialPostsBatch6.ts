@@ -3,7 +3,7 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch6: BlogPost[] = [
   {
     slug: "troca-vidro-camera-traseira-iphone-quebrado",
-    title: "Vidro da Câmera do iPhone Quebrou? Saiba o Risco e Como Trocar",
+    title: "Vidro da Câmera do iPhone Quebrou? Risco e Como Trocar",
     h1: "Troca do Vidro da Câmera Traseira de iPhone em Salvador",
     metaDescription: "O pequeno vidro que cobre a câmera traseira do seu iPhone trincou? Não demore para trocar, ou a poeira vai destruir a lente óptica interna.",
     category: "iphone",
@@ -152,7 +152,7 @@ export const editorialPostsBatch6: BlogPost[] = [
   },
   {
     slug: "celular-nao-conecta-wifi-bluetooth-cinza",
-    title: "Celular Não Liga o WiFi (Fica Cinza) e Bluetooth Não Funciona",
+    title: "WiFi do Celular Fica Cinza e Bluetooth Não Funciona",
     h1: "Conserto de WiFi e Bluetooth no Celular (Módulo WLAN / Placa)",
     metaDescription: "O botão do WiFi não aciona e o Bluetooth morreu de vez? Seu celular gastando toda a franquia de dados 4G/5G. Especialistas em conserto de WiFi em Salvador.",
     category: "conserto",

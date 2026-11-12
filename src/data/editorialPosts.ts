@@ -1353,7 +1353,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "assistencia-tecnica-samsung-salvador-autorizada",
-    title: "Assistência Técnica Samsung Salvador? Diagnóstico em Salvador",
+    title: "Assistência Técnica Samsung em Salvador: Tela e Placa",
     h1: "Assistência Técnica Especializada em Samsung Galaxy em Salvador",
     metaDescription: "Conserto especializado de Samsung Linha S, A e Note em Salvador (Boca do Rio). Troca de tela AMOLED, vidro com cola UV e reparo de placa-mãe com garantia.",
     category: "samsung" as Category,
@@ -1822,7 +1822,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "conserto-motorola-moto-g-edge-salvador",
-    title: "Assistência Técnica Motorola Salvador? Diagnóstico em Salvador",
+    title: "Assistência Técnica Motorola em Salvador: Moto G e Edge",
     h1: "Conserto de Motorola Moto G e Edge em Salvador: Tela, Bateria e Placa",
     metaDescription: "Conserto especializado de Motorola Moto G, Edge e One em Salvador. Troca de tela IPS/OLED, bateria, conector e reparo de placa. Boca do Rio. Orçamento grátis!",
     category: "outros" as Category,
