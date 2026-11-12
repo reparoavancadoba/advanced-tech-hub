@@ -403,7 +403,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Preciso trocar o alto-falante do iPhone?", answer: "Somente se a higienização não resolver. Fazemos diagnóstico gratuito para determinar se é sujeira ou defeito no componente." }
     ],
     sections: [],
-    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "microfone-ruim-ligacoes-poeira-salvador", "limpeza-tecnica-celular-sexta-feira-salvador"]
+    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "microfone-iphone-nao-funciona-audio-mudo", "limpeza-tecnica-celular-sexta-feira-salvador"]
   },
   {
     slug: "vale-pena-consertar-iphone-antigo-analise",
@@ -594,7 +594,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Qual a diferença entre tela AMOLED e tela IPS na troca?", answer: "A tela AMOLED oferece preto verdadeiro, cores mais vibrantes e menor consumo de energia. Recomendamos sempre a troca por AMOLED para manter a experiência original do Samsung." }
     ],
     sections: [],
-    relatedSlugs: ["biometria-tela-parou-troca-amoled-salvador", "troca-vidro-vs-tela-completa-economia-salvador", "erro-umidade-samsung-conector-salvador"]
+    relatedSlugs: ["biometria-tela-parou-troca-amoled-salvador", "troca-vidro-ou-tela-completa-celular-diferenca", "erro-umidade-samsung-conector-salvador"]
   },
   {
     slug: "xiaomi-poco-reiniciando-sozinho-salvador",
@@ -775,7 +775,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Película de vidro atrapalha a biometria?", answer: "Películas muito grossas ou de baixa qualidade podem interferir. Recomendamos películas finas (0.2mm) ou películas hidrogel que não bloqueiam o sensor ultrassônico." }
     ],
     sections: [],
-    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "troca-vidro-vs-tela-completa-economia-salvador", "recuperacao-conta-google-micloud-salvador"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "troca-vidro-ou-tela-completa-celular-diferenca", "recuperacao-conta-google-micloud-salvador"]
   },
   {
     slug: "recuperacao-conta-google-micloud-salvador",
@@ -887,7 +887,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Cansado de promessas vazias e consertos que quebram de novo uma semana depois? A Reparo Avançado é a melhor assistência técnica de celular que foca na resolução real do problema. Localizada na Boca do Rio, somos especializados no reparo em nível de componente e substituição de periféricos com peças de alta performance.\n\nSeu celular não liga, não carrega ou está com a tela trincada? Nosso laboratório em Salvador está equipado com as ferramentas de precisão essenciais para iPhones, Samsungs, Xiaomis e Motorolas.\n\nClique no botão do WhatsApp agora e agende sua diagnóstico gratuito com nossos especialistas em tecnologia móvel!"
       }
     ],
-    relatedSlugs: ["assistencia-tecnica-celular-salvador", "tela-samsung-mancha-verde-linhas-salvador", "vale-pena-consertar-iphone-antigo-analise"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "vale-pena-consertar-iphone-antigo-analise"]
   },
   {
     slug: "celular-nao-carrega-salvador",
@@ -1136,7 +1136,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Muitas lojas na rua fazem a troca na correria e em 10 dias a tela nova do cliente começa a "levantar" e descolar nas bordas, vazando luz. \n\n[IMPORTANTE]\nNa Reparo Avançado, a preparação é tudo. Dedicamos 15 minutos apenas para raspar a cola fossilizada da fábrica com ferramentas especiais. Quando aplicamos o adesivo B7000 na instalação da peça nova, ela encaixa milimetricamente no chassi, garantindo a estética de um aparelho recém-comprado.\n[/IMPORTANTE]\nSe a carcaça do cliente estiver torta (amassada pela queda), nós utilizamos ferramentas de desempenamento estrutural antes de assentar a tela nova para evitar pontos de tensão no vidro.`
       }
     ],
-    relatedSlugs: ["conserto-de-celular-salvador", "assistencia-tecnica-celular-salvador", "troca-de-bateria-celular-salvador"]
+    relatedSlugs: ["conserto-de-celular-salvador", "troca-de-bateria-celular-salvador"]
   },
   {
     slug: "reparo-placa-celular-salvador-vale-a-pena",
@@ -1191,7 +1191,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Existe uma lenda de que se a placa parar, é só jogar no álcool isopropílico. \n\n[IMPORTANTE]\nLimpeza e banho químico servem apenas para desoxidação superficial. Se um componente queimou devido ao curto da água, limpar não o fará ressuscitar. O componente físico e sólido de silício está carbonizado. Apenas a técnica de micro-soldagem e substituição do chip (CI) resolve.\n[/IMPORTANTE]\nNossa especialidade é exatamente o passo que vem depois que a limpeza superficial não funcionou.`
       }
     ],
-    relatedSlugs: ["celular-caiu-na-agua-desoxidacao-salvador", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador"]
+    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador"]
   },
   {
     slug: "celular-caiu-na-agua-desoxidacao-salvador",

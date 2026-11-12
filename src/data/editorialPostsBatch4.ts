@@ -156,7 +156,7 @@ export const editorialPostsBatch4: BlogPost[] = [
     solution: "[IMPORTANTE] O Face ID é casado com a placa-mãe. Não podemos simplesmente trocar a peça por uma nova. Nós abrimos o módulo, dessoldamos o emissor de luz queimado, substituímos e re-gravamos os dados criptografados para o iPhone aceitar de volta. [/IMPORTANTE]",
     whenToSeek: "Se o Face ID parar e houver embaçamento na câmera, procure-nos rápido antes que a oxidação atinja a placa principal.",
     costInfo: "É um serviço de microeletrônica cirúrgica avançada, mas custa muito menos que trocar de iPhone. Orçamento gratuito na Boca do Rio.",
-    relatedSlugs: ["face-id-parou-de-funcionar", "meu-celular-caiu-na-agua-o-que-fazer"],
+    relatedSlugs: ["face-id-parou-de-funcionar", "celular-caiu-no-mar-armacao-desoxidacao"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-15",
