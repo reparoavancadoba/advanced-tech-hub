@@ -401,7 +401,7 @@ export const editorialPostsBatch6: BlogPost[] = [
     solution: "[ATENCAO] 1) Tire da água. 2) Se estiver ligado, DESLIGUE. 3) NUNCA ponha o carregador. 4) Não sacuda (para a água não espalhar pra lugares onde ainda não estava). Corra para a Reparo Avançado no mesmo dia. Ação rápida = Placa salva. [/ATENCAO]",
     whenToSeek: "No MESMO MINUTO, na mesma hora, ou no máximo em até 24h. Cada hora conta.",
     costInfo: "Trata-se de um 'serviço de salvação'. A taxa de Banho Químico preventivo é super razoável comparada com a perca total se deixar oxidar sem tratamento. Envie mensagem no WhatsApp para socorro.",
-    relatedSlugs: ["celular-caiu-no-mar-vale-a-pena-consertar", "face-id-parou-apos-banho-vapor"],
+    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "face-id-parou-apos-banho-vapor"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-16",

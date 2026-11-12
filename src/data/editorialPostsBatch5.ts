@@ -107,7 +107,7 @@ export const editorialPostsBatch5: BlogPost[] = [
     solution: "[IMPORTANTE] Nunca tente enfiar agulhas no buraquinho do alto-falante em casa! Você vai perfurar a membrana do alto-falante e causar um dano de centenas de reais. Traga para a Reparo Avançado: usamos álcool isopropílico, escovas ESD especiais e ar comprimido leve para desobstruir as vias sonoras. [/IMPORTANTE]",
     whenToSeek: "Sempre que notar que precisa usar fones de ouvido para conseguir conversar em locais públicos.",
     costInfo: "A limpeza técnica auricular é um serviço extremamente barato e, muitas vezes, feito quase na hora. A troca da peça também tem um excelente custo-benefício. Fale no WhatsApp!",
-    relatedSlugs: ["celular-caiu-no-mar-vale-a-pena-consertar"],
+    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-16",

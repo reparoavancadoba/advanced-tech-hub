@@ -167,8 +167,8 @@
     },
     {
       "source": "/blog/celular-caiu-no-mar-vale-a-pena-consertar",
-      "destination": "/blog/aviso-umidade-detectada",
-      "permanent": true
+      "destination": "/blog/celular-caiu-no-mar-armacao-desoxidacao",
+      "statusCode": 301
     },
     {
       "source": "/blog/troca-de-bateria-celular-salvador",
@@ -188,7 +188,12 @@
     {
       "source": "/blog/vale-pena-trocar-vidro-ou-tela-completa",
       "destination": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
-      "permanent": true
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/face-id-nao-funciona-iphone-causas",
+      "destination": "/blog/face-id-parou-de-funcionar",
+      "statusCode": 301
     },
     {
       "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
