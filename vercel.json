@@ -196,6 +196,26 @@
       "statusCode": 301
     },
     {
+      "source": "/blog/assistencia-tecnica-celular-salvador",
+      "destination": "/blog/conserto-de-celular-salvador",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/meu-celular-caiu-na-agua-o-que-fazer",
+      "destination": "/blog/celular-caiu-no-mar-armacao-desoxidacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/microfone-ruim-ligacoes-poeira-salvador",
+      "destination": "/blog/microfone-iphone-nao-funciona-audio-mudo",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/celular-carrega-nao-liga-causas",
+      "destination": "/blog/celular-carrega-mas-nao-liga-causas",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/troca-vidro-vs-tela-completa-economia-salvador",
       "destination": "/blog/troca-vidro-ou-tela-completa-celular-diferenca",
       "permanent": true
