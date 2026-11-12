@@ -159,9 +159,9 @@ export const editorialPostsBatch5: BlogPost[] = [
   },
   {
     slug: "celular-carrega-mas-porcentagem-nao-sobe",
-    title: "Celular Mostra que Carrega, Mas a Porcentagem Não Sobe",
+    title: "Celular Carrega Mas a Porcentagem Não Sobe? Causas",
     h1: "Falso Carregamento (Fake Charging) e Problemas no Conector",
-    metaDescription: "Você pluga no carregador, aparece o raio de carregando, mas a bateria drena ou não sai do lugar? Cuidado com a carga falsa. Resolva em Salvador.",
+    metaDescription: "Aparece o raio de carregando, mas a bateria não sobe ou descarrega? Entenda o falso carregamento, as causas e quando levar. Avaliação grátis em Salvador.",
     category: "conserto",
     brand: "Geral",
     model: "Todos",

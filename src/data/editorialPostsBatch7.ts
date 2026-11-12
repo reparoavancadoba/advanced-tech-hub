@@ -65,9 +65,9 @@ export const editorialPostsBatch7: BlogPost[] = [
   },
   {
     slug: "celular-nao-liga-causas",
-    title: "Por Que o Celular Não Liga? Diagnóstico Completo",
+    title: "Por Que o Celular Não Liga? Causas e Como Testar",
     h1: "Celular não liga? Entenda as principais causas antes de concluir que perdeu o aparelho",
-    metaDescription: "Seu aparelho apagou de repente ou não liga mais? Entenda a diferença entre tela preta, falha de bateria e placa. Veja o que fazer.",
+    metaDescription: "Celular não liga? Veja a diferença entre tela preta, bateria descarregada e falha de placa e o que testar antes de levar. Avaliação grátis em Salvador.",
     category: "conserto",
     brand: "Todas",
     model: "Todos",

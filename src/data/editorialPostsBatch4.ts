@@ -49,9 +49,9 @@ export const editorialPostsBatch4: BlogPost[] = [
   },
   {
     slug: "bateria-xiaomi-inchada-descolando-tela",
-    title: "Bateria do Xiaomi Inchada e Descolando a Tela: O Que Fazer?",
+    title: "Bateria Inchada no Xiaomi: Tela Descolando, É Perigoso?",
     h1: "Bateria Inchada no Xiaomi: Risco de Explosão e Tela Quebrada",
-    metaDescription: "Seu Xiaomi ou Poco está com a tampa traseira abrindo ou a tela descolando? Cuidado: é a bateria inchada. Veja como resolver com urgência em Salvador.",
+    metaDescription: "Tela do Xiaomi ou Poco descolando ou tampa abrindo? Pode ser bateria inchada. Veja o risco, o que fazer e quando trocar. Avaliação grátis em Salvador.",
     category: "xiaomi",
     brand: "Xiaomi",
     model: "Linha Poco e Redmi",
@@ -369,9 +369,9 @@ export const editorialPostsBatch4: BlogPost[] = [
   },
   {
     slug: "diferenca-bateria-original-paralela",
-    title: "Diferença entre Bateria Original e Paralela: O Barato Sai Caro",
+    title: "Bateria Original ou Paralela: Qual a Diferença?",
     h1: "Baterias de Celular: Original, Primeira Linha ou Falsa?",
-    metaDescription: "Vai trocar a bateria do iPhone ou Xiaomi? Entenda a diferença crítica entre baterias originais, premium e paralelas, e os perigos para a sua placa.",
+    metaDescription: "Vai trocar a bateria do celular? Veja a diferença entre bateria original, premium e paralela e os riscos de uma peça barata. Avaliação grátis em Salvador.",
     category: "conserto",
     brand: "Geral",
     model: "Todos",

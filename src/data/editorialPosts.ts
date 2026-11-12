@@ -598,9 +598,9 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   },
   {
     slug: "xiaomi-poco-reiniciando-sozinho-salvador",
-    title: "Celular Reiniciando Sozinho? Entenda a Causa do Loop",
+    title: "Xiaomi ou Poco Reiniciando Sozinho? Causas e O Que Fazer",
     h1: "Xiaomi e Poco Reiniciando Sozinho? O Problema Pode Estar na Bateria ou no sistema operacional",
-    metaDescription: "Xiaomi ou Poco reiniciando sozinho? diagnóstico gratuito para identificar se é bateria, sistema operacional ou placa. Reparo Avançado - Boca.",
+    metaDescription: "Xiaomi ou Poco reiniciando sozinho ou em loop? Veja se é bateria, sistema ou placa e quando levar. Avaliação grátis na Boca do Rio, Salvador.",
     category: "xiaomi" as Category,
     brand: "Xiaomi",
     model: "Xiaomi/Poco",
@@ -1255,9 +1255,9 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
   // ═══════════════════════════════════════════
   {
     slug: "celular-nao-liga-motivos-salvador",
-    title: "Celular Não Liga ou Travou na Maçã? diagnóstico grátis",
+    title: "Celular Não Liga Mais? Testes em Casa e Quando Levar",
     h1: "Meu Celular Não Liga Mais: Tela Preta, Morto ou Apenas Descarregado?",
-    metaDescription: "Celular apagou e não liga mais? Veja os testes de emergência que você pode fazer em casa e quando é hora de trazer na nossa assistência na Boca do Rio,.",
+    metaDescription: "Celular não liga mais e a tela está preta? Veja testes simples para fazer em casa e quando levar para avaliação grátis na Boca do Rio, Salvador.",
     category: "outros" as Category,
     brand: "Diversas",
     model: "Smartphones",

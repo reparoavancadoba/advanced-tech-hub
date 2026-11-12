@@ -284,8 +284,8 @@ Nem sempre. Tentar Atualizar pelo computador procura corrigir o sistema sem apag
   {
     id: "iphone-11-usado-vale-a-pena-o-que-checar",
     slug: "iphone-11-usado-vale-a-pena-o-que-checar",
-    title: "iPhone 11 Usado Vale a Pena? O Que Checar Antes",
-    metaDescription: "Vale comprar um iPhone 11 usado? Veja o checklist: bloqueio de iCloud, saúde da bateria, Face ID, tela e IMEI antes de fechar negócio.",
+    title: "iPhone 11 Usado Vale a Pena? Checklist Antes de Comprar",
+    metaDescription: "Vale comprar um iPhone 11 usado? Checklist: bloqueio de iCloud, saúde da bateria, Face ID, tela e IMEI. Veja o que conferir antes de fechar negócio.",
     h1: "iPhone 11 Usado Vale a Pena? O Que Checar Antes de Comprar",
     category: "iphone",
     brand: "",

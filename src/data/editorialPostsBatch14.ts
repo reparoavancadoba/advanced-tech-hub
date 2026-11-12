@@ -3,9 +3,9 @@ import { BlogPost, Category } from '../types';
 export const editorialPostsBatch14: BlogPost[] = [
   {
     slug: "tela-celular-clicando-sozinha-toque-fantasma-causas",
-    title: "Tela do Celular Clicando Sozinha: Causas e Como Resolver",
+    title: "Tela do Celular Clicando Sozinha? Toque Fantasma: Causas",
     h1: "Tela do Celular Clicando Sozinha: Causas e Como Resolver",
-    metaDescription: "A tela do celular clica sozinha, abre apps ou digita sem você tocar? Veja as causas do toque fantasma e o que testar antes de trocar a tela.",
+    metaDescription: "Tela clicando sozinha, abrindo apps ou digitando sem você tocar? Veja as causas do toque fantasma, o que testar em casa e quando levar. Avaliação grátis.",
     category: "geral" as Category,
     brand: "Geral",
     model: "Todos",

@@ -253,10 +253,10 @@ export const editorialPostsBatch11: BlogPost[] = [
   // ─── ARTIGO 4: Bateria esquentando, amarela ou não carrega até 100% ─────────
   {
     slug: "bateria-esquentando-amarela-nao-carrega-100",
-    title: "Bateria Esquenta, Fica Amarela ou Não Chega a 100%? Entenda",
+    title: "Bateria Esquenta ou Não Chega a 100%? Veja o Motivo",
     h1: "Bateria do Celular Esquenta, Fica Amarela ou Não Carrega até 100%?",
     metaDescription:
-      "Três dúvidas comuns sobre bateria de celular: por que ela esquenta, o que é o ícone amarelo e por que às vezes não passa de 80-90%.",
+      "Bateria do celular esquentando, com ícone amarelo ou parando em 80-90%? Veja o que é normal, o que indica defeito e quando se preocupar. Avaliação grátis.",
     category: "conserto" as const,
     brand: "Geral",
     model: "Todos",
@@ -423,10 +423,10 @@ export const editorialPostsBatch11: BlogPost[] = [
   // ─── ARTIGO 6: Celular liga mas a tela não acende ───────────────────────────
   {
     slug: "celular-liga-mas-a-tela-nao-acende",
-    title: "Celular Liga, Toca ou Vibra mas a Tela Não Acende: Causas",
+    title: "Celular Liga Mas a Tela Não Acende? O Que Fazer",
     h1: "Celular Liga mas a Tela Não Acende: O Que Fazer?",
     metaDescription:
-      "Celular liga ou vibra, mas a tela não acende? Veja causas (tela, conector, placa ou software), o que testar e quando ir à assistência em Salvador, Bahia.",
+      "Celular liga, toca ou vibra, mas a tela fica preta? Veja como confirmar, as causas mais comuns e quando levar para avaliação grátis em Salvador.",
     category: "conserto" as const,
     brand: "Geral",
     model: "Todos",
@@ -511,10 +511,10 @@ export const editorialPostsBatch11: BlogPost[] = [
   // ─── ARTIGO 7: Modo de Manutenção Samsung ───────────────────────────────────
   {
     slug: "modo-de-manutencao-samsung-o-que-e",
-    title: "O Que É o Modo de Manutenção do Samsung (e Por Que Ativar)",
+    title: "Modo de Manutenção do Samsung: O Que É e Como Ativar",
     h1: "O Que É o Modo de Manutenção do Samsung?",
     metaDescription:
-      "Vai levar o Samsung para assistência técnica? Veja o que é o Modo de Manutenção, o que ele esconde e por que ativar antes de entregar o aparelho.",
+      "O que é o Modo de Manutenção do Samsung? Veja como ele protege suas fotos e dados e como ativar antes de levar o celular para a assistência técnica.",
     category: "samsung" as const,
     brand: "Samsung",
     model: "Galaxy (modelos recentes)",

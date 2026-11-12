@@ -508,9 +508,9 @@ export const editorialPostsBatch3: BlogPost[] = [
   },
   {
     slug: "camera-iphone-12-tremendo",
-      title: "Câmera do iPhone 12 Tremendo e Sem Focar? Causa real",
+      title: "Câmera do iPhone 12 Tremendo? Causas e Tem Conserto?",
     h1: "Câmera do iPhone tremendo, fazendo barulho e sem focar? Como resolver",
-    metaDescription: "A câmera do iPhone 12 treme, faz barulho e não foca? O estabilizador óptico costuma ser o culpado. Veja como identificar e o que tem conserto de verdade.",
+    metaDescription: "Câmera do iPhone 12 tremendo, fazendo barulho ou sem focar? Entenda o defeito no estabilizador óptico e quando tem conserto. Avaliação grátis em Salvador.",
     category: "iphone",
     brand: "Apple",
     model: "Linha iPhone",

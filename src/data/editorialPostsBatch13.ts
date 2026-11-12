@@ -60,9 +60,9 @@ export const editorialPostsBatch13: BlogPost[] = [
   },
   {
     slug: "xiaomi-nao-liga-e-nao-carrega-o-que-fazer",
-    title: "Xiaomi Não Liga e Não Carrega: Causas e o Que Testar",
+    title: "Xiaomi Não Liga e Não Carrega? Causas e O Que Fazer",
     h1: "Xiaomi Não Liga e Não Carrega: Causas e o Que Testar",
-    metaDescription: "Xiaomi, Redmi ou Poco que não liga e não carrega? Veja os testes de cabo, conector e bateria e quando o problema exige reparo.",
+    metaDescription: "Xiaomi, Redmi ou Poco não liga e não carrega? Teste cabo, carregador e conector antes de levar e veja quando é bateria ou placa. Avaliação grátis.",
     category: "geral" as Category,
     brand: "Xiaomi",
     model: "Todos",
@@ -180,9 +180,9 @@ export const editorialPostsBatch13: BlogPost[] = [
   },
   {
     slug: "sinais-de-umidade-no-celular-como-saber-se-molhou",
-    title: "Sinais de Umidade no Celular: Como Saber Se Molhou",
+    title: "Como Saber se o Celular Molhou? Sinais de Umidade",
     h1: "Sinais de Umidade no Celular: Como Saber Se Ele Molhou",
-    metaDescription: "Veja os sinais de umidade dentro do celular, como o aviso na tela e o touch falhando, o que fazer na hora e o que evitar para não perder o aparelho.",
+    metaDescription: "Celular molhou sem você perceber? Veja os sinais de umidade (aviso na tela, touch falhando, carga instável), o que fazer na hora e o que evitar.",
     category: "geral" as Category,
     brand: "Geral",
     model: "Todos",

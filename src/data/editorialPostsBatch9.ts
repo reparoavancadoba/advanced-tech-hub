@@ -3,9 +3,9 @@ import { BlogPost } from "./blogData";
 export const editorialPostsBatch9: BlogPost[] = [
   {
     slug: "iphone-cameras-borrada-nao-abre-app",
-    title: "Câmera do iPhone Borrada ou Tremendo? Veja Como Resolver",
+    title: "Câmera do iPhone Borrada, Tremendo ou Preta? Causas",
     h1: "Câmera do iPhone Borrada, Tremendo ou App Não Abre",
-    metaDescription: "A câmera do seu iPhone está borrada, tremendo sem parar ou o app fecha sozinho? Descubra as causas (estabilizador óptico, falha de placa) e como consertar.",
+    metaDescription: "Câmera do iPhone borrada, tremendo, preta ou o app não abre? Veja as causas (estabilizador óptico, placa) e quando o reparo é necessário. Avaliação grátis.",
     category: "apple",
     brand: "Apple",
     model: "iPhone",

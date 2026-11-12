@@ -3,9 +3,9 @@ import { BlogPost, Category } from '../types';
 export const editorialPostsBatch15: BlogPost[] = [
   {
     slug: "vale-a-pena-consertar-celular-ou-comprar-outro",
-    title: "Vale a Pena Consertar o Celular ou Comprar Outro? Como Decidir",
+    title: "Vale a Pena Consertar o Celular? 5 Critérios para Decidir",
     h1: "Vale a pena consertar o celular ou comprar outro?",
-    metaDescription: "Consertar ou trocar de celular? Veja 5 critérios simples para decidir sem perder dinheiro e quando o reparo em Salvador compensa. Avaliação grátis.",
+    metaDescription: "Consertar ou trocar de celular? Veja 5 critérios simples para decidir sem perder dinheiro e quando o reparo compensa. Avaliação grátis em Salvador.",
     category: "geral" as Category,
     brand: "Geral",
     model: "Celulares",
