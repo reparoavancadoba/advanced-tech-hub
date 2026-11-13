@@ -19,11 +19,11 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
 
   "conserto-de-iphone": {
     slug: "conserto-de-iphone",
-    title: "Conserto de iPhone em Salvador | Reparo Avançado",
-    metaDescription: "Conserto de iPhone em Salvador. Tela, bateria, Face ID, câmera e placa. Orçamento rápido pelo WhatsApp.",
+    title: "Troca de Tela iPhone em Salvador | Reparo Avançado",
+    metaDescription: "Troca de tela de iPhone, bateria, Face ID, câmera e placa em Salvador. Avaliação gratuita, orçamento pelo WhatsApp e 90 dias de garantia na Boca do Rio.",
     description: "Seu iPhone parou? Conte com a nossa assistência técnica iphone para um conserto rápido. <h2>Assistência Técnica iPhone: Serviços</h2> Realizamos os serviços reais: tela, bateria, placa, Face ID, câmera, conector, e realizamos diagnóstico antes do orçamento.",
     shortName: "Conserto de iPhone",
-    h1: "Conserto de iPhone em Salvador",
+    h1: "Conserto de iPhone e troca de tela em Salvador",
     supportedBrands: ["iPhone (Apple)"],
     problems: ["Tela quebrada", "Bateria viciada", "Placa em curto", "Face ID parou", "Câmera falhando"],
     solution: "Os serviços reais (tela, bateria, placa, Face ID, câmera, conector) são realizados com peças premium e diagnóstico antes do orçamento.",
@@ -133,9 +133,9 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "conserto-de-celular": {
     slug: "conserto-de-celular",
-    title: "Conserto de Celular em Salvador | Reparo Avançado",
-    h1: "Conserto de Celular",
-    metaDescription: "assistência técnica completa para celulares em Salvador. conserto de câmeras, botões, som, Face ID, biometria e sistema. Peças premium e garantia.",
+    title: "Conserto de Celular em Salvador: Tela, Bateria e Placa",
+    h1: "Conserto de Celular em Salvador",
+    metaDescription: "Conserto de celular em Salvador: troca de tela, bateria, conector de carga, câmera, áudio e placa. Avaliação gratuita e 90 dias de garantia na Boca do Rio.",
     description: "Oferecemos uma gama completa de soluções de conserto para celulares de todas as marcas. De problemas simples a falhas mecânicas ou de sistema complexas, cuidamos do seu aparelho com rapidez.",
     supportedBrands: ["iPhone (Apple)", "Samsung Galaxy", "Xiaomi (Redmi/Poco)", "Motorola", "Realme"],
     problems: [
@@ -278,8 +278,8 @@ export const servicosConsolidados: Record<string, ServicoConsolidadoData> = {
   },
   "conserto-de-notebook": {
     slug: "conserto-de-notebook",
-    title: "Conserto de Notebook em Salvador | Reparo Avançado",
-    metaDescription: "Assistência técnica para notebooks em Salvador. Fazemos upgrade de SSD/RAM, conserto de carcaça, troca de tela, bateria e manutenção preventiva.",
+    title: "Conserto de Notebook em Salvador: SSD, Tela e Bateria",
+    metaDescription: "Conserto de notebook em Salvador: upgrade de SSD e RAM, carcaça, tela, teclado, bateria e manutenção preventiva. Avaliação gratuita e 90 dias de garantia.",
     h1: "Conserto de Notebook em Salvador",
     description: "Serviço completo de manutenção de notebooks. De upgrades para deixar a máquina mais rápida até reparos avançados na placa-mãe. Se o seu notebook está esquentando muito, lento, ou se a carcaça/dobradiça quebrou, nós temos a solução adequada com garantia e segurança.",
     supportedBrands: ["Dell", "Lenovo", "Acer", "Asus", "HP", "Samsung", "Apple (MacBook)", "Vaio"],

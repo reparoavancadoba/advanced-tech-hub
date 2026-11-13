@@ -34,8 +34,8 @@ const HeroSection = () => {
         </span>
 
         <h1 className="mt-5 text-3xl sm:text-4xl lg:text-[46px] font-extrabold tracking-tight leading-[1.2] max-w-2xl">
-          Assistência técnica de celular em Salvador{" "}
-          <span className="text-[#3b82f6] drop-shadow-md">com diagnóstico técnico e peças premium.</span>
+          Assistência técnica de celular, tablet e notebook{" "}
+          <span className="text-[#3b82f6] drop-shadow-md">na Boca do Rio, Salvador</span>
         </h1>
 
         <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed">
@@ -69,7 +69,7 @@ const HeroSection = () => {
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">
             <MessageSquare className="w-6 h-6 text-[#3b82f6] mb-2" strokeWidth={1.5} />
-            <span className="font-bold text-xs sm:text-sm text-white leading-tight">+165 avaliações</span>
+            <span className="font-bold text-xs sm:text-sm text-white leading-tight">Mais de 160 avaliações</span>
             <span className="text-[10px] sm:text-[11px] text-slate-300 mt-1 leading-tight">5 estrelas no Google</span>
           </div>
           <div className="flex flex-col items-center justify-center text-center p-3 sm:p-4 border border-white/10 rounded-xl bg-black/40 backdrop-blur-sm transition-all hover:bg-white/5">

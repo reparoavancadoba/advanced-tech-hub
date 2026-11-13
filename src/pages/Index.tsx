@@ -32,8 +32,8 @@ const Index = () => {
   return (
     <SiteLayout>
       <Helmet>
-        <title>Reparo Avançado | Assistência Técnica na Boca do Rio, Salvador</title>
-        <meta name="description" content="Assistência técnica focada em iPhone, Samsung e reparo avançado de placa em Salvador. Experiência desde 2018 na Boca do Rio. Orçamento gratuito na hora!" />
+        <title>Reparo Avançado: Celular, Tablet e Notebook na Boca do Rio</title>
+        <meta name="description" content="Assistência técnica de celular, tablet e notebook na Boca do Rio, Salvador. Avaliação gratuita, coleta e entrega e 90 dias de garantia. Chame no WhatsApp." />
         <link rel="canonical" href="https://site.reparoavancado.com.br/" />
         <script type="application/ld+json">{JSON.stringify(orgJsonLd)}</script>
       </Helmet>

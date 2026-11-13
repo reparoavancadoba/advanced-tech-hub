@@ -49,36 +49,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site.reparoavancado.com.br/blog/pagina/2</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://site.reparoavancado.com.br/blog/pagina/3</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://site.reparoavancado.com.br/blog/pagina/4</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://site.reparoavancado.com.br/blog/pagina/5</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://site.reparoavancado.com.br/blog/pagina/6</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://site.reparoavancado.com.br/conserto-de-iphone</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,12 +281,6 @@
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site.reparoavancado.com.br/blog/recuperacao-conta-google-micloud-salvador</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://site.reparoavancado.com.br/blog/conserto-de-celular-salvador</loc>
