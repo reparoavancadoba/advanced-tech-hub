@@ -122,6 +122,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     relatedSlugs: [
       "troca-de-bateria-iphone-salvador-saude-100",
       "bateria-do-celular-estufada-e-perigoso-o-que-fazer",
+      "bateria-esquentando-amarela-nao-carrega-100",
     ],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
@@ -197,6 +198,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     relatedSlugs: [
       "como-economizar-bateria-do-celular",
       "troca-de-bateria-iphone-salvador-saude-100",
+      "bateria-esquentando-amarela-nao-carrega-100",
     ],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
@@ -285,6 +287,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     relatedSlugs: [
       "como-economizar-bateria-do-celular",
       "bateria-do-celular-estufada-e-perigoso-o-que-fazer",
+      "samsung-desligou-do-nada-e-nao-liga-mais",
     ],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
@@ -455,6 +458,7 @@ export const editorialPostsBatch11: BlogPost[] = [
     relatedSlugs: [
       "celular-carrega-mas-nao-liga-causas",
       "tela-iphone-13-verde-branca-apos-atualizacao",
+      "celular-tela-preta-mas-funciona-salvador",
     ],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
@@ -537,7 +541,7 @@ export const editorialPostsBatch11: BlogPost[] = [
       "Sempre que for entregar o Samsung para qualquer assistência técnica, antes de deixar o aparelho.",
     costInfo:
       "A ativação do Modo de Manutenção é gratuita e feita pelo próprio usuário. Na Reparo Avançado, orientamos todos os clientes sobre esse recurso antes do reparo.",
-    relatedSlugs: ["conector-carga-iphone-limpeza-troca-salvador"],
+    relatedSlugs: ["conector-carga-iphone-limpeza-troca-salvador", "bateria-samsung-desliga-30-porcento", "samsung-nao-reconhece-cartao-sd-armazenamento"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: today,

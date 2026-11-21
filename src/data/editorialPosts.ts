@@ -631,7 +631,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Vocês trabalham com todas as linhas Xiaomi?", answer: "Sim! Atendemos toda a linha Redmi Note, Poco X, Poco F, Poco M, e Xiaomi numerados. Temos peças para todos os modelos populares." }
     ],
     sections: [],
-    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "loja-realme-poco-salvador-pecas"]
+    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "loja-realme-poco-salvador-pecas", "assistencia-tecnica-realme-salvador"]
   },
   {
     slug: "erro-umidade-samsung-conector-salvador",
@@ -887,7 +887,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Cansado de promessas vazias e consertos que quebram de novo uma semana depois? A Reparo Avançado é a melhor assistência técnica de celular que foca na resolução real do problema. Localizada na Boca do Rio, somos especializados no reparo em nível de componente e substituição de periféricos com peças de alta performance.\n\nSeu celular não liga, não carrega ou está com a tela trincada? Nosso laboratório em Salvador está equipado com as ferramentas de precisão essenciais para iPhones, Samsungs, Xiaomis e Motorolas.\n\nClique no botão do WhatsApp agora e agende sua diagnóstico gratuito com nossos especialistas em tecnologia móvel!"
       }
     ],
-    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "vale-pena-consertar-iphone-antigo-analise"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "vale-pena-consertar-iphone-antigo-analise", "onde-consertar-celular-rapido-boca-do-rio-salvador"]
   },
   {
     slug: "celular-nao-carrega-salvador",
@@ -1136,7 +1136,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Muitas lojas na rua fazem a troca na correria e em 10 dias a tela nova do cliente começa a "levantar" e descolar nas bordas, vazando luz. \n\n[IMPORTANTE]\nNa Reparo Avançado, a preparação é tudo. Dedicamos 15 minutos apenas para raspar a cola fossilizada da fábrica com ferramentas especiais. Quando aplicamos o adesivo B7000 na instalação da peça nova, ela encaixa milimetricamente no chassi, garantindo a estética de um aparelho recém-comprado.\n[/IMPORTANTE]\nSe a carcaça do cliente estiver torta (amassada pela queda), nós utilizamos ferramentas de desempenamento estrutural antes de assentar a tela nova para evitar pontos de tensão no vidro.`
       }
     ],
-    relatedSlugs: ["conserto-de-celular-salvador", "troca-de-bateria-celular-salvador"]
+    relatedSlugs: ["conserto-de-celular-salvador", "troca-de-bateria-celular-salvador", "troca-tela-motorola-moto-g-quebrada"]
   },
   {
     slug: "reparo-placa-celular-salvador-vale-a-pena",
