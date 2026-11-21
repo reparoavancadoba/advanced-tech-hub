@@ -69,7 +69,7 @@ export const editorialPostsBatch5: BlogPost[] = [
     solution: "[DICA] Não adianta restaurar, formatar ou apagar o app. O problema é mecânico no micro-motor dentro da lente. Nós abrimos o aparelho com segurança e fazemos a substituição da câmera defeituosa. A qualidade das fotos volta ao padrão ouro da Apple. [/DICA]",
     whenToSeek: "Quando a vibração começar. Continuar forçando pode esquentar o aparelho e fechar curto na linha de alimentação das câmeras na placa-mãe.",
     costInfo: "Geralmente é um reparo bastante acessível, exceto nos modelos 'Pro Max' mais novos que possuem 3 câmeras unificadas no mesmo bloco. Envie seu modelo no WhatsApp para o preço exato.",
-    relatedSlugs: ["camera-frontal-embaçada", "por-que-iphone-13-esquenta-muito", "iphone-cameras-borrada-nao-abre-app"],
+    relatedSlugs: ["por-que-iphone-13-esquenta-muito", "iphone-cameras-borrada-nao-abre-app", "camera-iphone-12-tremendo"],
     isEditorial: true,
     author: "Paulo Lopes",
     datePublished: "2026-07-16",

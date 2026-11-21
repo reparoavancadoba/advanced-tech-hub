@@ -192,7 +192,7 @@ export const editorialPostsBatch3: BlogPost[] = [
     solution: "Substituímos por uma bateria nova de altíssima performance, com a química renovada. Em modelos compatíveis, transferimos o flex original para manter as funções de leitura no sistema. É serviço para sair da assistência de celular nova em folha.",
     whenToSeek: "Recomendação da própria Apple: Quando a saúde máxima cair abaixo de 80% OU se o aparelho começar a desligar sozinho durante picos de uso.",
     costInfo: "Serviço super rápido e acessível. Custa uma pequena fração do valor do iPhone e renova a vida útil por mais 2 anos. Peça cotação pelo zap informando o modelo (ex: iPhone 11, 12, etc).",
-    relatedSlugs: ["troca-bateria-iphone-salvador", "por-que-iphone-13-esquenta-muito", "troca-de-bateria-iphone-11-12-13-original", "iphone-11-usado-vale-a-pena-o-que-checar"],
+    relatedSlugs: ["por-que-iphone-13-esquenta-muito", "troca-de-bateria-iphone-11-12-13-original", "iphone-11-usado-vale-a-pena-o-que-checar"],
     isEditorial: true,
     author: "Equipe Reparo Avançado",
     datePublished: "2026-07-04",

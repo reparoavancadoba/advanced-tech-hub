@@ -323,7 +323,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Quanto tempo leva a troca do conector de carga?", answer: "A limpeza leva cerca de 20 minutos. A troca completa do módulo de carga leva aproximadamente 1 hora, dependendo do modelo do iPhone." }
     ],
     sections: [],
-    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "iphone-nao-liga-avaliacao-placa-salvador", "higienizacao-conector-cabo-carregar-salvador"]
+    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "iphone-nao-liga-avaliacao-placa-salvador", "conector-carga-iphone-mau-contato-limpeza-troca"]
   },
   {
     slug: "vidro-traseiro-iphone-reparo-laser-salvador",
@@ -403,7 +403,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Preciso trocar o alto-falante do iPhone?", answer: "Somente se a higienização não resolver. Fazemos diagnóstico gratuito para determinar se é sujeira ou defeito no componente." }
     ],
     sections: [],
-    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "microfone-iphone-nao-funciona-audio-mudo", "limpeza-tecnica-celular-sexta-feira-salvador"]
+    relatedSlugs: ["microfone-iphone-nao-funciona-audio-mudo", "som-baixo-ligacao-audio-whatsapp", "maresia-salvador-corrosao-iphone"]
   },
   {
     slug: "vale-pena-consertar-iphone-antigo-analise",
@@ -516,7 +516,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "A câmera nova é original Apple?", answer: `Utilizamos ${PECAS}, com qualidade de imagem e resolução idênticas às de fábrica, com garantia de 3 meses.` }
     ],
     sections: [],
-    relatedSlugs: ["troca-tela-iphone-true-tone-salvador", "reparo-face-id-iphone-salvador", "poeira-lente-camera-limpeza-interna-salvador"]
+    relatedSlugs: ["troca-tela-iphone-true-tone-salvador", "reparo-face-id-iphone-salvador", "camera-iphone-12-tremendo"]
   },
   {
     slug: "maresia-salvador-corrosao-iphone",
@@ -553,7 +553,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Capinha e película protegem contra maresia?", answer: "Parcialmente. Elas ajudam contra impacto e riscos, mas a maresia entra pelas aberturas (conector, alto-falante, microfone). A proteção real é a limpeza interna periódica." }
     ],
     sections: [],
-    relatedSlugs: ["iphone-caiu-na-agua-desoxidacao-salvador", "maresia-salvador-corrosao-iphone", "limpeza-tecnica-celular-sexta-feira-salvador"]
+    relatedSlugs: ["iphone-caiu-na-agua-desoxidacao-salvador", "celular-caiu-no-mar-armacao-desoxidacao", "sinais-de-umidade-no-celular-como-saber-se-molhou"]
   },
 
   // ═══════════════════════════════════════════
@@ -631,7 +631,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Vocês trabalham com todas as linhas Xiaomi?", answer: "Sim! Atendemos toda a linha Redmi Note, Poco X, Poco F, Poco M, e Xiaomi numerados. Temos peças para todos os modelos populares." }
     ],
     sections: [],
-    relatedSlugs: ["celular-esquentando-limpeza-interna-salvador", "loja-realme-poco-salvador-pecas", "assistencia-tecnica-realme-salvador"]
+    relatedSlugs: ["loja-realme-poco-salvador-pecas", "assistencia-tecnica-realme-salvador", "bateria-xiaomi-inchada-descolando-tela"]
   },
   {
     slug: "erro-umidade-samsung-conector-salvador",
@@ -667,7 +667,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Posso carregar com carregador sem fio enquanto isso?", answer: "Sim! O carregamento wireless não é afetado pelo erro de umidade do USB-C. É uma solução temporária enquanto não traz para conserto." }
     ],
     sections: [],
-    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "higienizacao-conector-cabo-carregar-salvador", "conector-carga-iphone-limpeza-troca-salvador"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "conector-carga-iphone-limpeza-troca-salvador", "troca-conector-carga-usb-c-celular-salvador"]
   },
   {
     slug: "loja-realme-poco-salvador-pecas",
@@ -702,7 +702,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
       { question: "Qual o prazo do conserto de Realme e Poco?", answer: "A maioria dos conserto é feita no mesmo dia. Para casos que exigem peça sob encomenda, o prazo é de 2 a 5 dias úteis." }
     ],
     sections: [],
-    relatedSlugs: ["xiaomi-poco-reiniciando-sozinho-salvador", "biometria-tela-parou-troca-amoled-salvador", "motorola-nao-carrega-avaliacao-salvador"]
+    relatedSlugs: ["xiaomi-poco-reiniciando-sozinho-salvador", "biometria-tela-parou-troca-amoled-salvador", "assistencia-tecnica-realme-salvador"]
   },
   {
     slug: "motorola-nao-carrega-avaliacao-salvador",
@@ -1136,7 +1136,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Muitas lojas na rua fazem a troca na correria e em 10 dias a tela nova do cliente começa a "levantar" e descolar nas bordas, vazando luz. \n\n[IMPORTANTE]\nNa Reparo Avançado, a preparação é tudo. Dedicamos 15 minutos apenas para raspar a cola fossilizada da fábrica com ferramentas especiais. Quando aplicamos o adesivo B7000 na instalação da peça nova, ela encaixa milimetricamente no chassi, garantindo a estética de um aparelho recém-comprado.\n[/IMPORTANTE]\nSe a carcaça do cliente estiver torta (amassada pela queda), nós utilizamos ferramentas de desempenamento estrutural antes de assentar a tela nova para evitar pontos de tensão no vidro.`
       }
     ],
-    relatedSlugs: ["conserto-de-celular-salvador", "troca-de-bateria-celular-salvador", "troca-tela-motorola-moto-g-quebrada"]
+    relatedSlugs: ["conserto-de-celular-salvador", "troca-tela-motorola-moto-g-quebrada", "diferenca-tela-original-primeira-linha"]
   },
   {
     slug: "reparo-placa-celular-salvador-vale-a-pena",
@@ -1191,7 +1191,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Existe uma lenda de que se a placa parar, é só jogar no álcool isopropílico. \n\n[IMPORTANTE]\nLimpeza e banho químico servem apenas para desoxidação superficial. Se um componente queimou devido ao curto da água, limpar não o fará ressuscitar. O componente físico e sólido de silício está carbonizado. Apenas a técnica de micro-soldagem e substituição do chip (CI) resolve.\n[/IMPORTANTE]\nNossa especialidade é exatamente o passo que vem depois que a limpeza superficial não funcionou.`
       }
     ],
-    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador", "vale-a-pena-consertar-celular-ou-comprar-outro"]
+    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "celular-nao-liga-motivos-salvador", "vale-a-pena-consertar-celular-ou-comprar-outro"]
   },
   {
     slug: "celular-caiu-na-agua-desoxidacao-salvador",
@@ -1300,7 +1300,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Seu celular não está ligando porque, simplesmente, faz 3 dias que ele não carrega de verdade. A entrada do cabo (o conector Tipo-C ou Lightning) costuma acumular tanta poeira de bolso e fiapos de roupa que o cabo não encosta nos pinos de metal. \n\n[IMPORTANTE]\nNunca enfie palitos de dente ou agulhas para limpar. Você vai quebrar as trilhas de dados. Nós fazemos a limpeza técnica com pinças de cerâmica anti-estática gratuitas na nossa loja.\n[/IMPORTANTE]"
       }
     ],
-    relatedSlugs: ["celular-nao-carrega-salvador", "reparo-placa-celular-salvador-vale-a-pena", "meu-celular-esquenta-muito-e-descarrega-rapido"]
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "meu-celular-esquenta-muito-e-descarrega-rapido", "celular-nao-liga-causas"]
   },
   {
     slug: "assistencia-tecnica-iphone-salvador-especializada",
@@ -1349,7 +1349,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Carregadores comprados na rua e cabos ressecados falsificados enviam picos de tensão não controlados para a placa. O iPhone tem um 'guarda de trânsito' na entrada chamado CI Tristar ou Hydra. Quando você usa um cabo ruim, o cabo assassina esse componente.\n\nSintomas de CI Tristar queimado:\n- Acessório incompatível na tela.\n- O iPhone carrega desligado, mas ligado não sobe a %.\n- O celular descarrega muito rápido mesmo com bateria nova em 100%.\n\nA Reparo Avançado resolve isso removendo o CI queimado no microscópio e soldando um novo chip."
       }
     ],
-    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "troca-tela-iphone-true-tone-salvador", "iphone-nao-liga-diagnostico-placa-salvador"]
+    relatedSlugs: ["troca-de-bateria-iphone-salvador-saude-100", "troca-tela-iphone-true-tone-salvador", "iphone-14-pro-max-conserto-salvador"]
   },
   {
     slug: "assistencia-tecnica-samsung-salvador-autorizada",
@@ -1398,7 +1398,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Após uma atualização do Android ou uso intenso esquentando o aparelho, muitos modelos topo de linha da Samsung apresentam uma tela completamente verde ou branca. O defeito é nas micro-soldas do flat (o cabo laranja) da tela que perdeu a conexão com o display de vidro.\nÉ um defeito crônico complexo e exigimos o aparelho em laboratório para estudo de viabilidade, focando sempre na economia do cliente."
       }
     ],
-    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "celular-nao-carrega-salvador", "erro-umidade-samsung-conector-salvador", "samsung-com-tela-preta"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "erro-umidade-samsung-conector-salvador", "samsung-com-tela-preta"]
   },
   // ═══════════════════════════════════════════
   // LOTE 3 E 4 - NOVOS ARTIGOS PREMIUM SEO
@@ -1450,7 +1450,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Esse é o sintoma clássico pré-morte. A comunicação do Processador Central com o chip responsável pelo áudio (Codec) ou as linhas MIPI da câmera se rompem na placa. Se você continuar usando o aparelho com defeito de áudio, logo ele apagará a tela para sempre. O Reballing preventivo ou corretivo é a única solução definitiva."
       }
     ],
-    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria"]
+    relatedSlugs: ["reparo-placa-celular-salvador-vale-a-pena", "celular-nao-liga-motivos-salvador", "bateria-xiaomi-inchada-descolando-tela"]
   },
   {
     slug: "troca-vidro-ou-tela-completa-celular-diferenca",
@@ -1547,7 +1547,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Você foi a uma boate, casamento ou show de música eletrônica, filmou os lasers verdes e roxos rasgando o ar, e no dia seguinte viu manchas rosas em todas as suas fotos. \n\n[IMPORTANTE]\nLasers apontados diretamente para o celular **derretem e queimam** os fotodiodos do sensor de imagem na mesma hora. Não é mancha ou poeira, é cicatriz de queimadura eletrônica, não tem limpeza que resolva. Nunca filme ou aponte seu telefone diretamente para disparos de show de luzes laser.\n[/IMPORTANTE]`
       }
     ],
-    relatedSlugs: ["assistencia-tecnica-iphone-salvador-especializada", "poeira-lente-camera-limpeza-interna-salvador", "troca-vidro-ou-tela-completa-celular-diferenca"]
+    relatedSlugs: ["assistencia-tecnica-iphone-salvador-especializada", "troca-vidro-ou-tela-completa-celular-diferenca", "limpeza-lente-camera-celular-embacada-suja"]
   },
   {
     slug: "celular-esquentando-descarregando-rapido-bateria",
@@ -1684,7 +1684,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "A Boca do Rio é um vetor de crescimento, interligando a Orla Atlântica ao centro comercial da cidade. Estar aqui significa que clientes de Patamares, Imbuí, Stiep e Pituba chegam em nosso laboratório em menos de 10 minutos por grandes vias expressas, sem o estresse de procurar vagas em ruas apertadas ou garagens pagas.\n\nNossa meta é ser a assistência técnica 'de casa', mas com a qualidade que você só encontraria no exterior."
       }
     ],
-    relatedSlugs: ["assistencia-tecnica-boca-do-rio", "assistencia-tecnica-imbui", "assistencia-tecnica-pituba", "conserto-de-celular-salvador"]
+    relatedSlugs: ["conserto-de-celular-salvador", "como-escolher-assistencia-tecnica-celular-confiavel", "quanto-custa-consertar-celular-salvador-cuidado"]
   },
   // ═══════════════════════════════════════════════════
   // SÁBADO 21/06/2026, DROP SEMANAL (12 ARTIGOS)
@@ -1818,7 +1818,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Muitas oficinas trocam a bateria e simplesmente encaixam a tampa de volta sem cola nenhuma. O resultado? Na primeira chuva ou suor do bolso, a água entra pela fresta e oxida a placa-mãe em semanas. Na Reparo Avançado, a revedação completa faz parte do serviço padrão, sem custo adicional."
       }
     ],
-    relatedSlugs: ["assistencia-tecnica-samsung-salvador-autorizada", "celular-esquentando-descarregando-rapido-bateria", "troca-de-bateria-celular-salvador"]
+    relatedSlugs: ["assistencia-tecnica-samsung-salvador-autorizada", "bateria-samsung-desliga-30-porcento", "diferenca-bateria-original-paralela"]
   },
   {
     slug: "conserto-motorola-moto-g-edge-salvador",
@@ -1862,7 +1862,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Em Salvador, os motoristas de Uber e 99 são nossos clientes mais frequentes. O Motorola fica 10+ horas com GPS ligado, pendurado no para-brisa, batendo sol, carregando e descarregando ao mesmo tempo. Esse cenário extremo destrói baterias em 6 meses e queima conectores de carga em 1 ano. Oferecemos planos de manutenção preventiva para motoristas de aplicativo."
       }
     ],
-    relatedSlugs: ["motorola-nao-carrega-avaliacao-salvador", "celular-nao-carrega-salvador", "troca-de-bateria-celular-salvador"]
+    relatedSlugs: ["troca-tela-motorola-moto-g-quebrada", "motorola-reiniciando-tela-azul-apagou", "celular-motorola-nao-carrega"]
   },
   {
     slug: "celular-tela-preta-mas-funciona-salvador",
@@ -1949,7 +1949,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Além de Pituba, Imbuí e Costa Azul, recebemos diariamente clientes de: Stiep, Patamares, Piatã, Itapuã, Alphaville, Paralela, Narandiba e Cabula. A Boca do Rio é um ponto central que conecta toda a Orla Atlântica ao Miolo de Salvador, tornando nosso laboratório acessível para a maioria dos bairros da cidade."
       }
     ],
-    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "assistencia-tecnica-boca-do-rio", "assistencia-tecnica-pituba", "assistencia-tecnica-imbui"]
+    relatedSlugs: ["onde-consertar-celular-boca-do-rio-salvador", "onde-consertar-celular-rapido-boca-do-rio-salvador", "como-escolher-assistencia-tecnica-celular-confiavel"]
   },
   {
     slug: "celular-travando-lento-resetar-salvador",
@@ -1993,7 +1993,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "A memória interna do celular (eMMC ou UFS) tem vida útil limitada, assim como um SSD de computador. Após milhares de ciclos de leitura e escrita, setores começam a falhar. O celular trava ao tentar acessar um arquivo nesses setores corrompidos. Infelizmente, a troca do chip de memória é um procedimento de alta complexidade (reballing) e nem sempre compensa financeiramente em modelos mais antigos."
       }
     ],
-    relatedSlugs: ["celular-nao-liga-motivos-salvador", "celular-esquentando-descarregando-rapido-bateria", "reparo-placa-celular-salvador-vale-a-pena", "manutencao-de-celular-quando-fazer-e-o-que-conferir"]
+    relatedSlugs: ["celular-nao-liga-motivos-salvador", "reparo-placa-celular-salvador-vale-a-pena", "manutencao-de-celular-quando-fazer-e-o-que-conferir"]
   },
   {
     slug: "troca-conector-carga-usb-c-celular-salvador",
@@ -2037,7 +2037,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Samsung e iPhones modernos usam o sistema de sub-placa: o conector fica em uma plaquinha separada conectada à placa principal por um cabo flat. A troca é simples e rápida.\n\nJá Motorola Moto G e alguns Xiaomi Redmi possuem o conector soldado diretamente na placa-mãe. A troca exige remoção por ar quente e ressoldagem com ferro de ponta fina. Esse trabalho custa mais e demora mais, mas é perfeitamente viável no nosso laboratório."
       }
     ],
-    relatedSlugs: ["celular-nao-carrega-salvador", "conector-carga-iphone-limpeza-troca-salvador", "higienizacao-conector-cabo-carregar-salvador"]
+    relatedSlugs: ["conector-carga-iphone-limpeza-troca-salvador", "iphone-15-nao-carrega-usb-c", "ipad-nao-carrega-conector-ou-placa"]
   },
   {
     slug: "iphone-14-pro-max-conserto-salvador",

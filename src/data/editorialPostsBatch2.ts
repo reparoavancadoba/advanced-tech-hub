@@ -290,7 +290,7 @@ Nosso objetivo primário nesse tipo de reparo é a recuperação funcional da pl
         ]
       }
     ],
-    relatedSlugs: ["celular-nao-liga-causas", "celular-caiu-na-agua", "o-que-e-reparo-de-placa-de-celular"]
+    relatedSlugs: ["celular-nao-liga-causas", "o-que-e-reparo-de-placa-de-celular", "sinais-de-umidade-no-celular-como-saber-se-molhou"]
   },
   {
     slug: "vale-pena-trocar-vidro-ou-tela-completa",
