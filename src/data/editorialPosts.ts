@@ -1191,7 +1191,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: `Existe uma lenda de que se a placa parar, é só jogar no álcool isopropílico. \n\n[IMPORTANTE]\nLimpeza e banho químico servem apenas para desoxidação superficial. Se um componente queimou devido ao curto da água, limpar não o fará ressuscitar. O componente físico e sólido de silício está carbonizado. Apenas a técnica de micro-soldagem e substituição do chip (CI) resolve.\n[/IMPORTANTE]\nNossa especialidade é exatamente o passo que vem depois que a limpeza superficial não funcionou.`
       }
     ],
-    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador"]
+    relatedSlugs: ["celular-caiu-no-mar-armacao-desoxidacao", "celular-nao-liga-motivos-salvador", "celular-nao-carrega-salvador", "vale-a-pena-consertar-celular-ou-comprar-outro"]
   },
   {
     slug: "celular-caiu-na-agua-desoxidacao-salvador",
@@ -1398,7 +1398,7 @@ Oferecemos orçamento gratuito e diagnóstico técnico para o seu aparelho, com 
         content: "Após uma atualização do Android ou uso intenso esquentando o aparelho, muitos modelos topo de linha da Samsung apresentam uma tela completamente verde ou branca. O defeito é nas micro-soldas do flat (o cabo laranja) da tela que perdeu a conexão com o display de vidro.\nÉ um defeito crônico complexo e exigimos o aparelho em laboratório para estudo de viabilidade, focando sempre na economia do cliente."
       }
     ],
-    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "celular-nao-carrega-salvador", "erro-umidade-samsung-conector-salvador"]
+    relatedSlugs: ["tela-samsung-mancha-verde-linhas-salvador", "celular-nao-carrega-salvador", "erro-umidade-samsung-conector-salvador", "samsung-com-tela-preta"]
   },
   // ═══════════════════════════════════════════
   // LOTE 3 E 4 - NOVOS ARTIGOS PREMIUM SEO
